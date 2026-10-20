@@ -1,0 +1,69 @@
+---
+import Base from '../layouts/Base.astro';
+import BookBar from '../components/BookBar.astro';
+import PageScript from '../components/PageScript.astro';
+import { BOOK_URL } from '../lib/content';
+import '../styles/article.css';
+---
+<Base title="Contact | Katrina Ridout Nutrition" description="Contact Katrina Ridout, Accredited Practising Dietitian. Milton, Brisbane and telehealth Australia-wide. Call 1300 640 104, email, or book a free 15-minute call.">
+  <section class="phero">
+    <div class="wrap">
+      <nav class="crumbs" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span><span>Contact</span></nav>
+      <h1>Get in touch</h1>
+      <p class="lede">Have a question before you book? Send a note and Kat will reply by email. For bookings, the free 15-minute call is the quickest way to start.</p>
+      <div class="cta-row"><a class="btn btn-coral" href={BOOK_URL}>Book a free 15-min call</a></div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="wrap">
+      <div class="ebox">
+        <div>
+          <h2>Katrina Ridout Nutrition</h2>
+          <p>Accredited Practising Dietitian. In person in Milton, Brisbane, or by telehealth anywhere in Australia.</p>
+          <p class="edetails">
+            <a href="tel:1300640104">1300 640 104</a><br>
+            <a href="mailto:info@katridout.com.au">info@katridout.com.au</a><br>
+            Milton Village Medical<br>
+            Level 1, 36 Baroona Road<br>
+            Milton QLD 4064<br>
+            Telehealth Australia-wide
+          </p>
+        </div>
+        <!-- Make webhook pending: form currently posts nowhere. Swap action for the Make webhook URL and remove the inline handler when it is live. -->
+        <form id="eqForm" action="#" method="post" novalidate>
+          <label for="eqName">Name</label>
+          <input id="eqName" name="name" type="text" autocomplete="name" required>
+          <label for="eqEmail">Email</label>
+          <input id="eqEmail" name="email" type="email" autocomplete="email" required>
+          <label for="eqMsg">Your question</label>
+          <textarea id="eqMsg" name="message" rows="4" required></textarea>
+          <button class="btn btn-dark" type="submit">Send enquiry</button>
+          <p class="ok" id="eqOk">Sent. Kat will reply by email.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <BookBar slot="after" />
+  <PageScript slot="after" />
+  <script is:inline>
+  (function(){
+    var f = document.getElementById('eqForm');
+    if (!f) return;
+    f.addEventListener('submit', function(e){
+      e.preventDefault();
+      if (!f.checkValidity()) { f.reportValidity(); return; }
+      var ok = document.getElementById('eqOk');
+      if (ok) ok.classList.add('show');
+      f.querySelector('button').disabled = true;
+    });
+  })();
+  </script>
+</Base>
+<style>
+  .phero .cta-row{margin-top:1.4rem}
+  .contact{padding-top:0}
+  .contact .ebox h2{font-size:clamp(1.5rem,3vw,2.1rem)}
+  .contact .edetails a{color:var(--heading);text-decoration:underline;text-underline-offset:4px;text-decoration-color:var(--mint-2)}
+</style>

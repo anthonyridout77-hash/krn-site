@@ -1,0 +1,60 @@
+---
+import Article from '../layouts/Article.astro';
+---
+<Article
+  title="About Kat"
+  description="Katrina Ridout is an Accredited Practising Dietitian focused on fertility, pregnancy and postpartum nutrition. Milton, Brisbane and telehealth Australia-wide."
+  lede="Accredited Practising Dietitian. Fertility, pregnancy and postpartum nutrition, in Milton, Brisbane or by telehealth anywhere in Australia."
+  crumbs={[{ label: 'Home', href: '/' }, { label: 'About Kat' }]}
+  ctaHeading="Want to talk it through with Kat?"
+  ctaText="A free 15-minute call to hear where you are at and whether working together makes sense. No pressure either way."
+>
+  <figure class="kat">
+    <img src="/images/kat-ridout-apd.jpg" alt="Katrina Ridout, Accredited Practising Dietitian" width="480" height="480" loading="eager">
+    <figcaption><img class="apd" src="/images/apd-logo.png" alt="Accredited Practising Dietitian"><span>Accredited Practising Dietitian<br>Dietitians Australia</span></figcaption>
+  </figure>
+
+  <h2>Looking for a dietitian who specialises in pregnancy?</h2>
+  <p>Finding out you are growing a little human is a big moment. Maybe you have been hoping for it for a long time, or maybe it is brand new and a little overwhelming. Either way, it is normal to feel a huge sense of responsibility and to want to do everything right for your baby.</p>
+  <p>You are not alone in that. As a mum of three and an Accredited Practising Dietitian, Kat knows how those feelings show up in real life, and how much difference clear, practical nutrition guidance can make for you and your baby.</p>
+  <p>What Kat shares is current, evidence-based nutrition advice, so you do not have to sift through the research or second-guess what is best. Pregnancy is a unique window: what you eat now supports your own health and your baby's growth and development.</p>
+
+  <h2>Kat's journey</h2>
+  <p>Kat has always been drawn to health and fitness. She first completed a Bachelor of Business Management in Marketing at the University of Queensland, working as a fitness instructor on the side. Wanting to use that passion to genuinely help people with their health, she went back to study and completed a Bachelor of Health Science in Nutrition and Dietetics at the Queensland University of Technology (QUT).</p>
+  <p>Since then Kat has worked as a dietitian in private practice and in research. What she found herself most drawn to was supporting women through pregnancy and motherhood, whether they were planning a pregnancy, carrying their baby, or adjusting to life as a new mum. To go deeper in the area she cares most about, she completed a Graduate Certificate in Research in prenatal nutrition at QUT and trained with the Early Life Nutrition Alliance.</p>
+
+  <h2>Qualifications</h2>
+  <ul>
+    <li><strong>Accredited Practising Dietitian (APD)</strong>, Dietitians Australia</li>
+    <li><strong>Bachelor of Health Science (Nutrition and Dietetics)</strong>, Queensland University of Technology</li>
+    <li><strong>Graduate Certificate in Research, prenatal nutrition</strong>, Queensland University of Technology</li>
+    <li><strong>Early Life Nutrition Alliance</strong>, fertility, pregnancy and postpartum nutrition training</li>
+    <li><strong>Bachelor of Business Management (Marketing)</strong>, University of Queensland</li>
+  </ul>
+  <p>Every APD is listed on the national register. You can <a href="https://member.dietitiansaustralia.org.au/FAAPD_Profile?ID=48159" rel="noopener">check Katrina's listing on the Dietitians Australia register</a>.</p>
+
+  <h2>What Kat helps with</h2>
+  <ul>
+    <li>Nourishing your body to prepare for pregnancy and labour, support your growing baby and recover after birth</li>
+    <li>Managing pregnancy-related symptoms such as nausea, heartburn and constipation through food</li>
+    <li>Foods to avoid and nutrients to focus on in pregnancy</li>
+    <li>Healthy weight before, during and after pregnancy</li>
+    <li>Breastfeeding and milk supply</li>
+    <li>Your little one's growth and development in the early years</li>
+  </ul>
+
+  <h2>How Kat works</h2>
+  <p>Whether you are planning a baby, already pregnant, or finding your feet after birth, Kat takes an education-based approach. You are assessed and reviewed regularly so your plan keeps fitting your life, and you leave with tools and practical skills, such as individualised meal planning, goal setting and label reading, that meet your nutritional needs around your family's routine.</p>
+  <p>Kat also sees general nutrition clients and has experience across a range of clinical conditions and the relationships between diet and disease. Her particular interest is pregnancy-related nutrition across preconception, pregnancy and the postnatal period.</p>
+  <p>Most of all, Kat genuinely cares about the health and wellbeing of the people she works with, and builds relationships based on trust, respect, empathy and encouragement.</p>
+
+  <h2>Where to find Kat</h2>
+  <p>In person at Milton Village Medical, Level 1, 36 Baroona Road, Milton QLD 4064, or by telehealth anywhere in Australia. Call 1300 640 104 or email <a href="mailto:info@katridout.com.au">info@katridout.com.au</a>.</p>
+</Article>
+<style>
+  .kat{margin:0 0 1.6em;display:grid;gap:1rem;justify-items:start}
+  @media (min-width:600px){.kat{grid-template-columns:auto 1fr;align-items:end}}
+  .kat img:not(.apd){width:min(100%,300px);height:auto;border-radius:22px;background:var(--mint);margin:0}
+  .kat figcaption{display:inline-flex;align-items:center;gap:.7rem;background:var(--mint);border-radius:14px;padding:.5rem .9rem .5rem .6rem;font-size:.9rem;line-height:1.25;color:var(--heading);margin:0}
+  .kat figcaption .apd{height:44px;width:auto;border-radius:0;margin:0}
+</style>

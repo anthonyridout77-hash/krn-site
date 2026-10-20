@@ -1,0 +1,79 @@
+---
+/* Shared body for the state telehealth pages (Perth, Adelaide; later Sydney, Melbourne).
+   Copy ported from the old landing pages, trimmed of ratings, counts and booking widgets. */
+import Article from '../layouts/Article.astro';
+import { BOOK_URL } from '../lib/content';
+
+interface Props {
+  city: string;          // "Perth"
+  state: string;         // "Western Australia"
+  stateShort: string;    // "WA"
+  regions: string;       // "from the city to the hills and the regions"
+  clinics: string;       // "Concept Fertility or Fertility North"
+  farTowns: string;      // "Bunbury or Geraldton"
+  guideHref: string;     // local blog guide
+  guideLabel: string;
+  title: string;
+  description: string;
+  timezoneNote?: string; // ", with appointment times that suit AWST"
+}
+const { city, state, stateShort, regions, clinics, farTowns, guideHref, guideLabel, title, description, timezoneNote = '' } = Astro.props;
+---
+<Article
+  title={title}
+  description={description}
+  lede={`Based in Brisbane, Kat Ridout supports women right across ${state} through telehealth. Wherever you are, ${regions}, you get the same evidence-based fertility, pregnancy and postpartum nutrition care, over a video call that fits around your life.`}
+  crumbs={[{ label: 'Home', href: '/' }, { label: `${city} telehealth` }]}
+  ctaHeading="Start with a free 15-minute call"
+  ctaText={`Not sure whether nutrition support is right for you yet? Book a free 15-minute call and Kat will help you work out the best next step, with no pressure. Prefer to talk to someone first? Call 1300 640 104.`}
+>
+  <p class="state-cta"><a class="btn btn-coral" href={BOOK_URL}>Book a free 15-min call</a> <small>Free · no obligation · takes 2 minutes to book</small></p>
+  <p><strong>Kat Ridout, Accredited Practising Dietitian.</strong> Fertility, pregnancy and postpartum nutrition, supporting women across {state} online.</p>
+
+  <h2>Nutrition care for every stage, wherever you are in {stateShort}</h2>
+  <p>Whether you are preparing your body to conceive, going through IVF at {clinics}, managing gestational diabetes, or finding your feet after birth, Kat gives you a clear, practical plan grounded in current research. No fad diets. No overwhelm. Just food that works for your body and your goals.</p>
+
+  <h2>Why {city} women choose Kat</h2>
+  <p>Kat is an Accredited Practising Dietitian and an Early Life Nutrition Alliance alumna, with a Graduate Certificate in Research in prenatal nutrition from QUT. She works with women one to one, so your plan is built around your history, your bloods and your life, not a template.</p>
+  <p>Fertility and pregnancy nutrition is well served by hospitals in {state}, but rarely by a dedicated dietitian who walks the whole journey with you. That is the gap Kat fills, from preconception through to postpartum.</p>
+
+  <h2>What Kat helps {city} clients with</h2>
+  <ul>
+    <li><a href="/our-services/nutrition-for-fertility/">Preconception and fertility nutrition</a>, including IVF preparation and the two-week wait</li>
+    <li><a href="/our-services/prenatal-nutrition-and-dietetics/polycystic-ovary-syndrome/">PCOS</a> and <a href="/our-services/prenatal-nutrition-and-dietetics/endometriosis/">endometriosis</a></li>
+    <li><a href="/our-services/pregnancy-nutrition-and-dietetics/gestational-diabetes/">Gestational diabetes</a>, with a plan that keeps blood glucose steady without the stress</li>
+    <li><a href="/our-services/pregnancy-nutrition-and-dietetics/">Pregnancy nutrition</a> trimester by trimester</li>
+    <li><a href="/our-services/postnatal-nutrition/">Postpartum recovery and breastfeeding nutrition</a></li>
+  </ul>
+
+  <h2>What happens on your free 15-minute call</h2>
+  <p>No preparation needed. Just show up and talk. Here is how the 15 minutes usually go.</p>
+  <ol>
+    <li><strong>You share where you are at (5 min).</strong> Tell Kat about your situation, your history, what you have already tried, and what is worrying you most right now.</li>
+    <li><strong>Kat tells you what she would do (7 min).</strong> A straight answer on whether nutrition support would actually help you, what that would look like, and what to expect.</li>
+    <li><strong>You decide, with no pressure (3 min).</strong> If it is a fit, Kat explains the options and costs. If it is not, she will point you to something that suits you better.</li>
+  </ol>
+
+  <h2>How telehealth works</h2>
+  <p>You book a time, you get a video link, and you meet Kat from your kitchen table. Everything after that, your plan, your resources and your follow-ups, comes to you online. You never need to drive across {city} or sit in a waiting room.</p>
+
+  <h2>Common questions</h2>
+  <h3>Do you work with clients outside Brisbane?</h3>
+  <p>Yes. Kat supports women across {state} and all of Australia through telehealth.</p>
+  <h3>Do I need a referral to see you?</h3>
+  <p>No referral needed. You can book directly online.</p>
+  <h3>Can I claim a rebate?</h3>
+  <p>If you have a GP referral under a GP Chronic Condition Management Plan (GPCCMP), or private health extras, you may be eligible. Kat will talk you through it on your call.</p>
+  <h3>I am doing IVF in {city}. Can you work alongside my clinic?</h3>
+  <p>Yes. Kat provides nutrition support that complements the care you are already getting at your fertility clinic.</p>
+  <h3>What if I am not in {city}?</h3>
+  <p>That is fine. Everything runs over video, so it works the same from {farTowns} as it does from the CBD.</p>
+  <p>You can also read more in Kat's <a href={guideHref}>{guideLabel}</a>.</p>
+
+  <h2>Endometriosis nutrition for {city}</h2>
+  <p>Endometriosis can make eating well feel like one more thing to manage, especially when you are also trying to conceive. As a fertility and pregnancy dietitian working with {city} clients online, Kat Ridout APD helps you build an eating pattern that supports your cycle, your gut and your energy levels, alongside the care of your gynaecologist or GP. Nutrition is not a treatment for endometriosis, and it does not replace medical management, but it is one of the parts you can influence day to day. You can read more about <a href="/our-services/prenatal-nutrition-and-dietetics/endometriosis/">endometriosis and fertility nutrition</a>, or book a consult from anywhere in {state}{timezoneNote}.</p>
+</Article>
+<style>
+  .state-cta{display:flex;flex-wrap:wrap;align-items:center;gap:.8rem}
+  .state-cta small{color:var(--fg-soft);font-size:.86rem}
+</style>

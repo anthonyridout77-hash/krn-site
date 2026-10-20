@@ -1,0 +1,23 @@
+---
+/* Placeholder for the 7-Day Meal Plan guide. The old WordPress shop, cart, checkout and
+   guide landing pages all 301 here (see public/_redirects).
+   TODO: Stripe checkout for the guide will be re-added on this page. */
+import Base from '../layouts/Base.astro';
+import PageScript from '../components/PageScript.astro';
+import { BOOK_URL } from '../lib/content';
+import '../styles/article.css';
+---
+<Base title="7-Day Meal Plan guide | Katrina Ridout Nutrition" description="Kat's 7-Day Meal Plan guide is moving to the new site. In the meantime, book a free 15-minute call to talk through where you are at." noindex={true}>
+  <section class="nf">
+    <div class="wrap">
+      <h1>The 7-Day Meal Plan guide is moving</h1>
+      <p>Kat's pregnancy meal plan guide is being moved over to the new site and is not available to buy right now. The quickest way to get help in the meantime is a free 15-minute call with Kat.</p>
+      <div class="cta-row">
+        <a class="btn btn-coral" href={BOOK_URL}>Book a free 15-min call</a>
+        <a class="btn btn-line" href="/recipes-for-pregnancy/">Free recipes</a>
+        <a class="btn btn-line" href="/blogs/">Articles</a>
+      </div>
+    </div>
+  </section>
+  <PageScript slot="after" />
+</Base>

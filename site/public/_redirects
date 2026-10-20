@@ -1,0 +1,48 @@
+# Cloudflare Pages redirects. One rule per line: from to status.
+# Old WordPress URLs (api.katridout.com.au paths) that do not exist on the new site.
+# /blogs/, /recipes-for-pregnancy/, /our-services/ and the kept pages are real routes; do not add them here.
+
+# Landing pages -> service pages
+/lp-fertility/ /our-services/nutrition-for-fertility/ 301
+/lp-pregnancy/ /our-services/pregnancy-nutrition-and-dietetics/ 301
+/lp-postpartum/ /our-services/postnatal-nutrition/ 301
+/fertility-dietitian-brisbane-lp/ /our-services/nutrition-for-fertility/ 301
+/fertility-dietitian-brisbane-lp-2/ /our-services/nutrition-for-fertility/ 301
+/pregnancy-dietitian-brisbane-lp/ /our-services/pregnancy-nutrition-and-dietetics/ 301
+/pregnancy-dietitian-brisbane-lp-2/ /our-services/pregnancy-nutrition-and-dietetics/ 301
+/gestational-diabetes-lp/ /our-services/pregnancy-nutrition-and-dietetics/gestational-diabetes/ 301
+/gestational-diabetes-lp-2/ /our-services/pregnancy-nutrition-and-dietetics/gestational-diabetes/ 301
+/postpartum-lp/ /our-services/postnatal-nutrition/ 301
+
+# Booking and enquiry pages -> free 15-minute call
+/book-a-meet-and-greet-with-kat/ https://calendly.com/katridout/15-minute-investigative-callback 301
+/meet-and-greet/ https://calendly.com/katridout/15-minute-investigative-callback 301
+/consultation-request/ https://calendly.com/katridout/15-minute-investigative-callback 301
+/discovery-questionnaire/ https://calendly.com/katridout/15-minute-investigative-callback 301
+
+# Shop, cart and guide pages -> guide placeholder
+/shop/ /guide/ 301
+/cart/ /guide/ 301
+/checkout/ /guide/ 301
+/my-account/ /guide/ 301
+/7-day-meal-plan/ /guide/ 301
+/7-day-meal-plans/ /guide/ 301
+/7-day-meal-plan-for-expectant-mothers/ /guide/ 301
+/guide-lp/ /guide/ 301
+/product/7-day-meal-plan/ /guide/ 301
+/product/gestational-diabetes-7-day-meal-plan/ /guide/ 301
+/product/im-pregnant-now-what/ /im-pregnant-now-what/ 301
+
+# Thank-you variants -> single thank-you page
+/thank-you-for-getting-in-touch/ /thank-you/ 301
+/thank-you-for-contacting-us/ /thank-you/ 301
+/thank-you-page-adwords/ /thank-you/ 301
+/thank-you-for-your-purchase/ /thank-you/ 301
+/thank-you-for-downloading-our-guide/ /thank-you/ 301
+
+# Retired quiz, review and referral-form pages -> home
+/quiz-results/ / 301
+/risk-assessment-quiz/ / 301
+/review/ / 301
+/feedback/ / 301
+/forward-to-a-patient/ / 301

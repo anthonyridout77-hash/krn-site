@@ -22,14 +22,16 @@ interface Props {
   ctaHeading?: string;
   ctaText?: string;
   cta?: string;
+  ctaHref?: string;
+  noindex?: boolean;
 }
 const {
   title, description, image, imageAlt = '', date, updated, category, categoryHref,
-  crumbs = [], lede, ctaHeading, ctaText, cta,
+  crumbs = [], lede, ctaHeading, ctaText, cta, ctaHref, noindex = false,
 } = Astro.props;
 const showUpdated = updated && date && updated.getTime() - date.getTime() > 86400000;
 ---
-<Base title={`${title} | Katrina Ridout Nutrition`} description={description} image={image}>
+<Base title={`${title} | Katrina Ridout Nutrition`} description={description} image={image} noindex={noindex}>
   <Fragment slot="head">
     {date && <meta property="article:published_time" content={isoDate(date)} />}
     {updated && <meta property="article:modified_time" content={isoDate(updated)} />}
@@ -76,7 +78,7 @@ const showUpdated = updated && date && updated.getTime() - date.getTime() > 8640
     </div>
   </article>
 
-  <CtaBand heading={ctaHeading} text={ctaText} cta={cta} />
+  <CtaBand heading={ctaHeading} text={ctaText} cta={cta} href={ctaHref} />
 
   <slot name="related" />
 
