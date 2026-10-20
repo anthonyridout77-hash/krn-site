@@ -33,7 +33,7 @@ Copy edits that keep meaning (typos, formatting, links) are fine. New claims are
 - Content frontmatter schema: `docs/content-model.md`. Required: `title`, `description`, `date`, `updated`. Images need `imageAlt`.
 - URLs preserve the WordPress paths with trailing slashes (`/blogs/<slug>/`, `/recipes/<slug>/`, `/our-services/<slug>/`). Never change a slug without adding a redirect in `site/public/_redirects`.
 - Design: "Fresh" — white base, sage/eucalyptus green headings, mint tints, **coral for buttons only**, system font stack, restrained. Don't add fonts, gradients or new colours.
-- Node 20. `cd site && npm ci && npm run build` must pass before any PR.
+- Node 22. `cd site && npm ci && npm run build` must pass before any PR.
 - Don't edit `content/media-index.json` by hand; it is a WordPress export.
 
 ## Secrets

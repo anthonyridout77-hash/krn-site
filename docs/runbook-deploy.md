@@ -9,7 +9,7 @@
    - Build output directory: `dist`
    - Root directory: `site`
    - Production branch: `main`
-3. Environment variables (Production and Preview): `NODE_VERSION = 20`.
+3. Environment variables (Production and Preview): `NODE_VERSION = 22`.
 4. Save and deploy. First build gives `https://krn-site.pages.dev`.
 5. Check: homepage, a blog post, a recipe, a service page, `/sitemap-index.xml`, `/robots.txt`.
 

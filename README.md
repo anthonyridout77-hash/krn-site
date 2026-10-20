@@ -23,7 +23,7 @@ Live site: `katridout.com.au` (Cloudflare Pages). Old WordPress at `api.katridou
 cd site && npm install && npm run dev
 ```
 
-Node 20. Site opens at `http://localhost:4321`.
+Node 22. Site opens at `http://localhost:4321`.
 
 ## Deploys
 
