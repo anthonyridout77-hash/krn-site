@@ -11,7 +11,7 @@ Live site: `katridout.com.au` (Cloudflare Pages). Old WordPress at `api.katridou
 | `site/` | Astro static site (source, layouts, components) |
 | `content/` | All content as markdown — `blog/`, `recipes/`, `services/`, `pages/`, `locations/`, `products/`, plus `media-index.json` (WordPress media export, 20 Oct 2026) |
 | `site/public/images/wp/` | Images migrated from WordPress `wp-content/uploads` |
-| `docs/` | Runbooks and decisions — start with [`docs/STATE.md`](docs/STATE.md) |
+| `docs/` | Runbooks and decisions — start with [`docs/INDEX.md`](docs/INDEX.md) then [`docs/STATE.md`](docs/STATE.md) |
 | `make/` | Make.com scenario blueprints (JSON exports) |
 | `agents/` | KRN marketing agent skill files (markdown) |
 | `.github/workflows/` | CI — build check on every PR and push to `main` |
