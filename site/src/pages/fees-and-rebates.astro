@@ -1,0 +1,74 @@
+---
+/* DRAFT. Fees shown are Kat's Sep 2026 fees. Program prices are deliberately not shown (discussed on the free call).
+   Not linked from nav until Anthony and Kat agree the pricing approach. Rebate figure is per Services Australia as at 1 Jul 2026; keep current. */
+import Article from '../layouts/Article.astro';
+const rebate = 63.40;
+const fees = [
+  { name: 'One-Question Consult', time: '30 min, telehealth', price: 129, rebate: false, note: 'New clients only. One question, a one-page written plan. Private-pay, no referral needed.' },
+  { name: 'Initial consultation', time: '75 min', price: 295, rebate: true, note: 'Full assessment, your individualised supplement plan from day one, written plan and resources within 2 business days.' },
+  { name: 'Review consultation', time: '30 min', price: 185, rebate: true, note: 'Progress check and plan adjustments.' },
+  { name: 'Extended review', time: '45 min', price: 235, rebate: true, note: 'For a change of stage, for example moving from preconception into pregnancy.' },
+  { name: 'Couples initial consultation', time: '90 min', price: 375, rebate: true, note: 'For both partners during the fertility stage. Rebate applies to the referred partner.' },
+];
+const money = (n: number) => `$${n.toFixed(2).replace(/\.00$/, '')}`;
+---
+<Article
+  title="Fees and rebates"
+  description="Consultation fees for Katrina Ridout Nutrition, what Medicare rebates may apply with a GP Chronic Condition Management Plan, and how private health works."
+  crumbs={[{ label: 'Home', href: '/' }, { label: 'Fees and rebates' }]}
+  lede="Plain numbers, no surprises. Single consultations are listed below. Most clients choose a program of five or seven consultations; Kat walks you through those options and their cost on your free call."
+  ctaHeading="Not sure which consult you need?"
+  ctaText="Book a free 15-minute call. No advice is given on the call, it is for working out whether Kat is the right fit and which option suits you."
+>
+  <h2>Consultation fees</h2>
+  <p>All fees are in Australian dollars. Dietetic services are GST-free.</p>
+  <div class="fees">
+    {fees.map((f) => (
+      <div class="fee">
+        <div class="fee-head">
+          <h3>{f.name}</h3>
+          <span class="fee-time">{f.time}</span>
+        </div>
+        <p class="fee-price">{money(f.price)}</p>
+        {f.rebate && (
+          <p class="fee-rebate">With a GP Chronic Condition Management Plan: Medicare rebate {money(rebate)}, so about <b>{money(f.price - rebate)}</b> out of pocket.</p>
+        )}
+        {!f.rebate && <p class="fee-rebate">Not claimable on Medicare or private health.</p>}
+        <p class="fee-note">{f.note}</p>
+      </div>
+    ))}
+  </div>
+
+  <h2>Programs</h2>
+  <p>Most clients work with Kat over a program of five or seven consultations, usually across twelve weeks and flexible to your stage. Five consultations line up with the five allied-health visits a GP Chronic Condition Management Plan allows each calendar year, so the Medicare rebate can apply to every one. Kat explains the options and the cost on your free call, so you can choose with the full picture.</p>
+
+  <h2>Medicare rebates</h2>
+  <ul>
+    <li>Your GP can refer you under a GP Chronic Condition Management Plan (GPCCMP) if they consider dietetic care appropriate.</li>
+    <li>The plan allows up to five allied-health visits per calendar year, shared across the allied-health professionals on your plan.</li>
+    <li>The Medicare rebate for a dietitian consultation is {money(rebate)} per visit as at 1 July 2026. You pay the full fee on the day and the rebate is claimed back for you.</li>
+    <li>The One-Question Consult is private-pay only and does not use one of your five visits.</li>
+  </ul>
+
+  <h2>Private health</h2>
+  <p>Many extras policies include dietetics. Check with your fund for your cover level. You cannot claim both Medicare and private health on the same consultation.</p>
+
+  <h2>Payment, cancellations and refunds</h2>
+  <ul>
+    <li>Consultations are paid on the day. The One-Question Consult is prepaid when you book.</li>
+    <li>Reschedule or cancel free of charge up to 24 hours before your appointment. Inside 24 hours the fee is retained.</li>
+    <li>Program consultations can be used within 12 months of purchase.</li>
+  </ul>
+</Article>
+
+<style>
+  .fees { display: grid; gap: 1rem; margin: 1.2rem 0 2rem; }
+  @media (min-width: 760px) { .fees { grid-template-columns: 1fr 1fr; } }
+  .fee { background: var(--mint); border-radius: 22px; padding: 1.4rem 1.3rem; }
+  .fee-head { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; }
+  .fee h3 { margin: 0; font-size: 1.1rem; }
+  .fee-time { color: var(--fg-soft); font-size: .9rem; white-space: nowrap; }
+  .fee-price { font-size: 1.8rem; font-weight: 500; color: var(--heading); margin: .5rem 0 .2rem; }
+  .fee-rebate { font-size: .92rem; color: var(--fg); margin: 0 0 .5rem; }
+  .fee-note { font-size: .92rem; color: var(--fg-soft); margin: 0; }
+</style>
