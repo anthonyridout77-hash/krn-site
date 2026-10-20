@@ -1,0 +1,101 @@
+---
+import Base from '../layouts/Base.astro';
+import BookBar from '../components/BookBar.astro';
+import '../styles/one-question.css';
+---
+<Base title="One-Question Consult | Katrina Ridout Nutrition" description="One question, one clear answer, a one-page plan written for you. A 30-minute telehealth consult with Accredited Practising Dietitian Katrina Ridout. New clients only." noindex={true}>
+<section class="hero" id="top">
+  <div class="wrap">
+    <div>
+      <p class="kicker">One-Question Consult · 30 minutes · telehealth</p>
+      <h1>One question. One clear answer. A plan written for you.</h1>
+      <p class="lede">For new clients who need one thing answered properly by an Accredited Practising Dietitian, without booking a full consultation.</p>
+      <div class="price"><b>$129</b><small>no GST · prepaid · Australia-wide by video</small></div>
+      <div class="cta-row">
+        <a class="btn btn-coral" href="#book">Book a One-Question Consult</a>
+        <a class="btn btn-line" href="#how">How it works</a>
+      </div>
+      <div class="trust"><span><img class="apd" src="/images/apd-logo.png" alt="Accredited Practising Dietitian"> Dietitians Australia</span><span>Credited against a full consult within 30 days</span></div>
+    </div>
+    <div class="hero-photo">
+      <img src="/images/kat-ridout-apd.jpg" alt="Katrina Ridout, Accredited Practising Dietitian">
+      <div class="tag"><b>Katrina Ridout</b>Accredited Practising Dietitian</div>
+    </div>
+  </div>
+</section>
+
+<section id="how">
+  <div class="wrap">
+    <h2>How it works</h2>
+    <div class="cols">
+      <div class="card"><div class="n">1</div><h3>Send your question when you book</h3><p>Pick a time, pay, and type the one question you want answered. Kat reads it before your call.</p></div>
+      <div class="card"><div class="n">2</div><h3>30 minutes with Kat by video</h3><p>She asks what she needs to know, then answers your question in plain language, specific to you.</p></div>
+      <div class="card"><div class="n">3</div><h3>Your one-page plan</h3><p>Within 2 business days you receive a one-page written plan covering your answer and the next steps that fit your life.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="band" id="fit">
+  <div class="wrap">
+    <h2>Is this the right consult for you?</h2>
+    <div class="two">
+      <div class="list"><h3>Good questions for this consult</h3><ul>
+        <li>Which prenatal supplement should I actually be taking?</li>
+        <li>What can I eat when nausea and food aversions are winning?</li>
+        <li>How do I get enough iron, choline or folate from food?</li>
+        <li>Is this food safe in pregnancy?</li>
+        <li>What should breakfast look like while I'm breastfeeding?</li>
+      </ul></div>
+      <div class="list no"><h3>Better suited to a full consultation</h3><ul>
+        <li>You want a complete nutrition assessment or meal plan</li>
+        <li>You have a diagnosis that needs ongoing management, such as gestational diabetes</li>
+        <li>You need pathology results reviewed</li>
+        <li>You are an existing client (book a Review instead)</li>
+        <li>Your question is medical rather than nutritional</li>
+      </ul></div>
+    </div>
+    <p class="fine">If Kat finds during the call that your question needs a full consultation, she will say so, and your $129 is credited towards it.</p>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap">
+    <div class="about">
+      <img src="/images/kat-ridout-apd.jpg" alt="">
+      <div>
+        <h2>Answered by Kat, not a chatbot</h2>
+        <p>Katrina Ridout is an Accredited Practising Dietitian and Nutritionist, an Early Life Nutrition Alliance alumna, and holds a Graduate Certificate in Research in prenatal nutrition. She works in preconception, IVF, pregnancy and postpartum nutrition from Milton, Brisbane, and by telehealth across Australia.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <h2>Questions</h2>
+    <div style="margin-top:1.4rem">
+      <details><summary>Can I claim this on Medicare or private health?</summary><p>No. The One-Question Consult is private-pay only, so no GP referral is needed. Medicare rebates under a GP Chronic Condition Management Plan apply to standard consultations.</p></details>
+      <details><summary>How does the credit work?</summary><p>Book an Initial Consultation or The Program within 30 days of your One-Question Consult and the $129 is deducted from that fee. One credit per client, not transferable, not combinable with Medicare rebates.</p></details>
+      <details><summary>Can I ask more than one question?</summary><p>Bring one main question. If there's time, Kat will go further, but the written plan covers the one question you booked for.</p></details>
+      <details><summary>What if I need to cancel?</summary><p>Reschedule or cancel free of charge up to 24 hours before your appointment for a full refund. Inside 24 hours the fee is retained.</p></details>
+      <details><summary>Is it the same as the free 15-minute call?</summary><p>No. The free call is for finding out whether Kat is the right fit, and no nutrition advice is given. The One-Question Consult is paid advice with a written plan.</p></details>
+    </div>
+  </div>
+</section>
+
+<section id="book">
+  <div class="wrap">
+    <div class="book">
+      <div>
+        <h2>Book your One-Question Consult</h2>
+        <p>$129, 30 minutes by video, written plan within 2 business days. New clients only.</p>
+      </div>
+      <a class="btn btn-ink" href="https://calendly.com/katridout/one-question-consult">Choose a time</a>
+    </div>
+  </div>
+</section>
+<BookBar slot="after" label="One-Question Consult<br>$129 · 30 min · video" cta="Book now" href="#book" />
+<script is:inline slot="after">
+(function(){var b=document.getElementById('bookbar');function t(){b.classList.toggle('show',window.scrollY>420)}window.addEventListener('scroll',t,{passive:true});t();})();
+</script>
+</Base>

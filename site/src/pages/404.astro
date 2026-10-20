@@ -1,0 +1,20 @@
+---
+import Base from '../layouts/Base.astro';
+import PageScript from '../components/PageScript.astro';
+import '../styles/article.css';
+---
+<Base title="Page not found | Katrina Ridout Nutrition" description="That page could not be found. Head back to the home page, the articles or the recipes." noindex={true}>
+  <section class="nf">
+    <div class="wrap">
+      <h1>That page is not here</h1>
+      <p>The link may be out of date, or the page may have moved. Try one of these instead.</p>
+      <div class="cta-row">
+        <a class="btn btn-coral" href="/">Home</a>
+        <a class="btn btn-line" href="/blogs/">Articles</a>
+        <a class="btn btn-line" href="/our-services/">Services</a>
+        <a class="btn btn-line" href="/recipes-for-pregnancy/">Recipes</a>
+      </div>
+    </div>
+  </section>
+  <PageScript slot="after" />
+</Base>

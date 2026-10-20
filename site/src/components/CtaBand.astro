@@ -1,0 +1,21 @@
+---
+import { BOOK_URL } from '../lib/content';
+interface Props { heading?: string; text?: string; cta?: string; href?: string }
+const {
+  heading = 'Not sure where to start?',
+  text = 'A free 15-minute call with Kat Ridout, Accredited Practising Dietitian, to talk through where you are at and whether working together makes sense. Telehealth Australia-wide or in person in Brisbane.',
+  cta = 'Book a free 15-min call',
+  href = BOOK_URL,
+} = Astro.props;
+---
+<section class="cta-band">
+  <div class="wrap">
+    <div class="box rv">
+      <div>
+        <h2>{heading}</h2>
+        <p>{text}</p>
+      </div>
+      <a class="btn btn-coral" href={href}>{cta}</a>
+    </div>
+  </div>
+</section>

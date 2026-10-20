@@ -1,0 +1,53 @@
+---
+import { getCollection, render } from 'astro:content';
+import Article from '../../layouts/Article.astro';
+import { serviceSlug, serviceUrl } from '../../lib/content';
+
+export async function getStaticPaths() {
+  const services = await getCollection('services');
+  return services.map((service) => ({ params: { slug: serviceSlug(service) }, props: { service, all: services } }));
+}
+const { service, all } = Astro.props;
+const { Content } = await render(service);
+const hasBody = (service.body ?? '').trim().length > 0;
+const slug = serviceSlug(service);
+const parentSlug = slug.includes('/') ? slug.slice(0, slug.lastIndexOf('/')) : undefined;
+const parent = parentSlug ? all.find((s) => serviceSlug(s) === parentSlug) : undefined;
+const siblings = all
+  .filter((s) => s.id !== service.id && (parentSlug ? serviceSlug(s).startsWith(parentSlug + '/') : serviceSlug(s).startsWith(slug + '/')))
+  .sort((a, b) => a.data.title.localeCompare(b.data.title));
+---
+<Article
+  title={service.data.title}
+  description={service.data.description ?? service.data.title}
+  image={service.data.image}
+  imageAlt={service.data.imageAlt}
+  lede={service.data.description}
+  crumbs={[
+    { label: 'Home', href: '/' },
+    { label: 'Services', href: '/our-services/' },
+    ...(parent ? [{ label: parent.data.title, href: serviceUrl(parent) }] : []),
+    { label: service.data.title },
+  ]}
+  ctaHeading="Talk it through with Kat"
+  ctaText="A free 15-minute call to see whether working together is the right fit. Telehealth Australia-wide or in person in Milton, Brisbane. A Medicare rebate may apply with a GP Chronic Condition Management Plan."
+  cta="Book a free 15-min call"
+>
+  <Content />
+  {!hasBody && (
+    <p class="empty">Detailed information for this service is being moved across to the new site. Kat is happy to answer questions on a free 15-minute call.</p>
+  )}
+
+  <Fragment slot="after-body">
+    {siblings.length > 0 && (
+      <div style="margin-top:2.4rem">
+        <h2 style="font-size:1.3rem">{parent ? `Also under ${parent.data.title}` : 'In this area'}</h2>
+        <ul style="list-style:none;padding:0;margin:.8rem 0 0;display:grid;gap:.5rem">
+          {siblings.map((s) => (
+            <li><a class="chip" href={serviceUrl(s)}>{s.data.title}</a></li>
+          ))}
+        </ul>
+      </div>
+    )}
+  </Fragment>
+</Article>

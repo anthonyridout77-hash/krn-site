@@ -1,0 +1,41 @@
+---
+/* Shared listing layout: page hero + content slot + CTA band. */
+import Base from './Base.astro';
+import BookBar from '../components/BookBar.astro';
+import CtaBand from '../components/CtaBand.astro';
+import PageScript from '../components/PageScript.astro';
+import '../styles/article.css';
+
+interface Crumb { label: string; href?: string }
+interface Props { title: string; description: string; heading?: string; lede?: string; crumbs?: Crumb[]; noindex?: boolean }
+const { title, description, heading = title, lede, crumbs = [], noindex = false } = Astro.props;
+---
+<Base title={`${title} | Katrina Ridout Nutrition`} description={description} noindex={noindex}>
+  <section class="phero">
+    <div class="wrap">
+      {crumbs.length > 0 && (
+        <nav class="crumbs" aria-label="Breadcrumb">
+          {crumbs.map((c, i) => (
+            <>
+              {i > 0 && <span aria-hidden="true">/</span>}
+              {c.href ? <a href={c.href}>{c.label}</a> : <span>{c.label}</span>}
+            </>
+          ))}
+        </nav>
+      )}
+      <h1>{heading}</h1>
+      {lede && <p class="lede">{lede}</p>}
+    </div>
+  </section>
+
+  <section class="listing">
+    <div class="wrap">
+      <slot />
+    </div>
+  </section>
+
+  <CtaBand />
+
+  <BookBar slot="after" />
+  <PageScript slot="after" />
+</Base>

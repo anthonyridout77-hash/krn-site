@@ -1,0 +1,35 @@
+---
+/* Category filter chips + post grid. Used by /blogs/ and /blogs/category/[slug]/. */
+import type { CollectionEntry } from 'astro:content';
+import PostCard from './PostCard.astro';
+import { blogUrl, categoryUrl, byNewest, slugify } from '../lib/content';
+
+interface Props { posts: CollectionEntry<'blog'>[]; all: CollectionEntry<'blog'>[]; active?: string }
+const { posts, all, active } = Astro.props;
+
+const counts = new Map<string, number>();
+for (const p of all) for (const c of p.data.categories ?? []) counts.set(c, (counts.get(c) ?? 0) + 1);
+const categories = [...counts.entries()].sort((a, b) => b[1] - a[1]).map(([c]) => c);
+const sorted = [...posts].sort(byNewest);
+---
+<nav class="filters" aria-label="Filter articles by topic">
+  <a class:list={['chip', { on: !active }]} href="/blogs/">All</a>
+  {categories.map((c) => (
+    <a class:list={['chip', { on: active && slugify(c) === slugify(active) }]} href={categoryUrl(c)}>{c}</a>
+  ))}
+</nav>
+<p class="count">{sorted.length} {sorted.length === 1 ? 'article' : 'articles'}{active ? ` in ${active}` : ''}</p>
+<div class="pgrid">
+  {sorted.map((p) => (
+    <PostCard
+      href={blogUrl(p)}
+      title={p.data.title}
+      description={p.data.description}
+      image={p.data.image}
+      imageAlt={p.data.imageAlt}
+      category={p.data.categories?.[0]}
+      date={p.data.date}
+      heading="h2"
+    />
+  ))}
+</div>

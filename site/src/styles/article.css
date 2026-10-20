@@ -1,0 +1,101 @@
+/* Katrina Ridout Nutrition — article, listing and sub-page styles. Reuses tokens from global.css. */
+
+/* Page hero (listing pages and article heads) */
+.phero{background:linear-gradient(180deg,var(--bg),var(--mint));padding-block:clamp(40px,6vw,72px) clamp(32px,5vw,56px)}
+.phero .wrap{max-width:860px}
+.phero h1{font-size:clamp(2rem,4.6vw,3.2rem)}
+.phero .lede{margin-top:1rem}
+.crumbs{display:flex;flex-wrap:wrap;gap:.4rem;font-size:.86rem;color:var(--fg-soft);margin-bottom:1.2rem}
+.crumbs a{color:var(--fg-soft);text-decoration:none}
+.crumbs a:hover{color:var(--heading);text-decoration:underline;text-underline-offset:4px}
+.crumbs span{color:var(--fg-fade)}
+.meta{display:flex;flex-wrap:wrap;gap:.5rem 1rem;align-items:center;margin-top:1.2rem;font-size:.9rem;color:var(--fg-soft)}
+.meta .cat{display:inline-flex;align-items:center;min-height:30px;padding:.2rem .8rem;border-radius:999px;background:var(--mint-2);color:var(--heading);font-weight:500;font-size:.84rem;text-decoration:none}
+.meta .cat:hover{background:var(--sage);color:#fff}
+
+/* Featured image */
+.pfig{margin:0;padding-top:clamp(24px,4vw,40px)}
+.pfig .wrap{max-width:860px}
+.pfig img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:22px;background:var(--mint)}
+.pfig.missing{display:none}
+
+/* Article body */
+.article{padding-block:clamp(40px,6vw,72px)}
+.article .wrap{max-width:68ch}
+.prose{font-size:1.06rem;line-height:1.65;color:var(--fg)}
+.prose>*+*{margin-top:1.1em}
+.prose h2{font-size:clamp(1.5rem,2.8vw,1.95rem);margin-top:2em;line-height:1.2}
+.prose h3{font-size:1.2rem;margin-top:1.6em}
+.prose h4{font-family:var(--head);font-weight:600;font-size:1.05rem;margin:1.4em 0 0;color:var(--heading)}
+.prose p{margin-top:1.1em}
+.prose h2+p,.prose h3+p,.prose h4+p{margin-top:.6em}
+.prose ul,.prose ol{padding-left:1.3rem;display:grid;gap:.45rem}
+.prose li::marker{color:var(--sage-deep)}
+.prose a{color:var(--heading);text-decoration:underline;text-underline-offset:4px;text-decoration-color:var(--sage)}
+.prose a:hover{text-decoration-color:var(--coral)}
+.prose strong{font-weight:600;color:var(--heading)}
+.prose blockquote{margin:1.4em 0;padding:1rem 1.2rem;border-left:3px solid var(--sage);background:var(--mint);border-radius:0 16px 16px 0;color:var(--fg-soft)}
+.prose img{display:block;width:100%;height:auto;border-radius:18px;margin:1.6em 0;background:var(--mint)}
+.prose img.missing{display:none}
+.prose figure{margin:1.6em 0}
+.prose figcaption{font-size:.86rem;color:var(--fg-soft);margin-top:.5rem}
+.prose hr{border:0;border-top:1px solid var(--line);margin:2em 0}
+.prose table{width:100%;border-collapse:collapse;font-size:.95rem}
+.prose th,.prose td{text-align:left;padding:.6rem .5rem;border-bottom:1px solid var(--line);vertical-align:top}
+.prose th{font-weight:600;color:var(--heading)}
+.prose code{font-size:.92em;background:var(--mint);padding:.1em .35em;border-radius:6px}
+.prose pre{overflow:auto;background:var(--mint);padding:1rem;border-radius:14px}
+.prose .btn{margin-top:.4em}
+.empty{margin-top:1.4rem;padding:1.2rem 1.4rem;background:var(--mint);border-radius:18px;color:var(--fg-soft);font-size:.98rem}
+
+/* CTA band */
+.cta-band{padding-block:0 clamp(48px,7vw,88px)}
+.cta-band .box{background:var(--mint);border-radius:26px;padding:clamp(1.6rem,4vw,2.6rem);display:grid;gap:1rem;align-items:center}
+@media (min-width:760px){.cta-band .box{grid-template-columns:1fr auto;gap:2rem}}
+.cta-band h2{font-size:clamp(1.5rem,3vw,2.1rem)}
+.cta-band p{color:var(--fg-soft);margin-top:.5rem;max-width:40rem}
+.cta-band .btn{white-space:nowrap;justify-self:start}
+
+/* Listing grids */
+.listing{padding-block:clamp(32px,5vw,56px) clamp(64px,8vw,104px)}
+.filters{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:2rem}
+.chip{display:inline-flex;align-items:center;min-height:38px;padding:.3rem 1rem;border-radius:999px;border:1.5px solid var(--line);color:var(--heading);font-size:.9rem;font-weight:500;text-decoration:none;transition:background .2s,border-color .2s}
+.chip:hover{background:var(--mint)}
+.chip.on{background:var(--heading);border-color:var(--heading);color:#fff}
+.pgrid{display:grid;gap:1.2rem}
+@media (min-width:600px){.pgrid{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:980px){.pgrid{grid-template-columns:repeat(3,1fr)}}
+.pcard{display:grid;grid-template-rows:auto 1fr;background:var(--mint);border-radius:22px;overflow:hidden;text-decoration:none;color:var(--fg);min-width:0;transition:transform .35s cubic-bezier(.2,.8,.2,1),background .25s}
+.pcard:hover{background:var(--mint-2);transform:translateY(-3px)}
+.pcard .thumb{aspect-ratio:16/10;background:linear-gradient(160deg,var(--mint-2),var(--mint));overflow:hidden}
+.pcard .thumb img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .7s cubic-bezier(.2,.8,.2,1)}
+.pcard:hover .thumb img{transform:scale(1.04)}
+.pcard .thumb.missing img{display:none}
+.pcard .body{padding:1.2rem 1.3rem 1.4rem;display:grid;gap:.5rem;align-content:start}
+.pcard .cat{font-size:.82rem;font-weight:500;color:var(--sage-deep)}
+.pcard h2,.pcard h3{font-size:1.12rem;font-weight:500;line-height:1.25}
+.pcard p{color:var(--fg-soft);font-size:.93rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.pcard time{font-size:.82rem;color:var(--fg-fade)}
+.count{color:var(--fg-soft);font-size:.92rem;margin-bottom:1.2rem}
+
+/* Related strip */
+.related{background:var(--mint);padding-block:clamp(48px,7vw,80px)}
+.related h2{font-size:clamp(1.5rem,3vw,2.1rem)}
+.related .pgrid{margin-top:1.6rem}
+.related .pcard{background:var(--bg)}
+.related .pcard:hover{background:var(--bg);outline:2px solid var(--mint-2)}
+
+/* Services list */
+.sgrid{display:grid;gap:1rem}
+@media (min-width:600px){.sgrid{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:980px){.sgrid{grid-template-columns:repeat(3,1fr)}}
+.scard{background:var(--mint);border-radius:22px;padding:1.5rem 1.4rem;text-decoration:none;color:var(--fg);display:grid;gap:.5rem;align-content:start;min-width:0;transition:background .25s}
+.scard:hover{background:var(--mint-2)}
+.scard h2{font-size:1.15rem;font-weight:500}
+.scard p{color:var(--fg-soft);font-size:.93rem}
+.scard small{color:var(--sage-deep);font-weight:500;font-size:.82rem}
+
+/* 404 */
+.nf{text-align:center;padding-block:clamp(80px,14vw,160px)}
+.nf p{color:var(--fg-soft);margin-top:1rem;max-width:34rem;margin-inline:auto}
+.nf .cta-row{justify-content:center}

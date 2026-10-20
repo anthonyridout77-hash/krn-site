@@ -1,0 +1,20 @@
+---
+import { getCollection } from 'astro:content';
+import Listing from '../../layouts/Listing.astro';
+import PostCard from '../../components/PostCard.astro';
+import { recipeUrl, byNewest } from '../../lib/content';
+const recipes = (await getCollection('recipes')).sort(byNewest);
+---
+<Listing
+  title="Recipes for pregnancy"
+  description="Simple, nutritious recipes for pregnancy from Katrina Ridout, Accredited Practising Dietitian. Everyday meals and snacks that are easy to make."
+  lede="Everyday meals and snacks from Kat Ridout, Accredited Practising Dietitian. Recipes and lists only go so far; if you would like a plan built around your pregnancy, your appetite and your week, book a free 15-minute call."
+  crumbs={[{ label: 'Home', href: '/' }, { label: 'Recipes' }]}
+>
+  <p class="count">{recipes.length} recipes</p>
+  <div class="pgrid">
+    {recipes.map((r) => (
+      <PostCard href={recipeUrl(r)} title={r.data.title} description={r.data.description} image={r.data.image} imageAlt={r.data.imageAlt} heading="h2" />
+    ))}
+  </div>
+</Listing>

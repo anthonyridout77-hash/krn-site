@@ -1,0 +1,15 @@
+---
+import { getCollection } from 'astro:content';
+import Listing from '../../layouts/Listing.astro';
+import BlogGrid from '../../components/BlogGrid.astro';
+const posts = await getCollection('blog');
+---
+<Listing
+  title="Articles"
+  heading="Articles on fertility, pregnancy and postpartum nutrition"
+  description="Practical, evidence-based articles on fertility, IVF, pregnancy and postpartum nutrition from Katrina Ridout, Accredited Practising Dietitian."
+  lede="Plain-language reading from Kat Ridout, Accredited Practising Dietitian. General information only; it is not a substitute for individual advice."
+  crumbs={[{ label: 'Home', href: '/' }, { label: 'Articles' }]}
+>
+  <BlogGrid posts={posts} all={posts} />
+</Listing>

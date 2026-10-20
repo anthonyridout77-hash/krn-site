@@ -1,0 +1,26 @@
+---
+import { formatDate, isoDate } from '../lib/content';
+interface Props {
+  href: string;
+  title: string;
+  description?: string;
+  image?: string;
+  imageAlt?: string;
+  category?: string;
+  date?: Date;
+  heading?: 'h2' | 'h3';
+}
+const { href, title, description, image, imageAlt = '', category, date, heading = 'h3' } = Astro.props;
+const H = heading;
+---
+<a class="pcard rv" href={href}>
+  <div class="thumb">
+    {image && <img src={image} alt={imageAlt} loading="lazy" decoding="async" width="640" height="400" data-fallback />}
+  </div>
+  <div class="body">
+    {category && <span class="cat">{category}</span>}
+    <H>{title}</H>
+    {description && <p>{description}</p>}
+    {date && <time datetime={isoDate(date)}>{formatDate(date)}</time>}
+  </div>
+</a>

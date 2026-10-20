@@ -1,0 +1,45 @@
+---
+import { getCollection, render } from 'astro:content';
+import Article from '../../layouts/Article.astro';
+import PostCard from '../../components/PostCard.astro';
+import { recipeSlug, recipeUrl, byNewest } from '../../lib/content';
+
+export async function getStaticPaths() {
+  const recipes = await getCollection('recipes');
+  return recipes.map((recipe) => ({ params: { slug: recipeSlug(recipe) }, props: { recipe, all: recipes } }));
+}
+const { recipe, all } = Astro.props;
+const { Content } = await render(recipe);
+const hasBody = (recipe.body ?? '').trim().length > 0;
+const more = all.filter((r) => r.id !== recipe.id).sort(byNewest).slice(0, 3);
+---
+<Article
+  title={recipe.data.title}
+  description={recipe.data.description ?? `${recipe.data.title}: a simple pregnancy-friendly recipe from Katrina Ridout, Accredited Practising Dietitian.`}
+  image={recipe.data.image}
+  imageAlt={recipe.data.imageAlt}
+  crumbs={[{ label: 'Home', href: '/' }, { label: 'Recipes', href: '/recipes-for-pregnancy/' }, { label: recipe.data.title }]}
+  ctaHeading="Want meals planned around your pregnancy?"
+  ctaText="Book a free 15-minute call with Kat Ridout, Accredited Practising Dietitian, to talk through what would help. Telehealth Australia-wide or in person in Brisbane."
+  cta="Book a free 15-min call"
+>
+  <Content />
+  {!hasBody && (
+    <p class="empty">The full method for this recipe is being moved across to the new site. In the meantime, the recipe index has more ideas, and Kat is happy to talk through meal ideas on a free 15-minute call.</p>
+  )}
+
+  <Fragment slot="related">
+    {more.length > 0 && (
+      <section class="related">
+        <div class="wrap">
+          <h2>More recipes</h2>
+          <div class="pgrid">
+            {more.map((r) => (
+              <PostCard href={recipeUrl(r)} title={r.data.title} description={r.data.description} image={r.data.image} imageAlt={r.data.imageAlt} />
+            ))}
+          </div>
+        </div>
+      </section>
+    )}
+  </Fragment>
+</Article>

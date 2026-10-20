@@ -1,0 +1,26 @@
+---
+import { getCollection } from 'astro:content';
+import Listing from '../../../layouts/Listing.astro';
+import BlogGrid from '../../../components/BlogGrid.astro';
+import { slugify } from '../../../lib/content';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  const names = new Map<string, string>();
+  for (const p of posts) for (const c of p.data.categories ?? []) names.set(slugify(c), c);
+  return [...names.entries()].map(([slug, name]) => ({
+    params: { slug },
+    props: { name, posts: posts.filter((p) => (p.data.categories ?? []).some((c) => slugify(c) === slug)), all: posts },
+  }));
+}
+const { name, posts, all } = Astro.props;
+---
+<Listing
+  title={`${name} articles`}
+  heading={`${name}`}
+  description={`Articles on ${name.toLowerCase()} from Katrina Ridout, Accredited Practising Dietitian. Fertility, pregnancy and postpartum nutrition, Brisbane and telehealth Australia-wide.`}
+  lede="General information only; it is not a substitute for individual advice."
+  crumbs={[{ label: 'Home', href: '/' }, { label: 'Articles', href: '/blogs/' }, { label: name }]}
+>
+  <BlogGrid posts={posts} all={all} active={name} />
+</Listing>

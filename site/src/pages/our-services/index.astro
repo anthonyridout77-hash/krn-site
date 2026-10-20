@@ -1,0 +1,24 @@
+---
+import { getCollection } from 'astro:content';
+import Listing from '../../layouts/Listing.astro';
+import { serviceUrl, serviceSlug } from '../../lib/content';
+const services = (await getCollection('services')).sort((a, b) => serviceSlug(a).localeCompare(serviceSlug(b)));
+const topLevel = services.filter((s) => !serviceSlug(s).includes('/'));
+const children = (parent: string) => services.filter((s) => serviceSlug(s).startsWith(parent + '/'));
+---
+<Listing
+  title="Our services"
+  description="Fertility, pregnancy and postpartum nutrition services from Katrina Ridout, Accredited Practising Dietitian. Telehealth Australia-wide or in person in Brisbane."
+  lede="Nutrition care across preconception, IVF, pregnancy and postpartum, plus general and paediatric dietetics. Telehealth Australia-wide or in person in Milton, Brisbane."
+  crumbs={[{ label: 'Home', href: '/' }, { label: 'Services' }]}
+>
+  <div class="sgrid">
+    {topLevel.map((s) => (
+      <a class="scard rv" href={serviceUrl(s)}>
+        <h2>{s.data.title}</h2>
+        {s.data.description && <p>{s.data.description}</p>}
+        {children(serviceSlug(s)).length > 0 && <small>Includes {children(serviceSlug(s)).map((c) => c.data.title).join(', ')}</small>}
+      </a>
+    ))}
+  </div>
+</Listing>

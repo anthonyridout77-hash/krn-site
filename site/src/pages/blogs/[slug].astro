@@ -1,0 +1,54 @@
+---
+import { getCollection, render } from 'astro:content';
+import Article from '../../layouts/Article.astro';
+import PostCard from '../../components/PostCard.astro';
+import { blogSlug, blogUrl, categoryUrl, relatedPosts } from '../../lib/content';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return posts.map((post) => ({ params: { slug: blogSlug(post) }, props: { post, all: posts } }));
+}
+const { post, all } = Astro.props;
+const { Content } = await render(post);
+const category = post.data.categories?.[0];
+const related = relatedPosts(post, all, 3);
+---
+<Article
+  title={post.data.title}
+  description={post.data.description ?? post.data.title}
+  image={post.data.image}
+  imageAlt={post.data.imageAlt}
+  date={post.data.date}
+  updated={post.data.updated}
+  category={category}
+  categoryHref={category ? categoryUrl(category) : undefined}
+  crumbs={[{ label: 'Home', href: '/' }, { label: 'Articles', href: '/blogs/' }, ...(category ? [{ label: category, href: categoryUrl(category) }] : [])]}
+  ctaHeading="Want this applied to your situation?"
+  ctaText="Book a free 15-minute call with Kat Ridout, Accredited Practising Dietitian. Telehealth Australia-wide or in person in Brisbane."
+  cta="Book a free 15-min call"
+>
+  <Content />
+
+  <Fragment slot="related">
+    {related.length > 0 && (
+      <section class="related">
+        <div class="wrap">
+          <h2>Keep reading</h2>
+          <div class="pgrid">
+            {related.map((p) => (
+              <PostCard
+                href={blogUrl(p)}
+                title={p.data.title}
+                description={p.data.description}
+                image={p.data.image}
+                imageAlt={p.data.imageAlt}
+                category={p.data.categories?.[0]}
+                date={p.data.date}
+              />
+            ))}
+          </div>
+        </div>
+      </section>
+    )}
+  </Fragment>
+</Article>
