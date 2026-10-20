@@ -2,7 +2,7 @@
 /* Layout: the old site's DNA, sharpened. Dark charcoal hero with Kat's studio photo, coral gradient blocks, white sections, bold sans headlines. */
 :root{
   --coral:#E8927F; --coral-deep:#D97D69; --btn:#B85A45; --btn-hover:#A64F3C; --peach-2:#F0A893; --forest:#2E4A3F; --forest-fg:#CFE0D5; --peach:#F6D9C7; --sage:#7F9C86; --mint:#EDF4EE; --mint-2:#DCE9DF;
-  --ink:#2E4A3F; --ink-2:#2E4A3F; --sage-deep:#4F7A64; --heading:#2E4A3F; --bg:#FFFFFF; --cream:#EDF4EE; --fg:#33473E; --fg-soft:#5F7369; --fg-fade:#8FA097; --line:#DCE9DF;
+  --ink:#2E4A3F; --ink-2:#2E4A3F; --sage-deep:#4F7A64; --heading:#2E4A3F; --bg:#FFFFFF; --cream:#EDF4EE; --fg:#33473E; --fg-soft:#5F7369; --fg-fade:#647870; --line:#DCE9DF;
   --on-dark:#FFFFFF; --on-dark-soft:rgba(255,255,255,.72);
   --head:-apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Plus Jakarta Sans", "Segoe UI", Helvetica, Arial, sans-serif;
   --body:-apple-system, BlinkMacSystemFont, "SF Pro Text", "DM Sans", "Segoe UI", Helvetica, Arial, sans-serif;
@@ -108,7 +108,7 @@ header{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:col
 .apd{height:48px;width:auto;vertical-align:middle}
 .trust .apd{height:44px}
 .badges .apd{height:60px}
-.foot-apd{display:inline-flex;align-items:center;gap:.7rem;background:#fff;border-radius:14px;padding:.45rem .8rem .45rem .5rem;color:var(--forest);font-size:.85rem;line-height:1.25;margin-top:.6rem}
+.foot-apd{display:inline-flex;align-items:center;gap:.7rem;background:#fff;border-radius:14px;padding:.45rem .8rem .45rem .5rem;color:var(--forest);font-size:.85rem;line-height:1.35;margin-top:.6rem}
 .foot-apd .apd{height:40px}
 .quals{background:var(--bg)}
 .qgrid{display:grid;gap:1.6rem;margin-top:2rem;align-items:start}
@@ -207,7 +207,7 @@ header{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:col
 .rcard img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .7s cubic-bezier(.2,.8,.2,1);z-index:-1}
 .rcard:hover img{transform:scale(1.06)}
 .rcard::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,rgba(28,26,25,.85));z-index:0}
-.rcard span{position:relative;padding:.9rem;font-family:var(--head);font-weight:700;font-size:.95rem;line-height:1.25;text-wrap:balance}
+.rcard span{position:relative;padding:.9rem;font-family:var(--head);font-weight:700;font-size:.95rem;line-height:1.3;text-wrap:balance}
 /* Articles */
 .articles{background:var(--mint)}
 .articles .wrap{text-align:center}

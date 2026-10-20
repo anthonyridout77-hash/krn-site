@@ -64,12 +64,12 @@ details p{margin-top:.7rem;color:var(--fg-soft);max-width:48rem}
 .apd{height:48px;width:auto;vertical-align:middle}
 .trust .apd{height:44px}
 .badges .apd{height:60px}
-.foot-apd{display:inline-flex;align-items:center;gap:.7rem;background:#fff;border-radius:14px;padding:.45rem .8rem .45rem .5rem;color:#2E4A3F;font-size:.85rem;line-height:1.25;margin-top:.6rem}
+.foot-apd{display:inline-flex;align-items:center;gap:.7rem;background:#fff;border-radius:14px;padding:.45rem .8rem .45rem .5rem;color:#2E4A3F;font-size:.85rem;line-height:1.35;margin-top:.6rem}
 .foot-apd .apd{height:40px}
 footer{padding:2.5rem 0 calc(2.5rem + env(safe-area-inset-bottom));background:#2E4A3F;color:#CFE0D5;font-size:.9rem}
 footer a{color:#fff}
 footer .wrap{display:grid;gap:.6rem}
 .bookbar{position:fixed;left:0;right:0;bottom:0;z-index:8;background:color-mix(in srgb,var(--bg) 90%,transparent);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-top:1px solid var(--line);padding:.7rem 16px calc(.7rem + env(safe-area-inset-bottom));display:flex;align-items:center;justify-content:space-between;gap:1rem;transform:translateY(110%);transition:transform .35s ease-out}
 .bookbar.show{transform:none}
-.bookbar small{color:var(--fg-soft);line-height:1.25}
+.bookbar small{color:var(--fg-soft);line-height:1.35}
 @media (min-width:860px){.bookbar{display:none}}

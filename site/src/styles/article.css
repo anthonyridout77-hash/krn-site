@@ -73,7 +73,7 @@
 .pcard .thumb.missing img{display:none}
 .pcard .body{padding:1.2rem 1.3rem 1.4rem;display:grid;gap:.5rem;align-content:start}
 .pcard .cat{font-size:.82rem;font-weight:500;color:var(--sage-deep)}
-.pcard h2,.pcard h3{font-size:1.12rem;font-weight:500;line-height:1.25}
+.pcard h2,.pcard h3{font-size:1.12rem;font-weight:500;line-height:1.3}
 .pcard p{color:var(--fg-soft);font-size:.93rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
 .pcard time{font-size:.82rem;color:var(--fg-fade)}
 .count{color:var(--fg-soft);font-size:.92rem;margin-bottom:1.2rem}
