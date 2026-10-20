@@ -4,7 +4,7 @@ Rules for Claude Code in this repo. Short, because Anthony reads fast. Keep repl
 
 ## What this is
 
-Astro static site + markdown content + automation config for Katrina Ridout Nutrition (Brisbane dietitian, Accredited Practising Dietitian). See `README.md` for the folder map and `docs/decisions.md` for why things are the way they are.
+Astro static site + markdown content + automation config for Katrina Ridout Nutrition (Brisbane dietitian, Accredited Practising Dietitian). Read `docs/STATE.md` first (current state, open items), then `README.md` and `docs/decisions.md`.
 
 ## The five human gates — stop and ask
 
