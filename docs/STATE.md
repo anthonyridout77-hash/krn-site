@@ -1,6 +1,6 @@
 # KRN site and growth engine — current state
 
-Read this first in any new session. Updated 20 Oct 2026, 21:45 AEST (overnight run).
+Read this first in any new session. Updated 21 Oct 2026, 09:00 AEST.
 
 ## Where things are
 | Thing | Location |
@@ -28,6 +28,7 @@ Read this first in any new session. Updated 20 Oct 2026, 21:45 AEST (overnight r
 - Astro site: 127 pages build clean, all return 200 on the preview.
 - Docs: README, CLAUDE.md, deploy runbook, Surf Pacific handover checklist + email, decisions log, content model.
 - CI on GitHub (build check).
+- 21 Oct: impeccable audit 17/20, critique 19/32 (snapshot in `.impeccable/critique/`). Fixed on main: button/dark-mode/footer contrast, static topic strip, tiles without icons, relative links (were pointing at www.katridout.com.au), dark-mode reviews/coral panels, phone menu, one booking label ("Book a free call"), hero reassurance line, "Reviews on Google", consult 75 min, cut "since 2018"/"Medicare provider"/"writes every plan herself"/"new recipes every week"/"most clients outside Brisbane".
 
 ## Branches awaiting review (built overnight 20 Oct, nothing merged)
 | Branch | What | Gate |
@@ -35,6 +36,7 @@ Read this first in any new session. Updated 20 Oct 2026, 21:45 AEST (overnight r
 | `content/service-rewrites` (PR #1) | 14 service pages rewritten from old-site copy; removed every "15 years"/"leading"/"cure"/"best" claim; GPCCMP wording | Kat approves health copy, then merge |
 | `feat/utility-pages` | `_redirects` (35 rules), /privacy-policy/, /telehealth-terms/ (draft, noindex), /thank-you/, /contact-us/, /about-kat/, /guide/ placeholder, /im-pregnant-now-what/, /refer-your-patients/, Perth and Adelaide pages; footer links; sitemap excludes noindex | Anthony reviews; Kat checks about-kat degree wording ("Applied Science (Honours)" in old copy vs "Health Science" on site) and telehealth terms |
 | `content/fees-page` | /fees-and-rebates/ draft: single consult fees with Medicare out-of-pocket, Program on the call; unlinked | Anthony and Kat agree pricing approach |
+| `content/hero-headline` | New homepage headline "Eat well for the baby you're hoping for, carrying, or holding." + lede with "mum of three" (replaces "Nourish your body. Empower your pregnancy.") | Kat approves (new public copy) |
 
 ## Open, in order
 1. Surf Pacific handover: cancellation date, registrar/DNS login, info@ mailbox host, `wp-content/uploads` (392 images; cannot be pulled from the cloud), GSC/GA4/GTM ownership. Email draft in docs/handover-surf-pacific.md.
@@ -42,7 +44,7 @@ Read this first in any new session. Updated 20 Oct 2026, 21:45 AEST (overnight r
 3. Merge `content/service-rewrites` after Kat signs off (PR #1).
 4. Recipes: only titles came across; rebuild from Kat's originals.
 5. Merge `feat/utility-pages` and `content/fees-page` after review; bump `updated` dates on merged service pages.
-6. Forms: checklist → Brevo (tag `checklist`), enquiry → email, via Make. Then nurture sequence (fertility & IVF, 5 emails) from template 4.
+6. Forms: homepage checklist and enquiry forms show "Sent." but post nowhere (Anthony: leave until wired). Checklist → Brevo (tag `checklist`), enquiry → email, via Make. Then nurture sequence (fertility & IVF, 5 emails) from template 4.
 7. Make: WP Publisher → GitHub commit publisher; content agent writes markdown to the repo.
 8. GA4/GTM on the new site; Calendly → Make → Brevo stage changes; offline conversions to Google Ads.
 9. DNS cut-over after handover; GSC and Bing resubmit.
