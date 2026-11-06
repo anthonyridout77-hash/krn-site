@@ -1,7 +1,7 @@
 ---
 /* Pathway timelines: CSS-only radio tabs, one timeline per pathway. Data in src/data/pathways.ts (Kat gate). */
 import { pathways, callLink } from '../data/pathways';
-const defaultId = 'pregnancy';
+const defaultId = '';
 ---
 <div class="pw" id="pathways">
   <p class="pw-label" id="pw-label">Where are you right now?</p>
@@ -14,6 +14,7 @@ const defaultId = 'pregnancy';
     ))}
   </div>
 
+  <p class="pw-empty">Choose a situation above to see an example.</p>
   {pathways.map((p) => (
     <section class={`pw-panel pw-${p.id}`} aria-label={p.name}>
       <header class="pw-head">
@@ -22,6 +23,13 @@ const defaultId = 'pregnancy';
         <p class="pw-story">{p.story}</p>
       </header>
 
+      <ol class="shape" aria-label="How it works">
+        <li><b>Understand</b> your history, bloods and what matters to you</li>
+        <li><b>Agree</b> practical steps and your supplement plan</li>
+        <li><b>Review and adapt</b> as results and your stage change</li>
+      </ol>
+      <details class="sched">
+        <summary>See an example appointment schedule ({p.consults.length} appointments)</summary>
       <ol class={`tl tl-${p.consults.length}`}>
         {p.consults.map((c, i) => (
           <>
@@ -38,11 +46,12 @@ const defaultId = 'pregnancy';
           </>
         ))}
       </ol>
+      </details>
 
       <div class="pw-foot">
         <p><b>Program:</b> {p.program}</p>
         <p><b>Medicare:</b> {p.medicare}</p>
-        <p class="pw-note">An example of the topics covered. Timing and content are individualised to you, and consults are booked as you go.</p>
+        <p class="pw-note">An example of the topics usually covered. Timing and content are individualised to you, and appointments are booked as you go.</p>
         <a class="btn btn-coral" href={callLink(p)}>Book a free call about the {p.tab.toLowerCase()} pathway</a>
       </div>
     </section>
@@ -53,6 +62,12 @@ const defaultId = 'pregnancy';
   .pw { margin: 1rem 0 2rem; }
   @media (min-width: 900px) { .pw { width: min(1100px, calc(100vw - 40px)); position: relative; left: 50%; transform: translateX(-50%); } }
   .pw-label { font-weight: 600; color: var(--heading); margin: 0 0 .5rem; }
+  .shape { list-style: none; margin: 0 0 1rem; padding: 0; display: grid; gap: .5rem; }
+  @media (min-width: 760px) { .shape { grid-template-columns: repeat(3, 1fr); } }
+  .shape li { background: var(--mint); border-radius: 14px; padding: .8rem 1rem; font-size: .95rem; }
+  .sched { margin: 0 0 .5rem; }
+  .sched summary { cursor: pointer; font-weight: 600; color: var(--heading); padding: .6rem 0; }
+  .sched[open] summary { margin-bottom: .8rem; }
   .pw-tabs { display: flex; flex-wrap: wrap; gap: .45rem; margin-bottom: 1.4rem; }
   .pw-tab { position: relative; }
   .pw-tab input { position: absolute; opacity: 0; inset: 0; margin: 0; cursor: pointer; }
@@ -61,6 +76,8 @@ const defaultId = 'pregnancy';
   .pw-tab input:focus-visible + span { outline: 2px solid var(--heading); outline-offset: 2px; }
 
   .pw-panel { display: none; }
+  .pw-empty { color: var(--fg-soft); font-size: .92rem; margin: 0; }
+  .pw:has(input[name="pathway"]:checked) .pw-empty { display: none; }
   .pw:has(input[value="fertility"]:checked) .pw-fertility,
   .pw:has(input[value="ivf"]:checked) .pw-ivf,
   .pw:has(input[value="pregnancy"]:checked) .pw-pregnancy,
@@ -109,7 +126,7 @@ const defaultId = 'pregnancy';
 <script>
   // Preselect a tab from ?pathway=<id> (links from service pages)
   const want = new URLSearchParams(location.search).get('pathway');
-  if (want) { const r = document.querySelector<HTMLInputElement>(`.pw input[value="${CSS.escape(want)}"]`); if (r) r.checked = true; }
+  if (want) { const r = document.querySelector<HTMLInputElement>(`.pw input[value="${CSS.escape(want)}"]`); if (r) { r.checked = true; const d = document.querySelector<HTMLDetailsElement>(`.pw-${CSS.escape(want)} details`); if (d) d.open = true; } }
   // GA4 event when a pathway tab is chosen (no-op if dataLayer missing)
   document.querySelectorAll<HTMLInputElement>('.pw input[name="pathway"]').forEach((el) => {
     el.addEventListener('change', () => {

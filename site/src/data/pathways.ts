@@ -25,7 +25,8 @@ export type Pathway = {
 };
 
 const CALENDLY = 'https://calendly.com/katridout/15-minute-investigative-callback';
-export const callLink = (p: Pathway) => `${CALENDLY}?utm_source=site&utm_medium=pathways&utm_campaign=${p.utm}`;
+// Neutral codes in UTMs so no condition name is sent to third-party analytics.
+export const callLink = (p: Pathway) => `${CALENDLY}?utm_source=site&utm_medium=pathways&utm_campaign=pw-${String(pathways.findIndex((x) => x.id === p.id) + 1).padStart(2, '0')}`;
 
 const takeawayFirst = 'Dietary assessment summary, starter meal plan, your individualised supplement plan, recipe booklet and snack ideas, all within 2 business days.';
 
@@ -47,7 +48,7 @@ export const pathways: Pathway[] = [
   {
     id: 'ivf', tab: 'IVF', name: 'IVF and assisted reproduction pathway', utm: 'ivf',
     who: 'Preparing for a cycle, between cycles, or asked by your clinic to change weight before treatment.',
-    story: 'The clinic controls the medicine. We control the three months of nutrition around it, and we cut the supplement spend down to what the evidence supports.',
+    story: 'Your clinic manages the medical side. Kat focuses on the three months of nutrition around your cycle and helps you trim your supplement list to what the evidence supports.',
     program: 'The Program timed to your cycle: pre-cycle, stimulation, transfer and the two-week wait, then early pregnancy or between-cycle recovery.',
     medicare: 'Usually private or private health extras.',
     consults: [
