@@ -1,0 +1,125 @@
+---
+/* Free 7-Day Pregnancy Meal Plan lead magnet. Old shop, cart, guide-lp and
+   7-day meal plan URLs 301 here (public/_redirects). Form posts form:'mealplan'
+   to Make scenario 8408528, which emails the PDF and adds the contact to nurture. */
+import Base from '../layouts/Base.astro';
+import PageScript from '../components/PageScript.astro';
+import { BOOK_URL } from '../lib/content';
+import '../styles/article.css';
+const book = `${BOOK_URL}?utm_source=website&utm_medium=mealplan-page&utm_campaign=7-day-meal-plan`;
+const faq = [
+  { q: 'Is the meal plan really free?', a: 'Yes. Enter your first name and email and the PDF arrives in your inbox within a minute. You will also get a short series of emails from Kat, and you can unsubscribe at any time.' },
+  { q: 'Is it safe for every stage of pregnancy?', a: 'The meals follow Food Standards Australia New Zealand food safety advice for pregnancy and the Australian Dietary Guidelines. It is a general guide for healthy pregnancies. If you have gestational diabetes, PMOS (PCOS), a food allergy or another condition, your plan needs to be individual.' },
+  { q: 'Who wrote it?', a: 'Katrina Ridout, an Accredited Practising Dietitian (APD008207) who specialises in fertility, pregnancy and postpartum nutrition, based in Brisbane and working by telehealth Australia-wide.' },
+  { q: 'Can I get a meal plan made for me?', a: 'Yes. That is what Kat does in a consultation. Book a free 15-minute call and she will explain how she can help and suggest the best next step.' },
+];
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+};
+---
+<Base title="Free 7-Day Pregnancy Meal Plan | Australian Dietitian" description="Download a free 7-day pregnancy meal plan from Accredited Practising Dietitian Katrina Ridout. Australian meals, real portions, food safety built in, plus a shopping list." image="/images/mealplan-cover.webp">
+  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+  <section class="mp-hero">
+    <div class="wrap mp-grid">
+      <div>
+        <h1>Your free 7-Day Pregnancy Meal Plan</h1>
+        <p class="mp-by">From Katrina Ridout, Accredited Practising Dietitian</p>
+        <p class="mp-lede">A week of simple Australian meals and snacks with real portions, food safety already worked out, a snack pick-list and a shopping list. Sent straight to your inbox.</p>
+        <form id="mpForm" class="mp-form" novalidate>
+          <label for="mpName">First name</label>
+          <input id="mpName" name="fname" type="text" autocomplete="given-name" required>
+          <label for="mpEmail">Email</label>
+          <input id="mpEmail" name="email" type="email" autocomplete="email" required>
+          <button class="btn btn-coral" type="submit">Email me the meal plan</button>
+          <small>You'll also get a short series of emails from Kat. Unsubscribe any time. <a href="/privacy-policy/">Privacy policy</a></small>
+          <p class="ok" id="mpOk" role="status" aria-live="polite">Sent. Check your inbox in a minute (and your spam folder, just in case).</p>
+          <p class="err" id="mpErr" role="alert">That didn't send. Please email <a href="mailto:info@katridout.com.au">info@katridout.com.au</a> and we'll send the plan by hand.</p>
+        </form>
+      </div>
+      <figure class="mp-fig">
+        <img src="/images/mealplan-cover.webp" alt="Cover of the 7-Day Pregnancy Meal Plan PDF from Katrina Ridout Nutrition" width="636" height="900" fetchpriority="high">
+        <img class="mp-fig2" src="/images/mealplan-day-page.webp" alt="Sample page showing Day 1 and Day 2 meals with portions" width="636" height="900" loading="lazy">
+      </figure>
+    </div>
+  </section>
+
+  <section class="mp-inside">
+    <div class="wrap">
+      <h2>What's inside the 9-page plan</h2>
+      <ul class="mp-list">
+        <li><b>7 days of meals and snacks</b> with real portions, like 2 Weet-Bix with 1 cup milk, not "a bowl of cereal".</li>
+        <li><b>Food safety built in.</b> No deli meats, soft cheeses or runny eggs, and the right fish choices.</li>
+        <li><b>A snack pick-list</b> pairing fibre and protein, plus what to add when you are still hungry.</li>
+        <li><b>A shopping list</b> for the week and a batch-cook tip for tired nights.</li>
+        <li><b>The supplements most women need</b>, in plain language.</li>
+        <li><b>Nausea, reflux and aversion tips</b> for the days nothing appeals.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="mp-kat">
+    <div class="wrap mp-katgrid">
+      <img src="/images/kat-ridout-apd.jpg" alt="Katrina Ridout, Accredited Practising Dietitian" width="160" height="160" loading="lazy">
+      <div>
+        <h2>Written by Katrina Ridout, APD</h2>
+        <p>Kat is an Accredited Practising Dietitian (<a href="https://dietitiansaustralia.org.au/find-an-apd/FAAPD_Profile?ID=38519" rel="noopener">APD008207</a>) and mum of three who specialises in fertility, pregnancy and postpartum nutrition. She sees clients in Brisbane and by telehealth Australia-wide.</p>
+        <p>The meal plan suits most healthy pregnancies. If you have gestational diabetes, PMOS (PCOS), IVF, a vegetarian diet or a low iron result, your plan needs to fit you. That is the part Kat does with you.</p>
+        <a class="btn btn-dark" href={book}>Book a free 15-minute call</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="mp-faq">
+    <div class="wrap">
+      <h2>Questions</h2>
+      {faq.map((f) => (<details><summary>{f.q}</summary><p>{f.a}</p></details>))}
+    </div>
+  </section>
+
+  <style>
+    .mp-hero{background:linear-gradient(180deg,var(--bg),var(--mint));padding-block:clamp(40px,6vw,80px)}
+    .wrap{width:min(1100px,100% - 32px);margin-inline:auto}
+    .mp-grid{display:grid;gap:2rem;align-items:center}
+    @media (min-width:860px){.mp-grid{grid-template-columns:1.1fr .9fr;gap:3.5rem}}
+    .mp-hero h1{color:var(--heading);font-size:clamp(2rem,4.6vw,3.1rem);line-height:1.1;margin:.5rem 0 1rem}
+    .mp-by{color:var(--coral-deep);font-weight:600;margin:-.4rem 0 .8rem}
+    .mp-lede{color:var(--fg-soft);font-size:1.1rem;max-width:36rem}
+    .mp-form{display:grid;gap:.45rem;margin-top:1.6rem;max-width:26rem;background:var(--bg);padding:1.3rem;border-radius:20px;border:1px solid var(--line)}
+    .mp-form label{font-weight:500;font-size:.92rem;color:var(--heading)}
+    .mp-form input{font:inherit;padding:.75rem .9rem;border:1px solid var(--line);border-radius:12px;background:var(--bg);color:var(--fg)}
+    .mp-form button{margin-top:.6rem}
+    .mp-form small{color:var(--fg-soft);font-size:.82rem}
+    .mp-form .ok,.mp-form .err{display:none;margin:0;font-size:.95rem}
+    .mp-form .ok.show,.mp-form .err.show{display:block}
+    .mp-form .ok{color:var(--heading);font-weight:500}
+    .mp-fig{position:relative;margin:0;max-width:420px;justify-self:center}
+    .mp-fig img{display:block;width:78%;height:auto;border-radius:14px;box-shadow:0 18px 40px rgba(46,74,63,.18);background:#fff}
+    .mp-fig .mp-fig2{position:absolute;right:0;bottom:-8%;width:58%}
+    .mp-inside,.mp-faq{padding-block:clamp(48px,7vw,80px)}
+    .mp-inside h2,.mp-kat h2,.mp-faq h2{color:var(--heading);margin-bottom:1rem}
+    .mp-list{display:grid;gap:.8rem;padding:0;list-style:none;max-width:48rem}
+    .mp-list li{padding:1rem 1.2rem;background:var(--mint);border-radius:16px}
+    .mp-kat{background:var(--mint);padding-block:clamp(48px,7vw,80px)}
+    .mp-katgrid{display:grid;gap:1.6rem;align-items:start}
+    @media (min-width:700px){.mp-katgrid{grid-template-columns:160px 1fr}}
+    .mp-katgrid img{width:160px;height:160px;border-radius:50%;object-fit:cover}
+    .mp-katgrid p{color:var(--fg-soft);max-width:44rem;margin:0 0 1rem}
+    .mp-faq details{max-width:48rem;border-bottom:1px solid var(--line);padding:1rem 0}
+    .mp-faq summary{cursor:pointer;font-weight:500;color:var(--heading)}
+    .mp-faq details p{color:var(--fg-soft);margin-top:.6rem}
+  </style>
+  <script is:inline slot="after">
+  (function(){
+    var f=document.getElementById('mpForm');if(!f)return;
+    var ENDPOINT='https://hook.eu1.make.com/7ws9ylhmcf8pwpnmeh4k6bq58bu6i6oe';
+    f.addEventListener('submit',function(ev){ev.preventDefault();var ok=true;[].forEach.call(f.querySelectorAll('[required]'),function(el){if(!el.checkValidity()){ok=false;el.reportValidity();}});if(!ok)return;
+      var btn=f.querySelector('button'),okEl=document.getElementById('mpOk'),errEl=document.getElementById('mpErr');okEl.classList.remove('show');errEl.classList.remove('show');btn.disabled=true;var label=btn.textContent;btn.textContent='Sending…';
+      var data={form:'mealplan',page:location.href};[].forEach.call(f.querySelectorAll('input'),function(el){data[el.name]=el.value.trim();});
+      fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)}).then(function(r){if(!r.ok)throw new Error(r.status);window.dataLayer=window.dataLayer||[];window.dataLayer.push({event:'form_submit_success',form:'mealplan'});window.dataLayer.push({event:'form_submit_mealplan'});okEl.classList.add('show');f.reset();btn.textContent='Sent';}).catch(function(){errEl.classList.add('show');btn.disabled=false;btn.textContent=label;});
+    });
+  })();
+  </script>
+  <PageScript slot="after" />
+</Base>
