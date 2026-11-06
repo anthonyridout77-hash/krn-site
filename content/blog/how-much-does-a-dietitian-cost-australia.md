@@ -1,6 +1,6 @@
 ---
 title: "Help with the cost of seeing a dietitian in Australia"
-description: " H o w   M e d i c a r e ,   p r i v a t e   h e a l t h ,   D V A   a n d   N D I S   c a n   h e l p   w i t h   t h e   c o s t   o f   s e e i n g   a   d i e t i t i a n ,   a n d   w h a t   t o   a s k   b e f o r e   y o u   b o o k .   G e n e r a l   i n f o r m a t i o n   f r o m   K a t   R i d o u t ,   A P D . "
+description: "How Medicare, private health, DVA and NDIS can help with the cost of seeing a dietitian, and what to ask before you book. General information from Kat Ridout, APD."
 date: "2026-10-30"
 updated: "2026-10-30"
 categories:
