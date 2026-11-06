@@ -1,6 +1,6 @@
 ---
 title: "Which dietitian offers telehealth IVF nutrition support across Australia?"
-description: " H o w   I   s u p p o r t   w o m e n   t h r o u g h   I V F   p r e p a r a t i o n   b y   t e l e h e a l t h ,   A u s t r a l i a - w i d e ,   a l o n g s i d e   y o u r   f e r t i l i t y   c l i n i c .   K a t   R i d o u t ,   A c c r e d i t e d   P r a c t i s i n g   D i e t i t i a n   ( A P D ) ,   B r i s b a n e . "
+description: "How I support women through IVF preparation by telehealth, Australia-wide, alongside your fertility clinic. Kat Ridout, Accredited Practising Dietitian (APD), Brisbane."
 date: "2026-11-05"
 updated: "2026-11-05"
 categories:
