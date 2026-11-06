@@ -18,6 +18,14 @@ interface Props {
   timezoneNote?: string; // ", with appointment times that suit AWST"
 }
 const { city, state, stateShort, regions, clinics, farTowns, guideHref, guideLabel, title, description, timezoneNote = '' } = Astro.props;
+const faq = [
+  ['Do you work with clients outside Brisbane?', `Yes. Kat supports women across ${state} and all of Australia through telehealth.`],
+  ['Do I need a referral to see you?', 'No referral needed. You can book directly online.'],
+  ['Can I claim a rebate?', 'If you have a GP referral under a GP Chronic Condition Management Plan (GPCCMP), or private health extras, you may be eligible. Kat will talk you through it on your call.'],
+  [`I am doing IVF in ${city}. Can you work alongside my clinic?`, 'Yes. Kat provides nutrition support that complements the care you are already getting at your fertility clinic.'],
+  [`What if I am not in ${city}?`, `That is fine. Everything runs over video, so it works the same from ${farTowns} as it does from the CBD.`],
+];
+const faqLd = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":faq.map(([q,a])=>({"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":a}}))};
 ---
 <Article
   title={title}
@@ -27,6 +35,7 @@ const { city, state, stateShort, regions, clinics, farTowns, guideHref, guideLab
   ctaHeading="Start with a free 15-minute call"
   ctaText={`Not sure whether nutrition support is right for you yet? Book a free 15-minute call and Kat will help you work out the best next step, with no pressure. Prefer to talk to someone first? Call 1300 640 104.`}
 >
+  <script type="application/ld+json" set:html={JSON.stringify(faqLd)} />
   <p class="state-cta"><a class="btn btn-coral" href={BOOK_URL}>Book a free 15-min call</a> <small>Free · no obligation · takes 2 minutes to book</small></p>
   <p><strong>Kat Ridout, Accredited Practising Dietitian.</strong> Fertility, pregnancy and postpartum nutrition, supporting women across {state} online.</p>
 
