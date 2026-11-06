@@ -107,6 +107,9 @@ const defaultId = 'pregnancy';
 </style>
 
 <script>
+  // Preselect a tab from ?pathway=<id> (links from service pages)
+  const want = new URLSearchParams(location.search).get('pathway');
+  if (want) { const r = document.querySelector<HTMLInputElement>(`.pw input[value="${CSS.escape(want)}"]`); if (r) r.checked = true; }
   // GA4 event when a pathway tab is chosen (no-op if dataLayer missing)
   document.querySelectorAll<HTMLInputElement>('.pw input[name="pathway"]').forEach((el) => {
     el.addEventListener('change', () => {

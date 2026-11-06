@@ -4,7 +4,24 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { BASE_GRAPH } from '../lib/schema';
 interface Props { title: string; description: string; image?: string; noindex?: boolean }
-const { title, description, image = '/images/kat-ridout-apd.jpg', noindex = false } = Astro.props;
+const { title: rawTitle, description: rawDesc, image = '/images/kat-ridout-apd.jpg', noindex = false } = Astro.props;
+const SUFFIX = ' | Katrina Ridout Nutrition';
+const cutWords = (t: string, max: number) => { const c = t.slice(0, max); const i = c.lastIndexOf(' '); return (i > max * 0.6 ? c.slice(0, i) : c).replace(/[\s,;:|-]+$/, '') + '…'; };
+const fitTitle = (t: string) => {
+  if (t.length <= 65) return t;
+  const core = t.endsWith(SUFFIX) ? t.slice(0, -SUFFIX.length) : t;
+  if (core.length + 13 <= 65) return core + ' | Kat Ridout';
+  if (core.length <= 65) return core;
+  return cutWords(core, 63);
+};
+const fitDesc = (d: string) => {
+  if (d.length <= 160) return d;
+  const c = d.slice(0, 160); const end = Math.max(c.lastIndexOf('. '), c.lastIndexOf('.'));
+  if (end > 90) return c.slice(0, end + 1);
+  return cutWords(d, 157);
+};
+const title = fitTitle(rawTitle);
+const description = fitDesc(rawDesc);
 const canonical = new URL(Astro.url.pathname, Astro.site);
 ---
 <!doctype html>

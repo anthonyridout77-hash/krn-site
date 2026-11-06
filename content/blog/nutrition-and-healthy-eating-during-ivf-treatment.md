@@ -55,6 +55,6 @@ A telehealth session makes personalised IVF nutrition support easy to fit in.
 
 Struggling with fertility and making the decision to undergo IVF is massively emotionally and physically challenging. Kat Ridout will provide support through every stage of your journey, from pre-conception to helping you and your baby get the nutrition you need post-partum.
 
-To learn more about how Kat can assist you, please have a look [here](/nutrition-and-dietetics/).
+To learn more about how Kat can assist you, please have a look [here](/our-services/dietitian/).
 
 To schedule a consultation, please call 1300 640 104 or drop us a line [here](/contact-us/).

@@ -80,6 +80,6 @@ Katrina Ridout is an accredited practicing dietician and a leading fertility and
 
 If you are planning a pregnancy or are already expecting a baby and would like some support and guidance when it comes to your nutrition, we encourage you to get in touch to see how Katrina can help you.
 
-To find out about the range of services that Katrina provides, [please have a look here.](/nutrition-and-dietetics/)
+To find out about the range of services that Katrina provides, [please have a look here.](/our-services/dietitian/)
 
 To arrange a consultation, [please get in touch here](/contact-us/) or give us a call at 1300 640 104. Katrina is available to tailor an eating plan for you and address any questions or concerns that you might ha

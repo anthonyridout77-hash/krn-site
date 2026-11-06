@@ -15,6 +15,22 @@ const slug = serviceSlug(service);
 const faqLd = faqPage(faqFromMarkdown(service.body));
 const parentSlug = slug.includes('/') ? slug.slice(0, slug.lastIndexOf('/')) : undefined;
 const parent = parentSlug ? all.find((s) => serviceSlug(s) === parentSlug) : undefined;
+const pathwayFor: Record<string, { id: string; name: string }> = {
+  'nutrition-for-fertility': { id: 'fertility', name: 'fertility' },
+  'prenatal-nutrition-and-dietetics': { id: 'fertility', name: 'fertility' },
+  'hormones-pregnancy': { id: 'fertility', name: 'fertility' },
+  'ivf-nutrition': { id: 'ivf', name: 'IVF' },
+  'pregnancy-nutrition-and-dietetics': { id: 'pregnancy', name: 'pregnancy' },
+  'pregnancy-weight': { id: 'pregnancy', name: 'pregnancy' },
+  'weight-pregnancy': { id: 'pregnancy', name: 'pregnancy' },
+  'specialty-diets-during-pregnancy': { id: 'pregnancy', name: 'pregnancy' },
+  'gestational-diabetes': { id: 'gdm', name: 'gestational diabetes' },
+  'postnatal-nutrition': { id: 'postpartum', name: 'postpartum' },
+  'polycystic-ovary-syndrome': { id: 'pmos', name: 'PCOS (PMOS)' },
+  'endometriosis': { id: 'endo', name: 'endometriosis' },
+};
+const leaf = slug.split('/').pop() ?? slug;
+const pathway = pathwayFor[leaf];
 const siblings = all
   .filter((s) => s.id !== service.id && (parentSlug ? serviceSlug(s).startsWith(parentSlug + '/') : serviceSlug(s).startsWith(slug + '/')))
   .sort((a, b) => a.data.title.localeCompare(b.data.title));
@@ -45,6 +61,12 @@ const siblings = all
   )}
 
   <Fragment slot="after-body">
+    {pathway && (
+      <p class="pw-link" style="margin-top:2rem;padding:1rem 1.2rem;background:var(--mint);border-radius:16px">
+        <b>How a program unfolds:</b> see the {pathway.name} pathway consult by consult, with Medicare details and what you take away from each visit.
+        <a href={`/consultations/?pathway=${pathway.id}#pathways`} style="display:block;margin-top:.4rem;font-weight:600">See the {pathway.name} pathway</a>
+      </p>
+    )}
     {siblings.length > 0 && (
       <div style="margin-top:2.4rem">
         <h2 style="font-size:1.3rem">{parent ? `Also under ${parent.data.title}` : 'In this area'}</h2>

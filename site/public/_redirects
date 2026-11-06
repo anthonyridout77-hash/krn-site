@@ -51,8 +51,8 @@
 /wp-content/uploads/* /images/wp/:splat 301
 
 # Added 6 Nov 2026: remaining old URLs found in content
-/our-packages/ /fees-and-rebates/ 301
-/our-pricing/ /fees-and-rebates/ 301
+/our-packages/ /consultations/ 301
+/our-pricing/ /consultations/ 301
 /nutrition-and-dietetics/ /our-services/dietitian/ 301
 /our-services/ivf-nutrition/ /our-services/prenatal-nutrition-and-dietetics/ivf-nutrition/ 301
 /contact/ /contact-us/ 301
