@@ -69,23 +69,17 @@ Here’s some other specific areas on how Kat can help you ➡️
 ### What is healthy weight gain in pregnancy?
 Your baby’s development and the overall health for both mother and child, can be affected by the amount of weight you gain when pregnant.
 According to the Institute of Medicine guidelines for gestational weight gain – which are used both internationally and in Australia – the amount of weight women should gain throughout their pregnancy depends on what your weight was before you became pregnant or your pre-pregnancy “Body Mass Index (BMI)”. Your healthiest weight gain will depend on your starting weight.
-Want to know how much weight you should aim to gain during pregnancy?
-Click here (/our-services/pregnancy-nutrition-and-dietetics/weight-pregnancy/)?
+Want to know how much weight you should aim to gain during pregnancy? [Read about weight and pregnancy](/our-services/pregnancy-nutrition-and-dietetics/weight-pregnancy/).
 
-## Calculate Your BMI Here:
+### Recommended weight gain in pregnancy
 
-Body Mass Index (BMI) is a helpful tool to guide how much weight gain is recommended during pregnancy.
+| Pre-pregnancy BMI | Recommended gain over the whole pregnancy | Per month in the 2nd and 3rd trimester* |
+|---|---|---|
+| Less than 18.5 kg/m² (underweight) | 12.5 kg to 18.0 kg | 2.0 kg to 2.6 kg |
+| 18.5 – 24.9 kg/m² (normal weight) | 11.5 kg to 16.0 kg | 1.5 kg to 2.3 kg |
+| 25.0 – 29.9 kg/m² (overweight); 23.0 – 27.5 kg/m² if Asian | 7.0 kg to 11.5 kg | 1.0 kg to 1.5 kg |
+| Above 30.0 kg/m² (obese); above 27.5 kg/m² if Asian | 5.0 kg to 9.0 kg | 0.8 kg to 1.2 kg |
 
-We’re here to make it simple for you. Just enter your details in the boxes below to find out your BMI and see the healthy weight range for your pregnancy.
-
-Now that you’ve calculated your pre-pregnancy BMI, you can check what your recommended gestational weight gain for pregnancy is below.
-Pre-pregnancy BMIRecommended weight gain over the whole pregnancyRecommended weight gain per month in the 2nd and 3rd trimester*
-less than 18.5kg/m2 (Underweight)12.5kg to 18.0kg2.0kg to 2.6kg
-18.5 – 24.9kg/m2 (Normal weight)11.5kg to 16.0kg1.5kg to 2.3kg
-25.0 - 29.9kg/m2 (Overweight)7.0kg to 11.5kg1.0kg to 1.5kg
-23.0 - 27.5kg/m2 If Asian  
-Above 30.0 kg/m2 (Obese)5.0kg to 9.0kg0.8kg to 1.2kg
-Above 27.5 kg/m2 If Asian  
 *Average gain in the first three months is 0.5kg to 2 kg for everyone
 Adapted from Institute of Medicine (2009)
 
@@ -115,12 +109,6 @@ Why take unnecessary risks or try to figure it out all on your own? Book a consu
 ### Not sure where to start?
 Book a free 15-minute call with Kat. It is a short phone conversation about what is going on for you and whether working together would help. No preparation and no obligation.
 Book a free 15-minute call (https://calendly.com/katridout/15-minute-investigative-callback)
-
-- #### Book Your Free 15-Minute Call
-
-Not sure where to start? Book a free 15-minute call with Katrina to talk through what you need. Enter your details below.
-
-No obligation to book a consult.
 
 ## Frequently Asked Questions
 
