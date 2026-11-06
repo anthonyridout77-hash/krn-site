@@ -70,13 +70,11 @@ a.phone{color:inherit;text-decoration:none}.phone{display:none;font-family:var(-
 .hero h1{margin-top:1rem;color:var(--heading);max-width:12ch}
 header .nav .btn{white-space:nowrap}@media (max-width:420px){header .nav .btn{padding:.6rem .9rem;font-size:.85rem}}
 .hero h1 .w{display:inline-block;overflow:hidden;vertical-align:bottom;padding-bottom:.08em;margin-bottom:-.08em}
-.hero h1 .w span{display:inline-block;transform:translateY(110%);animation:rise .8s cubic-bezier(.2,.8,.2,1) forwards}
-@keyframes rise{to{transform:translateY(0)}}
 .lede{font-size:clamp(1.02rem,1.5vw,1.2rem);color:var(--fg-soft);max-width:32rem;margin-top:1.2rem}
 .cta-row{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:1.6rem}
 .trust{display:flex;flex-wrap:wrap;gap:.6rem 1.4rem;margin-top:1.8rem;font-size:.86rem;color:var(--fg-soft)}
 .trust b{color:var(--ink);font-weight:600}.stars{color:var(--coral);letter-spacing:.06em}
-.fade-up{opacity:0;animation:fadeUp .9s .3s cubic-bezier(.2,.8,.2,1) forwards}
+.fade-up{opacity:0;animation:fadeUp .6s .05s cubic-bezier(.2,.8,.2,1) forwards}
 @keyframes fadeUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
 
 .hero-photo{position:relative;align-self:end;margin:0 auto;width:min(100%,420px)}
