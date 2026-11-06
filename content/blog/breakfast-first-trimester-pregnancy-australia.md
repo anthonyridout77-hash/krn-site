@@ -118,7 +118,7 @@ Most women do not need me in order to sort out breakfast. The ones I can genuine
 
 What you leave with is simpler than people expect. A good baseline diet, two or three small switches you can manage on a bad week, and a shorter list of rules than you arrived with. I work alongside your GP and midwife rather than over the top of them, and I write back to whoever referred you.
 
-I am a pregnancy dietitian in Brisbane, consulting across Australia by telehealth. If a short chat would help, the [pregnancy consultation page](https://www.katridout.com.au/lp-pregnancy/) is the place to start.
+I am a pregnancy dietitian in Brisbane, consulting across Australia by telehealth. If a short chat would help, the [pregnancy consultation page](/lp-pregnancy/) is the place to start.
 
 Kat xx
 

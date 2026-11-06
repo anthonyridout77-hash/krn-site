@@ -1,6 +1,6 @@
 ---
 title: "Refer Your Patients - Katrina Ridout Nutrition"
-source: "https://www.katridout.com.au/refer-your-patients/"
+source: "/refer-your-patients/"
 captured: "2026-10-20"
 note: "Copy captured from the old site for rewriting into Astro. Reference only, not published."
 ---

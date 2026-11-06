@@ -1,6 +1,6 @@
 ---
 title: "7 Day Meal Plans - Katrina Ridout Nutrition"
-source: "https://www.katridout.com.au/7-day-meal-plans/"
+source: "/7-day-meal-plans/"
 captured: "2026-10-20"
 note: "Copy captured from the old site for rewriting into Astro. Reference only, not published."
 ---

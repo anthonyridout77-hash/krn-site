@@ -81,4 +81,4 @@ Although it is always best to try to meet your nutritional requirements through 
 
 No matter your health status or stage in life, Kat and her team at Katrina Ridout Nutrition can help to ensure you are meeting all your nutritional needs.
 
-For more nutrition support or to book in for a comprehensive individualised nutrition consultation, to optimise your health, be sure to get in touch with Kat Ridout [here](https://katridout.com.au/contact-us/).
+For more nutrition support or to book in for a comprehensive individualised nutrition consultation, to optimise your health, be sure to get in touch with Kat Ridout [here](/contact-us/).

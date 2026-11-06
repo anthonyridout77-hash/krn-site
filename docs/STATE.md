@@ -60,3 +60,9 @@ Read this first in any new session. Updated 21 Oct 2026, 09:00 AEST.
 - api.katridout.com.au blocks the cloud sandbox and the Mac shell; only a real browser (the desktop browser pane) can read it.
 - Gmail connector strips `<img>` tags; test Brevo templates in Brevo, not via Gmail.
 - Anthony reads fast: short replies, fix don't explain.
+
+## 6 Nov 2026 13:20 — launch branch
+- Anthony approved (6 Nov): price on the homepage One-Question strip, all pending branches merged, fix everything for bookings. Branch `feat/launch-2026-11-06` = audit fixes (PR #4) + mobile hero (PR #3) + utility pages + fees page + new headline/lede/ladder copy + homepage price + privacy links by both forms + forms POST to Make webhook (scenario 8408528 "KRN Website Forms", webhook 4050925) with honest error messages + remaining old-domain links converted + 4 redirects added.
+- Calendly "One-Question Consult" event type created 6 Nov (30 min, outbound call, slug one-question-consult, matches the site link). Payment NOT set up in Calendly (is_paid false); the $129 must be collected another way or Stripe/PayPal added in Calendly by Kat. "How did you hear" question not on it (API cannot add custom questions).
+- Make scenario 8408528 is built but NOT activated (Anthony toggles it on; Free plan active-scenario cap may bite). Leads go to data store 206342, not Brevo (no Brevo connection in Make yet). No checklist PDF exists: the email tells the visitor Kat will send it and info@ gets a prompt.
+- Still Kat-gated: PR #1 service rewrites. The new headline/lede went live on Anthony's call; Kat to review.

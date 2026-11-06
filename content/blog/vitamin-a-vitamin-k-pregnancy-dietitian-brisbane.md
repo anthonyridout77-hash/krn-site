@@ -105,7 +105,7 @@ Roast pumpkin, chickpea and spinach tray bake. One tray, about fifty minutes, an
 
 ## Working with me
 
-I am Katrina Ridout, an Accredited Practising Dietitian working in fertility, pregnancy and postpartum nutrition. I am a [pregnancy dietitian in Brisbane](https://www.katridout.com.au/im-pregnant-now-what/) and I consult across Australia by telehealth, so where you live does not decide whether you can get this looked at properly.
+I am Katrina Ridout, an Accredited Practising Dietitian working in fertility, pregnancy and postpartum nutrition. I am a [pregnancy dietitian in Brisbane](/im-pregnant-now-what/) and I consult across Australia by telehealth, so where you live does not decide whether you can get this looked at properly.
 
 Most of what I do in a first appointment is subtraction. People arrive with more rules than they need and less of a plan than they want, and vitamin A is a good example of that: one food to leave, one label to add up, and a great deal that was never a problem.
 

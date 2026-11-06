@@ -1,6 +1,6 @@
 ---
 title: "I'm Pregnant, Now What? - Katrina Ridout Nutrition"
-source: "https://www.katridout.com.au/im-pregnant-now-what/"
+source: "/im-pregnant-now-what/"
 captured: "2026-10-20"
 note: "Copy captured from the old site for rewriting into Astro. Reference only, not published."
 ---

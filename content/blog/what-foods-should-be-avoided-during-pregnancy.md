@@ -15,7 +15,6 @@ If you are pregnant, the good news is that you can enjoy a varied and balanced d
 
 ### Why are certain foods off-limits during pregnancy?
 
-![](https://katridout.com.au/wp-content/uploads/2023/03/shutterstock_1779435314-1-2.jpg)
 
 During pregnancy, one’s immune system is lowered. This makes it more difficult for the body to fight infections. For this reason, pregnant women tend to be at greater risk of developing food-borne illnesses that are caused by listeria, campylobacter, and salmonella. Pregnant women also tend to be at increased risk of developing toxoplasmosis. Any of these types of infections can be dangerous to the health of the unborn baby and could even lead to issues like premature birth, stillbirth, or miscarriage. It is important, therefore, that expectant mothers are cautious about their food choices.
 
@@ -33,7 +32,6 @@ Toxoplasmosis is an infection caused by a parasite known as Toxoplasma gondii. T
 
 ### How can you avoid food-borne illness during pregnancy?
 
-![](https://katridout.com.au/wp-content/uploads/2023/03/shutterstock_536567329-1-2.jpg)
 
 One of the best things you can do to prevent foodborne illness during pregnancy is to make sure that you prepare and store food safely. To do so, always wash your hands before and after you prepare food, and make sure that you keep your kitchen surfaces clean. Always make sure that your chopping boards and cooking utensils are clean whenever you prepare food.
 
@@ -43,7 +41,6 @@ If you have a pet at home, you should keep it away from all kitchen surfaces. Al
 
 ### Which foods should be avoided during pregnancy?
 
-![](https://katridout.com.au/wp-content/uploads/2023/03/shutterstock_1505287127-1-2.jpg)
 
 Although a listeria infection can be easily treated with antibiotics, prevention is always preferable. The reality is that some foods are more prone to contamination with listeria than others and should be avoided if you are pregnant. To reduce the risk of listeria infection, you should eat foods that have been freshly cooked or prepared.
 
@@ -55,7 +52,6 @@ Listeria is killed during the cooking process, so if you reheat food, make sure 
 
 ### What can you eat during pregnancy?
 
-![](https://katridout.com.au/wp-content/uploads/2023/03/shutterstock_600370325-1-2.jpg)
 
 Although there are a few foods that should be avoided during pregnancy, it is very possible to enjoy a healthy and delicious diet. You must include the following major nutrients in your eating plan:
 
@@ -84,6 +80,6 @@ Katrina Ridout is an accredited practicing dietician and a leading fertility and
 
 If you are planning a pregnancy or are already expecting a baby and would like some support and guidance when it comes to your nutrition, we encourage you to get in touch to see how Katrina can help you.
 
-To find out about the range of services that Katrina provides, [please have a look here.](https://katridout.com.au/nutrition-and-dietetics/)
+To find out about the range of services that Katrina provides, [please have a look here.](/nutrition-and-dietetics/)
 
-To arrange a consultation, [please get in touch here](https://katridout.com.au/contact-us/) or give us a call at 1300 640 104. Katrina is available to tailor an eating plan for you and address any questions or concerns that you might ha
+To arrange a consultation, [please get in touch here](/contact-us/) or give us a call at 1300 640 104. Katrina is available to tailor an eating plan for you and address any questions or concerns that you might ha

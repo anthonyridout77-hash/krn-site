@@ -68,6 +68,6 @@ A short consult can sort out which nutrients actually need your attention.
 
 At Katrina Ridout Nutrition, we understand the importance of Vitamin K as well as various other important nutrients. Because of this, we can help to ensure you are meeting all your nutritional needs.
 
-For more nutrition support or to book in for a comprehensive individualised nutrition consultationto optimise your health, be sure to get in touch with Kat Ridout [here](https://katridout.com.au/contact-us/).
+For more nutrition support or to book in for a comprehensive individualised nutrition consultationto optimise your health, be sure to get in touch with Kat Ridout [here](/contact-us/).
 
 If you would like this looked at alongside the rest of your pregnancy nutrition, that is the everyday work of a [pregnancy dietitian](/our-services/pregnancy-nutrition-and-dietetics/), in Brisbane and by telehealth across Australia.

@@ -61,4 +61,4 @@ A quick online chat is often all it takes to get your questions answered.
 
 At Katrina Ridout Nutrition, we understand the importance of Vitamin E and other key nutrients in managing your health. As accredited practicing dietitians, we can help to ensure you are meeting all your nutritional needs.
 
-For more nutrition support or to book in for a comprehensive individualised nutrition consultation to optimise your health, be sure to get in touch with Kat Ridout [here](https://katridout.com.au/contact-us/).
+For more nutrition support or to book in for a comprehensive individualised nutrition consultation to optimise your health, be sure to get in touch with Kat Ridout [here](/contact-us/).

@@ -1,6 +1,6 @@
 ---
 title: "Contact Us - Katrina Ridout Nutrition"
-source: "https://www.katridout.com.au/contact-us/"
+source: "/contact-us/"
 captured: "2026-10-20"
 note: "Copy captured from the old site for rewriting into Astro. Reference only, not published."
 ---

@@ -63,10 +63,10 @@ import BookBar from '../components/BookBar.astro';
     </div>
     <aside class="qq rv d3" id="oneq">
       <div class="qq-text">
-        <h3>Just have one question?</h3>
+        <h3>Just have one question? <span class="price">$129</span></h3>
         <p>The One-Question Consult: a 30-minute telehealth call for new clients who need one thing answered properly, with a one-page written plan within two business days. Not a full assessment or meal plan; if you need that, the fee is credited towards an Initial Consultation or The Program within 30 days.</p>
       </div>
-      <a class="btn btn-coral" href="/one-question-consult/">See how it works</a>
+      <a class="btn btn-coral" href="/one-question-consult/">Book a One-Question Consult</a>
     </aside>
   </div>
 </section>
@@ -161,8 +161,9 @@ import BookBar from '../components/BookBar.astro';
           <label for="clEmail">Email</label>
           <input id="clEmail" name="email" type="email" autocomplete="email" required>
           <button class="btn btn-coral" type="submit">Email me the checklist</button>
-          <small>You'll also get a short series of emails from Kat. Unsubscribe any time.</small>
+          <small>You'll also get a short series of emails from Kat. Unsubscribe any time. <a href="/privacy-policy/">Privacy policy</a></small>
           <p class="ok" id="clOk" role="status" aria-live="polite">Sent. Check your inbox in a minute.</p>
+          <p class="err" id="clErr" role="alert">That didn't send. Please email <a href="mailto:info@katridout.com.au">info@katridout.com.au</a> and we'll send the checklist by hand.</p>
         </form>
       </div>
     </div>
@@ -185,7 +186,9 @@ import BookBar from '../components/BookBar.astro';
         <label for="eqMsg">Your question</label>
         <textarea id="eqMsg" name="message" rows="4" required></textarea>
         <button class="btn btn-dark" type="submit">Send enquiry</button>
+        <small>Your message goes to Kat only. <a href="/privacy-policy/">Privacy policy</a></small>
         <p class="ok" id="eqOk" role="status" aria-live="polite">Sent. Kat will reply by email.</p>
+        <p class="err" id="eqErr" role="alert">That didn't send. Please email <a href="mailto:info@katridout.com.au">info@katridout.com.au</a> or call <a href="tel:1300640104">1300 640 104</a>.</p>
       </form>
     </div>
   </div>
@@ -226,8 +229,9 @@ import BookBar from '../components/BookBar.astro';
   var counted=false;
   var co=new IntersectionObserver(function(es){ es.forEach(function(e){ if(e.isIntersecting&&!counted){ counted=true; document.querySelectorAll('[data-count]').forEach(function(el){ var t=+el.dataset.count,s=performance.now(); (function tick(n){ var p=Math.min(1,(n-s)/1200); el.textContent=Math.round(t*(1-Math.pow(1-p,3))); if(p<1)requestAnimationFrame(tick);})(s); }); } }); },{threshold:.4});
   var ab=document.querySelector('.about'); if(ab)co.observe(ab);
-  function wire(id,okId,needMsg){var f=document.getElementById(id);if(!f)return;f.addEventListener('submit',function(ev){ev.preventDefault();var ok=true;[].forEach.call(f.querySelectorAll('[required]'),function(el){if(!el.checkValidity()){ok=false;el.reportValidity();}});if(!ok)return;document.getElementById(okId).classList.add('show');f.querySelector('button').disabled=true;});}
-  wire('clForm','clOk');wire('eqForm','eqOk');
+  var ENDPOINT='https://hook.eu1.make.com/7ws9ylhmcf8pwpnmeh4k6bq58bu6i6oe';
+  function wire(id,okId,errId,formName){var f=document.getElementById(id);if(!f)return;f.addEventListener('submit',function(ev){ev.preventDefault();var ok=true;[].forEach.call(f.querySelectorAll('[required]'),function(el){if(!el.checkValidity()){ok=false;el.reportValidity();}});if(!ok)return;var btn=f.querySelector('button');var okEl=document.getElementById(okId),errEl=document.getElementById(errId);okEl.classList.remove('show');errEl.classList.remove('show');btn.disabled=true;var label=btn.textContent;btn.textContent='Sending…';var data={form:formName,page:location.href};[].forEach.call(f.querySelectorAll('input,textarea'),function(el){data[el.name]=el.value.trim();});fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)}).then(function(r){if(!r.ok)throw new Error(r.status);okEl.classList.add('show');f.reset();btn.textContent=label;}).catch(function(){errEl.classList.add('show');btn.disabled=false;btn.textContent=label;});});}
+  wire('clForm','clOk','clErr','checklist');wire('eqForm','eqOk','eqErr','enquiry');
 })();
 </script>
 </Base>

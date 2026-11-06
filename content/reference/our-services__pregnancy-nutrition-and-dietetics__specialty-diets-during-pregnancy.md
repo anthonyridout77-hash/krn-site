@@ -77,7 +77,7 @@ I’m Katrina Ridout, an Accredited Practising Dietitian based in Brisbane with 
 
 ### Brisbane’s leading pregnancy nutritionist
 Katrina Ridout offers a range of nutritionist services in Brisbane, and virtually. Find out more about Kat’s range of services today (/our-services/dietitian/).
-To book an appointment with Kat Ridout, please call 1300 640 104 or get in touch on our website (https://katridout.com.au/contact-us/).
+To book an appointment with Kat Ridout, please call 1300 640 104 or get in touch on our website (/contact-us/).
 
 ### Not sure where to start?
 Book a free 15-minute call with Kat. It is a short phone conversation about what is going on for you and whether working together would help. No preparation and no obligation.

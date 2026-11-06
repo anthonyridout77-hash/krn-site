@@ -1,6 +1,6 @@
 ---
 title: "Fertility Dietitian — Free 15-Min Consultation - Katrina Ridout Nutrition"
-source: "https://www.katridout.com.au/lp-fertility/"
+source: "/lp-fertility/"
 captured: "2026-10-20"
 note: "Copy captured from the old site for rewriting into Astro. Reference only, not published."
 ---

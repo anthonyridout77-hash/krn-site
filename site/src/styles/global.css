@@ -255,3 +255,7 @@ footer .eyebrow{display:block;color:#fff;font-weight:600;font-size:.95rem}
 @media (min-width:720px){.bookbar{display:none}}
 
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.hero h1 .w span{transform:none}.fade-up,.hero-photo .panel,.hero-photo img,.hero-photo .tag{opacity:1}.js .rv{opacity:1;transform:none}}
+
+/* 6 Nov 2026: form errors, homepage price */
+.err{display:none;margin-top:.8rem;color:#8A2E1E;font-size:.92rem}.err.show{display:block}
+.qq .price{display:inline-block;margin-left:.5rem;padding:.15rem .6rem;border-radius:999px;background:var(--mint-2);color:var(--heading);font-size:.95rem;font-weight:600;vertical-align:middle}

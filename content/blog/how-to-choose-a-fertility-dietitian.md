@@ -43,7 +43,7 @@ wpUrl: "https://api.katridout.com.au/blogs/how-to-choose-a-fertility-dietitian/"
 
 ## What it costs in Australia
 
-Fertility dietitian consults typically include a longer initial appointment and shorter reviews. Medicare rebates are available for eligible patients on a GP Chronic Condition Management Plan, and most private health extras cover APDs. At Katrina Ridout Nutrition, preconception clients can choose a single consult, the 5-consult Program or a 7-consult option, in Brisbane or by telehealth Australia-wide. [See packages](https://www.katridout.com.au/our-packages/).
+Fertility dietitian consults typically include a longer initial appointment and shorter reviews. Medicare rebates are available for eligible patients on a GP Chronic Condition Management Plan, and most private health extras cover APDs. At Katrina Ridout Nutrition, preconception clients can choose a single consult, the 5-consult Program or a 7-consult option, in Brisbane or by telehealth Australia-wide. [See packages](/our-packages/).
 
 ![Woman having a telehealth appointment on her laptop](/images/wp/2026/07/krn-ivf-diet-plan-body2.jpg)
 
