@@ -259,3 +259,6 @@ footer .eyebrow{display:block;color:#fff;font-weight:600;font-size:.95rem}
 /* 6 Nov 2026: form errors, homepage price */
 .err{display:none;margin-top:.8rem;color:#8A2E1E;font-size:.92rem}.err.show{display:block}
 .qq .price{display:inline-block;margin-left:.5rem;padding:.15rem .6rem;border-radius:999px;background:var(--mint-2);color:var(--heading);font-size:.95rem;font-weight:600;vertical-align:middle}
+
+/* 6 Nov 2026: desktop hero photo level with the headline, not the column bottom */
+@media (min-width:860px){.hero .wrap{align-items:start}.hero-photo{align-self:start;margin-top:.6rem;width:min(100%,460px)}.hero-photo img{border-radius:28px}.hero-photo .panel{border-radius:26px;inset:10% -6% -6% 10%}.hero-photo .tag{bottom:18px;left:18px}.hero{padding-block:clamp(28px,4vw,56px) clamp(32px,4vw,56px)}}
