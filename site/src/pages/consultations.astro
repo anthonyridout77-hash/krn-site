@@ -4,6 +4,8 @@
    (One-Question) or on the free call. The only dollar figure here is the Medicare rebate (government number).
    Rebate figure is per Services Australia as at 1 Jul 2026; keep current. */
 import Article from '../layouts/Article.astro';
+import PathwayTimelines from '../components/PathwayTimelines.astro';
+import { pathways } from '../data/pathways';
 const rebate = '$63.40';
 
 type Mark = 'yes' | 'no' | 'part';
@@ -14,7 +16,7 @@ const cols = [
   { id: 'oneq', name: 'One-Question Consult', sub: '30 min, video', cta: 'See how it works', href: '/one-question-consult/' },
   { id: 'initial', name: 'Initial consultation', sub: '75 min, Milton or telehealth', cta: 'Book a free call to start', href: 'https://calendly.com/katridout/15-minute-investigative-callback' },
   { id: 'review', name: 'Review consultation', sub: '30 or 45 min', cta: 'Existing clients: contact Kat', href: '/contact-us/' },
-  { id: 'program', name: 'The Program', sub: '5 or 7 consultations', cta: 'Ask about The Program', href: 'https://calendly.com/katridout/15-minute-investigative-callback' },
+  { id: 'program', name: 'The Program', sub: '5 or 7 consultations', cta: 'Ask about The Program', href: 'https://calendly.com/katridout/15-minute-investigative-callback', badge: 'Most clients choose' },
 ];
 
 // Each row: label, then one cell per column in the order above.
@@ -38,6 +40,26 @@ const rows: { label: string; cells: Cell[]; group?: string }[] = [
 ];
 
 const markLabel: Record<Mark, string> = { yes: 'Included', no: 'Not included', part: 'Partly' };
+
+const schema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    ...pathways.map((p) => ({
+      '@type': 'HowTo',
+      name: `${p.name}: how the consultations are spaced`,
+      description: p.story,
+      step: p.consults.map((c, i) => ({ '@type': 'HowToStep', position: i + 1, name: `${c.when}: ${c.title}`, text: c.detail })),
+    })),
+    {
+      '@type': 'FAQPage',
+      mainEntity: [
+        { '@type': 'Question', name: 'How many dietitian consultations do I need?', acceptedAnswer: { '@type': 'Answer', text: 'Most clients work with Kat over a program of five consultations (one 75-minute initial plus four reviews) across about 12 weeks. A full pregnancy is usually covered by The Journey, one initial plus seven reviews spaced across the trimesters and into the first weeks after birth. Timing is individualised.' } },
+        { '@type': 'Question', name: 'How are the consultations spaced out?', acceptedAnswer: { '@type': 'Answer', text: 'A 75-minute initial, a 30-minute plan check two weeks later, a 45-minute pathology review around week six once repeat bloods are back, then 30-minute reviews around weeks nine and twelve. Pregnancy and gestational diabetes pathways are spaced to the trimesters instead.' } },
+        { '@type': 'Question', name: 'Does Medicare cover dietitian consultations?', acceptedAnswer: { '@type': 'Answer', text: 'If your GP refers you under a GP Chronic Condition Management Plan you may receive a Medicare rebate of $63.40 per consultation for up to five allied-health visits a calendar year. Eligibility is your GP\'s decision. Private health extras may also apply; you cannot claim both for the same consultation.' } },
+      ],
+    },
+  ],
+};
 const isMark = (c: Cell): c is Mark => c === 'yes' || c === 'no' || c === 'part';
 ---
 <Article
@@ -48,6 +70,7 @@ const isMark = (c: Cell): c is Mark => c === 'yes' || c === 'no' || c === 'part'
   ctaHeading="Not sure which one you need?"
   ctaText="Book a free 15-minute call. No advice is given on the call, it is for working out whether Kat is the right fit and which option suits you."
 >
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(schema)} />
   <h2>What each consultation includes</h2>
 
   <div class="cmpx" id="compare">
@@ -55,7 +78,7 @@ const isMark = (c: Cell): c is Mark => c === 'yes' || c === 'no' || c === 'part'
     <div class="pick" role="radiogroup" aria-labelledby="pick-label">
       {cols.map((c, i) => (
         <label class={`pick-opt pick-${c.id}`}>
-          <input type="radio" name="col" value={c.id} checked={i === 2} />
+          <input type="radio" name="col" value={c.id} checked={i === 4} />
           <span>{c.name}</span>
         </label>
       ))}
@@ -68,6 +91,7 @@ const isMark = (c: Cell): c is Mark => c === 'yes' || c === 'no' || c === 'part'
             <th scope="col" class="rowhead"><span class="sr">Inclusion</span></th>
             {cols.map((c) => (
               <th scope="col" class={`col col-${c.id}`}>
+                {'badge' in c && <span class="col-badge">{(c as any).badge}</span>}
                 <span class="col-name">{c.name}</span>
                 <span class="col-sub">{c.sub}</span>
               </th>
@@ -97,7 +121,7 @@ const isMark = (c: Cell): c is Mark => c === 'yes' || c === 'no' || c === 'part'
             <td class="rowhead"></td>
             {cols.map((c) => (
               <td class={`col col-${c.id}`}>
-                <a class={`btn ${c.id === 'oneq' || c.id === 'initial' ? 'btn-coral' : 'btn-line'}`} href={c.href}>{c.cta}</a>
+                <a class={`btn ${c.id === 'oneq' || c.id === 'program' ? 'btn-coral' : 'btn-line'}`} href={c.href}>{c.cta}</a>
               </td>
             ))}
           </tr>
@@ -108,8 +132,9 @@ const isMark = (c: Cell): c is Mark => c === 'yes' || c === 'no' || c === 'part'
     <p class="legend"><span class="dot mark-yes"></span> Included <span class="dot mark-no"></span> Not included</p>
   </div>
 
-  <h2>The Program</h2>
-  <p>Most clients work with Kat over a program of five or seven consultations, usually across twelve weeks and flexible to your stage. Program consultations can be used at any stage of your journey, for example moving from preconception into pregnancy, within 12 months. Five consultations line up with the five allied-health visits a GP Chronic Condition Management Plan allows each calendar year, so the Medicare rebate can apply to every one. Kat explains the options and the cost on your free call, so you can choose with the full picture.</p>
+  <h2>How the consultations are spaced out</h2>
+  <p>Most clients work with Kat over a program of five consultations across about twelve weeks, or seven across a full pregnancy. Pick your situation to see what each consultation is for and when it happens. Program consultations can be used at any stage of your journey, for example moving from preconception into pregnancy, within 12 months. Kat explains the options and the cost on your free call.</p>
+  <PathwayTimelines />
 
   <h2>Medicare rebates</h2>
   <ul>
@@ -154,7 +179,8 @@ const isMark = (c: Cell): c is Mark => c === 'yes' || c === 'no' || c === 'part'
   .matrix .col-name { display: block; font-weight: 600; color: var(--heading); }
   .matrix .col-sub { display: block; font-size: .8rem; color: var(--fg-soft); font-weight: 400; margin-top: .15rem; }
   .matrix tr.group th { text-align: left; background: var(--mint); color: var(--heading); font-weight: 600; font-size: .85rem; letter-spacing: .02em; text-transform: uppercase; padding: .5rem .6rem; }
-  .matrix .col-initial { background: color-mix(in srgb, var(--mint) 45%, transparent); }
+  .matrix .col-program { background: color-mix(in srgb, var(--mint) 45%, transparent); }
+  .col-badge { display: inline-block; font-size: .7rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: #fff; background: var(--heading); border-radius: 999px; padding: .15rem .55rem; margin-bottom: .3rem; }
   .matrix tfoot td { border-bottom: 0; padding-top: 1rem; }
   .matrix tfoot .btn { display: block; width: 100%; box-sizing: border-box; font-size: .85rem; padding: .65rem .5rem; border-radius: 12px; white-space: normal; line-height: 1.25; text-align: center; }
 
@@ -175,7 +201,7 @@ const isMark = (c: Cell): c is Mark => c === 'yes' || c === 'no' || c === 'part'
     .cmpx:has(input[value="initial"]:checked) .col-initial,
     .cmpx:has(input[value="review"]:checked) .col-review,
     .cmpx:has(input[value="program"]:checked) .col-program { display: table-cell; }
-    .matrix .col-initial { background: transparent; }
+    .matrix .col-program { background: transparent; }
   }
   @media (min-width: 760px) {
     .pick, .pick-label { display: none; }

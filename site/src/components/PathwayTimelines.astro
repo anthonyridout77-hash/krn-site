@@ -1,0 +1,110 @@
+---
+/* Pathway timelines: CSS-only radio tabs, one timeline per pathway. Data in src/data/pathways.ts (Kat gate). */
+import { pathways, callLink } from '../data/pathways';
+const defaultId = 'pregnancy';
+---
+<div class="pw" id="pathways">
+  <p class="pw-label" id="pw-label">Where are you right now?</p>
+  <div class="pw-tabs" role="radiogroup" aria-labelledby="pw-label">
+    {pathways.map((p) => (
+      <label class="pw-tab">
+        <input type="radio" name="pathway" value={p.id} checked={p.id === defaultId} data-pathway={p.id} />
+        <span>{p.tab}</span>
+      </label>
+    ))}
+  </div>
+
+  {pathways.map((p) => (
+    <section class={`pw-panel pw-${p.id}`} aria-label={p.name}>
+      <header class="pw-head">
+        <h3>{p.name}</h3>
+        <p class="pw-who">{p.who}</p>
+        <p class="pw-story">{p.story}</p>
+      </header>
+
+      <ol class={`tl tl-${p.consults.length}`}>
+        {p.consults.map((c, i) => (
+          <li class="tl-item">
+            <div class="tl-marker"><span class="tl-n">{i + 1}</span></div>
+            <div class="tl-body">
+              <p class="tl-when">{c.when} <small>{c.length}</small></p>
+              <h4>{c.title}</h4>
+              <p class="tl-detail">{c.detail}</p>
+              {c.takeaway && <p class="tl-take"><b>You take away:</b> {c.takeaway}</p>}
+            </div>
+          </li>
+        ))}
+      </ol>
+
+      <div class="pw-foot">
+        <p><b>Program:</b> {p.program}</p>
+        <p><b>Medicare:</b> {p.medicare}</p>
+        <p class="pw-note">An example of the topics covered. Timing and content are individualised to you, and consults are booked as you go.</p>
+        <a class="btn btn-coral" href={callLink(p)}>Book a free call about the {p.tab.toLowerCase()} pathway</a>
+      </div>
+    </section>
+  ))}
+</div>
+
+<style>
+  .pw { margin: 1rem 0 2rem; }
+  .pw-label { font-weight: 600; color: var(--heading); margin: 0 0 .5rem; }
+  .pw-tabs { display: flex; flex-wrap: wrap; gap: .45rem; margin-bottom: 1.4rem; }
+  .pw-tab { position: relative; }
+  .pw-tab input { position: absolute; opacity: 0; inset: 0; margin: 0; cursor: pointer; }
+  .pw-tab span { display: inline-block; padding: .5rem .9rem; border-radius: 999px; border: 1px solid var(--line); font-size: .92rem; background: #fff; }
+  .pw-tab input:checked + span { background: var(--heading); color: #fff; border-color: var(--heading); }
+  .pw-tab input:focus-visible + span { outline: 2px solid var(--heading); outline-offset: 2px; }
+
+  .pw-panel { display: none; }
+  .pw:has(input[value="fertility"]:checked) .pw-fertility,
+  .pw:has(input[value="ivf"]:checked) .pw-ivf,
+  .pw:has(input[value="pregnancy"]:checked) .pw-pregnancy,
+  .pw:has(input[value="gdm"]:checked) .pw-gdm,
+  .pw:has(input[value="postpartum"]:checked) .pw-postpartum,
+  .pw:has(input[value="pmos"]:checked) .pw-pmos,
+  .pw:has(input[value="endo"]:checked) .pw-endo { display: block; }
+
+  .pw-head h3 { margin: 0 0 .3rem; }
+  .pw-who { margin: 0 0 .4rem; color: var(--fg); }
+  .pw-story { margin: 0 0 1.2rem; color: var(--fg-soft); font-size: .95rem; }
+
+  /* Timeline: vertical rail by default */
+  .tl { list-style: none; margin: 0; padding: 0; position: relative; }
+  .tl-item { display: grid; grid-template-columns: 2.2rem 1fr; gap: .8rem; position: relative; padding-bottom: 1.3rem; }
+  .tl-item::before { content: ""; position: absolute; left: 1.05rem; top: 2.2rem; bottom: 0; width: 2px; background: var(--line); }
+  .tl-item:last-child::before { display: none; }
+  .tl-marker { display: flex; align-items: flex-start; justify-content: center; }
+  .tl-n { display: inline-grid; place-items: center; width: 2.1rem; height: 2.1rem; border-radius: 50%; background: var(--heading); color: #fff; font-weight: 600; font-size: .95rem; }
+  .tl-when { margin: .2rem 0 .1rem; font-size: .85rem; color: var(--fg-soft); font-weight: 600; letter-spacing: .01em; }
+  .tl-when small { font-weight: 400; margin-left: .35rem; }
+  .tl-body h4 { margin: 0 0 .25rem; font-size: 1.05rem; color: var(--heading); }
+  .tl-detail { margin: 0; font-size: .95rem; }
+  .tl-take { margin: .45rem 0 0; font-size: .88rem; color: var(--fg-soft); background: var(--mint); border-radius: 12px; padding: .5rem .7rem; }
+
+  /* Desktop: horizontal rail for 5-step pathways; 8 steps wrap to two rows of 4 */
+  @media (min-width: 900px) {
+    .tl { display: grid; gap: 1.2rem 1rem; }
+    .tl-5 { grid-template-columns: repeat(5, 1fr); }
+    .tl-8 { grid-template-columns: repeat(4, 1fr); }
+    .tl-item { grid-template-columns: 1fr; gap: .5rem; padding-bottom: 0; }
+    .tl-item::before { left: 2.1rem; right: -1rem; top: 1.05rem; bottom: auto; height: 2px; width: auto; }
+    .tl-5 .tl-item:nth-child(5)::before, .tl-8 .tl-item:nth-child(4)::before, .tl-8 .tl-item:nth-child(8)::before { display: none; }
+    .tl-marker { justify-content: flex-start; }
+  }
+
+  .pw-foot { margin-top: 1.4rem; padding-top: 1rem; border-top: 1px solid var(--line); display: grid; gap: .5rem; }
+  .pw-foot p { margin: 0; font-size: .95rem; }
+  .pw-note { color: var(--fg-soft); font-size: .88rem; }
+  .pw-foot .btn { justify-self: start; margin-top: .4rem; }
+</style>
+
+<script>
+  // GA4 event when a pathway tab is chosen (no-op if dataLayer missing)
+  document.querySelectorAll<HTMLInputElement>('.pw input[name="pathway"]').forEach((el) => {
+    el.addEventListener('change', () => {
+      (window as any).dataLayer = (window as any).dataLayer || [];
+      (window as any).dataLayer.push({ event: 'pathway_tab', pathway: el.value });
+    });
+  });
+</script>
