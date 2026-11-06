@@ -17,7 +17,7 @@ const CALL = 'https://calendly.com/katridout/15-minute-investigative-callback';
       <div class="price"><b>{fc.fee}</b><small>total fee · GST-free · paid when you book · {fc.duration} by telehealth · written summary within {fc.turnaround}</small></div>
       <div class="cta-row">
         <a class="btn btn-coral" href="#book">Book a consult</a>
-        <a class="btn btn-line" href="#fit">Is it right for me?</a>
+        <a class="btn btn-line" href="#questions">Example questions</a>
       </div>
       <div class="trust"><span><img class="apd" src="/images/apd-logo.webp" alt="Accredited Practising Dietitian" width="127" height="126" loading="lazy"> Dietitians Australia</span><span>{fc.eligibility}</span></div>
     </div>
@@ -36,6 +36,19 @@ const CALL = 'https://calendly.com/katridout/15-minute-investigative-callback';
       <div class="card"><div class="n">2</div><h3>{fc.duration} with Kat by telehealth</h3><p>Kat asks the background questions she needs, clarifies what matters, and gives practical advice within the agreed scope.</p></div>
       <div class="card"><div class="n">3</div><h3>Your brief written summary</h3><p>Within {fc.turnaround} you receive a short written record of the advice discussed and the next steps you agreed.</p></div>
     </div>
+  </div>
+</section>
+
+<section id="questions">
+  <div class="wrap">
+    <h2>Questions that suit a 30-minute consult</h2>
+    <p class="lede">These can be answered well with a few targeted questions about you, without a full diet history. If yours is similar, this consult is likely a good fit.</p>
+    <div class="qgrid">
+      {fc.goodQuestions.map((g) => (
+        <div class="list"><h3>{g.group}</h3><ul>{g.items.map((i) => <li>{i}</li>)}</ul></div>
+      ))}
+    </div>
+    <p class="fine">Not sure if your question fits? Describe it when you book. Kat reviews it within 1 business day and will tell you if an initial consultation would suit you better.</p>
   </div>
 </section>
 
