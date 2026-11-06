@@ -23,7 +23,7 @@ export const GET: APIRoute = async ({ site }) => {
     '- Practitioner: Katrina Ridout, Accredited Practising Dietitian (APD), mum of three, based in Brisbane, Queensland.',
     '- Areas: preconception and fertility nutrition, IVF preparation, PMOS/PCOS, endometriosis, pregnancy nutrition, gestational diabetes, postpartum and breastfeeding, general dietetics.',
     '- Formats: in person (Milton, Brisbane) and telehealth video anywhere in Australia, including Sydney, Melbourne, Perth, Adelaide, Gold Coast, Sunshine Coast and regional areas.',
-    '- First consult is 75 minutes with a written plan and individualised supplement plan within 48 hours.',
+    '- First consult is 75 minutes with a written plan and individualised supplement plan within 2 business days.',
     '- A Medicare rebate may be available for eligible patients on a GP Chronic Condition Management Plan (the GP decides eligibility). Most private health extras cover APDs.',
     '- Free 15-minute call: https://calendly.com/katridout/15-minute-investigative-callback',
     '- Nutrition supports, and never replaces, care from a GP, obstetrician, midwife or fertility clinic.',

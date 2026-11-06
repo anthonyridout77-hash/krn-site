@@ -25,8 +25,8 @@ export type Pathway = {
 };
 
 const CALENDLY = 'https://calendly.com/katridout/15-minute-investigative-callback';
-// Neutral codes in UTMs so no condition name is sent to third-party analytics.
-export const callLink = (p: Pathway) => `${CALENDLY}?utm_source=site&utm_medium=pathways&utm_campaign=pw-${String(pathways.findIndex((x) => x.id === p.id) + 1).padStart(2, '0')}`;
+// One generic code for every pathway: no condition (or mappable code) is sent to Calendly or analytics.
+export const callLink = (_p: Pathway) => `${CALENDLY}?utm_source=site&utm_medium=pathways&utm_campaign=pathways`;
 
 const takeawayFirst = 'Dietary assessment summary, starter meal plan, your individualised supplement plan, recipe booklet and snack ideas, all within 2 business days.';
 
