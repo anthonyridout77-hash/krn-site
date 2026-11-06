@@ -99,11 +99,10 @@ I know this might sound daunting. You may even be thinking, “It’s too late, 
 
 Remember, every woman’s pregnancy is different, and weight gain will look different for everyone. Try not to compare your journey to anyone else’s. Instead, focus on what feels healthy and sustainable for you and your baby.
 
-### Giving Your Baby the Best Start
-Only you can provide the nutrients that both your body and your growing baby need during pregnancy.
-I know that can feel like a lot of pressure. There is so much information out there and it can quickly become overwhelming. On top of that, you may be managing pregnancy symptoms like morning sickness, fatigue, cravings or constipation, all while trying to eat well and stay healthy.
-That is where I come in. I am here to guide you throughout your pregnancy journey so that you feel supported, confident and cared for. Together we will make sure your baby gets all the nourishment it needs to thrive, while you feel your best along the way.
-Why take unnecessary risks or try to figure it out all on your own? Book a consultation today and take the first step towards a healthy pregnancy and giving your baby the very best start in life.
+### Support for eating well in pregnancy
+Pregnancy brings a lot of food questions at once, often while you are also managing nausea, tiredness, cravings or constipation. With so much advice around, it is easy to feel overwhelmed.
+I am here to help you work out what matters for you and your stage, so you feel supported and confident about eating well for yourself and your baby.
+If you would like help, book a free call and we can talk about what would suit you.
 
 ### Not sure where to start?
 Book a free 15-minute call with Kat. It is a short phone conversation about what is going on for you and whether working together would help. No preparation and no obligation.
