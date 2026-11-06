@@ -8,22 +8,23 @@
 import Article from '../layouts/Article.astro';
 import PathwayTimelines from '../components/PathwayTimelines.astro';
 import { pathways } from '../data/pathways';
+import { fc } from '../data/focused-consult';
 const rebate = '$63.40';
 const CALL = 'https://calendly.com/katridout/15-minute-investigative-callback';
 
 const starters = [
-  { id: 'call', q: 'Not sure where to start?', name: 'Free introductory call', best: 'Anyone who would like to talk it through first', time: '15 minutes, phone', what: 'Tell Kat what is going on. She will listen, explain how she would approach it and how she can help. Personalised meal plans and supplement advice are kept for a consultation.', get: 'A clear, caring next step that suits you, with no obligation.', paid: false, cta: 'Book a free call', href: CALL, coral: false },
-  { id: 'oneq', q: 'Have one focused nutrition question?', name: 'One-Question Consult', best: 'New clients with one specific question', time: '30 minutes, video', what: 'Kat answers your question properly. This is not a full assessment or a full meal plan.', get: 'A one-page written plan within 2 business days.', paid: true, cta: 'View consult details and fee', href: '/one-question-consult/', coral: true },
-  { id: 'initial', q: 'Need a full assessment or ongoing support?', name: 'Initial consultation', best: 'Anyone wanting a complete picture and a plan', time: '75 minutes, Milton or telehealth', what: 'A full assessment of your history, bloods, medications and eating, then Kat helps you decide whether individual appointments or a program suits you.', get: 'Assessment summary, individualised supplement plan, starter meal plan, recipe booklet, snack ideas and goals summary, within 2 business days.', paid: true, cta: 'Discuss my options with Kat', href: CALL, coral: false, note: 'Goes to the free introductory call booking page.' },
+  { id: 'initial', q: 'Want to look at the whole picture?', name: 'Initial consultation', best: 'Anyone wanting a comprehensive assessment and a coordinated plan', time: '75 minutes, Milton or telehealth', what: 'A full assessment of your history, bloods, medications and eating that connects several concerns and priorities into one coordinated plan. Ongoing support is optional; Kat helps you decide whether individual appointments or a program suits you.', get: 'Assessment summary, individualised supplement plan, starter meal plan, recipe booklet, snack ideas and goals summary, within 2 business days.', paid: true, cta: 'Discuss my options with Kat', href: CALL, coral: true, note: 'Books the free introductory call first.' },
+  { id: 'call', q: 'Not sure which option suits you?', name: 'Free introductory call', best: 'Anyone who would like to talk it through first', time: '15 minutes, phone', what: 'Tell Kat what is going on. She will listen, explain how she would approach it and how she can help. Personalised meal plans and supplement advice are kept for a consultation.', get: 'A clear, caring next step that suits you, with no obligation.', paid: false, cta: 'Book a free call', href: CALL, coral: false },
+  { id: 'oneq', q: fc.heading, name: fc.name, best: 'New clients with one suitable, focused nutrition concern', time: '30 minutes, video', what: fc.summary, get: `A brief written summary of the advice and agreed next steps, within ${fc.turnaround}.`, paid: true, cta: 'View details and fee', href: fc.url, coral: false },
 ];
 
-const cols = ['Free call', 'One-Question Consult', 'Initial consultation'];
+const cols = ['Initial consultation', 'Free call', 'One-Question Consult'];
 const rows: { label: string; cells: string[] }[] = [
-  { label: 'Who it suits', cells: ['Anyone deciding', 'New clients with one question', 'Anyone wanting a full assessment'] },
-  { label: 'Duration and format', cells: ['15 min, phone', '30 min, video', '75 min, Milton or telehealth'] },
-  { label: 'Assessment', cells: ['A conversation about your situation', 'Focused on your question', 'Complete'] },
-  { label: 'Written takeaway', cells: ['None', 'One-page plan, 2 business days', 'Full plan and resources, 2 business days'] },
-  { label: 'Follow-up', cells: ['Kat suggests the best next step for you', 'Fee credited if you book a full consultation within 30 days', 'Review appointments or a program, your choice'] },
+  { label: 'Who it suits', cells: ['Anyone wanting the whole picture', 'Anyone deciding', 'New clients with one suitable, focused concern'] },
+  { label: 'Duration and format', cells: ['75 min, Milton or telehealth', '15 min, phone', '30 min, video'] },
+  { label: 'Assessment', cells: ['Comprehensive', 'A conversation about your situation', 'Relevant to the agreed concern'] },
+  { label: 'Written takeaway', cells: ['Full plan and resources, 2 business days', 'None', 'Brief written summary, 2 business days'] },
+  { label: 'Follow-up', cells: ['Review appointments or a program, only if you want them', 'Kat suggests the option that suits you', 'Further care only if you need broader support'] },
 ];
 
 const schema = {
@@ -48,9 +49,9 @@ const schema = {
 ---
 <Article
   title="Consultations"
-  description="Choose the support that fits you: a free introductory call, a One-Question Consult or a full initial consultation with Katrina Ridout, Accredited Practising Dietitian. How programs work and how Medicare rebates apply."
+  description="Choose the support that fits you: a full initial consultation, a free introductory call or a focused One-Question Consult with Katrina Ridout, Accredited Practising Dietitian. How programs work and how Medicare rebates apply."
   crumbs={[{ label: 'Home', href: '/' }, { label: 'Consultations' }]}
-  lede="Choose your starting point. Start with one focused question or a full nutrition assessment, or book a free introductory call if you are unsure."
+  lede="Choose your starting point. An initial consultation looks at the whole picture; a free introductory call helps if you are unsure; a focused paid consult suits one well-defined concern."
   ctaHeading="Still unsure?"
   ctaText="Book a free 15-minute call. Tell Kat what is going on, she will listen, explain how she can help, and suggest the best next step for you."
 >
@@ -117,7 +118,7 @@ const schema = {
   <p class="scroll-hint">On a phone, scroll sideways to compare all three options.</p>
   <div class="table-wrap" role="region" aria-label="Comparison of starting options" tabindex="0">
     <table class="matrix">
-      <caption class="sr">Comparison of the three starting options: free call, One-Question Consult and initial consultation</caption>
+      <caption class="sr">Comparison of the three starting options: initial consultation, free call and One-Question Consult</caption>
       <thead>
         <tr>
           <th scope="col" class="rowhead"><span class="sr">Feature</span></th>
@@ -137,7 +138,7 @@ const schema = {
 
   <h2 id="changing">Changing from one option to another</h2>
   <ul>
-    <li><b>From a One-Question Consult:</b> if you book an initial consultation or The Program within 30 days of your One-Question Consult, its fee is credited towards that booking. One credit per client, not transferable, not combined with a Medicare rebate.</li>
+    <li><b>From a One-Question Consult:</b> {fc.credit}</li>
     <li><b>From a single initial consultation:</b> if you book The Program within 14 days of your initial consultation, that consultation counts as the program's first appointment.</li>
     <li><b>Extra appointments:</b> anything outside a program, such as an additional review or a partner appointment, is booked and charged separately.</li>
   </ul>

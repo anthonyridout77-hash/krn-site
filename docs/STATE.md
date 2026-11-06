@@ -1,6 +1,9 @@
 # KRN site and growth engine — current state
 
-Read this first in any new session. Updated 21 Oct 2026, 09:00 AEST.
+Read this first in any new session.
+
+> 6 Nov 2026 21:50: PR #19 `content/focused-consult-positioning` repositions the One-Question Consult as a focused secondary offer (initial consultation leads; $129 only on its own page; "brief written summary"). Source of truth `site/src/data/focused-consult.ts`. Kat gate: do not merge until she approves. Calendly description and `content/oneq-journey/*` emails must change at the same time. Spec: project doc claude/KRN_Focused_Consult_Spec_2026-11-06.md.
+ Updated 21 Oct 2026, 09:00 AEST.
 
 ## Where things are
 | Thing | Location |

@@ -1,21 +1,25 @@
 ---
+/* Focused consultation page. The ONLY page that shows the fee.
+   Copy comes from src/data/focused-consult.ts. DRAFT pending Kat (public health copy gate). */
 import Base from '../layouts/Base.astro';
 import BookBar from '../components/BookBar.astro';
+import { fc } from '../data/focused-consult';
 import '../styles/one-question.css';
+const CALL = 'https://calendly.com/katridout/15-minute-investigative-callback';
 ---
-<Base title="One-Question Consult | Katrina Ridout Nutrition" description="One question, one clear answer, a one-page plan written for you. A 30-minute telehealth consult with Accredited Practising Dietitian Katrina Ridout. New clients only." noindex={true}>
+<Base title={`${fc.name} | Katrina Ridout Nutrition`} description="A focused 30-minute telehealth appointment with Accredited Practising Dietitian Katrina Ridout for one suitable nutrition concern, with a brief written summary. New clients only." noindex={true}>
 <section class="hero">
   <div class="wrap">
     <div>
-      <p class="kicker">One-Question Consult · 30 minutes · telehealth</p>
-      <h1>One question. One clear answer. A plan written for you.</h1>
-      <p class="lede">For new clients who need one thing answered properly by an Accredited Practising Dietitian, without booking a full consultation.</p>
-      <div class="price"><b>$129</b><small>no GST · prepaid · Australia-wide by video</small></div>
+      <p class="kicker">Paid consultation · {fc.duration} · video</p>
+      <h1>{fc.heading}</h1>
+      <p class="lede">The {fc.name} is a focused appointment for one suitable nutrition concern. It includes relevant background questions, practical advice within the agreed scope, and a brief written summary of the discussion and next steps.</p>
+      <div class="price"><b>{fc.fee}</b><small>total fee · GST-free · paid when you book · {fc.duration} by video · written summary within {fc.turnaround}</small></div>
       <div class="cta-row">
-        <a class="btn btn-coral" href="#book">Book a One-Question Consult</a>
-        <a class="btn btn-line" href="#how">How it works</a>
+        <a class="btn btn-coral" href="#book">Book a consult</a>
+        <a class="btn btn-line" href="#fit">Is it right for me?</a>
       </div>
-      <div class="trust"><span><img class="apd" src="/images/apd-logo.webp" alt="Accredited Practising Dietitian" width="127" height="126" loading="lazy"> Dietitians Australia</span><span>Credited against a full consult within 30 days</span></div>
+      <div class="trust"><span><img class="apd" src="/images/apd-logo.webp" alt="Accredited Practising Dietitian" width="127" height="126" loading="lazy"> Dietitians Australia</span><span>{fc.eligibility}</span></div>
     </div>
     <div class="hero-photo">
       <img src="/images/kat-ridout-apd.jpg" alt="Katrina Ridout, Accredited Practising Dietitian">
@@ -28,33 +32,32 @@ import '../styles/one-question.css';
   <div class="wrap">
     <h2>How it works</h2>
     <div class="cols">
-      <div class="card"><div class="n">1</div><h3>Send your question when you book</h3><p>Pick a time, pay, and type the one question you want answered. Kat reads it before your call.</p></div>
-      <div class="card"><div class="n">2</div><h3>30 minutes with Kat by video</h3><p>She asks what she needs to know, then answers your question in plain language, specific to you.</p></div>
-      <div class="card"><div class="n">3</div><h3>Your one-page plan</h3><p>Within 2 business days you receive a one-page written plan covering your answer and the next steps that fit your life.</p></div>
+      <div class="card"><div class="n">1</div><h3>Tell Kat your concern</h3><p>When you book, briefly describe the concern and where you are up to. Kat reviews it within 1 business day to check it suits a focused consult.</p></div>
+      <div class="card"><div class="n">2</div><h3>{fc.duration} with Kat by video</h3><p>Kat asks the background questions she needs, clarifies what matters, and gives practical advice within the agreed scope.</p></div>
+      <div class="card"><div class="n">3</div><h3>Your brief written summary</h3><p>Within {fc.turnaround} you receive a short written record of the advice discussed and the next steps you agreed.</p></div>
     </div>
   </div>
 </section>
 
 <section class="band" id="fit">
   <div class="wrap">
-    <h2>Is this the right consult for you?</h2>
+    <h2>Is a focused consult right for you?</h2>
     <div class="two">
-      <div class="list"><h3>Good questions for this consult</h3><ul>
-        <li>Which prenatal supplement should I actually be taking?</li>
-        <li>What can I eat when nausea and food aversions are winning?</li>
-        <li>How do I get enough iron, choline or folate from food?</li>
-        <li>Is this food safe in pregnancy?</li>
-        <li>What should breakfast look like while I'm breastfeeding?</li>
+      <div class="list"><h3>It includes</h3><ul>
+        {fc.includes.map((i) => <li>{i}</li>)}
       </ul></div>
-      <div class="list no"><h3>Better suited to a full consultation</h3><ul>
-        <li>You want a complete nutrition assessment or meal plan</li>
-        <li>You have a diagnosis that needs ongoing management, such as gestational diabetes</li>
-        <li>You need pathology results reviewed</li>
-        <li>You are an existing client (book a Review instead)</li>
-        <li>Your question is medical rather than nutritional</li>
+      <div class="list no"><h3>An initial consultation is usually more appropriate when</h3><ul>
+        {fc.initialBetterWhen.map((i) => <li>{i}</li>)}
       </ul></div>
     </div>
-    <p class="fine">If Kat finds during the call that your question needs a full consultation, she will say so, and your $129 is credited towards it.</p>
+    <p class="fine">A single question can still need a full assessment. For example, "What should I eat during IVF?" usually depends on your history, results and treatment plan. {fc.initialPitch} Not sure which suits you? <a href={CALL}>Book a free call</a> and Kat will help you choose.</p>
+  </div>
+</section>
+
+<section id="summary">
+  <div class="wrap">
+    <h2>About the written summary</h2>
+    <p>{fc.deliverableDetail} It is sent by email within {fc.turnaround} of your appointment.</p>
   </div>
 </section>
 
@@ -63,7 +66,7 @@ import '../styles/one-question.css';
     <div class="about">
       <img src="/images/kat-ridout-apd.jpg" alt="">
       <div>
-        <h2>Answered by Kat, not a chatbot</h2>
+        <h2>With Kat herself</h2>
         <p>Katrina Ridout is an Accredited Practising Dietitian and Nutritionist, an Early Life Nutrition Alliance alumna, and holds a Graduate Certificate in Research in prenatal nutrition. She works in preconception, IVF, pregnancy and postpartum nutrition from Milton, Brisbane, and by telehealth across Australia.</p>
       </div>
     </div>
@@ -74,11 +77,13 @@ import '../styles/one-question.css';
   <div class="wrap">
     <h2>Questions</h2>
     <div style="margin-top:1.4rem">
-      <details><summary>Can I claim this on Medicare or private health?</summary><p>No. The One-Question Consult is private-pay only, so no GP referral is needed. Medicare rebates under a GP Chronic Condition Management Plan apply to standard consultations.</p></details>
-      <details><summary>How does the credit work?</summary><p>Book an Initial Consultation or The Program within 30 days of your One-Question Consult and the $129 is deducted from that fee. One credit per client, not transferable, not combinable with Medicare rebates.</p></details>
-      <details><summary>Can I ask more than one question?</summary><p>Bring one main question. If there's time, Kat will go further, but the written plan covers the one question you booked for.</p></details>
+      <details><summary>What does the {fc.fee} cover?</summary><p>{fc.duration} with Kat by video for one agreed concern, including the background questions she needs, practical advice within that scope, and a brief written summary within {fc.turnaround}. It is the total fee; dietetic services are GST-free.</p></details>
+      <details><summary>Is it limited to one question?</summary><p>No. It is limited to one focused concern, not one sentence. Kat will ask follow-up questions and you can ask for clarification during the appointment. If several concerns need looking at together, an initial consultation is usually the better fit.</p></details>
+      <details><summary>What if my concern needs a broader assessment?</summary><p>{fc.suitability} If something more complex comes up during the appointment, Kat will decide how to proceed safely and explain your options.</p></details>
+      <details><summary>Can I claim this on Medicare or private health?</summary><p>It is private-pay only, so no GP referral is needed and it does not use one of your GP Chronic Condition Management Plan visits. Medicare rebates apply to standard consultations.</p></details>
+      <details><summary>If I book more care later, is the fee credited?</summary><p>{fc.credit}</p></details>
       <details><summary>What if I need to cancel?</summary><p>Reschedule or cancel free of charge up to 24 hours before your appointment for a full refund. Inside 24 hours the fee is retained.</p></details>
-      <details><summary>Is it the same as the free 15-minute call?</summary><p>No. On the free call Kat listens to what is going on, explains how she can help and suggests the best next step. The One-Question Consult is where she gives you personalised advice on your question, with a written plan.</p></details>
+      <details><summary>How is it different from the free 15-minute call?</summary><p>On the free call Kat listens to what is going on, explains how she can help and suggests the best next step. The {fc.name} is a paid appointment where she gives you advice on your agreed concern, with a written summary.</p></details>
     </div>
   </div>
 </section>
@@ -87,14 +92,15 @@ import '../styles/one-question.css';
   <div class="wrap">
     <div class="book">
       <div>
-        <h2>Book your One-Question Consult</h2>
-        <p>$129, 30 minutes by video, written plan within 2 business days. New clients only.</p>
+        <h2>Book your {fc.name}</h2>
+        <p><b>{fc.fee} total</b>, paid when you book. {fc.duration} by video, one agreed concern, brief written summary within {fc.turnaround}. {fc.eligibility}. Free cancellation up to 24 hours before.</p>
+        <p class="fine">{fc.suitability}</p>
       </div>
-      <a class="btn btn-ink" href="https://calendly.com/katridout/one-question-consult">Choose a time</a>
+      <a class="btn btn-ink" href={fc.booking}>Choose a time</a>
     </div>
   </div>
 </section>
-<BookBar slot="after" label="One-Question Consult<br>$129 · 30 min · video" cta="Book now" href="#book" />
+<BookBar slot="after" label={`${fc.name}<br>${fc.fee} · 30 min · video`} cta="Book now" href="#book" />
 <script is:inline slot="after">
 (function(){var b=document.getElementById('bookbar');function t(){b.classList.toggle('show',window.scrollY>420)}window.addEventListener('scroll',t,{passive:true});t();})();
 </script>

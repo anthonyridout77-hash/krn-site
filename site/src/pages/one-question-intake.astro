@@ -12,12 +12,12 @@ import '../styles/article.css';
     <div class="wrap" style="max-width:40rem">
       <p class="eyebrow">One-Question Consult</p>
       <h1>Three short questions before we talk</h1>
-      <p>These take about two minutes and let Kat prepare, so the 30 minutes goes on your answer, not on background.</p>
+      <p>These take about two minutes and let Kat prepare, and check your concern suits a focused appointment.</p>
       <form id="iqForm" novalidate style="margin-top:1.5rem;display:grid;gap:1rem">
         <input type="hidden" id="iqKey" name="c">
         <input type="hidden" id="iqToken" name="t">
         <div>
-          <label for="iqQ">1. What is the one question you want answered?</label>
+          <label for="iqQ">1. What is the nutrition concern you would like help with?</label>
           <textarea id="iqQ" name="question" rows="3" required maxlength="1000"></textarea>
         </div>
         <div>
@@ -30,7 +30,7 @@ import '../styles/article.css';
         </div>
         <fieldset style="border:1px solid rgba(44,40,38,.15);border-radius:12px;padding:1rem 1.2rem">
           <legend style="padding:0 .4rem">4. How your written plan is prepared</legend>
-          <p style="margin:.2rem 0 .8rem">With your permission, our video call is transcribed. Kat uses the transcript and your answers above to prepare your one-page plan. Drafting software helps put it on the page; Kat reads and approves every word before anything is sent to you. The transcript and plan are kept in a restricted folder with your consult record and are not shared.</p>
+          <p style="margin:.2rem 0 .8rem">With your permission, our video call is transcribed. Kat uses the transcript and your answers above to prepare your brief written summary. Drafting software helps put it on the page; Kat reads and approves every word before anything is sent to you. The transcript and plan are kept in a restricted folder with your consult record and are not shared.</p>
           <label style="display:block;margin:.4rem 0"><input type="radio" name="consent" value="yes" checked> Yes, the call can be transcribed to help prepare my plan.</label>
           <label style="display:block;margin:.4rem 0"><input type="radio" name="consent" value="manual"> I would prefer manual notes only. Please do not record or transcribe the call.</label>
         </fieldset>
