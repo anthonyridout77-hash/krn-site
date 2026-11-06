@@ -5,7 +5,7 @@ Hi {{FIRSTNAME}},
 
 It has been a few days since I sent your one-page plan. A quick check-in: how is it going?
 
-If the first change felt easy, good. If it felt hard, that is useful information too, and worth a reply so I can suggest a smaller step. Most people find one change sticks faster than three, so if you have only done one thing from the plan, you are on track.
+If something in the plan is unclear, or harder to put into practice than it sounded on the call, reply and tell me. That is useful to know and I can suggest a smaller step.
 
 No need to reply if everything is fine. I am here if it is not.
 

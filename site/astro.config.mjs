@@ -8,7 +8,7 @@ export default defineConfig({
   trailingSlash: 'always',
   integrations: [sitemap({
     // noindex pages: keep out of the sitemap
-    filter: (page) => !/\/(thank-you|guide|telehealth-terms|one-question-consult)\/$/.test(page),
+    filter: (page) => !/\/(thank-you|guide|telehealth-terms|one-question-consult|one-question-intake|oneq-approve)\/$/.test(page),
   })],
   markdown: { remarkPlugins: [remarkStripTitle] },
   build: { inlineStylesheets: 'auto' },

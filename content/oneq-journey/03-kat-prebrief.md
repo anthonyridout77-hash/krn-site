@@ -1,20 +1,12 @@
-Subject: Pre-brief: {{NAME}}, One-Question Consult {{CONSULT_DATE}}
+Send: the day before the consult (6-hourly sweep), to Kat only
+Subject: Pre-brief: {{INITIAL}}, One-Question Consult {{CONSULT_DATE}}
 
-Internal, to Kat only.
+Your pre-brief for tomorrow's One-Question Consult (client {{INITIAL}}, key {{KEY}}) is in Drive, in the restricted KRN OneQ Jobs folder:
 
-Client: {{NAME}} ({{EMAIL}})
-Consult: {{CONSULT_DATE}} (Brisbane), Google Meet {{MEET_LINK}}
-Booked: {{BOOKED_AT}}. Paid $129 via Calendly/Stripe.
+[Link] Open the pre-brief {{PREBRIEF_DRIVE_LINK}}
 
-Their question
-"{{QUESTION}}"
+Intake: {{INTAKE_STATUS}}. Transcription consent: {{CONSENT}}. If consent is false, do not record the call; manual notes only.
 
-Context they gave
-{{CONTEXT}}
+After the call the transcript lands in Drive and the plan agent drafts a one-page plan marked UNAPPROVED DRAFT. You will get an approval request; nothing reaches the client until you approve the exact version you reviewed.
 
-What they have already tried
-{{TRIED}}
-
-Intake status: {{INTAKE_STATUS}} (if "not completed", the three questions were not answered; ask at the start of the call)
-
-After the call: the transcript lands in Drive > KRN OneQ Transcripts (your Meet recording folder is shared there). Claude drafts the one-page plan and emails you an Approve / Changes link. Nothing goes to the client until you tap Approve.
+The Drive file (not the email) holds: client name and email, consult time, Meet link, intake answers (question, context, tried), consent flag.

@@ -2,7 +2,7 @@ Subject: Your one-page plan, {{FIRSTNAME}}
 
 Hi {{FIRSTNAME}},
 
-Thank you for our conversation. Your one-page plan is attached, and you can also open it here: {{PLAN_LINK}}
+Thank you for our conversation. Your one-page plan is attached as a PDF.
 
 It covers the answer to your question, the two or three changes we agreed are worth making first, and what to watch for over the next few weeks. Keep it somewhere you will see it. If something in it is not clear, reply and ask.
 

@@ -2,3 +2,6 @@ User-agent: *
 Allow: /
 
 Sitemap: https://www.katridout.com.au/sitemap-index.xml
+
+Disallow: /oneq-approve/
+Disallow: /one-question-intake/
