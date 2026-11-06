@@ -25,6 +25,7 @@ Read this first in any new session. Updated 21 Oct 2026, 09:00 AEST.
 
 ## Done
 - WordPress exported 20 Oct: 90 blogs, 9 recipes, 14 services, 44 pages, 3 products, media index (392). Markdown in `content/`.
+- 6 Nov: Surf Pacific sent the handover pack (WP backup, old Next.js zip, EPP code, zone file). 480 original images/PDFs extracted from the backup into `site/public/images/wp/` (PR #2, branch `feat/wp-media`); `_redirects` maps `/wp-content/uploads/*` to `/images/wp/*`. Fixed branch preview builds (`previews: {}` in wrangler.jsonc, NODE_VERSION=22 on the preview env). Full backup + cut-over checklist in Anthony's `KRN Marketing/Surf Pacific migration/` folder.
 - Astro site: 127 pages build clean, all return 200 on the preview.
 - Docs: README, CLAUDE.md, deploy runbook, Surf Pacific handover checklist + email, decisions log, content model.
 - CI on GitHub (build check).
@@ -39,7 +40,7 @@ Read this first in any new session. Updated 21 Oct 2026, 09:00 AEST.
 | `content/hero-headline` | New homepage headline "Eat well for the baby you're hoping for, carrying, or holding." + lede with "mum of three" (replaces "Nourish your body. Empower your pregnancy.") | Kat approves (new public copy) |
 
 ## Open, in order
-1. Surf Pacific handover: cancellation date, registrar/DNS login, info@ mailbox host, `wp-content/uploads` (392 images; cannot be pulled from the cloud), GSC/GA4/GTM ownership. Email draft in docs/handover-surf-pacific.md.
+1. Surf Pacific handover: images DONE. Still open: Anthony transfers the domain into his own GoDaddy (EPP code in Lachlan's email), then Claude imports the edited zone into Anthony's Cloudflare and attaches katridout.com.au + www to the Worker (DNS gate). Ask Lachlan: info@ mailbox host (67.231.22.32), switch-off date, GSC/GA4/GTM ownership.
 2. Kat: approve One-Question Consult (price, name, scope), list general conditions, download new APD certificate, review the preview on her phone.
 3. Merge `content/service-rewrites` after Kat signs off (PR #1).
 4. Recipes: only titles came across; rebuild from Kat's originals.
