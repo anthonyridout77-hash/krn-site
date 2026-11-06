@@ -2,7 +2,7 @@
 /* Category filter chips + post grid. Used by /blogs/ and /blogs/category/[slug]/. */
 import type { CollectionEntry } from 'astro:content';
 import PostCard from './PostCard.astro';
-import { blogUrl, categoryUrl, byNewest, slugify } from '../lib/content';
+import { blogUrl, categoryUrl, byNewest, slugify, categoryLabel } from '../lib/content';
 
 interface Props { posts: CollectionEntry<'blog'>[]; all: CollectionEntry<'blog'>[]; active?: string }
 const { posts, all, active } = Astro.props;
@@ -22,21 +22,21 @@ const sorted = [...posts].sort(byNewest);
 <nav class="filters" aria-label="Filter articles by topic">
   <a class:list={['chip', { on: !active }]} href="/blogs/">All</a>
   {categories.map((c) => (
-    <a class:list={['chip', { on: active && slugify(c) === slugify(active) }]} href={categoryUrl(c)}>{c}</a>
+    <a class:list={['chip', { on: active && slugify(c) === slugify(active) }]} href={categoryUrl(c)}>{categoryLabel(c)}</a>
   ))}
 </nav>
-<p class="count" aria-live="polite" data-total={sorted.length} data-suffix={active ? ` in ${active}` : ''}>{sorted.length} {sorted.length === 1 ? 'article' : 'articles'}{active ? ` in ${active}` : ''}</p>
+<p class="count" aria-live="polite" data-total={sorted.length} data-suffix={active ? ` in ${categoryLabel(active)}` : ''}>{sorted.length} {sorted.length === 1 ? 'article' : 'articles'}{active ? ` in ${categoryLabel(active)}` : ''}</p>
 <p class="asearch-empty" hidden>No articles match that search. Try a simpler word, or <a href="https://calendly.com/katridout/15-minute-investigative-callback">book a free call</a> and ask Kat.</p>
 <div class="pgrid">
   {sorted.map((p) => (
-    <div class="asearch-item" data-q={[p.data.title, p.data.description ?? '', ...(p.data.categories ?? [])].join(' ').toLowerCase()}>
+    <div class="asearch-item" data-q={[p.data.title, p.data.description ?? '', ...(p.data.categories ?? []).map(categoryLabel)].join(' ').toLowerCase()}>
     <PostCard
       href={blogUrl(p)}
       title={p.data.title}
       description={p.data.description}
       image={p.data.image}
       imageAlt={p.data.imageAlt}
-      category={p.data.categories?.[0]}
+      category={p.data.categories?.[0] && categoryLabel(p.data.categories[0])}
       date={p.data.date}
       heading="h2"
     />

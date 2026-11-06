@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import Listing from '../../../layouts/Listing.astro';
 import BlogGrid from '../../../components/BlogGrid.astro';
-import { slugify } from '../../../lib/content';
+import { slugify, categoryLabel } from '../../../lib/content';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
@@ -14,13 +14,14 @@ export async function getStaticPaths() {
   }));
 }
 const { name, posts, all } = Astro.props;
+const label = categoryLabel(name);
 ---
 <Listing
-  title={`${name} articles`}
-  heading={`${name}`}
-  description={`Articles on ${name.toLowerCase()} from Katrina Ridout, Accredited Practising Dietitian. Fertility, pregnancy and postpartum nutrition, Brisbane and telehealth Australia-wide.`}
+  title={`${label} articles`}
+  heading={label}
+  description={`Articles on ${label === name ? name.toLowerCase() : label} from Katrina Ridout, Accredited Practising Dietitian. Fertility, pregnancy and postpartum nutrition, Brisbane and telehealth Australia-wide.`}
   lede="General information only; it is not a substitute for individual advice."
-  crumbs={[{ label: 'Home', href: '/' }, { label: 'Articles', href: '/blogs/' }, { label: name }]}
+  crumbs={[{ label: 'Home', href: '/' }, { label: 'Articles', href: '/blogs/' }, { label }]}
 >
   <BlogGrid posts={posts} all={all} active={name} />
 </Listing>

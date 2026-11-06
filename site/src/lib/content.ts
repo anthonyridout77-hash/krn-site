@@ -83,3 +83,9 @@ export function relatedPosts(
   }
   return picked;
 }
+
+
+/** Display label for a blog category. URL slugs stay as-is (e.g. /blogs/category/pcos/). */
+export function categoryLabel(c: string): string {
+  return /^pcos$/i.test(c.trim()) ? 'PMOS (PCOS)' : c;
+}
