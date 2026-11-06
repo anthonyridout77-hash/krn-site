@@ -11,7 +11,7 @@
 @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){ --bg:#15201B; --cream:#1C2A23; --mint:#1C2A23; --mint-2:#27382F; --fg:#E9F0EB; --fg-soft:#B7C6BD; --fg-fade:#86978D; --line:#2C3C33; --heading:#E9F0EB; --ink:#E9F0EB; --sage-deep:#7FA88F; color-scheme:dark } }
 :root[data-theme="dark"]{ --bg:#15201B; --cream:#1C2A23; --mint:#1C2A23; --mint-2:#27382F; --fg:#E9F0EB; --fg-soft:#B7C6BD; --fg-fade:#86978D; --line:#2C3C33; --heading:#E9F0EB; --ink:#E9F0EB; --sage-deep:#7FA88F; color-scheme:dark }
 *{box-sizing:border-box}
-html{scroll-behavior:smooth}
+html{scroll-behavior:smooth}@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--body);font-size:17px;line-height:1.5;letter-spacing:-.005em;-webkit-font-smoothing:antialiased;overflow-x:hidden}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:10}
 img,svg{max-width:100%}
@@ -275,3 +275,5 @@ footer .eyebrow{display:block;color:#fff;font-weight:600;font-size:.95rem}
 .cmp-card li{padding-left:1.2rem;position:relative}
 .cmp-card li::before{content:"";position:absolute;left:0;top:.55em;width:.5em;height:.5em;border-radius:50%;background:var(--sage-deep)}
 .cmp-card .btn{align-self:start;margin-top:.4rem}
+
+@media print{header,footer,.bookbar,.cta,.related,.skip,.btn,nav{display:none!important}body{background:#fff;color:#000}main{max-width:none}a[href^="http"]::after{content:" (" attr(href) ")";font-size:.85em}}

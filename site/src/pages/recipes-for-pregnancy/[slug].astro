@@ -12,6 +12,18 @@ const { recipe, all } = Astro.props;
 const { Content } = await render(recipe);
 const hasBody = (recipe.body ?? '').trim().length > 0;
 const more = all.filter((r) => r.id !== recipe.id).sort(byNewest).slice(0, 3);
+const body = recipe.body ?? '';
+const ing = (body.split('## Ingredients')[1] ?? '').split('## Method')[0].split('\n').filter((l) => l.startsWith('- ')).map((l) => l.slice(2).trim());
+const steps = (body.split('## Method')[1] ?? '').split('\n').filter((l) => /^\d+\. /.test(l)).map((l) => l.replace(/^\d+\. /, '').trim());
+const site = 'https://katridout.com.au';
+const schema = ing.length && steps.length ? {
+  '@context': 'https://schema.org', '@type': 'Recipe', name: recipe.data.title,
+  description: recipe.data.description ?? undefined,
+  image: recipe.data.image ? site + recipe.data.image : undefined,
+  author: { '@type': 'Person', name: 'Katrina Ridout', jobTitle: 'Accredited Practising Dietitian' },
+  datePublished: recipe.data.date, recipeYield: recipe.data.serves ?? undefined,
+  recipeIngredient: ing, recipeInstructions: steps.map((s) => ({ '@type': 'HowToStep', text: s })),
+} : null;
 ---
 <Article
   title={recipe.data.title}
@@ -23,6 +35,7 @@ const more = all.filter((r) => r.id !== recipe.id).sort(byNewest).slice(0, 3);
   ctaText="Book a free 15-minute call with Kat Ridout, Accredited Practising Dietitian, to talk through what would help. Telehealth Australia-wide or in person in Brisbane."
   cta="Book a free call"
 >
+  {schema && <script type="application/ld+json" set:html={JSON.stringify(schema)} />}
   <Content />
   {!hasBody && (
     <p class="empty">The full method for this recipe is being moved across to the new site. In the meantime, the recipe index has more ideas, and Kat is happy to talk through meal ideas on a free 15-minute call.</p>

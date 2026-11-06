@@ -14,7 +14,7 @@ Pre-conception Nutrition Specialist Brisbane
 
 ### Not sure where to start?
 Book a free 15-minute call with Kat. It is a short phone conversation about what is going on for you and whether working together would help. No preparation and no obligation.
-Book a free 15-minute call (https://calendly.com/katridout/15-minute-investigative-callback)
+[Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## Feel calm, supported and ready for the journey into motherhood
 
@@ -55,15 +55,11 @@ Most women with endometriosis are able to conceive naturally and go on to have a
 
 ### Not sure where to start?
 Book a free 15-minute call with Kat. It is a short phone conversation about what is going on for you and whether working together would help. No preparation and no obligation.
-Book a free 15-minute call (https://calendly.com/katridout/15-minute-investigative-callback)
-
-- #### Book Your Free 15-Minute Call
-
-Not sure where to start? Book a free 15-minute call with Katrina to talk through what you need. Enter your details below.
-
-No obligation to book a consult.
+[Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## Frequently Asked Questions
+
+### What is pre-conception nutrition, and why is it important?
 
 Pre-conception nutrition refers to the dietary and lifestyle choices made before pregnancy with the goal of optimising health for both the mother and the future baby. It is important because it can significantly impact fertility, the health of the mother during pregnancy, and the long-term health outcomes of the child.
 
@@ -73,6 +69,8 @@ Additionally, pre-conception nutrition can help reduce the risk of pregnancy com
 
 Overall, focusing on pre-conception nutrition is an important step in preparing for a healthy pregnancy and giving the baby the best possible start in life.
 
+### How soon before trying to conceive should I start focusing on my diet?
+
 It’s generally recommended to start focusing on your diet and overall health several months before trying to conceive. This allows time to make any necessary dietary and lifestyle changes, as well as to ensure that your body is in the best possible condition for pregnancy.
 
 For women, this preparation period can help ensure that you are getting all the necessary nutrients for a healthy pregnancy, such as folic acid, iron, and omega-3 fatty acids. For men, it can help improve sperm quality and motility, which are important factors in conception.
@@ -81,34 +79,11 @@ Starting to focus on your diet and health early also gives you time to address a
 
 Overall, the earlier you start focusing on your diet and health before trying to conceive, the better chance you have of optimising your fertility and having a healthy pregnancy.
 
+### I have a medical condition that affects my fertility. Can pre-conception nutrition help?
+
 Yes, pre-conception nutrition can play a significant role in managing certain medical conditions that affect fertility. Many medical conditions, such as polycystic ovary syndrome (PCOS), endometriosis, and thyroid disorders, can impact fertility by affecting hormone levels, ovulation, and overall reproductive health.
 
 A healthy diet and lifestyle can help manage these conditions and improve fertility. For example, in PCOS, a diet rich in whole grains, fruits, vegetables, lean proteins, and healthy fats can help regulate insulin levels and promote regular ovulation. Similarly, for endometriosis, an anti-inflammatory diet rich in fruits, vegetables, and omega-3 fatty acids may help reduce inflammation and improve fertility.
 
 It’s important to work with a healthcare provider or a dietitian who specialises in fertility to create a personalised nutrition plan tailored to your specific medical condition and needs. They can help you identify foods and nutrients that may be beneficial and provide guidance on lifestyle changes that can support your fertility journey.
 
- (/contact-us/) 
-
-### From our blog
-
-Stay up-to-date with the latest news and information
-
-Read More (/blogs/)
-
-New 
-
-### How does thyroid health affect fertility, and what should you eat?
-
-October 20, 2026 (/blogs/thyroid-health-fertility-diet/)### What should I eat while breastfeeding?
-
-October 19, 2026 (/blogs/what-should-i-eat-while-breastfeeding/)### What should a gestational diabetes meal plan look like?
-
-October 18, 2026 (/blogs/gestational-diabetes-meal-plan-guide/)### What foods should you avoid during pregnancy in Australia?
-
-October 18, 2026 (/blogs/foods-to-avoid-during-pregnancy-australia/)
-
-### Sign up for our monthly coaching e-mail
-
-## Start your journey today
-
- 1300 640 104

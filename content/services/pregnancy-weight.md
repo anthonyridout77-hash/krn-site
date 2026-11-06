@@ -15,7 +15,7 @@ Pregnancy Weight Brisbane
 
 ### Not sure where to start?
 Book a free 15-minute call with Kat. It is a short phone conversation about what is going on for you and whether working together would help. No preparation and no obligation.
-Book a free 15-minute call (https://calendly.com/katridout/15-minute-investigative-callback)
+[Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## What does healthy weight gain look like during pregnancy?
 
@@ -70,50 +70,31 @@ When we work together you receive:
 
 ### Not sure where to start?
 Book a free 15-minute call with Kat. It is a short phone conversation about what is going on for you and whether working together would help. No preparation and no obligation.
-Book a free 15-minute call (https://calendly.com/katridout/15-minute-investigative-callback)
-
-- #### Book Your Free 15-Minute Call
-
-Not sure where to start? Book a free 15-minute call with Katrina to talk through what you need. Enter your details below.
-
-No obligation to book a consult.
+[Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## Frequently Asked Questions
 
+### Is it safe to try to lose weight while pregnant?
+
 Pregnancy is not the time to focus on weight loss. Instead, the goal is to support your baby’s growth and your own wellbeing with balanced, nourishing foods. With the right guidance, you can manage your weight in a healthy way that benefits both you and your baby.
+
+### What factors influence pregnancy weight gain?
 
 Pregnancy weight gain is influenced by several factors, including the baby’s growth, increased blood volume, and fluid retention. Nutritional needs also change to support both mother and baby. Genetics, pre-pregnancy weight, and activity levels also play important roles. Additionally, hormonal changes can affect metabolism and appetite. It’s important to focus on balanced nutrition and regular check-ups with healthcare providers to ensure healthy weight gain during pregnancy.
 
+### How much weight should I gain during pregnancy?
+
 Healthy weight gain is different for every woman and depends on your pre-pregnancy weight, body type and overall health. What matters most is that you and your baby are well nourished. I’ll guide you in understanding what’s right for your body and help you feel confident in your pregnancy journey.
+
+### What if I’ve already gained more weight than recommended?
 
 Please don’t be hard on yourself; every pregnancy is different, and weight gain can vary widely. It’s never too late to make small, positive changes to your nutrition and lifestyle. Even gentle adjustments can help you feel better and support a healthy pregnancy for you and your baby.
 
+### What are some nutritious snacks that support healthy pregnancy weight?
+
 Nutritious snacks that support a healthy pregnancy weight include fresh fruits, nuts, Greek yoghurt, wholegrain crackers with avocado, and vegetable sticks with hummus. Katrina Ridout, an Accredited Practising Dietitian & Nutritionist based in Brisbane, recommends these choices as part of balanced pregnancy dishes. These snacks provide essential nutrients without excess calories, helping manage the hormonal changes during pregnancy that affect appetite. It’s also important to be mindful of things you can’t eat whilst pregnant, such as unpasteurised cheeses or raw seafood. For more nutritious recipes for pregnancy and personalised advice, consulting a trusted dietitian in Brisbane like Katrina Ridout can be very helpful.
+
+### How can I deal with cravings and still maintain healthy pregnancy weight?
 
 Katrina Ridout recommends managing cravings by choosing nutritious alternatives and practising mindful eating. Drinking plenty of water and eating regular meals can help reduce sudden hunger that often triggers cravings. She advises planning balanced snacks that include protein, fibre, and healthy fats to maintain energy and satisfaction. Understanding cravings as a normal part of pregnancy helps, but keeping portion sizes moderate supports healthy weight management. Consulting a dietitian can provide personalised strategies tailored to your needs.
 
- (/contact-us/) 
-
-### From our blog
-
-Stay up-to-date with the latest news and information
-
-Read More (/blogs/)
-
-New 
-
-### How does thyroid health affect fertility, and what should you eat?
-
-October 20, 2026 (/blogs/thyroid-health-fertility-diet/)### What should I eat while breastfeeding?
-
-October 19, 2026 (/blogs/what-should-i-eat-while-breastfeeding/)### What should a gestational diabetes meal plan look like?
-
-October 18, 2026 (/blogs/gestational-diabetes-meal-plan-guide/)### What foods should you avoid during pregnancy in Australia?
-
-October 18, 2026 (/blogs/foods-to-avoid-during-pregnancy-australia/)
-
-### Sign up for our monthly coaching e-mail
-
-## Start your journey today
-
- 1300 640 104

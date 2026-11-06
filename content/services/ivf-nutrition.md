@@ -15,7 +15,7 @@ Fertility and IVF Dietitian Australia
 
 ### Not sure where to start?
 Book a free 15-minute call with Kat. It is a short phone conversation about what is going on for you and whether working together would help. No preparation and no obligation.
-Book a free 15-minute call (https://calendly.com/katridout/15-minute-investigative-callback)
+[Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## Feel confident and supported as you prepare for IVF and fertility treatments with Kat Ridout by your side.
 
@@ -64,15 +64,11 @@ Find out more about how Kat Ridout can help you by contacting Kat today (/contac
 
 ### Not sure where to start?
 Book a free 15-minute call with Kat. It is a short phone conversation about what is going on for you and whether working together would help. No preparation and no obligation.
-Book a free 15-minute call (https://calendly.com/katridout/15-minute-investigative-callback)
-
-- #### Book Your Free 15-Minute Call
-
-Not sure where to start? Book a free 15-minute call with Katrina to talk through what you need. Enter your details below.
-
-No obligation to book a consult.
+[Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## Frequently Asked Questions
+
+### Is folic acid important during IVF?
 
 Yes. Folic acid is an essential nutrient during IVF and early pregnancy. It supports healthy cell division and helps with the development of the neural tube, reducing the risk of birth defects such as spina bifida.
 
@@ -81,6 +77,8 @@ Katrina Ridout, an Accredited Practising Dietitian specialising in fertility and
 In addition to supplements, eating foods rich in folate — such as leafy greens, legumes and fortified grains — can further support fertility and early fetal development.
 
 For personalised advice on supplementation and nutrition during IVF, it’s best to work with a dietitian or speak with your fertility specialist.
+
+### How important is diet during IVF?
 
 Diet plays an important role in supporting IVF success. A well-balanced and nutritious diet can:
 
@@ -95,6 +93,8 @@ Diet plays an important role in supporting IVF success. A well-balanced and nutr
 - Optimise overall reproductive health
 
 Because every woman’s body and fertility journey is unique, personalised advice can make a real difference. Working with a fertility dietitian like Katrina Ridout ensures that your nutrition plan is tailored to your needs, helping you feel confident and supported throughout the IVF process.
+
+### What foods should be avoided during IVF?
 
 During IVF, it is best to limit or avoid foods and drinks that may interfere with hormone balance or increase inflammation. These include:
 
@@ -116,11 +116,15 @@ During IVF, it is best to limit or avoid foods and drinks that may interfere wit
 
 Every woman’s nutritional needs are different, so personalised advice is important. Working with a fertility dietitian like Katrina Ridout can help you create a safe, balanced and supportive nutrition plan for your IVF journey.
 
+### Should I include healthy fats in my IVF diet?
+
 Yes. Healthy fats are an important part of an IVF-friendly diet. They support hormone production, improve egg quality and play a role in overall reproductive health.
 
 Good sources of healthy fats include avocados, olive oil, nuts, seeds and oily fish. Omega-3 fatty acids, found in foods like salmon, chia seeds and flaxseeds, are especially beneficial as they help reduce inflammation and support the reproductive system.
 
 Katrina Ridout, an Accredited Practising Dietitian specialising in fertility and pregnancy, encourages women to include these nourishing fats as part of a balanced diet to give their bodies the best foundation during IVF.
+
+### What foods best complement an IVF treatment?
 
 A balanced, whole-food diet can support your body through IVF and improve reproductive health. Focus on:
 
@@ -140,6 +144,8 @@ It’s also important to be mindful with caffeine, practise stress management an
 
 For tailored support, working with a fertility dietitian like Katrina Ridout can ensure your nutrition plan is designed to meet your specific needs and give you the best possible foundation for IVF success.
 
+### Are there specific foods that boost fertility during IVF?
+
 Yes. Certain foods can help support reproductive health during IVF by providing key nutrients that assist with hormone balance, egg quality and overall wellbeing. Katrina Ridout, an Accredited Practising Dietitian specialising in fertility and pregnancy, emphasises that these foods are most effective when part of a balanced lifestyle that also includes hydration, stress management and healthy daily habits.
 
 Some fertility-supportive foods include:
@@ -156,28 +162,3 @@ Some fertility-supportive foods include:
 
 Kat often recommends weaving these ingredients into simple, nourishing meals that fit your lifestyle. For personalised advice, it is best to consult with a fertility dietitian who can tailor recommendations to your unique needs.
 
- (/contact-us/) 
-
-### From our blog
-
-Stay up-to-date with the latest news and information
-
-Read More (/blogs/)
-
-New 
-
-### How does thyroid health affect fertility, and what should you eat?
-
-October 20, 2026 (/blogs/thyroid-health-fertility-diet/)### What should I eat while breastfeeding?
-
-October 19, 2026 (/blogs/what-should-i-eat-while-breastfeeding/)### What should a gestational diabetes meal plan look like?
-
-October 18, 2026 (/blogs/gestational-diabetes-meal-plan-guide/)### What foods should you avoid during pregnancy in Australia?
-
-October 18, 2026 (/blogs/foods-to-avoid-during-pregnancy-australia/)
-
-### Sign up for our monthly coaching e-mail
-
-## Start your journey today
-
- 1300 640 104

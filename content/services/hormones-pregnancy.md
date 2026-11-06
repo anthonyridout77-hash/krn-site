@@ -15,7 +15,7 @@ Pregnancy nutrition specialist Brisbane
 
 ### Not sure where to start?
 Book a free 15-minute call with Kat. It is a short phone conversation about what is going on for you and whether working together would help. No preparation and no obligation.
-Book a free 15-minute call (https://calendly.com/katridout/15-minute-investigative-callback)
+[Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## Guiding you through the hormonal ups and downs of pregnancy
 
@@ -86,52 +86,31 @@ If you are ready to feel confident and cared for during your pregnancy, I would 
 
 ### Not sure where to start?
 Book a free 15-minute call with Kat. It is a short phone conversation about what is going on for you and whether working together would help. No preparation and no obligation.
-Book a free 15-minute call (https://calendly.com/katridout/15-minute-investigative-callback)
-
-- #### Book Your Free 15-Minute Call
-
-Not sure where to start? Book a free 15-minute call with Katrina to talk through what you need. Enter your details below.
-
-No obligation to book a consult.
+[Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## Frequently Asked Questions
 
+### What role do hormones play in pregnancy?
+
 Hormones play a crucial role in pregnancy by regulating various physiological changes that support fetal development. Key hormones like human chorionic gonadotropin (hCG), progesterone, and oestrogen are essential in maintaining a healthy pregnancy. They aid in placenta development, promote the baby’s growth, and prepare the body for childbirth. These hormones also influence metabolism and appetite, which is why guidance from a pregnancy dietitian and nutritionist can be beneficial in ensuring proper nutrition. A well-balanced diet, including healthy pregnancy recipes, supports both maternal and fetal health. For personalised advice on suitable diet plans or nutrition in Brisbane, consulting Katrina Ridout can help create a tailored approach to meet your specific needs.
 
+### What foods help balance pregnancy hormones?
+
 During pregnancy, maintaining balanced hormones is crucial for both the mother and the developing baby. Foods rich in healthy fats, such as avocados, nuts, and seeds, can support hormone production. Additionally, incorporating lean proteins like chicken, fish, and legumes helps stabilise blood sugar levels, which in turn balances hormones. Katrina Ridout, an Accredited Practising Dietitian & Nutritionist, emphasises the importance of nutrient-dense, whole foods to support hormonal balance throughout pregnancy. Hydration and regular meals with a mix of complex carbs, protein, and healthy fats are key for optimal hormone regulation.
+
+### How do hormone levels change throughout pregnancy?
 
 Hormone levels shift dramatically during pregnancy to support your baby’s development and prepare your body for birth. In the early weeks, hormones like human chorionic gonadotropin (hCG) rise quickly to support the pregnancy. Progesterone increases to maintain the uterine lining, while oestrogen helps your baby grow and gets your breasts ready for milk production. As pregnancy progresses, relaxin rises to prepare your body for labour and delivery.
 
 These changes are natural, but they can also affect how you feel physically and emotionally. The right nutrition can play a big role in helping you adapt to these changes. As a pregnancy dietitian, I provide personalised guidance to help you maintain a balanced diet that supports your hormones, keeps you nourished and makes you feel more confident throughout your pregnancy journey.
 
+### What are pregnancy hormones and why are they important?
+
 Pregnancy hormones are natural chemicals your body produces to support a healthy pregnancy. Some of the key ones include human chorionic gonadotrophin (hCG), progesterone, oestrogen, relaxin and prolactin. Each plays an important role — from supporting the early development of the placenta and maintaining the uterine lining to preparing your body for labour, birth and breastfeeding. These hormones also influence your metabolism, mood and immune system throughout pregnancy.
 
 Because these hormonal changes affect everything from your energy levels to your digestion, it’s important to support your body with the right nutrition. As a pregnancy dietitian, I provide personalised nutrition guidance to help you feel your best and ensure your baby receives all the nourishment it needs. Together, we can make pregnancy nutrition simple, practical and supportive for both you and your baby.
 
+### Does eating certain foods help balance pregnancy hormones?
+
 Yes, consuming certain foods can help support hormonal balance during pregnancy. A well-balanced diet that includes healthy fats, high-fibre foods, quality protein, and a variety of fruits and vegetables can play an important role in supporting your body’s natural hormone shifts. Nutrients like omega-3 fatty acids (found in oily fish, walnuts, and flaxseeds), B vitamins, and magnesium are particularly helpful for supporting hormone production and function. Katrina Ridout Nutrition takes a personalised approach to help you choose the right foods and create a nutrition plan that supports both you and your baby through every stage of pregnancy.
 
- (/contact-us/) 
-
-### From our blog
-
-Stay up-to-date with the latest news and information
-
-Read More (/blogs/)
-
-New 
-
-### How does thyroid health affect fertility, and what should you eat?
-
-October 20, 2026 (/blogs/thyroid-health-fertility-diet/)### What should I eat while breastfeeding?
-
-October 19, 2026 (/blogs/what-should-i-eat-while-breastfeeding/)### What should a gestational diabetes meal plan look like?
-
-October 18, 2026 (/blogs/gestational-diabetes-meal-plan-guide/)### What foods should you avoid during pregnancy in Australia?
-
-October 18, 2026 (/blogs/foods-to-avoid-during-pregnancy-australia/)
-
-### Sign up for our monthly coaching e-mail
-
-## Start your journey today
-
- 1300 640 104

@@ -14,7 +14,7 @@ Pregnancy nutritionist brisbane
 
 ### Not sure where to start?
 Book a free 15-minute call with Kat. It is a short phone conversation about what is going on for you and whether working together would help. No preparation and no obligation.
-Book a free 15-minute call (https://calendly.com/katridout/15-minute-investigative-callback)
+[Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## Nourishing you and your baby every step of the way
 
@@ -58,7 +58,7 @@ When you’re pregnant, your immune system naturally lowers to help protect your
 
 Accredited Practising Dietitian Katrina Ridout offers a range of premium services & nutritional advice – focused on helping you through the pregnancy journey, no matter your circumstances.
 
-Here’s some other specific areas on how Kat can help you ➡️
+Here are some other specific areas where Kat can help you:
 
 - Gestational Diabetes Mellitus
 - Hormones and Pregnancy
@@ -88,15 +88,15 @@ I know this might sound daunting. You may even be thinking, “It’s too late, 
 
 ### What can influence how much weight you gain during pregnancy?
 
-➡️ How and what you eat
+- How and what you eat
 
-➡️ How active you are during your pregnancy
+- How active you are during your pregnancy
 
-➡️ Pregnancy-related symptoms (nausea and fatigue)
+- Pregnancy-related symptoms (nausea and fatigue)
 
-➡️ Changes to your appetite. (food cravings and aversions)
+- Changes to your appetite. (food cravings and aversions)
 
-➡️ Fluid retention
+- Fluid retention
 
 Remember, every woman’s pregnancy is different, and weight gain will look different for everyone. Try not to compare your journey to anyone else’s. Instead, focus on what feels healthy and sustainable for you and your baby.
 
@@ -108,40 +108,23 @@ Why take unnecessary risks or try to figure it out all on your own? Book a consu
 
 ### Not sure where to start?
 Book a free 15-minute call with Kat. It is a short phone conversation about what is going on for you and whether working together would help. No preparation and no obligation.
-Book a free 15-minute call (https://calendly.com/katridout/15-minute-investigative-callback)
+[Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## Frequently Asked Questions
 
+### How much weight should I gain during pregnancy?
+
 Healthy weight gain in pregnancy is different for every woman and depends on your pre-pregnancy BMI, your health and your baby’s needs. Rather than focusing on the scales, I’ll help you understand what’s right for your body and support you with realistic nutrition strategies for healthy, steady weight gain.
+
+### What foods should I avoid while pregnant?
 
 Some foods carry a higher risk of foodborne illness or can affect your baby’s development. These include raw or undercooked meats and eggs, certain seafood, soft cheeses, unpasteurised dairy, and pre-prepared foods that may not be stored safely. I’ll guide you on safe food choices and show you simple swaps so you never feel restricted.
 
+### Can nutrition help with pregnancy symptoms like nausea and fatigue?
+
 Yes. The right foods and eating patterns can help reduce common pregnancy symptoms such as morning sickness, constipation, reflux, fatigue and cravings. Together, we’ll tailor strategies that fit your lifestyle and ease these challenges so you can feel more comfortable and energised..
+
+### Do I need to take supplements during pregnancy?
 
 Supplements such as folic acid, iodine and vitamin D are often recommended in addition to a balanced diet. Which ones you need will depend on your health, lifestyle and diet. I’ll help you identify what’s essential and make sure your supplement choices are safe and effective for both you and your baby.
 
- (/contact-us/) 
-
-### From our blog
-
-Stay up-to-date with the latest news and information
-
-Read More (/blogs/)
-
-New 
-
-### How does thyroid health affect fertility, and what should you eat?
-
-October 20, 2026 (/blogs/thyroid-health-fertility-diet/)### What should I eat while breastfeeding?
-
-October 19, 2026 (/blogs/what-should-i-eat-while-breastfeeding/)### What should a gestational diabetes meal plan look like?
-
-October 18, 2026 (/blogs/gestational-diabetes-meal-plan-guide/)### What foods should you avoid during pregnancy in Australia?
-
-October 18, 2026 (/blogs/foods-to-avoid-during-pregnancy-australia/)
-
-### Sign up for our monthly coaching e-mail
-
-## Start your journey today
-
- 1300 640 104

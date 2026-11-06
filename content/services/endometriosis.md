@@ -15,7 +15,7 @@ Pregnancy and Endometriosis Brisbane
 
 ### Not sure where to start?
 Book a free 15-minute call with Kat. It is a short phone conversation about what is going on for you and whether working together would help. No preparation and no obligation.
-Book a free 15-minute call (https://calendly.com/katridout/15-minute-investigative-callback)
+[Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## Endometriosis may affect fertility, but with the right care, pregnancy is still possible
 
@@ -80,19 +80,19 @@ To receive nutritional help from Brisbane’s leading pregnancy nutritionist, pl
 
 ### Not sure where to start?
 Book a free 15-minute call with Kat. It is a short phone conversation about what is going on for you and whether working together would help. No preparation and no obligation.
-Book a free 15-minute call (https://calendly.com/katridout/15-minute-investigative-callback)
-
-- #### Book Your Free 15-Minute Call
-
-Not sure where to start? Book a free 15-minute call with Katrina to talk through what you need. Enter your details below.
-
-No obligation to book a consult.
+[Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## Frequently Asked Questions
 
+### What is endometriosis?
+
 Endometriosis is a condition where the tissue lining the uterus grows outside of it, causing pain, heavy periods, infertility, and other symptoms. It is diagnosed through medical history, physical exams, and sometimes surgery. Treatment options include pain medication, hormone therapy, and surgery.
 
+### What causes endometriosis?
+
 The exact cause of endometriosis is not known, but possible factors include retrograde menstruation, hormonal imbalances, genetic factors, immune system issues, and embryonic cell transformation.
+
+### How does diet affect endometriosis?
 
 Diet can potentially influence endometriosis symptoms and overall well-being, although its impact may vary from person to person. While no specific diet has been proven to cure or completely eliminate endometriosis, certain dietary choices can be beneficial. Here are some ways in which diet may affect endometriosis:
 
@@ -108,6 +108,8 @@ Diet can potentially influence endometriosis symptoms and overall well-being, al
 
 It's important to note that dietary changes alone may not be sufficient to manage endometriosis, and it's advisable to consult with a healthcare professional or a registered dietitian who specialises in endometriosis to create a personalised diet plan based on individual needs and symptoms.
 
+### What foods are good for the treatment of Endometriosis?
+
 Endometriosis is a painful disorder that affects the tissue lining the uterus, causing it to grow outside the uterus. While there is no specific diet that can cure endometriosis, there are certain foods that may help reduce symptoms and inflammation. Here are some foods that may be beneficial for individuals with endometriosis:
 
 - Fruits and Vegetables: A diet rich in fruits and vegetables can help reduce inflammation in the body. Berries, leafy greens, broccoli, and carrots are all good choices.
@@ -121,6 +123,8 @@ Endometriosis is a painful disorder that affects the tissue lining the uterus, c
 - Lean Protein: Lean protein sources, such as chicken, turkey, fish, and tofu, can help provide energy and reduce inflammation in the body.
 
 It's important to note that every person with endometriosis may have different dietary needs and triggers, so it's important to work with a healthcare provider or registered dietitian to develop a personalised nutrition plan.
+
+### Which foods can trigger an endometriosis flare-up?
 
 Certain foods may trigger an endometriosis flare-up in some individuals. These foods include:
 
@@ -142,11 +146,17 @@ Certain foods may trigger an endometriosis flare-up in some individuals. These f
 
 However, it's important to note that every person with endometriosis may have different dietary triggers and needs, so it's essential to work with a healthcare provider or registered dietitian to identify specific trigger foods and develop a personalised nutrition plan.
 
+### What Is Endometriosis, and its dietary precautions to follow?
+
 Endometriosis is a condition where the uterine lining grows outside the uterus, causing inflammation and pain. Dietary precautions that may be beneficial include increasing intake of fruits and vegetables, choosing healthy fats, avoiding red and processed meats, high-fat dairy, caffeine, alcohol, and sugary foods, choosing whole grains and fiber-rich foods, and trying anti-inflammatory spices. Work with a healthcare provider or registered dietitian to develop a personalised nutrition plan.
+
+### Is there a cure for endometriosis?
 
 Although there is currently no definitive cure for endometriosis, many individuals find symptom relief through certain dietary adjustments. Consuming a diet filled with fruits, vegetables, and whole grains can provide essential nutrients and fibre, potentially reducing inflammation. Limiting processed foods and sugars, known to increase inflammation, may also help manage symptoms. Incorporating omega-3-rich foods, such as fish, flaxseeds, and walnuts, could provide anti-inflammatory benefits. Reducing the intake of caffeine and alcohol, which can heighten oestrogen levels, may further help manage endometriosis symptoms. Staying well-hydrated with plenty of water aids digestion and prevents constipation, potentially alleviating the pain associated with endometriosis. 
 
 However, everybody is unique, and what works for one person may not work for another. Therefore, it's crucial to consult with healthcare providers or registered dietitians before undertaking significant dietary modifications, as part of a broader conversation about managing endometriosis symptoms and overall health.
+
+### How is endometriosis diagnosed?
 
 The diagnosis of endometriosis typically involves a combination of medical history, physical examination, and sometimes imaging and surgical procedures. Here's an overview of the diagnostic process:
 
@@ -163,6 +173,8 @@ The diagnosis of endometriosis typically involves a combination of medical histo
 Remember, the only way to definitively diagnose endometriosis is through laparoscopy and biopsy. Other tests and examinations help in gathering supporting information and ruling out other conditions.
 
 If you suspect you have endometriosis or are experiencing symptoms consistent with the condition, it's important to consult a healthcare professional. They can guide you through the diagnostic process and develop an appropriate treatment plan if necessary.
+
+### What are the common symptoms of endometriosis?
 
 Endometriosis can manifest with a wide range of symptoms that vary in severity from person to person. Common symptoms of endometriosis include:
 
@@ -190,28 +202,3 @@ Endometriosis can manifest with a wide range of symptoms that vary in severity f
 
 It's important to note that the severity of symptoms does not always correlate with the extent of endometriosis. Some individuals with mild endometriosis might experience severe pain, while others with extensive lesions might have minimal symptoms. If you suspect you have endometriosis or are experiencing any of these symptoms, it's recommended to seek medical evaluation and guidance for proper diagnosis and management.
 
- (/contact-us/) 
-
-### From our blog
-
-Stay up-to-date with the latest news and information
-
-Read More (/blogs/)
-
-New 
-
-### How does thyroid health affect fertility, and what should you eat?
-
-October 20, 2026 (/blogs/thyroid-health-fertility-diet/)### What should I eat while breastfeeding?
-
-October 19, 2026 (/blogs/what-should-i-eat-while-breastfeeding/)### What should a gestational diabetes meal plan look like?
-
-October 18, 2026 (/blogs/gestational-diabetes-meal-plan-guide/)### What foods should you avoid during pregnancy in Australia?
-
-October 18, 2026 (/blogs/foods-to-avoid-during-pregnancy-australia/)
-
-### Sign up for our monthly coaching e-mail
-
-## Start your journey today
-
- 1300 640 104

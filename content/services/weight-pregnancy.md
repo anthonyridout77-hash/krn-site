@@ -15,7 +15,7 @@ Pregnancy weight management specialist Brisbane
 
 ### Not sure where to start?
 Book a free 15-minute call with Kat. It is a short phone conversation about what is going on for you and whether working together would help. No preparation and no obligation.
-Book a free 15-minute call (https://calendly.com/katridout/15-minute-investigative-callback)
+[Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## A healthy weight supports your baby’s best start — and it’s never too late to begin
 
@@ -56,44 +56,19 @@ If you would like guidance on how to safely nourish yourself and your baby durin
 
 ### Not sure where to start?
 Book a free 15-minute call with Kat. It is a short phone conversation about what is going on for you and whether working together would help. No preparation and no obligation.
-Book a free 15-minute call (https://calendly.com/katridout/15-minute-investigative-callback)
-
-- #### Book Your Free 15-Minute Call
-
-Not sure where to start? Book a free 15-minute call with Katrina to talk through what you need. Enter your details below.
-
-No obligation to book a consult.
+[Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## Frequently Asked Questions
 
+### Why is food safety so important during pregnancy?
+
 During pregnancy, your immune system naturally lowers to help protect your growing baby. This makes you more vulnerable to foodborne illnesses such as listeria and salmonella. Being mindful with food choices and preparation helps protect both you and your baby.
+
+### What foods should I avoid while pregnant?
 
 It’s best to avoid foods with a higher risk of contamination, such as raw or undercooked meat and eggs, soft cheeses, chilled seafood, deli meats, unpasteurised milk or juice, and pre-prepared salads. I’ll guide you with safe alternatives so you never feel restricted.
 
+### Can nutrition really strengthen my immune system during pregnancy?
+
 Yes. While your immune system naturally changes in pregnancy, the right nutrition can help keep it strong. Eating a balanced diet rich in vitamins, minerals, antioxidants, lean proteins and healthy fats can support both your immunity and your baby’s growth.
 
- (/contact-us/) 
-
-### From our blog
-
-Stay up-to-date with the latest news and information
-
-Read More (/blogs/)
-
-New 
-
-### How does thyroid health affect fertility, and what should you eat?
-
-October 20, 2026 (/blogs/thyroid-health-fertility-diet/)### What should I eat while breastfeeding?
-
-October 19, 2026 (/blogs/what-should-i-eat-while-breastfeeding/)### What should a gestational diabetes meal plan look like?
-
-October 18, 2026 (/blogs/gestational-diabetes-meal-plan-guide/)### What foods should you avoid during pregnancy in Australia?
-
-October 18, 2026 (/blogs/foods-to-avoid-during-pregnancy-australia/)
-
-### Sign up for our monthly coaching e-mail
-
-## Start your journey today
-
- 1300 640 104
