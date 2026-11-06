@@ -12,19 +12,18 @@ const rebate = '$63.40';
 const CALL = 'https://calendly.com/katridout/15-minute-investigative-callback';
 
 const starters = [
-  { id: 'call', name: 'Free introductory call', best: 'You are not sure where to start', time: '15 minutes, phone', price: 'Free', get: 'A short conversation about whether Kat is the right fit and which option suits you. No advice is given on the call.', cta: 'Book a free call', href: CALL, coral: false },
-  { id: 'oneq', name: 'One-Question Consult', best: 'One focused nutrition question', time: '30 minutes, video', price: 'Fee shown on the booking page, prepaid', get: 'Your question answered properly and a one-page written plan within 2 business days. New clients only. Private-pay, no referral needed.', cta: 'See how it works', href: '/one-question-consult/', coral: true },
-  { id: 'initial', name: 'Initial consultation', best: 'A complete assessment', time: '75 minutes, Milton or telehealth', price: 'Fee confirmed when you book', get: 'Full assessment, your individualised supplement plan, starter meal plan, recipe booklet, snack ideas and a goals summary, all within 2 business days. Medicare rebate may apply with a GP referral.', cta: 'Book a free call to start', href: CALL, coral: false },
+  { id: 'call', q: 'Not sure where to start?', name: 'Free introductory call', best: 'Anyone deciding what support they need', time: '15 minutes, phone', what: 'Talk through what you are looking for and whether Kat can help. Personalised nutrition advice is kept for a consultation.', get: 'A clear next step, with no obligation.', paid: false, cta: 'Book a free call', href: CALL, coral: false },
+  { id: 'oneq', q: 'Have one focused nutrition question?', name: 'One-Question Consult', best: 'New clients with one specific question', time: '30 minutes, video', what: 'Kat answers your question properly. This is not a full assessment or a full meal plan.', get: 'A one-page written plan within 2 business days.', paid: true, cta: 'View consult details and fee', href: '/one-question-consult/', coral: true },
+  { id: 'initial', q: 'Need a full assessment or ongoing support?', name: 'Initial consultation', best: 'Anyone wanting a complete picture and a plan', time: '75 minutes, Milton or telehealth', what: 'A full assessment of your history, bloods, medications and eating, then Kat helps you decide whether individual appointments or a program suits you.', get: 'Assessment summary, individualised supplement plan, starter meal plan, recipe booklet, snack ideas and goals summary, within 2 business days.', paid: true, cta: 'Discuss my options with Kat', href: CALL, coral: false, note: 'Goes to the free introductory call booking page.' },
 ];
 
-const cols = ['Free call', 'One-Question Consult', 'Initial consultation', 'The Program'];
+const cols = ['Free call', 'One-Question Consult', 'Initial consultation'];
 const rows: { label: string; cells: string[] }[] = [
-  { label: 'Who it suits', cells: ['Anyone deciding', 'New clients with one question', 'New clients wanting a full assessment', 'New or existing clients over a stage of life'] },
-  { label: 'Duration and format', cells: ['15 min, phone', '30 min, video', '75 min, Milton or telehealth', '5 appointments over about 12 weeks (8 across a pregnancy)'] },
-  { label: 'Assessment', cells: ['—', 'Focused on your question', 'Complete', 'Complete, then reviewed at each appointment'] },
-  { label: 'Written takeaway', cells: ['—', 'One-page plan, 2 business days', 'Full plan and resources, 2 business days', 'Full plan, then updates after each review'] },
-  { label: 'Follow-up', cells: ['—', 'Fee credited if you continue within 30 days', 'Reviews booked as needed', 'Built in, timed to your stage'] },
-  { label: 'Fee and rebates', cells: ['Free', 'Shown on booking page; no Medicare', 'Confirmed when you book; Medicare may apply with a GP plan', 'Confirmed on your free call; instalments available; Medicare may apply with a GP plan'] },
+  { label: 'Who it suits', cells: ['Anyone deciding', 'New clients with one question', 'Anyone wanting a full assessment'] },
+  { label: 'Duration and format', cells: ['15 min, phone', '30 min, video', '75 min, Milton or telehealth'] },
+  { label: 'Assessment', cells: ['None (no advice given)', 'Focused on your question', 'Complete'] },
+  { label: 'Written takeaway', cells: ['None', 'One-page plan, 2 business days', 'Full plan and resources, 2 business days'] },
+  { label: 'Follow-up', cells: ['Kat suggests a next step', 'Fee credited if you continue within 30 days', 'Review appointments or a program, your choice'] },
 ];
 
 const schema = {
@@ -39,7 +38,7 @@ const schema = {
     {
       '@type': 'FAQPage',
       mainEntity: [
-        { '@type': 'Question', name: 'Do I have to commit to a program?', acceptedAnswer: { '@type': 'Answer', text: 'No. You can book a single initial consultation. Most clients continue into The Program, and if you decide to continue within 14 days your initial consultation counts as the first appointment of the program.' } },
+        { '@type': 'Question', name: 'Do I have to commit to a program?', acceptedAnswer: { '@type': 'Answer', text: 'No. You can book a single initial consultation. If you decide to continue within 14 days your initial consultation counts as the first appointment of the program.' } },
         { '@type': 'Question', name: 'How many appointments are in a program?', acceptedAnswer: { '@type': 'Answer', text: 'The Program is five appointments: one 75-minute initial consultation and four reviews, usually across about 12 weeks. The Journey is eight: one initial consultation and seven reviews spaced across a pregnancy and into the first weeks after birth. Timing is flexible to you.' } },
         { '@type': 'Question', name: 'Does Medicare cover dietitian consultations?', acceptedAnswer: { '@type': 'Answer', text: 'If your GP refers you under a GP Chronic Condition Management Plan you may receive a Medicare rebate of $63.40 per consultation for up to five allied-health visits a calendar year. Eligibility is your GP\'s decision. Private health extras may also apply; you cannot claim both for the same consultation.' } },
       ],
@@ -51,66 +50,72 @@ const schema = {
   title="Consultations"
   description="Choose the support that fits you: a free introductory call, a One-Question Consult or a full initial consultation with Katrina Ridout, Accredited Practising Dietitian. How programs work and how Medicare rebates apply."
   crumbs={[{ label: 'Home', href: '/' }, { label: 'Consultations' }]}
-  lede="Start with one focused question or a full nutrition assessment. If you are unsure, a free introductory call helps you decide. Fees are confirmed when you book or on your free call, so you always know the cost before you commit."
-  ctaHeading="Still not sure?"
+  lede="Choose your starting point. Start with one focused question or a full nutrition assessment, or book a free introductory call if you are unsure."
+  ctaHeading="Still unsure?"
   ctaText="Book a free 15-minute call. No advice is given on the call, it is for working out whether Kat is the right fit and which option suits you."
 >
   <script type="application/ld+json" slot="head" set:html={JSON.stringify(schema)} />
 
   <nav class="jump" aria-label="On this page">
     <a href="#start">Where to start</a>
-    <a href="#ongoing">Ongoing support</a>
+    <a href="#ongoing">How ongoing support works</a>
     <a href="#pathways">Your situation</a>
     <a href="#compare">Compare</a>
     <a href="#medicare">Medicare and payment</a>
   </nav>
 
-  <h2 id="start">Choose where to start</h2>
+  <h2 id="start">Choose your starting point</h2>
   <div class="starters">
     {starters.map((s) => (
       <article class={`starter starter-${s.id}`}>
-        <h3>{s.name}</h3>
+        <p class="q">{s.q}</p>
+        <h3>{s.name} {s.paid ? <span class="tag">Paid consultation</span> : <span class="tag tag-free">Free</span>}</h3>
         <dl>
-          <div><dt>Best for</dt><dd>{s.best}</dd></div>
-          <div><dt>Time and format</dt><dd>{s.time}</dd></div>
-          <div><dt>Fee</dt><dd>{s.price}</dd></div>
+          <div><dt>Who it suits</dt><dd>{s.best}</dd></div>
+          <div><dt>Duration and format</dt><dd>{s.time}</dd></div>
+          <div><dt>What happens</dt><dd>{s.what}</dd></div>
           <div><dt>What you receive</dt><dd>{s.get}</dd></div>
         </dl>
         <a class={`btn ${s.coral ? 'btn-coral' : 'btn-line'}`} href={s.href}>{s.cta}</a>
+        {'note' in s && <p class="card-note">{(s as any).note}</p>}
       </article>
     ))}
   </div>
+  <p class="reassure"><b>Kat will explain the fees and inclusions before you decide to proceed.</b> The One-Question Consult fee is shown on its page before you pay. For initial consultations and programs, fees and options are discussed on your free call. The free call does not commit you to anything, and there is no obligation to book ongoing care.</p>
 
   <aside class="existing">
-    <p><b>Already working with Kat?</b> Book a review consultation (30 minutes, or 45 for a change of stage) through your usual link, or <a href="/contact-us/">contact the clinic</a>.</p>
+    <p><b>Already a client?</b> Book a review consultation (30 minutes, or 45 for a change of stage) through your usual link, or <a href="/contact-us/">contact the clinic</a>.</p>
   </aside>
 
-  <h2 id="ongoing">What ongoing support looks like</h2>
-  <p>You can start with a single initial consultation. Most of what Kat helps with unfolds over months rather than one hour, so most clients continue into a program. If you decide to continue within 14 days, your initial consultation counts as the first appointment.</p>
+  <h2 id="ongoing">How ongoing support works</h2>
+  <ol class="flow">
+    <li><b>Assessment.</b> Your initial consultation: history, bloods, medications, eating and goals.</li>
+    <li><b>Practical plan.</b> Supplement plan, starter meal plan and resources, within 2 business days.</li>
+    <li><b>Reviews and adjustments.</b> Shorter appointments to check what is working and update the plan as results and your stage change.</li>
+  </ol>
+  <p>You can book appointments one at a time, or as a program. Programs include the initial consultation, so they are not a separate starting appointment. If you start with a single initial consultation and decide to continue within 14 days, it counts as the first appointment of the program.</p>
   <div class="programs">
     <article class="program">
-      <p class="eyebrow">Most clients choose</p>
       <h3>The Program</h3>
-      <p><b>5 appointments:</b> your 75-minute initial consultation plus four reviews (30, 45, 30 and 30 minutes), usually across about 12 weeks and flexible to your stage.</p>
-      <p>Includes everything in the initial consultation, a 45-minute pathology review with your meal plan and supplement plan updated to your results, a partner handout, and messaging support between appointments. Use within 12 months. Instalments available.</p>
+      <p><b>5 appointments in total:</b> the 75-minute initial consultation plus four reviews (30, 45, 30 and 30 minutes), usually across about 12 weeks and flexible to your stage.</p>
+      <p><b>Included:</b> everything from the initial consultation, a 45-minute pathology review with your meal plan and supplement plan updated, a partner handout, and messaging support between appointments. Use within 12 months.</p>
     </article>
     <article class="program">
-      <p class="eyebrow">For a full pregnancy</p>
       <h3>The Journey</h3>
-      <p><b>8 appointments:</b> your initial consultation plus seven reviews spaced across the trimesters and into the first weeks after birth.</p>
-      <p>Everything in The Program, plus a third-trimester plan update, a birth and early breastfeeding guide, and a postpartum appointment within six weeks of birth. Use within 12 months.</p>
+      <p><b>8 appointments in total:</b> the initial consultation plus seven reviews spaced across a pregnancy and into the first weeks after birth.</p>
+      <p><b>Included:</b> everything in The Program, plus a third-trimester plan update, a birth and early breastfeeding guide, and a postpartum appointment within six weeks of birth. Use within 12 months.</p>
     </article>
   </div>
-  <p class="fine">Program appointments can be used at any stage of your journey, for example moving from preconception into pregnancy. Partners can join a fertility program or be added with a single partner appointment. Program fees are walked through on your free call so you can choose with the full picture.</p>
+  <p class="fine">Appointments outside a program (for example an extra review, or a partner appointment) are booked and charged separately. Program appointments can be used across stages, for example moving from preconception into pregnancy.</p>
 
   <h2 id="pathways">What it looks like for your situation</h2>
-  <p>Every program follows the same shape: <b>understand your needs, agree practical steps, review and adapt.</b> Pick your situation if you would like to see an example of how the appointments are spaced and what each one covers.</p>
+  <p>Pick your situation for a short summary. Open the example schedule if you would like to see how appointments are usually spaced and what each one covers.</p>
   <PathwayTimelines />
 
   <h2 id="compare">Compare at a glance</h2>
   <div class="table-wrap">
     <table class="matrix">
-      <caption class="sr">Comparison of the free call, One-Question Consult, initial consultation and The Program</caption>
+      <caption class="sr">Comparison of the three starting options: free call, One-Question Consult and initial consultation</caption>
       <thead>
         <tr>
           <th scope="col" class="rowhead"><span class="sr">Feature</span></th>
@@ -162,8 +167,12 @@ const schema = {
   .starters { display: grid; gap: 1rem; margin: 1rem 0 1.2rem; }
   @media (min-width: 760px) { .starters { grid-template-columns: repeat(3, 1fr); } }
   .starter { background: var(--mint); border-radius: 22px; padding: 1.4rem 1.3rem; display: flex; flex-direction: column; gap: .8rem; }
-  .starter-oneq { outline: 2px solid var(--heading); outline-offset: -2px; }
-  .starter h3 { margin: 0; font-size: 1.15rem; }
+  .starter .q { margin: 0; font-weight: 600; color: var(--heading); font-size: 1.05rem; }
+  .tag { display: inline-block; vertical-align: middle; margin-left: .3rem; font-size: .7rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; border: 1px solid var(--heading); color: var(--heading); border-radius: 999px; padding: .1rem .5rem; }
+  .card-note { margin: -.3rem 0 0; font-size: .8rem; color: var(--fg-soft); }
+  .reassure { margin: 0 0 1.4rem; font-size: .95rem; }
+  .flow { margin: .8rem 0 1rem; padding-left: 1.2rem; display: grid; gap: .4rem; }
+  .starter h3 { margin: 0; font-size: 1rem; color: var(--fg); }
   .starter dl { margin: 0; display: grid; gap: .55rem; flex: 1; }
   .starter dt { font-size: .78rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: var(--fg-soft); }
   .starter dd { margin: .1rem 0 0; font-size: .95rem; }
@@ -176,15 +185,13 @@ const schema = {
   .programs { display: grid; gap: 1rem; margin: 1rem 0 1rem; }
   @media (min-width: 760px) { .programs { grid-template-columns: 1fr 1fr; } }
   .program { border: 1.5px solid var(--line); border-radius: 22px; padding: 1.4rem 1.3rem; }
-  .program .eyebrow { font-size: .75rem; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; color: var(--heading); margin: 0 0 .3rem; }
   .program h3 { margin: 0 0 .5rem; }
   .program p + p { margin-top: .6rem; }
   .fine { font-size: .92rem; color: var(--fg-soft); }
 
   .table-wrap { overflow-x: auto; margin: 1rem 0 2rem; }
-  .matrix { width: 100%; min-width: 720px; border-collapse: collapse; font-size: .92rem; }
+  .matrix { width: 100%; min-width: 560px; border-collapse: collapse; font-size: .92rem; }
   .matrix th, .matrix td { padding: .7rem .7rem; border-bottom: 1px solid var(--line); vertical-align: top; text-align: left; }
   .matrix thead th { border-bottom: 2px solid var(--line); color: var(--heading); }
   .matrix .rowhead { font-weight: 600; color: var(--fg); width: 18%; position: sticky; left: 0; background: var(--bg); }
-  .matrix td:last-child, .matrix thead th:last-child { background: color-mix(in srgb, var(--mint) 45%, transparent); }
 </style>
