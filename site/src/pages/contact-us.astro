@@ -30,8 +30,7 @@ import '../styles/article.css';
             Telehealth Australia-wide
           </p>
         </div>
-        <!-- Make webhook pending: form currently posts nowhere. Swap action for the Make webhook URL and remove the inline handler when it is live. -->
-        <form id="eqForm" action="#" method="post" novalidate>
+        <form id="eqForm" novalidate>
           <label for="eqName">Name</label>
           <input id="eqName" name="name" type="text" autocomplete="name" required>
           <label for="eqEmail">Email</label>
@@ -39,7 +38,9 @@ import '../styles/article.css';
           <label for="eqMsg">Your question</label>
           <textarea id="eqMsg" name="message" rows="4" required></textarea>
           <button class="btn btn-dark" type="submit">Send enquiry</button>
-          <p class="ok" id="eqOk">Sent. Kat will reply by email.</p>
+          <small>Goes straight to Kat's inbox. <a href="/privacy-policy/">Privacy policy</a></small>
+          <p class="ok" id="eqOk" role="status" aria-live="polite">Sent. Kat will reply by email.</p>
+          <p class="err" id="eqErr" role="alert">That didn't send. Please email <a href="mailto:info@katridout.com.au">info@katridout.com.au</a> or call <a href="tel:1300640104">1300 640 104</a>.</p>
         </form>
       </div>
     </div>
@@ -49,14 +50,19 @@ import '../styles/article.css';
   <PageScript slot="after" />
   <script is:inline>
   (function(){
-    var f = document.getElementById('eqForm');
-    if (!f) return;
-    f.addEventListener('submit', function(e){
-      e.preventDefault();
-      if (!f.checkValidity()) { f.reportValidity(); return; }
-      var ok = document.getElementById('eqOk');
-      if (ok) ok.classList.add('show');
-      f.querySelector('button').disabled = true;
+    var ENDPOINT='https://hook.eu1.make.com/7ws9ylhmcf8pwpnmeh4k6bq58bu6i6oe';
+    var f=document.getElementById('eqForm'); if(!f) return;
+    f.addEventListener('submit',function(ev){
+      ev.preventDefault();
+      var ok=true;[].forEach.call(f.querySelectorAll('[required]'),function(el){if(!el.checkValidity()){ok=false;el.reportValidity();}});
+      if(!ok) return;
+      var btn=f.querySelector('button'),okEl=document.getElementById('eqOk'),errEl=document.getElementById('eqErr');
+      if(btn.disabled) return;
+      okEl.classList.remove('show');errEl.classList.remove('show');btn.disabled=true;var label=btn.textContent;btn.textContent='Sending…';
+      var data={form:'enquiry',page:location.href};[].forEach.call(f.querySelectorAll('input,textarea'),function(el){data[el.name]=el.value.trim();});
+      fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)})
+        .then(function(r){if(!r.ok)throw new Error(r.status);if(window.dataLayer){window.dataLayer.push({event:'form_submit_enquiry'});}location.href='/thank-you/?enquiry=sent';})
+        .catch(function(){errEl.classList.add('show');btn.disabled=false;btn.textContent=label;});
     });
   })();
   </script>
