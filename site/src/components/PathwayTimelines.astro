@@ -24,7 +24,9 @@ const defaultId = 'pregnancy';
 
       <ol class={`tl tl-${p.consults.length}`}>
         {p.consults.map((c, i) => (
-          <li class="tl-item">
+          <>
+          {c.phase && <li class="tl-phase" aria-hidden="true">{c.phase}</li>}
+          <li class={`tl-item ${((i + 1) % 4 === 0 && p.consults.length === 8) || i === p.consults.length - 1 ? 'tl-rowend' : ''}`}>
             <div class="tl-marker"><span class="tl-n">{i + 1}</span></div>
             <div class="tl-body">
               <p class="tl-when">{c.when} <small>{c.length}</small></p>
@@ -33,6 +35,7 @@ const defaultId = 'pregnancy';
               {c.takeaway && <p class="tl-take"><b>You take away:</b> {c.takeaway}</p>}
             </div>
           </li>
+          </>
         ))}
       </ol>
 
@@ -75,6 +78,7 @@ const defaultId = 'pregnancy';
   .tl-item { display: grid; grid-template-columns: 2.2rem 1fr; gap: .8rem; position: relative; padding-bottom: 1.3rem; }
   .tl-item::before { content: ""; position: absolute; left: 1.05rem; top: 2.2rem; bottom: 0; width: 2px; background: var(--line); }
   .tl-item:last-child::before { display: none; }
+  .tl-phase { display: none; }
   .tl-marker { display: flex; align-items: flex-start; justify-content: center; }
   .tl-n { display: inline-grid; place-items: center; width: 2.1rem; height: 2.1rem; border-radius: 50%; background: var(--heading); color: var(--bg); font-weight: 600; font-size: .95rem; }
   .tl-when { margin: .2rem 0 .1rem; font-size: .85rem; color: var(--fg-soft); font-weight: 600; letter-spacing: .01em; }
@@ -90,7 +94,8 @@ const defaultId = 'pregnancy';
     .tl-8 { grid-template-columns: repeat(4, 1fr); }
     .tl-item { grid-template-columns: 1fr; grid-template-rows: auto 1fr; align-content: start; gap: .5rem; padding-bottom: 0; }
     .tl-item::before { left: 2.1rem; right: -1rem; top: 1.05rem; bottom: auto; height: 2px; width: auto; }
-    .tl-5 .tl-item:nth-child(5)::before, .tl-8 .tl-item:nth-child(4)::before, .tl-8 .tl-item:nth-child(8)::before { display: none; }
+    .tl-item.tl-rowend::before { display: none; }
+    .tl-phase { display: block; grid-column: 1 / -1; font-size: .8rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: var(--fg-soft); margin: .4rem 0 -.4rem; }
     .tl-marker { justify-content: flex-start; }
   }
 

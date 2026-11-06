@@ -9,6 +9,7 @@ export type Consult = {
   title: string;     // short focus
   detail: string;    // one or two lines
   takeaway?: string; // what she leaves with
+  phase?: string;    // optional row label shown before this consult (desktop rows)
 };
 
 export type Pathway = {
@@ -60,15 +61,15 @@ export const pathways: Pathway[] = [
   {
     id: 'pregnancy', tab: 'Pregnant', name: 'Pregnancy pathway', utm: 'pregnancy',
     who: 'Any trimester, including twins, vegetarian or vegan pregnancies, and higher or lower BMI pregnancies.',
-    story: 'Each trimester has two or three nutrition jobs. Getting iron, iodine, weight gain and food safety right early prevents most of the problems that arrive later.',
+    story: 'Each trimester has two or three nutrition jobs. Iron, iodine, weight gain and food safety come first, because the later months build on them.',
     program: 'The Journey: 1 initial + 7 reviews spaced across your pregnancy and into the first weeks after birth. The Program (1 + 4) covers a 12-week window if you are joining later.',
     medicare: 'Usually private or private health extras, unless a chronic condition applies.',
     consults: [
-      { when: 'Booking consult, any trimester', length: '75 min', title: 'Full assessment', detail: 'Gestation, bloods, pre-pregnancy BMI and weight-gain range, nausea and aversions, supplements, food safety, dietary restrictions.', takeaway: takeawayFirst },
+      { phase: 'Getting started', when: 'Booking consult, any trimester', length: '75 min', title: 'Full assessment', detail: 'Gestation, bloods, pre-pregnancy BMI and weight-gain range, nausea and aversions, supplements, food safety, dietary restrictions.', takeaway: takeawayFirst },
       { when: 'Two weeks later', length: '30 min', title: 'Food safety and nausea', detail: 'Food safety guide, supplement check, nausea toolkit, small changes that stick.' },
       { when: 'Around 20 weeks', length: '30 min', title: 'Second trimester', detail: 'Appetite returns: protein, iron-rich meals, calcium, movement, weight-gain check without stigma.' },
       { when: 'Around 28 weeks', length: '45 min', title: 'Pathology review', detail: 'Iron and omega-3 reviewed against your bloods, gestational diabetes screen preparation.', takeaway: 'Updated meal plan and supplement plan.' },
-      { when: 'Around 32 weeks', length: '30 min', title: 'Third-trimester comfort', detail: 'Reflux, constipation, energy for the last stretch, freezer stocking begins.' },
+      { phase: 'Third trimester and after birth', when: 'Around 32 weeks', length: '30 min', title: 'Third-trimester comfort', detail: 'Reflux, constipation, energy for the last stretch, freezer stocking begins.' },
       { when: 'Around 36 weeks', length: '45 min', title: 'Third-trimester plan update', detail: 'Second meal plan and supplement update for the final weeks.', takeaway: 'Third-trimester plan.' },
       { when: 'Around 38 weeks', length: '30 min', title: 'Birth and breastfeeding', detail: 'Birth and early breastfeeding nutrition, postpartum iron plan, one-handed meals list.', takeaway: 'Birth and early breastfeeding guide.' },
       { when: 'Within 6 weeks of birth', length: '30 min', title: 'Postpartum', detail: 'Recovery, feeding, energy when sleep is short, and a hand-over to the Postpartum pathway if you want it.' },
@@ -77,11 +78,11 @@ export const pathways: Pathway[] = [
   {
     id: 'gdm', tab: 'Gestational diabetes', name: 'Gestational diabetes pathway', utm: 'gdm',
     who: 'Newly diagnosed, usually at 24 to 28 weeks, or diagnosed early in pregnancy.',
-    story: 'Seen within seven days of diagnosis, then the follow-up schedule the guidelines recommend. This pathway runs about 16 weeks so the last consult lands after birth.',
-    program: 'The Program, spaced for gestational diabetes: a rapid start, close follow-up while readings settle, then a postpartum consult.',
+    story: 'Kat prioritises new gestational diabetes clients so the first consult happens quickly, then follows the review schedule the guidelines recommend. This pathway runs about 16 weeks so the last consult lands after birth.',
+    program: 'The Program, spaced for gestational diabetes: a prompt start, close follow-up while readings settle, then a postpartum consult.',
     medicare: 'Gestational diabetes is short-lived, so ask your GP whether you are eligible for a GP Chronic Condition Management Plan. Private health extras may apply.',
     consults: [
-      { when: 'Within 7 days of diagnosis', length: '75 min', title: 'Understand the diagnosis', detail: 'Carbohydrate amount and spread across meals and snacks, protein and fibre, glucose monitoring as set by your obstetric team, breakfast and fasting readings.', takeaway: takeawayFirst + ' 7-day meal plan.' },
+      { when: 'As soon as possible after diagnosis', length: '75 min', title: 'Understand the diagnosis', detail: 'Carbohydrate amount and spread across meals and snacks, protein and fibre, glucose monitoring as set by your obstetric team, breakfast and fasting readings.', takeaway: takeawayFirst + ' 7-day meal plan.' },
       { when: 'Week 1', length: '30 min', title: 'First readings', detail: 'Your first week of readings reviewed. Breakfast, snacks and portions adjusted. Movement after meals, eating out, cultural foods.' },
       { when: 'Week 3', length: '45 min', title: 'Readings and weight', detail: 'Readings review, weight-gain check, constipation, cravings, and what changes if medication starts.', takeaway: 'Updated meal plan.' },
       { when: 'Weeks 34 to 36', length: '30 min', title: 'Third trimester', detail: 'Insulin resistance peaks: adjustments, birth-plan nutrition, breastfeeding and blood glucose.' },

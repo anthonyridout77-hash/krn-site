@@ -66,11 +66,17 @@ const isMark = (c: Cell): c is Mark => c === 'yes' || c === 'no' || c === 'part'
   title="Consultations"
   description="Compare the ways to work with Katrina Ridout, Accredited Practising Dietitian: free call, One-Question Consult, initial and review consultations, and The Program. What each includes and how Medicare rebates apply."
   crumbs={[{ label: 'Home', href: '/' }, { label: 'Consultations' }]}
-  lede="Five ways to work with Kat, side by side. Pick the column that matches where you are; the table shows what each one includes and how Medicare fits in. Fees are confirmed when you book or on your free call, so you always know the cost before you commit."
+  lede="Which consultation to start with, and what happens after it. Compare the five ways to work with Kat, then pick your situation to see how a program unfolds. Fees are confirmed when you book or on your free call, so you always know the cost before you commit."
   ctaHeading="Not sure which one you need?"
   ctaText="Book a free 15-minute call. No advice is given on the call, it is for working out whether Kat is the right fit and which option suits you."
 >
   <script type="application/ld+json" slot="head" set:html={JSON.stringify(schema)} />
+  <nav class="jump" aria-label="On this page">
+    <a href="#compare">Compare consultations</a>
+    <a href="#pathways">How a program unfolds</a>
+    <a href="#medicare">Medicare and private health</a>
+    <a href="#payment">Payment and cancellations</a>
+  </nav>
   <h2>What each consultation includes</h2>
 
   <div class="cmpx" id="compare">
@@ -136,7 +142,7 @@ const isMark = (c: Cell): c is Mark => c === 'yes' || c === 'no' || c === 'part'
   <p>Most clients work with Kat over a program of five consultations across about twelve weeks, or seven across a full pregnancy. Pick your situation to see what each consultation is for and when it happens. Program consultations can be used at any stage of your journey, for example moving from preconception into pregnancy, within 12 months. Kat explains the options and the cost on your free call.</p>
   <PathwayTimelines />
 
-  <h2>Medicare rebates</h2>
+  <h2 id="medicare">Medicare rebates</h2>
   <ul>
     <li>Your GP can refer you under a GP Chronic Condition Management Plan (GPCCMP) if they consider dietetic care appropriate.</li>
     <li>The plan allows up to five allied-health visits per calendar year, shared across the allied-health professionals on your plan.</li>
@@ -147,7 +153,7 @@ const isMark = (c: Cell): c is Mark => c === 'yes' || c === 'no' || c === 'part'
   <h2>Private health</h2>
   <p>Many extras policies include dietetics. Check with your fund for your cover level. You cannot claim both Medicare and private health on the same consultation.</p>
 
-  <h2>Payment, cancellations and refunds</h2>
+  <h2 id="payment">Payment, cancellations and refunds</h2>
   <ul>
     <li>Dietetic services are GST-free.</li>
     <li>Consultations are paid on the day. The One-Question Consult is prepaid when you book.</li>
@@ -158,6 +164,9 @@ const isMark = (c: Cell): c is Mark => c === 'yes' || c === 'no' || c === 'part'
 
 <style>
   /* Break out of the 68ch article column so five columns fit */
+  .jump { display: flex; flex-wrap: wrap; gap: .4rem .5rem; margin: 0 0 1.4rem; }
+  .jump a { font-size: .88rem; text-decoration: none; border: 1px solid var(--line); border-radius: 999px; padding: .35rem .75rem; color: var(--heading); }
+  .jump a:hover { background: var(--mint); }
   .cmpx { margin: 1rem 0 2rem; width: min(1100px, calc(100vw - 40px)); position: relative; left: 50%; transform: translateX(-50%); }
   @media (max-width: 759px) { .cmpx { width: auto; left: auto; transform: none; } }
   .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
