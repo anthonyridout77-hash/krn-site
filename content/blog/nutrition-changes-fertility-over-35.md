@@ -1,6 +1,6 @@
 ---
 title: "What nutrition changes help with fertility over 35?"
-description: " S m a l l ,   e v i d e n c e - b a s e d   n u t r i t i o n   c h a n g e s   t h a t   s u p p o r t   f e r t i l i t y   a f t e r   3 5 ,   f r o m   M e d i t e r r a n e a n - s t y l e   e a t i n g   t o   f o l i c   a c i d ,   i o d i n e ,   c a f f e i n e   a n d   a l c o h o l ,   f r o m   B r i s b a n e   d i e t i t i a n   K a t   R i d o u t ,   A P D . "
+description: "Small, evidence-based nutrition changes that support fertility after 35, from Mediterranean-style eating to folic acid, iodine, caffeine and alcohol, from Brisbane dietitian Kat Ridout, APD."
 date: "2026-10-25"
 updated: "2026-10-25"
 categories:
