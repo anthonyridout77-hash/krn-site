@@ -89,7 +89,7 @@ Personalised advice takes the guesswork out of pregnancy supplements.
 
 Whatever stage you are at in your pregnancy journey, Kat from Katrina Ridout Nutrition will ensure you are meeting all of your nutritional needs for a healthy pregnancy and baby.
 
-To read on about the latest news and information regarding healthy pregnancies stay up to date with our blog by clicking [here](/blog/)!
+To read on about the latest news and information regarding healthy pregnancies stay up to date with our blog by clicking [here](/blogs/)!
 
 For more nutrition support or to book in for a comprehensive individualised nutrition consultation, be sure to get in touch with Kat [here](/contact-us/)!
 

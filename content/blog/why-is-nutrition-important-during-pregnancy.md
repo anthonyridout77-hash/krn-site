@@ -33,7 +33,7 @@ Poultry, fish, eggs, tofu, nuts, seeds, legumes/beans and lean meats are high in
 
 ### Foods to avoid during pregnancy
 
-Pregnancy can be a whirlwind of feelings, but there are [foods that you should avoid whilst pregnant](/blog/pregnancy/what-food-to-avoid-during-pregnancy/). These include soft cheeses, sandwich meats, bean sprouts, fish containing high levels of mercury, raw eggs and drinking alcohol.
+Pregnancy can be a whirlwind of feelings, but there are [foods that you should avoid whilst pregnant](/blogs/what-foods-should-be-avoided-during-pregnancy/). These include soft cheeses, sandwich meats, bean sprouts, fish containing high levels of mercury, raw eggs and drinking alcohol.
 
 Steady weight gain during pregnancy is also a normal and healthy part of pregnancy. However, it is also important to not gain too much weight. The amount that is healthy to gain will depend on your pre-pregnancy weight and varies from person to person.
 
