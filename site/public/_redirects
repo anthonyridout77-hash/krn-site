@@ -67,3 +67,7 @@
 /blogs/endometriosis-fertility/ /blogs/endometriosis-diet-fertility/ 301
 /sitemap.xml /sitemap-0.xml 301
 /sitemap_index.xml /sitemap-index.xml 301
+
+# Fees page renamed 6 Nov 2026 (no prices on the site)
+/fees-and-rebates/ /consultations/ 301
+/fees-and-rebates /consultations/ 301

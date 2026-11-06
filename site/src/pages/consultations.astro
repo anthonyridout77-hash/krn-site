@@ -1,0 +1,186 @@
+---
+/* Consultations comparison page. Replaces /fees-and-rebates/ (redirected).
+   Decision 6 Nov 2026: NO consult or program prices on the website. Fees are given on the booking page
+   (One-Question) or on the free call. The only dollar figure here is the Medicare rebate (government number).
+   Rebate figure is per Services Australia as at 1 Jul 2026; keep current. */
+import Article from '../layouts/Article.astro';
+const rebate = '$63.40';
+
+type Mark = 'yes' | 'no' | 'part';
+type Cell = Mark | string;
+
+const cols = [
+  { id: 'call', name: 'Free call', sub: '15 min, phone', cta: 'Book a free call', href: 'https://calendly.com/katridout/15-minute-investigative-callback' },
+  { id: 'oneq', name: 'One-Question Consult', sub: '30 min, video', cta: 'See how it works', href: '/one-question-consult/' },
+  { id: 'initial', name: 'Initial consultation', sub: '75 min, Milton or telehealth', cta: 'Book a free call to start', href: 'https://calendly.com/katridout/15-minute-investigative-callback' },
+  { id: 'review', name: 'Review consultation', sub: '30 or 45 min', cta: 'Existing clients: contact Kat', href: '/contact-us/' },
+  { id: 'program', name: 'The Program', sub: '5 or 7 consultations', cta: 'Ask about The Program', href: 'https://calendly.com/katridout/15-minute-investigative-callback' },
+];
+
+// Each row: label, then one cell per column in the order above.
+const rows: { label: string; cells: Cell[]; group?: string }[] = [
+  { group: 'Who it is for', label: 'New clients', cells: ['yes', 'yes', 'yes', 'no', 'yes'] },
+  { label: 'Existing clients', cells: ['yes', 'no', 'no', 'yes', 'yes'] },
+  { label: 'Partner can join', cells: ['no', 'no', 'Couples initial, 90 min', 'no', 'Couples program available'] },
+  { group: 'What happens', label: 'Work out whether Kat is the right fit', cells: ['yes', 'no', 'no', 'no', 'no'] },
+  { label: 'Personalised nutrition advice', cells: ['no', 'One question, answered properly', 'yes', 'yes', 'yes'] },
+  { label: 'Full dietary assessment', cells: ['no', 'no', 'yes', 'no', 'yes'] },
+  { label: 'Progress check and plan adjustments', cells: ['no', 'no', 'no', 'yes', 'yes'] },
+  { label: 'Ongoing support across your stage', cells: ['no', 'no', 'no', 'no', 'Usually 12 weeks, flexible to you'] },
+  { group: 'What you take away', label: 'Written plan within 2 business days', cells: ['no', 'One page', 'yes', 'Updated plan', 'yes'] },
+  { label: 'Individualised supplement plan', cells: ['no', 'no', 'From your first consult', 'Reviewed', 'yes'] },
+  { label: 'Exemplar meal plan, recipe booklet and snack ideas', cells: ['no', 'no', 'yes', 'no', 'yes'] },
+  { label: 'Goals summary', cells: ['no', 'no', 'yes', 'yes', 'yes'] },
+  { group: 'Paying for it', label: 'Medicare rebate with a GPCCMP referral', cells: ['no', 'no', 'yes', 'yes', 'Up to 5 visits a year'] },
+  { label: 'Private health extras may apply', cells: ['no', 'no', 'yes', 'yes', 'yes'] },
+  { label: 'How you pay', cells: ['Free', 'Prepaid when you book', 'On the day', 'On the day', 'In full or in instalments'] },
+  { label: 'Where to find the fee', cells: ['No fee', 'On the booking page', 'Confirmed on your free call', 'Confirmed when you book', 'Walked through on your free call'] },
+];
+
+const markLabel: Record<Mark, string> = { yes: 'Included', no: 'Not included', part: 'Partly' };
+const isMark = (c: Cell): c is Mark => c === 'yes' || c === 'no' || c === 'part';
+---
+<Article
+  title="Consultations"
+  description="Compare the ways to work with Katrina Ridout, Accredited Practising Dietitian: free call, One-Question Consult, initial and review consultations, and The Program. What each includes and how Medicare rebates apply."
+  crumbs={[{ label: 'Home', href: '/' }, { label: 'Consultations' }]}
+  lede="Five ways to work with Kat, side by side. Pick the column that matches where you are; the table shows what each one includes and how Medicare fits in. Fees are confirmed when you book or on your free call, so you always know the cost before you commit."
+  ctaHeading="Not sure which one you need?"
+  ctaText="Book a free 15-minute call. No advice is given on the call, it is for working out whether Kat is the right fit and which option suits you."
+>
+  <h2>What each consultation includes</h2>
+
+  <div class="cmp" id="compare">
+    <p class="pick-label" id="pick-label">On a phone, pick one to view:</p>
+    <div class="pick" role="radiogroup" aria-labelledby="pick-label">
+      {cols.map((c, i) => (
+        <label class={`pick-opt pick-${c.id}`}>
+          <input type="radio" name="col" value={c.id} checked={i === 2} />
+          <span>{c.name}</span>
+        </label>
+      ))}
+    </div>
+
+    <div class="table-wrap">
+      <table class="matrix">
+        <thead>
+          <tr>
+            <th scope="col" class="rowhead"><span class="sr">Inclusion</span></th>
+            {cols.map((c) => (
+              <th scope="col" class={`col col-${c.id}`}>
+                <span class="col-name">{c.name}</span>
+                <span class="col-sub">{c.sub}</span>
+              </th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map((r) => (
+            <>
+              {r.group && (
+                <tr class="group"><th scope="rowgroup" colspan={cols.length + 1}>{r.group}</th></tr>
+              )}
+              <tr>
+                <th scope="row" class="rowhead">{r.label}</th>
+                {r.cells.map((cell, i) => (
+                  <td class={`col col-${cols[i].id} ${isMark(cell) ? 'mark mark-' + cell : 'text'}`}>
+                    {isMark(cell) ? (
+                      <span class="dot" aria-hidden="true"></span>
+                    ) : (
+                      <span class="dot dot-text" aria-hidden="true"></span>
+                    )}
+                    <span class={isMark(cell) ? 'sr' : 'cell-text'}>{isMark(cell) ? markLabel[cell] : cell}</span>
+                  </td>
+                ))}
+              </tr>
+            </>
+          ))}
+        </tbody>
+        <tfoot>
+          <tr>
+            <td class="rowhead"></td>
+            {cols.map((c) => (
+              <td class={`col col-${c.id}`}>
+                <a class={`btn ${c.id === 'oneq' || c.id === 'initial' ? 'btn-coral' : 'btn-line'}`} href={c.href}>{c.cta}</a>
+              </td>
+            ))}
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+
+    <p class="legend"><span class="dot mark-yes"></span> Included <span class="dot mark-no"></span> Not included <span class="dot dot-text"></span> See note</p>
+  </div>
+
+  <h2>The Program</h2>
+  <p>Most clients work with Kat over a program of five or seven consultations, usually across twelve weeks and flexible to your stage. Program consultations can be used at any stage of your journey, for example moving from preconception into pregnancy, within 12 months. Five consultations line up with the five allied-health visits a GP Chronic Condition Management Plan allows each calendar year, so the Medicare rebate can apply to every one. Kat explains the options and the cost on your free call, so you can choose with the full picture.</p>
+
+  <h2>Medicare rebates</h2>
+  <ul>
+    <li>Your GP can refer you under a GP Chronic Condition Management Plan (GPCCMP) if they consider dietetic care appropriate.</li>
+    <li>The plan allows up to five allied-health visits per calendar year, shared across the allied-health professionals on your plan.</li>
+    <li>The Medicare rebate for a dietitian consultation is {rebate} per visit as at 1 July 2026. You pay the fee on the day and the rebate is claimed back for you.</li>
+    <li>The One-Question Consult is private-pay only and does not use one of your five visits.</li>
+  </ul>
+
+  <h2>Private health</h2>
+  <p>Many extras policies include dietetics. Check with your fund for your cover level. You cannot claim both Medicare and private health on the same consultation.</p>
+
+  <h2>Payment, cancellations and refunds</h2>
+  <ul>
+    <li>Dietetic services are GST-free.</li>
+    <li>Consultations are paid on the day. The One-Question Consult is prepaid when you book.</li>
+    <li>Reschedule or cancel free of charge up to 24 hours before your appointment. Inside 24 hours the fee is retained.</li>
+    <li>Program consultations can be used within 12 months of purchase.</li>
+  </ul>
+</Article>
+
+<style>
+  .cmp { margin: 1rem 0 2rem; }
+  .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+  /* Radio picker: shown on phones only */
+  .pick-label { font-size: .9rem; color: var(--fg-soft); margin: 0 0 .4rem; }
+  .pick { display: flex; flex-wrap: wrap; gap: .4rem; margin-bottom: 1rem; }
+  .pick-opt { position: relative; }
+  .pick-opt input { position: absolute; opacity: 0; inset: 0; margin: 0; cursor: pointer; }
+  .pick-opt span { display: inline-block; padding: .45rem .8rem; border-radius: 999px; border: 1px solid var(--line); font-size: .9rem; background: #fff; }
+  .pick-opt input:checked + span { background: var(--heading); color: #fff; border-color: var(--heading); }
+  .pick-opt input:focus-visible + span { outline: 2px solid var(--heading); outline-offset: 2px; }
+
+  .table-wrap { overflow-x: auto; }
+  .matrix { width: 100%; border-collapse: collapse; font-size: .95rem; }
+  .matrix th, .matrix td { padding: .7rem .6rem; border-bottom: 1px solid var(--line); vertical-align: top; text-align: center; }
+  .matrix thead th { border-bottom: 2px solid var(--line); }
+  .matrix .rowhead { text-align: left; font-weight: 500; color: var(--fg); width: 34%; }
+  .matrix .col-name { display: block; font-weight: 600; color: var(--heading); }
+  .matrix .col-sub { display: block; font-size: .8rem; color: var(--fg-soft); font-weight: 400; margin-top: .15rem; }
+  .matrix tr.group th { text-align: left; background: var(--mint); color: var(--heading); font-weight: 600; font-size: .85rem; letter-spacing: .02em; text-transform: uppercase; padding: .5rem .6rem; }
+  .matrix .col-initial { background: color-mix(in srgb, var(--mint) 45%, transparent); }
+  .matrix tfoot td { border-bottom: 0; padding-top: 1rem; }
+  .matrix tfoot .btn { display: inline-block; font-size: .85rem; padding: .55rem .8rem; white-space: normal; }
+
+  /* Radio-style markers */
+  .dot { display: inline-block; width: 1.05rem; height: 1.05rem; border-radius: 50%; border: 2px solid var(--heading); vertical-align: middle; box-sizing: border-box; }
+  .mark-yes .dot, .legend .mark-yes { background: var(--heading); box-shadow: inset 0 0 0 3px #fff; }
+  .mark-no .dot, .legend .mark-no { border-color: var(--line); background: transparent; }
+  .dot-text { background: var(--heading); box-shadow: inset 0 0 0 3px #fff; border-style: dashed; }
+  .cell-text { display: block; font-size: .85rem; color: var(--fg); margin-top: .3rem; line-height: 1.3; }
+  .legend { font-size: .85rem; color: var(--fg-soft); margin-top: .8rem; display: flex; gap: .5rem 1rem; flex-wrap: wrap; align-items: center; }
+  .legend .dot { margin-right: .25rem; }
+
+  /* Phones: one column at a time, chosen by the radio picker */
+  @media (max-width: 759px) {
+    .matrix .rowhead { width: 55%; }
+    .matrix .col { display: none; }
+    .cmp:has(input[value="call"]:checked) .col-call,
+    .cmp:has(input[value="oneq"]:checked) .col-oneq,
+    .cmp:has(input[value="initial"]:checked) .col-initial,
+    .cmp:has(input[value="review"]:checked) .col-review,
+    .cmp:has(input[value="program"]:checked) .col-program { display: table-cell; }
+    .matrix .col-initial { background: transparent; }
+  }
+  @media (min-width: 760px) {
+    .pick, .pick-label { display: none; }
+  }
+</style>
