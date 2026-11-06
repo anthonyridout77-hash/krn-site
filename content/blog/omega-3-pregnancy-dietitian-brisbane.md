@@ -1,6 +1,6 @@
 ---
 title: "Omega-3 in pregnancy: what the Australian evidence actually says"
-description: " T w o   t o   t h r e e   s e r v e s   o f   f i s h   a   w e e k ,   t h e   t w o   g r o u p s   t h a t   n e e d   l i m i t i n g ,   a n d   w h a t   t h e   C o c h r a n e   r e v i e w   a n d   t h e   A u s t r a l i a n   O R I P   t r i a l   a c t u a l l y   f o u n d   a b o u t   o m e g a - 3   a n d   p r e t e r m   b i r t h . "
+description: "Two to three serves of fish a week, the two groups that need limiting, and what the Cochrane review and the Australian ORIP trial actually found about omega-3 and preterm birth."
 date: "2026-10-31"
 updated: "2026-10-31"
 categories:
