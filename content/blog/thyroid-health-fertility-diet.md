@@ -1,6 +1,6 @@
 ---
 title: "How does thyroid health affect fertility, and what should you eat?"
-description: " T h y r o i d   c o n d i t i o n s   c a n   a f f e c t   o v u l a t i o n   a n d   f e r t i l i t y .   K a t ,   a n   A c c r e d i t e d   P r a c t i s i n g   D i e t i t i a n ,   e x p l a i n s   t h e   n u t r i e n t s   t h a t   m a t t e r ,   w h y   y o u   d o n ’ t   n e e d   t o   f e a r   b r o c c o l i ,   a n d   h o w   t o   t i m e   s u p p l e m e n t s   a r o u n d   y o u r   t h y r o i d   t a b l e t . "
+description: "Thyroid conditions can affect ovulation and fertility. Kat, an Accredited Practising Dietitian, explains the nutrients that matter, why you don’t need to fear broccoli, and how to time supplements around your thyroid tablet."
 date: "2026-10-20"
 updated: "2026-10-20"
 categories:
