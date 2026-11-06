@@ -53,8 +53,8 @@ const defaultId = 'pregnancy';
   .pw-tabs { display: flex; flex-wrap: wrap; gap: .45rem; margin-bottom: 1.4rem; }
   .pw-tab { position: relative; }
   .pw-tab input { position: absolute; opacity: 0; inset: 0; margin: 0; cursor: pointer; }
-  .pw-tab span { display: inline-block; padding: .5rem .9rem; border-radius: 999px; border: 1px solid var(--line); font-size: .92rem; background: #fff; }
-  .pw-tab input:checked + span { background: var(--heading); color: #fff; border-color: var(--heading); }
+  .pw-tab span { display: inline-block; padding: .5rem .9rem; border-radius: 999px; border: 1px solid var(--line); font-size: .92rem; background: var(--bg); color: var(--fg); }
+  .pw-tab input:checked + span { background: var(--heading); color: var(--bg); border-color: var(--heading); }
   .pw-tab input:focus-visible + span { outline: 2px solid var(--heading); outline-offset: 2px; }
 
   .pw-panel { display: none; }
@@ -76,7 +76,7 @@ const defaultId = 'pregnancy';
   .tl-item::before { content: ""; position: absolute; left: 1.05rem; top: 2.2rem; bottom: 0; width: 2px; background: var(--line); }
   .tl-item:last-child::before { display: none; }
   .tl-marker { display: flex; align-items: flex-start; justify-content: center; }
-  .tl-n { display: inline-grid; place-items: center; width: 2.1rem; height: 2.1rem; border-radius: 50%; background: var(--heading); color: #fff; font-weight: 600; font-size: .95rem; }
+  .tl-n { display: inline-grid; place-items: center; width: 2.1rem; height: 2.1rem; border-radius: 50%; background: var(--heading); color: var(--bg); font-weight: 600; font-size: .95rem; }
   .tl-when { margin: .2rem 0 .1rem; font-size: .85rem; color: var(--fg-soft); font-weight: 600; letter-spacing: .01em; }
   .tl-when small { font-weight: 400; margin-left: .35rem; }
   .tl-body h4 { margin: 0 0 .25rem; font-size: 1.05rem; color: var(--heading); }
