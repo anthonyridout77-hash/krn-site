@@ -14,7 +14,7 @@ import '../styles/article.css';
       <p id="tyText">Kat will reply by email, usually within two business days. If it is urgent, call 1300 640 104.</p>
       <div class="ty-next" id="tyNext">
         <h2>What happens next</h2>
-        <ul>
+        <ul id="tyList">
           <li>Check your inbox for a confirmation email. If it is not there, look in spam and add info@katridout.com.au to your contacts.</li>
           <li>If you have a GP Chronic Condition Management Plan (GPCCMP) referral or private health extras, keep the paperwork handy.</li>
           <li>Jot down the questions you want answered so nothing is missed.</li>
@@ -40,6 +40,15 @@ import '../styles/article.css';
     } else if (b === 'express') {
       h.textContent = "Thanks, you're booked";
       t.textContent = 'Your One-Question Consult with Kat is confirmed. Your confirmation email has the video link and a place to send Kat your question before the call.';
+      var l = document.getElementById('tyList');
+      if (l) {
+        l.innerHTML = '';
+        ['Check your inbox for your booking email from info@katridout.com.au. If it is not there, look in spam.',
+         'Tap "Answer my three questions" in that email. It takes about two minutes and helps Kat prepare.',
+         'At your booking time, join with the Google Meet link in the email.'].forEach(function(x){
+          var li = document.createElement('li'); li.textContent = x; l.appendChild(li);
+        });
+      }
       document.title = "Thanks, you're booked | Katrina Ridout Nutrition";
     }
   })();
