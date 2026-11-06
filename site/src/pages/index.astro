@@ -18,16 +18,28 @@ import BookBar from '../components/BookBar.astro';
   <div class="wrap">
     <div class="hero-copy">
       <p class="eyebrow fade-up" style="animation-delay:.05s">Fertility &amp; pregnancy dietitian · Brisbane &amp; Australia-wide</p>
-      <h1 aria-label="Nutrition for trying to conceive, IVF, pregnancy and the first year after birth.">
-        Nutrition
-        for
-        trying,
-        IVF,<br>
-        pregnancy
-        and
-        <span class="hl">after.</span>
-      </h1>
-      <p class="lede fade-up">Whether you are trying to conceive, going through IVF, pregnant, or in the first year with your baby, Kat gives you a clear, evidence-based plan that fits your life. Accredited Practising Dietitian, Brisbane and telehealth Australia-wide. General nutrition clients welcome too.</p>
+      <div class="hero-rotator" id="heroRotator">
+        <div class="seg fade-up" role="tablist" aria-label="Choose your situation" style="animation-delay:.1s">
+          <button type="button" role="tab" aria-selected="true" data-i="0">All stages</button>
+          <button type="button" role="tab" aria-selected="false" data-i="1">Trying</button>
+          <button type="button" role="tab" aria-selected="false" data-i="2">IVF</button>
+          <button type="button" role="tab" aria-selected="false" data-i="3">Pregnant</button>
+          <button type="button" role="tab" aria-selected="false" data-i="4">After birth</button>
+          <button type="button" role="tab" aria-selected="false" data-i="5">PMOS &amp; hormones</button>
+          <button type="button" role="tab" aria-selected="false" data-i="6">Everyday</button>
+        </div>
+        <h1 id="heroH1" aria-label="Nutrition for trying to conceive, IVF, pregnancy and the first year after birth.">Nutrition for trying, IVF, pregnancy and <span class="hl">after.</span></h1>
+        <p class="lede fade-up" id="heroLede">Trying to conceive, going through IVF, pregnant or in the first year with your baby: a clear, evidence-based plan that fits your life.</p>
+        <script type="application/json" id="heroSlides">[
+          {"h":"Nutrition for trying, IVF, pregnancy and","hl":"after.","p":"Trying to conceive, going through IVF, pregnant or in the first year with your baby: a clear, evidence-based plan that fits your life."},
+          {"h":"Eat well for the baby you are","hl":"hoping for.","p":"Three to six months of preparation for you and your partner, built around real food and real life."},
+          {"h":"Support for every","hl":"IVF cycle.","p":"Practical, evidence-based food guidance before, during and between cycles, so it is one less thing to work out alone."},
+          {"h":"Calm, clear nutrition for every","hl":"trimester.","p":"Nausea, aversions, supplements and gestational diabetes, handled one step at a time."},
+          {"h":"Food that fits the first year with","hl":"your baby.","p":"Recovery, breastfeeding, energy when sleep is short, and starting solids when bub is ready."},
+          {"h":"PMOS and hormones,","hl":"made practical.","p":"Evidence-based nutrition for PMOS (PCOS), endometriosis and hormone health, whether or not a baby is on your mind yet."},
+          {"h":"Everyday nutrition,","hl":"done properly.","p":"Not planning or pregnant? Kat sees general nutrition clients too, in Milton or by telehealth."}
+        ]</script>
+      </div>
       <div class="cta-row fade-up" style="animation-delay:.5s">
         <a class="btn btn-coral" href="https://calendly.com/katridout/15-minute-investigative-callback">Book a free call</a>
         <a class="btn btn-line" href="#checklist">Get the free checklist</a>
@@ -268,6 +280,31 @@ import BookBar from '../components/BookBar.astro';
   var ENDPOINT='https://hook.eu1.make.com/7ws9ylhmcf8pwpnmeh4k6bq58bu6i6oe';
   function wire(id,okId,errId,formName,redirect){var f=document.getElementById(id);if(!f)return;f.addEventListener('submit',function(ev){ev.preventDefault();var ok=true;[].forEach.call(f.querySelectorAll('[required]'),function(el){if(!el.checkValidity()){ok=false;el.reportValidity();}});if(!ok)return;var btn=f.querySelector('button');var okEl=document.getElementById(okId),errEl=document.getElementById(errId);okEl.classList.remove('show');errEl.classList.remove('show');btn.disabled=true;var label=btn.textContent;btn.textContent='Sending…';var data={form:formName,page:location.href};[].forEach.call(f.querySelectorAll('input,textarea'),function(el){data[el.name]=el.value.trim();});fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)}).then(function(r){if(!r.ok)throw new Error(r.status);window.dataLayer=window.dataLayer||[];window.dataLayer.push({event:'form_submit_success',form:formName});window.dataLayer.push({event:'form_submit_'+formName});if(redirect){location.href=redirect;return;}okEl.classList.add('show');f.reset();btn.textContent=label;}).catch(function(){errEl.classList.add('show');btn.disabled=false;btn.textContent=label;});});}
   wire('clForm','clOk','clErr','checklist');wire('eqForm','eqOk','eqErr','enquiry','/thank-you/?enquiry=sent');
+})();
+</script>
+<script is:inline slot="after">
+(function(){
+  var h=document.getElementById('heroH1'),p=document.getElementById('heroLede'),box=document.getElementById('heroRotator');
+  if(!h||!p||!box)return;
+  var slides;try{slides=JSON.parse(document.getElementById('heroSlides').textContent);}catch(e){return;}
+  var tabs=[].slice.call(box.querySelectorAll('[role=tab]')),i=0,timer=null,user=false,hover=false;
+  var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var INTERVAL=5500,FADE=reduce?0:260;
+  function render(n){var s=slides[n];h.textContent='';h.appendChild(document.createTextNode(s.h+' '));var sp=document.createElement('span');sp.className='hl';sp.textContent=s.hl;h.appendChild(sp);p.textContent=s.p;}
+  function sizeLock(){var mh=0,mp=0;var cur=i;for(var k=0;k<slides.length;k++){render(k);mh=Math.max(mh,h.offsetHeight);mp=Math.max(mp,p.offsetHeight);}render(cur);h.style.minHeight=mh+'px';p.style.minHeight=mp+'px';}
+  function go(n,fromUser){n=(n+slides.length)%slides.length;if(n===i&&fromUser)return;box.classList.add('swap');
+    setTimeout(function(){i=n;render(i);tabs.forEach(function(t,k){t.setAttribute('aria-selected',k===i?'true':'false');});var seg=tabs[i].parentNode;if(seg.scrollWidth>seg.clientWidth){seg.scrollTo({left:Math.max(0,tabs[i].offsetLeft-12),behavior:reduce?'auto':'smooth'});}box.classList.remove('swap');},FADE);
+    if(fromUser){user=true;stop();window.dataLayer=window.dataLayer||[];window.dataLayer.push({event:'hero_segment',segment:tabs[n].textContent.trim()});}}
+  function tick(){if(!hover&&!document.hidden)go(i+1,false);}
+  function start(){if(reduce||user||timer)return;timer=setInterval(tick,INTERVAL);}
+  function stop(){if(timer){clearInterval(timer);timer=null;}}
+  tabs.forEach(function(t){t.addEventListener('click',function(){go(+t.getAttribute('data-i'),true);});});
+  box.addEventListener('mouseenter',function(){hover=true;});box.addEventListener('mouseleave',function(){hover=false;});
+  box.addEventListener('focusin',function(){hover=true;});box.addEventListener('focusout',function(){hover=false;});
+  document.addEventListener('visibilitychange',function(){if(document.hidden)stop();else start();});
+  var rt;window.addEventListener('resize',function(){clearTimeout(rt);rt=setTimeout(sizeLock,150);});
+  if(document.fonts&&document.fonts.ready)document.fonts.ready.then(sizeLock);else sizeLock();
+  start();
 })();
 </script>
 </Base>
