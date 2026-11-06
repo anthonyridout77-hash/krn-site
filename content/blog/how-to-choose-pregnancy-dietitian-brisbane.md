@@ -1,6 +1,6 @@
 ---
 title: "How to choose a pregnancy dietitian in Brisbane, and how Kat works with you by telehealth"
-description: " H o w   t o   c h o o s e   a   p r e g n a n c y   d i e t i t i a n   i n   B r i s b a n e :   t h e   A P D   c r e d e n t i a l ,   p r e g n a n c y   e x p e r i e n c e ,   M e d i c a r e   c a r e   p l a n   o p t i o n s   a n d   t e l e h e a l t h ,   p l u s   h o w   K a t   w o r k s   w i t h   y o u . "
+description: "How to choose a pregnancy dietitian in Brisbane: the APD credential, pregnancy experience, Medicare care plan options and telehealth, plus how Kat works with you."
 date: "2026-11-05"
 updated: "2026-11-05"
 categories:
