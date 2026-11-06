@@ -1,6 +1,6 @@
 ---
 title: "How to choose a fertility dietitian in Brisbane, and how Kat works with you by telehealth"
-description: " H o w   t o   c h o o s e   a   f e r t i l i t y   d i e t i t i a n   i n   B r i s b a n e :   c h e c k   t h e   A P D   c r e d e n t i a l ,   f e r t i l i t y   e x p e r i e n c e   a n d   h o w   t h e y   w o r k   w i t h   y o u r   c l i n i c ,   p l u s   h o w   K a t   w o r k s   w i t h   y o u   i n   M i l t o n   o r   b y   t e l e h e a l t h . "
+description: "How to choose a fertility dietitian in Brisbane: check the APD credential, fertility experience and how they work with your clinic, plus how Kat works with you in Milton or by telehealth."
 date: "2026-10-22"
 updated: "2026-10-22"
 categories:
