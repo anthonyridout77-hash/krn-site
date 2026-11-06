@@ -1,6 +1,6 @@
 ---
 title: "Choline in pregnancy: the nutrient almost nobody mentions, and what an Australian dietitian looks at"
-description: " C h o l i n e   b a r e l y   g e t s   m e n t i o n e d   i n   p r e g n a n c y ,   y e t   t h e   A u s t r a l i a n   d a t a   s u g g e s t s   a b o u t   h a l f   o f   u s   f a l l   s h o r t   o f   t h e   t a r g e t .   H e r e   i s   t h e   n u m b e r ,   w h e r e   t h e   f o o d   c o m e s   f r o m ,   a n d   t h e   o n e   s o u r c e   t o   b e   c a r e f u l   w i t h . "
+description: "Choline barely gets mentioned in pregnancy, yet the Australian data suggests about half of us fall short of the target. Here is the number, where the food comes from, and the one source to be careful with."
 date: "2026-10-24"
 updated: "2026-10-24"
 categories:
