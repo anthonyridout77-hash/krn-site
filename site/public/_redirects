@@ -73,6 +73,8 @@
 
 # Fees page renamed 6 Nov 2026 (no prices on the site)
 /one-question-consult/ /consultations/ 301
+/one-question-intake/ /consultations/ 301
+/oneq-approve/ / 301
 /one-question-consult /consultations/ 301
 /fees-and-rebates/ /consultations/ 301
 /fees-and-rebates /consultations/ 301
