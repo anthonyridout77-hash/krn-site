@@ -1,9 +1,12 @@
 ---
 import { getCollection } from 'astro:content';
 import Listing from '../../layouts/Listing.astro';
-import PostCard from '../../components/PostCard.astro';
+import RecipeCard from '../../components/RecipeCard.astro';
+import '../../styles/recipe.css';
 import { recipeUrl, byNewest } from '../../lib/content';
 const recipes = (await getCollection('recipes')).sort(byNewest);
+const order = ['Breakfast', 'Lunch & dinner', 'Snacks'];
+const meals = order.filter((m) => recipes.some((r) => r.data.meal === m));
 ---
 <Listing
   title="Recipes for pregnancy"
@@ -11,10 +14,29 @@ const recipes = (await getCollection('recipes')).sort(byNewest);
   lede="Everyday meals and snacks from Kat Ridout, Accredited Practising Dietitian. Recipes and lists only go so far; if you would like a plan built around your pregnancy, your appetite and your week, book a free 15-minute call."
   crumbs={[{ label: 'Home', href: '/' }, { label: 'Recipes' }]}
 >
-  <p class="count">{recipes.length} recipes</p>
-  <div class="pgrid">
-    {recipes.map((r) => (
-      <PostCard href={recipeUrl(r)} title={r.data.title} description={r.data.description} image={r.data.image} imageAlt={r.data.imageAlt} heading="h2" />
+  <div class="rfilter" role="group" aria-label="Filter recipes by meal">
+    <button type="button" class="rxchip" aria-pressed="true" data-meal="">All <span>{recipes.length}</span></button>
+    {meals.map((m) => (
+      <button type="button" class="rxchip" aria-pressed="false" data-meal={m}>{m} <span>{recipes.filter((r) => r.data.meal === m).length}</span></button>
     ))}
   </div>
+  <p class="count" aria-live="polite" data-rcount>{recipes.length} recipes</p>
+  <div class="pgrid rxlist">
+    {recipes.map((r, i) => <RecipeCard recipe={r} href={recipeUrl(r)} heading="h2" eager={i < 3} />)}
+  </div>
+  <script is:inline>
+  (function(){
+    var chips=document.querySelectorAll('.rfilter .rxchip'), cards=document.querySelectorAll('.rxlist .rxcard'), out=document.querySelector('[data-rcount]');
+    var apply=function(m,push){
+      var n=0;
+      chips.forEach(function(c){ c.setAttribute('aria-pressed', c.dataset.meal===m?'true':'false'); });
+      cards.forEach(function(c){ var show=!m||c.dataset.meal===m; c.hidden=!show; if(show){ n++; c.classList.add('in'); } });
+      out.textContent=n+(n===1?' recipe':' recipes')+(m?' · '+m:'');
+      if(push){ var u=new URL(location.href); if(m) u.searchParams.set('meal',m); else u.searchParams.delete('meal'); history.replaceState(null,'',u); }
+    };
+    chips.forEach(function(c){ c.addEventListener('click',function(){ apply(c.dataset.meal,true); }); });
+    var q=new URLSearchParams(location.search).get('meal');
+    if(q && Array.prototype.some.call(chips,function(c){return c.dataset.meal===q;})) apply(q,false);
+  })();
+  </script>
 </Listing>

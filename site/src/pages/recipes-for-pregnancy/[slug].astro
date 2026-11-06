@@ -1,8 +1,14 @@
 ---
 import { getCollection, render } from 'astro:content';
-import Article from '../../layouts/Article.astro';
-import PostCard from '../../components/PostCard.astro';
-import { recipeSlug, recipeUrl, byNewest } from '../../lib/content';
+import Base from '../../layouts/Base.astro';
+import BookBar from '../../components/BookBar.astro';
+import CtaBand from '../../components/CtaBand.astro';
+import PageScript from '../../components/PageScript.astro';
+import RecipeCard from '../../components/RecipeCard.astro';
+import '../../styles/article.css';
+import '../../styles/recipe.css';
+import { recipeSlug, recipeUrl, byNewest, isoDate } from '../../lib/content';
+import { ORG_ID, PERSON_ID, breadcrumbList } from '../../lib/schema';
 
 export async function getStaticPaths() {
   const recipes = await getCollection('recipes');
@@ -10,49 +16,201 @@ export async function getStaticPaths() {
 }
 const { recipe, all } = Astro.props;
 const { Content } = await render(recipe);
-const hasBody = (recipe.body ?? '').trim().length > 0;
-const more = all.filter((r) => r.id !== recipe.id).sort(byNewest).slice(0, 3);
+const d = recipe.data;
 const body = recipe.body ?? '';
-const ing = (body.split('## Ingredients')[1] ?? '').split('## Method')[0].split('\n').filter((l) => l.startsWith('- ')).map((l) => l.slice(2).trim());
-const steps = (body.split('## Method')[1] ?? '').split('\n').filter((l) => /^\d+\. /.test(l)).map((l) => l.replace(/^\d+\. /, '').trim());
-const site = 'https://katridout.com.au';
-const schema = ing.length && steps.length ? {
-  '@context': 'https://schema.org', '@type': 'Recipe', name: recipe.data.title,
-  description: recipe.data.description ?? undefined,
-  image: recipe.data.image ? site + recipe.data.image : undefined,
-  author: { '@type': 'Person', name: 'Katrina Ridout', jobTitle: 'Accredited Practising Dietitian' },
-  datePublished: recipe.data.date, recipeYield: recipe.data.serves ?? undefined,
-  recipeIngredient: ing, recipeInstructions: steps.map((s) => ({ '@type': 'HowToStep', text: s })),
-} : null;
----
-<Article
-  title={recipe.data.title}
-  description={recipe.data.description ?? `${recipe.data.title}: a simple pregnancy-friendly recipe from Katrina Ridout, Accredited Practising Dietitian.`}
-  image={recipe.data.image}
-  imageAlt={recipe.data.imageAlt}
-  crumbs={[{ label: 'Home', href: '/' }, { label: 'Recipes', href: '/recipes-for-pregnancy/' }, { label: recipe.data.title }]}
-  ctaHeading="Want meals planned around your pregnancy?"
-  ctaText="Book a free 15-minute call with Kat Ridout, Accredited Practising Dietitian, to talk through what would help. Telehealth Australia-wide or in person in Brisbane."
-  cta="Book a free call"
->
-  {schema && <script type="application/ld+json" set:html={JSON.stringify(schema)} />}
-  <Content />
-  {!hasBody && (
-    <p class="empty">The full method for this recipe is being moved across to the new site. In the meantime, the recipe index has more ideas, and Kat is happy to talk through meal ideas on a free 15-minute call.</p>
-  )}
 
-  <Fragment slot="related">
-    {more.length > 0 && (
-      <section class="related">
-        <div class="wrap">
-          <h2>More recipes</h2>
-          <div class="pgrid">
-            {more.map((r) => (
-              <PostCard href={recipeUrl(r)} title={r.data.title} description={r.data.description} image={r.data.image} imageAlt={r.data.imageAlt} />
-            ))}
+// Pull the structured parts out of the markdown body.
+const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+const inline = (s: string) => esc(s).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/(^|[^*])\*(?!\s)(.+?)\*/g, '$1<em>$2</em>');
+const intro = body.split(/\*\*Prep time|## Ingredients/)[0].split('\n').map((l) => l.trim()).filter((l) => l && !l.startsWith('**') && !l.startsWith('#'));
+const ingLines = (body.split('## Ingredients')[1] ?? '').split('## Method')[0].split('\n').filter((l) => l.startsWith('- ')).map((l) => l.slice(2).trim());
+const tips = ingLines.filter((l) => l.startsWith('*') && !l.startsWith('**')).map((l) => l.replace(/^\*+\s*/, ''));
+const ing = ingLines.filter((l) => !(l.startsWith('*') && !l.startsWith('**')));
+const steps = (body.split('## Method')[1] ?? '').split(/\n## /)[0].split('\n').filter((l) => /^\d+\. /.test(l)).map((l) => l.replace(/^\d+\. /, '').trim());
+const structured = ing.length > 0 && steps.length > 0;
+const plain = (s: string) => s.replace(/\*+/g, '');
+
+const servesNum = (d.serves ?? '').match(/\d+/)?.[0];
+const prepMin = (d.prepTime ?? '').match(/\d+/)?.[0];
+const description = d.description ?? (intro[0] && intro[0].length > 60 ? intro[0] : `${d.title}: a simple recipe from Katrina Ridout, Accredited Practising Dietitian.${d.prepTime ? ` Ready in ${d.prepTime}.` : ''}`);
+const webp = d.image?.replace(/\.jpe?g$/i, '.webp');
+const site = 'https://www.katridout.com.au';
+const pageUrl = new URL(Astro.url.pathname, site).toString();
+const crumbs = [{ label: 'Home', href: '/' }, { label: 'Recipes', href: '/recipes-for-pregnancy/' }, { label: d.title }];
+const crumbLd = breadcrumbList(crumbs, pageUrl);
+const schema = structured ? {
+  '@context': 'https://schema.org', '@type': 'Recipe', name: d.title, description,
+  image: d.image ? [site + d.image] : undefined,
+  author: { '@type': 'Person', '@id': PERSON_ID, name: 'Katrina Ridout', jobTitle: 'Accredited Practising Dietitian' },
+  publisher: { '@id': ORG_ID },
+  datePublished: d.date ? isoDate(d.date) : undefined,
+  dateModified: d.updated ? isoDate(d.updated) : undefined,
+  prepTime: prepMin ? `PT${prepMin}M` : undefined,
+  totalTime: prepMin ? `PT${prepMin}M` : undefined,
+  recipeYield: d.serves ?? undefined,
+  recipeCategory: d.meal ?? undefined,
+  recipeCuisine: 'Australian',
+  recipeIngredient: ing.map(plain),
+  recipeInstructions: steps.map((s, i) => ({ '@type': 'HowToStep', position: i + 1, text: plain(s), url: `${pageUrl}#step-${i + 1}` })),
+} : null;
+const sameMeal = all.filter((r) => r.id !== recipe.id && r.data.meal === d.meal);
+const others = all.filter((r) => r.id !== recipe.id && r.data.meal !== d.meal).sort(byNewest);
+const more = [...sameMeal, ...others].slice(0, 3);
+const storeKey = `krn-recipe-${recipe.id}`;
+---
+<Base title={`${d.seoTitle ?? `${d.title} recipe`} | Katrina Ridout Nutrition`} description={description} image={d.image}>
+  <Fragment slot="head">
+    {schema && <script type="application/ld+json" set:html={JSON.stringify(schema)} />}
+    {crumbLd && <script type="application/ld+json" set:html={JSON.stringify(crumbLd)} />}
+    {webp && <link rel="preload" as="image" href={webp} type="image/webp" fetchpriority="high" />}
+  </Fragment>
+
+  <section class="rhero">
+    <div class="wrap">
+      <nav class="crumbs" aria-label="Breadcrumb">
+        {crumbs.map((c, i) => (
+          <>
+            {i > 0 && <span aria-hidden="true">/</span>}
+            {c.href ? <a href={c.href}>{c.label}</a> : <span>{c.label}</span>}
+          </>
+        ))}
+      </nav>
+      <div class="rhero-grid">
+        <div class="rhero-text">
+          {d.meal && <a class="rmeal" href={`/recipes-for-pregnancy/?meal=${encodeURIComponent(d.meal)}`}>{d.meal}</a>}
+          <h1>{d.title}</h1>
+          {intro.length > 0 && <p class="lede">{intro.join(' ')}</p>}
+          <ul class="rstats" aria-label="Recipe at a glance">
+            {d.prepTime && <li><span>Prep</span><b>{d.prepTime}</b></li>}
+            {d.serves && <li><span>Serves</span><b>{servesNum ?? d.serves}</b></li>}
+            {structured && <li><span>Items</span><b>{ing.length}</b></li>}
+            {structured && <li><span>Steps</span><b>{steps.length}</b></li>}
+          </ul>
+          <div class="ractions">
+            {structured && <a class="rbtn" href="#recipe">Jump to recipe</a>}
+            <button class="rbtn" type="button" data-print>Print</button>
+            <button class="rbtn" type="button" data-wake hidden aria-pressed="false">Keep screen on</button>
           </div>
         </div>
-      </section>
-    )}
-  </Fragment>
-</Article>
+        {d.image && (
+          <figure class="rphoto">
+            <picture>
+              {webp && <source srcset={webp} type="image/webp" />}
+              <img src={d.image} alt={d.imageAlt ?? d.title} width="960" height="720" decoding="async" fetchpriority="high" />
+            </picture>
+          </figure>
+        )}
+      </div>
+    </div>
+  </section>
+
+  {structured ? (
+    <section class="rbody" id="recipe" data-recipe={storeKey}>
+      <div class="wrap rxgrid">
+        <aside class="ring" aria-labelledby="ing-h">
+          <div class="ring-card">
+            <div class="ring-head">
+              <h2 id="ing-h">Ingredients</h2>
+              {d.serves && <span class="ring-serves">Serves {servesNum ?? d.serves}</span>}
+            </div>
+            <ul class="ring-list">
+              {ing.map((item, i) => (
+                <li>
+                  <label>
+                    <input type="checkbox" data-i={i} />
+                    <span class="box" aria-hidden="true"></span>
+                    <span class="txt" set:html={inline(item)} />
+                  </label>
+                </li>
+              ))}
+            </ul>
+            {tips.map((t) => <p class="ring-tip"><b>Tip</b> <span set:html={inline(t)} /></p>)}
+            <p class="ring-foot"><span data-count>0 of {ing.length} ready</span><button type="button" class="ring-reset" data-reset hidden>Clear ticks</button></p>
+          </div>
+        </aside>
+
+        <div class="rmethod">
+          <h2>Method</h2>
+          <p class="rhint">Tap a step to mark it done.</p>
+          <ol class="rsteps">
+            {steps.map((s, i) => (
+              <li id={`step-${i + 1}`}>
+                <button type="button" class="rstep" aria-pressed="false" data-s={i}>
+                  <span class="n" aria-hidden="true">{i + 1}</span>
+                  <span class="t" set:html={inline(s)} />
+                </button>
+              </li>
+            ))}
+          </ol>
+          <div class="rdone" hidden data-done>
+            <p><b>All done.</b> Enjoy your {d.title.toLowerCase()}.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  ) : (
+    <article class="article">
+      <div class="wrap"><div class="prose"><Content /></div></div>
+    </article>
+  )}
+
+  <CtaBand
+    heading="Want meals planned around your pregnancy?"
+    text="Book a free 15-minute call with Kat Ridout, Accredited Practising Dietitian, to talk through what would help. Telehealth Australia-wide or in person in Brisbane."
+    cta="Book a free call"
+  />
+
+  {more.length > 0 && (
+    <section class="related">
+      <div class="wrap">
+        <div class="related-head">
+          <h2>More recipes</h2>
+          <a href="/recipes-for-pregnancy/">See all recipes</a>
+        </div>
+        <div class="pgrid">
+          {more.map((r) => <RecipeCard recipe={r} href={recipeUrl(r)} />)}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <BookBar slot="after" />
+  <PageScript slot="after" />
+  <script is:inline slot="after">
+  (function(){
+    var p=document.querySelector('[data-print]'); if(p) p.addEventListener('click',function(){ window.print(); });
+    var w=document.querySelector('[data-wake]'), lock=null;
+    if(w && 'wakeLock' in navigator){
+      w.hidden=false;
+      var set=function(on){ w.setAttribute('aria-pressed',on?'true':'false'); w.textContent=on?'Screen stays on':'Keep screen on'; };
+      w.addEventListener('click',function(){
+        if(lock){ lock.release(); lock=null; set(false); return; }
+        navigator.wakeLock.request('screen').then(function(l){ lock=l; set(true); l.addEventListener('release',function(){ lock=null; set(false); }); }).catch(function(){});
+      });
+      document.addEventListener('visibilitychange',function(){ if(document.visibilityState==='visible' && w.getAttribute('aria-pressed')==='true' && !lock){ navigator.wakeLock.request('screen').then(function(l){ lock=l; }).catch(function(){}); } });
+    }
+    var root=document.querySelector('[data-recipe]'); if(!root) return;
+    var key=root.getAttribute('data-recipe'), st={i:[],s:[]};
+    try{ st=JSON.parse(localStorage.getItem(key))||st; }catch(e){}
+    var save=function(){ try{ localStorage.setItem(key,JSON.stringify(st)); }catch(e){} };
+    var boxes=root.querySelectorAll('input[data-i]'), stepsEl=root.querySelectorAll('[data-s]');
+    var count=root.querySelector('[data-count]'), reset=root.querySelector('[data-reset]'), done=root.querySelector('[data-done]');
+    var sync=function(){
+      var n=0; boxes.forEach(function(b){ if(b.checked) n++; });
+      count.textContent=n+' of '+boxes.length+' ready';
+      var s=0; stepsEl.forEach(function(b){ if(b.getAttribute('aria-pressed')==='true') s++; });
+      reset.hidden=!(n||s); done.hidden=s!==stepsEl.length;
+    };
+    boxes.forEach(function(b){
+      b.checked=st.i.indexOf(+b.dataset.i)>-1;
+      b.addEventListener('change',function(){ var i=+b.dataset.i; st.i=st.i.filter(function(x){return x!==i;}); if(b.checked) st.i.push(i); save(); sync(); });
+    });
+    stepsEl.forEach(function(b){
+      var i=+b.dataset.s; if(st.s.indexOf(i)>-1) b.setAttribute('aria-pressed','true');
+      b.addEventListener('click',function(){ var on=b.getAttribute('aria-pressed')!=='true'; b.setAttribute('aria-pressed',on?'true':'false'); st.s=st.s.filter(function(x){return x!==i;}); if(on) st.s.push(i); save(); sync(); });
+    });
+    reset.addEventListener('click',function(){ st={i:[],s:[]}; save(); boxes.forEach(function(b){b.checked=false;}); stepsEl.forEach(function(b){b.setAttribute('aria-pressed','false');}); sync(); });
+    sync();
+  })();
+  </script>
+</Base>

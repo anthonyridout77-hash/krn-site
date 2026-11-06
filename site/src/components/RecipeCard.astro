@@ -1,0 +1,29 @@
+---
+import type { CollectionEntry } from 'astro:content';
+interface Props { recipe: CollectionEntry<'recipes'>; href: string; heading?: 'h2' | 'h3'; eager?: boolean }
+const { recipe, href, heading = 'h3', eager = false } = Astro.props;
+const d = recipe.data;
+const H = heading;
+const webp = d.image?.replace(/\.jpe?g$/i, '.webp');
+const serves = (d.serves ?? '').match(/\d+/)?.[0];
+---
+<a class="pcard rxcard rv" href={href} data-meal={d.meal ?? ''}>
+  <div class="thumb">
+    {d.image && (
+      <picture>
+        {webp && <source srcset={webp} type="image/webp" />}
+        <img src={d.image} alt={d.imageAlt || d.title} loading={eager ? 'eager' : 'lazy'} decoding="async" width="960" height="720" data-fallback />
+      </picture>
+    )}
+    {d.meal && <span class="rtag">{d.meal}</span>}
+  </div>
+  <div class="body">
+    <H>{d.title}</H>
+    {(d.prepTime || serves) && (
+      <p class="rmeta">
+        {d.prepTime && <span>{d.prepTime}</span>}
+        {serves && <span>Serves {serves}</span>}
+      </p>
+    )}
+  </div>
+</a>

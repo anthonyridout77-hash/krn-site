@@ -23,7 +23,12 @@ const blog = defineCollection({
 
 const recipes = defineCollection({
   loader: glob({ pattern: '**/*.md', base: '../content/recipes' }),
-  schema: z.object({ ...common }),
+  schema: z.object({
+    ...common,
+    meal: z.string().optional(),
+    prepTime: z.string().optional(),
+    serves: z.string().optional(),
+  }),
 });
 
 const services = defineCollection({
