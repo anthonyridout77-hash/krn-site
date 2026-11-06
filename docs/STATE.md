@@ -80,3 +80,12 @@ Read this first in any new session. Updated 21 Oct 2026, 09:00 AEST.
 ## 6 Nov 2026 15:20 — hero rotator (PR #13 feat/hero-rotator, not merged)
 - Homepage hero rotates 7 headline + sub-line pairs (all stages, trying, IVF, pregnant, after birth, PMOS & hormones, everyday) every 5.5 s with tappable chips; chip click stops rotation and fires `hero_segment` dataLayer event. Slide text in `site/src/pages/index.astro` (#heroSlides); CSS under "Hero rotator" in global.css.
 - H1 in HTML unchanged for SEO. No testimonials (DA rule). Kat to approve slide copy. PMOS vs PCOS on the public headline is Kat's call.
+
+## 6 Nov 2026 17:30 — AI / LLM visibility
+- Live: `/llms.txt`, `/llms-full.txt`, IndexNow key file, robots.txt naming AI crawlers, sitewide Organization + Person + WebSite schema, Article/Breadcrumb/FAQPage schema.
+- City telehealth pages: Sydney, Melbourne, Perth, Adelaide, Gold Coast, Canberra (`StatePage.astro`), linked from the footer. Kat to glance at the four new ones.
+- `.github/workflows/indexnow.yml` submits every sitemap URL to Bing after each push to main and daily 05:30 Brisbane.
+- Latitude agent writes one answer article a day to `content/blog/` (queue `content/_latitude-queue.md`). Make 8409336 still syncs any WordPress posts hourly until WP is switched off.
+- Latitude tracked prompts now cover Brisbane ×5, telehealth Australia, Sydney, Melbourne, Perth, Adelaide. Next visibility refresh ~25 Nov.
+- Kat's Reddit Replies page refilled to 12 pending (artifact Q1euco6QVhEqhg4P57TKcZ).
+- Human-only listings (Bing Webmaster sitemap, Bing Places, Apple Business Connect, healthdirect, weightloss.com.au address): see project doc `KRN_AI_and_SEO_Visibility_2026-11-06.md`.
