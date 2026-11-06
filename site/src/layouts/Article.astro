@@ -41,6 +41,7 @@ const crumbLd = breadcrumbList(crumbs, pageUrl);
     {updated && <meta property="article:modified_time" content={isoDate(updated)} />}
     {date && <script type="application/ld+json" set:html={JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":title,"description":description,"datePublished":isoDate(date),"dateModified":isoDate(updated ?? date),"image":image ? new URL(image, Astro.site).toString() : undefined,"inLanguage":"en-AU","author":{"@type":"Person","@id":PERSON_ID,"name":"Katrina Ridout","jobTitle":"Accredited Practising Dietitian","url":"https://www.katridout.com.au/about-kat/"},"publisher":{"@id":ORG_ID},"mainEntityOfPage":pageUrl})} />}
     {crumbLd && <script type="application/ld+json" set:html={JSON.stringify(crumbLd)} />}
+    {image && <link rel="preload" as="image" href={image} fetchpriority="high" />}
     <slot name="head" />
   </Fragment>
 
