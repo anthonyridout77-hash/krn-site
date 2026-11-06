@@ -1,6 +1,6 @@
 ---
 title: "Can you get a Medicare rebate for a dietitian in Australia?"
-description: " A   M e d i c a r e   r e b a t e   m a y   b e   a v a i l a b l e   f o r   e l i g i b l e   p a t i e n t s   o n   a   G P   C h r o n i c   C o n d i t i o n   M a n a g e m e n t   P l a n .   H e r e ’ s   h o w   t h e   p l a n   w o r k s ,   w h o   i s   e l i g i b l e   a n d   w h a t   t o   c h e c k   b e f o r e   y o u   b o o k   a   d i e t i t i a n . "
+description: "A Medicare rebate may be available for eligible patients on a GP Chronic Condition Management Plan. Here’s how the plan works, who is eligible and what to check before you book a dietitian."
 date: "2026-10-28"
 updated: "2026-10-28"
 categories:
