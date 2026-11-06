@@ -10,6 +10,7 @@ export const WEBSITE_ID = `${SITE}/#website`;
 export const SAME_AS = [
   'https://www.instagram.com/katrinaridoutnutrition/',
   'https://www.facebook.com/katrinaridoutnutrition/',
+  'https://www.linkedin.com/in/katrinaridout/',
   'https://g.page/r/CaPM342_gamiEBM',
   'https://member.dietitiansaustralia.org.au/FAAPD_Profile?ID=48159',
 ];
