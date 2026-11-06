@@ -1,6 +1,6 @@
 ---
 title: "How much caffeine and alcohol is okay when trying to conceive?"
-description: " T r y i n g   t o   c o n c e i v e   a n d   w o n d e r i n g   a b o u t   c o f f e e   a n d   w i n e ?   H e r e   i s   w h a t   t h e   A u s t r a l i a n   g u i d a n c e   s a y s   a b o u t   c a f f e i n e   a n d   a l c o h o l ,   a n d   a   f e w   s i m p l e   l i t t l e   s w i t c h e s   t h a t   h e l p . "
+description: "Trying to conceive and wondering about coffee and wine? Here is what the Australian guidance says about caffeine and alcohol, and a few simple little switches that help."
 date: "2026-10-21"
 updated: "2026-10-21"
 categories:
