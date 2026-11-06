@@ -1,7 +1,7 @@
 ---
 /* General dietitian landing page. Target of the "dietitian near me" / "dietitian Brisbane"
    Google Ads ad groups and the organic "dietitian Brisbane" page. Built 7 Nov 2026.
-   KAT GATE: EXPERIENCE and the "every week" line are new claims; Kat confirms before merge. */
+   20+ years confirmed by Kat via Anthony, 7 Nov 2026. No fees on this page (decided). */
 import Article from '../../layouts/Article.astro';
 import { BOOK_URL } from '../../lib/content';
 
@@ -34,6 +34,8 @@ const groups = [
 const faq: [string, string][] = [
   ['Do I need a referral to see a dietitian?', 'No. You can book with Kat directly. A GP referral is only needed if you want to claim a Medicare rebate.'],
   ['Can I claim Medicare or private health?', 'If your GP assesses you as eligible for a GP Chronic Condition Management Plan (GPCCMP), Medicare may rebate part of your consultations. Many private health extras policies also cover dietitian visits, depending on your fund and level of cover.'],
+  ['How soon can I be seen?', 'Appointments are usually available within the week, in person in Milton or by telehealth.'],
+  ['Is there parking in Milton?', 'Yes. Milton Village Medical has plenty of undercover parking.'],
   ['Is there a dietitian near me?', 'If you are in Brisbane, Kat sees clients in person at Milton Village Medical. Anywhere else in Australia, she sees you by telehealth, so the appointment comes to you.'],
   ['Does Kat see children and older adults?', 'Yes. Kat works with people of all ages, from fussy toddlers to adults managing long-term health conditions.'],
   ['What happens on the free 15-minute call?', 'Kat calls you at the time you book. You tell her what is going on, she explains how she can help and the best next step, and she talks you through fees before you commit to anything.'],
@@ -45,7 +47,7 @@ const faqLd = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":fa
   title="A dietitian near you, in Brisbane or by telehealth"
   metaTitle="Dietitian Brisbane (Milton) and Telehealth"
   description={`Katrina Ridout, Accredited Practising Dietitian with ${EXPERIENCE} experience. All ages, all common conditions. Milton, Brisbane or telehealth Australia-wide. Free 15-min call.`}
-  lede={`Katrina Ridout is an Accredited Practising Dietitian with ${EXPERIENCE} experience. She sees people every week for everyday and complex nutrition needs, from young children to older adults.`}
+  lede={`Katrina Ridout is an Accredited Practising Dietitian with ${EXPERIENCE} experience. See her in person in Milton, Brisbane, or by telehealth from home. Start with a free 15-minute call.`}
   crumbs={[{ label: 'Home', href: '/' }, { label: 'Services', href: '/our-services/' }, { label: 'Dietitian' }]}
   ctaHeading="Talk to Kat before you decide"
   ctaText="A free 15-minute call. Tell Kat what is going on and she will explain how she can help. Telehealth Australia-wide or in person in Milton, Brisbane."
@@ -60,18 +62,37 @@ const faqLd = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":fa
     <img src="/images/kat-ridout-apd.jpg" alt="Katrina Ridout, Accredited Practising Dietitian" width="480" height="480" loading="eager" />
     <div>
       <p class="gd-cta"><a class="btn btn-coral" href={book('hero')}>Book a free 15-min call</a></p>
+      <p class="gd-rating"><a href="https://g.page/r/CaPM342_gamiEBM/review" rel="noopener"><span class="stars" aria-hidden="true">★★★★★</span> <b>4.9</b> on Google · 49 reviews</a></p>
       <ul class="gd-trust">
-        <li>Accredited Practising Dietitian, APD008207</li>
+        <li>Accredited Practising Dietitian (APD)</li>
         <li>{EXPERIENCE} experience</li>
         <li>No referral needed</li>
-        <li>Medicare rebate applicable with a GPCCMP</li>
-        <li>In person in Milton or telehealth Australia-wide</li>
+        <li>Medicare and health fund rebates may apply</li>
+        <li>Appointments usually within the week</li>
+        <li>Calls every day except Monday</li>
       </ul>
       <p class="gd-call">Prefer to talk now? Call <a href="tel:1300640104">1300 640 104</a></p>
     </div>
   </div>
 
+  <h2>Two ways to see Kat</h2>
+  <div class="gd-ways">
+    <section class="gd-way">
+      <h3>In person in Milton, Brisbane</h3>
+      <p>Milton Village Medical<br>Level 1, 36 Baroona Road, Milton QLD 4064</p>
+      <p>Plenty of undercover parking. Close to Toowong, Paddington, Auchenflower, Red Hill and the CBD.</p>
+      <p><a href="https://www.google.com/maps/search/?api=1&query=Milton+Village+Medical+36+Baroona+Road+Milton+QLD+4064" rel="noopener">Get directions</a></p>
+    </section>
+    <section class="gd-way">
+      <h3>Telehealth from home</h3>
+      <p>A secure link on your phone, tablet or laptop, anywhere in Australia.</p>
+      <p>Same assessment as in the room. Your plan and follow-ups are sent to you online, so there is no travel and no waiting room.</p>
+    </section>
+  </div>
+  <p class="gd-note">Appointments are usually available within the week, in person or by telehealth. Not sure which suits you? Kat will help you choose on the free call.</p>
+
   <h2>What Kat helps with</h2>
+  <p>Kat sees clients every week, from young children to older adults, for everyday and more complex nutrition needs.</p>
   <p>Most people come to a dietitian with one question and a busy life. Kat helps you sort out what actually matters for you, then builds a plan that fits around your work, your family and the food you like.</p>
   <div class="gd-grid">
     {groups.map((g) => (
@@ -100,9 +121,6 @@ const faqLd = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":fa
   </ol>
   <p class="gd-cta"><a class="btn btn-coral" href={book('how-it-works')}>Book a free 15-min call</a></p>
 
-  <h2>Where to see Kat</h2>
-  <p><strong>Brisbane:</strong> Milton Village Medical, Level 1, 36 Baroona Road, Milton QLD 4064. Easy for clients from Toowong, Paddington, Auchenflower, Red Hill and the CBD.</p>
-  <p><strong>Anywhere in Australia:</strong> telehealth from home, the office or the car park at school pickup. Same care, no travel and no waiting room.</p>
 
   <h2>Common questions</h2>
   {faq.map(([q, a]) => (<><h3>{q}</h3><p>{a}</p></>))}
@@ -125,5 +143,12 @@ const faqLd = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":fa
   .gd-card h3{margin:0 0 .4rem;font-size:1.05rem}
   .gd-card ul{margin:0;padding-left:1.1rem}
   .gd-card li{margin:.2em 0;font-size:.95rem}
+  .gd-rating{margin:.7rem 0 0;font-size:.95rem}
+  .gd-rating a{color:var(--heading);text-decoration:none}
+  .gd-ways{display:grid;gap:1rem;margin:1.2em 0 .6em}
+  @media (min-width:640px){.gd-ways{grid-template-columns:1fr 1fr}}
+  .gd-way{border:1.5px solid var(--line);border-radius:18px;padding:1rem 1.2rem}
+  .gd-way h3{margin:0 0 .5rem;font-size:1.08rem}
+  .gd-way p{margin:.4em 0;font-size:.96rem}
   .gd-note{color:var(--fg-soft);font-size:.95rem}
 </style>
