@@ -1,6 +1,3 @@
-# Canonical host: www (matches canonical tags, Search Console property and Calendly redirect)
-https://katridout.com.au/* https://www.katridout.com.au/:splat 301
-
 # Cloudflare Pages redirects. One rule per line: from to status.
 # Old WordPress URLs (api.katridout.com.au paths) that do not exist on the new site.
 # /blogs/, /recipes-for-pregnancy/, /our-services/ and the kept pages are real routes; do not add them here.
