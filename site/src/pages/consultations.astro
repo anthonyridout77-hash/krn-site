@@ -12,7 +12,7 @@ const rebate = '$63.40';
 const CALL = 'https://calendly.com/katridout/15-minute-investigative-callback';
 
 const starters = [
-  { id: 'call', q: 'Not sure where to start?', name: 'Free introductory call', best: 'Anyone deciding what support they need', time: '15 minutes, phone', what: 'Talk through what you are looking for and whether Kat can help. Personalised nutrition advice is kept for a consultation.', get: 'A clear next step, with no obligation.', paid: false, cta: 'Book a free call', href: CALL, coral: false },
+  { id: 'call', q: 'Not sure where to start?', name: 'Free introductory call', best: 'Anyone who would like to talk it through first', time: '15 minutes, phone', what: 'Tell Kat what is going on. She will listen, explain how she would approach it and how she can help. Personalised meal plans and supplement advice are kept for a consultation.', get: 'A clear, caring next step that suits you, with no obligation.', paid: false, cta: 'Book a free call', href: CALL, coral: false },
   { id: 'oneq', q: 'Have one focused nutrition question?', name: 'One-Question Consult', best: 'New clients with one specific question', time: '30 minutes, video', what: 'Kat answers your question properly. This is not a full assessment or a full meal plan.', get: 'A one-page written plan within 2 business days.', paid: true, cta: 'View consult details and fee', href: '/one-question-consult/', coral: true },
   { id: 'initial', q: 'Need a full assessment or ongoing support?', name: 'Initial consultation', best: 'Anyone wanting a complete picture and a plan', time: '75 minutes, Milton or telehealth', what: 'A full assessment of your history, bloods, medications and eating, then Kat helps you decide whether individual appointments or a program suits you.', get: 'Assessment summary, individualised supplement plan, starter meal plan, recipe booklet, snack ideas and goals summary, within 2 business days.', paid: true, cta: 'Discuss my options with Kat', href: CALL, coral: false, note: 'Goes to the free introductory call booking page.' },
 ];
@@ -21,9 +21,9 @@ const cols = ['Free call', 'One-Question Consult', 'Initial consultation'];
 const rows: { label: string; cells: string[] }[] = [
   { label: 'Who it suits', cells: ['Anyone deciding', 'New clients with one question', 'Anyone wanting a full assessment'] },
   { label: 'Duration and format', cells: ['15 min, phone', '30 min, video', '75 min, Milton or telehealth'] },
-  { label: 'Assessment', cells: ['None (no advice given)', 'Focused on your question', 'Complete'] },
+  { label: 'Assessment', cells: ['A conversation about your situation', 'Focused on your question', 'Complete'] },
   { label: 'Written takeaway', cells: ['None', 'One-page plan, 2 business days', 'Full plan and resources, 2 business days'] },
-  { label: 'Follow-up', cells: ['Kat suggests a next step', 'Fee credited if you continue within 30 days', 'Review appointments or a program, your choice'] },
+  { label: 'Follow-up', cells: ['Kat suggests the best next step for you', 'Fee credited if you continue within 30 days', 'Review appointments or a program, your choice'] },
 ];
 
 const schema = {
@@ -52,7 +52,7 @@ const schema = {
   crumbs={[{ label: 'Home', href: '/' }, { label: 'Consultations' }]}
   lede="Choose your starting point. Start with one focused question or a full nutrition assessment, or book a free introductory call if you are unsure."
   ctaHeading="Still unsure?"
-  ctaText="Book a free 15-minute call. No advice is given on the call, it is for working out whether Kat is the right fit and which option suits you."
+  ctaText="Book a free 15-minute call. Tell Kat what is going on, she will listen, explain how she can help, and suggest the best next step for you."
 >
   <script type="application/ld+json" slot="head" set:html={JSON.stringify(schema)} />
 
