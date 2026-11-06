@@ -14,7 +14,7 @@ Dietitian Brisbane
 
 ### Not sure where to start?
 Book a free 15-minute call with Kat. It is a short phone conversation about what is going on for you and whether working together would help. No preparation and no obligation.
-Book a free 15-minute call (https://calendly.com/katridout/15-minute-investigative-callback)
+[Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## Personalised support to best manage your conditions and optimise your health.
 
@@ -63,50 +63,37 @@ Kat explains her fees on the free call, before you commit to anything, so you ca
 
 ### Not sure where to start?
 Book a free 15-minute call with Kat. It is a short phone conversation about what is going on for you and whether working together would help. No preparation and no obligation.
-Book a free 15-minute call (https://calendly.com/katridout/15-minute-investigative-callback)
+[Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## Book your free 15-minute call
 Pick a time below. Kat will call you, talk through what is going on and tell you honestly whether she can help. No preparation and no obligation.
 
 Prefer to book in a new window, or having trouble with the calendar above? Use the button below.
-Open the booking page → (https://calendly.com/katridout/15-minute-investigative-callback?utm_source=website&utm_medium=landing_page&utm_campaign=dietitian)Prefer to talk to someone first? Call 1300 640 104.
+[Open the booking page](https://calendly.com/katridout/15-minute-investigative-callback?utm_source=website&utm_medium=landing_page&utm_campaign=dietitian). Prefer to talk to someone first? Call 1300 640 104.
 
 ## Frequently Asked Questions
 
+### Do I need a referral to see a dietitian?
+
 No. You can book with Kat directly. A GP plan is only needed if you want to claim a Medicare rebate.
+
+### Can I see a dietitian online?
 
 Yes. Kat sees clients by video anywhere in Australia, so you get the same care from home without travelling or sitting in a waiting room. You just need a phone, tablet or computer with a camera.
 
+### Where can I see Kat in person?
+
 At Milton Village Medical, Level 1, 36 Baroona Road, Milton QLD 4064, in Brisbane. Many Brisbane clients choose online appointments too.
+
+### Can I get a Medicare rebate for a dietitian?
 
 If your GP assesses you as eligible for a Chronic Condition Management Plan, Medicare may rebate part of your dietitian consultations. Many private health extras policies also cover dietitian visits, depending on your fund and level of cover.
 
+### What happens on the free 15-minute call?
+
 Kat calls you at the time you book. You talk through what is going on, she tells you honestly whether she can help and what that would look like, and explains the options and fees. There is no preparation and no obligation.
+
+### What is the difference between a dietitian and a nutritionist?
 
 An Accredited Practising Dietitian (APD) holds the national credential for dietitians in Australia, which requires university training in clinical nutrition and ongoing professional development. It is also the credential Medicare and private health funds recognise.
 
- (/contact-us/) 
-
-### From our blog
-
-Stay up-to-date with the latest news and information
-
-Read More (/blogs/)
-
-New 
-
-### How does thyroid health affect fertility, and what should you eat?
-
-October 20, 2026 (/blogs/thyroid-health-fertility-diet/)### What should I eat while breastfeeding?
-
-October 19, 2026 (/blogs/what-should-i-eat-while-breastfeeding/)### What should a gestational diabetes meal plan look like?
-
-October 18, 2026 (/blogs/gestational-diabetes-meal-plan-guide/)### What foods should you avoid during pregnancy in Australia?
-
-October 18, 2026 (/blogs/foods-to-avoid-during-pregnancy-australia/)
-
-### Sign up for our monthly coaching e-mail
-
-## Start your journey today
-
- 1300 640 104

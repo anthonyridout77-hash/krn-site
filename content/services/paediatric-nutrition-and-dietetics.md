@@ -14,7 +14,7 @@ Dietitian Brisbane
 
 ### Not sure where to start?
 Book a free 15-minute call with Kat. It is a short phone conversation about what is going on for you and whether working together would help. No preparation and no obligation.
-Book a free 15-minute call (https://calendly.com/katridout/15-minute-investigative-callback)
+[Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## Start your baby’s healthy journey today with the right nutrition
 
@@ -34,25 +34,27 @@ Reach out today to give your little one the healthiest start and set them up for
 
 ### Not sure where to start?
 Book a free 15-minute call with Kat. It is a short phone conversation about what is going on for you and whether working together would help. No preparation and no obligation.
-Book a free 15-minute call (https://calendly.com/katridout/15-minute-investigative-callback)
-
-- #### Book Your Free 15-Minute Call
-
-Not sure where to start? Book a free 15-minute call with Katrina to talk through what you need. Enter your details below.
-
-No obligation to book a consult.
+[Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## Frequently Asked Questions
 
+### What is the most common nutrient deficiency in children?
+
 Iron deficiency is the leading nutritional deficiency in children, as indicated by research findings. However, the prevalence of iron deficiency during the first year of life has been decreasing due to improved iron supplementation.
+
+### What happens when children get too little of a nutrient?
 
 If children don’t get enough of certain nutrients, they can develop deficiencies that may affect their health and development. For example, too little iron can cause anaemia, low calcium can lead to weak bones, not enough zinc may slow growth, and a lack of iodine can impact thyroid function.
 
 An inadequate intake of any key nutrient can compromise your child’s overall health, immune system, growth and even cognitive development. That’s why it’s so important for children to eat a balanced diet with a wide variety of nutrient-rich foods to support their wellbeing and help them thrive.
 
+### What are the clinical signs of nutritional deficiency in children?
+
 The signs of nutritional deficiencies in children can vary depending on which nutrient is lacking. For example, iron deficiency may cause pale skin, tiredness, weakness and anaemia. Low vitamin D can lead to rickets, while vitamin A deficiency may cause night blindness. Calcium deficiency can result in weak bones, and not enough zinc may slow growth and weaken the immune system.
 
 It’s also important to know that not all children with deficiencies show obvious symptoms. This is why a balanced diet and regular check-ups with your healthcare provider are so important to ensure your child is getting everything they need to grow strong and healthy.
+
+### What foods are good for a baby’s digestion?
 
 When it comes to introducing solid foods to a baby’s diet, it’s important to choose foods that are gentle on their developing digestive system. Here are some foods that are generally considered good for baby digestion:
 
@@ -78,9 +80,13 @@ When it comes to introducing solid foods to a baby’s diet, it’s important to
 
 *Remember to introduce new foods one at a time and observe any signs of allergies or digestive discomfort. Always consult with your nutritionist before introducing new foods to your baby’s diet, especially if you have concerns about their digestion.
 
+### What are poor feeding habits in babies?
+
 Poor feeding habits in babies can look like under- or overeating, not getting enough nutritious foods, or having too many foods and drinks that are high in fat, salt, sugar or low in fibre. Some examples include overfeeding, bottle propping, introducing solids too early, ignoring your baby’s hunger cues, offering inappropriate foods, allowing too much snacking, or using food as a reward or punishment.
 
 Establishing healthy feeding practices from the beginning is important for your baby’s growth and wellbeing. If you ever have concerns about your baby’s feeding, it’s best to reach out to a healthcare professional for guidance and support.
+
+### What foods are best for baby brain development?
 
 Proper nutrition plays a crucial role in supporting a baby’s brain development. Here are some foods that are considered beneficial for brain development in babies:
 
@@ -106,28 +112,3 @@ Proper nutrition plays a crucial role in supporting a baby’s brain development
 
 Remember to introduce solid foods gradually, follow your nutritionist’s recommendations, and consider any specific dietary needs or allergies your baby may have.
 
- (/contact-us/) 
-
-### From our blog
-
-Stay up-to-date with the latest news and information
-
-Read More (/blogs/)
-
-New 
-
-### How does thyroid health affect fertility, and what should you eat?
-
-October 20, 2026 (/blogs/thyroid-health-fertility-diet/)### What should I eat while breastfeeding?
-
-October 19, 2026 (/blogs/what-should-i-eat-while-breastfeeding/)### What should a gestational diabetes meal plan look like?
-
-October 18, 2026 (/blogs/gestational-diabetes-meal-plan-guide/)### What foods should you avoid during pregnancy in Australia?
-
-October 18, 2026 (/blogs/foods-to-avoid-during-pregnancy-australia/)
-
-### Sign up for our monthly coaching e-mail
-
-## Start your journey today
-
- 1300 640 104

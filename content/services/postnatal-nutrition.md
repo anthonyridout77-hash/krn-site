@@ -14,7 +14,7 @@ Dietitian Brisbane
 
 ### Not sure where to start?
 Book a free 15-minute call with Kat. It is a short phone conversation about what is going on for you and whether working together would help. No preparation and no obligation.
-Book a free 15-minute call (https://calendly.com/katridout/15-minute-investigative-callback)
+[Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## Caring for yourself is the first step to caring for your baby
 
@@ -65,23 +65,27 @@ If you’re ready to feel confident and supported in your postnatal journey, I�
 
 ### Not sure where to start?
 Book a free 15-minute call with Kat. It is a short phone conversation about what is going on for you and whether working together would help. No preparation and no obligation.
-Book a free 15-minute call (https://calendly.com/katridout/15-minute-investigative-callback)
-
-- #### Book Your Free 15-Minute Call
-
-Not sure where to start? Book a free 15-minute call with Katrina to talk through what you need. Enter your details below.
-
-No obligation to book a consult.
+[Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## Frequently Asked Questions
 
+### What are the nutritional requirements for post pregnancy?
+
 After pregnancy, it’s important to take care of your body by eating a nutritious diet. This can help with healing and provide the energy needed for taking care of your new baby. Some important nutrients to focus on include protein, iron, calcium, vitamin D, and folate. Make sure to eat a variety of foods, including fruits, vegetables, whole grains, and healthy fats. And don’t forget to drink plenty of water to stay hydrated! If you’re not sure where to start, contact Katrina Ridout, a qualified dietitian for personalised advice.
+
+### What foods to avoid for postnatal?
 
 To promote healing and prevent discomfort after giving birth, it’s best to avoid or limit caffeine, alcohol, spicy or gas-producing foods, processed or high-fat foods, and raw or undercooked meat. However, if you have any concerns about your diet or how to get the nutrients you need, seek advice from a fully qualified dietitian, Katrina Ridout. She can provide personalised advice and help you develop a healthy eating plan.
 
+### What vitamins are good for postnatal?
+
 Vitamins that are important for postnatal include vitamin D, iron, calcium, vitamin C, and B vitamins. These vitamins are essential for healing and supporting the immune system, bone health, and energy metabolism. The best way to get these vitamins is through a balanced and varied diet that includes a variety of nutrient-dense foods. If you’re unsure about whether you’re getting enough vitamins, talk to your healthcare provider or a registered dietitian like Katrina Ridout for personalised advice.
 
+### Does my diet need to change much from pregnancy to breastfeeding?
+
 When transitioning from pregnancy to breastfeeding, your diet may need some adjustments. You’ll need to consume more calories (around 300–500 extra per day), focus on nutrient-rich foods, stay hydrated, continue taking prenatal vitamins, include omega-3 fatty acids, limit substances like caffeine and alcohol, and monitor for any food sensitivities in your baby. It’s advisable to consult a healthcare professional for personalised advice.
+
+### Are there any foods that help regulate blood pressure?
 
 Yes, there are several foods that can help regulate blood pressure. Here are some examples:
 
@@ -103,6 +107,8 @@ Yes, there are several foods that can help regulate blood pressure. Here are som
 
 It’s important to note that while these foods may have a positive impact on blood pressure, they should be part of an overall healthy and balanced diet. If you have high blood pressure or any specific dietary concerns, it’s recommended to consult with a healthcare professional or registered dietitian for personalised advice.
 
+### What are some quick and healthy snacks for when the munchies take hold while breastfeeding?
+
 When the munchies strike while breastfeeding, it’s important to have quick and healthy snacks on hand. Here are some ideas:
 
 ● Fresh fruit: Grab a piece of whole fruit like apples, oranges, bananas, or grapes. They provide natural sweetness and are packed with vitamins and fibre.
@@ -123,28 +129,3 @@ When the munchies strike while breastfeeding, it’s important to have quick and
 
 Remember to stay hydrated by having a glass of water or herbal tea alongside your snack. These snack ideas are just a starting point, and you can mix and match them according to your preferences and dietary needs.
 
- (/contact-us/) 
-
-### From our blog
-
-Stay up-to-date with the latest news and information
-
-Read More (/blogs/)
-
-New 
-
-### How does thyroid health affect fertility, and what should you eat?
-
-October 20, 2026 (/blogs/thyroid-health-fertility-diet/)### What should I eat while breastfeeding?
-
-October 19, 2026 (/blogs/what-should-i-eat-while-breastfeeding/)### What should a gestational diabetes meal plan look like?
-
-October 18, 2026 (/blogs/gestational-diabetes-meal-plan-guide/)### What foods should you avoid during pregnancy in Australia?
-
-October 18, 2026 (/blogs/foods-to-avoid-during-pregnancy-australia/)
-
-### Sign up for our monthly coaching e-mail
-
-## Start your journey today
-
- 1300 640 104

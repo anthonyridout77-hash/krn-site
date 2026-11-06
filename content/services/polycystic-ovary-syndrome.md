@@ -15,7 +15,7 @@ Pregnancy and Polycystic Ovary Syndrome Brisbane
 
 ### Not sure where to start?
 Book a free 15-minute call with Kat. It is a short phone conversation about what is going on for you and whether working together would help. No preparation and no obligation.
-Book a free 15-minute call (https://calendly.com/katridout/15-minute-investigative-callback)
+[Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## With the right guidance, PCOS doesn’t have to stand in the way of your dream of motherhood
 
@@ -75,19 +75,15 @@ Through personalised nutrition, I can help you create a plan that fits your life
 
 ### Pregnancy and PCOS nutritionist in Brisbane
 If you are living with Polycystic Ovary Syndrome (PCOS) and hoping to conceive, you don’t have to navigate the journey alone. Kat Ridout has over 15 years of experience helping women with PCOS manage their symptoms, support their fertility and go on to have healthy pregnancies and babies.
-Get in touch with us today by clicking here ➡️ contact us (/contact-us/).
+Get in touch with Kat through the [contact page](/contact-us/).
 
 ### Not sure where to start?
 Book a free 15-minute call with Kat. It is a short phone conversation about what is going on for you and whether working together would help. No preparation and no obligation.
-Book a free 15-minute call (https://calendly.com/katridout/15-minute-investigative-callback)
-
-- #### Book Your Free 15-Minute Call
-
-Not sure where to start? Book a free 15-minute call with Katrina to talk through what you need. Enter your details below.
-
-No obligation to book a consult.
+[Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## Frequently Asked Questions
+
+### How can changes to your diet and lifestyle help PCOS?
 
 Making changes to your diet and lifestyle can play a big role in managing Polycystic Ovary Syndrome (PCOS) and improving overall health. Some of the key benefits include:
 
@@ -104,6 +100,8 @@ Making changes to your diet and lifestyle can play a big role in managing Polycy
 - Reducing long-term risks: Women with PCOS have a higher risk of cardiovascular disease, but good nutrition and exercise can help protect heart health.
 
 It’s important to make these changes alongside medical advice. Working with a fertility dietitian like Kat Ridout ensures that your nutrition plan is personalised, evidence-based and designed to support both your symptoms and your fertility goals.
+
+### What should we include or avoid in a PCOS-friendly diet?
 
 A PCOS-friendly diet focuses on foods that help balance hormones, regulate blood sugar and reduce inflammation.
 
@@ -133,6 +131,8 @@ Limit or avoid:
 
 Every woman with PCOS has unique needs, so it’s best to work with a fertility dietitian like Kat Ridout to create a personalised nutrition plan that supports your symptoms, fertility and overall wellbeing.
 
+### How does your diet affect polycystic ovary syndrome (PCOS)?
+
 Diet plays an important role in managing PCOS symptoms and overall health. The foods you eat can influence:
 
 - Insulin resistance: Balanced meals with fibre, protein and healthy fats can help regulate blood sugar levels.
@@ -148,6 +148,8 @@ Diet plays an important role in managing PCOS symptoms and overall health. The f
 A diet rich in whole foods, fibre, lean protein and healthy fats, while low in refined carbohydrates and added sugars, is often recommended for women with PCOS.
 
 Since every woman’s needs are different, working with a fertility dietitian like Kat Ridout ensures your nutrition plan is tailored to your unique health, lifestyle and fertility goals.
+
+### What should I eat during pregnancy to manage PCOS symptoms?
 
 Managing PCOS during pregnancy is possible with a balanced, nutrient-rich diet that supports both your health and your baby’s development. Focus on:
 
@@ -167,34 +169,13 @@ Limiting processed sugars and refined carbohydrates is also important, as they c
 
 For personalised guidance, working with a fertility dietitian like Kat Ridout can give you a tailored plan that supports both PCOS management and a healthy pregnancy.
 
+### Should I take supplements when trying to get pregnant with PCOS?
+
 Yes, taking certain supplements can support fertility and help women with PCOS who are trying to conceive. Key supplements include myoinositol to improve insulin sensitivity and regulate ovulation, folic acid to prevent birth defects and support early pregnancy development, vitamin D to help with hormone regulation and fertility, omega-3 fatty acids to reduce inflammation and improve egg quality, and magnesium to support insulin sensitivity and reduce inflammation. Other helpful supplements may include zinc, chromium, and probiotics to further support hormonal balance and reproductive health.
 
 If you're in Queensland, it's particularly important to consult with a healthcare provider or dietitian, such as Katrina Ridout, who can guide you on the best supplements for your specific situation. Supplements should complement a balanced, nutrient-rich diet for optimal results when dealing with PCOS and fertility.
 
+### How can I manage gestational diabetes during pregnancy if I have PCOS?
+
 To manage gestational diabetes during pregnancy with PCOS in Queensland, focus on a low-GI diet with whole grains, non-starchy vegetables, and lean proteins to regulate blood sugar. Eating smaller, frequent meals and including healthy fats like avocado and nuts will support balanced blood sugar levels. Regular exercise can improve insulin sensitivity but always check with your doctor before starting any new activities. Monitoring your blood sugar regularly and staying hydrated with water, avoiding sugary drinks, are essential. Supplements may be recommended by healthcare providers like Katrina Ridout to help manage PCOS during pregnancy. Work closely with your healthcare team, including a dietitian, to create a personalised plan for optimal blood sugar control and a healthy pregnancy.
 
- (/contact-us/) 
-
-### From our blog
-
-Stay up-to-date with the latest news and information
-
-Read More (/blogs/)
-
-New 
-
-### How does thyroid health affect fertility, and what should you eat?
-
-October 20, 2026 (/blogs/thyroid-health-fertility-diet/)### What should I eat while breastfeeding?
-
-October 19, 2026 (/blogs/what-should-i-eat-while-breastfeeding/)### What should a gestational diabetes meal plan look like?
-
-October 18, 2026 (/blogs/gestational-diabetes-meal-plan-guide/)### What foods should you avoid during pregnancy in Australia?
-
-October 18, 2026 (/blogs/foods-to-avoid-during-pregnancy-australia/)
-
-### Sign up for our monthly coaching e-mail
-
-## Start your journey today
-
- 1300 640 104

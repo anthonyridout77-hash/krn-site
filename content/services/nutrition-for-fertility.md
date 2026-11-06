@@ -14,7 +14,7 @@ Dietitian Brisbane
 
 ### Not sure where to start?
 Book a free 15-minute call with Kat. It is a short phone conversation about what is going on for you and whether working together would help. No preparation and no obligation.
-Book a free 15-minute call (https://calendly.com/katridout/15-minute-investigative-callback)
+[Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## The right nutrition can help prepare your body for pregnancy
 
@@ -35,17 +35,15 @@ If you’d like to learn more about how fertility nutrition can support you, I�
 
 ### Not sure where to start?
 Book a free 15-minute call with Kat. It is a short phone conversation about what is going on for you and whether working together would help. No preparation and no obligation.
-Book a free 15-minute call (https://calendly.com/katridout/15-minute-investigative-callback)
-
-- #### Book Your Free 15-Minute Call
-
-Not sure where to start? Book a free 15-minute call with Katrina to talk through what you need. Enter your details below.
-
-No obligation to book a consult.
+[Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## Frequently Asked Questions
 
+### Does caffeine affect fertility?
+
 High caffeine intake may affect hormone balance and reduce the chances of conception. Moderate consumption, however, is generally considered safe. Limiting caffeine to moderate levels while trying to conceive, and focusing instead on nutrient-rich foods, can help support fertility and healthy hormone levels.
+
+### What is the best fertility diet?
 
 A healthy, balanced diet can make a big difference to fertility for both men and women. Choosing mostly whole and minimally processed foods, plenty of plant-based options, healthy fats, lean proteins, iron-rich foods and low-glycaemic index carbohydrates can all support reproductive health.
 
@@ -53,31 +51,51 @@ It’s also important to limit or avoid things that may reduce fertility, such a
 
 Because every person’s needs are different, working with a healthcare provider or registered dietitian can help you create a personalised nutrition plan that supports your body and your fertility goals.
 
+### What role does iron play in fertility?
+
 Iron is essential for ovulation and carrying oxygen to reproductive organs. Deficiency can disrupt cycles and increase the risk of infertility. Katrina Ridout, Accredited Practising Dietitian & Nutritionist in Brisbane, highlights that ensuring adequate iron intake from foods like lean meats, legumes, and leafy greens supports fertility and prepares the body for a healthy pregnancy.
+
+### How does vitamin D impact fertility?
 
 Vitamin D supports reproductive health by influencing hormone regulation and egg quality. Low levels may be linked to reduced fertility and complications during pregnancy. Maintaining optimal vitamin D through diet, safe sun exposure, or supplements can help improve overall fertility outcomes.
 
+### How do I plan balanced meals for fertility?
+
 Balanced meals should include lean protein, high-fibre whole grains, colourful vegetables, fruit, and healthy fats like avocado or nuts. Spacing meals regularly helps maintain steady blood sugar and hormone balance. Katrina Ridout works with couples and individuals to design practical, nutrient-rich meal plans that fit daily routines, ensuring all essential nutrients are covered to support fertility and overall wellbeing.
+
+### What are some foods that increase fertility?
 
 A healthy, balanced diet can play a powerful role in improving fertility for both men and women. Eating a wide variety of fruits and vegetables, wholegrains, lean proteins, healthy fats, iron-rich foods and low-glycaemic index carbohydrates can help reduce inflammation, support hormone balance and promote healthy egg and sperm production.
 
 Rather than relying on single “fertility foods,” the goal is to eat a variety of nutrient-dense foods that work together to support your reproductive health. If you are finding it difficult to conceive, working with a healthcare provider or registered dietitian can help you develop a personalised plan to give your body the best possible support.
 
+### How does folate (folic acid) impact fertility?
+
 Folate (or folic acid) is one of the most important nutrients for fertility. It supports DNA synthesis and cell division, which are vital for the development of healthy eggs and sperm. Adequate folate levels also help regulate hormones, support regular ovulation, contribute to sperm health and may reduce the risk of miscarriage. Once pregnancy occurs, folate plays a key role in preventing neural tube defects in early development.
 
 Folate is found naturally in foods such as leafy greens, legumes and fortified cereals, but supplementation is usually recommended for women trying to conceive to ensure optimal levels. Working with a healthcare provider, such as Kat Ridout, can help you determine the right dosage to best support your reproductive health and fertility journey.
+
+### How much does obesity affect female fertility?
 
 Carrying excess weight can have an impact on female fertility. It may lead to hormonal imbalances, affect egg quality, reduce the body’s response to fertility treatments, and increase the risk of pregnancy complications. These factors can make it harder to conceive, but there is good news — even modest weight loss through healthy eating and regular movement can improve fertility outcomes.
 
 Working with a healthcare provider or a registered dietitian can help you create a safe, personalised plan to support healthy weight management, balance hormones and boost your chances of conceiving.
 
+### What are the most important nutrients for fertility?
+
 Key nutrients include folate, zinc, iron, omega-3 fatty acids, vitamin D, and antioxidants. These support hormone regulation, egg quality, and sperm function. For example, folate reduces the risk of early pregnancy complications, while zinc helps sperm production. Katrina Ridout highlights the importance of meeting these needs through balanced meals or supplements where necessary, helping both women and men prepare their bodies for conception.
 
+### How does nutrition affect fertility in women and men?
+
 Nutrition plays a key role in hormone balance, egg and sperm quality, and overall reproductive health. A diet rich in whole foods, lean proteins, and healthy fats supports regular cycles in women and healthy sperm development in men. Katrina Ridout, an Accredited Practising Dietitian & Nutritionist in Brisbane, guides individuals in tailoring nutrition to optimise fertility and improve chances of conception.
+
+### Is there a connection between gut health and fertility?
 
 Yes, gut health can play an important role in fertility. A healthy gut microbiome helps regulate hormones, support nutrient absorption and reduce inflammation — all of which are important for reproductive health. Poor gut health, on the other hand, can contribute to imbalances that affect ovulation, egg and sperm quality, and even the ability of an embryo to implant.
 
 Looking after your gut through a balanced diet rich in fibre, probiotics, prebiotics and whole foods can help support both fertility and overall wellbeing. If you’re trying to conceive, working with a dietitian can give you personalised strategies to optimise your gut health and boost your fertility naturally.
+
+### Are there specific foods to avoid when trying to conceive?
 
 Yes, certain foods should be avoided or limited when trying to conceive to support optimal fertility and reproductive health:
 
@@ -97,28 +115,3 @@ Artificial Sweeteners: Some studies suggest that artificial sweeteners may affec
 
 Focusing on a balanced diet rich in fruits, vegetables, whole grains, lean proteins, and healthy fats can help support fertility and overall health.
 
- (/contact-us/) 
-
-### From our blog
-
-Stay up-to-date with the latest news and information
-
-Read More (/blogs/)
-
-New 
-
-### How does thyroid health affect fertility, and what should you eat?
-
-October 20, 2026 (/blogs/thyroid-health-fertility-diet/)### What should I eat while breastfeeding?
-
-October 19, 2026 (/blogs/what-should-i-eat-while-breastfeeding/)### What should a gestational diabetes meal plan look like?
-
-October 18, 2026 (/blogs/gestational-diabetes-meal-plan-guide/)### What foods should you avoid during pregnancy in Australia?
-
-October 18, 2026 (/blogs/foods-to-avoid-during-pregnancy-australia/)
-
-### Sign up for our monthly coaching e-mail
-
-## Start your journey today
-
- 1300 640 104

@@ -15,7 +15,7 @@ Specialty Diet Pregnancy Nutritionist Brisbane
 
 ### Not sure where to start?
 Book a free 15-minute call with Kat. It is a short phone conversation about what is going on for you and whether working together would help. No preparation and no obligation.
-Book a free 15-minute call (https://calendly.com/katridout/15-minute-investigative-callback)
+[Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 What you eat in the months before and during pregnancy has a lasting impact on your baby’s growth and development, as well as your own health. If you have specific dietary needs, balancing your nutrition becomes even more important to support a healthy pregnancy and give your baby the best start in life.
 Eating a healthy, balanced diet is one of the best ways to optimise your baby’s development, but this can feel more challenging if you follow a speciality diet. Pregnancy is such an exciting time, but it can also feel overwhelming. Many mums worry about making the “right” choices and feel the weight of responsibility for their growing baby. That’s completely natural — and you don’t have to figure it out alone.
@@ -85,15 +85,11 @@ To book an appointment with Kat Ridout, please call 1300 640 104 or get in touch
 
 ### Not sure where to start?
 Book a free 15-minute call with Kat. It is a short phone conversation about what is going on for you and whether working together would help. No preparation and no obligation.
-Book a free 15-minute call (https://calendly.com/katridout/15-minute-investigative-callback)
-
-- #### Book Your Free 15-Minute Call
-
-Not sure where to start? Book a free 15-minute call with Katrina to talk through what you need. Enter your details below.
-
-No obligation to book a consult.
+[Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## Frequently Asked Questions
+
+### Why is proper nutrition important during pregnancy?
 
 Proper nutrition is crucial during pregnancy because it provides the necessary nutrients to support the growth and development of the fetus, as well as maintain the health of the mother. Here are some reasons why proper nutrition is important during pregnancy:
 
@@ -109,13 +105,23 @@ Proper nutrition is crucial during pregnancy because it provides the necessary n
 
 It’s important to work with a healthcare provider or registered dietitian to develop a personalised nutrition plan during pregnancy to ensure adequate nutrient intake for both the mother and the fetus.
 
+### What is good food for a pregnant woman? Why?
+
 Fruits and vegetables, lean protein, whole grains, low-fat dairy products, and healthy fats are all good foods for pregnant women. These foods provide important nutrients for fetal growth and development and help maintain maternal health. Pregnant women should avoid or limit certain foods, such as raw or undercooked meat and fish, unpasteurised dairy products, and fish with high levels of mercury. Working with a healthcare provider or registered dietitian is important to develop a personalised nutrition plan.
+
+### What should be the proper diet during early pregnancy?
 
 A healthy and balanced diet during early pregnancy should include foods that are high in folic acid, iron, calcium, protein, and healthy fats. It’s important to stay hydrated and avoid certain foods, such as raw or undercooked meat and fish, unpasteurised dairy products, and foods that are high in sugar, salt, or unhealthy fats. Working with a healthcare provider or registered dietitian is important to develop a personalised nutrition plan during early pregnancy.
 
+### What are important considerations for a pregnant vegan?
+
 Pregnant vegans need to ensure adequate intake of protein, vitamin B12, iron, omega-3 fatty acids, calcium, and calories. Plant-based sources of protein, iron, omega-3 fatty acids, and calcium can be obtained from a variety of foods, and vitamin B12 supplementation is recommended. Pregnant vegans should work with a healthcare provider or registered dietitian to develop a personalised nutrition plan.
 
+### As a vegan, which foods should be avoided during pregnancy?
+
 As a vegan, there are no meat and dairy products to avoid during pregnancy. However, it’s still important to avoid certain foods such as certain fish, raw or undercooked eggs, unpasteurised juice, and certain herbal teas. Pregnant vegans should also ensure adequate nutrient intake through a well-planned, balanced vegan diet and consider supplementation as needed. It’s recommended to work with a healthcare provider or registered dietitian to develop a personalised nutrition plan.
+
+### Is being vegan bad for pregnancy?
 
 Being vegan is not inherently bad for pregnancy, and a well-planned, balanced vegan diet can provide all the necessary nutrients for a healthy pregnancy. However, it’s important for pregnant vegans to pay close attention to their nutrient intake and work with a healthcare provider or registered dietitian to develop a personalised nutrition plan to ensure adequate nutrient intake for both the mother and the fetus.
 
@@ -123,17 +129,23 @@ Vegans may be at risk of inadequate intake of certain nutrients, such as vitamin
 
 It’s important for pregnant vegans to monitor their nutrient intake and be aware of the potential for nutrient deficiencies, but with proper planning, being vegan can be a safe and healthy choice during pregnancy.
 
+### Can a pregnant woman be on a vegetarian diet?
+
 Yes, a pregnant woman can follow a vegetarian diet during pregnancy, as long as the diet is well-planned and provides all the necessary nutrients for fetal growth and development. Like a vegan diet, a vegetarian diet can be a healthy choice during pregnancy if it includes a variety of nutrient-dense plant-based foods, such as fruits, vegetables, whole grains, legumes, nuts, and seeds.
 
 Vegetarian diets can provide adequate amounts of protein, iron, calcium, and other important nutrients during pregnancy, but it’s important to ensure adequate intake of vitamin B12, which is primarily found in animal-based foods. Pregnant vegetarians may need to take a vitamin B12 supplement or consume fortified foods to ensure adequate intake.
 
 Working with a healthcare provider or registered dietitian to develop a personalized nutrition plan can help ensure adequate nutrient intake during pregnancy. In some cases, a healthcare provider or registered dietitian may recommend additional nutrient supplementation based on individual nutrient needs.
 
+### Should vegetarians take vitamin B12 supplements?
+
 Yes, vegetarians should consider taking vitamin B12 supplements, as it is primarily found in animal-based foods. Vitamin B12 is important for the nervous system and red blood cell production, and a deficiency can lead to fatigue, weakness, and neurological problems.
 
 Vegetarians can obtain some vitamin B12 from fortified foods, such as plant-based milks, breakfast cereals, and nutritional yeast. However, the amount of vitamin B12 in fortified foods can vary widely, and it may be difficult to obtain adequate amounts solely through fortified foods.
 
 For this reason, vegetarians, particularly those who do not consume dairy products, eggs, or fortified foods regularly, may need to take a vitamin B12 supplement. A healthcare provider or registered dietitian can help determine the appropriate dose and type of vitamin B12 supplement for individual needs.
+
+### Is a vegetarian diet good during pregnancy?
 
 A well-planned vegetarian diet can be a healthy choice during pregnancy, as it can provide all the necessary nutrients for fetal growth and development. Vegetarian diets can include a variety of nutrient-dense plant-based foods, such as fruits, vegetables, whole grains, legumes, nuts, and seeds, which are rich in vitamins, minerals, and fiber.
 
@@ -143,34 +155,15 @@ Working with a healthcare provider or registered dietitian to develop a personal
 
 It’s important to note that a poorly planned vegetarian diet may not provide adequate amounts of nutrients necessary for fetal growth and development. Pregnant vegetarians should ensure adequate calorie intake and consume a variety of nutrient-dense plant-based foods to meet their nutrient needs during pregnancy.
 
+### What are good sources of protein during pregnancy?
+
 During pregnancy, essential protein sources include lean meats like chicken and turkey, low-mercury fish such as salmon, eggs for versatile protein and choline, legumes providing protein and folate, dairy products like milk and yoghurt for protein, calcium, and vitamin D, plant-based options like tofu and tempeh, nuts and seeds offering protein and healthy fats, quinoa as a whole grain with protein and fibre, Greek yoghurt with elevated protein content, and cottage cheese for protein-rich dairy. It’s important to maintain a balanced and varied diet while consulting with healthcare professionals to ensure adequate protein intake to support both maternal health and foetal development.
+
+### How important is vitamin D during pregnancy?
 
 Vitamin D is highly important during pregnancy due to its role in promoting the development of the baby’s bones and teeth, supporting the immune system, potentially preventing complications like preeclampsia and gestational diabetes, regulating gene expression for organ formation, influencing maternal mental health, and reducing the risk of infections. However, maintaining a balanced intake is crucial, and consulting a healthcare professional for guidance on supplementation and appropriate levels is recommended.
 
+### How can fibre be added to your diet during pregnancy?
+
 To enhance fibre intake during pregnancy, prioritise whole grains like brown rice and whole wheat, include legumes such as beans and lentils, consume a variety of fruits and vegetables, snack on nuts and seeds, incorporate bran and wheat germ into meals, opt for high-fibre cereals, choose fibre-rich snacks, maintain proper hydration, introduce fibre gradually to prevent discomfort, and consult your healthcare provider before making significant dietary changes to ensure they align with your pregnancy-specific needs.
 
- (/contact-us/) 
-
-### From our blog
-
-Stay up-to-date with the latest news and information
-
-Read More (/blogs/)
-
-New 
-
-### How does thyroid health affect fertility, and what should you eat?
-
-October 20, 2026 (/blogs/thyroid-health-fertility-diet/)### What should I eat while breastfeeding?
-
-October 19, 2026 (/blogs/what-should-i-eat-while-breastfeeding/)### What should a gestational diabetes meal plan look like?
-
-October 18, 2026 (/blogs/gestational-diabetes-meal-plan-guide/)### What foods should you avoid during pregnancy in Australia?
-
-October 18, 2026 (/blogs/foods-to-avoid-during-pregnancy-australia/)
-
-### Sign up for our monthly coaching e-mail
-
-## Start your journey today
-
- 1300 640 104
