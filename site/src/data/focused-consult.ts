@@ -42,6 +42,10 @@ export const fc = {
   credit:
     'If you book an initial consultation or The Program within 30 days of your One-Question Consult, its fee is credited towards that booking. One credit per client, not transferable, not combined with a Medicare rebate.',
 
+  /* Suitability rule decided by Anthony 6 Nov 2026 21:53. Shown before payment. */
+  suitability:
+    'Kat reviews your concern within 1 business day of booking. If it needs more than a focused 30 minutes, she will move you to an initial consultation instead and credit your $129 towards it, so you only pay the difference.',
+
   initialPitch:
     'Choose an initial consultation when you want to look at the whole picture, connect several concerns and build a coordinated nutrition plan.',
 };

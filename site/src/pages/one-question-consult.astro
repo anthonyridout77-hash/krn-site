@@ -32,7 +32,7 @@ const CALL = 'https://calendly.com/katridout/15-minute-investigative-callback';
   <div class="wrap">
     <h2>How it works</h2>
     <div class="cols">
-      <div class="card"><div class="n">1</div><h3>Tell Kat your concern</h3><p>When you book, briefly describe the concern and where you are up to. Kat reviews it before your appointment to check it suits a focused consult.</p></div>
+      <div class="card"><div class="n">1</div><h3>Tell Kat your concern</h3><p>When you book, briefly describe the concern and where you are up to. Kat reviews it within 1 business day to check it suits a focused consult.</p></div>
       <div class="card"><div class="n">2</div><h3>{fc.duration} with Kat by video</h3><p>Kat asks the background questions she needs, clarifies what matters, and gives practical advice within the agreed scope.</p></div>
       <div class="card"><div class="n">3</div><h3>Your brief written summary</h3><p>Within {fc.turnaround} you receive a short written record of the advice discussed and the next steps you agreed.</p></div>
     </div>
@@ -79,7 +79,7 @@ const CALL = 'https://calendly.com/katridout/15-minute-investigative-callback';
     <div style="margin-top:1.4rem">
       <details><summary>What does the {fc.fee} cover?</summary><p>{fc.duration} with Kat by video for one agreed concern, including the background questions she needs, practical advice within that scope, and a brief written summary within {fc.turnaround}. It is the total fee; dietetic services are GST-free.</p></details>
       <details><summary>Is it limited to one question?</summary><p>No. It is limited to one focused concern, not one sentence. Kat will ask follow-up questions and you can ask for clarification during the appointment. If several concerns need looking at together, an initial consultation is usually the better fit.</p></details>
-      <details><summary>What if my concern needs a broader assessment?</summary><p>Kat reviews your concern before the appointment. If it looks like it needs a fuller assessment, she will explain your options before you go ahead. If something more complex comes up during the appointment, Kat will decide how to proceed safely and explain your options.</p></details>
+      <details><summary>What if my concern needs a broader assessment?</summary><p>{fc.suitability} If something more complex comes up during the appointment, Kat will decide how to proceed safely and explain your options.</p></details>
       <details><summary>Can I claim this on Medicare or private health?</summary><p>It is private-pay only, so no GP referral is needed and it does not use one of your GP Chronic Condition Management Plan visits. Medicare rebates apply to standard consultations.</p></details>
       <details><summary>If I book more care later, is the fee credited?</summary><p>{fc.credit}</p></details>
       <details><summary>What if I need to cancel?</summary><p>Reschedule or cancel free of charge up to 24 hours before your appointment for a full refund. Inside 24 hours the fee is retained.</p></details>
@@ -94,6 +94,7 @@ const CALL = 'https://calendly.com/katridout/15-minute-investigative-callback';
       <div>
         <h2>Book your {fc.name}</h2>
         <p><b>{fc.fee} total</b>, paid when you book. {fc.duration} by video, one agreed concern, brief written summary within {fc.turnaround}. {fc.eligibility}. Free cancellation up to 24 hours before.</p>
+        <p class="fine">{fc.suitability}</p>
       </div>
       <a class="btn btn-ink" href={fc.booking}>Choose a time</a>
     </div>
