@@ -1,0 +1,129 @@
+---
+/* General dietitian landing page. Target of the "dietitian near me" / "dietitian Brisbane"
+   Google Ads ad groups and the organic "dietitian Brisbane" page. Built 7 Nov 2026.
+   KAT GATE: EXPERIENCE and the "every week" line are new claims; Kat confirms before merge. */
+import Article from '../../layouts/Article.astro';
+import { BOOK_URL } from '../../lib/content';
+
+const EXPERIENCE = '20+ years';
+const book = (content: string) => `${BOOK_URL}?utm_source=website&utm_medium=landing_page&utm_campaign=general-dietitian&utm_content=${content}`;
+
+const groups = [
+  {
+    h: 'Everyday health',
+    items: ['Type 2 diabetes and pre-diabetes', 'Blood pressure and cholesterol', 'Weight management, gain or loss', 'Low iron and other deficiencies'],
+  },
+  {
+    h: 'Gut and food reactions',
+    items: ['IBS and gut symptoms', 'Food intolerances and allergies', 'Coeliac and gluten-free eating', 'Vegetarian and vegan eating'],
+  },
+  {
+    h: 'Women’s health',
+    items: ['PMOS (PCOS) and insulin resistance', 'Endometriosis', 'Fertility, IVF and pregnancy', 'Gestational diabetes and postpartum'],
+  },
+  {
+    h: 'Kids and families',
+    items: ['Fussy eating', 'Growth and development', 'Family meal planning', 'Healthy habits for the whole household'],
+  },
+  {
+    h: 'Later life and chronic conditions',
+    items: ['Heart health', 'Liver and kidney conditions', 'Eating well as you get older', 'Support alongside your GP or specialist'],
+  },
+];
+
+const faq: [string, string][] = [
+  ['Do I need a referral to see a dietitian?', 'No. You can book with Kat directly. A GP referral is only needed if you want to claim a Medicare rebate.'],
+  ['Can I claim Medicare or private health?', 'If your GP assesses you as eligible for a GP Chronic Condition Management Plan (GPCCMP), Medicare may rebate part of your consultations. Many private health extras policies also cover dietitian visits, depending on your fund and level of cover.'],
+  ['Is there a dietitian near me?', 'If you are in Brisbane, Kat sees clients in person at Milton Village Medical. Anywhere else in Australia, she sees you by telehealth, so the appointment comes to you.'],
+  ['Does Kat see children and older adults?', 'Yes. Kat works with people of all ages, from fussy toddlers to adults managing long-term health conditions.'],
+  ['What happens on the free 15-minute call?', 'Kat calls you at the time you book. You tell her what is going on, she explains how she can help and the best next step, and she talks you through fees before you commit to anything.'],
+  ['What is the difference between a dietitian and a nutritionist?', 'An Accredited Practising Dietitian (APD) holds the national credential for dietitians in Australia, which requires university training in clinical nutrition and ongoing professional development. It is the credential Medicare and private health funds recognise.'],
+];
+const faqLd = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":faq.map(([q,a])=>({"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":a}}))};
+---
+<Article
+  title="A dietitian near you, in Brisbane or by telehealth"
+  metaTitle="Dietitian Brisbane (Milton) and Telehealth"
+  description={`Katrina Ridout, Accredited Practising Dietitian with ${EXPERIENCE} experience. All ages, all common conditions. Milton, Brisbane or telehealth Australia-wide. Free 15-min call.`}
+  lede={`Katrina Ridout is an Accredited Practising Dietitian with ${EXPERIENCE} experience. She sees people every week for everyday and complex nutrition needs, from young children to older adults.`}
+  crumbs={[{ label: 'Home', href: '/' }, { label: 'Services', href: '/our-services/' }, { label: 'Dietitian' }]}
+  ctaHeading="Talk to Kat before you decide"
+  ctaText="A free 15-minute call. Tell Kat what is going on and she will explain how she can help. Telehealth Australia-wide or in person in Milton, Brisbane."
+  cta="Book a free call"
+  ctaHref={book('cta-band')}
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(faqLd)} />
+  </Fragment>
+
+  <div class="gd-top">
+    <img src="/images/kat-ridout-apd.jpg" alt="Katrina Ridout, Accredited Practising Dietitian" width="480" height="480" loading="eager" />
+    <div>
+      <p class="gd-cta"><a class="btn btn-coral" href={book('hero')}>Book a free 15-min call</a></p>
+      <ul class="gd-trust">
+        <li>Accredited Practising Dietitian, APD008207</li>
+        <li>{EXPERIENCE} experience</li>
+        <li>No referral needed</li>
+        <li>Medicare rebate applicable with a GPCCMP</li>
+        <li>In person in Milton or telehealth Australia-wide</li>
+      </ul>
+      <p class="gd-call">Prefer to talk now? Call <a href="tel:1300640104">1300 640 104</a></p>
+    </div>
+  </div>
+
+  <h2>What Kat helps with</h2>
+  <p>Most people come to a dietitian with one question and a busy life. Kat helps you sort out what actually matters for you, then builds a plan that fits around your work, your family and the food you like.</p>
+  <div class="gd-grid">
+    {groups.map((g) => (
+      <section class="gd-card">
+        <h3>{g.h}</h3>
+        <ul>{g.items.map((i) => <li>{i}</li>)}</ul>
+      </section>
+    ))}
+  </div>
+  <p class="gd-note">Not on the list? Ask Kat on the free call. If she is not the right person, she will tell you who is.</p>
+
+  <h2>Why people choose Kat</h2>
+  <ul>
+    <li><strong>Experience you can lean on.</strong> {EXPERIENCE} as a dietitian across private practice and research, with a Graduate Certificate in Research from QUT.</li>
+    <li><strong>A real conversation first.</strong> Every free call is with Kat herself, not a receptionist or a form.</li>
+    <li><strong>Practical, not preachy.</strong> No fad diets and no long lists of foods to cut. Small, realistic changes you can keep.</li>
+    <li><strong>Works with your care team.</strong> Kat can work alongside your GP or specialist and use your recent blood tests.</li>
+    <li><strong>A mum of three.</strong> She knows how hard it is to change how a family eats, and plans for real kitchens.</li>
+  </ul>
+
+  <h2>How it works</h2>
+  <ol>
+    <li><strong>Book a free 15-minute call.</strong> Kat calls you at the time you choose. Every day except Monday, including some evenings.</li>
+    <li><strong>Talk it through.</strong> You share what is going on. Kat explains how she can help, the options and the fees.</li>
+    <li><strong>Start your plan.</strong> Your first consultation is in Milton or by telehealth, and your plan and follow-ups come to you online.</li>
+  </ol>
+  <p class="gd-cta"><a class="btn btn-coral" href={book('how-it-works')}>Book a free 15-min call</a></p>
+
+  <h2>Where to see Kat</h2>
+  <p><strong>Brisbane:</strong> Milton Village Medical, Level 1, 36 Baroona Road, Milton QLD 4064. Easy for clients from Toowong, Paddington, Auchenflower, Red Hill and the CBD.</p>
+  <p><strong>Anywhere in Australia:</strong> telehealth from home, the office or the car park at school pickup. Same care, no travel and no waiting room.</p>
+
+  <h2>Common questions</h2>
+  {faq.map(([q, a]) => (<><h3>{q}</h3><p>{a}</p></>))}
+
+  <p>Planning a pregnancy, in IVF or expecting? Kat has a special interest in this area. See <a href="/our-services/nutrition-for-fertility/">fertility nutrition</a>, <a href="/our-services/pregnancy-nutrition-and-dietetics/">pregnancy nutrition</a> and <a href="/our-services/postnatal-nutrition/">postpartum support</a>.</p>
+</Article>
+<style>
+  .gd-top{display:grid;gap:1.2rem;align-items:center;margin:0 0 2em}
+  @media (min-width:640px){.gd-top{grid-template-columns:220px 1fr}}
+  .gd-top img{width:min(100%,220px);height:auto;border-radius:22px;background:var(--mint);margin:0}
+  .gd-trust{list-style:none;padding:0;margin:.9rem 0 0;display:flex;flex-wrap:wrap;gap:.45rem}
+  .gd-trust li{margin:0;padding:.3rem .8rem;border-radius:999px;background:var(--mint);color:var(--heading);font-size:.86rem;font-weight:500}
+  .gd-trust li::marker{content:''}
+  .gd-call{margin-top:.8rem;font-size:.95rem;color:var(--fg-soft)}
+  .gd-cta{margin:1.2em 0}
+  .prose .gd-cta .btn-coral{color:#fff;text-decoration:none}
+  .gd-grid{display:grid;gap:1rem;margin:1.2em 0}
+  @media (min-width:640px){.gd-grid{grid-template-columns:1fr 1fr}}
+  .gd-card{background:var(--mint);border-radius:18px;padding:1rem 1.2rem}
+  .gd-card h3{margin:0 0 .4rem;font-size:1.05rem}
+  .gd-card ul{margin:0;padding-left:1.1rem}
+  .gd-card li{margin:.2em 0;font-size:.95rem}
+  .gd-note{color:var(--fg-soft);font-size:.95rem}
+</style>
