@@ -1,11 +1,11 @@
 Send: 10 days after plan delivery
-Subject: What a full consultation looks like
+Subject: If you would like more support
 
 Hi {{FIRSTNAME}},
 
-Your One-Question Consult answered one thing. Some people find that is all they needed. Others realise the question was the tip of something bigger: the whole week of eating, supplements, test results, a diagnosis they are managing, or a pregnancy or IVF cycle coming up.
+I hope your consult summary has been useful. For many people a focused appointment is all they need. If you would like to look at several things together, such as your whole week of eating, supplements, test results, a diagnosis you are managing, or an upcoming pregnancy or IVF cycle, an initial consultation is the place for that.
 
-That is what an Initial Consultation is for. It is 75 minutes, we go through your history, your current eating, any results you have, and you leave with a written plan for the whole picture, not just one part of it. The Program adds ongoing support after that, with reviews as things change.
+An initial consultation is 75 minutes: we go through your history, your current eating, any results you have, and you leave with a written plan for the whole picture, not just one part of it. The Program adds ongoing support after that, with reviews as things change.
 
 Your $129 is credited towards either if you book by {{CREDIT_DATE}}.
 

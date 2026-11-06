@@ -3,7 +3,7 @@ Subject: How is the plan landing, {{FIRSTNAME}}?
 
 Hi {{FIRSTNAME}},
 
-It has been a few days since I sent your one-page plan. A quick check-in: how is it going?
+It has been a few days since I sent your consult summary. A quick check-in: how is it going?
 
 If something in the plan is unclear, or harder to put into practice than it sounded on the call, reply and tell me. That is useful to know and I can suggest a smaller step.
 

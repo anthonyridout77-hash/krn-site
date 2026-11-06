@@ -1,11 +1,11 @@
 Send: by the Claude plan agent when a draft is ready, to Kat (cc Anthony)
-Subject: Approve the one-page plan for {{INITIAL}}? (One-Question Consult, v{{VERSION}})
+Subject: Approve the summary for {{INITIAL}}? (One-Question Consult, v{{VERSION}})
 
 Internal, to Kat only.
 
 Hi Kat,
 
-An UNAPPROVED DRAFT one-page plan is ready for client {{INITIAL}} (consult {{CONSULT_DATE}}, due to the client by {{DUE_DATE}}, two business days). Document version {{VERSION}}.
+An UNAPPROVED DRAFT consult summary is ready for client {{INITIAL}} (consult {{CONSULT_DATE}}, due to the client by {{DUE_DATE}}, two business days). Document version {{VERSION}}.
 
 [Button: Review and approve] {{APPROVE_PAGE_LINK}}
 

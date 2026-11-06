@@ -1,6 +1,6 @@
 # krn-oneq-plan-agent
 
-Drafts the one-page written plan after a One-Question Consult and asks Kat to approve it. Runs as a Claude scheduled task (not yet created; see activation checklist in the project doc). Suggested cadence: every 2 hours, 7am to 9pm Brisbane. Each run is independent; it reads its work from Drive and the Make data store. It never emails a client.
+Drafts the brief written summary after a One-Question Consult and asks Kat to approve it. Runs as a Claude scheduled task (not yet created; see activation checklist in the project doc). Suggested cadence: every 2 hours, 7am to 9pm Brisbane. Each run is independent; it reads its work from Drive and the Make data store. It never emails a client.
 
 ## Trigger prompt (paste into the scheduled task)
 
@@ -13,13 +13,13 @@ Source material rule: the transcript, the client's intake answers and Kat's reso
    - If no confident match, or `journeys` is empty: write `oneq-done-<ts>.json` with `{"status":"unmatched"}`, email Anthony (anthonyridout77@gmail.com) a two-line note with the transcript name only, and stop for that job.
    - If the matched journey has `consent_transcript` = "false": do not read further, do not draft. Write `oneq-done-<ts>.json` with `{"status":"skipped_no_consent","key":...}`, email Kat (info@katridout.com.au) that a transcript exists for an appointment where the client declined transcription and ask her to delete it and write the plan from her notes. Stop.
    - If the matched journey's `approval_status` is "approved" or status is "delivered": do nothing (duplicate transcript). Write done file `{"status":"duplicate"}`. Stop.
-3. Draft. Write the one-page plan from the transcript, the client's question and intake. Use the krn-handout-pdf skill (branded A4, line-art illustration, coral h2 #C4705C, sage h3 #6F7F62). The PDF itself carries no draft watermark, so the file Kat reviews is byte-identical to the file the client receives; "UNAPPROVED DRAFT" goes in the file name, the record and the approval email instead. Structure, one page only:
-   - Title: "Your one-page plan" with the client's first name and the consult date
-   - "Your question" (their words, one line)
-   - "The short answer" (3 to 5 sentences in Kat's voice: warm, plain, "I"; only what Kat said)
-   - "Start with these" (2 or 3 numbered changes Kat actually recommended on the call, each one line of what and one line of how)
+3. Draft. Write the summary from the transcript, the client's question and intake. Use the krn-handout-pdf skill (branded A4, line-art illustration, coral h2 #C4705C, sage h3 #6F7F62). The PDF itself carries no draft watermark, so the file Kat reviews is byte-identical to the file the client receives; "UNAPPROVED DRAFT" goes in the file name, the record and the approval email instead. Structure, one page maximum. It records the advice discussed and agreed next steps; it is not a comprehensive assessment or meal plan:
+   - Title: "Your consult summary" with the client's first name and the consult date
+   - "Your concern" (their words, one line)
+   - "What we discussed" (3 to 5 sentences in Kat's voice: warm, plain, "I"; only what Kat said, including any uncertainty she expressed)
+   - "Your next steps" (2 or 3 numbered steps Kat and the client agreed on the call, each one line of what and one line of how)
    - "Watch for" (2 or 3 signs Kat named, or that she should hear from them)
-   - "If you want to go further" (one paragraph: Initial Consultation or The Program; the $129 is credited if booked within 30 days of the consult)
+   - "Further support" ONLY if Kat recommended further care on the call: one sentence of what she recommended and why, plus the credit line (the $129 is credited if an initial consultation or The Program is booked within 30 days of the consult). Omit the section otherwise. Never present further care as needed to get the full answer.
    - Footer: Katrina Ridout, Accredited Practising Dietitian (APD), info@katridout.com.au, 1300 640 104. "General nutrition advice from your consult; it does not replace advice from your doctor."
    Rules: no outcome promises ("will fall pregnant", "lose X kg"); no supplement doses unless Kat stated them on the call, quoted as she said them; weight-neutral language; GPCCMP not "care plan"; APD never "AHPRA-registered"; no emojis; no dashes joining clauses; no testimonials. If the transcript contains a red flag (bleeding, severe pain, mental health risk, eating disorder signs), put a one-line "Please see your GP about ..." in the plan and flag it to Kat in the approval email.
 4. Version. Save the draft PDF to Drive folder "KRN OneQ Plans" (id 1B7tSXguMa1pQS5VN-HKAZ1epnp0NzI5u) as `OneQ plan - <key first 8> - <YYYY-MM-DD> - UNAPPROVED DRAFT v<version>.pdf`. Compute version = first 12 hex characters of sha256 of the PDF bytes. Do not create a public share link; the folder is restricted to Kat and Anthony and the approval page links to the file by id.
