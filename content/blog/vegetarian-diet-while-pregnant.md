@@ -1,6 +1,6 @@
 ---
 title: "Can you follow a vegetarian diet while pregnant?"
-description: " Y e s ,   y o u   c a n   f o l l o w   a   v e g e t a r i a n   d i e t   w h i l e   p r e g n a n t .   H e r e ’ s   h o w   I   h e l p   y o u   c o v e r   i r o n ,   p r o t e i n ,   B 1 2   a n d   i o d i n e   w i t h   a   l i t t l e   p l a n n i n g   a n d   s i m p l e   s w i t c h e s . "
+description: "Yes, you can follow a vegetarian diet while pregnant. Here’s how I help you cover iron, protein, B12 and iodine with a little planning and simple switches."
 date: "2026-10-27"
 updated: "2026-10-27"
 categories:
