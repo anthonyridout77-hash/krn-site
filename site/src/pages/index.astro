@@ -10,17 +10,18 @@ import BookBar from '../components/BookBar.astro';
     <div class="hero-copy">
       <p class="eyebrow fade-up" style="animation-delay:.05s">Fertility &amp; pregnancy dietitian · Brisbane &amp; Australia-wide</p>
       <div class="hero-rotator" id="heroRotator">
-        <div class="seg fade-up" role="tablist" aria-label="Choose your situation" style="animation-delay:.1s">
-          <button type="button" role="tab" aria-selected="true" data-i="0">All stages</button>
-          <button type="button" role="tab" aria-selected="false" data-i="1">Trying</button>
-          <button type="button" role="tab" aria-selected="false" data-i="2">IVF</button>
-          <button type="button" role="tab" aria-selected="false" data-i="3">Pregnant</button>
-          <button type="button" role="tab" aria-selected="false" data-i="4">After birth</button>
-          <button type="button" role="tab" aria-selected="false" data-i="5">PMOS &amp; hormones</button>
-          <button type="button" role="tab" aria-selected="false" data-i="6">Everyday</button>
+        <div class="seg fade-up" role="group" aria-label="Choose your situation" style="animation-delay:.1s">
+          <button type="button" aria-pressed="true" data-i="0">All stages</button>
+          <button type="button" aria-pressed="false" data-i="1">Trying</button>
+          <button type="button" aria-pressed="false" data-i="2">IVF</button>
+          <button type="button" aria-pressed="false" data-i="3">Pregnant</button>
+          <button type="button" aria-pressed="false" data-i="4">After birth</button>
+          <button type="button" aria-pressed="false" data-i="5">PMOS &amp; hormones</button>
+          <button type="button" aria-pressed="false" data-i="6">Everyday</button>
+          <button type="button" class="seg-pause" id="heroPause" aria-label="Pause rotating headline">Pause</button>
         </div>
-        <h1 id="heroH1" aria-label="Nutrition for trying to conceive, IVF, pregnancy and the first year after birth.">Nutrition for trying, IVF, pregnancy and <span class="hl">after.</span></h1>
-        <p class="lede fade-up" id="heroLede">Trying to conceive, going through IVF, pregnant or in the first year with your baby: a clear, evidence-based plan that fits your life.</p>
+        <h1 id="heroH1">Nutrition for trying, IVF, pregnancy and <span class="hl">after.</span></h1>
+        <p class="lede fade-up" id="heroLede" aria-live="off">Trying to conceive, going through IVF, pregnant or in the first year with your baby: a clear, evidence-based plan that fits your life.</p>
         <script type="application/json" id="heroSlides">[
           {"h":"Nutrition for trying, IVF, pregnancy and","hl":"after.","p":"Trying to conceive, going through IVF, pregnant or in the first year with your baby: a clear, evidence-based plan that fits your life."},
           {"h":"Eat well for the baby you are","hl":"hoping for.","p":"Three to six months of preparation for you and your partner, built around real food and real life."},
@@ -279,18 +280,20 @@ import BookBar from '../components/BookBar.astro';
   var h=document.getElementById('heroH1'),p=document.getElementById('heroLede'),box=document.getElementById('heroRotator');
   if(!h||!p||!box)return;
   var slides;try{slides=JSON.parse(document.getElementById('heroSlides').textContent);}catch(e){return;}
-  var tabs=[].slice.call(box.querySelectorAll('[role=tab]')),i=0,timer=null,user=false,hover=false;
+  var tabs=[].slice.call(box.querySelectorAll('[data-i]')),pb=document.getElementById('heroPause'),i=0,timer=null,user=false,hover=false;
   var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   var INTERVAL=5500,FADE=reduce?0:260;
   function render(n){var s=slides[n];h.textContent='';h.appendChild(document.createTextNode(s.h+' '));var sp=document.createElement('span');sp.className='hl';sp.textContent=s.hl;h.appendChild(sp);p.textContent=s.p;}
   function sizeLock(){var mh=0,mp=0;var cur=i;for(var k=0;k<slides.length;k++){render(k);mh=Math.max(mh,h.offsetHeight);mp=Math.max(mp,p.offsetHeight);}render(cur);h.style.minHeight=mh+'px';p.style.minHeight=mp+'px';}
   function go(n,fromUser){n=(n+slides.length)%slides.length;if(n===i&&fromUser)return;box.classList.add('swap');
-    setTimeout(function(){i=n;render(i);tabs.forEach(function(t,k){t.setAttribute('aria-selected',k===i?'true':'false');});var seg=tabs[i].parentNode;if(seg.scrollWidth>seg.clientWidth){seg.scrollTo({left:Math.max(0,tabs[i].offsetLeft-12),behavior:reduce?'auto':'smooth'});}box.classList.remove('swap');},FADE);
-    if(fromUser){user=true;stop();window.dataLayer=window.dataLayer||[];window.dataLayer.push({event:'hero_segment',segment:tabs[n].textContent.trim()});}}
+    setTimeout(function(){i=n;render(i);tabs.forEach(function(t,k){t.setAttribute('aria-pressed',k===i?'true':'false');});var seg=tabs[i].parentNode;if(seg.scrollWidth>seg.clientWidth){seg.scrollTo({left:Math.max(0,tabs[i].offsetLeft-12),behavior:reduce?'auto':'smooth'});}box.classList.remove('swap');},FADE);
+    if(fromUser){halt();window.dataLayer=window.dataLayer||[];window.dataLayer.push({event:'hero_segment',segment:'seg-'+n});}}
   function tick(){if(!hover&&!document.hidden)go(i+1,false);}
   function start(){if(reduce||user||timer)return;timer=setInterval(tick,INTERVAL);}
   function stop(){if(timer){clearInterval(timer);timer=null;}}
+  function halt(){user=true;stop();if(pb)pb.hidden=true;p.setAttribute('aria-live','polite');}
   tabs.forEach(function(t){t.addEventListener('click',function(){go(+t.getAttribute('data-i'),true);});});
+  if(pb){if(reduce)pb.hidden=true;pb.addEventListener('click',halt);}
   box.addEventListener('mouseenter',function(){hover=true;});box.addEventListener('mouseleave',function(){hover=false;});
   box.addEventListener('focusin',function(){hover=true;});box.addEventListener('focusout',function(){hover=false;});
   document.addEventListener('visibilitychange',function(){if(document.hidden)stop();else start();});
