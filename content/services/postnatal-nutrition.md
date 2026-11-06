@@ -14,7 +14,7 @@ wpUrl: "https://api.katridout.com.au/our-services/postnatal-nutrition/"
 Dietitian Brisbane
 
 ## Not sure where to start?
-Book a free 15-minute call with Kat. It is a short phone conversation about what is going on for you and whether working together would help. No preparation and no obligation.
+Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. Kat has supported hundreds of clients, so you do not need to have it all worked out first. No preparation and no obligation.
 [Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## Caring for yourself is the first step to caring for your baby
@@ -65,7 +65,7 @@ With up-to-date, evidence-based nutrition, I can recommend the most effective st
 If you’re ready to feel confident and supported in your postnatal journey, I’d love to guide you toward the healthiest start for both you and your baby.
 
 ### Not sure where to start?
-Book a free 15-minute call with Kat. It is a short phone conversation about what is going on for you and whether working together would help. No preparation and no obligation.
+Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. Kat has supported hundreds of clients, so you do not need to have it all worked out first. No preparation and no obligation.
 [Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## Frequently Asked Questions

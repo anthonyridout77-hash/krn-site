@@ -15,7 +15,7 @@ parent: "366"
 Fertility and IVF Dietitian Australia
 
 ## Not sure where to start?
-Book a free 15-minute call with Kat. It is a short phone conversation about what is going on for you and whether working together would help. No preparation and no obligation.
+Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. Kat has supported hundreds of clients, so you do not need to have it all worked out first. No preparation and no obligation.
 [Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## Feel confident and supported as you prepare for IVF and fertility treatments with Kat Ridout by your side.
@@ -64,7 +64,7 @@ With more than 15 years of experience, Kat Ridout brings both expertise and comp
 Find out more about how Kat Ridout can help you by contacting Kat today (/contact-us/). 
 
 ### Not sure where to start?
-Book a free 15-minute call with Kat. It is a short phone conversation about what is going on for you and whether working together would help. No preparation and no obligation.
+Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. Kat has supported hundreds of clients, so you do not need to have it all worked out first. No preparation and no obligation.
 [Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## Frequently Asked Questions

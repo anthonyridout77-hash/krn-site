@@ -14,7 +14,7 @@ wpUrl: "https://api.katridout.com.au/our-services/nutrition-for-fertility/"
 Dietitian Brisbane
 
 ## Not sure where to start?
-Book a free 15-minute call with Kat. It is a short phone conversation about what is going on for you and whether working together would help. No preparation and no obligation.
+Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. Kat has supported hundreds of clients, so you do not need to have it all worked out first. No preparation and no obligation.
 [Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## The right nutrition can help prepare your body for pregnancy
@@ -35,7 +35,7 @@ There are a number of fertility-boosting foods and nutrients that can make a rea
 If you’d like to learn more about how fertility nutrition can support you, I’d love to guide you. You can book an appointment with me using the form on this page or by getting in touch here.
 
 ### Not sure where to start?
-Book a free 15-minute call with Kat. It is a short phone conversation about what is going on for you and whether working together would help. No preparation and no obligation.
+Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. Kat has supported hundreds of clients, so you do not need to have it all worked out first. No preparation and no obligation.
 [Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## Frequently Asked Questions

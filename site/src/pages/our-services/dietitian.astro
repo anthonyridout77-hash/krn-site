@@ -38,7 +38,7 @@ const faq: [string, string][] = [
   ['Is there parking in Milton?', 'Yes. Milton Village Medical has plenty of undercover parking.'],
   ['Is there a dietitian near me?', 'If you are in Brisbane, Kat sees clients in person at Milton Village Medical. Anywhere else in Australia, she sees you by telehealth, so the appointment comes to you.'],
   ['Does Kat see children and older adults?', 'Yes. Kat works with people of all ages, from fussy toddlers to adults managing long-term health conditions.'],
-  ['What happens on the free 15-minute call?', 'Kat calls you at the time you book. You tell her what is going on, she explains how she can help and the best next step, and she talks you through fees before you commit to anything.'],
+  ['What happens on the free 15-minute call?', 'Kat calls you at the time you book. Bring your concerns: she listens, asks a few questions, explains her approach and the appointment options that suit you, and talks you through fees before you commit to anything. Kat has supported hundreds of clients. Your full assessment happens at the initial consultation.'],
   ['What is the difference between a dietitian and a nutritionist?', 'An Accredited Practising Dietitian (APD) holds the national credential for dietitians in Australia, which requires university training in clinical nutrition and ongoing professional development. It is the credential Medicare and private health funds recognise.'],
 ];
 const faqLd = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":faq.map(([q,a])=>({"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":a}}))};
@@ -50,7 +50,7 @@ const faqLd = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":fa
   lede={`Katrina Ridout is an Accredited Practising Dietitian with ${EXPERIENCE} experience. See her in person in Milton, Brisbane, or by telehealth from home. Start with a free 15-minute call.`}
   crumbs={[{ label: 'Home', href: '/' }, { label: 'Services', href: '/our-services/' }, { label: 'Dietitian' }]}
   ctaHeading="Talk to Kat before you decide"
-  ctaText="A free 15-minute call. Tell Kat what is going on and she will explain how she can help. Telehealth Australia-wide or in person in Milton, Brisbane."
+  ctaText="A free 15-minute call. Bring your concerns and Kat will explain how she could help. Telehealth Australia-wide or in person in Milton, Brisbane."
   cta="Book a free call"
   ctaHref={book('cta-band')}
 >
