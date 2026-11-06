@@ -11,8 +11,6 @@ parent: "415"
 
 ## Specialty Diets During Pregnancy
 
-Specialty Diet Pregnancy Nutritionist Brisbane
-
 ## Not sure where to start?
 Book a free 15-minute call with Kat. It is a short phone conversation about what is going on for you and whether working together would help. No preparation and no obligation.
 [Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)

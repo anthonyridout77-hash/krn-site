@@ -83,7 +83,8 @@ header .nav .btn{white-space:nowrap}@media (max-width:420px){header .nav .btn{pa
 @media (max-width:600px){.hero-rotator .seg{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}.hero-rotator .seg::-webkit-scrollbar{display:none}}
 .hero-rotator .seg button{flex:0 0 auto;font:inherit;font-size:.8rem;font-weight:600;letter-spacing:.01em;padding:.38rem .8rem;border-radius:999px;border:1px solid var(--mint-2);background:var(--bg);color:var(--heading);cursor:pointer;transition:background .2s,color .2s,border-color .2s}
 .hero-rotator .seg button:hover{border-color:var(--sage)}
-.hero-rotator .seg button[aria-selected=true]{background:var(--heading);border-color:var(--heading);color:var(--bg)}
+.hero-rotator .seg button[aria-pressed=true]{background:var(--heading);border-color:var(--heading);color:var(--bg)}
+.hero-rotator .seg .seg-pause{border-color:transparent;background:none;color:var(--fg-soft);text-decoration:underline;font-weight:500}
 .hero-rotator .seg button:focus-visible{outline:2px solid var(--coral);outline-offset:2px}
 .hero-rotator h1{margin-top:.9rem;max-width:14ch;transition:opacity .26s ease,transform .26s ease}
 .hero-rotator .lede{transition:opacity .26s ease,transform .26s ease}
