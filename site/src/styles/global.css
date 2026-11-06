@@ -262,3 +262,16 @@ footer .eyebrow{display:block;color:#fff;font-weight:600;font-size:.95rem}
 
 /* 6 Nov 2026: desktop hero photo level with the headline, not the column bottom */
 @media (min-width:860px){.hero .wrap{align-items:start}.hero-photo{align-self:start;margin-top:.6rem;width:min(100%,460px)}.hero-photo img{border-radius:28px}.hero-photo .panel{border-radius:26px;inset:10% -6% -6% 10%}.hero-photo .tag{bottom:18px;left:18px}.hero{padding-block:clamp(28px,4vw,56px) clamp(32px,4vw,56px)}}
+/* 6 Nov 2026: compare block */
+.compare{padding-block:clamp(40px,6vw,72px) 0;scroll-margin-top:90px}
+.cmp{display:grid;gap:1rem;margin-top:1.6rem}
+@media (min-width:860px){.cmp{grid-template-columns:repeat(3,1fr);gap:1.2rem}}
+.cmp-card{background:var(--bg);border:1.5px solid var(--line);border-radius:22px;padding:1.6rem 1.4rem;display:flex;flex-direction:column;gap:.8rem}
+.cmp-card.featured{background:var(--mint);border-color:var(--mint-2)}
+.cmp-card h3{font-size:1.2rem;color:var(--heading);font-weight:600}
+.cmp-price{font-family:var(--head);font-size:1.6rem;font-weight:600;color:var(--heading);line-height:1.1}
+.cmp-price small{display:block;font-size:.85rem;font-weight:400;color:var(--fg-soft);margin-top:.3rem}
+.cmp-card ul{list-style:none;padding:0;margin:0;display:grid;gap:.5rem;color:var(--fg-soft);font-size:.96rem;flex:1}
+.cmp-card li{padding-left:1.2rem;position:relative}
+.cmp-card li::before{content:"";position:absolute;left:0;top:.55em;width:.5em;height:.5em;border-radius:50%;background:var(--sage-deep)}
+.cmp-card .btn{align-self:start;margin-top:.4rem}
