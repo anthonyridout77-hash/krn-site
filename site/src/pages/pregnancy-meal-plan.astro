@@ -19,14 +19,14 @@ const schema = {
   mainEntity: faq.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
 };
 ---
-<Base title="Free 7-Day Pregnancy Meal Plan | Australian Dietitian" description="Download a free 7-day pregnancy meal plan from Accredited Practising Dietitian Katrina Ridout. Australian meals, real portions, food safety built in, plus a shopping list." image="/images/mealplan-cover.webp">
+<Base title="Free 7-Day Pregnancy Meal Plan | Australian Dietitian" description="Download a free 7-day pregnancy meal plan from Accredited Practising Dietitian Katrina Ridout, plus 5 must-eat foods and 5 foods to avoid in pregnancy." image="/images/mealplan-cover.webp">
   <script type="application/ld+json" set:html={JSON.stringify(schema)} />
   <section class="mp-hero">
     <div class="wrap mp-grid">
       <div>
         <h1>Your free 7-Day Pregnancy Meal Plan</h1>
         <p class="mp-by">From Katrina Ridout, Accredited Practising Dietitian</p>
-        <p class="mp-lede">A week of simple Australian meals and snacks with real portions, food safety already worked out, a snack pick-list and a shopping list. Sent straight to your inbox.</p>
+        <p class="mp-lede">A week of simple, nutritious meals and snacks, plus the foods to eat and the foods to avoid in pregnancy. Sent straight to your inbox.</p>
         <form id="mpForm" class="mp-form" novalidate>
           <label for="mpName">First name</label>
           <input id="mpName" name="fname" type="text" autocomplete="given-name" required>
@@ -39,22 +39,20 @@ const schema = {
         </form>
       </div>
       <figure class="mp-fig">
-        <img src="/images/mealplan-cover.webp" alt="Cover of the 7-Day Pregnancy Meal Plan PDF from Katrina Ridout Nutrition" width="636" height="900" fetchpriority="high">
-        <img class="mp-fig2" src="/images/mealplan-day-page.webp" alt="Sample page showing Day 1 and Day 2 meals with portions" width="636" height="900" loading="lazy">
+        <img src="/images/mealplan-cover.webp" alt="Cover of The Ultimate Pregnancy Diet Plan from Katrina Ridout Nutrition" width="636" height="900" fetchpriority="high">
+        <img class="mp-fig2" src="/images/mealplan-day-page.webp" alt="Sample page showing the 7-day pregnancy meal plan" width="636" height="900" loading="lazy">
       </figure>
     </div>
   </section>
 
   <section class="mp-inside">
     <div class="wrap">
-      <h2>What's inside the 9-page plan</h2>
+      <h2>What's inside the plan</h2>
       <ul class="mp-list">
-        <li><b>7 days of meals and snacks</b> with real portions, like 2 Weet-Bix with 1 cup milk, not "a bowl of cereal".</li>
-        <li><b>Food safety built in.</b> No deli meats, soft cheeses or runny eggs, and the right fish choices.</li>
-        <li><b>A snack pick-list</b> pairing fibre and protein, plus what to add when you are still hungry.</li>
-        <li><b>A shopping list</b> for the week and a batch-cook tip for tired nights.</li>
-        <li><b>The supplements most women need</b>, in plain language.</li>
-        <li><b>Nausea, reflux and aversion tips</b> for the days nothing appeals.</li>
+        <li><b>A full 7-day meal plan</b> with breakfast, lunch, dinner and two snacks every day.</li>
+        <li><b>5 foods to avoid</b> to keep your tiny bub safe, based on Australian food safety advice.</li>
+        <li><b>5 must-eat foods</b> and why they matter in pregnancy.</li>
+        <li><b>Quick tips</b> for nausea, fluids, caffeine and the supplements most women need.</li>
       </ul>
     </div>
   </section>
