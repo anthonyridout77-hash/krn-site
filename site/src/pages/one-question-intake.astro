@@ -1,0 +1,67 @@
+---
+/* Intake form for the One-Question Consult.
+   Linked from the welcome email as /one-question-intake/?c=<appointment key>&t=<token>
+   Posts JSON to the Make webhook "KRN OneQ 2 Intake". Includes the transcription consent
+   choice (consent = "yes" | "manual"). Not indexed, not in nav. Copy is DRAFT until Kat approves. */
+import Base from '../layouts/Base.astro';
+import PageScript from '../components/PageScript.astro';
+import '../styles/article.css';
+---
+<Base title="Your three questions | Katrina Ridout Nutrition" description="Three short questions before your One-Question Consult with Katrina Ridout, Accredited Practising Dietitian." noindex={true}>
+  <section class="nf">
+    <div class="wrap" style="max-width:40rem">
+      <p class="eyebrow">One-Question Consult</p>
+      <h1>Three short questions before we talk</h1>
+      <p>These take about two minutes and let Kat prepare, so the 30 minutes goes on your answer, not on background.</p>
+      <form id="iqForm" novalidate style="margin-top:1.5rem;display:grid;gap:1rem">
+        <input type="hidden" id="iqKey" name="c">
+        <input type="hidden" id="iqToken" name="t">
+        <div>
+          <label for="iqQ">1. What is the one question you want answered?</label>
+          <textarea id="iqQ" name="question" rows="3" required maxlength="1000"></textarea>
+        </div>
+        <div>
+          <label for="iqC">2. A little context: where are you up to? (trying, IVF, pregnant and how far, postpartum, or something else)</label>
+          <textarea id="iqC" name="context" rows="3" required maxlength="1500"></textarea>
+        </div>
+        <div>
+          <label for="iqT">3. What have you already tried or been told?</label>
+          <textarea id="iqT" name="tried" rows="3" maxlength="1500"></textarea>
+        </div>
+        <fieldset style="border:1px solid rgba(44,40,38,.15);border-radius:12px;padding:1rem 1.2rem">
+          <legend style="padding:0 .4rem">4. How your written plan is prepared</legend>
+          <p style="margin:.2rem 0 .8rem">With your permission, our video call is transcribed. Kat uses the transcript and your answers above to prepare your one-page plan. Drafting software helps put it on the page; Kat reads and approves every word before anything is sent to you. The transcript and plan are kept in a restricted folder with your consult record and are not shared.</p>
+          <label style="display:block;margin:.4rem 0"><input type="radio" name="consent" value="yes" checked> Yes, the call can be transcribed to help prepare my plan.</label>
+          <label style="display:block;margin:.4rem 0"><input type="radio" name="consent" value="manual"> I would prefer manual notes only. Please do not record or transcribe the call.</label>
+        </fieldset>
+        <button class="btn btn-coral" type="submit">Send to Kat</button>
+        <small>Your answers go to Kat only and are kept with your consult record. <a href="/privacy-policy/">Privacy policy</a></small>
+        <p class="ok" id="iqOk" role="status" aria-live="polite">Thanks, Kat has your answers. See you at the consult.</p>
+        <p class="err" id="iqErr" role="alert">That didn't send. Please email your answers to <a href="mailto:info@katridout.com.au">info@katridout.com.au</a>.</p>
+      </form>
+    </div>
+  </section>
+  <PageScript slot="after" />
+</Base>
+<script is:inline>
+(function(){
+  var ENDPOINT='https://hook.eu1.make.com/m2k6bxaje7qtycmwkl6ehyskrfx2xpdf';
+  var p=new URLSearchParams(location.search);
+  document.getElementById("iqKey").value=(p.get("c")||'').replace(/[^a-f0-9]/gi,'');
+  document.getElementById('iqToken').value=(p.get('t')||'').replace(/[^a-f0-9]/gi,'');
+  var f=document.getElementById('iqForm');
+  f.addEventListener('submit',function(ev){
+    ev.preventDefault();
+    var ok=true;[].forEach.call(f.querySelectorAll('[required]'),function(el){if(!el.checkValidity()){ok=false;el.reportValidity();}});
+    if(!ok)return;
+    var btn=f.querySelector('button'),okEl=document.getElementById('iqOk'),errEl=document.getElementById('iqErr');
+    okEl.classList.remove('show');errEl.classList.remove('show');btn.disabled=true;var label=btn.textContent;btn.textContent='Sending…';
+    var data={form:'oneq-intake',page:location.href};
+    [].forEach.call(f.querySelectorAll('input[type=hidden],textarea'),function(el){data[el.name]=el.value.trim();});
+    data.consent=(f.querySelector('input[name=consent]:checked')||{}).value||'yes';
+    fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)})
+      .then(function(r){if(!r.ok)throw new Error(r.status);okEl.classList.add('show');btn.textContent='Sent';})
+      .catch(function(){errEl.classList.add('show');btn.disabled=false;btn.textContent=label;});
+  });
+})();
+</script>
