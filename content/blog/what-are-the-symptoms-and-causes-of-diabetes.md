@@ -1,6 +1,6 @@
 ---
 title: "What are the symptoms and causes of diabetes?"
-description: " D i a b e t e s   m e l l i t u s   c a n   a f f e c t   a n y o n e   a n d   o c c u r   f o r   a   v a r i e t y   o f   r e a s o n s .   T h i s   w e e k   ( t h e   1 0 t h   o f   J u l y   t o   t h e   1 6 t h   o f   J u l y ,   2 0 2 2 )   i s   N a t i o n a l   D i a b e t e s   W e e k ,   a   w e e k & h e l l i p ; "
+description: "Diabetes mellitus can affect anyone and occur for a variety of reasons. This week (the 10th of July to the 16th of July, 2022) is National Diabetes Week, a week&hellip;"
 date: "2022-07-13"
 updated: "2026-10-29"
 categories:
