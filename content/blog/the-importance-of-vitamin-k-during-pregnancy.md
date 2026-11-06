@@ -1,8 +1,8 @@
 ---
-title: "The importance of Vitamin K during pregnancy"
-description: "The importance of Vitamin K during pregnancy - Katrina Ridout and her team are able to help you have a healthy pregnancy by offering nutritional advice."
+title: "Vitamin K During Pregnancy: Why It Matters and Where to Get It"
+description: "What vitamin K does during pregnancy, the foods that provide it and why it matters for you and your baby, explained by Kat Ridout, Accredited Practising Dietitian."
 date: "2021-10-28"
-updated: "2026-08-13"
+updated: "2026-11-06"
 categories:
   - "Pregnancy"
 wpId: "1773"

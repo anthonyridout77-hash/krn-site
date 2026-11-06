@@ -6,6 +6,7 @@ import CtaBand from '../components/CtaBand.astro';
 import PageScript from '../components/PageScript.astro';
 import '../styles/article.css';
 import { formatDate, isoDate } from '../lib/content';
+import { ORG_ID, PERSON_ID, breadcrumbList } from '../lib/schema';
 
 interface Crumb { label: string; href?: string }
 interface Props {
@@ -30,12 +31,16 @@ const {
   crumbs = [], lede, ctaHeading, ctaText, cta, ctaHref, noindex = false,
 } = Astro.props;
 const showUpdated = updated && date && updated.getTime() - date.getTime() > 86400000;
+const pageUrl = new URL(Astro.url.pathname, Astro.site).toString();
+const crumbLd = breadcrumbList(crumbs, pageUrl);
 ---
 <Base title={`${title} | Katrina Ridout Nutrition`} description={description} image={image} noindex={noindex}>
   <Fragment slot="head">
     {date && <meta property="article:published_time" content={isoDate(date)} />}
     {updated && <meta property="article:modified_time" content={isoDate(updated)} />}
-    {date && <script type="application/ld+json" set:html={JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":title,"description":description,"datePublished":isoDate(date),"dateModified":isoDate(updated ?? date),"image":image ? new URL(image, Astro.site).toString() : undefined,"author":{"@type":"Person","name":"Katrina Ridout","jobTitle":"Accredited Practising Dietitian","url":"https://www.katridout.com.au/"},"publisher":{"@type":"Organization","name":"Katrina Ridout Nutrition","url":"https://www.katridout.com.au/"},"mainEntityOfPage":new URL(Astro.url.pathname, Astro.site).toString()})} />}
+    {date && <script type="application/ld+json" set:html={JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":title,"description":description,"datePublished":isoDate(date),"dateModified":isoDate(updated ?? date),"image":image ? new URL(image, Astro.site).toString() : undefined,"inLanguage":"en-AU","author":{"@type":"Person","@id":PERSON_ID,"name":"Katrina Ridout","jobTitle":"Accredited Practising Dietitian","url":"https://www.katridout.com.au/about-kat/"},"publisher":{"@id":ORG_ID},"mainEntityOfPage":pageUrl})} />}
+    {crumbLd && <script type="application/ld+json" set:html={JSON.stringify(crumbLd)} />}
+    <slot name="head" />
   </Fragment>
 
   <section class="phero">

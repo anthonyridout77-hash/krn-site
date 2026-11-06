@@ -1,8 +1,8 @@
 ---
-title: "The Best Breakfast Ideas for Pregnant Women in Brisbane"
-description: "Easy pregnancy breakfast ideas from Kat Ridout APD, including options for nausea, busy mornings and gestational diabetes. Brisbane based, telehealth Australia-wide."
+title: "The Best Breakfast Ideas for Pregnant Women (Dietitian-Approved, Australia)"
+description: "Healthy breakfast ideas for pregnant women from Kat Ridout, Accredited Practising Dietitian: easy options for nausea, busy mornings, first trimester and gestational diabetes."
 date: "2025-11-21"
-updated: "2026-10-04"
+updated: "2026-11-06"
 categories:
   - "Latest News & Information"
 image: "/images/wp/2025/11/shutterstock_2553172587-1.jpg"
