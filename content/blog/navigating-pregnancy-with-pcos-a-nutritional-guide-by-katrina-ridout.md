@@ -1,6 +1,6 @@
 ---
 title: "Navigating Pregnancy with PCOS: A Nutritional Guide by Katrina Ridout"
-description: " P r e g n a n c y   i s   a   j o y o u s   j o u r n e y ,   b u t   f o r   w o m e n   w i t h   P o l y c y s t i c   O v a r y   S y n d r o m e   ( P C O S ) ,   i t   c a n   c o m e   w i t h   u n i q u e   c h a l l e n g e s .   P C O S ,   a   h o r m o n a l   d i s o r d e r   a f f e c t i n g   a b o u t   1   i n   1 0   w o m e n   o f & h e l l i p ; "
+description: "Pregnancy is a joyous journey, but for women with Polycystic Ovary Syndrome (PCOS), it can come with unique challenges. PCOS, a hormonal disorder affecting about 1 in 10 women of&hellip;"
 date: "2024-04-30"
 updated: "2026-10-29"
 categories:
