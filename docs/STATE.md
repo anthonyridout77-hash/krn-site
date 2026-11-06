@@ -89,3 +89,11 @@ Read this first in any new session. Updated 21 Oct 2026, 09:00 AEST.
 - Latitude tracked prompts now cover Brisbane ×5, telehealth Australia, Sydney, Melbourne, Perth, Adelaide. Next visibility refresh ~25 Nov.
 - Kat's Reddit Replies page refilled to 12 pending (artifact Q1euco6QVhEqhg4P57TKcZ).
 - Human-only listings (Bing Webmaster sitemap, Bing Places, Apple Business Connect, healthdirect, weightloss.com.au address): see project doc `KRN_AI_and_SEO_Visibility_2026-11-06.md`.
+
+
+## 6 Nov 2026 evening: prices off, consultations page
+- Decision (Kat via Anthony): no consult or program prices on the website. $129 shows only on /one-question-consult/. Only dollar figure elsewhere is the $63.40 Medicare rebate.
+- Homepage: compare block and One-Question strip carry no prices (c65493f).
+- /fees-and-rebates/ replaced by /consultations/ (301): price-free comparison matrix (free call, One-Question, initial, review, The Program) + seven pathway timelines (fertility, IVF, pregnancy as The Journey, GDM, postpartum, PCOS (PMOS), endometriosis) condensed from the Sep 2026 Program Redesign. Data: site/src/data/pathways.ts (public health copy, Kat gate for changes). HowTo + FAQPage schema. GA4 event pathway_tab; CTA UTMs utm_campaign=<pathway>. PR #18 merged by Anthony 20:37; Kat to review live.
+- Gotchas: `.cmp` is a global homepage class (use another name on inner pages); inside `.prose`, `.btn-coral` text inherits link colour, scope `color:#fff`; never hardcode #fff, use var(--bg) for dark mode.
+- Next: "Email me the roadmap" form (Make 8408528 route, needs Kat's options-sheet PDFs); Kat's calls on PCOS vs PMOS and which pathways to show.
