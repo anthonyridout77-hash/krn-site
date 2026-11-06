@@ -136,7 +136,9 @@ const isMark = (c: Cell): c is Mark => c === 'yes' || c === 'no' || c === 'part'
 </Article>
 
 <style>
-  .cmp { margin: 1rem 0 2rem; }
+  /* Break out of the 68ch article column so five columns fit */
+  .cmp { margin: 1rem 0 2rem; width: min(1100px, calc(100vw - 40px)); position: relative; left: 50%; transform: translateX(-50%); }
+  @media (max-width: 759px) { .cmp { width: auto; left: auto; transform: none; } }
   .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 
   /* Radio picker: shown on phones only */
