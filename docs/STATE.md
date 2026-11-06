@@ -31,7 +31,10 @@ Read this first in any new session. Updated 21 Oct 2026, 09:00 AEST.
 - CI on GitHub (build check).
 - 21 Oct: impeccable audit 17/20, critique 19/32 (snapshot in `.impeccable/critique/`). Fixed on main: button/dark-mode/footer contrast, static topic strip, tiles without icons, relative links (were pointing at www.katridout.com.au), dark-mode reviews/coral panels, phone menu, one booking label ("Book a free call"), hero reassurance line, "Reviews on Google", consult 75 min, cut "since 2018"/"Medicare provider"/"writes every plan herself"/"new recipes every week"/"most clients outside Brisbane".
 
-## Branches awaiting review (built overnight 20 Oct, nothing merged)
+## Branches awaiting review
+| `feat/audit-2026-11-06` (PR #4) | 6 Nov site audit safe fixes (links, a11y, JSON-LD, images); full report in project doc KRN_Site_Audit_2026-11-06.md | Anthony merges |
+| `content/audit-copy-2026-11-06` | Proposed homepage headline/lede and One-Question wording from the 6 Nov audit | Kat approves copy |
+ (built overnight 20 Oct, nothing merged)
 | Branch | What | Gate |
 |---|---|---|
 | `content/service-rewrites` (PR #1) | 14 service pages rewritten from old-site copy; removed every "15 years"/"leading"/"cure"/"best" claim; GPCCMP wording | Kat approves health copy, then merge |
