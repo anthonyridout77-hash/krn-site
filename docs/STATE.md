@@ -2,7 +2,7 @@
 
 Read this first in any new session.
 
-> 6 Nov 2026 23:10: PR #24 `feat/mealplan-leadmagnet` replaces the /guide/ placeholder with /pregnancy-meal-plan/ (free email-gated 7-Day Pregnancy Meal Plan PDF, Make 8408528 route `mealplan` already live). Kat gate on the PDF copy. Ads: the account sitelink '7-Day Meal Plan' -> /guide-lp/ (150 clicks, A$416 in 30 days to the placeholder) was removed; 23 SP Search ads fixed (APD wording, telehealth, GPCCMP, GDM/PCOS/IVF/endo now land on their own service pages); clean campaign sitelinks on SP Search and Branded. After merge: add a 'Free 7-Day Meal Plan' sitelink -> /pregnancy-meal-plan/.
+> 6 Nov 2026 23:10: PR #24 `feat/mealplan-leadmagnet` replaces the /guide/ placeholder with /pregnancy-meal-plan/ (free email-gated 7-Day Pregnancy Meal Plan PDF, Make 8408528 route `mealplan` already live). Kat gate on the PDF copy. Ads: the account sitelink '7-Day Meal Plan' -> /guide-lp/ (150 clicks, A$416 in 30 days to the placeholder) was removed; 23 SP Search ads fixed (APD wording, telehealth, GPCCMP, GDM/PCOS/IVF/endo now land on their own service pages); clean campaign sitelinks on SP Search and Branded. Merged 7 Nov; live form test passed (PDF email received); "Free 7-Day Meal Plan" sitelink added to SP Search.
 > 6 Nov 2026 21:50: PR #19 `content/focused-consult-positioning` repositions the One-Question Consult as a focused secondary offer (initial consultation leads; $129 only on its own page; "brief written summary"). Source of truth `site/src/data/focused-consult.ts`. Kat gate: do not merge until she approves. Calendly description and `content/oneq-journey/*` emails must change at the same time. Spec: project doc claude/KRN_Focused_Consult_Spec_2026-11-06.md.
  Updated 21 Oct 2026, 09:00 AEST.
 
