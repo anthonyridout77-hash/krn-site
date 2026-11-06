@@ -57,3 +57,11 @@
 /our-services/ivf-nutrition/ /our-services/prenatal-nutrition-and-dietetics/ivf-nutrition/ 301
 /contact/ /contact-us/ 301
 /contact /contact-us/ 301
+# Legacy URLs still showing in Google results (GSC, 6 Nov 2026)
+/about-katrina-ridout/ /about-kat/ 301
+/about-katrina-ridout /about-kat/ 301
+/nutrition-and-dietetics/dietitian/ /our-services/dietitian/ 301
+/nutrition-and-dietetics/* /our-services/ 301
+/blogs/the-best-breakfast-ideas-for-pregnant-women-brisbane/ /blogs/the-best-breakfast-ideas-for-pregnant-women-in-brisbane/ 301
+/blogs/how-your-nutritional-needs-change-each-trimester/ /blogs/how-your-nutritional-needs-change-in-each-trimester/ 301
+/blogs/endometriosis-fertility/ /blogs/endometriosis-diet-fertility/ 301
