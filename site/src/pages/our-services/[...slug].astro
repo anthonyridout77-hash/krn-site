@@ -64,7 +64,7 @@ const siblings = all
     {pathway && (
       <p class="pw-link" style="margin-top:2rem;padding:1rem 1.2rem;background:var(--mint);border-radius:16px">
         <b>How a program unfolds:</b> see the {pathway.name} pathway consult by consult, with Medicare details and what you take away from each visit.
-        <a href={`/consultations/?pathway=${pathway.id}#pathways`} style="display:block;margin-top:.4rem;font-weight:600">See the {pathway.name} pathway</a>
+        <a href={`/consultations/#pathway-${pathway.id}`} style="display:block;margin-top:.4rem;font-weight:600">See the {pathway.name} pathway</a>
       </p>
     )}
     {siblings.length > 0 && (

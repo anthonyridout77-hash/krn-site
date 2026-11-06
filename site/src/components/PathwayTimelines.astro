@@ -3,7 +3,7 @@
 import { pathways, callLink } from '../data/pathways';
 const defaultId = '';
 ---
-<div class="pw" id="pathways">
+<div class="pw" id="pathway-picker">
   <p class="pw-label" id="pw-label">Where are you right now?</p>
   <div class="pw-tabs" role="radiogroup" aria-labelledby="pw-label">
     {pathways.map((p) => (
@@ -14,20 +14,15 @@ const defaultId = '';
     ))}
   </div>
 
-  <p class="pw-empty">Choose a situation above to see an example.</p>
+  <p class="pw-empty">Choose a situation above to see a summary.</p>
+  <p class="sr" role="status" aria-live="polite" id="pw-status"></p>
   {pathways.map((p) => (
-    <section class={`pw-panel pw-${p.id}`} aria-label={p.name}>
+    <section class={`pw-panel pw-${p.id}`} aria-labelledby={`pwh-${p.id}`}>
       <header class="pw-head">
-        <h3>{p.name}</h3>
+        <h3 id={`pwh-${p.id}`}>{p.name}</h3>
         <p class="pw-who">{p.who}</p>
         <p class="pw-story">{p.story}</p>
       </header>
-
-      <ol class="shape" aria-label="How it works">
-        <li><b>Understand</b> your history, bloods and what matters to you</li>
-        <li><b>Agree</b> practical steps and your supplement plan</li>
-        <li><b>Review and adapt</b> as results and your stage change</li>
-      </ol>
       <details class="sched">
         <summary>See an example appointment schedule ({p.consults.length} appointments)</summary>
       <ol class={`tl tl-${p.consults.length}`}>
@@ -62,9 +57,6 @@ const defaultId = '';
   .pw { margin: 1rem 0 2rem; }
   @media (min-width: 900px) { .pw { width: min(1100px, calc(100vw - 40px)); position: relative; left: 50%; transform: translateX(-50%); } }
   .pw-label { font-weight: 600; color: var(--heading); margin: 0 0 .5rem; }
-  .shape { list-style: none; margin: 0 0 1rem; padding: 0; display: grid; gap: .5rem; }
-  @media (min-width: 760px) { .shape { grid-template-columns: repeat(3, 1fr); } }
-  .shape li { background: var(--mint); border-radius: 14px; padding: .8rem 1rem; font-size: .95rem; }
   .sched { margin: 0 0 .5rem; }
   .sched summary { cursor: pointer; font-weight: 600; color: var(--heading); padding: .6rem 0; }
   .sched[open] summary { margin-bottom: .8rem; }
@@ -75,7 +67,14 @@ const defaultId = '';
   .pw-tab input:checked + span { background: var(--heading); color: var(--bg); border-color: var(--heading); }
   .pw-tab input:focus-visible + span { outline: 2px solid var(--heading); outline-offset: 2px; }
 
+  .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
   .pw-panel { display: none; }
+  .pw[data-active="fertility"] .pw-fertility, .pw[data-active="ivf"] .pw-ivf, .pw[data-active="pregnancy"] .pw-pregnancy,
+  .pw[data-active="gdm"] .pw-gdm, .pw[data-active="postpartum"] .pw-postpartum, .pw[data-active="pmos"] .pw-pmos,
+  .pw[data-active="endo"] .pw-endo { display: block; }
+  @supports not selector(:has(*)) { .pw:not([data-active]) .pw-panel { display: block; } .pw:not([data-active]) .pw-empty { display: none; } }
+  @media print { .pw-tabs, .pw-label, .pw-empty { display: none !important; } .pw-panel { display: block !important; break-inside: avoid; } }
+  .pw-tab input:focus-visible + span { outline: 3px solid var(--heading); outline-offset: 2px; }
   .pw-empty { color: var(--fg-soft); font-size: .92rem; margin: 0; }
   .pw:has(input[name="pathway"]:checked) .pw-empty { display: none; }
   .pw:has(input[value="fertility"]:checked) .pw-fertility,
@@ -124,14 +123,32 @@ const defaultId = '';
 </style>
 
 <script>
-  // Preselect a tab from ?pathway=<id> (links from service pages)
-  const want = new URLSearchParams(location.search).get('pathway');
-  if (want) { const r = document.querySelector<HTMLInputElement>(`.pw input[value="${CSS.escape(want)}"]`); if (r) { r.checked = true; const d = document.querySelector<HTMLDetailsElement>(`.pw-${CSS.escape(want)} details`); if (d) d.open = true; } }
-  // GA4 event when a pathway tab is chosen (no-op if dataLayer missing)
-  document.querySelectorAll<HTMLInputElement>('.pw input[name="pathway"]').forEach((el) => {
-    el.addEventListener('change', () => {
-      (window as any).dataLayer = (window as any).dataLayer || [];
-      (window as any).dataLayer.push({ event: 'pathway_tab', pathway: el.value });
-    });
-  });
+  const root = document.querySelector<HTMLElement>('.pw');
+  const status = document.getElementById('pw-status');
+  const radios = Array.from(document.querySelectorAll<HTMLInputElement>('.pw input[name="pathway"]'));
+  const select = (id: string, announce: boolean) => {
+    if (!root) return;
+    root.dataset.active = id;
+    const h = document.getElementById(`pwh-${id}`);
+    if (announce && status && h) status.textContent = `Showing ${h.textContent}`;
+  };
+  // Deep links from service pages: #pathway-<id> (preferred, not sent to analytics) or legacy ?pathway=<id>
+  const fromHash = location.hash.startsWith('#pathway-') ? location.hash.slice(9) : '';
+  const want = fromHash || new URLSearchParams(location.search).get('pathway') || '';
+  if (want) {
+    const r = radios.find((x) => x.value === want);
+    if (r) {
+      r.checked = true; select(want, false);
+      const d = document.querySelector<HTMLDetailsElement>(`.pw-${CSS.escape(want)} details`); if (d) d.open = true;
+      document.getElementById('pathways')?.scrollIntoView();
+    }
+  }
+  radios.forEach((el) => el.addEventListener('change', () => {
+    select(el.value, true);
+    // Generic event only: no condition name is sent to analytics.
+    (window as any).dataLayer = (window as any).dataLayer || [];
+    (window as any).dataLayer.push({ event: 'pathway_tab' });
+  }));
+  // Print: show every example in full.
+  window.addEventListener('beforeprint', () => document.querySelectorAll<HTMLDetailsElement>('.pw details').forEach((d) => (d.open = true)));
 </script>

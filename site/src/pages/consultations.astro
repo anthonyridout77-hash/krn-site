@@ -23,7 +23,7 @@ const rows: { label: string; cells: string[] }[] = [
   { label: 'Duration and format', cells: ['15 min, phone', '30 min, video', '75 min, Milton or telehealth'] },
   { label: 'Assessment', cells: ['A conversation about your situation', 'Focused on your question', 'Complete'] },
   { label: 'Written takeaway', cells: ['None', 'One-page plan, 2 business days', 'Full plan and resources, 2 business days'] },
-  { label: 'Follow-up', cells: ['Kat suggests the best next step for you', 'Fee credited if you continue within 30 days', 'Review appointments or a program, your choice'] },
+  { label: 'Follow-up', cells: ['Kat suggests the best next step for you', 'Fee credited if you book a full consultation within 30 days', 'Review appointments or a program, your choice'] },
 ];
 
 const schema = {
@@ -38,7 +38,7 @@ const schema = {
     {
       '@type': 'FAQPage',
       mainEntity: [
-        { '@type': 'Question', name: 'Do I have to commit to a program?', acceptedAnswer: { '@type': 'Answer', text: 'No. You can book a single initial consultation. If you decide to continue within 14 days your initial consultation counts as the first appointment of the program.' } },
+        { '@type': 'Question', name: 'Do I have to commit to a program?', acceptedAnswer: { '@type': 'Answer', text: 'No. You can book a single initial consultation. If you book The Program within 14 days of your initial consultation, that consultation counts as its first appointment.' } },
         { '@type': 'Question', name: 'How many appointments are in a program?', acceptedAnswer: { '@type': 'Answer', text: 'The Program is five appointments: one 75-minute initial consultation and four reviews, usually across about 12 weeks. The Journey is eight: one initial consultation and seven reviews spaced across a pregnancy and into the first weeks after birth. Timing is flexible to you.' } },
         { '@type': 'Question', name: 'Does Medicare cover dietitian consultations?', acceptedAnswer: { '@type': 'Answer', text: 'If your GP refers you under a GP Chronic Condition Management Plan you may receive a Medicare rebate of $63.40 per consultation for up to five allied-health visits a calendar year. Eligibility is your GP\'s decision. Private health extras may also apply; you cannot claim both for the same consultation.' } },
       ],
@@ -84,7 +84,7 @@ const schema = {
   <p class="reassure"><b>Kat will explain the fees and inclusions before you decide to proceed.</b> The One-Question Consult fee is shown on its page before you pay. For initial consultations and programs, fees and options are discussed on your free call. The free call does not commit you to anything, and there is no obligation to book ongoing care.</p>
 
   <aside class="existing">
-    <p><b>Already a client?</b> Book a review consultation (30 minutes, or 45 for a change of stage) through your usual link, or <a href="/contact-us/">contact the clinic</a>.</p>
+    <p><b>Already a client?</b> <a href="/contact-us/">Contact Kat to arrange a review</a> (30 minutes, or 45 for a change of stage).</p>
   </aside>
 
   <h2 id="ongoing">How ongoing support works</h2>
@@ -93,12 +93,13 @@ const schema = {
     <li><b>Practical plan.</b> Supplement plan, starter meal plan and resources, within 2 business days.</li>
     <li><b>Reviews and adjustments.</b> Shorter appointments to check what is working and update the plan as results and your stage change.</li>
   </ol>
-  <p>You can book appointments one at a time, or as a program. Programs include the initial consultation, so they are not a separate starting appointment. If you start with a single initial consultation and decide to continue within 14 days, it counts as the first appointment of the program.</p>
+  <p>You can book appointments one at a time, or as a program. Programs include the initial consultation, so they are not a separate starting appointment. See <a href="#changing">changing from one option to another</a> for how a single appointment can count towards a program.</p>
   <div class="programs">
     <article class="program">
       <h3>The Program</h3>
       <p><b>5 appointments in total:</b> the 75-minute initial consultation plus four reviews (30, 45, 30 and 30 minutes), usually across about 12 weeks and flexible to your stage.</p>
       <p><b>Included:</b> everything from the initial consultation, a 45-minute pathology review with your meal plan and supplement plan updated, a partner handout, and messaging support between appointments. Use within 12 months.</p>
+      <p class="fine"><b>Messaging support:</b> short questions between appointments, answered on weekdays, usually within 48 hours. It is not for urgent medical concerns; contact your GP, midwife or 000.</p>
     </article>
     <article class="program">
       <h3>The Journey</h3>
@@ -109,11 +110,12 @@ const schema = {
   <p class="fine">Appointments outside a program (for example an extra review, or a partner appointment) are booked and charged separately. Program appointments can be used across stages, for example moving from preconception into pregnancy.</p>
 
   <h2 id="pathways">What it looks like for your situation</h2>
-  <p>Pick your situation for a short summary. Open the example schedule if you would like to see how appointments are usually spaced and what each one covers.</p>
+  <p>Pick your situation for a short summary. Open the example schedule if you would like to see how appointments are usually spaced. Timing in the examples is counted from your first appointment unless it says otherwise (for example weeks of pregnancy).</p>
   <PathwayTimelines />
 
   <h2 id="compare">Compare at a glance</h2>
-  <div class="table-wrap">
+  <p class="scroll-hint">On a phone, scroll sideways to compare all three options.</p>
+  <div class="table-wrap" role="region" aria-label="Comparison of starting options" tabindex="0">
     <table class="matrix">
       <caption class="sr">Comparison of the three starting options: free call, One-Question Consult and initial consultation</caption>
       <thead>
@@ -133,10 +135,17 @@ const schema = {
     </table>
   </div>
 
+  <h2 id="changing">Changing from one option to another</h2>
+  <ul>
+    <li><b>From a One-Question Consult:</b> if you book an initial consultation or The Program within 30 days of your One-Question Consult, its fee is credited towards that booking. One credit per client, not transferable, not combined with a Medicare rebate.</li>
+    <li><b>From a single initial consultation:</b> if you book The Program within 14 days of your initial consultation, that consultation counts as the program's first appointment.</li>
+    <li><b>Extra appointments:</b> anything outside a program, such as an additional review or a partner appointment, is booked and charged separately.</li>
+  </ul>
+
   <h2 id="medicare">Medicare rebates</h2>
   <ul>
     <li>Your GP may refer you under a GP Chronic Condition Management Plan (GPCCMP) if they consider dietetic care appropriate. Eligibility is your GP's decision.</li>
-    <li>The plan allows up to five allied-health visits per calendar year, shared across the allied-health professionals on your plan. Five matches the five appointments in The Program.</li>
+    <li>The plan allows up to five allied-health visits per calendar year, shared across every allied-health professional on your plan (for example a physiotherapist or psychologist as well as a dietitian). How many of your program appointments attract a rebate depends on how many of those visits you have left.</li>
     <li>The Medicare rebate for a dietitian consultation is {rebate} per visit as at 1 July 2026. You pay the fee on the day and the rebate is claimed back for you.</li>
     <li>The One-Question Consult is private-pay only and does not use one of your five visits.</li>
   </ul>
@@ -150,13 +159,12 @@ const schema = {
     <li>Consultations are paid on the day. The One-Question Consult is prepaid when you book. Programs can be paid in full or in instalments.</li>
     <li>Reschedule or cancel free of charge up to 24 hours before your appointment. Inside 24 hours the fee is retained.</li>
     <li>Program appointments can be used within 12 months of purchase.</li>
-    <li>If Kat finds a One-Question Consult needs a full consultation, she will say so and the fee is credited towards an initial consultation or The Program booked within 30 days.</li>
   </ul>
 </Article>
 
 <style>
   .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
-  .jump { display: flex; flex-wrap: wrap; gap: .4rem .5rem; margin: 0 0 1.4rem; }
+  .jump { display: flex; flex-wrap: wrap; gap: .4rem .5rem; margin: 0 0 1rem; }
   .jump a { font-size: .88rem; text-decoration: none; border: 1px solid var(--line); border-radius: 999px; padding: .35rem .75rem; color: var(--heading); }
   .jump a:hover { background: var(--mint); }
 
@@ -164,7 +172,8 @@ const schema = {
   .starters, .programs, .table-wrap { width: min(1100px, calc(100vw - 40px)); position: relative; left: 50%; transform: translateX(-50%); }
   @media (max-width: 759px) { .starters, .programs, .table-wrap { width: auto; left: auto; transform: none; } }
 
-  .starters { display: grid; gap: 1rem; margin: 1rem 0 1.2rem; }
+  .starters { display: grid; gap: 1rem; margin: .6rem 0 1.2rem; align-items: start; }
+  @media (min-width: 760px) { .starters { align-items: stretch; } }
   @media (min-width: 760px) { .starters { grid-template-columns: repeat(3, 1fr); } }
   .starter { background: var(--mint); border-radius: 22px; padding: 1.4rem 1.3rem; display: flex; flex-direction: column; gap: .8rem; }
   .starter .q { margin: 0; font-weight: 600; color: var(--heading); font-size: 1.05rem; }
@@ -189,9 +198,12 @@ const schema = {
   .program p + p { margin-top: .6rem; }
   .fine { font-size: .92rem; color: var(--fg-soft); }
 
-  .table-wrap { overflow-x: auto; margin: 1rem 0 2rem; }
+  .table-wrap { overflow-x: auto; margin: .4rem 0 2rem; }
+  .table-wrap:focus-visible { outline: 3px solid var(--heading); outline-offset: 3px; border-radius: 6px; }
+  .scroll-hint { font-size: .85rem; color: var(--fg-soft); margin: .8rem 0 0; }
+  @media (min-width: 760px) { .scroll-hint { display: none; } }
   .matrix { width: 100%; min-width: 560px; border-collapse: collapse; font-size: .92rem; }
   .matrix th, .matrix td { padding: .7rem .7rem; border-bottom: 1px solid var(--line); vertical-align: top; text-align: left; }
   .matrix thead th { border-bottom: 2px solid var(--line); color: var(--heading); }
-  .matrix .rowhead { font-weight: 600; color: var(--fg); width: 18%; position: sticky; left: 0; background: var(--bg); }
+  .matrix .rowhead { font-weight: 600; color: var(--fg); width: 18%; position: sticky; left: 0; background: var(--bg); box-shadow: 1px 0 0 var(--line); z-index: 1; }
 </style>
