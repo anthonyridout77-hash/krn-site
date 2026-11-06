@@ -1,5 +1,6 @@
 ---
 title: "Hormones and Pregnancy"
+seoTitle: "Hormone and Fertility Dietitian Brisbane and Online"
 description: "Understand how nutrition supports hormonal balance during pregnancy. Kat Ridout offers expert dietetic care for Brisbane mums and mums-to-be."
 date: "2025-08-01"
 updated: "2026-10-05"

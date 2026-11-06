@@ -4,6 +4,7 @@ import { glob } from 'astro/loaders';
 const common = {
   title: z.string(),
   description: z.string().optional(),
+  seoTitle: z.string().optional(),
   date: z.coerce.date().optional(),
   updated: z.coerce.date().optional(),
   image: z.string().optional(),

@@ -1,5 +1,6 @@
 ---
 title: "Post Pregnancy Mums"
+seoTitle: "Postpartum Dietitian Brisbane and Online: Recovery and Breastfeeding Nutrition"
 description: "Postnatal nutrition support for new mums Australia-wide. Energy, breastfeeding, recovery and postpartum wellbeing with Kat Ridout APD. Medicare rebate."
 date: "2025-08-04"
 updated: "2026-10-05"

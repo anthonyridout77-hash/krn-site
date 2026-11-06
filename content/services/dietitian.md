@@ -1,5 +1,6 @@
 ---
 title: "Nutrition and Dietetics"
+seoTitle: "Dietitian Brisbane (Milton) and Online"
 description: "Accredited Practising Dietitian in Milton, Brisbane and online by video anywhere in Australia. Book a free 15-minute call with Kat Ridout APD."
 date: "2025-08-01"
 updated: "2026-10-12"

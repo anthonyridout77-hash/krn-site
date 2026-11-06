@@ -15,6 +15,7 @@ const related = relatedPosts(post, all, 3);
 ---
 <Article
   title={post.data.title}
+  metaTitle={post.data.seoTitle}
   description={post.data.description ?? post.data.title}
   image={post.data.image}
   imageAlt={post.data.imageAlt}

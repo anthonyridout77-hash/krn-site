@@ -1,5 +1,6 @@
 ---
 title: "Endometriosis"
+seoTitle: "Endometriosis Dietitian Brisbane and Online"
 description: "Endometriosis dietitian in Brisbane. Nutrition support for endometriosis with Kat Ridout APD, telehealth across Australia. Medicare rebate with GP referral."
 date: "2025-08-01"
 updated: "2026-10-05"

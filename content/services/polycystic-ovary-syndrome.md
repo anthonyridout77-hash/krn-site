@@ -1,5 +1,6 @@
 ---
 title: "Polycystic Ovary Syndrome"
+seoTitle: "PMOS (PCOS) Dietitian Brisbane and Online"
 description: "Evidence-based PCOS dietitian in Brisbane. Expert nutrition support for PCOS — balance hormones, manage weight & reduce symptoms. Telehealth available. Medicare rebate."
 date: "2025-08-01"
 updated: "2026-10-05"

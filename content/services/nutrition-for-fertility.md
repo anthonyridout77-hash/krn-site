@@ -1,6 +1,7 @@
 ---
 title: "Nutrition for Fertility"
-description: "Fertility and preconception nutrition with Kat Ridout, Accredited Practising Dietitian. Brisbane based, telehealth Australia-wide. Medicare rebate applies."
+seoTitle: "Fertility Dietitian Brisbane and Online: Preconception Nutrition"
+description: "Fertility and preconception nutrition with Kat Ridout, Accredited Practising Dietitian. Brisbane based, telehealth Australia-wide. Medicare rebate may apply with a GP Chronic Condition Management Plan."
 date: "2025-08-04"
 updated: "2026-10-09"
 wpId: "527"
