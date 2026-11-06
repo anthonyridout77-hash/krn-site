@@ -53,7 +53,7 @@ On alcohol the Australian guidelines are not ambiguous and there is no point in 
 
 Caffeine is a limit rather than a ban. Your maternity team will give you a figure, and it is usually framed as a small number of coffees a day. Worth remembering that tea, cola, energy drinks and chocolate all count toward it, which is how people end up over without noticing.
 
-Vitamin A is the one that sounds obscure until it matters. The concern is retinol in high doses, which is why liver and liver products, and high-dose vitamin A supplements, are usually left out in pregnancy. The beta-carotene in carrots and sweet potato is a different thing and is not the issue. If you want the actual numbers, including where the upper level sits and why it applies to supplements rather than vegetables, I have written them out in [this piece on vitamin A and vitamin K in pregnancy](https://www.katridout.com.au/blogs/vitamin-a-vitamin-k-pregnancy-dietitian-brisbane/).
+Vitamin A is the one that sounds obscure until it matters. The concern is retinol in high doses, which is why liver and liver products, and high-dose vitamin A supplements, are usually left out in pregnancy. The beta-carotene in carrots and sweet potato is a different thing and is not the issue. If you want the actual numbers, including where the upper level sits and why it applies to supplements rather than vegetables, I have written them out in [this piece on vitamin A and vitamin K in pregnancy](/blogs/vitamin-a-vitamin-k-pregnancy-dietitian-brisbane/).
 
 ## What to actually do with all this
 
@@ -61,6 +61,6 @@ If you take three things from this page: the underlying rule is chilled and read
 
 And if the list has started to eat your whole diet, which happens more often than anyone admits, that is worth a conversation. Pregnancy is not the time to be eating less than you need because a website frightened you.
 
-Katrina Ridout is an Accredited Practising Dietitian and a pregnancy dietitian in Brisbane, consulting by telehealth Australia-wide. You can read more about [pregnancy nutrition support](https://www.katridout.com.au/our-services/pregnancy-nutrition-and-dietetics/), or book a fifteen-minute callback [here](https://calendly.com/katridout/15-minute-investigative-callback).
+Katrina Ridout is an Accredited Practising Dietitian and a pregnancy dietitian in Brisbane, consulting by telehealth Australia-wide. You can read more about [pregnancy nutrition support](/our-services/pregnancy-nutrition-and-dietetics/), or book a fifteen-minute callback [here](https://calendly.com/katridout/15-minute-investigative-callback).
 
 *This article is general education and is not individual advice. It aligns with FSANZ food safety guidance and the Australian Dietary Guidelines, and sits alongside the care of your midwife, obstetrician and GP, never in place of it.*

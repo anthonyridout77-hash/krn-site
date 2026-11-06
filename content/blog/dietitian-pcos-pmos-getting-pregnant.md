@@ -29,7 +29,7 @@ Most people with PMOS have some degree of insulin resistance, whatever their wei
 
 * **Assesses** your cycles, blood tests, medications (for example metformin or letrozole), eating pattern and lifestyle.
 * **Builds an eating plan** based on lower-GI carbohydrates, protein at each meal, fibre and healthy fats, which helps steady blood glucose.
-* **Reviews supplements.** Folic acid, iodine, vitamin D if low, and an evidence-based look at inositol. Read [inositol and PCOS: what the 2026 evidence says](https://www.katridout.com.au/blogs/inositol-pcos-what-the-2026-evidence-says/).
+* **Reviews supplements.** Folic acid, iodine, vitamin D if low, and an evidence-based look at inositol. Read [inositol and PCOS: what the 2026 evidence says](/blogs/inositol-pcos-what-the-2026-evidence-says/).
 * **Works with your team:** your GP, gynaecologist or fertility clinic, including before IVF.
 * **Avoids harm.** No crash diets, which can worsen disordered eating risk. People with PMOS face a higher risk of disordered eating.
 
@@ -41,7 +41,7 @@ Most people with PMOS have some degree of insulin resistance, whatever their wei
 
 ## Medicare and costs
 
-PMOS can be managed under a GP Chronic Condition Management Plan (GPCCMP). Eligible patients can claim Medicare rebates for up to 5 allied health visits a year. Your GP decides eligibility. Katrina’s 5-consult Program is designed to line up with those visits. [See packages](https://www.katridout.com.au/our-packages/).
+PMOS can be managed under a GP Chronic Condition Management Plan (GPCCMP). Eligible patients can claim Medicare rebates for up to 5 allied health visits a year. Your GP decides eligibility. Katrina’s 5-consult Program is designed to line up with those visits. [See packages](/our-packages/).
 
 ![Fresh salad with feta and avocado](/images/wp/2026/07/krn-dietitian-nutritionist-fertility-body1.jpg)
 

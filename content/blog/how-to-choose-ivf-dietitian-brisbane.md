@@ -81,7 +81,7 @@ I’m Katrina Ridout, an Accredited Practising Dietitian (APD) with training in 
 
 When we start, I look at what you’re already doing well, then the two or three gaps that matter most before your cycle, and we fill them with simple little switches you can actually keep up. You’ll get a written plan within 48 hours, including a supplement plan, so you’re not guessing about what to take or when. I work alongside your fertility clinic and GP and write back to them, because it’s your specialist who leads your treatment.
 
-If you’d like to get your nutrition on the front foot before your next cycle, call me on [1300 640 104](tel:1300640104) or get in touch through [katridout.com.au](https://www.katridout.com.au/). I really look forward to supporting you.
+If you’d like to get your nutrition on the front foot before your next cycle, call me on [1300 640 104](tel:1300640104) or get in touch through [katridout.com.au](/). I really look forward to supporting you.
 
 This article is general information, not individual advice. Please talk with your own health team about your situation.
 
@@ -99,4 +99,4 @@ This article is general information, not individual advice. Please talk with you
 
 1. Accredited Practising Dietitian program, Dietitians Australia
 2. Allied health services under Medicare for patients with a GP Chronic Condition Management Plan, Australian Government Department of Health and Aged Care
-3. [Fertility nutrition with Kat Ridout APD](https://www.katridout.com.au/our-services/nutrition-for-fertility/), Katrina Ridout Nutrition
+3. [Fertility nutrition with Kat Ridout APD](/our-services/nutrition-for-fertility/), Katrina Ridout Nutrition

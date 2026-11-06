@@ -70,7 +70,7 @@ Here’s some other specific areas on how Kat can help you ➡️
 Your baby’s development and the overall health for both mother and child, can be affected by the amount of weight you gain when pregnant.
 According to the Institute of Medicine guidelines for gestational weight gain – which are used both internationally and in Australia – the amount of weight women should gain throughout their pregnancy depends on what your weight was before you became pregnant or your pre-pregnancy “Body Mass Index (BMI)”. Your healthiest weight gain will depend on your starting weight.
 Want to know how much weight you should aim to gain during pregnancy?
-Click here (https://katridout.com.au/our-services/pregnancy-nutrition-and-dietetics/weight-pregnancy/)?
+Click here (/our-services/pregnancy-nutrition-and-dietetics/weight-pregnancy/)?
 
 ## Calculate Your BMI Here:
 

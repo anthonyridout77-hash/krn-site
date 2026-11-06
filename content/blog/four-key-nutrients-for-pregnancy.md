@@ -53,6 +53,6 @@ Sometimes the most helpful step is simply talking your week of meals through.
 
 Katrina Ridout is an accredited dietician and nutritionist who offers her services all the way from pre-conception, throughout pregnancy, and post-pregnancy. No matter where you are in your journey, Katrina is available to motivate, guide, and provide sound nutrition advice.
 
-To find out about the range of services that Katrina provides, [please have a look here.](https://katridout.com.au/nutrition-and-dietetics/)
+To find out about the range of services that Katrina provides, [please have a look here.](/nutrition-and-dietetics/)
 
-To arrange a consultation, [please get in touch here](https://katridout.com.au/contact-us/) or give us a call at 1300 640 104.
+To arrange a consultation, [please get in touch here](/contact-us/) or give us a call at 1300 640 104.

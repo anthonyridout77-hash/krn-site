@@ -32,11 +32,11 @@ wpUrl: "https://api.katridout.com.au/blogs/telehealth-ivf-fertility-dietitian-au
 3. **Transfer and the two-week wait:** steady, simple eating and supplement checks
 4. **After a result:** pregnancy nutrition, or support and planning for the next cycle
 
-The IVF Preparation Program (7 consults) is built around this timeline. More: [IVF dietitian support](https://www.katridout.com.au/blogs/ivf-dietitian-brisbane-nutrition/).
+The IVF Preparation Program (7 consults) is built around this timeline. More: [IVF dietitian support](/blogs/ivf-dietitian-brisbane-nutrition/).
 
 ## Who it’s for
 
-Anyone in Australia who is preparing for IVF, doing IVF, or trying to conceive with PMOS (previously called PCOS), endometriosis or male factor infertility. State pages: [Adelaide](https://www.katridout.com.au/pregnancy-dietitian-adelaide/), [Perth](https://www.katridout.com.au/fertility-pregnancy-dietitian-perth/).
+Anyone in Australia who is preparing for IVF, doing IVF, or trying to conceive with PMOS (previously called PCOS), endometriosis or male factor infertility. State pages: [Adelaide](/pregnancy-dietitian-adelaide/), [Perth](/fertility-pregnancy-dietitian-perth/).
 
 **Where:** in person at Milton Village Medical, Level 1, 36 Baroona Road, Milton QLD 4064, or by telehealth anywhere in Australia. Phone 1300 640 104.
 

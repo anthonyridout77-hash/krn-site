@@ -1,6 +1,6 @@
 ---
 title: "Pregnancy Dietitian Adelaide | Telehealth | Kat Ridout APD"
-source: "https://www.katridout.com.au/pregnancy-dietitian-adelaide/"
+source: "/pregnancy-dietitian-adelaide/"
 captured: "2026-10-20"
 note: "Copy captured from the old site for rewriting into Astro. Reference only, not published."
 ---

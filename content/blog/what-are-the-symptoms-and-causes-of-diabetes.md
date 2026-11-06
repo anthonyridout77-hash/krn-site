@@ -52,7 +52,7 @@ The cause of type 2 diabetes is not clear, though it is most common in people wh
 
 Gestational diabetes mellitus is a form of diabetes that occurs in pregnant women when they are unable to produce enough insulin to support both themself and their baby.
 
-To find out more about gestational diabetes mellitus, click [here](https://katridout.com.au/our-services/pregnancy-nutrition-and-dietetics/gestational-diabetes/).
+To find out more about gestational diabetes mellitus, click [here](/our-services/pregnancy-nutrition-and-dietetics/gestational-diabetes/).
 
 ![Healthy meal served on a plate](/images/wp/2026/07/krn-diabetes-symptoms-causes-body1.jpg)
 
@@ -72,4 +72,4 @@ As an APD, I build diabetes nutrition plans around the foods you already enjoy.
 
 Katrina Ridout is an Accredited Practising Dietitian based in Brisbane who has over 15 years of experience in helping people manage their diabetes with scientifically proven methods. She is a diabetes dietitian who is able to optimise one’s food and nutrition intake based on their own unique circumstances and understands everyone is different.
 
-To arrange an appointment with Katrina Ridout, please call 1300 640 104 or [contact Kat](https://katridout.com.au/contact-us/).
+To arrange an appointment with Katrina Ridout, please call 1300 640 104 or [contact Kat](/contact-us/).

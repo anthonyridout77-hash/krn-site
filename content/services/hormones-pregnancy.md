@@ -64,13 +64,13 @@ Rising hCG and oestrogen are linked with morning sickness, which can happen at a
 Progesterone relaxes smooth muscle throughout the body, which slows digestion and loosens the valve at the top of the stomach. Eating smaller meals, staying upright for an hour after eating, limiting very rich or spicy meals at night, and building up fibre slowly alongside plenty of water can all help.
 
 ### Blood glucose, hunger and cravings
-From the second trimester, placental hormones make the body more resistant to insulin so more glucose reaches your baby. For some women this leads to gestational diabetes, which is screened for at 24 to 28 weeks. Pairing carbohydrate foods with protein, choosing wholegrains and spreading carbohydrate across the day help keep energy steadier. Read more in Gestational diabetes: just diagnosed, what now? (https://www.katridout.com.au/blogs/gestational-diabetes-just-diagnosed-what-now/)
+From the second trimester, placental hormones make the body more resistant to insulin so more glucose reaches your baby. For some women this leads to gestational diabetes, which is screened for at 24 to 28 weeks. Pairing carbohydrate foods with protein, choosing wholegrains and spreading carbohydrate across the day help keep energy steadier. Read more in Gestational diabetes: just diagnosed, what now? (/blogs/gestational-diabetes-just-diagnosed-what-now/)
 
 ### Thyroid hormones and iodine
 Your thyroid works harder in pregnancy, and your baby relies on your thyroid hormone for brain development. Australian guidelines recommend a daily 150 microgram iodine supplement for women who are pregnant, breastfeeding or trying to conceive. If you have a thyroid condition, check with your doctor before starting iodine.
 
 ### Mood, sleep and energy
-Tiredness and mood changes are common as hormones shift. Low iron, vitamin B12 or vitamin D can add to fatigue, so it is worth checking your blood results. Regular meals, enough protein, omega-3 rich foods such as oily fish (two to three serves a week of low-mercury fish) and good hydration all support steadier energy. See Iron in pregnancy (https://www.katridout.com.au/blogs/iron-in-pregnancy-tired-before-anaemia/).
+Tiredness and mood changes are common as hormones shift. Low iron, vitamin B12 or vitamin D can add to fatigue, so it is worth checking your blood results. Regular meals, enough protein, omega-3 rich foods such as oily fish (two to three serves a week of low-mercury fish) and good hydration all support steadier energy. See Iron in pregnancy (/blogs/iron-in-pregnancy-tired-before-anaemia/).
 
 ### How can Katrina Ridout Nutrition help balance my hormones?
 I specialise in identifying the nutrients and strategies your body needs through each stage of pregnancy. Through one-on-one consultations, I will create a personalised nutrition plan and give you practical strategies to help you manage hormonal symptoms and support your wellbeing.

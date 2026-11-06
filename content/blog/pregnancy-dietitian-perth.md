@@ -62,4 +62,4 @@ If any of this sounds like where you are, the easiest next step is a short conve
 
 I support women across Perth and Western Australia entirely through telehealth. You can also read more about [how I work](/our-services/), or [book your call](https://calendly.com/katridout/15-minute-investigative-callback) when you are ready.
 
-You can also see the full picture of how Kat works with women in Western Australia, including what a package looks like and what it costs, on her [fertility and pregnancy dietitian services for Perth](https://katridout.com.au/fertility-pregnancy-dietitian-perth/) page.
+You can also see the full picture of how Kat works with women in Western Australia, including what a package looks like and what it costs, on her [fertility and pregnancy dietitian services for Perth](/fertility-pregnancy-dietitian-perth/) page.

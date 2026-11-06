@@ -46,11 +46,11 @@ A dietitian writes an individualised supplement plan, so you don’t double up o
 
 ## Don’t forget your partner
 
-Sperm quality responds to diet too. The same pattern, plus not smoking and keeping alcohol low, supports male fertility. See our guide to [male fertility nutrition](https://www.katridout.com.au/blogs/male-fertility-diet/).
+Sperm quality responds to diet too. The same pattern, plus not smoking and keeping alcohol low, supports male fertility. See our guide to [male fertility nutrition](/blogs/male-fertility-diet/).
 
 ## When to see a fertility dietitian
 
-A one-on-one plan is worth it if you have PMOS (previously called PCOS), endometriosis, diabetes or coeliac disease, if you’re preparing for IVF, or if you’ve been trying for more than 12 months (6 months if you’re over 35). Katrina Ridout is an Accredited Practising Dietitian who sees clients in Brisbane and by telehealth Australia-wide. Medicare rebates are available for eligible patients on a GP Chronic Condition Management Plan. [How to choose a fertility dietitian](https://www.katridout.com.au/blogs/how-to-choose-a-fertility-dietitian/).
+A one-on-one plan is worth it if you have PMOS (previously called PCOS), endometriosis, diabetes or coeliac disease, if you’re preparing for IVF, or if you’ve been trying for more than 12 months (6 months if you’re over 35). Katrina Ridout is an Accredited Practising Dietitian who sees clients in Brisbane and by telehealth Australia-wide. Medicare rebates are available for eligible patients on a GP Chronic Condition Management Plan. [How to choose a fertility dietitian](/blogs/how-to-choose-a-fertility-dietitian/).
 
 ![Nutrition specialist working at her desk](/images/wp/2026/07/krn-preconception-nutrition-body2-v2.jpg)
 

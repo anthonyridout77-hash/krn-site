@@ -76,7 +76,7 @@ Most people do not need a dietitian to eat more eggs. It is worth getting indivi
 * You are managing another condition alongside pregnancy, such as gestational diabetes, where meal composition is already being juggled
 * You are taking a prenatal supplement and genuinely do not know what is in it
 
-This is the sort of thing covered in [pregnancy nutrition support with an Accredited Practising Dietitian](https://www.katridout.com.au/our-services/pregnancy-nutrition-and-dietetics/), where the point is to look at what you are actually eating rather than to hand you a list.
+This is the sort of thing covered in [pregnancy nutrition support with an Accredited Practising Dietitian](/our-services/pregnancy-nutrition-and-dietetics/), where the point is to look at what you are actually eating rather than to hand you a list.
 
 ## The short version
 

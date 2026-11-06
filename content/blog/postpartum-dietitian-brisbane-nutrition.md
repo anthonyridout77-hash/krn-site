@@ -79,9 +79,9 @@ Caffeine does not have to go. Better Health Channel suggests limiting it to thre
 
 Not everyone needs one. It is worth considering if iron or another result has come back low and you are not sure what to do with it, if you are breastfeeding while excluding a food group for any reason, if intake has dropped away and fatigue is not shifting, or if you are simply eating nothing that resembles a meal and want a plan that survives a bad night.
 
-I am an Accredited Practising Dietitian (APD) working with fertility, pregnancy and postpartum nutrition. I am based in Brisbane and see people across Australia by telehealth. If it would help to talk it through, you can read more about [postpartum nutrition support](https://www.katridout.com.au/lp-postpartum/), or see what a [pregnancy dietitian in Brisbane](https://www.katridout.com.au/blogs/pregnancy-dietitian-brisbane/) looks at earlier in the journey.
+I am an Accredited Practising Dietitian (APD) working with fertility, pregnancy and postpartum nutrition. I am based in Brisbane and see people across Australia by telehealth. If it would help to talk it through, you can read more about [postpartum nutrition support](/lp-postpartum/), or see what a [pregnancy dietitian in Brisbane](/blogs/pregnancy-dietitian-brisbane/) looks at earlier in the journey.
 
-There is also a short answer to the common version of this question, on [foods that help with postpartum recovery and breastfeeding](https://www.katridout.com.au/blogs/foods-for-postpartum-recovery-and-breastfeeding/).
+There is also a short answer to the common version of this question, on [foods that help with postpartum recovery and breastfeeding](/blogs/foods-for-postpartum-recovery-and-breastfeeding/).
 
 ### Sources
 

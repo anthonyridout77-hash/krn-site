@@ -26,14 +26,14 @@ wpUrl: "https://api.katridout.com.au/blogs/fertility-dietitian-brisbane/"
 * **Partner support**: sperm take around 3 months to develop, so both partners’ diets matter
 * **No promises**: nobody can guarantee a pregnancy
 
-More detail: [how to choose a fertility dietitian](https://www.katridout.com.au/blogs/how-to-choose-a-fertility-dietitian/) and [what a fertility dietitian does](https://www.katridout.com.au/blogs/what-does-a-fertility-dietitian-do/).
+More detail: [how to choose a fertility dietitian](/blogs/how-to-choose-a-fertility-dietitian/) and [what a fertility dietitian does](/blogs/what-does-a-fertility-dietitian-do/).
 
 ## How Katrina Ridout Nutrition supports fertility
 
 * Initial 75-minute consult with a full history and bloods review
 * A supplement plan at your first consult
 * Your written plan and resources within 48 hours
-* Condition-specific care: [PMOS](https://www.katridout.com.au/blogs/dietitian-pcos-pmos-getting-pregnant/), [endometriosis](https://www.katridout.com.au/blogs/endometriosis-dietitian-brisbane-fertility-nutrition/), [IVF preparation](https://www.katridout.com.au/blogs/ivf-dietitian-brisbane-nutrition/)
+* Condition-specific care: [PMOS](/blogs/dietitian-pcos-pmos-getting-pregnant/), [endometriosis](/blogs/endometriosis-dietitian-brisbane-fertility-nutrition/), [IVF preparation](/blogs/ivf-dietitian-brisbane-nutrition/)
 * Couples consults and a Couples Fertility Program
 * Program consults that carry on into pregnancy and postpartum if you need them
 

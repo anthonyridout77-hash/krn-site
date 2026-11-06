@@ -66,4 +66,4 @@ A little planning goes a long way toward healthy folate levels.
 
 Whatever stage you are at in your pregnancy journey, Kat from Katrina Ridout Nutrition can help you make sure you are meeting all your nutritional needs for a healthy pregnancy and healthy baby.
 
-For more nutrition support or to book in for a comprehensive individualised nutrition consultation, be sure to get in touch with Kat [here](https://katridout.com.au/contact-us/).
+For more nutrition support or to book in for a comprehensive individualised nutrition consultation, be sure to get in touch with Kat [here](/contact-us/).

@@ -1,6 +1,6 @@
 ---
 title: "About Kat - Katrina Ridout Nutrition"
-source: "https://www.katridout.com.au/about-kat/"
+source: "/about-kat/"
 captured: "2026-10-20"
 note: "Copy captured from the old site for rewriting into Astro. Reference only, not published."
 ---

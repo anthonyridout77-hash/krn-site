@@ -67,4 +67,4 @@ Katrina Ridout Nutrition offers pregnancy nutrition coaching to expecting mother
 
 If you are looking for someone to coach you through your pregnancy, I am able to help! No matter your health status or stage in life, Kat and her team at Katrina Ridout Nutrition we want to ensure you feel comfortable and are meeting all of your nutritional needs.
 
-For more information or support book in a comprehensive individualised nutrition consultation, [click here](https://katridout.com.au/contact-us/) to get in contact with our friendly team!
+For more information or support book in a comprehensive individualised nutrition consultation, [click here](/contact-us/) to get in contact with our friendly team!

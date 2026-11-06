@@ -1,6 +1,6 @@
 ---
 title: "Our Services - Katrina Ridout Nutrition"
-source: "https://www.katridout.com.au/our-services/"
+source: "/our-services/"
 captured: "2026-10-20"
 note: "Copy captured from the old site for rewriting into Astro. Reference only, not published."
 ---

@@ -62,7 +62,7 @@ Vitamin D deficiency is extremely common in Australia — despite our sunshine �
 
 ## Folate vs. Methylfolate: Which Should You Take?
 
-Folate (or its active form, methylfolate/5-MTHF) is essential for DNA synthesis and cell division — processes central to egg maturation and early embryo development. Standard prenatal supplements contain folic acid (synthetic folate), but women with MTHFR gene variants may not convert folic acid efficiently. A [fertility dietitian in Brisbane](https://www.katridout.com.au/our-services/nutrition-for-fertility/) can assess whether you need the methylated form based on your history and, if available, genetic testing.
+Folate (or its active form, methylfolate/5-MTHF) is essential for DNA synthesis and cell division — processes central to egg maturation and early embryo development. Standard prenatal supplements contain folic acid (synthetic folate), but women with MTHFR gene variants may not convert folic acid efficiently. A [fertility dietitian in Brisbane](/our-services/nutrition-for-fertility/) can assess whether you need the methylated form based on your history and, if available, genetic testing.
 
 ## What Doesn’t Work (Despite the Hype)
 

@@ -13,7 +13,7 @@ wpUrl: "https://api.katridout.com.au/blogs/ivf-diet-plan/"
 
 Starting IVF is one of the most significant decisions a person can make. Most women preparing for IVF focus intensely on what their clinic recommends — which injections to take, when to have scans, what the protocol looks like. Nutrition is often an afterthought. But the evidence is clear: **what you eat in the 90 days before egg retrieval, and throughout your cycle, meaningfully influences the outcome.**
 
-This guide covers the nutritional priorities at each phase of an IVF cycle, based on current evidence and clinical experience as a [fertility dietitian](https://www.katridout.com.au/our-services/nutrition-for-fertility/).
+This guide covers the nutritional priorities at each phase of an IVF cycle, based on current evidence and clinical experience as a [fertility dietitian](/our-services/nutrition-for-fertility/).
 
 ## The Foundation: What to Eat Before You Start IVF
 

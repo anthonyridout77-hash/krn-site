@@ -33,7 +33,7 @@ wpUrl: "https://api.katridout.com.au/blogs/preconception-support-katrina-ridout-
 * Reviews to adjust the plan and keep you on track
 * Notes shared with your GP or fertility specialist when you’d like
 
-Start with the basics in [what to eat before trying to conceive](https://www.katridout.com.au/blogs/what-to-eat-before-trying-to-conceive/).
+Start with the basics in [what to eat before trying to conceive](/blogs/what-to-eat-before-trying-to-conceive/).
 
 ## Choosing an option
 

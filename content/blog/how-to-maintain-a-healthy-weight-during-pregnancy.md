@@ -51,4 +51,4 @@ Katrina Ridout is a dietician and nutritionist who loves to share her knowledge 
 
 Katrina offers a range of services to guide her patients from pre-conception through pregnancy and beyond. She also offers advice and services related to nutrition for fertility.
 
-To find out about the range of services that Katrina provides, [please have a look here.](https://katridout.com.au/nutrition-and-dietetics/) To arrange a consultation, [please get in touch here](https://katridout.com.au/contact-us/) or give us a call at 1300 640 104.
+To find out about the range of services that Katrina provides, [please have a look here.](/nutrition-and-dietetics/) To arrange a consultation, [please get in touch here](/contact-us/) or give us a call at 1300 640 104.

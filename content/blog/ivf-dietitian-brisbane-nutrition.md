@@ -57,7 +57,7 @@ What nutrition can reasonably contribute is narrower and still worth having. It 
 
 Not everyone preparing for IVF needs a dietitian. It is worth a conversation if any of these are part of your picture: PMOS, formerly known as PCOS; endometriosis; a previous pregnancy affected by gestational diabetes; low iron or B12; coeliac disease or another condition that limits what you can eat; a long history of restrictive eating; recent or current GLP-1 medication; or food aversions severe enough that whole groups have dropped out of your week.
 
-Katrina Ridout is an Accredited Practising Dietitian working in fertility, IVF and pregnancy nutrition, based in Brisbane and consulting by telehealth Australia-wide. You can read more about [nutrition support through an IVF cycle](https://www.katridout.com.au/our-services/prenatal-nutrition-and-dietetics/ivf-nutrition/), or about [working with a fertility dietitian in Brisbane](https://www.katridout.com.au/our-services/nutrition-for-fertility/) more generally.
+Katrina Ridout is an Accredited Practising Dietitian working in fertility, IVF and pregnancy nutrition, based in Brisbane and consulting by telehealth Australia-wide. You can read more about [nutrition support through an IVF cycle](/our-services/prenatal-nutrition-and-dietetics/ivf-nutrition/), or about [working with a fertility dietitian in Brisbane](/our-services/nutrition-for-fertility/) more generally.
 
 If you would like to talk it through first, there is a fifteen-minute callback you can book [here](https://calendly.com/katridout/15-minute-investigative-callback).
 

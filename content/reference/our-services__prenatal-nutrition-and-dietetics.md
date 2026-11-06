@@ -1,6 +1,6 @@
 ---
 title: "Prenatal Dietitian Brisbane | Pre-Conception Nutrition | Katrina Ridout"
-source: "https://www.katridout.com.au/our-services/prenatal-nutrition-and-dietetics/"
+source: "/our-services/prenatal-nutrition-and-dietetics/"
 captured: "2026-10-20"
 note: "Copy captured from the old site for rewriting into Astro. Reference only, not published."
 ---

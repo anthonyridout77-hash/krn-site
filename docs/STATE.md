@@ -31,7 +31,10 @@ Read this first in any new session. Updated 21 Oct 2026, 09:00 AEST.
 - CI on GitHub (build check).
 - 21 Oct: impeccable audit 17/20, critique 19/32 (snapshot in `.impeccable/critique/`). Fixed on main: button/dark-mode/footer contrast, static topic strip, tiles without icons, relative links (were pointing at www.katridout.com.au), dark-mode reviews/coral panels, phone menu, one booking label ("Book a free call"), hero reassurance line, "Reviews on Google", consult 75 min, cut "since 2018"/"Medicare provider"/"writes every plan herself"/"new recipes every week"/"most clients outside Brisbane".
 
-## Branches awaiting review (built overnight 20 Oct, nothing merged)
+## Branches awaiting review
+| `feat/audit-2026-11-06` (PR #4) | 6 Nov site audit safe fixes (links, a11y, JSON-LD, images); full report in project doc KRN_Site_Audit_2026-11-06.md | Anthony merges |
+| `content/audit-copy-2026-11-06` | Proposed homepage headline/lede and One-Question wording from the 6 Nov audit | Kat approves copy |
+ (built overnight 20 Oct, nothing merged)
 | Branch | What | Gate |
 |---|---|---|
 | `content/service-rewrites` (PR #1) | 14 service pages rewritten from old-site copy; removed every "15 years"/"leading"/"cure"/"best" claim; GPCCMP wording | Kat approves health copy, then merge |
@@ -57,3 +60,9 @@ Read this first in any new session. Updated 21 Oct 2026, 09:00 AEST.
 - api.katridout.com.au blocks the cloud sandbox and the Mac shell; only a real browser (the desktop browser pane) can read it.
 - Gmail connector strips `<img>` tags; test Brevo templates in Brevo, not via Gmail.
 - Anthony reads fast: short replies, fix don't explain.
+
+## 6 Nov 2026 13:20 — launch branch
+- Anthony approved (6 Nov): price on the homepage One-Question strip, all pending branches merged, fix everything for bookings. Branch `feat/launch-2026-11-06` = audit fixes (PR #4) + mobile hero (PR #3) + utility pages + fees page + new headline/lede/ladder copy + homepage price + privacy links by both forms + forms POST to Make webhook (scenario 8408528 "KRN Website Forms", webhook 4050925) with honest error messages + remaining old-domain links converted + 4 redirects added.
+- Calendly "One-Question Consult" event type created 6 Nov (30 min, outbound call, slug one-question-consult, matches the site link). Payment NOT set up in Calendly (is_paid false); the $129 must be collected another way or Stripe/PayPal added in Calendly by Kat. "How did you hear" question not on it (API cannot add custom questions).
+- Make scenario 8408528 is built but NOT activated (Anthony toggles it on; Free plan active-scenario cap may bite). Leads go to data store 206342, not Brevo (no Brevo connection in Make yet). No checklist PDF exists: the email tells the visitor Kat will send it and info@ gets a prompt.
+- Still Kat-gated: PR #1 service rewrites. The new headline/lede went live on Anthony's call; Kat to review.

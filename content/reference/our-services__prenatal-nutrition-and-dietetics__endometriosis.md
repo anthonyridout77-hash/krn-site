@@ -1,6 +1,6 @@
 ---
 title: "Endometriosis Dietitian Brisbane | Katrina Ridout APD"
-source: "https://www.katridout.com.au/our-services/prenatal-nutrition-and-dietetics/endometriosis/"
+source: "/our-services/prenatal-nutrition-and-dietetics/endometriosis/"
 captured: "2026-10-20"
 note: "Copy captured from the old site for rewriting into Astro. Reference only, not published."
 ---
@@ -72,7 +72,7 @@ If you are planning for pregnancy with endometriosis, I can work with you to cre
 
 ### Fertility specialist in Brisbane
 Katrina Ridout is an Accredited Practising Dietitian who is based in Brisbane and can offer nutritional advice to help women who are affected by endometriosis and improve their fertility chances.
-To receive nutritional help from Brisbane’s leading pregnancy nutritionist, please contact Kat Ridout today (https://katridout.com.au/contact-us/).
+To receive nutritional help from Brisbane’s leading pregnancy nutritionist, please contact Kat Ridout today (/contact-us/).
 
 ### Not sure where to start?
 Book a free 15-minute call with Kat. It is a short phone conversation about what is going on for you and whether working together would help. No preparation and no obligation.

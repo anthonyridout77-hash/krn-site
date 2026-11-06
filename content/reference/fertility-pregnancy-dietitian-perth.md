@@ -1,6 +1,6 @@
 ---
 title: "Fertility and Pregnancy Dietitian for Perth, Online with Kat Ridout APD - Katrina Ridout Nutrition"
-source: "https://www.katridout.com.au/fertility-pregnancy-dietitian-perth/"
+source: "/fertility-pregnancy-dietitian-perth/"
 captured: "2026-10-20"
 note: "Copy captured from the old site for rewriting into Astro. Reference only, not published."
 ---

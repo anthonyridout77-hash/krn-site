@@ -66,7 +66,7 @@ Ideally before you conceive. In the Tasmanian study published in [Nutrients (Pub
 
 The same study found women taking an iodine-containing supplement had a median of 155, compared with 120 for those who never took one and 90 for those who had stopped. So timing matters, and so does sticking with it.
 
-It takes about three months to build your eggs, which is why I like to look at supplements as part of that preconception runway. If you’re planning, it’s a no-brainer to check your label now. For the other half of that conversation, have a read of [folate or folic acid in pregnancy](https://www.katridout.com.au/blogs/folate-vs-folic-acid-pregnancy/) and [what to eat in the 3 months before trying to conceive](https://www.katridout.com.au/blogs/what-to-eat-3-months-before-trying-to-conceive/).
+It takes about three months to build your eggs, which is why I like to look at supplements as part of that preconception runway. If you’re planning, it’s a no-brainer to check your label now. For the other half of that conversation, have a read of [folate or folic acid in pregnancy](/blogs/folate-vs-folic-acid-pregnancy/) and [what to eat in the 3 months before trying to conceive](/blogs/what-to-eat-3-months-before-trying-to-conceive/).
 
 ## Are there any risks or times to be careful with iodine?
 

@@ -55,9 +55,9 @@ Finally, the practical things count. How long is the first consult? Do you get a
 
 When we work together, the first consult is all about you: your history, any diagnoses, recent bloods, supplements and how you actually eat day to day. I start with what you are already doing well, then we find two or three simple little switches. You get a written plan within 48 hours, and I am happy to write back to your GP, obstetrician or fertility specialist so everyone is on the same page.
 
-From there we tweak and tweak at your reviews, and you can just email me in between. If you are trying to conceive, you can read more about [working with a fertility dietitian](https://www.katridout.com.au/our-services/nutrition-for-fertility/).
+From there we tweak and tweak at your reviews, and you can just email me in between. If you are trying to conceive, you can read more about [working with a fertility dietitian](/our-services/nutrition-for-fertility/).
 
-I see women in person at Milton Village Medical, Level 1, 36 Baroona Road, Milton QLD 4064, and by telehealth anywhere in Australia. A Medicare rebate may be available for eligible patients on a GP Chronic Condition Management Plan, so it is worth asking your GP. If you would like to chat about whether it is right for you, call 1300 640 104 or visit [katridout.com.au](https://www.katridout.com.au/) to book a free 15-minute call. This article is general information, not individual advice, and nutrition sits alongside your medical care, never in place of it.
+I see women in person at Milton Village Medical, Level 1, 36 Baroona Road, Milton QLD 4064, and by telehealth anywhere in Australia. A Medicare rebate may be available for eligible patients on a GP Chronic Condition Management Plan, so it is worth asking your GP. If you would like to chat about whether it is right for you, call 1300 640 104 or visit [katridout.com.au](/) to book a free 15-minute call. This article is general information, not individual advice, and nutrition sits alongside your medical care, never in place of it.
 
 ## Key Takeaways
 

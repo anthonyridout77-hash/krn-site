@@ -60,7 +60,7 @@ Remember that any plan is a starting point, not a prescription to copy exactly. 
 
 Some foods are avoided in pregnancy because of food poisoning risk, and this is separate from glucose management. These include soft cheeses such as brie, camembert, ricotta, feta and blue cheese (unless cooked and eaten hot), unpasteurised dairy, cold deli meats, store-bought sushi, bean sprouts, pre-prepared salads, pâté, raw eggs, alcohol, and fish high in mercury, according to [Pregnancy, Birth and Baby](https://www.pregnancybirthbaby.org.au/pregnancy/nutrition-and-lifestyle/foods-to-avoid-when-pregnant).
 
-These foods can carry listeria, salmonella or other infections that are more serious in pregnancy, whether or not you have gestational diabetes. Reheat leftovers until they are steaming hot all the way through, including the meals you take to work. I’ve written more on this in [what foods to avoid during pregnancy in Australia](https://www.katridout.com.au/blogs/foods-to-avoid-during-pregnancy-australia/).
+These foods can carry listeria, salmonella or other infections that are more serious in pregnancy, whether or not you have gestational diabetes. Reheat leftovers until they are steaming hot all the way through, including the meals you take to work. I’ve written more on this in [what foods to avoid during pregnancy in Australia](/blogs/foods-to-avoid-during-pregnancy-australia/).
 
 ## How can a dietitian help me with gestational diabetes?
 

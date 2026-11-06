@@ -1,6 +1,6 @@
 ---
 title: "Baby Nutrition After Birth Brisbane | Katrina Ridout"
-source: "https://www.katridout.com.au/our-services/paediatric-nutrition-and-dietetics/"
+source: "/our-services/paediatric-nutrition-and-dietetics/"
 captured: "2026-10-20"
 note: "Copy captured from the old site for rewriting into Astro. Reference only, not published."
 ---

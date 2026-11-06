@@ -59,7 +59,7 @@ What that looks like in practice is smaller and duller than most people expect. 
 
 Not everyone needs one. It tends to be most useful when the numbers are not doing what you expected despite reasonable effort, when there is something else going on at the same time such as nausea, strong food aversions, a restricted diet or a previous pregnancy with gestational diabetes, or simply when you have been handed a set of rules and nobody has explained how to fit them around your actual life.
 
-A referral can often go through your GP under a chronic disease management plan, and it is a completely ordinary thing to ask about. You can read more about [gestational diabetes support with an Accredited Practising Dietitian](https://www.katridout.com.au/our-services/pregnancy-nutrition-and-dietetics/gestational-diabetes/), and if you have just had a diagnosis, [this piece on what happens next](https://www.katridout.com.au/blogs/gestational-diabetes-just-diagnosed-what-now/) will probably be more use to you than this one.
+A referral can often go through your GP under a chronic disease management plan, and it is a completely ordinary thing to ask about. You can read more about [gestational diabetes support with an Accredited Practising Dietitian](/our-services/pregnancy-nutrition-and-dietetics/gestational-diabetes/), and if you have just had a diagnosis, [this piece on what happens next](/blogs/gestational-diabetes-just-diagnosed-what-now/) will probably be more use to you than this one.
 
 If you would like to talk through whether a referral makes sense in your situation before committing to anything, there is a fifteen minute callback for exactly that question: [book a 15 minute callback](https://calendly.com/katridout/15-minute-investigative-callback).
 

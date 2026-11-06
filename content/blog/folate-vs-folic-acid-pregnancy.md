@@ -96,7 +96,7 @@ Bring your supplements to your GP or dietitian appointment so they can be review
 
 Supplements come up in nearly every fertility and pregnancy consult I do. Snap a photo of each bottle, the back and the front, and we’ll go through the form and dose together, check you’re not doubling up, and look at the nutrition gaps food can fill. I err on the side of caution with supplements, and I always work alongside your GP or specialist.
 
-I see women in person at Milton Village Medical, Level 1, 36 Baroona Road, Milton QLD 4064, and by telehealth anywhere in Australia. A Medicare rebate may be available for eligible patients on a GP Chronic Condition Management Plan. If you’re planning a pregnancy, my article on [what to eat in the 3 months before trying to conceive](https://www.katridout.com.au/blogs/what-to-eat-3-months-before-trying-to-conceive/) is a good next read. When you’re ready for a chat, call 1300 640 104.
+I see women in person at Milton Village Medical, Level 1, 36 Baroona Road, Milton QLD 4064, and by telehealth anywhere in Australia. A Medicare rebate may be available for eligible patients on a GP Chronic Condition Management Plan. If you’re planning a pregnancy, my article on [what to eat in the 3 months before trying to conceive](/blogs/what-to-eat-3-months-before-trying-to-conceive/) is a good next read. When you’re ready for a chat, call 1300 640 104.
 
 This is general information, not individual advice. Always go on your GP or specialist for your own dose.
 

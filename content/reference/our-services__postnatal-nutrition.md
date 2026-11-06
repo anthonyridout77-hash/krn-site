@@ -1,6 +1,6 @@
 ---
 title: "Postpartum Dietitian Australia | Postnatal Nutrition Support"
-source: "https://www.katridout.com.au/our-services/postnatal-nutrition/"
+source: "/our-services/postnatal-nutrition/"
 captured: "2026-10-20"
 note: "Copy captured from the old site for rewriting into Astro. Reference only, not published."
 ---

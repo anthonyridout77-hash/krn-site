@@ -35,7 +35,7 @@ The second is what the limit applies to. It applies to preformed vitamin A, also
 
 In practice, the only realistic routes to the ceiling are a supplement carrying preformed vitamin A, more than one supplement carrying it at the same time, or liver. Ordinary eating does not get you there.
 
-Which brings me to the thing actually worth doing: read the label on everything you are taking, and add up the vitamin A across all of it. A prenatal multivitamin, a separate fish oil and something a relative recommended can stack without anyone intending it to, and nobody is holding the total. If you are unsure what the total comes to, that is a reasonable question for your pharmacist, your GP or an Accredited Practising Dietitian, and it takes about four minutes to answer. I have written separately about [what Australian prenatal supplements tend to miss](https://www.katridout.com.au/blogs/choline-in-pregnancy-australian-prenatal-supplements/), which is the same label-reading habit pointed at a different nutrient.
+Which brings me to the thing actually worth doing: read the label on everything you are taking, and add up the vitamin A across all of it. A prenatal multivitamin, a separate fish oil and something a relative recommended can stack without anyone intending it to, and nobody is holding the total. If you are unsure what the total comes to, that is a reasonable question for your pharmacist, your GP or an Accredited Practising Dietitian, and it takes about four minutes to answer. I have written separately about [what Australian prenatal supplements tend to miss](/blogs/choline-in-pregnancy-australian-prenatal-supplements/), which is the same label-reading habit pointed at a different nutrient.
 
 ## Liver and pate: the one food Australian guidance says to leave
 
@@ -105,7 +105,7 @@ Roast pumpkin, chickpea and spinach tray bake. One tray, about fifty minutes, an
 
 ## Working with me
 
-I am Katrina Ridout, an Accredited Practising Dietitian working in fertility, pregnancy and postpartum nutrition. I am a [pregnancy dietitian in Brisbane](https://www.katridout.com.au/im-pregnant-now-what/) and I consult across Australia by telehealth, so where you live does not decide whether you can get this looked at properly.
+I am Katrina Ridout, an Accredited Practising Dietitian working in fertility, pregnancy and postpartum nutrition. I am a [pregnancy dietitian in Brisbane](/im-pregnant-now-what/) and I consult across Australia by telehealth, so where you live does not decide whether you can get this looked at properly.
 
 Most of what I do in a first appointment is subtraction. People arrive with more rules than they need and less of a plan than they want, and vitamin A is a good example of that: one food to leave, one label to add up, and a great deal that was never a problem.
 

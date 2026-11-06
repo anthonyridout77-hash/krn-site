@@ -13,7 +13,7 @@ wpUrl: "https://api.katridout.com.au/blogs/what-does-a-fertility-dietitian-do/"
 
 If you’re trying to conceive — naturally or through IVF — you’ve probably heard that nutrition matters. But what does a **fertility dietitian** actually do, and how is seeing one different from just eating well or following generic advice online?
 
-As an Accredited Practising Dietitian (APD) specialising in fertility nutrition, I’m often the first port of call for women and couples who feel like they’re doing everything right but still not getting results. Here’s what working with a [fertility dietitian](https://www.katridout.com.au/our-services/nutrition-for-fertility/) actually looks like.
+As an Accredited Practising Dietitian (APD) specialising in fertility nutrition, I’m often the first port of call for women and couples who feel like they’re doing everything right but still not getting results. Here’s what working with a [fertility dietitian](/our-services/nutrition-for-fertility/) actually looks like.
 
 ## What Is a Fertility Dietitian?
 

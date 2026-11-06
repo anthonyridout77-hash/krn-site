@@ -19,7 +19,7 @@ wpUrl: "https://api.katridout.com.au/blogs/how-to-choose-a-fertility-dietitian/"
 
 ## 5 things to check
 
-1. **Credential:** APD status, found in the Dietitians Australia directory. See [dietitian vs nutritionist](https://www.katridout.com.au/blogs/dietitian-vs-nutritionist-pregnancy/).
+1. **Credential:** APD status, found in the Dietitians Australia directory. See [dietitian vs nutritionist](/blogs/dietitian-vs-nutritionist-pregnancy/).
 2. **Specialisation:** most of their caseload is preconception, fertility and pregnancy, including PMOS (previously called PCOS), endometriosis, male fertility and IVF.
 3. **Assessment first:** they review bloods (iron, vitamin D, B12, thyroid, glucose), medications and your cycle before writing a plan.
 4. **Team approach:** they’re happy to share notes with your GP or fertility specialist.
@@ -32,7 +32,7 @@ wpUrl: "https://api.katridout.com.au/blogs/how-to-choose-a-fertility-dietitian/"
 * An individualised supplement plan (folic acid, iodine and anything your tests show you need)
 * Strategies for your condition, for example blood-glucose steadying for PMOS, or an anti-inflammatory focus for endometriosis
 * Guidance for your partner
-* IVF timing, if relevant. See [IVF dietitian support](https://www.katridout.com.au/blogs/ivf-dietitian-brisbane-nutrition/).
+* IVF timing, if relevant. See [IVF dietitian support](/blogs/ivf-dietitian-brisbane-nutrition/).
 
 ## Red flags
 
@@ -43,7 +43,7 @@ wpUrl: "https://api.katridout.com.au/blogs/how-to-choose-a-fertility-dietitian/"
 
 ## What it costs in Australia
 
-Fertility dietitian consults typically include a longer initial appointment and shorter reviews. Medicare rebates are available for eligible patients on a GP Chronic Condition Management Plan, and most private health extras cover APDs. At Katrina Ridout Nutrition, preconception clients can choose a single consult, the 5-consult Program or a 7-consult option, in Brisbane or by telehealth Australia-wide. [See packages](https://www.katridout.com.au/our-packages/).
+Fertility dietitian consults typically include a longer initial appointment and shorter reviews. Medicare rebates are available for eligible patients on a GP Chronic Condition Management Plan, and most private health extras cover APDs. At Katrina Ridout Nutrition, preconception clients can choose a single consult, the 5-consult Program or a 7-consult option, in Brisbane or by telehealth Australia-wide. [See packages](/our-packages/).
 
 ![Woman having a telehealth appointment on her laptop](/images/wp/2026/07/krn-ivf-diet-plan-body2.jpg)
 

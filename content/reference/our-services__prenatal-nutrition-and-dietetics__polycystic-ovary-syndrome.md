@@ -1,6 +1,6 @@
 ---
 title: "PCOS Dietitian Brisbane | PCOS Nutrition Specialist | Katrina Ridout"
-source: "https://www.katridout.com.au/our-services/prenatal-nutrition-and-dietetics/polycystic-ovary-syndrome/"
+source: "/our-services/prenatal-nutrition-and-dietetics/polycystic-ovary-syndrome/"
 captured: "2026-10-20"
 note: "Copy captured from the old site for rewriting into Astro. Reference only, not published."
 ---
@@ -71,7 +71,7 @@ Through personalised nutrition, I can help you create a plan that fits your life
 
 ### Pregnancy and PCOS nutritionist in Brisbane
 If you are living with Polycystic Ovary Syndrome (PCOS) and hoping to conceive, you don’t have to navigate the journey alone. Kat Ridout has over 15 years of experience helping women with PCOS manage their symptoms, support their fertility and go on to have healthy pregnancies and babies.
-Get in touch with us today by clicking here ➡️ contact us (https://katridout.com.au/contact-us/).
+Get in touch with us today by clicking here ➡️ contact us (/contact-us/).
 
 ### Not sure where to start?
 Book a free 15-minute call with Kat. It is a short phone conversation about what is going on for you and whether working together would help. No preparation and no obligation.

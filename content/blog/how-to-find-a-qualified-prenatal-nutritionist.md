@@ -49,7 +49,7 @@ This matters in pregnancy. Advice on gestational diabetes, iron deficiency, naus
 
 ## Katrina Ridout Nutrition
 
-Katrina Ridout is a Brisbane-based Accredited Practising Dietitian who focuses only on fertility, pregnancy and postpartum nutrition. She sees clients in person in Brisbane and by telehealth Australia-wide. [See consult fees](https://www.katridout.com.au/our-pricing/) or [read what a fertility dietitian does](https://www.katridout.com.au/blogs/what-does-a-fertility-dietitian-do/).
+Katrina Ridout is a Brisbane-based Accredited Practising Dietitian who focuses only on fertility, pregnancy and postpartum nutrition. She sees clients in person in Brisbane and by telehealth Australia-wide. [See consult fees](/our-pricing/) or [read what a fertility dietitian does](/blogs/what-does-a-fertility-dietitian-do/).
 
 ![A woman having a telehealth appointment on her laptop](/images/wp/2026/08/krn-ivf-diet-plan-body2-apdg.jpg)
 

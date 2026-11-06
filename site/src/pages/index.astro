@@ -3,24 +3,36 @@ import Base from '../layouts/Base.astro';
 import BookBar from '../components/BookBar.astro';
 ---
 <Base title="Fertility, Pregnancy & Postpartum Dietitian Brisbane | Katrina Ridout Nutrition" description="Evidence-based, personalised nutrition through preconception, IVF, pregnancy and postpartum from Katrina Ridout, Accredited Practising Dietitian. Milton, Brisbane and telehealth Australia-wide.">
+<Fragment slot="head">
+<script type="application/ld+json" set:html={JSON.stringify({
+  "@context":"https://schema.org","@type":"MedicalBusiness","name":"Katrina Ridout Nutrition",
+  "url":"https://www.katridout.com.au/","telephone":"+611300640104","email":"info@katridout.com.au",
+  "image":"https://www.katridout.com.au/images/kat-ridout-apd.jpg",
+  "address":{"@type":"PostalAddress","streetAddress":"Milton Village Medical, Level 1, 36 Baroona Road","addressLocality":"Milton","addressRegion":"QLD","postalCode":"4064","addressCountry":"AU"},
+  "areaServed":"Australia",
+  "founder":{"@type":"Person","name":"Katrina Ridout","jobTitle":"Accredited Practising Dietitian"},
+  "sameAs":["https://www.instagram.com/katrinaridoutnutrition/","https://www.facebook.com/katrinaridoutnutrition/"]
+})} />
+</Fragment>
 <section class="hero">
   <div class="wrap">
     <div class="hero-copy">
       <p class="eyebrow fade-up" style="animation-delay:.05s">Fertility &amp; pregnancy dietitian · Brisbane &amp; Australia-wide</p>
-      <h1 aria-label="Nourish your body. Empower your pregnancy.">
-        <span class="w"><span style="animation-delay:.1s">Nourish</span></span>
-        <span class="w"><span style="animation-delay:.18s">your</span></span>
-        <span class="w"><span style="animation-delay:.26s">body.</span></span><br>
-        <span class="w"><span style="animation-delay:.38s">Empower</span></span>
-        <span class="w"><span style="animation-delay:.46s">your</span></span>
-        <span class="w"><span style="animation-delay:.54s"><span class="hl">pregnancy.</span></span></span>
+      <h1 aria-label="Nutrition for trying to conceive, IVF, pregnancy and the first year after birth.">
+        <span class="w"><span style="animation-delay:.1s">Nutrition</span></span>
+        <span class="w"><span style="animation-delay:.18s">for</span></span>
+        <span class="w"><span style="animation-delay:.26s">trying,</span></span>
+        <span class="w"><span style="animation-delay:.34s">IVF,</span></span><br>
+        <span class="w"><span style="animation-delay:.42s">pregnancy</span></span>
+        <span class="w"><span style="animation-delay:.5s">and</span></span>
+        <span class="w"><span style="animation-delay:.58s"><span class="hl">after.</span></span></span>
       </h1>
-      <p class="lede fade-up">Evidence-based, personalised nutrition through preconception, IVF, pregnancy and postpartum, from an Accredited Practising Dietitian who specialises in this space.</p>
+      <p class="lede fade-up">Whether you are trying to conceive, going through IVF, pregnant, or in the first year with your baby, Kat gives you a clear, evidence-based plan that fits your life. Accredited Practising Dietitian, Brisbane and telehealth Australia-wide. General nutrition clients welcome too.</p>
       <div class="cta-row fade-up" style="animation-delay:.5s">
         <a class="btn btn-coral" href="https://calendly.com/katridout/15-minute-investigative-callback">Book a free call</a>
         <a class="btn btn-line" href="#checklist">Get the free checklist</a>
       </div>
-      <p class="sub fade-up" style="animation-delay:.58s">15 minutes, no advice and no pitch, just whether Kat can help. Have one question? <a href="#oneq">See the One-Question Consult</a></p>
+      <p class="sub fade-up" style="animation-delay:.58s"><b>Free call:</b> 15 minutes to see whether Kat can help, no advice given. <b>One-Question Consult:</b> one answer and a one-page plan. <b>Full consult:</b> complete assessment and ongoing support. <a href="#oneq">Compare</a></p>
       <div class="trust fade-up" style="animation-delay:.65s">
         <span><span class="stars">★★★★★</span> <b>4.9</b> on Google · 49 reviews</span>
         <span><img class="apd" src="/images/apd-logo.png" alt="Accredited Practising Dietitian"> Dietitians Australia</span>
@@ -29,7 +41,7 @@ import BookBar from '../components/BookBar.astro';
     </div>
     <div class="hero-photo">
       <div class="panel"></div>
-      <img src="/images/kat-ridout-apd.jpg" alt="Katrina Ridout, Accredited Practising Dietitian" width="480" height="480">
+      <img src="/images/kat-ridout-apd.jpg" alt="Katrina Ridout, Accredited Practising Dietitian" width="480" height="480" fetchpriority="high" decoding="async">
       <div class="tag"><b>Katrina Ridout</b><small>Accredited Practising Dietitian</small></div>
     </div>
   </div>
@@ -51,17 +63,17 @@ import BookBar from '../components/BookBar.astro';
     </div>
     <aside class="qq rv d3" id="oneq">
       <div class="qq-text">
-        <h3>Just have one question?</h3>
-        <p>The One-Question Consult: a 30-minute telehealth call for new clients who need one thing answered properly, with a one-page plan written for you afterwards. The fee is credited if you go on to a full consult.</p>
+        <h3>Just have one question? <span class="price">$129</span></h3>
+        <p>The One-Question Consult: a 30-minute telehealth call for new clients who need one thing answered properly, with a one-page written plan within two business days. Not a full assessment or meal plan; if you need that, the fee is credited towards an Initial Consultation or The Program within 30 days.</p>
       </div>
-      <a class="btn btn-coral" href="/one-question-consult/">See how it works</a>
+      <a class="btn btn-coral" href="/one-question-consult/">Book a One-Question Consult</a>
     </aside>
   </div>
 </section>
 
 <section class="about" id="about">
   <div class="wrap">
-    <div class="about-photo rv"><img src="/images/kat-ridout-bw.jpg" alt="Katrina Ridout" width="520" height="550"></div>
+    <div class="about-photo rv"><img src="/images/kat-ridout-bw.jpg" alt="Katrina Ridout" width="520" height="550" loading="lazy" decoding="async"></div>
     <div>
       <p class="eyebrow rv">About Kat</p>
       <h2 class="rv d1">Qualified, recognised, and <span class="hl">genuinely in your corner</span></h2>
@@ -128,10 +140,10 @@ import BookBar from '../components/BookBar.astro';
     <h2 class="rv d1">Easy to make, built for you and your growing baby</h2>
     <p class="lead rv d2">Breakfast, lunch, dinner and snacks, with the nutrients that matter in pregnancy worked in.</p>
     <div class="rgrid">
-      <a class="rcard rv" href="/recipes-for-pregnancy/"><img src="/images/recipe-smoothie.jpg" alt=""><span>Green smoothie</span></a>
-      <a class="rcard rv d1" href="/recipes-for-pregnancy/"><img src="/images/recipe-carrot.jpg" alt=""><span>Roasted carrot &amp; grain salad</span></a>
-      <a class="rcard rv d2" href="/recipes-for-pregnancy/"><img src="/images/recipe-omelette.jpg" alt=""><span>Capsicum, spinach &amp; mushroom omelette</span></a>
-      <a class="rcard rv d3" href="/recipes-for-pregnancy/"><img src="/images/recipe-salmon.jpg" alt=""><span>Grilled salmon with greens</span></a>
+      <a class="rcard rv" href="/recipes-for-pregnancy/green-smoothie/"><img src="/images/recipe-smoothie.jpg" alt="" loading="lazy" width="400" height="300"><span>Green smoothie</span></a>
+      <a class="rcard rv d1" href="/recipes-for-pregnancy/roasted-carrot-and-grain-salad-with-chilli-mint-and-quick-tahini-dressing/"><img src="/images/recipe-carrot.jpg" alt="" loading="lazy" width="400" height="300"><span>Roasted carrot &amp; grain salad</span></a>
+      <a class="rcard rv d2" href="/recipes-for-pregnancy/capsicum-tomato-spinach-and-mushroom-omelette/"><img src="/images/recipe-omelette.jpg" alt="" loading="lazy" width="400" height="300"><span>Capsicum, spinach &amp; mushroom omelette</span></a>
+      <a class="rcard rv d3" href="/recipes-for-pregnancy/perfect-grilled-salmon-with-green-beans-carrots-and-broccoli/"><img src="/images/recipe-salmon.jpg" alt="" loading="lazy" width="400" height="300"><span>Grilled salmon with greens</span></a>
     </div>
   </div>
 </section>
@@ -149,8 +161,9 @@ import BookBar from '../components/BookBar.astro';
           <label for="clEmail">Email</label>
           <input id="clEmail" name="email" type="email" autocomplete="email" required>
           <button class="btn btn-coral" type="submit">Email me the checklist</button>
-          <small>You'll also get a short series of emails from Kat. Unsubscribe any time.</small>
-          <p class="ok" id="clOk">Sent. Check your inbox in a minute.</p>
+          <small>You'll also get a short series of emails from Kat. Unsubscribe any time. <a href="/privacy-policy/">Privacy policy</a></small>
+          <p class="ok" id="clOk" role="status" aria-live="polite">Sent. Check your inbox in a minute.</p>
+          <p class="err" id="clErr" role="alert">That didn't send. Please email <a href="mailto:info@katridout.com.au">info@katridout.com.au</a> and we'll send the checklist by hand.</p>
         </form>
       </div>
     </div>
@@ -163,7 +176,7 @@ import BookBar from '../components/BookBar.astro';
       <div>
         <h2>Have a question before you book?</h2>
         <p>Send a note and Kat will reply by email. For bookings, the free 15-minute call is the quickest way to start.</p>
-        <p class="edetails">1300 640 104<br>info@katridout.com.au<br>Milton Village Medical, Level 1, 36 Baroona Road, Milton QLD 4064</p>
+        <p class="edetails"><a href="tel:1300640104">1300 640 104</a><br><a href="mailto:info@katridout.com.au">info@katridout.com.au</a><br>Milton Village Medical, Level 1, 36 Baroona Road, Milton QLD 4064</p>
       </div>
       <form id="eqForm" novalidate>
         <label for="eqName">Name</label>
@@ -173,7 +186,9 @@ import BookBar from '../components/BookBar.astro';
         <label for="eqMsg">Your question</label>
         <textarea id="eqMsg" name="message" rows="4" required></textarea>
         <button class="btn btn-dark" type="submit">Send enquiry</button>
-        <p class="ok" id="eqOk">Sent. Kat will reply by email.</p>
+        <small>Your message goes to Kat only. <a href="/privacy-policy/">Privacy policy</a></small>
+        <p class="ok" id="eqOk" role="status" aria-live="polite">Sent. Kat will reply by email.</p>
+        <p class="err" id="eqErr" role="alert">That didn't send. Please email <a href="mailto:info@katridout.com.au">info@katridout.com.au</a> or call <a href="tel:1300640104">1300 640 104</a>.</p>
       </form>
     </div>
   </div>
@@ -214,8 +229,9 @@ import BookBar from '../components/BookBar.astro';
   var counted=false;
   var co=new IntersectionObserver(function(es){ es.forEach(function(e){ if(e.isIntersecting&&!counted){ counted=true; document.querySelectorAll('[data-count]').forEach(function(el){ var t=+el.dataset.count,s=performance.now(); (function tick(n){ var p=Math.min(1,(n-s)/1200); el.textContent=Math.round(t*(1-Math.pow(1-p,3))); if(p<1)requestAnimationFrame(tick);})(s); }); } }); },{threshold:.4});
   var ab=document.querySelector('.about'); if(ab)co.observe(ab);
-  function wire(id,okId,needMsg){var f=document.getElementById(id);if(!f)return;f.addEventListener('submit',function(ev){ev.preventDefault();var ok=true;[].forEach.call(f.querySelectorAll('[required]'),function(el){if(!el.checkValidity()){ok=false;el.reportValidity();}});if(!ok)return;document.getElementById(okId).classList.add('show');f.querySelector('button').disabled=true;});}
-  wire('clForm','clOk');wire('eqForm','eqOk');
+  var ENDPOINT='https://hook.eu1.make.com/7ws9ylhmcf8pwpnmeh4k6bq58bu6i6oe';
+  function wire(id,okId,errId,formName){var f=document.getElementById(id);if(!f)return;f.addEventListener('submit',function(ev){ev.preventDefault();var ok=true;[].forEach.call(f.querySelectorAll('[required]'),function(el){if(!el.checkValidity()){ok=false;el.reportValidity();}});if(!ok)return;var btn=f.querySelector('button');var okEl=document.getElementById(okId),errEl=document.getElementById(errId);okEl.classList.remove('show');errEl.classList.remove('show');btn.disabled=true;var label=btn.textContent;btn.textContent='Sending…';var data={form:formName,page:location.href};[].forEach.call(f.querySelectorAll('input,textarea'),function(el){data[el.name]=el.value.trim();});fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)}).then(function(r){if(!r.ok)throw new Error(r.status);okEl.classList.add('show');f.reset();btn.textContent=label;}).catch(function(){errEl.classList.add('show');btn.disabled=false;btn.textContent=label;});});}
+  wire('clForm','clOk','clErr','checklist');wire('eqForm','eqOk','eqErr','enquiry');
 })();
 </script>
 </Base>

@@ -32,8 +32,8 @@ wpUrl: "https://api.katridout.com.au/blogs/dietitian-vs-nutritionist-pregnancy/"
 
 Pregnancy changes your nutrient needs and brings conditions that need clinical management:
 
-* **Gestational diabetes:** carbohydrate distribution, glucose targets and working with your diabetes educator. See [just diagnosed with gestational diabetes](https://www.katridout.com.au/blogs/gestational-diabetes-just-diagnosed-what-now/).
-* **Iron deficiency:** food, supplement choice and absorption. See [iron in pregnancy](https://www.katridout.com.au/blogs/iron-in-pregnancy-tired-before-anaemia/).
+* **Gestational diabetes:** carbohydrate distribution, glucose targets and working with your diabetes educator. See [just diagnosed with gestational diabetes](/blogs/gestational-diabetes-just-diagnosed-what-now/).
+* **Iron deficiency:** food, supplement choice and absorption. See [iron in pregnancy](/blogs/iron-in-pregnancy-tired-before-anaemia/).
 * **Food safety:** listeria, mercury and vitamin A limits.
 * **Pre-existing conditions:** PMOS, endometriosis, coeliac disease, eating concerns or a history of bariatric surgery.
 
@@ -45,7 +45,7 @@ For general healthy-eating ideas with no medical history, a degree-qualified nut
 
 ## How to check
 
-Search the Dietitians Australia “Find an APD” directory, or ask the practitioner directly for their APD status. [Read how to find a qualified prenatal dietitian](https://www.katridout.com.au/blogs/how-to-find-a-qualified-prenatal-nutritionist/).
+Search the Dietitians Australia “Find an APD” directory, or ask the practitioner directly for their APD status. [Read how to find a qualified prenatal dietitian](/blogs/how-to-find-a-qualified-prenatal-nutritionist/).
 
 ![A woman in her kitchen making notes about her meals](/images/wp/2026/08/krn-what-does-a-fertility-dietitian-do-body1-apdg.jpg)
 

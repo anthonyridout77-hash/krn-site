@@ -49,7 +49,7 @@ Both reviews concluded that inositol is promising, that it needs larger and more
 
 ## What I do with that in clinic
 
-A supplement conversation is a real conversation, and it belongs with your GP, your specialist or your dietitian, because it depends on your bloods, your other medications, whether you are trying to conceive, and what you are already taking. I do not give doses in an article and you should be sceptical of anyone who does. That unpicking is a large part of what I do as a [PCOS dietitian in Brisbane](https://www.katridout.com.au/our-services/prenatal-nutrition-and-dietetics/polycystic-ovary-syndrome/).
+A supplement conversation is a real conversation, and it belongs with your GP, your specialist or your dietitian, because it depends on your bloods, your other medications, whether you are trying to conceive, and what you are already taking. I do not give doses in an article and you should be sceptical of anyone who does. That unpicking is a large part of what I do as a [PCOS dietitian in Brisbane](/our-services/prenatal-nutrition-and-dietetics/polycystic-ovary-syndrome/).
 
 What I can tell you is what the food side looks like, because it is the part that is under your control tonight and the part the research keeps circling back to. The measures inositol moved in those trials, fasting insulin, HOMA-IR and sex hormone-binding globulin, are the same measures that respond to the shape of what is on the plate.
 
@@ -71,7 +71,7 @@ Long gaps followed by a very large meal are harder work than the same food sprea
 
 ## Where to go next
 
-If you have PCOS and you want the eating pattern worked out around your own bloods, your own schedule and your own kitchen, that is what a consultation is for. You can read more about how I work on the [PCOS nutrition and dietetics page](https://www.katridout.com.au/our-services/prenatal-nutrition-and-dietetics/polycystic-ovary-syndrome/), and if you are preparing for pregnancy the [preconception page](https://www.katridout.com.au/our-services/prenatal-nutrition-and-dietetics/) covers the wider picture.
+If you have PCOS and you want the eating pattern worked out around your own bloods, your own schedule and your own kitchen, that is what a consultation is for. You can read more about how I work on the [PCOS nutrition and dietetics page](/our-services/prenatal-nutrition-and-dietetics/polycystic-ovary-syndrome/), and if you are preparing for pregnancy the [preconception page](/our-services/prenatal-nutrition-and-dietetics/) covers the wider picture.
 
 Booking a fifteen-minute callback is the easiest way to work out whether it is worth your time: [book a fifteen-minute callback](https://calendly.com/katridout/15-minute-investigative-callback). If you are trying to conceive, Kat also offers [fertility and preconception nutrition](/our-services/nutrition-for-fertility/) by telehealth across Australia.
 

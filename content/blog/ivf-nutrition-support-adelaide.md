@@ -68,4 +68,4 @@ That is the gap Kat fills. Kat Ridout is an Accredited Practising Dietitian with
 
 If you are preparing for IVF or in the middle of a cycle and want nutrition support that backs your treatment, start with a conversation. [Book a complimentary 15-minute call with Kat](https://calendly.com/katridout/15-minute-investigative-callback) and work out the best next step together, with no pressure.
 
-You can also see the full picture of how Kat works with women in South Australia, including what a package looks like and what it costs, on her [fertility and pregnancy dietitian services for Adelaide](https://katridout.com.au/pregnancy-dietitian-adelaide/) page.
+You can also see the full picture of how Kat works with women in South Australia, including what a package looks like and what it costs, on her [fertility and pregnancy dietitian services for Adelaide](/pregnancy-dietitian-adelaide/) page.
