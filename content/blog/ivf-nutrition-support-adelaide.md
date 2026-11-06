@@ -64,7 +64,7 @@ Small, steady changes in your own kitchen are where the real progress happens.
 
 South Australia has excellent fertility clinics, and if you are cycling at a clinic like Repromed you are in experienced hands medically. What is often missing is dedicated nutrition support that walks the whole journey with you, from preparing for a cycle through the two-week wait and into pregnancy itself, including gestational diabetes support if that becomes part of your path.
 
-That is the gap Kat fills. Kat Ridout is an Accredited Practising Dietitian with a Graduate Certificate in Research in prenatal nutrition, and she works with women right across South Australia through telehealth. You book a time, you get a video link, and you meet from your own kitchen table, whether that is in Adelaide, the Hills or the Riverland. Your plan is built around your history, your bloods and your treatment schedule, not a template.
+That is the gap Kat fills. Kat Ridout is an Accredited Practising Dietitian with a Graduate Certificate in Research in prenatal nutrition, and she works with women right across South Australia through telehealth. You book a time, you get a secure telehealth link, and you meet from your own kitchen table, whether that is in Adelaide, the Hills or the Riverland. Your plan is built around your history, your bloods and your treatment schedule, not a template.
 
 If you are preparing for IVF or in the middle of a cycle and want nutrition support that backs your treatment, start with a conversation. [Book a complimentary 15-minute call with Kat](https://calendly.com/katridout/15-minute-investigative-callback) and work out the best next step together, with no pressure.
 

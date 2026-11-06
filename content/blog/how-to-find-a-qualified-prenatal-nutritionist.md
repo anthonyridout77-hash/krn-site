@@ -32,7 +32,7 @@ This matters in pregnancy. Advice on gestational diabetes, iron deficiency, naus
 1. **Dietitians Australia “Find an APD” directory.** Search by suburb or postcode and choose “pregnancy” or “women’s health” as the area of practice.
 2. **Your GP, obstetrician or midwife.** They often refer to dietitians they know, and a referral may make you eligible for Medicare rebates.
 3. **Your fertility clinic,** if you’re having IVF. Many clinics work alongside fertility dietitians.
-4. **Telehealth.** You aren’t limited to your suburb. A pregnancy-focused APD can see you by video anywhere in Australia.
+4. **Telehealth.** You aren’t limited to your suburb. A pregnancy-focused APD can see you by telehealth anywhere in Australia.
 
 ## Step 3: Ask these questions before booking
 

@@ -14,7 +14,7 @@ If you are in Perth and searching for a dietitian who understands fertility, pre
 
 ## Nutrition support for Perth women, wherever you are in WA
 
-Western Australia is a big state, and good specialist support is concentrated in a handful of Perth suburbs. If you are in Joondalup, Mandurah, Bunbury or further out again, driving to an appointment for something that can be done well over video is time you do not have. Everything I do runs online, so the appointment fits around your work, your other children, or the school run.
+Western Australia is a big state, and good specialist support is concentrated in a handful of Perth suburbs. If you are in Joondalup, Mandurah, Bunbury or further out again, driving to an appointment for something that can be done well by telehealth is time you do not have. Everything I do runs online, so the appointment fits around your work, your other children, or the school run.
 
 Perth also runs on AWST, two hours behind the east coast for most of the year. My schedule already accounts for that, so you are not being offered a 6am slot dressed up as convenience.
 

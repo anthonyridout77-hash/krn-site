@@ -11,7 +11,7 @@ export const fc = {
   booking: 'https://calendly.com/katridout/one-question-consult',
   fee: '$129', // total fee, GST-free, prepaid (confirmed in Calendly + Stripe, 6 Nov 2026)
   duration: '30 minutes',
-  format: 'video (telehealth, Australia-wide)',
+  format: 'telehealth, Australia-wide',
   eligibility: 'New clients only, one per person',
   turnaround: '2 business days',
 

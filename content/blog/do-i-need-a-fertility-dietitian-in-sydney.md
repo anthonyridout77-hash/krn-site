@@ -47,7 +47,7 @@ Finally, the practical things count. How long is the first consult? Do you get a
 
 ## Can telehealth work for fertility nutrition?
 
-Yes. Video consults work really well for this kind of care. We can go through your blood results and supplements, look at your usual week of eating, and set up follow-up reviews, all from your couch. You can share documents and talk through your cycle history just as you would in a clinic room.
+Yes. Telehealth consults work really well for this kind of care. We can go through your blood results and supplements, look at your usual week of eating, and set up follow-up reviews, all from your couch. You can share documents and talk through your cycle history just as you would in a clinic room.
 
 For women in Sydney, that means you can choose a dietitian on fit and experience rather than postcode. No traffic, no parking, and no rushing out of work.
 

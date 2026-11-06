@@ -38,7 +38,7 @@ export const GET: APIRoute = async ({ site }) => {
   const header = [
     '# Katrina Ridout Nutrition: full text',
     '',
-    '> Katrina (Kat) Ridout is an Accredited Practising Dietitian (APD, Dietitians Australia, APD008207) in Brisbane, Australia, specialising in fertility, IVF preparation, PMOS (previously called PCOS), pregnancy, gestational diabetes and postpartum nutrition. Consults in person at Milton Village Medical, Level 1, 36 Baroona Road, Milton QLD 4064, and by telehealth video Australia-wide. Phone 1300 640 104. Free 15-minute call: https://calendly.com/katridout/15-minute-investigative-callback',
+    '> Katrina (Kat) Ridout is an Accredited Practising Dietitian (APD, Dietitians Australia, APD008207) in Brisbane, Australia, specialising in fertility, IVF preparation, PMOS (previously called PCOS), pregnancy, gestational diabetes and postpartum nutrition. Consults in person at Milton Village Medical, Level 1, 36 Baroona Road, Milton QLD 4064, and by telehealth Australia-wide. Phone 1300 640 104. Free 15-minute call: https://calendly.com/katridout/15-minute-investigative-callback',
     '',
     `Site map for assistants: ${origin}/llms.txt`,
     'Nutrition advice on this site is general information. It supports, and never replaces, care from a GP, obstetrician, midwife or fertility clinic.',

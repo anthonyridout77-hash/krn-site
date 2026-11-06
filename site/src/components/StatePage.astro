@@ -23,14 +23,14 @@ const faq = [
   ['Do I need a referral to see you?', 'No referral needed. You can book directly online.'],
   ['Can I claim a rebate?', 'If you have a GP referral under a GP Chronic Condition Management Plan (GPCCMP), or private health extras, you may be eligible. Kat will talk you through it on your call.'],
   [`I am doing IVF in ${city}. Can you work alongside my clinic?`, 'Yes. Kat provides nutrition support that complements the care you are already getting at your fertility clinic.'],
-  [`What if I am not in ${city}?`, `That is fine. Everything runs over video, so it works the same from ${farTowns} as it does from the CBD.`],
+  [`What if I am not in ${city}?`, `That is fine. Everything runs by telehealth, so it works the same from ${farTowns} as it does from the CBD.`],
 ];
 const faqLd = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":faq.map(([q,a])=>({"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":a}}))};
 ---
 <Article
   title={title}
   description={description}
-  lede={`Based in Brisbane, Kat Ridout supports women right across ${state} through telehealth. Wherever you are, ${regions}, you get the same evidence-based fertility, pregnancy and postpartum nutrition care, over a video call that fits around your life.`}
+  lede={`Based in Brisbane, Kat Ridout supports women right across ${state} through telehealth. Wherever you are, ${regions}, you get the same evidence-based fertility, pregnancy and postpartum nutrition care, over a telehealth appointment that fits around your life.`}
   crumbs={[{ label: 'Home', href: '/' }, { label: `${city} telehealth` }]}
   ctaHeading="Start with a free 15-minute call"
   ctaText={`Not sure whether nutrition support is right for you yet? Book a free 15-minute call and Kat will help you work out the best next step, with no pressure. Prefer to talk to someone first? Call 1300 640 104.`}
@@ -64,7 +64,7 @@ const faqLd = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":fa
   </ol>
 
   <h2>How telehealth works</h2>
-  <p>You book a time, you get a video link, and you meet Kat from your kitchen table. Everything after that, your plan, your resources and your follow-ups, comes to you online. You never need to drive across {city} or sit in a waiting room.</p>
+  <p>You book a time, you get a secure telehealth link, and you meet Kat from your kitchen table. Everything after that, your plan, your resources and your follow-ups, comes to you online. You never need to drive across {city} or sit in a waiting room.</p>
 
   <h2>Common questions</h2>
   <h3>Do you work with clients outside Brisbane?</h3>
@@ -76,7 +76,7 @@ const faqLd = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":fa
   <h3>I am doing IVF in {city}. Can you work alongside my clinic?</h3>
   <p>Yes. Kat provides nutrition support that complements the care you are already getting at your fertility clinic.</p>
   <h3>What if I am not in {city}?</h3>
-  <p>That is fine. Everything runs over video, so it works the same from {farTowns} as it does from the CBD.</p>
+  <p>That is fine. Everything runs by telehealth, so it works the same from {farTowns} as it does from the CBD.</p>
   <p>You can also read more in Kat's <a href={guideHref}>{guideLabel}</a>.</p>
 
   <h2>Endometriosis nutrition for {city}</h2>

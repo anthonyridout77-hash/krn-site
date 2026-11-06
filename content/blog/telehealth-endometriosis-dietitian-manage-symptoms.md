@@ -37,7 +37,7 @@ Endometriosis is common. Around 1 in 7 women born in 1973 to 78 had been diagnos
 
 ## How does a telehealth endometriosis dietitian appointment work?
 
-A telehealth appointment runs by video or phone from home. No travel, no waiting room, no parking, which matters a lot on high-pain days. You can join from the couch, your bed, or anywhere private.
+A telehealth appointment runs by telehealth or phone from home. No travel, no waiting room, no parking, which matters a lot on high-pain days. You can join from the couch, your bed, or anywhere private.
 
 In a first appointment we go through your health history, your symptom patterns and what a typical day of eating looks like, then talk about what you want to get out of it. A written plan follows the consult, including any supplement suggestions, so you’re not left trying to remember everything we covered.
 

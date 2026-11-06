@@ -27,7 +27,7 @@ Private dietitians can see you without a referral, at a time that suits you, and
 
 ## Can I see a pregnancy dietitian by telehealth from Canberra?
 
-Yes. Video consults work really well for pregnancy nutrition. We can go through your results and supplements, your usual week of eating and any symptoms, all from your couch. No parking, no waiting room, and no rushing out of work between scans.
+Yes. Telehealth consults work really well for pregnancy nutrition. We can go through your results and supplements, your usual week of eating and any symptoms, all from your couch. No parking, no waiting room, and no rushing out of work between scans.
 
 ## When should I see a pregnancy dietitian?
 

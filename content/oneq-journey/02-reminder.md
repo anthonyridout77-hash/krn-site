@@ -3,7 +3,7 @@ Subject: Tomorrow: your One-Question Consult, {{FIRSTNAME}}
 
 Hi {{FIRSTNAME}},
 
-A quick reminder that we meet tomorrow, {{CONSULT_DATE}} (Brisbane time), by video: {{MEET_LINK}}
+A quick reminder that we meet tomorrow, {{CONSULT_DATE}} (Brisbane time), by telehealth: {{MEET_LINK}}
 
 [If intake complete] Thank you for sending your three answers; I have read them.
 [If intake not complete] If you have not yet sent your three short answers, the link is in your welcome email. If there is no time, that is fine; we will cover them at the start of the call.

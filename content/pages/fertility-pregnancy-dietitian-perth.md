@@ -6,7 +6,7 @@ wpId: "4591"
 wpUrl: "https://api.katridout.com.au/fertility-pregnancy-dietitian-perth/"
 ---
 
-Based in Brisbane, Kat Ridout supports women right across Western Australia through telehealth. Wherever you are, from the city to the hills and the regions, you get the same evidence based fertility, pregnancy and postpartum nutrition care, over a video call that fits around your life.
+Based in Brisbane, Kat Ridout supports women right across Western Australia through telehealth. Wherever you are, from the city to the hills and the regions, you get the same evidence based fertility, pregnancy and postpartum nutrition care, by telehealth that fits around your life.
 
 [Book Your FREE 15-Minute Callback →](https://calendly.com/katridout/15-minute-investigative-callback?utm_source=website&utm_medium=landing_page&utm_campaign=perth_lp)
 
@@ -62,7 +62,7 @@ If it is a fit, Kat explains the options and costs. If it is not, she will point
 
 ## How telehealth works
 
-You book a time, you get a video link, and you meet Kat from your kitchen table. Everything after that, your plan, your resources, your follow ups, comes to you online. You never need to drive across Perth or sit in a waiting room.
+You book a time, you get a secure telehealth link, and you meet Kat from your kitchen table. Everything after that, your plan, your resources, your follow ups, comes to you online. You never need to drive across Perth or sit in a waiting room.
 
 Common questions
 
@@ -84,7 +84,7 @@ Yes. Kat provides nutrition support that complements the care you are already ge
 
 What if I am not in Perth?
 
-That is fine. Everything runs over video, so it works the same from Bunbury or Geraldton as it does from the CBD.
+That is fine. Everything runs by telehealth, so it works the same from Bunbury or Geraldton as it does from the CBD.
 
 ## Start with a complimentary 15 minute call
 

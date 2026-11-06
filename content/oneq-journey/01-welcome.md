@@ -2,13 +2,13 @@ Subject: Your One-Question Consult is booked, {{FIRSTNAME}}
 
 Hi {{FIRSTNAME}},
 
-Thanks for booking. Your One-Question Consult is on {{CONSULT_DATE}} (Brisbane time). We will meet by video: {{MEET_LINK}}
+Thanks for booking. Your One-Question Consult is on {{CONSULT_DATE}} (Brisbane time). We will meet by telehealth: {{MEET_LINK}}
 
 So I can prepare and check your concern suits a focused appointment, please answer three short questions before we talk. It takes about two minutes:
 
 [Button: Answer my three questions] {{INTAKE_LINK}}
 
-How your written summary is made: with your permission, the video call is transcribed. I use the transcript, together with your three answers, to prepare your consult summary. Drafting software helps me put it on the page, and I check and approve every word before it is sent to you. Nothing is sent that I have not read. You can choose manual notes instead on the questions page, and the summary will take the same two business days either way.
+How your written summary is made: with your permission, the telehealth appointment is transcribed. I use the transcript, together with your three answers, to prepare your consult summary. Drafting software helps me put it on the page, and I check and approve every word before it is sent to you. Nothing is sent that I have not read. You can choose manual notes instead on the questions page, and the summary will take the same two business days either way.
 
 What happens next:
 1. I read your answers before we meet.

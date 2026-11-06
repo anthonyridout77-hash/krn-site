@@ -1,7 +1,7 @@
 ---
 title: "Nutrition and Dietetics"
 seoTitle: "Dietitian Brisbane (Milton) and Online"
-description: "Accredited Practising Dietitian in Milton, Brisbane and online by video anywhere in Australia. Book a free 15-minute call with Kat Ridout APD."
+description: "Accredited Practising Dietitian in Milton, Brisbane and by telehealth anywhere in Australia. Book a free 15-minute call with Kat Ridout APD."
 date: "2025-08-01"
 updated: "2026-10-12"
 wpId: "339"
@@ -22,10 +22,10 @@ Book a free 15-minute call with Kat. It is a short phone conversation about what
 Dietitians are allied health professionals with university qualifications who are trained to assess and manage a wide range of health conditions. They are passionate about supporting people to improve their overall health and lifestyle, with a deep understanding of how nutrition affects the body.
 Recognised as industry experts in food and nutrition, dietitians provide sustainable, evidence-based advice. They have the medical knowledge and practical experience to guide you through both everyday nutrition and more complex health conditions that require dietary support.
 Katrina Ridout is an Accredited Practising Dietitian who is passionate about helping her clients achieve lasting health and wellbeing. She does this through personalised nutrition education and counselling, while encouraging small, realistic lifestyle changes that can make a big difference over time.
-Kat offers one-on-one consultations online by video anywhere in Australia, and in person in Milton, Brisbane. Whichever you choose, she is here to help you improve your nutrition and build healthier habits that last.
+Kat offers one-on-one consultations by telehealth anywhere in Australia, and in person in Milton, Brisbane. Whichever you choose, she is here to help you improve your nutrition and build healthier habits that last.
 
 ## A dietitian near you, wherever you live
-Searching for a dietitian near you? With telehealth, the right dietitian is as close as your phone. A video consult works the same way as sitting in the room: Kat takes your history, looks at your recent blood tests and how you eat now, then builds a plan that fits your life. Your plan and follow-ups come to you online, so you never need to drive across town or sit in a waiting room.
+Searching for a dietitian near you? With telehealth, the right dietitian is as close as your phone. A telehealth consult works the same way as sitting in the room: Kat takes your history, looks at your recent blood tests and how you eat now, then builds a plan that fits your life. Your plan and follow-ups come to you online, so you never need to drive across town or sit in a waiting room.
 Prefer to meet face to face? Kat also sees clients at Milton Village Medical, Level 1, 36 Baroona Road, Milton QLD 4064.
 
 ### What conditions can a dietitian help with?
@@ -80,7 +80,7 @@ No. You can book with Kat directly. A GP plan is only needed if you want to clai
 
 ### Can I see a dietitian online?
 
-Yes. Kat sees clients by video anywhere in Australia, so you get the same care from home without travelling or sitting in a waiting room. You just need a phone, tablet or computer with a camera.
+Yes. Kat sees clients by telehealth anywhere in Australia, so you get the same care from home without travelling or sitting in a waiting room. You just need a phone, tablet or computer with a camera.
 
 ### Where can I see Kat in person?
 

@@ -5,7 +5,7 @@ captured: "2026-10-20"
 note: "Copy captured from the old site for rewriting into Astro. Reference only, not published."
 ---
 
-Based in Brisbane, Kat Ridout supports women right across Western Australia through telehealth. Wherever you are, from the city to the hills and the regions, you get the same evidence based fertility, pregnancy and postpartum nutrition care, over a video call that fits around your life.
+Based in Brisbane, Kat Ridout supports women right across Western Australia through telehealth. Wherever you are, from the city to the hills and the regions, you get the same evidence based fertility, pregnancy and postpartum nutrition care, by telehealth that fits around your life.
 Book Your FREE 15-Minute Callback → (https://calendly.com/katridout/15-minute-investigative-callback?utm_source=website&utm_medium=landing_page&utm_campaign=perth_lp)Free · No obligation · Takes 2 minutes to book
 
 Kat Ridout, APD and Accredited Nutritionist
@@ -41,7 +41,7 @@ You decide, with no pressure (3 min)
 If it is a fit, Kat explains the options and costs. If it is not, she will point you to something that suits you better.
 
 ## How telehealth works
-You book a time, you get a video link, and you meet Kat from your kitchen table. Everything after that, your plan, your resources, your follow ups, comes to you online. You never need to drive across Perth or sit in a waiting room.
+You book a time, you get a secure telehealth link, and you meet Kat from your kitchen table. Everything after that, your plan, your resources, your follow ups, comes to you online. You never need to drive across Perth or sit in a waiting room.
 Common questions
 Do you work with clients outside Brisbane?
 Yes. Kat supports women across Western Australia and all of Australia through telehealth.
@@ -56,7 +56,7 @@ I am doing IVF in Perth. Can you work alongside my clinic?
 Yes. Kat provides nutrition support that complements the care you are already getting at your fertility clinic.
 
 What if I am not in Perth?
-That is fine. Everything runs over video, so it works the same from Bunbury or Geraldton as it does from the CBD.
+That is fine. Everything runs by telehealth, so it works the same from Bunbury or Geraldton as it does from the CBD.
 
 ## Start with a complimentary 15 minute call
 Not sure whether nutrition support is right for you yet? Book a free 15 minute investigative call and Kat will help you work out the best next step, with no pressure. You can also read more in her guide to pregnancy and IVF nutrition in Perth (/blogs/pregnancy-dietitian-perth/).

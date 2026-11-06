@@ -21,7 +21,7 @@ A fertility dietitian is an Accredited Practising Dietitian (APD) who works with
 
 ## In person or telehealth?
 
-Some women like sitting across the table, and some would rather not lose half a day to the drive. Both work. In person, I’m at Milton Village Medical, Level 1, 36 Baroona Road, Milton QLD 4064. By telehealth, we can go through your bloods, supplements and meal patterns by video, and you get the same written plan.
+Some women like sitting across the table, and some would rather not lose half a day to the drive. Both work. In person, I’m at Milton Village Medical, Level 1, 36 Baroona Road, Milton QLD 4064. By telehealth, we can go through your bloods, supplements and meal patterns by telehealth, and you get the same written plan.
 
 Lots of women do a mix: the first consult in person and the reviews by telehealth. Completely up to you.
 

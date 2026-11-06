@@ -14,13 +14,13 @@ const CALL = 'https://calendly.com/katridout/15-minute-investigative-callback';
 const starters = [
   { id: 'initial', q: 'Want to look at the whole picture?', name: 'Initial consultation', best: 'Anyone wanting a comprehensive assessment and a coordinated plan', time: '75 minutes, Milton or telehealth', what: 'A full assessment of your history, bloods, medications and eating that connects several concerns and priorities into one coordinated plan. Ongoing support is optional; Kat helps you decide whether individual appointments or a program suits you.', get: 'Assessment summary, individualised supplement plan, starter meal plan, recipe booklet, snack ideas and goals summary, within 2 business days.', paid: true, cta: 'Discuss my options with Kat', href: CALL, coral: true, note: 'Books the free introductory call first.' },
   { id: 'call', q: 'Not sure which option suits you?', name: 'Free introductory call', best: 'Anyone who would like to talk it through first', time: '15 minutes, phone', what: 'Tell Kat what is going on. She will listen, explain how she would approach it and how she can help. Personalised meal plans and supplement advice are kept for a consultation.', get: 'A clear, caring next step that suits you, with no obligation.', paid: false, cta: 'Book a free call', href: CALL, coral: false },
-  { id: 'oneq', q: fc.heading, name: fc.name, best: 'New clients with one suitable, focused nutrition concern', time: '30 minutes, video', what: fc.summary, get: `A brief written summary of the advice and agreed next steps, within ${fc.turnaround}.`, paid: true, cta: 'View details and fee', href: fc.url, coral: false },
+  { id: 'oneq', q: fc.heading, name: fc.name, best: 'New clients with one suitable, focused nutrition concern', time: '30 minutes, telehealth', what: fc.summary, get: `A brief written summary of the advice and agreed next steps, within ${fc.turnaround}.`, paid: true, cta: 'View details and fee', href: fc.url, coral: false },
 ];
 
 const cols = ['Initial consultation', 'Free call', 'One-Question Consult'];
 const rows: { label: string; cells: string[] }[] = [
   { label: 'Who it suits', cells: ['Anyone wanting the whole picture', 'Anyone deciding', 'New clients with one suitable, focused concern'] },
-  { label: 'Duration and format', cells: ['75 min, Milton or telehealth', '15 min, phone', '30 min, video'] },
+  { label: 'Duration and format', cells: ['75 min, Milton or telehealth', '15 min, phone', '30 min, telehealth'] },
   { label: 'Assessment', cells: ['Comprehensive', 'A conversation about your situation', 'Relevant to the agreed concern'] },
   { label: 'Written takeaway', cells: ['Full plan and resources, 2 business days', 'None', 'Brief written summary, 2 business days'] },
   { label: 'Follow-up', cells: ['Review appointments or a program, only if you want them', 'Kat suggests the option that suits you', 'Further care only if you need broader support'] },

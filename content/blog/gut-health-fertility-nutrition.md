@@ -59,6 +59,6 @@ And if the wellness noise has left you unsure what actually applies to your body
 Kat xx  
 *Accredited Practising Dietitian (APD)*
 
-These conversations happen just as easily over video. There is a version of this for readers in South Australia on the [Adelaide fertility and pregnancy page](/pregnancy-dietitian-adelaide/), and for readers in Western Australia on the [Perth page](/fertility-pregnancy-dietitian-perth/).
+These conversations happen just as easily by telehealth. There is a version of this for readers in South Australia on the [Adelaide fertility and pregnancy page](/pregnancy-dietitian-adelaide/), and for readers in Western Australia on the [Perth page](/fertility-pregnancy-dietitian-perth/).
 
 Gut health is one part of a wider picture. You can read more about how I work with women on preconception and fertility nutrition as a [fertility dietitian in Brisbane](/our-services/nutrition-for-fertility/), with telehealth right across Australia.

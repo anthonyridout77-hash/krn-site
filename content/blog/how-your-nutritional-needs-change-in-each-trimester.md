@@ -56,7 +56,7 @@ Every pregnancy is unique. What works for one person may not suit another, espec
 
 Katrina Ridout, an Accredited Practising Dietitian & Nutritionist, helps women make informed dietary choices through each stage of pregnancy. As a [pregnancy dietitian](/our-services/pregnancy-nutrition-and-dietetics/) in Brisbane, she provides personalised nutrition plans that adapt to changing needs, helping expectant mothers feel supported and well-nourished.
 
-Trimester by trimester care runs well over video. If you are in Western Australia, the [Perth pregnancy nutrition guide](/blogs/pregnancy-dietitian-perth/) walks through the same stages with the local picture, and the [Perth telehealth page](/fertility-pregnancy-dietitian-perth/) explains how appointments work across the time difference.
+Trimester by trimester care runs well by telehealth. If you are in Western Australia, the [Perth pregnancy nutrition guide](/blogs/pregnancy-dietitian-perth/) walks through the same stages with the local picture, and the [Perth telehealth page](/fertility-pregnancy-dietitian-perth/) explains how appointments work across the time difference.
 
 Recipes and lists only go so far. If you would like a plan built around your pregnancy, your appetite and your week, book a free 15-minute call with Kat Ridout, Accredited Practising Dietitian.
 

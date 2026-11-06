@@ -34,7 +34,7 @@ wpUrl: "https://api.katridout.com.au/blogs/fertility-nutrition-sunshine-coast/"
 <p>The evidence shows associations, not promises. No single food or supplement can make a pregnancy happen. What the research does suggest is that a varied, nutrient-dense way of eating gives your body a solid foundation while you work with your fertility clinic and GP.</p>
 <h2 id="can-you-see-a-fertility-dietitian-on-the-sunshine-coast-without-travelling-to-brisbane">Can you see a fertility dietitian on the Sunshine Coast without travelling to Brisbane?</h2>
 <p>Yes. Telehealth makes fertility nutrition support available Australia-wide, including the Sunshine Coast, Caloundra, Noosa and the hinterland towns. You get the same individual care you would in person, without leaving home.</p>
-<p>A telehealth consult is simple: we meet by video, talk through your health and fertility history, look at your current eating and supplements, and agree on a practical plan. Pyjama pants are welcome. We see and hear each other, but you can leave your Ugg boots on.</p>
+<p>A telehealth consult is simple: we meet by telehealth, talk through your health and fertility history, look at your current eating and supplements, and agree on a practical plan. Pyjama pants are welcome. We see and hear each other, but you can leave your Ugg boots on.</p>
 <p>Some women on the Sunshine Coast prefer to come down to Brisbane for an in-person appointment, and that works too. Either way, the support is the same and it sits alongside your fertility clinic&#39;s care.</p>
 <h2 id="what-should-you-look-for-in-a-fertility-dietitian">How to choose a fertility dietitian on the Sunshine Coast</h2>
 <ul>
