@@ -8,17 +8,17 @@ import BookBar from '../components/BookBar.astro';
 <section class="hero">
   <div class="wrap">
     <div class="hero-copy">
-      <p class="eyebrow fade-up" style="animation-delay:.05s">Fertility &amp; pregnancy dietitian · Brisbane &amp; Australia-wide</p>
+      <p class="eyebrow hero-eyebrow fade-up" style="animation-delay:.05s">Fertility, pregnancy &amp; postpartum dietitian · General nutrition welcome</p>
       <div class="hero-rotator" id="heroRotator">
-        <div class="seg fade-up" role="group" aria-label="Choose your situation" style="animation-delay:.1s">
+        <p class="seg-label fade-up" id="segLabel" style="animation-delay:.1s">Choose your situation:</p>
+        <div class="seg fade-up" role="group" aria-labelledby="segLabel" style="animation-delay:.1s">
           <button type="button" aria-pressed="true" data-i="0">All stages</button>
           <button type="button" aria-pressed="false" data-i="1">Trying</button>
           <button type="button" aria-pressed="false" data-i="2">IVF</button>
           <button type="button" aria-pressed="false" data-i="3">Pregnant</button>
           <button type="button" aria-pressed="false" data-i="4">After birth</button>
           <button type="button" aria-pressed="false" data-i="5">PMOS &amp; hormones</button>
-          <button type="button" aria-pressed="false" data-i="6">Everyday</button>
-          <button type="button" class="seg-pause" id="heroPause" aria-label="Pause rotating headline">Pause</button>
+          <button type="button" aria-pressed="false" data-i="6">General nutrition</button>
         </div>
         <h1 id="heroH1">Nutrition for trying, IVF, pregnancy and <span class="hl">after.</span></h1>
         <p class="lede fade-up" id="heroLede" aria-live="off">Trying to conceive, going through IVF, pregnant or in the first year with your baby: a clear, evidence-based plan that fits your life.</p>
@@ -29,11 +29,12 @@ import BookBar from '../components/BookBar.astro';
           {"h":"Calm, clear nutrition for every","hl":"trimester.","p":"Nausea, aversions, supplements and gestational diabetes, handled one step at a time."},
           {"h":"Food that fits the first year with","hl":"your baby.","p":"Recovery, breastfeeding, energy when sleep is short, and starting solids when bub is ready."},
           {"h":"PMOS and hormones,","hl":"made practical.","p":"Evidence-based nutrition for PMOS (PCOS), endometriosis and hormone health, whether or not a baby is on your mind yet."},
-          {"h":"Everyday nutrition,","hl":"done properly.","p":"Not planning or pregnant? Kat sees general nutrition clients too, in Milton or by telehealth."}
+          {"h":"General nutrition and","hl":"everyday health.","p":"Practical, personalised dietetic support for your health, eating habits and family life, in Milton or by telehealth."}
         ]</script>
       </div>
+      <p class="hero-where fade-up" style="animation-delay:.45s"><span>In-person appointments in Milton, Brisbane</span><span aria-hidden="true"> · </span><span>Telehealth across Australia</span></p>
       <div class="cta-row fade-up" style="animation-delay:.5s">
-        <a class="btn btn-coral" href="https://calendly.com/katridout/15-minute-investigative-callback">Book a free call</a>
+        <a class="btn btn-coral" href="https://calendly.com/katridout/15-minute-investigative-callback">Book a free 15-minute call</a>
         <a class="btn btn-line" href="#checklist">Get the free checklist</a>
       </div>
       <p class="sub fade-up" style="animation-delay:.58s"><b>Initial consultation:</b> a full assessment that connects your history, eating and concerns into one coordinated plan. <b>Free call:</b> 15 minutes to talk it through and choose the right option. <a href="#compare">Compare</a></p>
@@ -102,7 +103,7 @@ import BookBar from '../components/BookBar.astro';
       <article class="tile rv"><h3>Preconception &amp; IVF</h3><p>Three to six months ahead for you and your partner, plus support through every IVF cycle.</p><a href="/our-services/prenatal-nutrition-and-dietetics/">Preconception and IVF nutrition</a></article>
       <article class="tile rv d1"><h3>Pregnancy</h3><p>Trimester by trimester: nausea, aversions, supplements and gestational diabetes handled calmly.</p><a href="/our-services/pregnancy-nutrition-and-dietetics/">Pregnancy nutrition</a></article>
       <article class="tile rv d2"><h3>Post pregnancy</h3><p>Recovery, breastfeeding, energy when sleep is short, and starting solids when bub is ready.</p><a href="/our-services/postnatal-nutrition/">Postnatal nutrition</a></article>
-      <article class="tile rv d3"><h3>General nutrition</h3><p>Not planning or pregnant? Kat also sees general nutrition clients, in Milton or by telehealth, with the same evidence-led approach.</p><a href="/our-services/dietitian/">General nutrition</a></article>
+      <article class="tile rv d3"><h3>General nutrition</h3><p>Practical, personalised dietetic support for your health, eating habits and family life, in Milton or by telehealth.</p><a href="/our-services/dietitian/">General nutrition</a></article>
     </div>
   </div>
 </section>
@@ -150,13 +151,13 @@ import BookBar from '../components/BookBar.astro';
 
 <section class="journey" id="journey">
   <div class="wrap">
-    <p class="eyebrow rv">Your journey with Kat</p>
-    <h2 class="rv d1">The process</h2>
+    <p class="eyebrow rv">At your initial consultation</p>
+    <h2 class="rv d1">What makes your plan personal?</h2>
     <div class="steps">
-      <div class="step rv"><div class="num">Step 1</div><h3>Bring your concerns</h3><p>A free 15-minute call. Kat listens to what is going on for you and asks a few preliminary questions. Kat has supported hundreds of clients, so you do not need to have it all worked out.</p></div>
-      <div class="step rv d1"><div class="num">Step 2</div><h3>Hear how Kat would help</h3><p>She explains her approach, the appointment options that suit you and what working together could involve.</p></div>
-      <div class="step rv d2"><div class="num">Step 3</div><h3>Your initial consultation</h3><p>If you go ahead: 75 minutes in Milton or by telehealth exploring your history, diet, results, preferences and practical circumstances.</p></div>
-      <div class="step rv d3"><div class="num">Step 4</div><h3>Your individualised plan</h3><p>Kat develops a nutrition plan for you, with ongoing appointments or a program agreed only where it suits you.</p></div>
+      <div class="step rv"><h3>Your history and results</h3><p>Your health history, medications and any recent results Kat needs to understand where you are now.</p></div>
+      <div class="step rv d1"><h3>What you eat and enjoy</h3><p>Your usual eating, food preferences, culture and anything you avoid, so the plan uses food you will actually eat.</p></div>
+      <div class="step rv d2"><h3>Your routine and family life</h3><p>Work, sleep, cooking time and who you feed, so the changes are realistic for your week.</p></div>
+      <div class="step rv d3"><h3>Your goals and stage</h3><p>What matters most to you right now, and where you are, from planning a pregnancy to everyday health.</p></div>
     </div>
   </div>
 </section>
@@ -273,26 +274,11 @@ import BookBar from '../components/BookBar.astro';
   var h=document.getElementById('heroH1'),p=document.getElementById('heroLede'),box=document.getElementById('heroRotator');
   if(!h||!p||!box)return;
   var slides;try{slides=JSON.parse(document.getElementById('heroSlides').textContent);}catch(e){return;}
-  var tabs=[].slice.call(box.querySelectorAll('[data-i]')),pb=document.getElementById('heroPause'),i=0,timer=null,user=false,hover=false;
-  var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  var INTERVAL=5500,FADE=reduce?0:260;
+  var tabs=[].slice.call(box.querySelectorAll('[data-i]')),i=0;
   function render(n){var s=slides[n];h.textContent='';h.appendChild(document.createTextNode(s.h+' '));var sp=document.createElement('span');sp.className='hl';sp.textContent=s.hl;h.appendChild(sp);p.textContent=s.p;}
-  function sizeLock(){var mh=0,mp=0;var cur=i;for(var k=0;k<slides.length;k++){render(k);mh=Math.max(mh,h.offsetHeight);mp=Math.max(mp,p.offsetHeight);}render(cur);h.style.minHeight=mh+'px';p.style.minHeight=mp+'px';}
-  function go(n,fromUser){n=(n+slides.length)%slides.length;if(n===i&&fromUser)return;box.classList.add('swap');
-    setTimeout(function(){i=n;render(i);tabs.forEach(function(t,k){t.setAttribute('aria-pressed',k===i?'true':'false');});var seg=tabs[i].parentNode;if(seg.scrollWidth>seg.clientWidth){seg.scrollTo({left:Math.max(0,tabs[i].offsetLeft-12),behavior:reduce?'auto':'smooth'});}box.classList.remove('swap');},FADE);
-    if(fromUser){halt();window.dataLayer=window.dataLayer||[];window.dataLayer.push({event:'hero_segment',segment:'seg-'+n});}}
-  function tick(){if(!hover&&!document.hidden)go(i+1,false);}
-  function start(){if(reduce||user||timer)return;timer=setInterval(tick,INTERVAL);}
-  function stop(){if(timer){clearInterval(timer);timer=null;}}
-  function halt(){user=true;stop();if(pb)pb.hidden=true;p.setAttribute('aria-live','polite');}
-  tabs.forEach(function(t){t.addEventListener('click',function(){go(+t.getAttribute('data-i'),true);});});
-  if(pb){if(reduce)pb.hidden=true;pb.addEventListener('click',halt);}
-  box.addEventListener('mouseenter',function(){hover=true;});box.addEventListener('mouseleave',function(){hover=false;});
-  box.addEventListener('focusin',function(){hover=true;});box.addEventListener('focusout',function(){hover=false;});
-  document.addEventListener('visibilitychange',function(){if(document.hidden)stop();else start();});
-  var rt;window.addEventListener('resize',function(){clearTimeout(rt);rt=setTimeout(sizeLock,150);});
-  if(document.fonts&&document.fonts.ready)document.fonts.ready.then(sizeLock);else sizeLock();
-  start();
+  function go(n){if(n===i)return;i=n;render(i);tabs.forEach(function(t,k){t.setAttribute('aria-pressed',k===i?'true':'false');});window.dataLayer=window.dataLayer||[];window.dataLayer.push({event:'hero_segment',segment:'seg-'+n});}
+  tabs.forEach(function(t){t.addEventListener('click',function(){go(+t.getAttribute('data-i'));});});
+  p.setAttribute('aria-live','polite');
 })();
 </script>
 </Base>
