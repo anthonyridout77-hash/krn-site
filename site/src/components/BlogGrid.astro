@@ -12,15 +12,24 @@ for (const p of all) for (const c of p.data.categories ?? []) counts.set(c, (cou
 const categories = [...counts.entries()].sort((a, b) => b[1] - a[1]).map(([c]) => c);
 const sorted = [...posts].sort(byNewest);
 ---
+<form class="asearch" role="search" onsubmit="return false">
+  <label for="article-search">Search articles</label>
+  <div class="asearch-row">
+    <input id="article-search" type="search" placeholder="Try iron, nausea, IVF, gestational diabetes" autocomplete="off" />
+    <button type="button" class="asearch-clear" hidden>Clear</button>
+  </div>
+</form>
 <nav class="filters" aria-label="Filter articles by topic">
   <a class:list={['chip', { on: !active }]} href="/blogs/">All</a>
   {categories.map((c) => (
     <a class:list={['chip', { on: active && slugify(c) === slugify(active) }]} href={categoryUrl(c)}>{c}</a>
   ))}
 </nav>
-<p class="count">{sorted.length} {sorted.length === 1 ? 'article' : 'articles'}{active ? ` in ${active}` : ''}</p>
+<p class="count" aria-live="polite" data-total={sorted.length} data-suffix={active ? ` in ${active}` : ''}>{sorted.length} {sorted.length === 1 ? 'article' : 'articles'}{active ? ` in ${active}` : ''}</p>
+<p class="asearch-empty" hidden>No articles match that search. Try a simpler word, or <a href="https://calendly.com/katridout/15-minute-investigative-callback">book a free call</a> and ask Kat.</p>
 <div class="pgrid">
   {sorted.map((p) => (
+    <div class="asearch-item" data-q={[p.data.title, p.data.description ?? '', ...(p.data.categories ?? [])].join(' ').toLowerCase()}>
     <PostCard
       href={blogUrl(p)}
       title={p.data.title}
@@ -31,5 +40,44 @@ const sorted = [...posts].sort(byNewest);
       date={p.data.date}
       heading="h2"
     />
+    </div>
   ))}
 </div>
+
+<script>
+  const input = document.getElementById('article-search') as HTMLInputElement | null;
+  const clear = document.querySelector<HTMLButtonElement>('.asearch-clear');
+  const count = document.querySelector<HTMLElement>('.count');
+  const empty = document.querySelector<HTMLElement>('.asearch-empty');
+  const items = Array.from(document.querySelectorAll<HTMLElement>('.asearch-item'));
+  const total = Number(count?.dataset.total || items.length);
+  const suffix = count?.dataset.suffix || '';
+  const run = () => {
+    const q = (input?.value || '').toLowerCase().trim();
+    const words = q.split(/\s+/).filter(Boolean);
+    let n = 0;
+    for (const el of items) {
+      const hay = el.dataset.q || '';
+      const hit = words.every((w) => hay.includes(w));
+      el.hidden = !hit; if (hit) n++;
+    }
+    if (count) count.textContent = q ? `${n} ${n === 1 ? 'article' : 'articles'} match "${input!.value.trim()}"` : `${total} ${total === 1 ? 'article' : 'articles'}${suffix}`;
+    if (empty) empty.hidden = n > 0;
+    if (clear) clear.hidden = !q;
+  };
+  input?.addEventListener('input', run);
+  clear?.addEventListener('click', () => { if (input) { input.value = ''; run(); input.focus(); } });
+  const q0 = new URLSearchParams(location.search).get('q');
+  if (q0 && input) { input.value = q0; run(); }
+</script>
+
+<style>
+  .asearch { margin: 0 0 1rem; }
+  .asearch label { display: block; font-weight: 600; color: var(--heading); margin-bottom: .4rem; }
+  .asearch-row { display: flex; gap: .5rem; max-width: 560px; }
+  .asearch input { flex: 1; min-height: 48px; padding: .6rem 1rem; border: 1.5px solid var(--line); border-radius: 999px; background: var(--bg); color: var(--fg); font: inherit; }
+  .asearch input:focus-visible { outline: 3px solid var(--heading); outline-offset: 2px; }
+  .asearch-clear { min-height: 48px; padding: 0 1rem; border: 1.5px solid var(--line); border-radius: 999px; background: var(--bg); color: var(--heading); font: inherit; cursor: pointer; }
+  .asearch-empty { margin: 1rem 0; }
+  .asearch-item[hidden] { display: none; }
+</style>
