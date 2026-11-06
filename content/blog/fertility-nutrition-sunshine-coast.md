@@ -1,6 +1,6 @@
 ---
 title: "How to choose a fertility dietitian on the Sunshine Coast, and how Kat works with you by telehealth"
-description: " H o w   t o   c h o o s e   a   f e r t i l i t y   d i e t i t i a n   o n   t h e   S u n s h i n e   C o a s t ,   w h a t   t h e   e v i d e n c e   s a y s   a b o u t   d i e t   a n d   f e r t i l i t y ,   a n d   h o w   K a t   s u p p o r t s   y o u   b y   t e l e h e a l t h   o r   i n   p e r s o n   i n   B r i s b a n e . "
+description: "How to choose a fertility dietitian on the Sunshine Coast, what the evidence says about diet and fertility, and how Kat supports you by telehealth or in person in Brisbane."
 date: "2026-10-26"
 updated: "2026-10-26"
 categories:
