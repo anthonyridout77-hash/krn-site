@@ -15,7 +15,7 @@ parent: "415"
 Gestational diabetes dietitian brisbane
 
 ## Not sure where to start?
-Book a free 15-minute call with Kat. It is a short phone conversation about what is going on for you and whether working together would help. No preparation and no obligation.
+Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. Kat has supported hundreds of clients, so you do not need to have it all worked out first. No preparation and no obligation.
 [Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## If you are diagnosed with gestational diabetes during pregnancy, don’t panic, we’re here to help.
@@ -47,7 +47,7 @@ If you’ve been diagnosed with GDM, I want you to know that there are clear, ev
 Together, we’ll create a nutrition plan that is practical, realistic and tailored to your pregnancy, helping to reduce risks and give your baby the best possible start in life. You don’t need to navigate this alone. I’ll be here to support and guide you every step of the way.
 
 ### Not sure where to start?
-Book a free 15-minute call with Kat. It is a short phone conversation about what is going on for you and whether working together would help. No preparation and no obligation.
+Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. Kat has supported hundreds of clients, so you do not need to have it all worked out first. No preparation and no obligation.
 [Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## Frequently Asked Questions

@@ -182,7 +182,7 @@ header .nav .btn{white-space:nowrap}@media (max-width:420px){header .nav .btn{pa
 .journey{background:var(--mint)}
 .journey .wrap{text-align:center}.journey .steps{text-align:left}.journey .eyebrow{color:var(--coral-deep)}
 .steps{display:grid;gap:1.4rem;margin-top:2.4rem;position:relative}
-@media (min-width:760px){.steps{grid-template-columns:repeat(3,1fr);gap:1.6rem}}
+@media (min-width:760px){.steps{grid-template-columns:repeat(2,1fr);gap:1.6rem}}@media (min-width:1080px){.steps{grid-template-columns:repeat(4,1fr)}}
 .step{background:var(--bg);border:0;border-radius:22px;padding:1.6rem 1.5rem;display:grid;gap:.6rem}
 .num{font-family:var(--head);font-weight:500;font-size:.9rem;color:var(--sage-deep)}
 .step p{color:var(--fg-soft);font-size:.96rem}
