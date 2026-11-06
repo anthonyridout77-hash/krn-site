@@ -1,6 +1,6 @@
 ---
 title: "Anti-Inflammatory Eating with Endometriosis in Pregnancy"
-description: " E n d o m e t r i o s i s   i s   a   c h r o n i c   c o n d i t i o n   w h e r e   t i s s u e   s i m i l a r   t o   t h e   l i n i n g   o f   t h e   u t e r u s   g r o w s   o u t s i d e   o f   i t ,   a f f e c t i n g   m i l l i o n s   o f   w o m e n   w o r l d w i d e .   T h i s   c o n d i t i o n   n o t   o n l y   c a u s e s   s i g n i f i c a n t   p a i n & h e l l i p ; "
+description: "Endometriosis is a chronic condition where tissue similar to the lining of the uterus grows outside of it, affecting millions of women worldwide. This condition not only causes significant pain&hellip;"
 date: "2024-06-15"
 updated: "2026-10-21"
 categories:
