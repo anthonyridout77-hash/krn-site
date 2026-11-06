@@ -48,6 +48,7 @@ const defaultId = 'pregnancy';
 
 <style>
   .pw { margin: 1rem 0 2rem; }
+  @media (min-width: 900px) { .pw { width: min(1100px, calc(100vw - 40px)); position: relative; left: 50%; transform: translateX(-50%); } }
   .pw-label { font-weight: 600; color: var(--heading); margin: 0 0 .5rem; }
   .pw-tabs { display: flex; flex-wrap: wrap; gap: .45rem; margin-bottom: 1.4rem; }
   .pw-tab { position: relative; }
@@ -87,7 +88,7 @@ const defaultId = 'pregnancy';
     .tl { display: grid; gap: 1.2rem 1rem; }
     .tl-5 { grid-template-columns: repeat(5, 1fr); }
     .tl-8 { grid-template-columns: repeat(4, 1fr); }
-    .tl-item { grid-template-columns: 1fr; gap: .5rem; padding-bottom: 0; }
+    .tl-item { grid-template-columns: 1fr; grid-template-rows: auto 1fr; align-content: start; gap: .5rem; padding-bottom: 0; }
     .tl-item::before { left: 2.1rem; right: -1rem; top: 1.05rem; bottom: auto; height: 2px; width: auto; }
     .tl-5 .tl-item:nth-child(5)::before, .tl-8 .tl-item:nth-child(4)::before, .tl-8 .tl-item:nth-child(8)::before { display: none; }
     .tl-marker { justify-content: flex-start; }
