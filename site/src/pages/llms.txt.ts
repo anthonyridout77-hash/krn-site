@@ -32,7 +32,6 @@ export const GET: APIRoute = async ({ site }) => {
     line('Home', '/'),
     line('About Kat', '/about-kat/'),
     line('Consultations (what each includes, Medicare)', '/consultations/'),
-    line('One-Question Consult', '/one-question-consult/'),
     line('Contact', '/contact-us/'),
     line('Refer your patients (GPs, obstetricians, fertility clinics)', '/refer-your-patients/'),
     '',

@@ -1,5 +1,7 @@
 # krn-oneq-plan-agent
 
+> RETIRED 7 Nov 2026: the One-Question Consult is no longer offered. Do not schedule or run this agent.
+
 Drafts the brief written summary after a One-Question Consult and asks Kat to approve it. Runs as a Claude scheduled task (not yet created; see activation checklist in the project doc). Suggested cadence: every 2 hours, 7am to 9pm Brisbane. Each run is independent; it reads its work from Drive and the Make data store. It never emails a client.
 
 ## Trigger prompt (paste into the scheduled task)
