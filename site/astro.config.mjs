@@ -11,5 +11,5 @@ export default defineConfig({
     filter: (page) => !/\/(thank-you|guide|telehealth-terms|one-question-consult|one-question-intake|oneq-approve)\/$/.test(page),
   })],
   markdown: { remarkPlugins: [remarkStripTitle] },
-  build: { inlineStylesheets: 'auto' },
+  build: { inlineStylesheets: 'always' },
 });
