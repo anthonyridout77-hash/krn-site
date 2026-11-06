@@ -1,6 +1,6 @@
 ---
 title: "Why is nutrition important during pregnancy?"
-description: " P r e g n a n c y   d i e t   a n d   n u t r i t i o n   i s   c r u c i a l   f o r   t h e   d e v e l o p m e n t   o f   y o u r   b a b y .   T h e   i m p o r t a n c e   o f   n u t r i t i o n   d u r i n g   p r e g n a n c y   c a n n o t   b e   u n d e r s t a t e d .   G o o d   n u t r i t i o n   a n d   a   h e a l t h y   d i e t   a r e   v i t a l ,   a n d & h e l l i p ; "
+description: "Pregnancy diet and nutrition is crucial for the development of your baby. The importance of nutrition during pregnancy cannot be understated. Good nutrition and a healthy diet are vital, and&hellip;"
 date: "2021-07-09"
 updated: "2026-10-29"
 categories:
