@@ -38,11 +38,11 @@ imageAlt: "Literal description of the photo"
 ---
 ```
 
-Body is standard markdown. Internal links are site-relative (`/blogs/<slug>/`, `/one-question-consult/`, `/our-services/...`). No `api.katridout.com.au` links anywhere.
+Body is standard markdown. Internal links are site-relative (`/blogs/<slug>/`, `/consultations/`, `/our-services/...`). No `api.katridout.com.au` links anywhere.
 
 ## Rules that still apply
 
-- Every post carries a booking path: free call `https://calendly.com/katridout/15-minute-investigative-callback` and, where fitting, `/one-question-consult/`.
+- Every post carries a booking path: the free call `https://calendly.com/katridout/15-minute-investigative-callback` (CTA "Book a free 15-minute call"), and where fitting `/consultations/`. The One-Question Consult was retired 7 Nov 2026: never link or mention it.
 - APD never AHPRA. "PMOS (previously called PCOS)". No prices in blog copy. No emojis. No em-dash chains.
 - Byline under the opening paragraph: "By Katrina Ridout, Accredited Practising Dietitian (APD), Brisbane. Reviewed <Month YYYY>."
 - Verify after publishing: fetch `https://www.katridout.com.au/blogs/<slug>/` and expect HTTP 200 within 5 minutes. Record the URL in the ledger.

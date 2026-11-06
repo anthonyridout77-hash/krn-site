@@ -16,7 +16,7 @@ Secondary (confirmed as secondary): her partner during the fertility stage (coup
 
 Katrina Ridout Nutrition is the practice of Katrina (Kat) Ridout, an Accredited Practising Dietitian based at Milton Village Medical in Brisbane, consulting Australia-wide by telehealth. The website exists to turn a search into a booked free 15-minute call (or, once live, a paid One-Question Consult), and from there into a Program client.
 
-Success, as confirmed: bookings of the free call and the One-Question Consult, and clients who go on to a Program. Nothing else counts as the website's success metric.
+Success, as confirmed: bookings of the free call, initial consultations that follow, and clients who choose ongoing care. Nothing else counts as the website's success metric.
 
 ## Positioning
 
@@ -38,9 +38,9 @@ The named competitor Anthony watches is Lifestyle Maternity (Dr Shelley Wilkinso
 - Compliance (Dietitians Australia "Marketing your practice"): no testimonials or reviews about clinical care; no outcome claims; title is Accredited Practising Dietitian (APD), never "AHPRA"; Medicare wording is GPCCMP; review counts and star ratings must be current and verifiable; no unverified claims (no years-of-experience or client-count claims unless Kat verifies them).
 - Google Ads: fertility-related terms are policy-limited; pregnancy-nutrition framing serves without restriction.
 - Pricing: single consult fees may be shown; Program prices are discussed on the free call, not published (decision pending final confirmation by Anthony and Kat).
-- One-Question Consult: $129, 30 min telehealth, new clients only, written one-page plan; not linked in navigation until Kat signs off. Name undecided (Kat's call).
+- One-Question Consult: RETIRED 7 Nov 2026 (Kat not confident it is appropriate as a publicly bookable service). /one-question-consult/ 301s to /consultations/.
 - Photos of Kat: only those Anthony has approved (currently the blue-top studio headshot and the black-and-white portrait). Two portraits per page maximum on the homepage.
-- Undecided: the list of general nutrition conditions to name; whether to publish consult fees at all; the public name of the One-Question Consult.
+- Undecided: the list of general nutrition conditions to name; whether to publish consult fees at all.
 
 ## Brand Commitments
 

@@ -51,6 +51,6 @@ Copy edits that keep meaning (typos, formatting, links) are fine. New claims are
 
 ## Don't
 
-- Don't publish the One-Question Consult page in nav until Kat signs off (price $129, new clients only).
+- The One-Question Consult was retired 7 Nov 2026. Public pathway: free call -> initial consultation -> individual reviews or an optional program. Don't add any public express or short paid consult.
 - Don't touch WordPress at `api.katridout.com.au` — it is being retired.
 - Don't rely on anything on Anthony's Mac. Everything runs from this repo, Cloudflare, Make or GitHub Actions.

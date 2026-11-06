@@ -1,3 +1,5 @@
+> RETIRED 7 Nov 2026. The One-Question Consult is no longer offered. Nothing in this folder is to be sent or activated. Kept for history only.
+
 # One-Question Consult journey copy (DRAFT for Kat)
 
 All client-facing text for the $129 One-Question Consult, in send order. Status: DRAFT, 6 Nov 2026 (reworked to the staged brief). Nothing here goes to a client until Kat approves it.
