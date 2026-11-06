@@ -50,7 +50,7 @@ const isMark = (c: Cell): c is Mark => c === 'yes' || c === 'no' || c === 'part'
 >
   <h2>What each consultation includes</h2>
 
-  <div class="cmp" id="compare">
+  <div class="cmpx" id="compare">
     <p class="pick-label" id="pick-label">On a phone, pick one to view:</p>
     <div class="pick" role="radiogroup" aria-labelledby="pick-label">
       {cols.map((c, i) => (
@@ -137,8 +137,8 @@ const isMark = (c: Cell): c is Mark => c === 'yes' || c === 'no' || c === 'part'
 
 <style>
   /* Break out of the 68ch article column so five columns fit */
-  .cmp { margin: 1rem 0 2rem; width: min(1100px, calc(100vw - 40px)); position: relative; left: 50%; transform: translateX(-50%); }
-  @media (max-width: 759px) { .cmp { width: auto; left: auto; transform: none; } }
+  .cmpx { margin: 1rem 0 2rem; width: min(1100px, calc(100vw - 40px)); position: relative; left: 50%; transform: translateX(-50%); }
+  @media (max-width: 759px) { .cmpx { width: auto; left: auto; transform: none; } }
   .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 
   /* Radio picker: shown on phones only */
@@ -175,11 +175,11 @@ const isMark = (c: Cell): c is Mark => c === 'yes' || c === 'no' || c === 'part'
   @media (max-width: 759px) {
     .matrix .rowhead { width: 55%; }
     .matrix .col { display: none; }
-    .cmp:has(input[value="call"]:checked) .col-call,
-    .cmp:has(input[value="oneq"]:checked) .col-oneq,
-    .cmp:has(input[value="initial"]:checked) .col-initial,
-    .cmp:has(input[value="review"]:checked) .col-review,
-    .cmp:has(input[value="program"]:checked) .col-program { display: table-cell; }
+    .cmpx:has(input[value="call"]:checked) .col-call,
+    .cmpx:has(input[value="oneq"]:checked) .col-oneq,
+    .cmpx:has(input[value="initial"]:checked) .col-initial,
+    .cmpx:has(input[value="review"]:checked) .col-review,
+    .cmpx:has(input[value="program"]:checked) .col-program { display: table-cell; }
     .matrix .col-initial { background: transparent; }
   }
   @media (min-width: 760px) {
