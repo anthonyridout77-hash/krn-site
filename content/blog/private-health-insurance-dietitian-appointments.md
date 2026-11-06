@@ -1,6 +1,6 @@
 ---
 title: "Does private health insurance cover dietitian appointments?"
-description: " D o e s   y o u r   e x t r a s   c o v e r   i n c l u d e   a   d i e t i t i a n ?   W h a t   t o   c h e c k   i n   y o u r   p o l i c y ,   h o w   i t   d i f f e r s   f r o m   t h e   M e d i c a r e   p a t h w a y ,   a n d   h o w   K a t   c a n   h e l p   i n   B r i s b a n e   o r   b y   t e l e h e a l t h . "
+description: "Does your extras cover include a dietitian? What to check in your policy, how it differs from the Medicare pathway, and how Kat can help in Brisbane or by telehealth."
 date: "2026-10-29"
 updated: "2026-10-29"
 categories:
