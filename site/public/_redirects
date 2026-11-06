@@ -1,0 +1,2 @@
+# Old WordPress media URLs -> migrated images (api.katridout.com.au retires)
+/wp-content/uploads/* /images/wp/:splat 301
