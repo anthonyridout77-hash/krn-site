@@ -32,7 +32,7 @@ import BookBar from '../components/BookBar.astro';
         <a class="btn btn-coral" href="https://calendly.com/katridout/15-minute-investigative-callback">Book a free call</a>
         <a class="btn btn-line" href="#checklist">Get the free checklist</a>
       </div>
-      <p class="sub fade-up" style="animation-delay:.58s"><b>Free call:</b> 15 minutes to see whether Kat can help, no advice given. <b>One-Question Consult:</b> one answer and a one-page plan. <b>Full consult:</b> complete assessment and ongoing support. <a href="#oneq">Compare</a></p>
+      <p class="sub fade-up" style="animation-delay:.58s"><b>Free call:</b> 15 minutes to see whether Kat can help, no advice given. <b>One-Question Consult:</b> one answer and a one-page plan. <b>Full consult:</b> complete assessment and ongoing support. <a href="#compare">Compare</a></p>
       <div class="trust fade-up" style="animation-delay:.65s">
         <span><span class="stars">★★★★★</span> <b>4.9</b> on Google · 49 reviews</span>
         <span><img class="apd" src="/images/apd-logo.png" alt="Accredited Practising Dietitian"> Dietitians Australia</span>
@@ -49,6 +49,45 @@ import BookBar from '../components/BookBar.astro';
 
 <div class="ticker"><div class="track">
   <span>Preconception</span><i>•</i><span>IVF support</span><i>•</i><span>PCOS</span><i>•</i><span>Endometriosis</span><i>•</i><span>Gestational diabetes</span><i>•</i><span>Pregnancy</span><i>•</i><span>Postpartum</span><i>•</i><span>Breastfeeding</span></div></div>
+
+<section class="compare" id="compare">
+  <div class="wrap">
+    <p class="eyebrow rv">Which one is right for you?</p>
+    <h2 class="rv d1">Three ways to work with Kat</h2>
+    <div class="cmp">
+      <article class="cmp-card rv d1">
+        <h3>Free call</h3>
+        <p class="cmp-price">$0 <small>15 minutes, phone</small></p>
+        <ul>
+          <li>Kat calls you at a time you pick</li>
+          <li>Find out whether she can help</li>
+          <li>No advice and no pitch</li>
+        </ul>
+        <a class="btn btn-line" href="https://calendly.com/katridout/15-minute-investigative-callback">Book a free call</a>
+      </article>
+      <article class="cmp-card featured rv d2">
+        <h3>One-Question Consult</h3>
+        <p class="cmp-price">$129 <small>30 minutes, video</small></p>
+        <ul>
+          <li>One question answered properly</li>
+          <li>One-page written plan within two business days</li>
+          <li>New clients only; fee credited if you continue within 30 days</li>
+        </ul>
+        <a class="btn btn-coral" href="/one-question-consult/">See how it works</a>
+      </article>
+      <article class="cmp-card rv d3">
+        <h3>Initial consultation</h3>
+        <p class="cmp-price">$295 <small>75 minutes, Milton or telehealth</small></p>
+        <ul>
+          <li>Complete assessment of where you are</li>
+          <li>A plan built around your life, with follow-up</li>
+          <li>Medicare rebates may apply with a GPCCMP referral</li>
+        </ul>
+        <a class="btn btn-line" href="/fees-and-rebates/">See fees and rebates</a>
+      </article>
+    </div>
+  </div>
+</section>
 
 <section class="services" id="services">
   <div class="wrap">
@@ -230,8 +269,8 @@ import BookBar from '../components/BookBar.astro';
   var co=new IntersectionObserver(function(es){ es.forEach(function(e){ if(e.isIntersecting&&!counted){ counted=true; document.querySelectorAll('[data-count]').forEach(function(el){ var t=+el.dataset.count,s=performance.now(); (function tick(n){ var p=Math.min(1,(n-s)/1200); el.textContent=Math.round(t*(1-Math.pow(1-p,3))); if(p<1)requestAnimationFrame(tick);})(s); }); } }); },{threshold:.4});
   var ab=document.querySelector('.about'); if(ab)co.observe(ab);
   var ENDPOINT='https://hook.eu1.make.com/7ws9ylhmcf8pwpnmeh4k6bq58bu6i6oe';
-  function wire(id,okId,errId,formName){var f=document.getElementById(id);if(!f)return;f.addEventListener('submit',function(ev){ev.preventDefault();var ok=true;[].forEach.call(f.querySelectorAll('[required]'),function(el){if(!el.checkValidity()){ok=false;el.reportValidity();}});if(!ok)return;var btn=f.querySelector('button');var okEl=document.getElementById(okId),errEl=document.getElementById(errId);okEl.classList.remove('show');errEl.classList.remove('show');btn.disabled=true;var label=btn.textContent;btn.textContent='Sending…';var data={form:formName,page:location.href};[].forEach.call(f.querySelectorAll('input,textarea'),function(el){data[el.name]=el.value.trim();});fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)}).then(function(r){if(!r.ok)throw new Error(r.status);okEl.classList.add('show');f.reset();window.dataLayer=window.dataLayer||[];window.dataLayer.push({event:'form_submit_success',form:formName});btn.textContent=label;}).catch(function(){errEl.classList.add('show');btn.disabled=false;btn.textContent=label;});});}
-  wire('clForm','clOk','clErr','checklist');wire('eqForm','eqOk','eqErr','enquiry');
+  function wire(id,okId,errId,formName,redirect){var f=document.getElementById(id);if(!f)return;f.addEventListener('submit',function(ev){ev.preventDefault();var ok=true;[].forEach.call(f.querySelectorAll('[required]'),function(el){if(!el.checkValidity()){ok=false;el.reportValidity();}});if(!ok)return;var btn=f.querySelector('button');var okEl=document.getElementById(okId),errEl=document.getElementById(errId);okEl.classList.remove('show');errEl.classList.remove('show');btn.disabled=true;var label=btn.textContent;btn.textContent='Sending…';var data={form:formName,page:location.href};[].forEach.call(f.querySelectorAll('input,textarea'),function(el){data[el.name]=el.value.trim();});fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)}).then(function(r){if(!r.ok)throw new Error(r.status);window.dataLayer=window.dataLayer||[];window.dataLayer.push({event:'form_submit_success',form:formName});window.dataLayer.push({event:'form_submit_'+formName});if(redirect){location.href=redirect;return;}okEl.classList.add('show');f.reset();btn.textContent=label;}).catch(function(){errEl.classList.add('show');btn.disabled=false;btn.textContent=label;});});}
+  wire('clForm','clOk','clErr','checklist');wire('eqForm','eqOk','eqErr','enquiry','/thank-you/?enquiry=sent');
 })();
 </script>
 </Base>
