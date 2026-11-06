@@ -4,8 +4,6 @@
 
 User-agent: *
 Allow: /
-Disallow: /oneq-approve/
-Disallow: /one-question-intake/
 
 # AI search and assistant crawlers (explicitly allowed)
 User-agent: GPTBot
@@ -30,7 +28,5 @@ User-agent: YouBot
 User-agent: cohere-ai
 User-agent: MistralAI-User
 Allow: /
-Disallow: /oneq-approve/
-Disallow: /one-question-intake/
 
 Sitemap: https://www.katridout.com.au/sitemap-index.xml
