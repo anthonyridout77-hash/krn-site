@@ -9,7 +9,6 @@ import Article from '../layouts/Article.astro';
 import PathwayTimelines from '../components/PathwayTimelines.astro';
 import { pathways } from '../data/pathways';
 import { fc } from '../data/focused-consult';
-const rebate = '$63.40';
 const CALL = 'https://calendly.com/katridout/15-minute-investigative-callback';
 
 const starters = [
@@ -41,7 +40,7 @@ const schema = {
       mainEntity: [
         { '@type': 'Question', name: 'Do I have to commit to a program?', acceptedAnswer: { '@type': 'Answer', text: 'No. You can book a single initial consultation. If you book The Program within 14 days of your initial consultation, that consultation counts as its first appointment.' } },
         { '@type': 'Question', name: 'How many appointments are in a program?', acceptedAnswer: { '@type': 'Answer', text: 'The Program is five appointments: one 75-minute initial consultation and four reviews, usually across about 12 weeks. The Journey is eight: one initial consultation and seven reviews spaced across a pregnancy and into the first weeks after birth. Timing is flexible to you.' } },
-        { '@type': 'Question', name: 'Does Medicare cover dietitian consultations?', acceptedAnswer: { '@type': 'Answer', text: 'If your GP refers you under a GP Chronic Condition Management Plan you may receive a Medicare rebate of $63.40 per consultation for up to five allied-health visits a calendar year. Eligibility is your GP\'s decision. Private health extras may also apply; you cannot claim both for the same consultation.' } },
+        { '@type': 'Question', name: 'Does Medicare cover dietitian consultations?', acceptedAnswer: { '@type': 'Answer', text: 'If your GP refers you under a GP Chronic Condition Management Plan you may receive a Medicare rebate for up to five allied-health visits a calendar year. Eligibility is your GP\'s decision. Private health extras may also apply; you cannot claim both for the same consultation.' } },
       ],
     },
   ],
@@ -106,6 +105,7 @@ const schema = {
       <h3>The Journey</h3>
       <p><b>8 appointments in total:</b> the initial consultation plus seven reviews spaced across a pregnancy and into the first weeks after birth.</p>
       <p><b>Included:</b> everything in The Program, plus a third-trimester plan update, a birth and early breastfeeding guide, and a postpartum appointment within six weeks of birth. Use within 12 months.</p>
+      <p class="fine"><b>Joining later in pregnancy?</b> Kat can see you for individual consultations or create a tailored package for the weeks you have left.</p>
     </article>
   </div>
   <p class="fine">Appointments outside a program (for example an extra review, or a partner appointment) are booked and charged separately. Program appointments can be used across stages, for example moving from preconception into pregnancy.</p>
@@ -147,7 +147,7 @@ const schema = {
   <ul>
     <li>Your GP may refer you under a GP Chronic Condition Management Plan (GPCCMP) if they consider dietetic care appropriate. Eligibility is your GP's decision.</li>
     <li>The plan allows up to five allied-health visits per calendar year, shared across every allied-health professional on your plan (for example a physiotherapist or psychologist as well as a dietitian). How many of your program appointments attract a rebate depends on how many of those visits you have left.</li>
-    <li>The Medicare rebate for a dietitian consultation is {rebate} per visit as at 1 July 2026. You pay the fee on the day and the rebate is claimed back for you.</li>
+    <li>Medicare rebate applicable with a GPCCMP referral. You pay the fee on the day and the rebate is claimed back for you.</li>
     <li>The One-Question Consult is private-pay only and does not use one of your five visits.</li>
   </ul>
 
@@ -156,7 +156,7 @@ const schema = {
 
   <h2 id="payment">Payment, cancellations and refunds</h2>
   <ul>
-    <li>Dietetic services are GST-free.</li>
+    <li>Consultations are GST-free because dietetics is a health service.</li>
     <li>Consultations are paid on the day. The One-Question Consult is prepaid when you book. Programs can be paid in full or in instalments.</li>
     <li>Reschedule or cancel free of charge up to 24 hours before your appointment. Inside 24 hours the fee is retained.</li>
     <li>Program appointments can be used within 12 months of purchase.</li>

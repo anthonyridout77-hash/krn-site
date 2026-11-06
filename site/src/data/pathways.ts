@@ -105,11 +105,11 @@ export const pathways: Pathway[] = [
     ],
   },
   {
-    id: 'pmos', tab: 'PCOS (PMOS)', name: 'PCOS (PMOS) pathway', utm: 'pmos',
-    who: 'Diagnosed PCOS (also called PMOS), irregular cycles, insulin resistance, or PCOS plus fertility.',
-    story: 'There is no single superior diet for PCOS. Lifestyle change helps even without weight loss, and the plan is built around insulin, hunger and what you can sustain. A weight-neutral option is always offered.',
+    id: 'pmos', tab: 'PMOS (PCOS)', name: 'PMOS (PCOS) pathway', utm: 'pmos',
+    who: 'Diagnosed PMOS (PCOS), irregular cycles, insulin resistance, or PMOS plus fertility.',
+    story: 'There is no single superior diet for PMOS (PCOS). Lifestyle change helps even without weight loss, and the plan is built around insulin, hunger and what you can sustain. A weight-neutral option is always offered.',
     program: 'The Program: 1 initial + 4 reviews over about 12 weeks, with a hand-over to the Fertility pathway if that is the goal.',
-    medicare: 'PCOS is a chronic condition, so your GP may be able to refer you under a GP Chronic Condition Management Plan: up to five rebated visits a calendar year, which matches the five consults.',
+    medicare: 'PMOS (PCOS) is a chronic condition, so your GP may be able to refer you under a GP Chronic Condition Management Plan: up to five rebated visits a calendar year, which matches the five consults.',
     consults: [
       { when: 'Week 0', length: '75 min', title: 'Full assessment', detail: 'Cycle pattern, symptoms, bloods, medications, weight and dieting history, movement. Weight-neutral option offered.', takeaway: takeawayFirst },
       { when: 'Week 2', length: '30 min', title: 'Insulin, explained plainly', detail: 'Carbohydrate quality and spread, protein and fibre at each meal, regular eating to manage hunger and cravings.' },
