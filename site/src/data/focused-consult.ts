@@ -26,12 +26,44 @@ export const fc = {
     'A brief written summary of the advice discussed and agreed next steps',
   ],
 
+  /* Example questions that suit 30 minutes (targeted history only, no full diet history). Draft list, Anthony 7 Nov 2026; Kat to confirm. */
+  goodQuestions: [
+    { group: 'Supplements', items: [
+      'Which prenatal should I take, or is the one I am on right?',
+      'Do I need iodine, folate, vitamin D or omega-3, and how much is standard?',
+      'Is my multivitamin, protein powder or herbal tea OK while pregnant or breastfeeding?',
+      'What should my partner take while we are trying?',
+    ] },
+    { group: 'Food safety in pregnancy', items: [
+      'Can I eat sushi, soft cheese, deli meat, runny eggs or tuna?',
+      'How much coffee or caffeine is OK?',
+      'Is this herbal tea safe?',
+      'Can I keep fasting, keto or intermittent fasting while pregnant?',
+    ] },
+    { group: 'Getting a nutrient from food', items: [
+      'How do I get enough iron, choline, iodine, calcium or omega-3 from food?',
+      'I am vegetarian or vegan: what do I need to watch while pregnant or breastfeeding?',
+      'I do not eat fish or dairy: what do I swap in?',
+    ] },
+    { group: 'Everyday eating', items: [
+      'Easy breakfasts and snacks while breastfeeding',
+      'What to eat with mild nausea or food aversions',
+      'Eating well with no time: freezer meals, shift work or travel',
+    ] },
+    { group: 'Babies', items: [
+      'When and how do I start solids?',
+      'First foods and introducing allergy foods such as peanut and egg',
+    ] },
+  ],
+
   initialBetterWhen: [
+    'Fertility, IVF or PMOS (PCOS) nutrition',
+    'Gestational diabetes or another diagnosis that needs ongoing management',
+    'Weight concerns, ongoing tiredness or gut symptoms',
     'Several concerns need to be understood together',
     'A comprehensive dietary and health history assessment is needed',
-    'Detailed pathology interpretation is required',
+    'Blood results need interpreting, or supplement doses need setting from them',
     'You need comprehensive meal or supplement planning',
-    'You need ongoing condition management or coordinated reviews',
   ],
 
   deliverable: 'Brief written summary',

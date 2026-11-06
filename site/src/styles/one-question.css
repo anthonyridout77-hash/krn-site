@@ -41,6 +41,10 @@ section[id]{scroll-margin-top:84px}
 .list li{padding-left:1.6rem;position:relative;color:var(--fg)}
 .list li::before{content:"";position:absolute;left:0;top:.5em;width:.75rem;height:.75rem;border-radius:50%;background:var(--sage)}
 .list.no li::before{background:var(--coral)}
+.qgrid{display:grid;gap:1rem;margin-top:1.6rem}
+@media (min-width:760px){.qgrid{grid-template-columns:1fr 1fr}}
+@media (min-width:1040px){.qgrid{grid-template-columns:repeat(3,1fr)}}
+#questions .fine{margin-top:1.2rem}
 .band{background:var(--mint)}
 .fine{font-size:.88rem;color:var(--fg-soft);margin-top:1rem;max-width:44rem}
 details{border-top:1px solid var(--line);padding:1rem 0}
