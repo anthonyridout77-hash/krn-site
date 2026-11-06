@@ -6,7 +6,10 @@ export default defineConfig({
   site: 'https://www.katridout.com.au',
   output: 'static',
   trailingSlash: 'always',
-  integrations: [sitemap()],
+  integrations: [sitemap({
+    // noindex pages: keep out of the sitemap
+    filter: (page) => !/\/(thank-you|guide|telehealth-terms|one-question-consult)\/$/.test(page),
+  })],
   markdown: { remarkPlugins: [remarkStripTitle] },
   build: { inlineStylesheets: 'auto' },
 });

@@ -1,0 +1,55 @@
+---
+/* Confirmation page for bookings and enquiries.
+   ?booking=confirmed  -> free call booked
+   ?booking=express    -> One-Question Consult booked
+   (no param)          -> enquiry / message received */
+import Base from '../layouts/Base.astro';
+import PageScript from '../components/PageScript.astro';
+import '../styles/article.css';
+---
+<Base title="Thank you | Katrina Ridout Nutrition" description="Your booking or message has been received. Here is what happens next." noindex={true}>
+  <section class="nf">
+    <!-- GTM container snippet goes here once GTM is installed on the new site. Conversion event fires on this page. -->
+    <div class="wrap">
+      <h1 id="tyHeading">Thanks, message received</h1>
+      <p id="tyText">Kat will reply by email, usually within two business days. If it is urgent, call 1300 640 104.</p>
+      <div class="ty-next" id="tyNext">
+        <h2>What happens next</h2>
+        <ul>
+          <li>Check your inbox for a confirmation email. If it is not there, look in spam and add info@katridout.com.au to your contacts.</li>
+          <li>If you have a GP Chronic Condition Management Plan (GPCCMP) referral or private health extras, keep the paperwork handy.</li>
+          <li>Jot down the questions you want answered so nothing is missed.</li>
+        </ul>
+      </div>
+      <div class="cta-row">
+        <a class="btn btn-coral" href="/">Back to home</a>
+        <a class="btn btn-line" href="/blogs/">Read the articles</a>
+      </div>
+    </div>
+  </section>
+  <PageScript slot="after" />
+  <script is:inline>
+  (function(){
+    var b = new URLSearchParams(window.location.search).get('booking');
+    var h = document.getElementById('tyHeading');
+    var t = document.getElementById('tyText');
+    if (!h || !t) return;
+    if (b === 'confirmed') {
+      h.textContent = "Thanks, you're booked";
+      t.textContent = 'Your free 15-minute call with Kat is confirmed. A calendar invite with the call details is on its way to your inbox.';
+      document.title = "Thanks, you're booked | Katrina Ridout Nutrition";
+    } else if (b === 'express') {
+      h.textContent = "Thanks, you're booked";
+      t.textContent = 'Your One-Question Consult with Kat is confirmed. Your confirmation email has the video link and a place to send Kat your question before the call.';
+      document.title = "Thanks, you're booked | Katrina Ridout Nutrition";
+    }
+  })();
+  </script>
+</Base>
+<style>
+  .ty-next{margin:2rem auto 0;max-width:34rem;text-align:left;background:var(--mint);border-radius:22px;padding:1.4rem 1.5rem}
+  .ty-next h2{font-size:1.2rem}
+  .ty-next ul{margin:.8rem 0 0;padding-left:1.2rem;display:grid;gap:.5rem;color:var(--fg-soft);font-size:.97rem}
+  .ty-next li::marker{color:var(--sage-deep)}
+  .nf .cta-row{margin-top:1.8rem}
+</style>
