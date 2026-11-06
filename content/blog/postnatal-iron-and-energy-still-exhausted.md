@@ -31,7 +31,7 @@ Iron sits at the centre of haemoglobin, the protein in red blood cells that carr
 
 Two things happen around birth that draw on those stores. The first is pregnancy itself, which increases iron requirements substantially in the third trimester as your blood volume expands and your baby builds their own stores. The second is blood loss at delivery, which happens to some degree in every birth and to a greater degree in some.
 
-What surprises people is the lag. Stores drawn down in the third trimester and at delivery do not necessarily announce themselves in week two, when you are running on adrenaline and everyone expects you to be tired anyway. They can show up at three or four months, when the adrenaline has gone and you were promised you would feel better. If you want the pregnancy side of this story, I have written separately about [iron in pregnancy and feeling tired before anaemia shows up](https://www.katridout.com.au/blogs/iron-in-pregnancy-tired-before-anaemia/).
+What surprises people is the lag. Stores drawn down in the third trimester and at delivery do not necessarily announce themselves in week two, when you are running on adrenaline and everyone expects you to be tired anyway. They can show up at three or four months, when the adrenaline has gone and you were promised you would feel better. If you want the pregnancy side of this story, I have written separately about [iron in pregnancy and feeling tired before anaemia shows up](/blogs/iron-in-pregnancy-tired-before-anaemia/).
 
 ## Food sources that actually shift iron, and what blocks absorption
 
@@ -79,9 +79,9 @@ If your bloods come back unremarkable and you still feel the way you feel, that 
 
 Your GP orders the bloods, reads them in the context of your history, and decides on medical treatment. That is their work and it is not mine.
 
-What I do sits next to it. I look at what you are actually eating on a real day with a baby in the house, not the day you would eat if you had time. Sometimes the iron question turns out to be tangled up with a simpler one, which is that meals are being skipped or reduced to whatever can be eaten standing up. I have written about that side of it in [what to eat after birth when you have no time to cook](https://www.katridout.com.au/blogs/what-to-eat-after-birth-no-time-to-cook/).
+What I do sits next to it. I look at what you are actually eating on a real day with a baby in the house, not the day you would eat if you had time. Sometimes the iron question turns out to be tangled up with a simpler one, which is that meals are being skipped or reduced to whatever can be eaten standing up. I have written about that side of it in [what to eat after birth when you have no time to cook](/blogs/what-to-eat-after-birth-no-time-to-cook/).
 
-From there the work is practical. Which iron sources you will realistically eat, how to pair them so more of the iron gets absorbed, where the tea and coffee are landing in your day, and how to keep it going once you are back at work. If you are supplementing, I can help with the timing and the side effects that make people give up on it in week two. You can read more about how this works on my [postnatal nutrition](https://www.katridout.com.au/our-services/postnatal-nutrition/) page.
+From there the work is practical. Which iron sources you will realistically eat, how to pair them so more of the iron gets absorbed, where the tea and coffee are landing in your day, and how to keep it going once you are back at work. If you are supplementing, I can help with the timing and the side effects that make people give up on it in week two. You can read more about how this works on my [postnatal nutrition](/our-services/postnatal-nutrition/) page.
 
 If you are still exhausted at four months, that is worth taking seriously rather than filing under normal. You can [book a 15-minute callback](https://calendly.com/katridout/15-minute-investigative-callback) and we can work out whether this is something I can help with, and what to raise with your GP first.
 

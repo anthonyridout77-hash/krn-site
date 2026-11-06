@@ -57,7 +57,7 @@ Your needs for several nutrients rise far more than your energy needs do, so the
 - Omega-3 fats: from two to three serves a week of low-mercury fish
 - Protein: at every meal to support your baby’s growth. See protein in pregnancy
 ### Why it is worth getting support early
-Gaining well above or below the recommended range is linked with a higher chance of complications such as gestational diabetes and differences in your baby’s birth weight. That is not a reason to diet in pregnancy. It is a reason to get practical, non-judgemental support that fits your appetite, culture, budget and energy levels. If you have been diagnosed with gestational diabetes, read what to do next (https://www.katridout.com.au/blogs/gestational-diabetes-just-diagnosed-what-now/).
+Gaining well above or below the recommended range is linked with a higher chance of complications such as gestational diabetes and differences in your baby’s birth weight. That is not a reason to diet in pregnancy. It is a reason to get practical, non-judgemental support that fits your appetite, culture, budget and energy levels. If you have been diagnosed with gestational diabetes, read what to do next (/blogs/gestational-diabetes-just-diagnosed-what-now/).
 I am here to help you meet all of your nutritional needs so you can feel confident and cared for during this journey. By focusing on balanced, evidence-based nutrition, we can work together to support a healthy pregnancy and give your baby the very best start to life.
 When we work together you receive:
 

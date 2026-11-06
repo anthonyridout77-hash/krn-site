@@ -32,7 +32,7 @@ wpUrl: "https://api.katridout.com.au/blogs/telehealth-ivf-fertility-dietitian-au
 3. **Transfer and the two-week wait:** steady, simple eating and supplement checks
 4. **After a result:** pregnancy nutrition, or support and planning for the next cycle
 
-The IVF Preparation Program (7 consults) is built around this timeline. More: [IVF dietitian support](https://www.katridout.com.au/blogs/ivf-dietitian-brisbane-nutrition/).
+The IVF Preparation Program (7 consults) is built around this timeline. More: [IVF dietitian support](/blogs/ivf-dietitian-brisbane-nutrition/).
 
 ## Who it’s for
 

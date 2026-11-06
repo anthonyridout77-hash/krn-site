@@ -47,7 +47,7 @@ The three months or so before conception is the most useful and least used windo
 
 Practically, that means the routine preconception items handled properly: folate and iodine per the national guidance, iron and vitamin D checked with your GP rather than guessed at, and an eating pattern that already fits your real week before morning sickness and appointments arrive to complicate it.
 
-If you are preparing for IVF, the same window applies and the timelines are usually tighter. There is more on that on the [IVF nutrition](https://www.katridout.com.au/our-services/prenatal-nutrition-and-dietetics/ivf-nutrition/) page, and the broader picture sits on the [nutrition for fertility](https://www.katridout.com.au/our-services/nutrition-for-fertility/) page.
+If you are preparing for IVF, the same window applies and the timelines are usually tighter. There is more on that on the [IVF nutrition](/our-services/prenatal-nutrition-and-dietetics/ivf-nutrition/) page, and the broader picture sits on the [nutrition for fertility](/our-services/nutrition-for-fertility/) page.
 
 ## When it is worth seeing an APD
 
@@ -59,6 +59,6 @@ In Australia, a GP can sometimes set up a chronic disease management plan, which
 
 I work with people managing endometriosis as part of fertility and pregnancy nutrition. Brisbane based, telehealth Australia-wide, and always alongside your medical team rather than in place of it. A first appointment is mostly questions, because advice that starts from your actual results and your actual week goes considerably further than a template.
 
-You can read more about that side of things on the [endometriosis](https://www.katridout.com.au/our-services/prenatal-nutrition-and-dietetics/endometriosis/) service page. If you would like the food detail rather than the overview, there is a longer piece on [endometriosis and diet](https://www.katridout.com.au/blogs/endometriosis-diet-fertility/).
+You can read more about that side of things on the [endometriosis](/our-services/prenatal-nutrition-and-dietetics/endometriosis/) service page. If you would like the food detail rather than the overview, there is a longer piece on [endometriosis and diet](/blogs/endometriosis-diet-fertility/).
 
 And if you are not sure whether any of this applies to you, that is exactly the kind of thing a short callback can settle before you commit to anything.

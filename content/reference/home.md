@@ -1,6 +1,6 @@
 ---
 title: "Fertility & Pregnancy Dietitian Brisbane | Kat Ridout APD"
-source: "https://www.katridout.com.au/"
+source: "/"
 captured: "2026-10-20"
 note: "Copy captured from the old site for rewriting into Astro. Reference only, not published."
 ---

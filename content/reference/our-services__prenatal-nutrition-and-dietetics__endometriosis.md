@@ -1,6 +1,6 @@
 ---
 title: "Endometriosis Dietitian Brisbane | Katrina Ridout APD"
-source: "https://www.katridout.com.au/our-services/prenatal-nutrition-and-dietetics/endometriosis/"
+source: "/our-services/prenatal-nutrition-and-dietetics/endometriosis/"
 captured: "2026-10-20"
 note: "Copy captured from the old site for rewriting into Astro. Reference only, not published."
 ---

@@ -3,6 +3,17 @@ import Base from '../layouts/Base.astro';
 import BookBar from '../components/BookBar.astro';
 ---
 <Base title="Fertility, Pregnancy & Postpartum Dietitian Brisbane | Katrina Ridout Nutrition" description="Evidence-based, personalised nutrition through preconception, IVF, pregnancy and postpartum from Katrina Ridout, Accredited Practising Dietitian. Milton, Brisbane and telehealth Australia-wide.">
+<Fragment slot="head">
+<script type="application/ld+json" set:html={JSON.stringify({
+  "@context":"https://schema.org","@type":"MedicalBusiness","name":"Katrina Ridout Nutrition",
+  "url":"https://www.katridout.com.au/","telephone":"+611300640104","email":"info@katridout.com.au",
+  "image":"https://www.katridout.com.au/images/kat-ridout-apd.jpg",
+  "address":{"@type":"PostalAddress","streetAddress":"Milton Village Medical, Level 1, 36 Baroona Road","addressLocality":"Milton","addressRegion":"QLD","postalCode":"4064","addressCountry":"AU"},
+  "areaServed":"Australia",
+  "founder":{"@type":"Person","name":"Katrina Ridout","jobTitle":"Accredited Practising Dietitian"},
+  "sameAs":["https://www.instagram.com/katrinaridoutnutrition/","https://www.facebook.com/katrinaridoutnutrition/"]
+})} />
+</Fragment>
 <section class="hero">
   <div class="wrap">
     <div class="hero-copy">
@@ -29,7 +40,7 @@ import BookBar from '../components/BookBar.astro';
     </div>
     <div class="hero-photo">
       <div class="panel"></div>
-      <img src="/images/kat-ridout-apd.jpg" alt="Katrina Ridout, Accredited Practising Dietitian" width="480" height="480">
+      <img src="/images/kat-ridout-apd.jpg" alt="Katrina Ridout, Accredited Practising Dietitian" width="480" height="480" fetchpriority="high" decoding="async">
       <div class="tag"><b>Katrina Ridout</b><small>Accredited Practising Dietitian</small></div>
     </div>
   </div>
@@ -61,7 +72,7 @@ import BookBar from '../components/BookBar.astro';
 
 <section class="about" id="about">
   <div class="wrap">
-    <div class="about-photo rv"><img src="/images/kat-ridout-bw.jpg" alt="Katrina Ridout" width="520" height="550"></div>
+    <div class="about-photo rv"><img src="/images/kat-ridout-bw.jpg" alt="Katrina Ridout" width="520" height="550" loading="lazy" decoding="async"></div>
     <div>
       <p class="eyebrow rv">About Kat</p>
       <h2 class="rv d1">Qualified, recognised, and <span class="hl">genuinely in your corner</span></h2>
@@ -128,10 +139,10 @@ import BookBar from '../components/BookBar.astro';
     <h2 class="rv d1">Easy to make, built for you and your growing baby</h2>
     <p class="lead rv d2">Breakfast, lunch, dinner and snacks, with the nutrients that matter in pregnancy worked in.</p>
     <div class="rgrid">
-      <a class="rcard rv" href="/recipes-for-pregnancy/"><img src="/images/recipe-smoothie.jpg" alt=""><span>Green smoothie</span></a>
-      <a class="rcard rv d1" href="/recipes-for-pregnancy/"><img src="/images/recipe-carrot.jpg" alt=""><span>Roasted carrot &amp; grain salad</span></a>
-      <a class="rcard rv d2" href="/recipes-for-pregnancy/"><img src="/images/recipe-omelette.jpg" alt=""><span>Capsicum, spinach &amp; mushroom omelette</span></a>
-      <a class="rcard rv d3" href="/recipes-for-pregnancy/"><img src="/images/recipe-salmon.jpg" alt=""><span>Grilled salmon with greens</span></a>
+      <a class="rcard rv" href="/recipes-for-pregnancy/green-smoothie/"><img src="/images/recipe-smoothie.jpg" alt="" loading="lazy" width="400" height="300"><span>Green smoothie</span></a>
+      <a class="rcard rv d1" href="/recipes-for-pregnancy/roasted-carrot-and-grain-salad-with-chilli-mint-and-quick-tahini-dressing/"><img src="/images/recipe-carrot.jpg" alt="" loading="lazy" width="400" height="300"><span>Roasted carrot &amp; grain salad</span></a>
+      <a class="rcard rv d2" href="/recipes-for-pregnancy/capsicum-tomato-spinach-and-mushroom-omelette/"><img src="/images/recipe-omelette.jpg" alt="" loading="lazy" width="400" height="300"><span>Capsicum, spinach &amp; mushroom omelette</span></a>
+      <a class="rcard rv d3" href="/recipes-for-pregnancy/perfect-grilled-salmon-with-green-beans-carrots-and-broccoli/"><img src="/images/recipe-salmon.jpg" alt="" loading="lazy" width="400" height="300"><span>Grilled salmon with greens</span></a>
     </div>
   </div>
 </section>
@@ -150,7 +161,7 @@ import BookBar from '../components/BookBar.astro';
           <input id="clEmail" name="email" type="email" autocomplete="email" required>
           <button class="btn btn-coral" type="submit">Email me the checklist</button>
           <small>You'll also get a short series of emails from Kat. Unsubscribe any time.</small>
-          <p class="ok" id="clOk">Sent. Check your inbox in a minute.</p>
+          <p class="ok" id="clOk" role="status" aria-live="polite">Sent. Check your inbox in a minute.</p>
         </form>
       </div>
     </div>
@@ -163,7 +174,7 @@ import BookBar from '../components/BookBar.astro';
       <div>
         <h2>Have a question before you book?</h2>
         <p>Send a note and Kat will reply by email. For bookings, the free 15-minute call is the quickest way to start.</p>
-        <p class="edetails">1300 640 104<br>info@katridout.com.au<br>Milton Village Medical, Level 1, 36 Baroona Road, Milton QLD 4064</p>
+        <p class="edetails"><a href="tel:1300640104">1300 640 104</a><br><a href="mailto:info@katridout.com.au">info@katridout.com.au</a><br>Milton Village Medical, Level 1, 36 Baroona Road, Milton QLD 4064</p>
       </div>
       <form id="eqForm" novalidate>
         <label for="eqName">Name</label>
@@ -173,7 +184,7 @@ import BookBar from '../components/BookBar.astro';
         <label for="eqMsg">Your question</label>
         <textarea id="eqMsg" name="message" rows="4" required></textarea>
         <button class="btn btn-dark" type="submit">Send enquiry</button>
-        <p class="ok" id="eqOk">Sent. Kat will reply by email.</p>
+        <p class="ok" id="eqOk" role="status" aria-live="polite">Sent. Kat will reply by email.</p>
       </form>
     </div>
   </div>

@@ -77,9 +77,9 @@ You don’t need a referral to see a dietitian. If you have a chronic condition 
 
 When we work together, the first consult is all about you: your history, cycle, bloods and how you actually eat day to day. I start with what you’re already doing well, then we find a few simple little switches. You get a written plan within 48 hours, including your supplement plan, and I’m happy to write back to your GP or fertility specialist so everyone is on the same page.
 
-From there we tweak and tweak at your reviews, and you can just email me in between if something comes up. Your partner is welcome to join, and I also offer an [IVF nutrition](https://www.katridout.com.au/our-services/prenatal-nutrition-and-dietetics/ivf-nutrition/) option timed around your treatment cycle.
+From there we tweak and tweak at your reviews, and you can just email me in between if something comes up. Your partner is welcome to join, and I also offer an [IVF nutrition](/our-services/prenatal-nutrition-and-dietetics/ivf-nutrition/) option timed around your treatment cycle.
 
-I consult by telehealth Australia-wide, and in person at Milton Village Medical, Level 1, 36 Baroona Road, Milton QLD 4064. If you’d like to chat about whether it’s right for you, call 1300 640 104 or read more about [working with a fertility dietitian](https://www.katridout.com.au/our-services/nutrition-for-fertility/). This article is general information, not individual advice.
+I consult by telehealth Australia-wide, and in person at Milton Village Medical, Level 1, 36 Baroona Road, Milton QLD 4064. If you’d like to chat about whether it’s right for you, call 1300 640 104 or read more about [working with a fertility dietitian](/our-services/nutrition-for-fertility/). This article is general information, not individual advice.
 
 ## Key Takeaways
 

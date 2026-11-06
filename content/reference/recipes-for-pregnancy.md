@@ -1,6 +1,6 @@
 ---
 title: "Recipes for Pregnancy - Katrina Ridout Nutrition"
-source: "https://www.katridout.com.au/recipes-for-pregnancy/"
+source: "/recipes-for-pregnancy/"
 captured: "2026-10-20"
 note: "Copy captured from the old site for rewriting into Astro. Reference only, not published."
 ---

@@ -21,7 +21,7 @@ Early pregnancy is not when your energy needs jump. What changes is the density.
 
 The NHMRC Nutrient Reference Values put the pregnancy recommended dietary intake for folate at 600 micrograms a day, iodine at 220 micrograms, iron at 27 milligrams and calcium at 1000 milligrams. Breakfast is the meal best placed to do a chunk of that quietly, because it is the most repeatable meal of the day. Most of us are creatures of habit before nine in the morning, and a habit is the cheapest nutrition change there is.
 
-The other reason I care about breakfast in the first trimester is that it is often the only meal that happens before the nausea builds. For a lot of women the morning is the good window, and spending it on tea and a dry biscuit is a missed opportunity. If you want the straightforward list of ideas, I have written one for [breakfast ideas for pregnant women in Brisbane](https://www.katridout.com.au/blogs/the-best-breakfast-ideas-for-pregnant-women-in-brisbane/). This piece is the first trimester version, where nausea changes the brief.
+The other reason I care about breakfast in the first trimester is that it is often the only meal that happens before the nausea builds. For a lot of women the morning is the good window, and spending it on tea and a dry biscuit is a missed opportunity. If you want the straightforward list of ideas, I have written one for [breakfast ideas for pregnant women in Brisbane](/blogs/the-best-breakfast-ideas-for-pregnant-women-in-brisbane/). This piece is the first trimester version, where nausea changes the brief.
 
 ## When nausea is running your morning
 
@@ -64,7 +64,7 @@ Plant iron, which is most of what breakfast offers, is poorly absorbed on its ow
 * Keep the tea or coffee away from the iron by an hour or two. Both blunt absorption, and so does the calcium in a milky drink.
 * If you take an iron supplement the same rule applies. It and your cup of tea are in competition.
 
-If you are already tired in a way that sleep is not fixing, the number to ask your GP about is ferritin rather than serum iron. There is more on that in [iron in pregnancy](https://www.katridout.com.au/blogs/iron-in-pregnancy-tired-before-anaemia/).
+If you are already tired in a way that sleep is not fixing, the number to ask your GP about is ferritin rather than serum iron. There is more on that in [iron in pregnancy](/blogs/iron-in-pregnancy-tired-before-anaemia/).
 
 ![An open glass jar filled with rolled oats standing on a kitchen counter](/images/wp/2026/10/krn-breakfast-first-trimester-oats-body.jpg)
 
@@ -76,7 +76,7 @@ Worth knowing about oats in particular. Quick oats are crushed so fine that your
 
 Easy protein at breakfast, in order of how little effort it takes: Greek yoghurt, a cold boiled egg cooked the night before, tinned fish on toast, milk on cereal, scrambled or hard boiled eggs, a spoon of nut butter.
 
-One food safety note for the first trimester, since breakfast is where it tends to bite. Eggs want to be cooked until both the white and the yolk are firm, so the soft and runny versions are worth skipping while you are pregnant. Cold smoked salmon and soft cheeses are on the list as well. The full Australian guide is in [what not to eat when pregnant](https://www.katridout.com.au/blogs/what-not-to-eat-when-pregnant-australia/).
+One food safety note for the first trimester, since breakfast is where it tends to bite. Eggs want to be cooked until both the white and the yolk are firm, so the soft and runny versions are worth skipping while you are pregnant. Cold smoked salmon and soft cheeses are on the list as well. The full Australian guide is in [what not to eat when pregnant](/blogs/what-not-to-eat-when-pregnant-australia/).
 
 ## The coffee question, counted in shots
 
@@ -104,7 +104,7 @@ Stir the oats, milk, yoghurt, chia and fruit together in a container or in two j
 
 The dietitian’s note. Rolled oats rather than quick oats, so your body does the work of breaking them down. The oats bring iron and fibre, the berries bring the vitamin C that helps you absorb that iron, the milk and yoghurt bring calcium and iodine, and the yoghurt and chia bring the protein that gives the whole thing staying power. The walnuts are there for omega-3. It is cold, which means almost no smell, and it is already made, which on a bad morning is the entire point. Designed with the first trimester in mind, as general education rather than advice for anyone’s particular situation.
 
-There are more in [recipes for pregnancy](https://www.katridout.com.au/recipes-for-pregnancy/).
+There are more in [recipes for pregnancy](/recipes-for-pregnancy/).
 
 ## When it is worth seeing a pregnancy dietitian
 

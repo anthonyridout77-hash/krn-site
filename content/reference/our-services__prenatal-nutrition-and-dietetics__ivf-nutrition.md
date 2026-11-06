@@ -1,6 +1,6 @@
 ---
 title: "IVF Dietitian Brisbane and Australia-wide | Kat Ridout APD"
-source: "https://www.katridout.com.au/our-services/prenatal-nutrition-and-dietetics/ivf-nutrition/"
+source: "/our-services/prenatal-nutrition-and-dietetics/ivf-nutrition/"
 captured: "2026-10-20"
 note: "Copy captured from the old site for rewriting into Astro. Reference only, not published."
 ---

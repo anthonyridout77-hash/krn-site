@@ -80,7 +80,7 @@ No matter what type of speciality diet you follow, it’s still possible to get 
 I’m Katrina Ridout, an Accredited Practising Dietitian based in Brisbane with over a decade of experience in prenatal nutrition. I can help you feel confident that your diet is supporting both you and your baby — before, during and after pregnancy.
 
 ### Brisbane’s leading pregnancy nutritionist
-Katrina Ridout offers a range of nutritionist services in Brisbane, and virtually. Find out more about Kat’s range of services today (https://katridout.com.au/our-services/dietitian/).
+Katrina Ridout offers a range of nutritionist services in Brisbane, and virtually. Find out more about Kat’s range of services today (/our-services/dietitian/).
 To book an appointment with Kat Ridout, please call 1300 640 104 or get in touch on our website (https://katridout.com.au/contact-us/).
 
 ### Not sure where to start?

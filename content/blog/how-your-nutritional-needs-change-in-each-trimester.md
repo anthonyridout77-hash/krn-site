@@ -54,7 +54,7 @@ A chat with a dietitian can take so much guesswork out of pregnancy nutrition.
 
 Every pregnancy is unique. What works for one person may not suit another, especially with factors like food preferences, intolerances, or medical conditions. That’s where professional guidance can make a real difference.
 
-Katrina Ridout, an Accredited Practising Dietitian & Nutritionist, helps women make informed dietary choices through each stage of pregnancy. As a [pregnancy dietitian](https://www.katridout.com.au/our-services/pregnancy-nutrition-and-dietetics/) in Brisbane, she provides personalised nutrition plans that adapt to changing needs, helping expectant mothers feel supported and well-nourished.
+Katrina Ridout, an Accredited Practising Dietitian & Nutritionist, helps women make informed dietary choices through each stage of pregnancy. As a [pregnancy dietitian](/our-services/pregnancy-nutrition-and-dietetics/) in Brisbane, she provides personalised nutrition plans that adapt to changing needs, helping expectant mothers feel supported and well-nourished.
 
 Trimester by trimester care runs well over video. If you are in Western Australia, the [Perth pregnancy nutrition guide](/blogs/pregnancy-dietitian-perth/) walks through the same stages with the local picture, and the [Perth telehealth page](/fertility-pregnancy-dietitian-perth/) explains how appointments work across the time difference.
 

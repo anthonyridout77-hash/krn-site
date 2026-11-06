@@ -77,7 +77,7 @@ A prenatal supplement is not a treatment for PMOS. What the guideline does say i
 
 So the prenatal is doing pregnancy work rather than PMOS work, and it is still worth getting right. Bring the actual bottle to your appointment rather than the name of it. Iodine is missing from some pregnancy multivitamins and iron amounts vary a good deal between them.
 
-If fertility is the reason you are reading this, the [fertility nutrition](https://www.katridout.com.au/our-services/nutrition-for-fertility/) page sets out how I work, and there is a separate page on [nutrition through IVF](https://www.katridout.com.au/our-services/ivf-nutrition/).
+If fertility is the reason you are reading this, the [fertility nutrition](/our-services/nutrition-for-fertility/) page sets out how I work, and there is a separate page on [nutrition through IVF](https://www.katridout.com.au/our-services/ivf-nutrition/).
 
 ## A tray bake for a PMOS week
 

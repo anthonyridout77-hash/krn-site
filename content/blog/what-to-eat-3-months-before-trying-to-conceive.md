@@ -94,9 +94,9 @@ This is the bit I love. I’m Kat, an Accredited Practising Dietitian (APD), and
 
 I work alongside your GP and fertility clinic, never instead of them, and I write back to your referring doctor. A Medicare rebate may be available for eligible patients on a GP Chronic Condition Management Plan.
 
-You can see me in person at Milton Village Medical, Level 1, 36 Baroona Road, Milton QLD 4064, or by telehealth anywhere in Australia, pyjama pants and Ugg boots welcome. Call 1300 640 104 or book at [katridout.com.au](https://www.katridout.com.au/). I’d really love to help you get your T’s crossed and I’s dotted before you start trying. Kat xx
+You can see me in person at Milton Village Medical, Level 1, 36 Baroona Road, Milton QLD 4064, or by telehealth anywhere in Australia, pyjama pants and Ugg boots welcome. Call 1300 640 104 or book at [katridout.com.au](/). I’d really love to help you get your T’s crossed and I’s dotted before you start trying. Kat xx
 
-If you’d like a shorter version, have a read of [what to eat before trying to conceive](https://www.katridout.com.au/blogs/what-to-eat-before-trying-to-conceive/), and for your partner, [how food supports sperm health](https://www.katridout.com.au/blogs/male-fertility-dietitian-sperm-health/).
+If you’d like a shorter version, have a read of [what to eat before trying to conceive](/blogs/what-to-eat-before-trying-to-conceive/), and for your partner, [how food supports sperm health](/blogs/male-fertility-dietitian-sperm-health/).
 
 *This article is general information, not individual medical advice. Please speak with your GP or specialist about your own situation.*
 

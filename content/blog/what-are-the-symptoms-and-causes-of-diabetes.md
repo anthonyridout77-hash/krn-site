@@ -52,7 +52,7 @@ The cause of type 2 diabetes is not clear, though it is most common in people wh
 
 Gestational diabetes mellitus is a form of diabetes that occurs in pregnant women when they are unable to produce enough insulin to support both themself and their baby.
 
-To find out more about gestational diabetes mellitus, click [here](https://katridout.com.au/our-services/pregnancy-nutrition-and-dietetics/gestational-diabetes/).
+To find out more about gestational diabetes mellitus, click [here](/our-services/pregnancy-nutrition-and-dietetics/gestational-diabetes/).
 
 ![Healthy meal served on a plate](/images/wp/2026/07/krn-diabetes-symptoms-causes-body1.jpg)
 

@@ -20,7 +20,7 @@ wpUrl: "https://api.katridout.com.au/blogs/foods-for-postpartum-recovery-and-bre
 ## Nutrients that matter most
 
 * **Protein:** supports wound and perineal healing after a vaginal birth or caesarean. Include some at every meal and snack.
-* **Iron:** blood loss at birth and low stores in pregnancy are common reasons you might feel exhausted. Ask your GP to check. See [postnatal iron and energy](https://www.katridout.com.au/blogs/postnatal-iron-and-energy-still-exhausted/).
+* **Iron:** blood loss at birth and low stores in pregnancy are common reasons you might feel exhausted. Ask your GP to check. See [postnatal iron and energy](/blogs/postnatal-iron-and-energy-still-exhausted/).
 * **Iodine:** breastfeeding increases iodine needs, and iodine supports your baby’s brain development. The NHMRC recommends a 150 mcg supplement while breastfeeding.
 * **Calcium and vitamin D:** support your bones while breastfeeding.
 * **Omega-3 (DHA):** from oily fish such as salmon and sardines.
@@ -28,7 +28,7 @@ wpUrl: "https://api.katridout.com.au/blogs/foods-for-postpartum-recovery-and-bre
 
 ## Breastfeeding and milk supply
 
-Breastfeeding uses extra energy, so hunger is normal. Drink to thirst and keep a water bottle where you feed. Milk supply is driven mainly by frequent, effective feeding, not by particular foods. No food is proven to increase supply. If you’re worried about supply, see a lactation consultant, and read our [breastfeeding nutrition guide](https://www.katridout.com.au/blogs/breastfeeding-nutrition-and-milk-supply/).
+Breastfeeding uses extra energy, so hunger is normal. Drink to thirst and keep a water bottle where you feed. Milk supply is driven mainly by frequent, effective feeding, not by particular foods. No food is proven to increase supply. If you’re worried about supply, see a lactation consultant, and read our [breastfeeding nutrition guide](/blogs/breastfeeding-nutrition-and-milk-supply/).
 
 ## Easy, low-effort meals
 
@@ -38,7 +38,7 @@ Breastfeeding uses extra energy, so hunger is normal. Drink to thirst and keep a
 * Freezer-friendly mince and lentil bolognese
 * Trail mix, cheese and fruit by the feeding chair
 
-More ideas: [what to eat after birth when you have no time to cook](https://www.katridout.com.au/blogs/what-to-eat-after-birth-no-time-to-cook/).
+More ideas: [what to eat after birth when you have no time to cook](/blogs/what-to-eat-after-birth-no-time-to-cook/).
 
 ## What to limit
 
@@ -55,7 +55,7 @@ Consider a postpartum dietitian if you have low iron, a history of gestational d
 ## FAQ
 
 **How long is the postpartum recovery period for nutrition?**  
-Nutrient needs stay higher throughout breastfeeding, and replenishing iron can take months. Think of the whole first year. See [postnatal nutrition in the first year](https://www.katridout.com.au/blogs/postnatal-nutrition-first-year/).
+Nutrient needs stay higher throughout breastfeeding, and replenishing iron can take months. Think of the whole first year. See [postnatal nutrition in the first year](/blogs/postnatal-nutrition-first-year/).
 
 **Do lactation cookies work?**  
 There’s no good evidence that they increase supply, but they can be a convenient snack.

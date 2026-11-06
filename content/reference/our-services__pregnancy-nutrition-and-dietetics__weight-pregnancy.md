@@ -1,6 +1,6 @@
 ---
 title: "Pregnancy Weight Management Specialist Brisbane | Kat Ridout"
-source: "https://www.katridout.com.au/our-services/pregnancy-nutrition-and-dietetics/weight-pregnancy/"
+source: "/our-services/pregnancy-nutrition-and-dietetics/weight-pregnancy/"
 captured: "2026-10-20"
 note: "Copy captured from the old site for rewriting into Astro. Reference only, not published."
 ---

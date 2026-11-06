@@ -64,7 +64,7 @@ When people ask what they can bring, tell them. Most visitors genuinely want a j
 
 If you are breastfeeding, your appetite and thirst will usually be noticeably higher, and that is worth listening to rather than managing. Practically, it means more snacks and a drink within reach at every feed rather than a different diet.
 
-There is no single list of foods that everyone must avoid while breastfeeding. If you are wondering about a specific food, or about supply, there is more detail in [breastfeeding nutrition and milk supply](https://katridout.com.au/blogs/breastfeeding-nutrition-and-milk-supply/).
+There is no single list of foods that everyone must avoid while breastfeeding. If you are wondering about a specific food, or about supply, there is more detail in [breastfeeding nutrition and milk supply](/blogs/breastfeeding-nutrition-and-milk-supply/).
 
 ## When to get individual help
 
@@ -72,7 +72,7 @@ General advice covers most of the early weeks. It is worth speaking to someone i
 
 Persistent exhaustion is also worth raising with your GP, who can decide whether bloods are appropriate. Food is one part of that picture and not the whole of it.
 
-If you would like tailored support, you can read more about [postnatal nutrition consultations](https://katridout.com.au/our-services/postnatal-nutrition/). Sessions run by telehealth right across Australia, and a Medicare rebate may apply with a GP referral.
+If you would like tailored support, you can read more about [postnatal nutrition consultations](/our-services/postnatal-nutrition/). Sessions run by telehealth right across Australia, and a Medicare rebate may apply with a GP referral.
 
 ## The short version
 

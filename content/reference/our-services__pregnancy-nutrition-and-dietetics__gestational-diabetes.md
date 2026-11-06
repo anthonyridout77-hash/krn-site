@@ -1,6 +1,6 @@
 ---
 title: "Gestational Diabetes Dietitian | Brisbane & Australia-wide"
-source: "https://www.katridout.com.au/our-services/pregnancy-nutrition-and-dietetics/gestational-diabetes/"
+source: "/our-services/pregnancy-nutrition-and-dietetics/gestational-diabetes/"
 captured: "2026-10-20"
 note: "Copy captured from the old site for rewriting into Astro. Reference only, not published."
 ---

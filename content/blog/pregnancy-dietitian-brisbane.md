@@ -21,15 +21,15 @@ wpUrl: "https://api.katridout.com.au/blogs/pregnancy-dietitian-brisbane/"
 
 * Nausea and food aversions in the first trimester
 * Iron, iodine, vitamin D, B12 and folate: testing, food sources and supplements
-* Gestational diabetes prevention and management. See [gestational diabetes: just diagnosed](https://www.katridout.com.au/blogs/gestational-diabetes-just-diagnosed-what-now/).
+* Gestational diabetes prevention and management. See [gestational diabetes: just diagnosed](/blogs/gestational-diabetes-just-diagnosed-what-now/).
 * Healthy weight gain for your starting point
 * Vegetarian, vegan and cultural eating patterns
 * Food safety (listeria, mercury, alcohol and caffeine)
-* Preparing for breastfeeding and postpartum recovery. See [postpartum foods](https://www.katridout.com.au/blogs/foods-for-postpartum-recovery-and-breastfeeding/).
+* Preparing for breastfeeding and postpartum recovery. See [postpartum foods](/blogs/foods-for-postpartum-recovery-and-breastfeeding/).
 
 ## How to choose
 
-1. **Check the credential.** APDs are listed in the Dietitians Australia directory. “Nutritionist” is not a protected title. See [dietitian vs nutritionist](https://www.katridout.com.au/blogs/dietitian-vs-nutritionist-pregnancy/).
+1. **Check the credential.** APDs are listed in the Dietitians Australia directory. “Nutritionist” is not a protected title. See [dietitian vs nutritionist](/blogs/dietitian-vs-nutritionist-pregnancy/).
 2. **Check the focus.** Ask how much of their caseload is pregnancy and fertility.
 3. **Ask how they work with your care team.** A good dietitian sends notes to your GP or obstetrician.
 4. **Check access.** In-person and telehealth options, appointment times and rebates.

@@ -65,7 +65,7 @@ What I do is the rest of it. I look at what you are managing to eat, what your b
 
 Being tired in pregnancy is normal. Being wiped out, foggy and breathless is worth a conversation. Talk to your GP or midwife about your iron studies, and if you would like help with the food side of it, I offer a free 15 minute call where we can work out together whether that would be useful for you. You can [book a time here](https://calendly.com/katridout/15-minute-investigative-callback).
 
-If you would like someone to look at the whole picture with you, that is what working with a [pregnancy dietitian](https://www.katridout.com.au/our-services/pregnancy-nutrition-and-dietetics/) involves. Appointments run by telehealth right across Australia, from Brisbane.
+If you would like someone to look at the whole picture with you, that is what working with a [pregnancy dietitian](/our-services/pregnancy-nutrition-and-dietetics/) involves. Appointments run by telehealth right across Australia, from Brisbane.
 
 Kat xx  
 Accredited Practising Dietitian (APD)

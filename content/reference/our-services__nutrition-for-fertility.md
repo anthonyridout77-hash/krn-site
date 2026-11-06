@@ -1,6 +1,6 @@
 ---
 title: "Fertility Dietitian Brisbane and Australia-wide | Kat Ridout APD"
-source: "https://www.katridout.com.au/our-services/nutrition-for-fertility/"
+source: "/our-services/nutrition-for-fertility/"
 captured: "2026-10-20"
 note: "Copy captured from the old site for rewriting into Astro. Reference only, not published."
 ---

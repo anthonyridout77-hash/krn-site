@@ -79,7 +79,7 @@ When we work together, I start with what you’re already doing well, because a 
 
 I’m Katrina Ridout, an Accredited Practising Dietitian (APD) working with women planning a pregnancy, pregnant, or in the postpartum months. I see women in person at Milton Village Medical, Level 1, 36 Baroona Road, Milton QLD 4064, and by telehealth anywhere in Australia. A Medicare rebate may be available for eligible patients on a GP Chronic Condition Management Plan, so it’s worth asking your GP. Nutrition supports your medical care and never replaces it.
 
-If you’d like a hand building a vegan pregnancy plan you can actually live with, call me on [1300 640 104](tel:1300640104) or get in touch through [katridout.com.au](https://www.katridout.com.au/). I’d love to support you.
+If you’d like a hand building a vegan pregnancy plan you can actually live with, call me on [1300 640 104](tel:1300640104) or get in touch through [katridout.com.au](/). I’d love to support you.
 
 This article is general information, not individual advice. Please talk with your own health team about your situation.
 

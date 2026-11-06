@@ -54,7 +54,7 @@ Some situations really do change the picture: vegetarian or vegan eating, twins,
 
 And if you’re simply tired of your feed telling you you’re not doing enough, I’d love to help you find what enough actually looks like for you. My free 15-Minute Investigative Callback is a relaxed chat, no strings attached. [Book your free 15-Minute Investigative Callback here](https://calendly.com/katridout/15-minute-investigative-callback).
 
-Working through this with a [pregnancy dietitian](https://www.katridout.com.au/our-services/pregnancy-nutrition-and-dietetics/) means the advice is built around what you are actually eating rather than a generic target. Appointments run by telehealth right across Australia, from Brisbane.
+Working through this with a [pregnancy dietitian](/our-services/pregnancy-nutrition-and-dietetics/) means the advice is built around what you are actually eating rather than a generic target. Appointments run by telehealth right across Australia, from Brisbane.
 
 Kat xx  
 Accredited Practising Dietitian (APD)

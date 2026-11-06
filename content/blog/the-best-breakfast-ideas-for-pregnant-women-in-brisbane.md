@@ -49,7 +49,7 @@ Recipes and lists only go so far. If you would like a plan built around your pre
 
 ### Foods to Avoid
 
-Alongside these healthy options, it’s crucial to be aware of things you **can’t** eat while pregnant to protect your health and your baby’s development. Avoid raw or undercooked seafood and eggs, unpasteurised dairy products, certain deli meats, and excessive caffeine. Katrina Ridout, a [pregnancy dietitian](https://www.katridout.com.au/our-services/pregnancy-nutrition-and-dietetics/) in Brisbane, advises expectant mothers to always check food labels and ask questions about preparation methods when dining out.
+Alongside these healthy options, it’s crucial to be aware of things you **can’t** eat while pregnant to protect your health and your baby’s development. Avoid raw or undercooked seafood and eggs, unpasteurised dairy products, certain deli meats, and excessive caffeine. Katrina Ridout, a [pregnancy dietitian](/our-services/pregnancy-nutrition-and-dietetics/) in Brisbane, advises expectant mothers to always check food labels and ask questions about preparation methods when dining out.
 
 ![Pregnant woman looking at her laptop at home](/images/wp/2026/07/krn-breakfast-ideas-pregnant-brisbane-body2.jpg)
 

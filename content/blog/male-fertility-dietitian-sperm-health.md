@@ -77,7 +77,7 @@ An evidence-based male fertility eating pattern includes plenty of vegetables an
 
 A Mediterranean-style approach is often mentioned because it naturally includes many of these foods. Effect sizes on conception and live birth are not firmly quantified yet, so the evidence supports the overall pattern rather than any single food or precise formula.
 
-The practical takeaway is that variety and consistency matter. Building meals around vegetables, fish, legumes, wholegrains and nuts gives you a broad intake of zinc, selenium, omega-3s and antioxidants without needing to count individual nutrients. For more food ideas, have a read of my [male fertility diet](https://www.katridout.com.au/blogs/male-fertility-diet/) article.
+The practical takeaway is that variety and consistency matter. Building meals around vegetables, fish, legumes, wholegrains and nuts gives you a broad intake of zinc, selenium, omega-3s and antioxidants without needing to count individual nutrients. For more food ideas, have a read of my [male fertility diet](/blogs/male-fertility-diet/) article.
 
 ## How I can help
 

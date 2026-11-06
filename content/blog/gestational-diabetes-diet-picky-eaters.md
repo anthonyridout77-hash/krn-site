@@ -81,7 +81,7 @@ A plan built on your own safe foods is the difference between a list you won’t
 
 I see women in person at Milton Village Medical, Level 1, 36 Baroona Road, Milton QLD 4064, or by telehealth anywhere in Australia. A Medicare rebate may be available for eligible patients on a GP Chronic Condition Management Plan, so it’s worth asking your GP.
 
-If you’d like to talk it through, call 1300 640 104 or visit [katridout.com.au](https://www.katridout.com.au/) to book a free 15-minute call. This article is general information, not individual advice, and nutrition sits alongside your medical care, never in place of it.
+If you’d like to talk it through, call 1300 640 104 or visit [katridout.com.au](/) to book a free 15-minute call. This article is general information, not individual advice, and nutrition sits alongside your medical care, never in place of it.
 
 ## Key Takeaways
 

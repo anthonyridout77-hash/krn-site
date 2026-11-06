@@ -57,7 +57,7 @@ When we work together, the first consult is all about you: your history, any dia
 
 From there we tweak and tweak at your reviews as each trimester changes things, and you can just email me in between if something comes up. You do not need a referral to book, only if you want to claim a Medicare rebate.
 
-I see women in person at Milton Village Medical, Level 1, 36 Baroona Road, Milton QLD 4064, and by telehealth anywhere in Australia, so Melbourne is no barrier at all. A Medicare rebate may be available for eligible patients on a GP Chronic Condition Management Plan, so it is worth asking your GP. If you would like to chat about whether it is right for you, call 1300 640 104 or visit [katridout.com.au](https://www.katridout.com.au/) to book a free 15-minute call. This article is general information, not individual advice, and nutrition sits alongside your medical care, never in place of it.
+I see women in person at Milton Village Medical, Level 1, 36 Baroona Road, Milton QLD 4064, and by telehealth anywhere in Australia, so Melbourne is no barrier at all. A Medicare rebate may be available for eligible patients on a GP Chronic Condition Management Plan, so it is worth asking your GP. If you would like to chat about whether it is right for you, call 1300 640 104 or visit [katridout.com.au](/) to book a free 15-minute call. This article is general information, not individual advice, and nutrition sits alongside your medical care, never in place of it.
 
 ## Key Takeaways
 

@@ -33,6 +33,7 @@ const showUpdated = updated && date && updated.getTime() - date.getTime() > 8640
   <Fragment slot="head">
     {date && <meta property="article:published_time" content={isoDate(date)} />}
     {updated && <meta property="article:modified_time" content={isoDate(updated)} />}
+    {date && <script type="application/ld+json" set:html={JSON.stringify({"@context":"https://schema.org","@type":"Article","headline":title,"description":description,"datePublished":isoDate(date),"dateModified":isoDate(updated ?? date),"image":image ? new URL(image, Astro.site).toString() : undefined,"author":{"@type":"Person","name":"Katrina Ridout","jobTitle":"Accredited Practising Dietitian","url":"https://www.katridout.com.au/"},"publisher":{"@type":"Organization","name":"Katrina Ridout Nutrition","url":"https://www.katridout.com.au/"},"mainEntityOfPage":new URL(Astro.url.pathname, Astro.site).toString()})} />}
   </Fragment>
 
   <section class="phero">
