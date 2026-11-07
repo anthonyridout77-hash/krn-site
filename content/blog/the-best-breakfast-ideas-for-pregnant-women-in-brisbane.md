@@ -1,6 +1,6 @@
 ---
-title: "The Best Breakfast Ideas for Pregnant Women (Dietitian-Approved, Australia)"
-description: "Healthy breakfast ideas for pregnant women from Kat Ridout, Accredited Practising Dietitian: easy options for nausea, busy mornings, first trimester and gestational diabetes."
+title: "Dietitian-Approved Breakfast Ideas for Pregnant Women"
+description: "Breakfast ideas for pregnant women from Kat Ridout APD: easy options for nausea, busy mornings, first trimester and gestational diabetes."
 date: "2025-11-21"
 updated: "2026-11-06"
 categories:
@@ -67,6 +67,6 @@ Every pregnancy is unique, and nutritional needs may vary. Consulting with an Ac
 
 Eating well during pregnancy is a wonderful way to nurture both yourself and your baby. By incorporating these nutritious breakfast ideas and staying informed about things you can’t eat while pregnant, you can enjoy a healthy and enjoyable pregnancy journey.
 
-Recipes and lists only go so far. If you would like a plan built around your pregnancy, your appetite and your week, book a free 15-minute call with Kat Ridout, Accredited Practising Dietitian.
+Recipes and lists only go so far. If you would like a plan built around your pregnancy, your appetite and your week, book a free 15-minute call with Kat Ridout, Accredited Practising Dietitian.
 
 [Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
