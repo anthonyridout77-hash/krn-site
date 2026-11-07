@@ -72,6 +72,7 @@ const defaultId = '';
   .pw[data-active="fertility"] .pw-fertility, .pw[data-active="ivf"] .pw-ivf, .pw[data-active="pregnancy"] .pw-pregnancy,
   .pw[data-active="gdm"] .pw-gdm, .pw[data-active="postpartum"] .pw-postpartum, .pw[data-active="pmos"] .pw-pmos,
   .pw[data-active="endo"] .pw-endo { display: block; }
+  .pw[data-active="general"] .pw-general { display: block; }
   @supports not selector(:has(*)) { .pw:not([data-active]) .pw-panel { display: block; } .pw:not([data-active]) .pw-empty { display: none; } }
   @media print { .pw-tabs, .pw-label, .pw-empty { display: none !important; } .pw-panel { display: block !important; break-inside: avoid; } }
   .pw-tab input:focus-visible + span { outline: 3px solid var(--heading); outline-offset: 2px; }
@@ -83,7 +84,8 @@ const defaultId = '';
   .pw:has(input[value="gdm"]:checked) .pw-gdm,
   .pw:has(input[value="postpartum"]:checked) .pw-postpartum,
   .pw:has(input[value="pmos"]:checked) .pw-pmos,
-  .pw:has(input[value="endo"]:checked) .pw-endo { display: block; }
+  .pw:has(input[value="endo"]:checked) .pw-endo,
+  .pw:has(input[value="general"]:checked) .pw-general { display: block; }
 
   .pw-head h3 { margin: 0 0 .3rem; }
   .pw-who { margin: 0 0 .4rem; color: var(--fg); }

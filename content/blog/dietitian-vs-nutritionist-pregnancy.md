@@ -4,7 +4,7 @@ description: "In Australia, an Accredited Practising Dietitian (APD) is clinical
 date: "2026-09-25"
 updated: "2026-09-25"
 categories:
-  - "Fertility & IVF"
+  - "Pregnancy"
 image: "/images/wp/2026/07/krn-dietitian-nutritionist-fertility-body2.jpg"
 imageAlt: "Woman having a friendly chat in a consultation"
 wpId: "4902"

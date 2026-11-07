@@ -4,7 +4,7 @@ description: "How to choose a pregnancy dietitian in Brisbane: the APD credentia
 date: "2026-11-05"
 updated: "2026-11-05"
 categories:
-  - "Fertility & IVF"
+  - "Pregnancy"
 image: "/images/wp/2026/07/krn-dietitian-nutritionist-fertility-body2.jpg"
 imageAlt: "Woman having a friendly chat in a consultation"
 wpId: "5275"

@@ -4,7 +4,7 @@ description: "Yes. The 2023 international PCOS guideline recommends healthy eati
 date: "2026-09-25"
 updated: "2026-09-25"
 categories:
-  - "Fertility & IVF"
+  - "PCOS"
 image: "/images/wp/2026/07/krn-pcos-diet-plan-body1-v2.jpg"
 imageAlt: "Healthy balanced dinner served on a plate"
 wpId: "4904"

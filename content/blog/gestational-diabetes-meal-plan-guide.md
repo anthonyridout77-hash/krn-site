@@ -4,7 +4,7 @@ description: "What a gestational diabetes meal plan really looks like: small and
 date: "2026-10-18"
 updated: "2026-10-18"
 categories:
-  - "Fertility & IVF"
+  - "GDM & Pregnancy Complications"
 image: "/images/wp/2026/07/krn-what-does-a-fertility-dietitian-do-body1.jpg"
 imageAlt: "Woman in her kitchen making notes about her meals"
 wpId: "5167"

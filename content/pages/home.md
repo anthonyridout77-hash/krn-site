@@ -1,6 +1,6 @@
 ---
 title: "Home"
-description: "Pregnancy and fertility dietitian in Brisbane. Kat Ridout, Accredited Practising Dietitian, telehealth across Australia. Medicare rebate with GP referral."
+description: "Pregnancy and fertility dietitian in Brisbane. Kat Ridout, Accredited Practising Dietitian, telehealth across Australia. Medicare rebates may apply with an eligible GP referral."
 date: "2022-12-21"
 updated: "2026-10-04"
 wpId: "2"

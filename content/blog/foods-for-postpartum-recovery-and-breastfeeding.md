@@ -4,7 +4,7 @@ description: "After birth, focus on protein, iron, calcium, omega-3, fibre and f
 date: "2026-09-25"
 updated: "2026-09-25"
 categories:
-  - "Fertility & IVF"
+  - "Postpartum & Breastfeeding"
 image: "/images/wp/2026/08/krn-postpartum-meals-hero.jpg"
 imageAlt: "Jars of oats, yoghurt and fruit prepared ahead for easy one-handed breakfasts"
 wpId: "4903"

@@ -4,7 +4,7 @@ description: "Before trying to conceive, eat a Mediterranean-style pattern and s
 date: "2026-09-25"
 updated: "2026-09-28"
 categories:
-  - "Fertility & IVF"
+  - "Preconception"
 image: "/images/wp/2026/07/krn-preparing-body-for-pregnancy-body1.jpg"
 imageAlt: "Close-up of a nutritious colourful meal"
 wpId: "4899"

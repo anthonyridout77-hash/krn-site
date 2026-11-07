@@ -4,7 +4,7 @@ description: "Pregnant or planning in Canberra? Where to start with pregnancy nu
 date: "2026-10-06"
 updated: "2026-10-06"
 categories:
-  - "Fertility & IVF"
+  - "Pregnancy"
 image: "/images/wp/2026/07/krn-dietitian-nutritionist-fertility-body2.jpg"
 imageAlt: "Woman having a friendly chat in a consultation"
 wpId: "5036"

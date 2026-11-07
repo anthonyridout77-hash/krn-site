@@ -4,7 +4,7 @@ description: "Plain, cold food eaten small and often helps many women through pr
 date: "2026-10-16"
 updated: "2026-10-16"
 categories:
-  - "Fertility & IVF"
+  - "Pregnancy"
 image: "/images/wp/2026/07/krn-dietitian-nutritionist-fertility-body2.jpg"
 imageAlt: "Woman having a friendly chat in a consultation"
 wpId: "5143"

@@ -4,7 +4,7 @@ description: "Just diagnosed with gestational diabetes in Brisbane? Kat Ridout, 
 date: "2026-10-07"
 updated: "2026-10-07"
 categories:
-  - "Fertility & IVF"
+  - "GDM & Pregnancy Complications"
 image: "/images/wp/2026/07/krn-dietitian-nutritionist-fertility-body2.jpg"
 imageAlt: "Woman having a friendly chat in a consultation"
 wpId: "5066"

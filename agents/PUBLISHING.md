@@ -38,6 +38,8 @@ imageAlt: "Literal description of the photo"
 ---
 ```
 
+Categories: pick the closest one: Pregnancy, Preconception, Fertility & IVF, PCOS, GDM & Pregnancy Complications, Postpartum & Breastfeeding, Latest News & Information (costs, Medicare, how to choose a dietitian in general). Pregnancy topics are never Fertility & IVF.
+
 Body is standard markdown. Internal links are site-relative (`/blogs/<slug>/`, `/consultations/`, `/our-services/...`). No `api.katridout.com.au` links anywhere.
 
 ## Rules that still apply

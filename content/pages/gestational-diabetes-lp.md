@@ -1,6 +1,6 @@
 ---
 title: "Gestational Diabetes (LP)"
-description: "Gestational diabetes dietitian in Brisbane. Nutrition support with Kat Ridout, Accredited Practising Dietitian. Telehealth Australia-wide. Medicare rebate with GP referral."
+description: "Gestational diabetes dietitian in Brisbane. Nutrition support with Kat Ridout, Accredited Practising Dietitian. Telehealth Australia-wide. Medicare rebates may apply with an eligible GP referral."
 date: "2025-08-27"
 updated: "2026-10-06"
 wpId: "2309"

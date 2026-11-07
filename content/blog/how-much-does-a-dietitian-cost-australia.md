@@ -4,7 +4,7 @@ description: "How Medicare, private health, DVA and NDIS can help with the cost 
 date: "2026-10-30"
 updated: "2026-10-30"
 categories:
-  - "Fertility & IVF"
+  - "Latest News & Information"
 image: "/images/wp/2026/07/krn-dietitian-nutritionist-fertility-body2.jpg"
 imageAlt: "Woman having a friendly chat in a consultation"
 wpId: "5253"

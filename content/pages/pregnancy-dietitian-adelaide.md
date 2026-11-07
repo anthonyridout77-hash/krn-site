@@ -19,7 +19,7 @@ Kat Ridout, APD and Accredited Nutritionist
 
 Specialist in fertility, pregnancy and postpartum nutrition, supporting women across South Australia online.
 
-APD AccreditedTelehealth across South Australia20+ Years ExperienceMedicare Rebates Available
+APD AccreditedTelehealth across South Australia20+ Years ExperienceMedicare rebates may be available
 
 ## Nutrition care for every stage, wherever you are in SA
 

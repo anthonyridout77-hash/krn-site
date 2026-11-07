@@ -4,7 +4,7 @@ description: "Which foods to avoid in pregnancy in Australia, and why: listeria,
 date: "2026-10-18"
 updated: "2026-10-18"
 categories:
-  - "Fertility & IVF"
+  - "Pregnancy"
 image: "/images/wp/2026/07/krn-preparing-body-for-pregnancy-body1.jpg"
 imageAlt: "Close-up of a nutritious colourful meal"
 wpId: "5145"
