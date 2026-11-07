@@ -4,7 +4,7 @@ description: "Gestational diabetes and a short list of safe foods? Kat Ridout, A
 date: "2026-10-06"
 updated: "2026-10-06"
 categories:
-  - "Fertility & IVF"
+  - "GDM & Pregnancy Complications"
 image: "/images/wp/2026/07/krn-dietitian-nutritionist-fertility-body2.jpg"
 imageAlt: "Woman having a friendly chat in a consultation"
 wpId: "5024"

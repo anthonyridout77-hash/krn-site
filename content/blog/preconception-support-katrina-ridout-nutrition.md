@@ -4,7 +4,7 @@ description: "Yes. Katrina Ridout Nutrition offers preconception nutrition suppo
 date: "2026-09-25"
 updated: "2026-10-06"
 categories:
-  - "Fertility & IVF"
+  - "Preconception"
 image: "/images/wp/2026/07/krn-preparing-body-for-pregnancy-body1.jpg"
 imageAlt: "Close-up of a nutritious colourful meal"
 wpId: "4920"

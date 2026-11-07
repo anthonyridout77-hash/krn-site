@@ -4,7 +4,7 @@ description: "What to eat while breastfeeding: the nutrients that matter more, h
 date: "2026-10-19"
 updated: "2026-10-19"
 categories:
-  - "Fertility & IVF"
+  - "Postpartum & Breastfeeding"
 image: "/images/wp/2026/08/krn-postpartum-meals-hero.jpg"
 imageAlt: "Jars of oats, yoghurt and fruit prepared ahead for easy one-handed breakfasts"
 wpId: "5174"

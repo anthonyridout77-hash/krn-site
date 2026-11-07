@@ -132,4 +132,15 @@ export const pathways: Pathway[] = [
       { when: 'Week 12', length: '30 min', title: 'Least-restrictive long term', detail: 'A sustainable pattern, fertility supplements layered on if relevant, and links to pelvic physiotherapy or psychology where useful.' },
     ],
   },
+  {
+    id: 'general', tab: 'General nutrition / another concern', name: 'General nutrition', utm: 'general',
+    who: 'Support with everyday eating, family nutrition or a health concern.',
+    story: 'Start with a free introductory call to discuss what you need and how Kat may be able to help. Your initial consultation explores your history, eating habits, preferences and practical circumstances so you can develop an individualised plan together.',
+    program: 'Not required. After your assessment, you and Kat can discuss individual reviews or other ongoing support if it would help.',
+    medicare: 'If you have a chronic condition, your GP may be able to refer you under a GP Chronic Condition Management Plan; Medicare rebates may apply for eligible clients.',
+    consults: [
+      { when: 'First appointment', length: '75 min', title: 'Initial consultation', detail: 'Your history, eating habits, preferences, results and practical circumstances, and what matters most to you.', takeaway: 'Your individualised plan and resources within 2 business days.' },
+      { when: 'If helpful', length: '30 min', title: 'Review appointments', detail: 'Booked as you need them, to check how the plan is working and adjust it.' },
+    ],
+  },
 ];

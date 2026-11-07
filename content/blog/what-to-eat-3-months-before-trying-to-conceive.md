@@ -4,7 +4,7 @@ description: "The three months before you try for a baby are a good time to eat 
 date: "2026-10-11"
 updated: "2026-10-11"
 categories:
-  - "Fertility & IVF"
+  - "Preconception"
 image: "/images/wp/2026/07/krn-what-does-a-fertility-dietitian-do-body1.jpg"
 imageAlt: "Woman in her kitchen making notes about her meals"
 wpId: "5103"

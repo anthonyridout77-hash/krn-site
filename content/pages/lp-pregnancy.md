@@ -19,12 +19,12 @@ Free · No obligation · Takes 2 minutes to book
 
 Kat Ridout — APD & Accredited Nutritionist
 
-Specialist in fertility, pregnancy and postpartum nutrition • Telehealth Australia-wide • Medicare rebates available
+Specialist in fertility, pregnancy and postpartum nutrition • Telehealth Australia-wide • Medicare rebates may be available
 
 APD Accredited
 Telehealth Australia-wide
 20+ Years Experience
-Medicare Rebates Available
+Medicare rebates may be available
 
 ## How I support your pregnancy nutrition
 

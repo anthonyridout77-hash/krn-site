@@ -4,7 +4,7 @@ description: "Folate and folic acid aren’t the same thing. Here is what Austra
 date: "2026-10-12"
 updated: "2026-10-12"
 categories:
-  - "Fertility & IVF"
+  - "Pregnancy"
 image: "/images/wp/2026/07/krn-dietitian-nutritionist-fertility-body2.jpg"
 imageAlt: "Woman having a friendly chat in a consultation"
 wpId: "5105"

@@ -4,7 +4,7 @@ description: "Just diagnosed with gestational diabetes? Here is what to look for
 date: "2026-10-24"
 updated: "2026-10-24"
 categories:
-  - "Fertility & IVF"
+  - "GDM & Pregnancy Complications"
 image: "/images/wp/2026/08/krn-postpartum-meals-hero.jpg"
 imageAlt: "Jars of oats, yoghurt and fruit prepared ahead for easy one-handed breakfasts"
 wpId: "5188"

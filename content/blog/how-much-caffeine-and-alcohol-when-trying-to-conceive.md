@@ -4,7 +4,7 @@ description: "Trying to conceive and wondering about coffee and wine? Here is wh
 date: "2026-10-21"
 updated: "2026-10-21"
 categories:
-  - "Fertility & IVF"
+  - "Preconception"
 image: "/images/wp/2026/07/krn-dietitian-nutritionist-fertility-body2.jpg"
 imageAlt: "Woman having a friendly chat in a consultation"
 wpId: "5182"

@@ -4,7 +4,7 @@ description: "A Medicare rebate may be available for eligible patients on a GP C
 date: "2026-10-28"
 updated: "2026-10-28"
 categories:
-  - "Fertility & IVF"
+  - "Latest News & Information"
 image: "/images/wp/2026/07/krn-how-to-improve-egg-quality-naturally-body2.jpg"
 imageAlt: "Woman smiling during a video call on her laptop"
 wpId: "5221"

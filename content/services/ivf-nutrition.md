@@ -1,7 +1,7 @@
 ---
 title: "IVF Nutrition"
 seoTitle: "IVF Dietitian Brisbane and Telehealth Australia-wide"
-description: "IVF dietitian in Brisbane. Nutrition support through your cycle, alongside your fertility clinic. Telehealth Australia-wide. Medicare rebate with GP referral."
+description: "IVF dietitian in Brisbane. Nutrition support through your cycle, alongside your fertility clinic. Telehealth Australia-wide. Medicare rebates may apply with an eligible GP referral."
 date: "2025-08-01"
 updated: "2026-10-13"
 wpId: "383"

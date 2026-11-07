@@ -4,7 +4,7 @@ description: "Does your extras cover include a dietitian? What to check in your 
 date: "2026-10-29"
 updated: "2026-10-29"
 categories:
-  - "Fertility & IVF"
+  - "Latest News & Information"
 image: "/images/wp/2026/07/krn-preparing-body-for-pregnancy-body1.jpg"
 imageAlt: "Close-up of a nutritious colourful meal"
 wpId: "5224"

@@ -1,7 +1,7 @@
 ---
 title: "Pre Conception"
 seoTitle: "Preconception and Prenatal Dietitian Brisbane and Online"
-description: "Prenatal dietitian in Brisbane. Optimise your nutrition before and during pregnancy for a healthy baby. Telehealth Australia-wide. Medicare rebate with GP referral."
+description: "Prenatal dietitian in Brisbane. Optimise your nutrition before and during pregnancy for a healthy baby. Telehealth Australia-wide. Medicare rebates may apply with an eligible GP referral."
 date: "2025-08-01"
 updated: "2026-10-05"
 wpId: "366"

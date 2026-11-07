@@ -4,7 +4,7 @@ description: "Yes, a well-planned vegan pregnancy can meet your needs and your b
 date: "2026-10-15"
 updated: "2026-10-15"
 categories:
-  - "Fertility & IVF"
+  - "Pregnancy"
 image: "/images/wp/2026/07/krn-how-to-improve-egg-quality-naturally-body2.jpg"
 imageAlt: "Woman smiling during a video call on her laptop"
 wpId: "5139"

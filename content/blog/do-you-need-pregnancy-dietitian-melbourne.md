@@ -4,7 +4,7 @@ description: "Pregnant in Melbourne? How nutrition changes across each trimester
 date: "2026-10-06"
 updated: "2026-10-06"
 categories:
-  - "Fertility & IVF"
+  - "Pregnancy"
 image: "/images/wp/2026/08/krn-postpartum-meals-hero.jpg"
 imageAlt: "Jars of oats, yoghurt and fruit prepared ahead for easy one-handed breakfasts"
 wpId: "5031"

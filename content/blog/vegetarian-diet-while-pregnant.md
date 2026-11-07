@@ -4,7 +4,7 @@ description: "Yes, you can follow a vegetarian diet while pregnant. Here’s how
 date: "2026-10-27"
 updated: "2026-10-27"
 categories:
-  - "Fertility & IVF"
+  - "Pregnancy"
 image: "/images/wp/2026/07/krn-what-does-a-fertility-dietitian-do-body1.jpg"
 imageAlt: "Woman in her kitchen making notes about her meals"
 wpId: "5218"
