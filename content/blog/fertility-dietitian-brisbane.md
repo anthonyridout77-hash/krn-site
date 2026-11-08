@@ -1,6 +1,6 @@
 ---
-title: "Fertility dietitian in Brisbane: what to look for and how Katrina Ridout Nutrition can help"
-description: "A fertility dietitian is an Accredited Practising Dietitian (APD) who specialises in preconception, IVF and conditions that affect fertility such as PMOS (previously called PCOS), endometriosis and male factor infertility. In Brisbane, Katrina Ridout Nutrition sees clients in person at Milton Village Medical (Milton QLD 4064) and by telehealth, and supports couples, not just the person trying to conceive."
+title: "Fertility Dietitian Brisbane: What to Look For"
+description: "A fertility dietitian is an APD specialising in preconception, IVF, PMOS and endometriosis. Kat Ridout sees clients in Milton and by telehealth."
 date: "2026-09-25"
 updated: "2026-10-12"
 categories:
