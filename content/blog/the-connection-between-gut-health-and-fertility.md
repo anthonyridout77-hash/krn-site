@@ -1,6 +1,6 @@
 ---
 title: "The Connection Between Gut Health and Fertility"
-description: "Discover how gut health impacts fertility with expert insights from Katrina Ridout. Learn how diet, stress management, and probiotics can enhance fertility and support reproductive health."
+description: "How gut health and fertility connect, with guidance from Kat Ridout, fertility dietitian in Brisbane: diet, fibre, stress and probiotics."
 date: "2025-08-25"
 updated: "2026-08-11"
 categories:
@@ -10,7 +10,7 @@ wpId: "3526"
 wpUrl: "https://api.katridout.com.au/blogs/the-connection-between-gut-health-and-fertility/"
 ---
 
-When it comes to fertility, many factors come into play—hormonal balance, age, lifestyle, and even diet. But there’s one area often overlooked in discussions about fertility: gut health. While it may seem unrelated, your gut plays a critical role in your overall reproductive health, and improving your gut health could significantly impact your fertility.
+When it comes to fertility, many factors come into play—hormonal balance, age, lifestyle, and even diet. But there’s one area often overlooked in discussions about fertility: gut health. While it may seem unrelated, your gut plays a role in your overall reproductive health, and it is an area worth understanding when you are planning a pregnancy.
 
 The gut is home to trillions of bacteria, collectively known as the microbiome, that influence many bodily functions, including digestion, immune response, and even hormone regulation. An imbalance in gut bacteria, known as dysbiosis, can disrupt hormonal balance, which in turn can affect fertility.
 
@@ -22,9 +22,9 @@ For women who are hormonal when pregnant, the importance of balancing these horm
 
 ## Gut Health and Immune Function
 
-The gut is closely linked to the immune system. A significant portion of your immune cells are found in the gut, and these cells help regulate inflammation throughout the body. Chronic inflammation caused by poor gut health can affect the delicate balance required for conception. Inflammation can damage the reproductive organs, disrupt hormone production, and even interfere with embryo implantation. By supporting gut health and reducing inflammation, you can optimise your chances of conceiving.
+The gut is closely linked to the immune system. A significant portion of your immune cells are found in the gut, and these cells help regulate inflammation throughout the body. Chronic inflammation caused by poor gut health can affect the delicate balance required for conception. Inflammation can damage the reproductive organs, disrupt hormone production, and even interfere with embryo implantation. Gut health and inflammation are therefore part of the picture when you are looking at the whole of your health.
 
-A pregnancy nutritionist can help guide you in maintaining a balanced diet that promotes both gut and reproductive health, ensuring you’re getting the nutrients needed for a healthy pregnancy.
+A pregnancy dietitian can help you work out a balanced diet that supports both gut and reproductive health, and covers the nutrients that matter in pregnancy.
 
 ![Bowls of grains and legumes on a table](/images/wp/2026/07/krn-gut-health-and-fertility-body1.jpg)
 
@@ -43,12 +43,10 @@ Talking it through with a dietitian helps you find the changes that matter most 
 
 ## Consulting with a Professional
 
-For those who are struggling with fertility, it’s essential to consider all aspects of your health, including your gut. Katrina Ridout, an Accredited Practicing Dietitian & Nutritionist, understands the intricate connection between gut health and fertility. Her personalised approach can guide you through a tailored nutritional and lifestyle plan to support both your gut and fertility health.
+For those who are struggling with fertility, it’s essential to consider all aspects of your health, including your gut. Katrina Ridout, an Accredited Practising Dietitian & Nutritionist, understands the intricate connection between gut health and fertility. Her personalised approach can guide you through a tailored nutritional and lifestyle plan to support both your gut and fertility health.
 
 If you are in Brisbane and looking for professional guidance, working with Katrina Ridout can provide local support to help you improve your gut health and fertility.
 
-With the right support and knowledge, improving your gut health could be the first step toward achieving your fertility goals.
-
-By prioritising gut health, you’re giving your body the best chance to function optimally, improving not only your fertility but also your overall well-being.
+Gut health is a practical place to start, because the changes involved are everyday food changes rather than anything drastic: more fibre, more variety, less added sugar.
 
 If you would like help turning this into a plan for your own situation, Kat Ridout is a [fertility dietitian in Brisbane](/our-services/nutrition-for-fertility/) and works with women preparing for conception, by telehealth right across Australia.
