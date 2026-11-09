@@ -1,6 +1,6 @@
 ---
 title: "Nutrition and Healthy Eating During IVF Treatment"
-description: "Discover IVF nutrition strategies from Kat Ridout. Learn what to eat during IVF treatment to improve outcomes and support your fertility journey."
+description: "IVF nutrition from Kat Ridout, fertility dietitian in Brisbane. What to eat during IVF treatment, and the nutrients that come up most often."
 date: "2022-12-29"
 updated: "2026-07-28"
 categories:
@@ -9,13 +9,15 @@ wpId: "2934"
 wpUrl: "https://api.katridout.com.au/blogs/nutrition-and-healthy-eating-during-ivf-treatment/"
 ---
 
-## Struggling to conceive is common and extremely difficult to deal with. Many couples have had successful pregnancies thanks to IVF treatment. However, IVF is expensive and physically and emotionally draining. Your overall health must be in great condition for IVF to have the best chance of success. Part of this is making sure your diet and nutrient intake are geared towards helping your body conceive.
+## Eating well while you are going through IVF
+
+Struggling to conceive is common and extremely difficult to deal with. Many couples have had successful pregnancies thanks to IVF treatment. However, IVF is expensive and physically and emotionally draining. Looking after your general health is one part of the process that is in your hands, and food is part of that.
 
 There are many aspects to nutrition and healthy eating during IVF treatment. For instance, you need to make sure that you eat a balanced diet that includes foods that are rich in vitamins, minerals, and fibre. Additionally, you must avoid certain foods, such as soda and alcohol. There are a few tips that will help you achieve this goal.
 
-If you are going through IVF treatment, you will need to know how to eat the right foods to increase your chances of conception. The best foods to eat during IVF treatment are rich in folic acid, antioxidants, and omega-3 fatty acids. These nutrients are important for fertility because they help create a healthy environment for the blastocyst and embryo. They also reduce the risk of neural tube defects.
+If you are going through IVF treatment, it helps to know which foods carry the nutrients that come up most often. The foods usually emphasised during IVF treatment are rich in folic acid, antioxidants, and omega-3 fatty acids. These nutrients are important for fertility because they help create a healthy environment for the blastocyst and embryo. They also reduce the risk of neural tube defects.
 
-You should eat a variety of fresh fruits and vegetables. These are high in nutrients that will eliminate common post-IVF digestive problems. They will also keep your body and fetus healthy.
+You should eat a variety of fresh fruits and vegetables. These are a good source of fibre, vitamins and minerals.
 
 ### CoQ10 (Coenzyme Q10)
 
@@ -27,7 +29,7 @@ As you get older, your natural production of CoQ10 decreases. It is mainly found
 
 Sperm health plays a role in successful conception. While we largely focus on women’s health, it’s just as important to ensure that there is healthy sperm to use in the IVF process. L-Carnitine is a molecule that has important functions in our body. It helps our cells burn fatty acids and convert them into energy. It also works to remove waste products from our cells. L-Carnitine is found in the heart, liver, and kidney. A low carnitine level is associated with low sperm concentration, sperm motility, and sperm quality.
 
-Males who suffer from infertility often find that L-carnitine supplementation improves their sperm quality. Taking the nutrient may help males produce more sperm, which is essential for conception. A 2010 study published in the National Journal of Andrology showed that taking two grams of L-carnitine daily for three months increased sperm count and improved sperm motility.
+L-carnitine supplementation has been studied in men with infertility, with sperm quality and sperm count as the outcomes of interest. A 2010 study published in the National Journal of Andrology showed that taking two grams of L-carnitine daily for three months increased sperm count and improved sperm motility.
 
 ![Glass of milk on a table](/images/wp/2026/07/krn-ivf-treatment-nutrition-body1.jpg)
 
@@ -35,9 +37,9 @@ Dairy foods are a simple way to keep calcium up while you prepare for IVF.
 
 ### Calcium
 
-For women undergoing IVF, a well-balanced and nutritious diet is an essential component in improving their chances of success. Your diet can directly affect your fertility health. There are several important vitamins and minerals that your body needs to thrive.
+For women undergoing IVF, a well-balanced and nutritious diet is one part of looking after your general health. There are several important vitamins and minerals that your body needs to thrive.
 
-Several foods can increase fertility. Fruits, vegetables, and whole grains are included in this. You can also add calcium or vitamin D supplements to your diet. Dairy products such as milk and cheese are excellent sources of calcium.
+Fruits, vegetables, and whole grains are the everyday foundation. Calcium or vitamin D supplements may also be worth discussing with your dietitian or doctor. Dairy products such as milk and cheese are excellent sources of calcium.
 
 Other nutrients to consider include zinc, folic acid, and magnesium. All these nutrients are needed to build strong bones and muscles, as well as carry oxygen to your cells. If you are unsure of how much of these nutrients your body needs, Kat Ridout will advise.
 
