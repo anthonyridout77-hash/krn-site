@@ -14,7 +14,7 @@ wpUrl: "https://api.katridout.com.au/our-services/dietitian/"
 Dietitian Brisbane
 
 ## Not sure where to start?
-Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. Kat has supported hundreds of clients, so you do not need to have it all worked out first. No preparation and no obligation.
+Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. You do not need to have it all worked out first. No preparation and no obligation.
 [Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## Personalised support to best manage your conditions and optimise your health.
@@ -63,7 +63,7 @@ Take comfort knowing Katrina has more than 20 years of experience, helping other
 Kat explains her fees on the free call, before you commit to anything, so you can choose the option that suits you. If your GP assesses you as eligible for a Chronic Condition Management Plan, Medicare may rebate part of your consultations. Many private health extras policies also cover dietitian visits, depending on your fund and level of cover.
 
 ### Not sure where to start?
-Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. Kat has supported hundreds of clients, so you do not need to have it all worked out first. No preparation and no obligation.
+Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. You do not need to have it all worked out first. No preparation and no obligation.
 [Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## Book your free 15-minute call

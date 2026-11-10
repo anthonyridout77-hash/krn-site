@@ -12,15 +12,15 @@ wpUrl: "https://api.katridout.com.au/our-services/postnatal-nutrition/"
 ## Postpartum and breastfeeding nutrition
 
 ## Not sure where to start?
-Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. Kat has supported hundreds of clients, so you do not need to have it all worked out first. No preparation and no obligation.
+Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. You do not need to have it all worked out first. No preparation and no obligation.
 [Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## Caring for yourself is the first step to caring for your baby
 
-The time after birth is so precious. It’s when you begin creating an unbreakable bond with your baby, and those first moments together are ones to be cherished. But to truly enjoy this new chapter, it’s important to also focus on bringing your own body back to strength and health.
+The months after birth are a time of recovery, often with broken sleep, feeding to work out and little time to eat well. However feeding is going, and however you're feeling, nutrition support can help with energy, iron, recovery and getting regular meals back.
 As a new mum, your days are full, and it can feel impossible to prioritise yourself. Between feeds, nappies, and sleepless nights, even simple things like showering or brushing your teeth can slip to the bottom of the list.
 It’s easy to wonder how those picture-perfect mums on Instagram seem to have it all together. The truth is, nobody does it alone — and neither should you. Getting the right support makes all the difference.
-That’s where I come in. As a dietitian specialising in postnatal nutrition, I can help you rebuild your energy, correct nutrient deficiencies that may affect your recovery, milk supply, and overall wellbeing, and guide you back to feeling your best. When you’re nourished and supported, you can fully embrace this special time with your baby and family.
+That’s where I come in. As a dietitian whose main interests include postnatal nutrition, I can help you rebuild your energy, check for nutrient gaps that may affect your recovery and energy, and plan meals that work with a baby in the house. If you're worried about milk supply, a lactation consultant, your midwife or child health nurse can assess feeding. I work alongside them on your own nutrition.
 
 ### Quick tips for postnatal mums:
 
@@ -38,7 +38,7 @@ That’s where I come in. As a dietitian specialising in postnatal nutrition, I 
 
 ### Why is postpartum nutrition important?
 The weeks and months after birth are a time of healing, recovery and adjustment as you step into life with your new baby. Your body is not only recovering from the intensity of labour but also working hard to produce milk and support your baby’s needs. Both childbirth and breastfeeding place high demands on your body, which is why your requirements for many key nutrients increase during this time.
-Nourishing yourself with the right foods helps your body heal, restores your energy, and supports you in your new role as a mum. Postpartum nutrition also plays a big role in supporting your mood and emotional wellbeing. Many women experience dips in mood after birth, and giving your body the nutrients it needs can help you feel stronger, more balanced and better able to enjoy this precious time with your baby.
+Nourishing yourself with the right foods helps your body heal, restores your energy, and supports you in your new role as a mum. Postpartum nutrition also plays a big role in supporting your mood and emotional wellbeing. Many women experience dips in mood after birth, and giving your body the nutrients it needs can help you feel stronger, more balanced and better able to cope with this time with your baby.
 
 ### How can I help you as a new mum?
 Getting back to feeling like yourself after having a baby isn’t always easy. Those little bundles of joy can leave you feeling physically exhausted and emotionally drained, often with little energy, time or focus left for your own needs.
@@ -53,7 +53,6 @@ I can help you with:
 
 ✅ Disordered eating
 
-✅ Hormones
 
 ✅ Energy and sleep
 
@@ -63,7 +62,7 @@ With up-to-date, evidence-based nutrition, I can recommend the most effective st
 If you’re ready to feel confident and supported in your postnatal journey, I’d love to guide you toward the healthiest start for both you and your baby.
 
 ### Not sure where to start?
-Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. Kat has supported hundreds of clients, so you do not need to have it all worked out first. No preparation and no obligation.
+Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. You do not need to have it all worked out first. No preparation and no obligation.
 [Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## Further reading
@@ -90,27 +89,6 @@ Vitamins that are important for postnatal include vitamin D, iron, calcium, vita
 
 When transitioning from pregnancy to breastfeeding, your diet may need some adjustments. You’ll need to consume more calories (around 300–500 extra per day), focus on nutrient-rich foods, stay hydrated, continue taking prenatal vitamins, include omega-3 fatty acids, limit substances like caffeine and alcohol, and monitor for any food sensitivities in your baby. It’s advisable to consult a healthcare professional for personalised advice.
 
-### Are there any foods that help regulate blood pressure?
-
-Yes, there are several foods that can help regulate blood pressure. Here are some examples:
-
-● Leafy greens: Vegetables like spinach, kale, and Swiss chard are rich in potassium, which helps lower blood pressure. Aim to include these greens regularly in your diet.
-
-● Berries: Berries, such as strawberries, blueberries, and raspberries, are high in antioxidants and flavonoids, which have been associated with lower blood pressure.
-
-● Oats: Oats and oatmeal are good sources of fibre and have been found to have a positive impact on blood pressure. They can be a healthy breakfast option.
-
-● Bananas: Bananas are another potassium-rich fruit that can help regulate blood pressure. They are also convenient and easy to incorporate into your diet.
-
-● Greek yoghurt: Greek yoghurt is a good source of calcium and protein, both of which have been linked to healthy blood pressure levels. Choose plain, unsweetened yoghurt to avoid added sugars.
-
-● Garlic: Garlic has been shown to have potential blood pressure-lowering effects. It can be used as a seasoning in various dishes or taken as a supplement (under medical supervision).
-
-● Dark chocolate: Dark chocolate (at least 70% cocoa) in moderate amounts has been associated with lower blood pressure due to its flavonoid content. However, moderation is key due to its calorie and sugar content.
-
-● Fish high in omega-3 fatty acids: Fatty fish like salmon, mackerel, and sardines are excellent sources of omega-3 fatty acids, which have been linked to lower blood pressure. Aim to include fish in your diet regularly.
-
-It’s important to note that while these foods may have a positive impact on blood pressure, they should be part of an overall healthy and balanced diet. If you have high blood pressure or any specific dietary concerns, it’s recommended to consult with a healthcare professional or Accredited Practising Dietitian for personalised advice.
 
 ### What are some quick and healthy snacks for when the munchies take hold while breastfeeding?
 

@@ -68,6 +68,7 @@ const siblings = all
         <div><dt style="font-weight:600">Who it is for</dt><dd style="margin:0">{pw.who}</dd></div>
         <div><dt style="font-weight:600">Your first consultation</dt><dd style="margin:0">{first.length.replace('min', 'minutes')} with Kat Ridout, Accredited Practising Dietitian (APD), in person at Milton Village Medical, Brisbane, or by telehealth anywhere in Australia. {first.detail}</dd></div>
         <div><dt style="font-weight:600">What you receive</dt><dd style="margin:0">{first.takeaway}</dd></div>
+        <div><dt style="font-weight:600">Alongside your medical care</dt><dd style="margin:0">Kat provides nutrition assessment and advice. Diagnosis, medication and medical treatment stay with your GP, obstetrician or specialist, and with your permission Kat writes to them after your first consultation.</dd></div>
         <div><dt style="font-weight:600">Next step</dt><dd style="margin:0"><a href={callLink(pw)}>Book a free 15-minute call</a> to talk it through, or <a href={`/consultations/#pathway-${pw.id}`}>see the full {pathway.name} pathway</a>.</dd></div>
       </dl>
     </aside>

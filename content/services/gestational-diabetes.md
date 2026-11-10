@@ -13,7 +13,7 @@ parent: "415"
 ## Gestational Diabetes Mellitus
 
 ## Not sure where to start?
-Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. Kat has supported hundreds of clients, so you do not need to have it all worked out first. No preparation and no obligation.
+Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. You do not need to have it all worked out first. No preparation and no obligation.
 [Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## If you are diagnosed with gestational diabetes during pregnancy, don’t panic, we’re here to help.
@@ -24,7 +24,7 @@ It is not uncommon for women to develop Gestational Diabetes Mellitus (GDM) duri
 Gestational diabetes usually goes away after giving birth, but if it is not well managed with diet, exercise and sometimes medication, it can cause complications for both you and your baby. It can also increase your risk of developing type 2 diabetes later in life.
 
 ### How does gestational diabetes affect my baby?
-With GDM, babies are more likely to be larger than average (large for gestational age), which can sometimes lead to complications such as an emergency caesarean section or pre-term labour. If blood sugars are not well controlled, GDM can also increase the risk of your baby experiencing blood sugar imbalances, jaundice, breathing difficulties, or long-term metabolic issues. The good news is that with the right care and nutrition, these risks can be significantly reduced.
+With GDM, babies are more likely to be larger than average (large for gestational age), which can sometimes lead to complications such as an emergency caesarean section or pre-term labour. If blood sugars are not well controlled, GDM can also increase the risk of your baby experiencing blood sugar imbalances, jaundice, breathing difficulties, or long-term metabolic issues. Your obstetric team will talk you through how these risks are monitored and managed.
 
 ### How is gestational diabetes diagnosed?
 All women are screened for gestational diabetes between 24 and 28 weeks of pregnancy. This is usually done with blood tests and an oral glucose tolerance test (OGTT), where you drink a sweet liquid and your blood sugar is measured over time. Your doctor, midwife or dietitian can guide you through the process and explain your results.
@@ -39,11 +39,11 @@ Here are some simple steps that can make a big difference:
 - Monitor your blood sugar levels as advised by your healthcare team
 - Stay hydrated with plenty of water throughout the day
 ### How can Katrina Ridout Nutrition help with gestational diabetes?
-If you’ve been diagnosed with GDM, I want you to know that there are clear, evidence-based strategies to keep you and your baby safe and healthy. In collaboration with your medical team, I’ll provide you with the education, skills and tools you need to manage your blood sugar levels.
-Together, we’ll create a nutrition plan that is practical, realistic and tailored to your pregnancy, helping to reduce risks and give your baby the best possible start in life. You don’t need to navigate this alone. I’ll be here to support and guide you every step of the way.
+If you’ve been diagnosed with GDM, I want you to know that there are clear, evidence-based strategies to support you and your baby through the rest of pregnancy. In collaboration with your medical team, I’ll provide you with the education, skills and tools you need to manage your blood sugar levels.
+Together, we’ll create a nutrition plan that is practical, realistic and tailored to your pregnancy, helping you meet your targets in a way that fits your week. You don’t need to navigate this alone. I’ll be here to support and guide you every step of the way.
 
 ### Not sure where to start?
-Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. Kat has supported hundreds of clients, so you do not need to have it all worked out first. No preparation and no obligation.
+Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. You do not need to have it all worked out first. No preparation and no obligation.
 [Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## Further reading
@@ -61,7 +61,7 @@ Gestational diabetes mellitus (GDM) is relatively common, affecting around 1 in 
 
 Gestational diabetes (GDM) can increase the risk of complications for both mother and baby if it is not well managed. For mums, this may include a higher chance of preeclampsia, the need for a caesarean section, and a greater risk of developing type 2 diabetes or cardiovascular disease later in life. For babies, possible complications include being larger than average (macrosomia), low blood sugar after birth, breathing difficulties, jaundice, and an increased risk of obesity or type 2 diabetes as they grow older.
 
-The encouraging news is that with the right care, including healthy lifestyle changes, blood sugar monitoring, and medication if needed, these risks can be significantly reduced. Proper management of GDM helps protect your health and gives your baby the best possible start in life.
+The encouraging news is that with the right care, including healthy lifestyle changes, blood sugar monitoring, and medication if needed, your obstetric team will talk you through how these risks are monitored and managed.
 
 ### How can gestational diabetes be managed through diet and lifestyle changes
 
@@ -81,5 +81,5 @@ Managing gestational diabetes involves closely monitoring blood sugar levels, ma
 
 Gestational diabetes mellitus (GDM) is managed through a comprehensive approach that includes dietary modifications, regular physical activity, blood sugar monitoring, and, if necessary, medication or insulin therapy under medical supervision. A balanced diet emphasising whole grains, fruits, vegetables, lean proteins, and healthy fats helps regulate blood sugar levels. Regular exercise, tailored to individual fitness levels, improves insulin sensitivity and aids in blood sugar control. Monitoring blood sugar levels throughout the day provides insights into how well lifestyle changes are working, guiding adjustments as needed.
 
-Healthcare providers, including dietitians like Katrina Ridout, play a critical role in providing personalised nutrition counselling, creating effective meal plans, and offering ongoing support to manage GDM effectively. By collaborating with healthcare professionals, women with gestational diabetes can optimise their health outcomes and reduce risks for both themselves and their babies during pregnancy and beyond.
+Healthcare providers, including dietitians like Katrina Ridout, play a critical role in providing personalised nutrition counselling, creating effective meal plans, and offering ongoing support to manage GDM effectively.
 

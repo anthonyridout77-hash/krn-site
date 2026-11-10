@@ -13,18 +13,17 @@ parent: "366"
 ## Endometriosis
 
 ## Not sure where to start?
-Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. Kat has supported hundreds of clients, so you do not need to have it all worked out first. No preparation and no obligation.
+Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. You do not need to have it all worked out first. No preparation and no obligation.
 [Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
-## Endometriosis may affect fertility, but with the right care, pregnancy is still possible
+## How Kat helps with endometriosis
 
-Endometriosis is a condition that affects many women of reproductive age, and it can have a significant impact on both health and fertility. For some, it may make the journey to pregnancy more challenging, while for others it goes unnoticed until difficulties conceiving arise.
-The good news is that many women with endometriosis are still able to conceive naturally and go on to have healthy pregnancies. With the right support from medical care to personalised nutrition, it is possible to manage symptoms, improve fertility outcomes and feel more in control of your health.
+Endometriosis affects people in different ways: pain, gut symptoms such as bloating, fatigue, heavy periods and, for some, fertility. Kat helps with the nutrition side: gut symptoms, energy and iron, eating enough variety when some foods are hard to tolerate, and, if you're trying to conceive, preparing for pregnancy. Food supports your medical care; it doesn't replace it, and it can't remove lesions or promise less pain.
 
-### Endometriosis and Your Fertility Journey
-As a dietitian, I’ve supported many women with endometriosis who are navigating both the symptoms of the condition and the challenges it can bring when trying to conceive. Endometriosis affects every woman differently — for some it is mild and manageable, while for others it is more complex and requires ongoing care.
-The important thing to remember is that having endometriosis does not automatically mean you can’t have a healthy pregnancy. With the right medical support and tailored nutrition, many women successfully manage their symptoms, improve their fertility, and go on to carry healthy babies.
-Endometriosis is classified into four stages, ranging from mild to more advanced. Each stage looks different in terms of tissue growth, scar tissue and the way symptoms show up in daily life.
+Dietary strategies for endometriosis symptoms are done as a supervised, time-limited cycle, not a forever diet. Many women arrive on restrictions that are not helping; we find the two or three things that matter.
+
+### What working with Kat involves
+Your first consultation covers a symptom diary, bowel pattern, pain and cycle mapping, bloods, medications and any current restrictions. Where bowel symptoms are present, a structured, supervised elimination phase built from your usual foods may follow, then reintroduction so that only the food groups that matter are limited. Kat also looks at iron where bleeding is heavy, and at fatigue.
 
 ### What is Endometriosis?
 Endometriosis is a condition where tissue similar to the lining of the uterus grows outside of it. This tissue can cause chronic inflammation, and in more advanced stages may lead to scar tissue in the ovaries and the development of endometriotic cysts.
@@ -57,6 +56,8 @@ Endometriosis symptoms can vary from woman to woman. Some may have mild symptoms
 - In some cases, difficulty conceivingIt’s important to remember that symptom severity does not always reflect the stage of the condition. Some women with advanced endometriosis may experience little pain, while others with mild forms can have significant symptoms.
 
 ### Endometriosis and fertility
+Many women with endometriosis go on to have healthy pregnancies, with or without fertility treatment. If you are trying to conceive, Kat layers fertility nutrition and supplements onto your plan and works alongside your GP and fertility specialist.
+
 For some women, endometriosis can make it harder to conceive. This is often due to:
 
 - Reduced egg quality
@@ -68,13 +69,8 @@ For some women, endometriosis can make it harder to conceive. This is often due 
 Yes! Many women with endometriosis are still able to conceive, and most do so without assistance. Endometriosis-related infertility affects around one in four women with the condition, which means that the majority will go on to fall pregnant naturally.
 For some women with Stage 1 or 2 endometriosis, fertility may improve after surgery to remove endometrial tissue, although the benefits are often temporary. Depending on the severity of the condition, treatments such as in vitro fertilisation (IVF) or surgery may be needed to support conception.
 
-### How a dietitian can help with endometriosis
-While medical and surgical treatments are often explored, I want you to know that nutrition can also play a powerful role in managing endometriosis and supporting fertility. Because endometriosis is linked to chronic inflammation, often driven by digestive and immune system imbalances, the right diet can help reduce symptoms and slow the progression of the condition.
-Through targeted nutrition, I can help you regulate your immune system, support gut health and reduce the inflammation that drives endometriosis. This not only eases symptoms but can also improve fertility outcomes.
-If you are planning for pregnancy with endometriosis, I can work with you to create a personalised plan that reduces inflammation, supports your fertility and gives you the best foundation for a healthy pregnancy.
-
 ### Endometriosis dietitian in Brisbane and by telehealth
-Katrina Ridout is an Accredited Practising Dietitian who is based in Brisbane and can offer nutritional advice to help women who are affected by endometriosis and improve their fertility chances.
+Katrina Ridout is an Accredited Practising Dietitian who is based in Brisbane and offers nutrition support for endometriosis in person in Milton, Brisbane, and by telehealth anywhere in Australia.
 To talk about nutrition support for endometriosis, [book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback) or [contact Kat](/contact-us/).
 
 ### Further reading
@@ -83,7 +79,7 @@ To talk about nutrition support for endometriosis, [book a free 15-minute call](
 - [Endometriosis awareness: what you need to know](/blogs/endometriosis-awareness-what-you-need-to-know/)
 
 ### Not sure where to start?
-Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. Kat has supported hundreds of clients, so you do not need to have it all worked out first. No preparation and no obligation.
+Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. You do not need to have it all worked out first. No preparation and no obligation.
 [Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## Frequently Asked Questions

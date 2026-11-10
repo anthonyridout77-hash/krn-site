@@ -15,7 +15,7 @@ parent: "366"
 Fertility and IVF Dietitian Australia
 
 ## Not sure where to start?
-Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. Kat has supported hundreds of clients, so you do not need to have it all worked out first. No preparation and no obligation.
+Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. You do not need to have it all worked out first. No preparation and no obligation.
 [Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## Feel confident and supported as you prepare for IVF and fertility treatments with Kat Ridout by your side.
@@ -23,7 +23,7 @@ Book a free 15-minute call with Kat and bring your concerns. She will listen, as
 If you are struggling to conceive, you are not alone. Around one in six couples need extra support on their journey to pregnancy.
 For women who are ready to start a family or add another child, and who have experienced fertility or medical challenges, IVF (in vitro fertilisation) is often one of the options that can help make having a biological child possible. Other treatments may include ovulation induction, assisted insemination (IUI) or intracytoplasmic sperm injection (ICSI).
 During IVF, an egg is retrieved and fertilised with sperm in a laboratory to create an embryo. This embryo is then transferred into the uterus, where the hope is that it will implant and grow into a healthy pregnancy. The process is closely supported by medical specialists, who monitor progress with blood tests and ultrasounds.
-Alongside this medical care, the right nutrition can make a meaningful difference. With guidance from Kat Ridout, you can prepare your body for IVF, support your fertility and create the best possible environment for your baby to grow. Kat combines evidence-based nutrition with compassionate support to help you feel confident and cared for throughout your journey.
+Alongside this medical care, the right nutrition can make a meaningful difference. Your clinic manages the medical side. Kat focuses on the three months of nutrition around your cycle and helps you trim your supplement list to what the evidence supports. Kat combines evidence-based nutrition with compassionate support to help you feel confident and cared for throughout your journey.
 
 ### The lead up to IVF treatment
 In the month before beginning your IVF cycle, nourishing your body with a healthy, balanced and personalised diet can help you feel as strong and prepared as possible. This time is an opportunity to gently set the foundations for the process ahead.
@@ -51,20 +51,20 @@ To give your body the best support during IVF, try to limit or avoid:
 - Trans fats (often found in fried or packaged foods)
 - Excess added sugarsFor personalised support, it is always best to work with a dietitian who has experience in fertility and IVF nutrition. Kat Ridout can help you create a nutrition plan tailored to your needs and fertility journey.
 
-### Boosting your chances of a successful treatment
-If you are preparing for IVF, it is natural to want to give yourself the best possible chance of success. One powerful way to do this is by working with a fertility dietitian who understands assisted reproductive technologies.
-Katrina Ridout is an Accredited Practising Dietitian specialising in fertility and pregnancy nutrition. She provides personalised fertility nutrition services to support both women and men in boosting their chances of success with IVF.
+### Nutrition around your IVF cycle
+If you are preparing for IVF, it is natural to want to do everything you can. One powerful way to do this is by working with a fertility dietitian who understands assisted reproductive technologies.
+Katrina Ridout is an Accredited Practising Dietitian specialising in fertility and pregnancy nutrition. She provides personalised fertility nutrition services to support both women and men before and during IVF.
 
 ### What to expect when working with an IVF & fertility nutritionist
 When you work with me, I’ll carefully assess your current diet and help you make realistic changes to ensure your body is getting the nutrients it needs for a successful IVF cycle. Beyond food choices, I’ll be there to offer encouragement, guidance and reassurance throughout the process, taking the time to understand your unique situation and goals.
-Together, we’ll create an IVF-friendly nutrition plan designed to improve your health, optimise your fertility and support your wellbeing before and during treatment.
+Together, we’ll create an IVF-friendly nutrition plan built around your cycle, your clinic's requirements and your week.
 
 ### IVF nutritionist in Brisbane
 With more than 20 years of experience, Kat Ridout brings both expertise and compassion to her role as a fertility dietitian. She uses evidence-based strategies to design tailored nutrition plans that give you and your baby the healthiest possible start.
 Find out more about how Kat Ridout can help you by contacting Kat today (/contact-us/). 
 
 ### Not sure where to start?
-Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. Kat has supported hundreds of clients, so you do not need to have it all worked out first. No preparation and no obligation.
+Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. You do not need to have it all worked out first. No preparation and no obligation.
 [Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## Further reading
@@ -124,7 +124,7 @@ Every woman’s nutritional needs are different, so personalised advice is impor
 
 ### Should I include healthy fats in my IVF diet?
 
-Yes. Healthy fats are an important part of an IVF-friendly diet. They support hormone production, improve egg quality and play a role in overall reproductive health.
+Yes. Healthy fats are an important part of an IVF-friendly diet. They are part of a balanced eating pattern before and during treatment.
 
 Good sources of healthy fats include avocados, olive oil, nuts, seeds and oily fish. Omega-3 fatty acids, found in foods like salmon, chia seeds and flaxseeds, are especially beneficial as they help reduce inflammation and support the reproductive system.
 
@@ -148,17 +148,17 @@ A balanced, whole-food diet can support your body through IVF and improve reprod
 
 It’s also important to be mindful with caffeine, practise stress management and maintain gentle, regular exercise.
 
-For tailored support, working with a fertility dietitian like Katrina Ridout can ensure your nutrition plan is designed to meet your specific needs and give you the best possible foundation for IVF success.
+For tailored support, working with a fertility dietitian like Katrina Ridout can ensure your nutrition plan is designed to meet your specific needs, alongside your clinic's medical plan.
 
-### Are there specific foods that boost fertility during IVF?
+### Are there specific foods to focus on during IVF?
 
-Yes. Certain foods can help support reproductive health during IVF by providing key nutrients that assist with hormone balance, egg quality and overall wellbeing. Katrina Ridout, an Accredited Practising Dietitian specialising in fertility and pregnancy, emphasises that these foods are most effective when part of a balanced lifestyle that also includes hydration, stress management and healthy daily habits.
+Yes. Certain foods can help support reproductive health during IVF by providing key nutrients as part of an overall balanced pattern; no single food changes IVF results. Katrina Ridout, an Accredited Practising Dietitian specialising in fertility and pregnancy, emphasises that these foods are most effective when part of a balanced lifestyle that also includes hydration, stress management and healthy daily habits.
 
 Some fertility-supportive foods include:
 
 - Leafy greens and vegetables: rich in folate, a vital nutrient for fertility
 
-- Whole grains: help regulate blood sugar and support hormone balance
+- Whole grains: fibre and steadier energy
 
 - Healthy fats: omega-3s from salmon, walnuts and flaxseeds support hormone regulation
 

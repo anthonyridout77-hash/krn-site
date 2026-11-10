@@ -12,7 +12,7 @@ parent: "415"
 ## Specialty Diets During Pregnancy
 
 ## Not sure where to start?
-Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. Kat has supported hundreds of clients, so you do not need to have it all worked out first. No preparation and no obligation.
+Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. You do not need to have it all worked out first. No preparation and no obligation.
 [Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 What you eat in the months before and during pregnancy has a lasting impact on your baby’s growth and development, as well as your own health. If you have specific dietary needs, balancing your nutrition becomes even more important to support a healthy pregnancy and give your baby the best start in life.
@@ -82,7 +82,7 @@ Katrina Ridout offers a range of nutritionist services in Brisbane, and virtuall
 To book an appointment with Kat Ridout, please call 1300 640 104 or get in touch on our website (/contact-us/).
 
 ### Not sure where to start?
-Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. Kat has supported hundreds of clients, so you do not need to have it all worked out first. No preparation and no obligation.
+Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. You do not need to have it all worked out first. No preparation and no obligation.
 [Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## Frequently Asked Questions

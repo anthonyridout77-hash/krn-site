@@ -13,7 +13,7 @@ parent: "366"
 ## Polycystic Ovary Syndrome
 
 ## Not sure where to start?
-Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. Kat has supported hundreds of clients, so you do not need to have it all worked out first. No preparation and no obligation.
+Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. You do not need to have it all worked out first. No preparation and no obligation.
 [Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## With the right guidance, PCOS doesn’t have to stand in the way of your dream of motherhood
@@ -22,7 +22,7 @@ Polycystic Ovarian Syndrome (PCOS) is one of the most common hormonal conditions
 
 ### Pregnancy is possible with PCOS
 Many women with PCOS are able to conceive and go on to have healthy pregnancies. While PCOS can affect hormone balance and make ovulation less predictable, it does not mean that pregnancy is out of reach.
-The encouraging news is that PCOS can be managed, and with the right support, many women successfully fall pregnant. Personalised nutrition, alongside medical care, can help balance hormones, support ovulation and improve fertility outcomes.
+The encouraging news is that PCOS can be managed, and with the right support, many women successfully fall pregnant. Nutrition can help with insulin resistance, hunger and cravings, and regular eating, alongside any medical treatment from your GP or specialist. A weight-neutral approach is always available.
 With her expertise in fertility nutrition, Kat Ridout helps women with PCOS feel confident, cared for and empowered on their journey to conception.
 
 ### How does PCOS affect pregnancy?
@@ -43,17 +43,17 @@ The good news is that there are many ways to lower these risks and support a hea
 If you have PCOS, there are several options available to help you conceive. With the right medical care and personalised nutrition support, many women with PCOS are able to fall pregnant and carry a healthy pregnancy.
 
 #### Lifestyle and weight management
-For women who are above a healthy weight, even modest weight loss through regular movement and a balanced, targeted diet can help restore hormonal balance, regulate menstrual cycles and improve fertility.
+For women who are above a healthy weight, even modest weight loss through regular movement and a balanced, targeted diet can make cycles more regular for some people. Weight change is offered, never assumed.
 
 #### Medication
-Your doctor may prescribe medication to support ovulation. While medicine can be helpful, it works best when combined with healthy lifestyle changes and a structured nutrition plan. Together, these can significantly increase the chances of conceiving and carrying a healthy pregnancy.
+Your doctor may prescribe medication to support ovulation. While medicine can be helpful, it works best when combined with healthy lifestyle changes and a structured nutrition plan.
 
 #### IVF (In vitro fertilisation)
 In some cases, IVF may be recommended. This involves fertilising an egg with sperm in a laboratory, then transferring the embryo into the uterus to support pregnancy.
 
 #### Surgery
 If other options are not successful, surgery may be considered. In women with PCOS, the outer shell of the ovaries can sometimes prevent ovulation. A procedure called ovarian drilling may be used, where small openings are made in the ovary’s surface to restore ovulation. This is usually a short-term option, lasting around six to eight months.
-No matter which treatment path is right for you, nutrition plays a vital role in supporting your fertility and pregnancy outcomes. Working with an Accredited Practising Dietitian such as Kat Ridout means you will have expert guidance in tailoring your diet to balance hormones, improve ovulation and give your body the best foundation for conception and a healthy pregnancy.
+No matter which treatment path is right for you, nutrition plays a vital role in supporting your fertility and pregnancy outcomes. Working with an Accredited Practising Dietitian such as Kat Ridout means you will have guidance tailoring your diet to your cycle, your bloods and your week, alongside your medical treatment.
 
 ### What are the symptoms of Polycystic Ovary Syndrome?
 PCOS can look different for every woman, but some of the more common symptoms include:
@@ -66,18 +66,18 @@ PCOS can look different for every woman, but some of the more common symptoms in
 - Acne or oily skin
 - Darkened patches of skin (often around the neck or underarms)Because PCOS can interfere with ovulation, it may make natural conception more challenging and, in some cases, increase the risk of miscarriage. This is why seeking medical, health and dietary support is so important.
 Younger women often experience more noticeable symptoms due to higher hormone levels and a greater degree of imbalance. While some PCOS symptoms, like irregular ovulation, can sometimes become less pronounced as women age, overall female fertility still naturally declines with age — so working with a dietitian earlier can help optimise your chances.
-Kat Ridout supports women with PCOS by creating personalised nutrition and lifestyle strategies that help manage symptoms, balance hormones and improve fertility outcomes.
+Kat Ridout supports women with PCOS with personalised nutrition and lifestyle strategies built around insulin, hunger and what you can sustain.
 
 ### How nutrition can help
-While medication and medical treatments are often part of managing PCOS, I want you to know that nutrition also plays a powerful role in balancing hormones and improving fertility. Because PCOS is closely linked to insulin resistance and inflammation, the right foods can help regulate blood sugar, reduce inflammation and support more regular cycles.
-Through personalised nutrition, I can help you create a plan that fits your lifestyle, eases your symptoms and improves your chances of conceiving. Together, we’ll focus on small, realistic changes that make a big difference to your health, your confidence and your fertility.
+While medication and medical treatments are often part of managing PCOS, I want you to know that nutrition also plays a role. Nutrition can help with insulin resistance, hunger and cravings, and regular eating, alongside any medical treatment from your GP or specialist. Because PCOS is closely linked to insulin resistance and inflammation, the right foods can help regulate blood sugar, reduce inflammation and support more regular cycles.
+Through personalised nutrition, I can help you create a plan that fits your lifestyle, and fits what matters to you, including preparing for pregnancy if that is your goal. Together, we’ll focus on small, realistic changes that make a big difference to your health, your confidence and your fertility.
 
 ### PMOS (PCOS) dietitian in Brisbane and by telehealth
-If you are living with Polycystic Ovary Syndrome (PCOS) and hoping to conceive, you don’t have to navigate the journey alone. Kat Ridout has more than 20 years of experience helping women with PCOS manage their symptoms, support their fertility and go on to have healthy pregnancies and babies.
+If you are living with Polycystic Ovary Syndrome (PCOS) and hoping to conceive, you don’t have to navigate the journey alone. Kat Ridout has more than 20 years of experience as a dietitian, including supporting women with PMOS (PCOS).
 Get in touch with Kat through the [contact page](/contact-us/).
 
 ### Not sure where to start?
-Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. Kat has supported hundreds of clients, so you do not need to have it all worked out first. No preparation and no obligation.
+Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. You do not need to have it all worked out first. No preparation and no obligation.
 [Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## Further reading
@@ -99,7 +99,7 @@ Making changes to your diet and lifestyle can play a big role in managing Polycy
 
 - Regulating menstrual cycles: Healthy eating patterns and weight management can help restore more regular cycles.
 
-- Improving fertility: Managing weight, balancing hormones and supporting ovulation through diet and lifestyle can increase the chances of conceiving.
+- Preparing for pregnancy: regular meals, enough protein and fibre, and the right preconception supplements, alongside any medical fertility treatment.
 
 - Reducing long-term risks: Women with PCOS have a higher risk of cardiovascular disease, but good nutrition and exercise can help protect heart health.
 
@@ -107,7 +107,7 @@ It’s important to make these changes alongside medical advice. Working with a 
 
 ### What should we include or avoid in a PCOS-friendly diet?
 
-A PCOS-friendly diet focuses on foods that help balance hormones, regulate blood sugar and reduce inflammation.
+A PCOS-friendly diet focuses on regular meals, carbohydrate quality and spread, and protein and fibre at each meal.
 
 Include plenty of:
 
@@ -143,11 +143,11 @@ Diet plays an important role in managing PCOS symptoms and overall health. The f
 
 - Inflammation: Anti-inflammatory foods such as vegetables, berries, nuts and olive oil can reduce PCOS-related inflammation.
 
-- Weight management: A healthy weight can improve hormone balance and support fertility.
+- Weight: offered only if it is your goal, with a weight-neutral option always available.
 
-- Hormone regulation: Nutritious foods help balance hormones that affect ovulation and menstrual cycles.
 
-- Fertility: Supporting ovulation and egg quality through diet can improve chances of conceiving.
+
+- Fertility: preconception nutrition and supplements, alongside your GP or fertility specialist.
 
 A diet rich in whole foods, fibre, lean protein and healthy fats, while low in refined carbohydrates and added sugars, is often recommended for women with PCOS.
 
@@ -159,7 +159,7 @@ Managing PCOS during pregnancy is possible with a balanced, nutrient-rich diet t
 
 - Low-GI foods such as whole grains, legumes and non-starchy vegetables to stabilise blood sugar and improve insulin sensitivity
 
-- Lean proteins like chicken, fish, eggs, tofu and legumes to support hormone balance
+- Lean proteins like chicken, fish, eggs, tofu and legumes
 
 - Healthy fats from avocado, olive oil, nuts and seeds to reduce inflammation and nourish your body
 
@@ -175,7 +175,7 @@ For personalised guidance, working with a fertility dietitian like Kat Ridout ca
 
 ### Should I take supplements when trying to get pregnant with PCOS?
 
-Yes, taking certain supplements can support fertility and help women with PCOS who are trying to conceive. Key supplements include myoinositol to improve insulin sensitivity and regulate ovulation, folic acid to prevent birth defects and support early pregnancy development, vitamin D to help with hormone regulation and fertility, omega-3 fatty acids to reduce inflammation and improve egg quality, and magnesium to support insulin sensitivity and reduce inflammation. Other helpful supplements may include zinc, chromium, and probiotics to further support hormonal balance and reproductive health.
+Some supplements are relevant for women with PCOS who are trying to conceive. Supplements are chosen individually; for the current evidence on inositol, see [Inositol and PMOS (formerly PCOS): what the 2026 evidence says](/blogs/inositol-pcos-what-the-2026-evidence-says/). Others often discussed include folic acid (recommended before and in early pregnancy), vitamin D, omega-3 fatty acids, magnesium, zinc, chromium and probiotics, which Kat reviews against the evidence before recommending.
 
 If you're in Queensland, it's particularly important to consult with a healthcare provider or dietitian, such as Katrina Ridout, who can guide you on the best supplements for your specific situation. Supplements should complement a balanced, nutrient-rich diet for optimal results when dealing with PCOS and fertility.
 
