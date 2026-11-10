@@ -14,28 +14,28 @@ wpUrl: "https://api.katridout.com.au/our-services/nutrition-for-fertility/"
 Dietitian Brisbane
 
 ## Not sure where to start?
-Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. Kat has supported hundreds of clients, so you do not need to have it all worked out first. No preparation and no obligation.
+Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. You do not need to have it all worked out first. No preparation and no obligation.
 [Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## The right nutrition can help prepare your body for pregnancy
 
-### Evidence-based nutritional support to improve your chances of successfully conceiving
+### Nutrition support before conception, for women and men
 If you’re in the pre-conception or planning stage and want to give yourself the best chance of falling pregnant, one of the most powerful tools you can use is evidence-based nutrition — personalised to support your fertility.
-I work alongside leading obstetricians, gynaecologists, endocrinologists, GPs and other early-life nutrition experts to help women and couples improve their nutrition and boost their fertility outcomes.
-Every day, I support mums- and dads-to-be with tailored nutrition plans designed to prepare the body for conception, pregnancy and beyond. Whether your goal is to improve egg or sperm quality, boost egg count, balance fertility hormones, or prepare your uterine lining and body for implantation, I can provide the guidance and support you need.
+I work alongside your GP, obstetrician, fertility specialist and other health professionals to help women and couples improve their nutrition before conception.
+Every day, I support mums- and dads-to-be with tailored nutrition plans designed to prepare the body for conception, pregnancy and beyond. Whether you are trying naturally, preparing for treatment, or starting again after loss, I can help with eating patterns, supplements and the practical side.
 
 ### Nutrition expertise backed by evidence-based research
-The nutritional support I provide is grounded in the latest clinical research, so you can feel confident you’re receiving advice you can trust. Alongside personalised guidance, I offer fertility meal plans, recipes, education and practical strategies designed to boost your chances of conceiving and supporting a healthy pregnancy and baby.
+The nutritional support I provide is grounded in the latest clinical research, so you can feel confident you’re receiving advice you can trust. Alongside personalised guidance, I offer fertility meal plans, recipes, education and practical strategies to help you prepare for pregnancy.
 If you are underweight or living with an underlying health condition that may impact fertility — such as PCOS, endometriosis, adenomyosis, or autoimmune conditions like Coeliac or Crohn’s disease — I can help you manage your symptoms and prepare your body, eggs and sperm for conception. This can make a significant difference whether you are trying to conceive naturally or with the help of IVF.
 
 ### The fertility solution that’s tailored for you
-Every person and every couple is unique; shaped by different bodies, diets, medical histories, genetics, lifestyles and preferences. That’s why I provide personalised nutrition advice that is tailored specifically to you, to help improve fertility and give you the best possible chance of conceiving.
+Every person and every couple is unique; shaped by different bodies, diets, medical histories, genetics, lifestyles and preferences. That’s why I provide personalised nutrition advice that is tailored specifically to you, built around your history, your bloods and your week.
 With over fifteen years of experience in both private practice and high-level research in fertility, pregnancy and early life nutrition, I specialise in helping women and couples optimise their nutrition to support conception and a healthy pregnancy. I also have extensive experience supporting those managing health conditions such as PCOS, endometriosis, diabetes, IBD, autoimmune conditions, disordered eating, rare genetic conditions, as well as challenges with egg and sperm quality, thin uterine lining and recurrent miscarriage.
-There are a number of fertility-boosting foods and nutrients that can make a real difference. Eating the right foods and taking the right supplements at the right time can significantly improve your chances of conceiving and carrying a healthy pregnancy. Because everyone’s journey is different, I’ll work with you to create a plan that’s tailored to your body and your needs.
+There are a number of nutrients that matter before conception. Getting the right supplements started early, then building the eating pattern around them, is the core of the plan. Because everyone’s journey is different, I’ll work with you to create a plan that’s tailored to your body and your needs.
 If you’d like to learn more about how fertility nutrition can support you, I’d love to guide you. You can book an appointment with me using the form on this page or by getting in touch here.
 
 ### Not sure where to start?
-Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. Kat has supported hundreds of clients, so you do not need to have it all worked out first. No preparation and no obligation.
+Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. You do not need to have it all worked out first. No preparation and no obligation.
 [Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## Further reading
@@ -63,7 +63,7 @@ Iron is essential for ovulation and carrying oxygen to reproductive organs. Defi
 
 ### How does vitamin D impact fertility?
 
-Vitamin D supports reproductive health by influencing hormone regulation and egg quality. Low levels may be linked to reduced fertility and complications during pregnancy. Maintaining optimal vitamin D through diet, safe sun exposure, or supplements can help improve overall fertility outcomes.
+Vitamin D supports reproductive health by influencing hormone regulation and egg quality. Low levels may be linked to reduced fertility and complications during pregnancy.
 
 ### How do I plan balanced meals for fertility?
 
@@ -71,9 +71,9 @@ Balanced meals should include lean protein, high-fibre whole grains, colourful v
 
 ### What are some foods that increase fertility?
 
-A healthy, balanced diet can play a powerful role in improving fertility for both men and women. Eating a wide variety of fruits and vegetables, wholegrains, lean proteins, healthy fats, iron-rich foods and low-glycaemic index carbohydrates can help reduce inflammation, support hormone balance and promote healthy egg and sperm production.
+A healthy, balanced diet is part of preparing for pregnancy for both men and women. Eating a wide variety of fruits and vegetables, wholegrains, lean proteins, healthy fats, iron-rich foods and low-glycaemic index carbohydrates can help reduce inflammation, support hormone balance and promote healthy egg and sperm production.
 
-Rather than relying on single “fertility foods,” the goal is to eat a variety of nutrient-dense foods that work together to support your reproductive health. If you are finding it difficult to conceive, working with a healthcare provider or Accredited Practising Dietitian can help you develop a personalised plan to give your body the best possible support.
+Rather than relying on single “fertility foods,” the goal is to eat a variety of nutrient-dense foods that work together to support your reproductive health. If you are finding it difficult to conceive, working with a healthcare provider or Accredited Practising Dietitian can help you develop a personalised plan for your situation.
 
 ### How does folate (folic acid) impact fertility?
 
@@ -83,9 +83,9 @@ Folate is found naturally in foods such as leafy greens, legumes and fortified c
 
 ### How much does obesity affect female fertility?
 
-Carrying excess weight can have an impact on female fertility. It may lead to hormonal imbalances, affect egg quality, reduce the body’s response to fertility treatments, and increase the risk of pregnancy complications. These factors can make it harder to conceive, but there is good news — even modest weight loss through healthy eating and regular movement can improve fertility outcomes.
+Carrying excess weight can have an impact on female fertility. It may lead to hormonal imbalances, affect egg quality, reduce the body’s response to fertility treatments, and increase the risk of pregnancy complications. These factors can make it harder to conceive, but there is good news — where weight is a factor, gradual change through healthy eating and regular movement can help, and it is offered, never assumed.
 
-Working with a healthcare provider or a Accredited Practising Dietitian can help you create a safe, personalised plan to support healthy weight management, balance hormones and boost your chances of conceiving.
+Working with a healthcare provider or a Accredited Practising Dietitian can help you create a safe, personalised plan that suits you.
 
 ### What are the most important nutrients for fertility?
 
@@ -93,13 +93,13 @@ Key nutrients include folate, zinc, iron, omega-3 fatty acids, vitamin D, and an
 
 ### How does nutrition affect fertility in women and men?
 
-Nutrition plays a key role in hormone balance, egg and sperm quality, and overall reproductive health. A diet rich in whole foods, lean proteins, and healthy fats supports regular cycles in women and healthy sperm development in men. Katrina Ridout, an Accredited Practising Dietitian & Nutritionist in Brisbane, guides individuals in tailoring nutrition to optimise fertility and improve chances of conception.
+Nutrition plays a key role in hormone balance, egg and sperm quality, and overall reproductive health. A diet rich in whole foods, lean proteins, and healthy fats supports regular cycles in women and healthy sperm development in men. Katrina Ridout, an Accredited Practising Dietitian & Nutritionist in Brisbane, helps individuals and couples tailor their nutrition before conception.
 
 ### Is there a connection between gut health and fertility?
 
 Yes, gut health can play an important role in fertility. A healthy gut microbiome helps regulate hormones, support nutrient absorption and reduce inflammation — all of which are important for reproductive health. Poor gut health, on the other hand, can contribute to imbalances that affect ovulation, egg and sperm quality, and even the ability of an embryo to implant.
 
-Looking after your gut through a balanced diet rich in fibre, probiotics, prebiotics and whole foods can help support both fertility and overall wellbeing. If you’re trying to conceive, working with a dietitian can give you personalised strategies to optimise your gut health and boost your fertility naturally.
+Looking after your gut through a balanced diet rich in fibre, probiotics, prebiotics and whole foods can help support both fertility and overall wellbeing. If you’re trying to conceive, working with a dietitian can give you personalised strategies for your gut health and overall nutrition.
 
 ### Are there specific foods to avoid when trying to conceive?
 

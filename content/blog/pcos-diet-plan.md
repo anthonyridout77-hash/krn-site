@@ -1,8 +1,8 @@
 ---
-title: "PCOS Diet Plan: What to Eat (and Avoid) to Balance Hormones and Boost Fertility"
-description: "Evidence-based PCOS diet guide from Brisbane APD Kat Ridout — low-GI carbs, anti-inflammatory eating, myo-inositol and supplements that actually work for PCOS and fertility."
+title: "PCOS diet plan: what to eat, and what the evidence says"
+description: "Evidence-based PCOS diet guide from Brisbane APD Kat Ridout — low-GI carbs, anti-inflammatory eating, and what the evidence says about myo-inositol and other supplements."
 date: "2026-06-16"
-updated: "2026-08-14"
+updated: "2026-11-10"
 categories:
   - "PCOS"
 image: "/images/wp/2026/06/pcos-diet-pregnant-preparing-salad.jpg"
