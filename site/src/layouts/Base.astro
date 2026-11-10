@@ -61,5 +61,36 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
   </main>
   <Footer />
   <slot name="after" />
+  <script is:inline>
+  /* Privacy: GTM tag "krnAttr" writes utm_content=page<path> into Calendly links on click
+     (capture phase). This bubble-phase listener runs after it, before navigation, and replaces
+     the path with a generic page type so no condition-specific page reaches Calendly.
+     It also drops utm_term (could hold a search phrase). Click IDs and source/medium are kept. */
+  (function(){
+    function pageType(p){
+      if (p === '/' ) return 'home';
+      if (/^\/our-services\//.test(p)) return 'service';
+      if (/^\/(blogs|recipes-for-pregnancy)\//.test(p)) return 'blog';
+      if (/^\/(consultations|contact-us|thank-you|refer-your-patients)\//.test(p)) return 'consult';
+      if (/^\/(fertility-pregnancy-dietitian-[a-z-]+|pregnancy-dietitian-adelaide)\//.test(p)) return 'city';
+      return 'other';
+    }
+    function clean(href){
+      try {
+        var u = new URL(href);
+        if (!/(^|\.)calendly\.com$/.test(u.hostname)) return href;
+        var c = u.searchParams.get('utm_content') || '';
+        if (!/^(gclid|gbraid|wbraid)\./.test(c)) u.searchParams.set('utm_content', 'page-' + pageType(location.pathname));
+        u.searchParams.delete('utm_term');
+        return u.toString();
+      } catch (e) { return href; }
+    }
+    window.krnCleanBookingLink = clean;
+    document.addEventListener('click', function(ev){
+      var a = ev.target; while (a && a.tagName !== 'A') a = a.parentElement;
+      if (a && a.href && a.href.indexOf('calendly.com') > -1) a.href = clean(a.href);
+    }, false);
+  })();
+  </script>
 </body>
 </html>
