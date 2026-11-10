@@ -46,7 +46,7 @@
 /risk-assessment-quiz/ / 301
 /review/ / 301
 /feedback/ / 301
-/forward-to-a-patient/ / 301
+/forward-to-a-patient/ /refer-your-patients/ 301
 
 # Old WordPress media URLs -> migrated images (api.katridout.com.au retires)
 /wp-content/uploads/2023/01/Katrina_Ridout_The_Ultimate_Pregnancy_Diet_Plan-1_compressed.pdf /pregnancy-meal-plan/ 301
@@ -78,3 +78,16 @@
 /one-question-consult /consultations/ 301
 /fees-and-rebates/ /consultations/ 301
 /fees-and-rebates /consultations/ 301
+
+# Old WordPress archive URLs -> matching new blog categories (10 Nov 2026)
+/category/fertility-ivf/ /blogs/category/fertility-and-ivf/ 301
+/category/gdm-pregnancy-complications/ /blogs/category/gdm-and-pregnancy-complications/ 301
+/category/latest-news-information/ /blogs/category/latest-news-and-information/ 301
+/category/male-fertility/ /blogs/category/male-fertility/ 301
+/category/pcos/ /blogs/category/pcos/ 301
+/category/postpartum-breastfeeding/ /blogs/category/postpartum-and-breastfeeding/ 301
+/category/preconception/ /blogs/category/preconception/ 301
+/category/pregnancy/ /blogs/category/pregnancy/ 301
+/product-category/guides/ /pregnancy-meal-plan/ 301
+/author/ant_kathotmail-com/ /about-kat/ 301
+/author/surfpacific/ /about-kat/ 301
