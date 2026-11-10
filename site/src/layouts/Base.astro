@@ -62,13 +62,17 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
   <Footer />
   <slot name="after" />
   <script is:inline>
-  /* Privacy: GTM tag "krnAttr" writes utm_content=page<path> into Calendly links on click
-     (capture phase). This bubble-phase listener runs after it, before navigation, and replaces
-     the path with a generic page type so no condition-specific page reaches Calendly.
-     It also drops utm_term (could hold a search phrase). Click IDs and source/medium are kept. */
+  /* Booking-link privacy (runs after GTM tag "krnAttr", which rewrites Calendly links on click in the
+     capture phase). This bubble-phase listener runs next, before navigation, on every outgoing
+     Calendly link, so values stored in the browser by GTM cannot pass through:
+     - utm_content: page path or full ad click ID -> generic page type, or "ads-click"
+     - utm_term: removed (could hold a search phrase)
+     - utm_campaign: kept only if it is one of the site's own generic campaign names, else "external"
+     - utm_source / utm_medium: unchanged (needed for reporting) */
   (function(){
+    var CAMPAIGNS = ['general-dietitian','dietitian','pathways','7-day-meal-plan','adelaide_lp','perth_lp','gbp-booking'];
     function pageType(p){
-      if (p === '/' ) return 'home';
+      if (p === '/') return 'home';
       if (/^\/our-services\//.test(p)) return 'service';
       if (/^\/(blogs|recipes-for-pregnancy)\//.test(p)) return 'blog';
       if (/^\/(consultations|contact-us|thank-you|refer-your-patients)\//.test(p)) return 'consult';
@@ -80,8 +84,11 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
         var u = new URL(href);
         if (!/(^|\.)calendly\.com$/.test(u.hostname)) return href;
         var c = u.searchParams.get('utm_content') || '';
-        if (!/^(gclid|gbraid|wbraid)\./.test(c)) u.searchParams.set('utm_content', 'page-' + pageType(location.pathname));
+        u.searchParams.set('utm_content', /^(gclid|gbraid|wbraid)\./.test(c) ? 'ads-click' : 'page-' + pageType(location.pathname));
         u.searchParams.delete('utm_term');
+        var camp = u.searchParams.get('utm_campaign');
+        if (camp && CAMPAIGNS.indexOf(camp) === -1) u.searchParams.set('utm_campaign', 'external');
+        ['gclid','gbraid','wbraid','fbclid','msclkid'].forEach(function(k){ u.searchParams.delete(k); });
         return u.toString();
       } catch (e) { return href; }
     }
