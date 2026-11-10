@@ -70,6 +70,6 @@ As an APD, I build diabetes nutrition plans around the foods you already enjoy.
 
 ### Diabetes nutritionist in Brisbane
 
-Katrina Ridout is an Accredited Practising Dietitian based in Brisbane who has over 15 years of experience in helping people manage their diabetes with scientifically proven methods. She is a diabetes dietitian who is able to optimise one’s food and nutrition intake based on their own unique circumstances and understands everyone is different.
+Katrina Ridout is an Accredited Practising Dietitian based in Brisbane who has more than 20 years of experience in helping people manage their diabetes with scientifically proven methods. She is a diabetes dietitian who is able to optimise one’s food and nutrition intake based on their own unique circumstances and understands everyone is different.
 
 To arrange an appointment with Katrina Ridout, please call 1300 640 104 or [contact Kat](/contact-us/).

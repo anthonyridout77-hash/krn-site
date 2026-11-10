@@ -1,6 +1,6 @@
 ---
 title: "Navigating Pregnancy with PCOS: A Nutritional Guide by Katrina Ridout"
-description: "In this comprehensive guide by Katrina Ridout, an Accredited Practicing Dietitian & Nutritionist, discover expert advice on managing Polycystic Ovary Syndrome (PCOS) during pregnancy. Learn about the importance of nutrition, balanced diets, and lifestyle choices to support a healthy pregnancy and baby while dealing with PCOS."
+description: "In this comprehensive guide by Katrina Ridout, an Accredited Practising Dietitian & Nutritionist, discover expert advice on managing Polycystic Ovary Syndrome (PCOS) during pregnancy. Learn about the importance of nutrition, balanced diets, and lifestyle choices to support a healthy pregnancy and baby while dealing with PCOS."
 date: "2024-04-30"
 updated: "2024-04-30"
 categories:
@@ -11,7 +11,7 @@ wpUrl: "https://api.katridout.com.au/blogs/navigating-pregnancy-with-pcos-a-nutr
 
 Pregnancy is a joyous journey, but for women with Polycystic Ovary Syndrome (PCOS), it can come with unique challenges. PCOS, a hormonal disorder affecting about 1 in 10 women of childbearing age, can impact fertility and increase the risk of complications during pregnancy. However, with the right approach to nutrition and lifestyle, women with PCOS can improve their chances of a healthy pregnancy and baby.
 
-Katrina Ridout, an Accredited Practicing Dietitian & Nutritionist, is an expert in supporting women with PCOS through their pregnancy journey. With over 15 years of experience, Katrina has helped countless women manage their PCOS symptoms and achieve healthy pregnancies through evidence-based nutrition advice.
+Katrina Ridout, an Accredited Practising Dietitian & Nutritionist, is an expert in supporting women with PCOS through their pregnancy journey. She has more than 20 years of experience as a dietitian.
 
 Nutrition plays a crucial role in managing PCOS symptoms and supporting overall health, especially during pregnancy. Here’s a nutritional guide by Katrina Ridout to help women with PCOS navigate pregnancy with confidence:
 
