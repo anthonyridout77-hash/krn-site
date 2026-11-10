@@ -3,6 +3,7 @@ import { getCollection, render } from 'astro:content';
 import Article from '../../layouts/Article.astro';
 import { serviceSlug, serviceUrl } from '../../lib/content';
 import { faqFromMarkdown, faqPage } from '../../lib/schema';
+import { pathways, callLink } from '../../data/pathways';
 
 export async function getStaticPaths() {
   const services = await getCollection('services');
@@ -32,6 +33,10 @@ const pathwayFor: Record<string, { id: string; name: string }> = {
 };
 const leaf = slug.split('/').pop() ?? slug;
 const pathway = pathwayFor[leaf];
+// At-a-glance card: reuses Kat-approved pathway copy (who, first-consult detail, takeaway). No new claims.
+const glanceLeaves = ['nutrition-for-fertility', 'ivf-nutrition', 'pregnancy-nutrition-and-dietetics', 'gestational-diabetes', 'postnatal-nutrition', 'polycystic-ovary-syndrome', 'endometriosis'];
+const pw = pathway && glanceLeaves.includes(leaf) ? pathways.find((p) => p.id === pathway.id) : undefined;
+const first = pw?.consults[0];
 const siblings = all
   .filter((s) => s.id !== service.id && (parentSlug ? serviceSlug(s).startsWith(parentSlug + '/') : serviceSlug(s).startsWith(slug + '/')))
   .sort((a, b) => a.data.title.localeCompare(b.data.title));
@@ -56,6 +61,17 @@ const siblings = all
   <Fragment slot="head">
     {faqLd && <script type="application/ld+json" set:html={JSON.stringify(faqLd)} />}
   </Fragment>
+  {pw && first && (
+    <aside class="glance" aria-label="Working with Kat at a glance" style="margin:0 0 2rem;padding:1.2rem 1.4rem;background:var(--mint);border-radius:16px">
+      <h2 style="font-size:1.2rem;margin:0 0 .6rem">Working with Kat at a glance</h2>
+      <dl style="margin:0;display:grid;gap:.55rem">
+        <div><dt style="font-weight:600">Who it is for</dt><dd style="margin:0">{pw.who}</dd></div>
+        <div><dt style="font-weight:600">Your first consultation</dt><dd style="margin:0">{first.length.replace('min', 'minutes')} with Kat Ridout, Accredited Practising Dietitian (APD), in person at Milton Village Medical, Brisbane, or by telehealth anywhere in Australia. {first.detail}</dd></div>
+        <div><dt style="font-weight:600">What you receive</dt><dd style="margin:0">{first.takeaway}</dd></div>
+        <div><dt style="font-weight:600">Next step</dt><dd style="margin:0"><a href={callLink(pw)}>Book a free 15-minute call</a> to talk it through, or <a href={`/consultations/#pathway-${pw.id}`}>see the full {pathway.name} pathway</a>.</dd></div>
+      </dl>
+    </aside>
+  )}
   <Content />
   {!hasBody && (
     <p class="empty">Detailed information for this service is being moved across to the new site. Kat is happy to answer questions on a free 15-minute call.</p>

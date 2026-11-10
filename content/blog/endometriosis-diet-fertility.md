@@ -46,6 +46,8 @@ The most evidence-supported dietary strategy for endometriosis is an anti-inflam
 
 If you are trying to conceive and want advice that fits your own situation, book a free 15-minute call with Kat Ridout, Accredited Practising Dietitian. Brisbane based, telehealth Australia-wide.
 
+Read more about [endometriosis nutrition support with Kat](/our-services/prenatal-nutrition-and-dietetics/endometriosis/), in Milton or by telehealth.
+
 [Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## Oestrogen Metabolism and Diet

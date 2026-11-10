@@ -66,9 +66,10 @@ wpUrl: "https://api.katridout.com.au/blogs/medicare-rebate-dietitian-australia/"
 </ul>
 <p>If you&#8217;d like help making the most of your plan, call me on 1300 640 104 or book a telehealth or Milton appointment through the website. I&#8217;d love to support you, and don&#8217;t be a stranger.</p>
 <p>Kat xx</p>
+<p>To see what a first appointment with Kat includes, visit <a href="/consultations/">consultations</a>.</p>
+
 <h2 id="references">References</h2>
 <ol>
 <li><a href="https://dietitiansaustralia.org.au/seeing-dietitian/help-costs">Help with costs, Dietitians Australia</a></li>
 <li><a href="https://www.healthdirect.gov.au/dietitians">Dietitians, Healthdirect</a></li>
 </ol>
-

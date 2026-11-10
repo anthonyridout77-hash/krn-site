@@ -92,6 +92,8 @@ This article is general information, not individual advice. Kat xx
 * Keep caffeine at or below about 200mg a day, and no amount of alcohol is known to be safe in pregnancy.
 * Fridge at 5°C or below, leftovers within 24 hours, and reheating until steaming hot are the habits that reduce risk most.
 
+For one-on-one help, see [pregnancy nutrition support with Kat](/our-services/pregnancy-nutrition-and-dietetics/), in Milton or by telehealth.
+
 ## References
 
 1. [Foods to avoid when pregnant](https://www.pregnancybirthbaby.org.au/pregnancy/nutrition-and-lifestyle/foods-to-avoid-when-pregnant), Pregnancy, Birth and Baby (Healthdirect Australia)
