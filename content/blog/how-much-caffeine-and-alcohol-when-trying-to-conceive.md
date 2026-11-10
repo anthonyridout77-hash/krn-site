@@ -70,10 +70,11 @@ wpUrl: "https://api.katridout.com.au/blogs/how-much-caffeine-and-alcohol-when-tr
 <li>NHMRC guidelines say women who are pregnant or planning a pregnancy should not drink alcohol, as no safe amount has been established.</li>
 <li>Caffeine also comes from tea, cola, energy drinks and chocolate, so count the whole day, not just coffee.</li>
 </ul>
+<p>Planning a pregnancy? See how <a href="/our-services/nutrition-for-fertility/">fertility nutrition support with Kat</a> works, in Milton or by telehealth.</p>
+
 <h2 id="references">References</h2>
 <ol>
 <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5733907/">Association between coffee or caffeine consumption and fecundity and fertility: a systematic review and dose-response meta-analysis</a>, 15 December 2017</li>
 <li><a href="https://www.yourfertility.org.au/everyone/drugs-chemicals/caffeine">Caffeine</a>, Your Fertility (funded by the Australian Government Department of Health and the Victorian Government Department of Health), last updated 20 October 2026</li>
 <li><a href="https://www.nhmrc.gov.au/health-advice/alcohol">Australian guidelines to reduce health risks from drinking alcohol</a>, National Health and Medical Research Council</li>
 </ol>
-

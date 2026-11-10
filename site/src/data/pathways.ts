@@ -28,7 +28,7 @@ const CALENDLY = 'https://calendly.com/katridout/15-minute-investigative-callbac
 // One generic code for every pathway: no condition (or mappable code) is sent to Calendly or analytics.
 export const callLink = (_p: Pathway) => `${CALENDLY}?utm_source=site&utm_medium=pathways&utm_campaign=pathways`;
 
-const takeawayFirst = 'Dietary assessment summary, starter meal plan, your individualised supplement plan, recipe booklet and snack ideas, all within 2 business days.';
+export const takeawayFirst = 'Dietary assessment summary, starter meal plan, your individualised supplement plan, recipe booklet and snack ideas, all within 2 business days.';
 
 export const pathways: Pathway[] = [
   {

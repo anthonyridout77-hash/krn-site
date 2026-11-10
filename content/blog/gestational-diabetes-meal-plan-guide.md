@@ -90,6 +90,8 @@ This article is general information, not individual advice. Kat xx
 * Food safety rules still apply: avoid soft cheese unless cooked, cold meats, store-bought sushi, raw eggs, pre-prepared salads and high-mercury fish.
 * A teaspoon of sugar in a hot drink does not greatly affect blood glucose.
 
+If you have been diagnosed, see how [gestational diabetes support with Kat](/our-services/pregnancy-nutrition-and-dietetics/gestational-diabetes/) works, in Milton or by telehealth.
+
 ## References
 
 1. [Gestational diabetes: caring for yourself and your baby](https://www.ndss.com.au/wp-content/uploads/resources/booklet-gestational-diabetes-caring-for-yourself-and-baby.pdf), National Diabetes Services Scheme (Australian Government)

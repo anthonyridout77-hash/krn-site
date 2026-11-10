@@ -99,6 +99,8 @@ You can see me in person at Milton Village Medical, Level 1, 36 Baroona Road, Mi
 * Pair carbs with a little protein when you can.
 * See your GP if you can’t keep fluids down, are losing weight, or feel dizzy or faint.
 
+For one-on-one help, see [pregnancy nutrition support with Kat](/our-services/pregnancy-nutrition-and-dietetics/), in Milton or by telehealth.
+
 ## References
 
 1. [Morning sickness](https://www.healthdirect.gov.au/dealing-with-morning-sickness), Healthdirect Australia

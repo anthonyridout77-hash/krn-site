@@ -61,6 +61,8 @@ Zinc is critical for egg maturation and fertilisation; selenium is part of the a
 
 If you are trying to conceive and want advice that fits your own situation, book a free 15-minute call with Kat Ridout, Accredited Practising Dietitian. Brisbane based, telehealth Australia-wide.
 
+If you are preparing for a cycle, see how [IVF nutrition support with Kat](/our-services/prenatal-nutrition-and-dietetics/ivf-nutrition/) works, in Milton or by telehealth.
+
 [Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## Nutrition During IVF Stimulation
