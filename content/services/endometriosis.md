@@ -1,9 +1,9 @@
 ---
-title: "Endometriosis"
+title: "Endometriosis Dietitian"
 seoTitle: "Endometriosis Dietitian Brisbane and Online"
 description: "Endometriosis dietitian in Brisbane. Nutrition support for endometriosis with Kat Ridout APD, telehealth across Australia. Medicare rebate with GP referral."
 date: "2025-08-01"
-updated: "2026-10-05"
+updated: "2026-11-10"
 wpId: "413"
 wpUrl: "https://api.katridout.com.au/our-services/prenatal-nutrition-and-dietetics/endometriosis/"
 parent: "366"
@@ -11,8 +11,6 @@ parent: "366"
 
 
 ## Endometriosis
-
-Pregnancy and Endometriosis Brisbane
 
 ## Not sure where to start?
 Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. Kat has supported hundreds of clients, so you do not need to have it all worked out first. No preparation and no obligation.
@@ -70,14 +68,19 @@ For some women, endometriosis can make it harder to conceive. This is often due 
 Yes! Many women with endometriosis are still able to conceive, and most do so without assistance. Endometriosis-related infertility affects around one in four women with the condition, which means that the majority will go on to fall pregnant naturally.
 For some women with Stage 1 or 2 endometriosis, fertility may improve after surgery to remove endometrial tissue, although the benefits are often temporary. Depending on the severity of the condition, treatments such as in vitro fertilisation (IVF) or surgery may be needed to support conception.
 
-### How a nutritionist can help with Endometriosis
+### How a dietitian can help with endometriosis
 While medical and surgical treatments are often explored, I want you to know that nutrition can also play a powerful role in managing endometriosis and supporting fertility. Because endometriosis is linked to chronic inflammation, often driven by digestive and immune system imbalances, the right diet can help reduce symptoms and slow the progression of the condition.
 Through targeted nutrition, I can help you regulate your immune system, support gut health and reduce the inflammation that drives endometriosis. This not only eases symptoms but can also improve fertility outcomes.
 If you are planning for pregnancy with endometriosis, I can work with you to create a personalised plan that reduces inflammation, supports your fertility and gives you the best foundation for a healthy pregnancy.
 
-### Fertility specialist in Brisbane
+### Endometriosis dietitian in Brisbane and by telehealth
 Katrina Ridout is an Accredited Practising Dietitian who is based in Brisbane and can offer nutritional advice to help women who are affected by endometriosis and improve their fertility chances.
-To receive nutritional help from Brisbane’s leading pregnancy nutritionist, please contact Kat Ridout today (/contact-us/).
+To talk about nutrition support for endometriosis, [book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback) or [contact Kat](/contact-us/).
+
+### Further reading
+- [Can a telehealth endometriosis dietitian help manage symptoms?](/blogs/telehealth-endometriosis-dietitian-manage-symptoms/)
+- [Endometriosis diet and fertility](/blogs/endometriosis-diet-fertility/)
+- [Endometriosis awareness: what you need to know](/blogs/endometriosis-awareness-what-you-need-to-know/)
 
 ### Not sure where to start?
 Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. Kat has supported hundreds of clients, so you do not need to have it all worked out first. No preparation and no obligation.

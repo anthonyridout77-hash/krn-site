@@ -1,9 +1,9 @@
 ---
-title: "Gestational Diabetes Mellitus"
+title: "Gestational Diabetes Dietitian"
 seoTitle: "Gestational Diabetes Dietitian Brisbane and Online"
 description: "Gestational diabetes dietitian Kat Ridout, APD. Practical meal guidance by telehealth Australia-wide or in person in Brisbane. Medicare rebate with GP referral."
 date: "2025-08-01"
-updated: "2026-10-05"
+updated: "2026-11-10"
 wpId: "464"
 wpUrl: "https://api.katridout.com.au/our-services/pregnancy-nutrition-and-dietetics/gestational-diabetes/"
 parent: "415"
@@ -11,8 +11,6 @@ parent: "415"
 
 
 ## Gestational Diabetes Mellitus
-
-Gestational diabetes dietitian brisbane
 
 ## Not sure where to start?
 Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. Kat has supported hundreds of clients, so you do not need to have it all worked out first. No preparation and no obligation.
@@ -31,8 +29,6 @@ With GDM, babies are more likely to be larger than average (large for gestationa
 ### How is gestational diabetes diagnosed?
 All women are screened for gestational diabetes between 24 and 28 weeks of pregnancy. This is usually done with blood tests and an oral glucose tolerance test (OGTT), where you drink a sweet liquid and your blood sugar is measured over time. Your doctor, midwife or dietitian can guide you through the process and explain your results.
 
-### 
-
 ### Quick Tips for Managing GDM
 Here are some simple steps that can make a big difference:
 
@@ -49,6 +45,11 @@ Together, we’ll create a nutrition plan that is practical, realistic and tailo
 ### Not sure where to start?
 Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. Kat has supported hundreds of clients, so you do not need to have it all worked out first. No preparation and no obligation.
 [Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
+
+## Further reading
+- [Do I need a dietitian for gestational diabetes in Brisbane?](/blogs/do-i-need-dietitian-gestational-diabetes-brisbane/)
+- [What should a gestational diabetes meal plan look like?](/blogs/gestational-diabetes-meal-plan-guide/)
+- [Gestational diabetes: nutrition tips for managing blood sugar levels](/blogs/gestational-diabetes-mellitus-nutrition-tips-for-managing-blood-sugar-levels/)
 
 ## Frequently Asked Questions
 
