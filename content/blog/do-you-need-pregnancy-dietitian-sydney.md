@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/07/krn-dietitian-nutritionist-fertility-body2.jpg"
 imageAlt: "Woman having a friendly chat in a consultation"
 wpId: "5030"
-wpUrl: "https://api.katridout.com.au/blogs/do-you-need-pregnancy-dietitian-sydney/"
+wpUrl: "https://www.katridout.com.au/blogs/do-you-need-pregnancy-dietitian-sydney/"
 ---
 
 If you are pregnant or planning a pregnancy in Sydney, you might be wondering whether a pregnancy dietitian is worth it, and whether they need to be local. Lots of women find it really helpful, and no, they don’t need to be in Sydney. I see women all over Australia by telehealth from Brisbane. A pregnancy dietitian supports your GP, obstetrician or midwife. We never replace them.

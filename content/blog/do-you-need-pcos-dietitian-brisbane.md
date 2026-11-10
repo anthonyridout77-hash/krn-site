@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/08/krn-postpartum-meals-hero.jpg"
 imageAlt: "Jars of oats, yoghurt and fruit prepared ahead for easy one-handed breakfasts"
 wpId: "5037"
-wpUrl: "https://api.katridout.com.au/blogs/do-you-need-pcos-dietitian-brisbane/"
+wpUrl: "https://www.katridout.com.au/blogs/do-you-need-pcos-dietitian-brisbane/"
 ---
 
 If you have PMOS (previously called PCOS) and you’re in Brisbane, you might be wondering whether a dietitian is worth seeing. For a lot of women it really is, because food is one of the most practical tools you have. I see women with PMOS in person in Milton and by telehealth. I guess the key thing is finding someone who builds a plan around your life, not a list of foods you’re never allowed again.

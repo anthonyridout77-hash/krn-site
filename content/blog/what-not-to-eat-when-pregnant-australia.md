@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/10/krn-what-not-to-eat-pregnant-hero.jpg"
 imageAlt: "A pregnant woman preparing a fresh green salad at a kitchen counter in a bright kitchen"
 wpId: "4864"
-wpUrl: "https://api.katridout.com.au/blogs/what-not-to-eat-when-pregnant-australia/"
+wpUrl: "https://www.katridout.com.au/blogs/what-not-to-eat-when-pregnant-australia/"
 ---
 
 Almost every pregnant woman in Australia gets handed a list. Sometimes it comes from the midwife, sometimes from a pamphlet, and very often from a search at eleven at night after somebody at work said something alarming about soft cheese. The lists rarely agree with each other, and almost none of them explain why anything is on them.

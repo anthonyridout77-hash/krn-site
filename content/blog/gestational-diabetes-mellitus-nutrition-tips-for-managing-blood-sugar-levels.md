@@ -6,7 +6,7 @@ updated: "2026-11-10"
 categories:
   - "Pregnancy"
 wpId: "3265"
-wpUrl: "https://api.katridout.com.au/blogs/gestational-diabetes-mellitus-nutrition-tips-for-managing-blood-sugar-levels/"
+wpUrl: "https://www.katridout.com.au/blogs/gestational-diabetes-mellitus-nutrition-tips-for-managing-blood-sugar-levels/"
 ---
 
 Gestational Diabetes Mellitus (GDM) is a form of diabetes that occurs during pregnancy, affecting about 10% of pregnant women worldwide. It is characterised by high blood sugar levels, which can pose risks to both the mother and the baby if not managed properly. However, with the right approach to nutrition, women with GDM can effectively manage their blood sugar levels and have a healthy pregnancy. In this blog post, we will discuss some nutrition tips for managing blood sugar levels during pregnancy.

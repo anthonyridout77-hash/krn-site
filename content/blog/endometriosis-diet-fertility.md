@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/06/endometriosis-diet-pregnant-apple.jpg"
 imageAlt: "Pregnant woman holding a fresh apple — endometriosis diet and anti-inflammatory foods"
 wpId: "4090"
-wpUrl: "https://api.katridout.com.au/blogs/endometriosis-diet-fertility/"
+wpUrl: "https://www.katridout.com.au/blogs/endometriosis-diet-fertility/"
 ---
 
 Endometriosis affects roughly 1 in 9 Australian women and is one of the most common causes of infertility. While diet cannot cure endometriosis, there is growing evidence that what you eat meaningfully affects **inflammation, oestrogen metabolism, pain levels, and fertility outcomes** in women with the condition.

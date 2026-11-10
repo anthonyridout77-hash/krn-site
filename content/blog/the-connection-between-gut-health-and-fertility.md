@@ -7,7 +7,7 @@ categories:
   - "Pregnancy"
 image: "/images/wp/2025/08/shutterstock_748794286-1.jpg"
 wpId: "3526"
-wpUrl: "https://api.katridout.com.au/blogs/the-connection-between-gut-health-and-fertility/"
+wpUrl: "https://www.katridout.com.au/blogs/the-connection-between-gut-health-and-fertility/"
 ---
 
 When it comes to fertility, many factors come into play—hormonal balance, age, lifestyle, and even diet. But there’s one area often overlooked in discussions about fertility: gut health. While it may seem unrelated, your gut plays a role in your overall reproductive health, and it is an area worth understanding when you are planning a pregnancy.

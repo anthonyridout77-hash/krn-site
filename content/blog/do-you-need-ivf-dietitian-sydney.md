@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/07/krn-how-to-improve-egg-quality-naturally-body2.jpg"
 imageAlt: "Woman smiling during a video call on her laptop"
 wpId: "5032"
-wpUrl: "https://api.katridout.com.au/blogs/do-you-need-ivf-dietitian-sydney/"
+wpUrl: "https://www.katridout.com.au/blogs/do-you-need-ivf-dietitian-sydney/"
 ---
 
 If you are preparing for IVF in Sydney, you have probably been handed a lot of advice about food already. Some from your clinic, some from a forum late at night. You don’t need a dietitian in Sydney to get good support with it. I work with women and couples all over Australia by telehealth from Brisbane. Nutrition supports your fertility clinic’s care and never replaces it.

@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/07/krn-how-to-improve-egg-quality-naturally-body2.jpg"
 imageAlt: "Woman smiling during a video call on her laptop"
 wpId: "4905"
-wpUrl: "https://api.katridout.com.au/blogs/how-to-choose-a-fertility-dietitian/"
+wpUrl: "https://www.katridout.com.au/blogs/how-to-choose-a-fertility-dietitian/"
 ---
 
 **Quick answer:** Choose an **Accredited Practising Dietitian (APD)** who specialises in fertility. Check that they assess your medical history, blood tests and cycle before writing a plan, that they work alongside your GP or fertility clinic, and that they can also support your partner. A good personalised plan fits your food preferences, culture, budget and schedule, not a generic PDF. Avoid anyone who promises a pregnancy or sells a supplement range.

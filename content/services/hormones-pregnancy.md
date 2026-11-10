@@ -5,7 +5,7 @@ description: "Understand how nutrition supports hormonal balance during pregnanc
 date: "2025-08-01"
 updated: "2026-10-05"
 wpId: "476"
-wpUrl: "https://api.katridout.com.au/our-services/pregnancy-nutrition-and-dietetics/hormones-pregnancy/"
+wpUrl: "https://www.katridout.com.au/our-services/pregnancy-nutrition-and-dietetics/hormones-pregnancy/"
 parent: "415"
 ---
 

@@ -6,7 +6,7 @@ updated: "2026-10-04"
 categories:
   - "Pregnancy"
 wpId: "3513"
-wpUrl: "https://api.katridout.com.au/blogs/natural-ways-to-support-your-hormones-while-pregnant/"
+wpUrl: "https://www.katridout.com.au/blogs/natural-ways-to-support-your-hormones-while-pregnant/"
 ---
 
 Pregnancy is a transformative time for your body, with fluctuating hormone levels playing a significant role in this change. From the early stages of morning sickness to the third trimester’s physical and emotional shifts, supporting your hormones naturally can make a world of difference in maintaining your well-being throughout the journey.

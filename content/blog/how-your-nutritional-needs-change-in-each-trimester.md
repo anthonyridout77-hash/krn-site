@@ -7,7 +7,7 @@ categories:
   - "Pregnancy"
 image: "/images/wp/2026/01/shutterstock_2160264163-1-1.jpg"
 wpId: "3956"
-wpUrl: "https://api.katridout.com.au/blogs/how-your-nutritional-needs-change-in-each-trimester/"
+wpUrl: "https://www.katridout.com.au/blogs/how-your-nutritional-needs-change-in-each-trimester/"
 ---
 
 ## Pregnancy is a remarkable journey, not just emotionally but physiologically. As your body grows and adapts to nurture new life, your nutritional needs evolve to support both you and your baby.

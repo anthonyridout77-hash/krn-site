@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/07/krn-dietitian-nutritionist-fertility-body2.jpg"
 imageAlt: "Woman having a friendly chat in a consultation"
 wpId: "5143"
-wpUrl: "https://api.katridout.com.au/blogs/what-foods-help-with-pregnancy-nausea/"
+wpUrl: "https://www.katridout.com.au/blogs/what-foods-help-with-pregnancy-nausea/"
 ---
 
 If you’re in the thick of pregnancy nausea, I want you to know this is so common, and it isn’t a sign anything is wrong with your pregnancy. What tends to help most is plain, cold, low-smell food eaten small and often: crackers, toast, cold fruit, yoghurt, smoothies, with a little ginger and some protein where you can manage it. For most women nausea starts around weeks 4 to 6, peaks around weeks 8 to 12 and eases from about week 14. If you can’t keep fluids down, that’s one for your GP or maternity team, not just food changes.

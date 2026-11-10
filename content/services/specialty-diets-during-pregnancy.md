@@ -4,7 +4,7 @@ description: "Expert support for vegetarian, vegan, or allergy-specific diets in
 date: "2025-08-01"
 updated: "2026-10-05"
 wpId: "499"
-wpUrl: "https://api.katridout.com.au/our-services/pregnancy-nutrition-and-dietetics/specialty-diets-during-pregnancy/"
+wpUrl: "https://www.katridout.com.au/our-services/pregnancy-nutrition-and-dietetics/specialty-diets-during-pregnancy/"
 parent: "415"
 ---
 

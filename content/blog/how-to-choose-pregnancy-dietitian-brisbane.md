@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/07/krn-dietitian-nutritionist-fertility-body2.jpg"
 imageAlt: "Woman having a friendly chat in a consultation"
 wpId: "5275"
-wpUrl: "https://api.katridout.com.au/blogs/how-to-choose-pregnancy-dietitian-brisbane/"
+wpUrl: "https://www.katridout.com.au/blogs/how-to-choose-pregnancy-dietitian-brisbane/"
 ---
 
 <p>Choosing a pregnancy dietitian in Brisbane can feel like one more job when you&#8217;re already juggling appointments. There&#8217;s no one right answer for everyone. It really depends on your stage (trying, pregnant or postpartum), what&#8217;s going on medically, and whether you&#8217;d rather come in person or do telehealth from the couch in your pyjama pants. Here&#8217;s how I&#8217;d go about choosing, and how I work with you if you&#8217;d like that to be me.</p>

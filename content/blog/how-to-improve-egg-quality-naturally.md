@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/06/egg-quality-pregnant-slicing-fruit.jpg"
 imageAlt: "Pregnant woman slicing fresh fruits — egg quality nutrition and antioxidant foods"
 wpId: "4081"
-wpUrl: "https://api.katridout.com.au/blogs/how-to-improve-egg-quality-naturally/"
+wpUrl: "https://www.katridout.com.au/blogs/how-to-improve-egg-quality-naturally/"
 ---
 
 If you’re trying to conceive — or preparing for IVF — you’ve probably come across claims that you can “improve egg quality naturally.” But is this actually true? And if so, what does the evidence say works?

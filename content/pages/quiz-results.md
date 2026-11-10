@@ -3,7 +3,7 @@ title: "Quiz Results"
 date: "2025-08-07"
 updated: "2025-08-07"
 wpId: "784"
-wpUrl: "https://api.katridout.com.au/quiz-results/"
+wpUrl: "https://www.katridout.com.au/quiz-results/"
 ---
 
 ### PCOS High Risk

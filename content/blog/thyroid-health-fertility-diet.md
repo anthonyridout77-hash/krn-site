@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/07/krn-how-to-improve-egg-quality-naturally-body2.jpg"
 imageAlt: "Woman smiling during a video call on her laptop"
 wpId: "5177"
-wpUrl: "https://api.katridout.com.au/blogs/thyroid-health-fertility-diet/"
+wpUrl: "https://www.katridout.com.au/blogs/thyroid-health-fertility-diet/"
 ---
 
 <p>When you&#8217;re trying to conceive and you also have a thyroid condition, it can feel like one more thing to juggle. I guess the key thing is this: your thyroid and your reproductive hormones talk to each other, so looking after one supports the other. No single food or supplement treats a thyroid disorder, and food never replaces your medication. What good nutrition can do is close the nutrition gaps, keep your supplements safe around your tablets, and give your medical care a good baseline diet to work with.</p>

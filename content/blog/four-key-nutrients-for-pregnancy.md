@@ -6,7 +6,7 @@ updated: "2026-07-28"
 categories:
   - "Pregnancy"
 wpId: "2488"
-wpUrl: "https://api.katridout.com.au/blogs/four-key-nutrients-for-pregnancy/"
+wpUrl: "https://www.katridout.com.au/blogs/four-key-nutrients-for-pregnancy/"
 ---
 
 ## You will need more of certain nutrients during your pregnancy.

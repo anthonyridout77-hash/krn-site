@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/07/krn-preparing-body-for-pregnancy-body1.jpg"
 imageAlt: "Close-up of a nutritious colourful meal"
 wpId: "5086"
-wpUrl: "https://api.katridout.com.au/blogs/male-fertility-dietitian-sperm-health/"
+wpUrl: "https://www.katridout.com.au/blogs/male-fertility-dietitian-sperm-health/"
 ---
 
 If you and your partner are planning a pregnancy, I guess the key thing I want you to know is that it’s not only her nutrition in the mix. What he eats, drinks and does day to day can shape sperm health, and the good news is that most of it comes down to simple little switches rather than anything drastic. Here’s what we do know from the research, and how I work with men (and couples) before conception, always alongside your GP and fertility specialist.

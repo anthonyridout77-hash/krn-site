@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/08/krn-choline-featured.jpg"
 imageAlt: "Choline in pregnancy, what Australian prenatal supplements miss, by Katrina Ridout Accredited Practising Dietitian."
 wpId: "4777"
-wpUrl: "https://api.katridout.com.au/blogs/choline-in-pregnancy-australian-prenatal-supplements/"
+wpUrl: "https://www.katridout.com.au/blogs/choline-in-pregnancy-australian-prenatal-supplements/"
 ---
 
 There is a nutrient that comes up in almost every pregnancy consultation I have once someone starts reading, and almost never comes up before that. It is choline. It sits in the same conversation as folate and iodine in the research, and nowhere near them in the pharmacy aisle.

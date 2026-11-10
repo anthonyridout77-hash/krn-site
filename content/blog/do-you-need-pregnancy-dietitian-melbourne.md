@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/08/krn-postpartum-meals-hero.jpg"
 imageAlt: "Jars of oats, yoghurt and fruit prepared ahead for easy one-handed breakfasts"
 wpId: "5031"
-wpUrl: "https://api.katridout.com.au/blogs/do-you-need-pregnancy-dietitian-melbourne/"
+wpUrl: "https://www.katridout.com.au/blogs/do-you-need-pregnancy-dietitian-melbourne/"
 ---
 
 If you are pregnant in Melbourne and thinking about seeing a pregnancy dietitian, you have more choice than you might think. Telehealth means you can work with an Accredited Practising Dietitian (APD) anywhere in Australia, and I see lots of women from Victoria from my clinic in Brisbane. Nutrition supports your GP, obstetrician and midwife. It never replaces them.

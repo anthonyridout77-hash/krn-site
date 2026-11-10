@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/07/krn-what-does-a-fertility-dietitian-do-body1.jpg"
 imageAlt: "Woman in her kitchen making notes about her meals"
 wpId: "5029"
-wpUrl: "https://api.katridout.com.au/blogs/do-you-need-fertility-dietitian-melbourne/"
+wpUrl: "https://www.katridout.com.au/blogs/do-you-need-fertility-dietitian-melbourne/"
 ---
 
 If you are in Melbourne and trying to conceive, you might be wondering whether you need a fertility dietitian close by. You don’t. I work with women right across Australia by telehealth from Brisbane, and I guess the key thing is choosing someone with the right qualification and a way of working that suits you, rather than someone in your postcode. Nutrition supports your GP and fertility clinic. It never replaces them, and no diet can promise a pregnancy.

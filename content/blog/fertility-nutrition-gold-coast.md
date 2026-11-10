@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/07/krn-what-does-a-fertility-dietitian-do-body1.jpg"
 imageAlt: "Woman in her kitchen making notes about her meals"
 wpId: "5035"
-wpUrl: "https://api.katridout.com.au/blogs/fertility-nutrition-gold-coast/"
+wpUrl: "https://www.katridout.com.au/blogs/fertility-nutrition-gold-coast/"
 ---
 
 If you live on the Gold Coast and you’re trying to conceive, you might be wondering who to see for fertility nutrition. You have two easy options with me: telehealth from home, or the drive up the M1 to my clinic in Milton, Brisbane. Either way, what matters most is choosing an Accredited Practising Dietitian who fits you. Nutrition supports your GP and fertility clinic and never replaces them.

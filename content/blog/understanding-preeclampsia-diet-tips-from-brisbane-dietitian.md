@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2025/10/shutterstock_2443815135-1.jpg"
 imageAlt: "Preeclampsia & Diet"
 wpId: "3879"
-wpUrl: "https://api.katridout.com.au/blogs/understanding-preeclampsia-diet-tips-from-brisbane-dietitian/"
+wpUrl: "https://www.katridout.com.au/blogs/understanding-preeclampsia-diet-tips-from-brisbane-dietitian/"
 ---
 
 Preeclampsia is a pregnancy complication characterised by high blood pressure and signs of damage to other organ systems, often the kidneys. It typically occurs after 20 weeks of pregnancy and can pose serious risks to both the mother and baby if not managed properly. Understanding preeclampsia and adopting appropriate lifestyle and dietary strategies is essential for expectant mothers.

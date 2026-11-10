@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/07/krn-dietitian-nutritionist-fertility-body2.jpg"
 imageAlt: "Woman having a friendly chat in a consultation"
 wpId: "5210"
-wpUrl: "https://api.katridout.com.au/blogs/nutrition-changes-fertility-over-35/"
+wpUrl: "https://www.katridout.com.au/blogs/nutrition-changes-fertility-over-35/"
 ---
 
 <p>If you&#8217;re over 35 and trying for a baby, I want to start with something reassuring. Fertility does change with age, slowly after 30 and more noticeably after 35, and no food can turn back that clock. But what you eat is still one of the things within your control, and I guess the key thing is that small, steady changes made now give your body a good baseline to work from. It takes around three months to build your eggs, so the next few months really count.</p>

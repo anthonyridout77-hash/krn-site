@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/07/krn-how-to-improve-egg-quality-naturally-body2.jpg"
 imageAlt: "Woman smiling during a video call on her laptop"
 wpId: "5027"
-wpUrl: "https://api.katridout.com.au/blogs/do-i-need-a-fertility-dietitian-in-sydney/"
+wpUrl: "https://www.katridout.com.au/blogs/do-i-need-a-fertility-dietitian-in-sydney/"
 ---
 
 If you live in Sydney and you’re trying to conceive, you might be wondering whether you need a fertility dietitian down the road. The short answer is no, you don’t need to be in the same city. I work with women all over Australia by telehealth from Brisbane, and what really matters is choosing someone with the right qualification, an evidence-based approach and a way of working that suits you. A fertility dietitian supports your GP and fertility clinic. We never replace them.

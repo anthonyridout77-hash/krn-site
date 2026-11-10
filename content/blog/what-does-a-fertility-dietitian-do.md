@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/06/fertility-dietitian-pregnant-kitchen.jpg"
 imageAlt: "Pregnant woman preparing healthy food in kitchen — fertility dietitian nutrition advice"
 wpId: "4080"
-wpUrl: "https://api.katridout.com.au/blogs/what-does-a-fertility-dietitian-do/"
+wpUrl: "https://www.katridout.com.au/blogs/what-does-a-fertility-dietitian-do/"
 ---
 
 If you’re trying to conceive — naturally or through IVF — you’ve probably heard that nutrition matters. But what does a **fertility dietitian** actually do, and how is seeing one different from just eating well or following generic advice online?

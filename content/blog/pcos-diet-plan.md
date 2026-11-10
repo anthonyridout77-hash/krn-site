@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/06/pcos-diet-pregnant-preparing-salad.jpg"
 imageAlt: "Pregnant woman preparing a healthy vegetable salad — PCOS diet plan and nutrition"
 wpId: "4086"
-wpUrl: "https://api.katridout.com.au/blogs/pcos-diet-plan/"
+wpUrl: "https://www.katridout.com.au/blogs/pcos-diet-plan/"
 ---
 
 Polycystic ovary syndrome (PCOS) is the most common hormonal disorder in women of reproductive age, affecting approximately 1 in 8 Australian women. Despite how common it is, the dietary advice around PCOS is often contradictory, overly restrictive, or based on outdated science.

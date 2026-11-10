@@ -3,7 +3,7 @@ title: "Booking Confirmed"
 date: "2026-07-03"
 updated: "2026-10-12"
 wpId: "4146"
-wpUrl: "https://api.katridout.com.au/thank-you/"
+wpUrl: "https://www.katridout.com.au/thank-you/"
 ---
 
 ## You’re booked in. Thank you.

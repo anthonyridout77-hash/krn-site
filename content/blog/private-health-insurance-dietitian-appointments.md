@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/07/krn-preparing-body-for-pregnancy-body1.jpg"
 imageAlt: "Close-up of a nutritious colourful meal"
 wpId: "5224"
-wpUrl: "https://api.katridout.com.au/blogs/private-health-insurance-dietitian-appointments/"
+wpUrl: "https://www.katridout.com.au/blogs/private-health-insurance-dietitian-appointments/"
 ---
 
 <p>If you&#8217;ve got extras cover, it&#8217;s worth a quick look before you book a dietitian. I guess the key thing is that most private health funds do cover visits to an Accredited Practising Dietitian in private practice, usually under extras rather than hospital cover, and you don&#8217;t need a GP referral to use it. What you get back depends on your fund and your policy, so let&#8217;s walk through what to check. Easy peasy, I promise.</p>

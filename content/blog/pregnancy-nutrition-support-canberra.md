@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/07/krn-dietitian-nutritionist-fertility-body2.jpg"
 imageAlt: "Woman having a friendly chat in a consultation"
 wpId: "5036"
-wpUrl: "https://api.katridout.com.au/blogs/pregnancy-nutrition-support-canberra/"
+wpUrl: "https://www.katridout.com.au/blogs/pregnancy-nutrition-support-canberra/"
 ---
 
 If you are pregnant or planning a pregnancy in Canberra, you might be wondering who to see for nutrition support. There are a couple of paths, and telehealth opens up a lot more choice. I see women all over Australia, including the ACT, from my clinic in Brisbane. Whoever you choose, a pregnancy dietitian supports your GP, obstetrician and midwife. We never replace them.

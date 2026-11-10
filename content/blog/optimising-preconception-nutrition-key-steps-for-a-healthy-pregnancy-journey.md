@@ -6,7 +6,7 @@ updated: "2026-08-11"
 categories:
   - "Pregnancy"
 wpId: "3352"
-wpUrl: "https://api.katridout.com.au/blogs/optimising-preconception-nutrition-key-steps-for-a-healthy-pregnancy-journey/"
+wpUrl: "https://www.katridout.com.au/blogs/optimising-preconception-nutrition-key-steps-for-a-healthy-pregnancy-journey/"
 ---
 
 Preparing for pregnancy involves more than just timing and planning—it also includes optimising your health through proper nutrition. Katrina Ridout, an expert in fertility nutrition, emphasises the importance of tailored nutritional strategies to support individuals and couples on their journey to parenthood.

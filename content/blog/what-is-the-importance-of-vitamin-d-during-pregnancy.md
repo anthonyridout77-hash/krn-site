@@ -6,7 +6,7 @@ updated: "2026-07-28"
 categories:
   - "Pregnancy"
 wpId: "1770"
-wpUrl: "https://api.katridout.com.au/blogs/what-is-the-importance-of-vitamin-d-during-pregnancy/"
+wpUrl: "https://www.katridout.com.au/blogs/what-is-the-importance-of-vitamin-d-during-pregnancy/"
 ---
 
 ## Consuming an adequate amount of vitamin D during pregnancy is vital for the health of you and your baby.

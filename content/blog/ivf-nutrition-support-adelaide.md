@@ -7,7 +7,7 @@ categories:
   - "Fertility & IVF"
 image: "/images/wp/2026/07/krn-ivf-nutrition-support-adelaide-hero.jpg"
 wpId: "4406"
-wpUrl: "https://api.katridout.com.au/blogs/ivf-nutrition-support-adelaide/"
+wpUrl: "https://www.katridout.com.au/blogs/ivf-nutrition-support-adelaide/"
 ---
 
 If you are going through IVF, you have probably discovered that everyone has an opinion on what you should eat. Pineapple core after transfer. No coffee ever again. A supplement for every letter of the alphabet. It is a lot, and most of it is noise. As an **IVF dietitian supporting Adelaide women online**, Kat Ridout hears the same question in almost every first call: what actually makes a difference? This guide covers what the evidence supports, what you can leave behind, and how nutrition support can work alongside the care you are already getting from your fertility clinic.

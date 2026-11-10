@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/07/krn-what-does-a-fertility-dietitian-do-body1.jpg"
 imageAlt: "Woman in her kitchen making notes about her meals"
 wpId: "5167"
-wpUrl: "https://api.katridout.com.au/blogs/gestational-diabetes-meal-plan-guide/"
+wpUrl: "https://www.katridout.com.au/blogs/gestational-diabetes-meal-plan-guide/"
 ---
 
 Being told you have gestational diabetes can feel like a lot to take in, and the first question most women ask me is “so what can I actually eat?” The good news is that a gestational diabetes meal plan is not a low-carb diet. I guess the key thing is to eat small and often: three smaller meals and two to three snacks, each one pairing a low-GI carbohydrate with protein and fibre, so your glucose gets a gentle trickle rather than a big load at once. Food is one part of your care team’s plan, alongside glucose monitoring and medical review, and here’s what it looks like day to day in an Australian kitchen.

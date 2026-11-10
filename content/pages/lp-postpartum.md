@@ -3,7 +3,7 @@ title: "Postpartum Dietitian — Free 15-Min Consultation"
 date: "2026-07-07"
 updated: "2026-07-13"
 wpId: "4152"
-wpUrl: "https://api.katridout.com.au/lp-postpartum/"
+wpUrl: "https://www.katridout.com.au/lp-postpartum/"
 ---
 
 # Support Your Body After Birth — Postpartum Nutrition That Actually Works

@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/10/krn-omega3-pregnancy-hero-2.jpg"
 imageAlt: "Fresh raw salmon steaks on a wooden board with lemon slices, sliced red onion and microgreens"
 wpId: "5264"
-wpUrl: "https://api.katridout.com.au/blogs/omega-3-pregnancy-dietitian-brisbane/"
+wpUrl: "https://www.katridout.com.au/blogs/omega-3-pregnancy-dietitian-brisbane/"
 ---
 
 <p>Iron, folate and iodine come up most weeks in my consults. Omega-3 comes up almost as often, and it is the one where I find myself giving the longest answer, because the honest answer is not simply take more.</p>

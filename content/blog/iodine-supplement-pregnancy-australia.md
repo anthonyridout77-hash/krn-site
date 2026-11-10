@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/08/krn-postpartum-meals-hero.jpg"
 imageAlt: "Jars of oats, yoghurt and fruit prepared ahead for easy one-handed breakfasts"
 wpId: "5131"
-wpUrl: "https://api.katridout.com.au/blogs/iodine-supplement-pregnancy-australia/"
+wpUrl: "https://www.katridout.com.au/blogs/iodine-supplement-pregnancy-australia/"
 ---
 
 Short answer: yes. If you’re trying for a baby, pregnant or breastfeeding in Australia, the advice is a daily supplement with 150 micrograms of iodine, because most of us simply don’t get enough from food during these stages. I guess the key thing is that this is one of the few supplements where the evidence is really clear, and it’s one small habit that does a big job for your baby’s brain. If you have a thyroid condition, have a chat with your GP before you start.

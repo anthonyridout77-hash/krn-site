@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/07/krn-what-does-a-fertility-dietitian-do-body1.jpg"
 imageAlt: "Woman in her kitchen making notes about her meals"
 wpId: "5068"
-wpUrl: "https://api.katridout.com.au/blogs/questions-to-ask-fertility-dietitian-sydney/"
+wpUrl: "https://www.katridout.com.au/blogs/questions-to-ask-fertility-dietitian-sydney/"
 ---
 
 If you’re in Sydney and trying to conceive, you might be scrolling through dietitian websites and wondering how on earth to pick one. I guess the key thing is to ask a few good questions before you book, because the right dietitian for you depends on your situation, the way you like to work and what’s going on with your cycle or treatment. You also don’t need to be in the same city. I’m in Brisbane and I work with women and couples all over Australia by telehealth. Whoever you choose, a fertility dietitian supports your GP and fertility clinic, and no one can promise a pregnancy.

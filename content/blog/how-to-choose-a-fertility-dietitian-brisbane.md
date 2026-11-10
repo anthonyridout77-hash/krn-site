@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/07/krn-what-does-a-fertility-dietitian-do-body1.jpg"
 imageAlt: "Woman in her kitchen making notes about her meals"
 wpId: "5184"
-wpUrl: "https://api.katridout.com.au/blogs/how-to-choose-a-fertility-dietitian-brisbane/"
+wpUrl: "https://www.katridout.com.au/blogs/how-to-choose-a-fertility-dietitian-brisbane/"
 ---
 
 <p>If you&#8217;re searching for a fertility dietitian in Brisbane, I guess the key thing is this: there&#8217;s no one right person for everyone. The right fit depends on where you&#8217;re at, your medical history and how you like to be looked after. So rather than a list of names, here&#8217;s what I&#8217;d check if I were in your shoes, and a little about how I work with women in Brisbane and by telehealth right across Australia.</p>

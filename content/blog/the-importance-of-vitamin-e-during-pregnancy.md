@@ -6,7 +6,7 @@ updated: "2026-07-28"
 categories:
   - "Pregnancy"
 wpId: "1776"
-wpUrl: "https://api.katridout.com.au/blogs/the-importance-of-vitamin-e-during-pregnancy/"
+wpUrl: "https://www.katridout.com.au/blogs/the-importance-of-vitamin-e-during-pregnancy/"
 ---
 
 ## Vitamin E is a naturally occurring fat soluble nutrient found in many foods and exists in eight chemical forms.

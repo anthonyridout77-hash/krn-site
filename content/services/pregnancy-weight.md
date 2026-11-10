@@ -4,7 +4,7 @@ description: "Support a healthy pregnancy weight with professional dietetic care
 date: "2025-08-01"
 updated: "2026-10-05"
 wpId: "455"
-wpUrl: "https://api.katridout.com.au/our-services/pregnancy-nutrition-and-dietetics/pregnancy-weight/"
+wpUrl: "https://www.katridout.com.au/our-services/pregnancy-nutrition-and-dietetics/pregnancy-weight/"
 parent: "415"
 ---
 

@@ -3,7 +3,7 @@ title: "Book a ‘meet and greet’ with Kat"
 date: "2025-08-07"
 updated: "2026-10-05"
 wpId: "696"
-wpUrl: "https://api.katridout.com.au/book-a-meet-and-greet-with-kat/"
+wpUrl: "https://www.katridout.com.au/book-a-meet-and-greet-with-kat/"
 ---
 
 ## Meet Kat

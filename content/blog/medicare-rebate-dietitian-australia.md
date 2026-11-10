@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/07/krn-how-to-improve-egg-quality-naturally-body2.jpg"
 imageAlt: "Woman smiling during a video call on her laptop"
 wpId: "5221"
-wpUrl: "https://api.katridout.com.au/blogs/medicare-rebate-dietitian-australia/"
+wpUrl: "https://www.katridout.com.au/blogs/medicare-rebate-dietitian-australia/"
 ---
 
 <p>Yes, you can, if you have a chronic health condition and your GP has set up a GP Chronic Condition Management Plan (GPCCMP). I get asked this all the time, so let me walk you through it simply. The plan gives you a set number of Medicare-subsidised visits with an Accredited Practising Dietitian each year, and you pay the gap between the dietitian&#8217;s fee and the rebate. I guess the key thing is that the rebate isn&#8217;t automatic: the plan needs to be in place before you book, and nutrition support always works alongside your medical care, never instead of it.</p>

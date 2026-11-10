@@ -6,7 +6,7 @@ updated: "2026-07-28"
 categories:
   - "Pregnancy"
 wpId: "1763"
-wpUrl: "https://api.katridout.com.au/blogs/why-is-it-important-to-consume-calcium-as-part-of-a-healthy-diet/"
+wpUrl: "https://www.katridout.com.au/blogs/why-is-it-important-to-consume-calcium-as-part-of-a-healthy-diet/"
 ---
 
 ## Calcium is a mineral that is crucial for your bone and overall health.

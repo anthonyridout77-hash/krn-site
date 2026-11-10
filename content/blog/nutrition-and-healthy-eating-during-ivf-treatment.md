@@ -6,7 +6,7 @@ updated: "2026-07-28"
 categories:
   - "Pregnancy"
 wpId: "2934"
-wpUrl: "https://api.katridout.com.au/blogs/nutrition-and-healthy-eating-during-ivf-treatment/"
+wpUrl: "https://www.katridout.com.au/blogs/nutrition-and-healthy-eating-during-ivf-treatment/"
 ---
 
 ## Eating well while you are going through IVF

@@ -7,7 +7,7 @@ categories:
   - "Pregnancy"
 image: "/images/wp/2026/07/krn_featured-2026-07-13.jpg"
 wpId: "4172"
-wpUrl: "https://api.katridout.com.au/blogs/protein-in-pregnancy/"
+wpUrl: "https://www.katridout.com.au/blogs/protein-in-pregnancy/"
 ---
 
 If your feed looks anything like mine lately, protein is everywhere. Protein coffee, protein water, protein pasta, creators proudly tracking 150 grams a day. The trend even has a name this year, “proteinmaxxing”, and I’ve had several pregnant clients quietly ask me whether they should be doing it too.

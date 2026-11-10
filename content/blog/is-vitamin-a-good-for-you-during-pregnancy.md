@@ -6,7 +6,7 @@ updated: "2026-08-13"
 categories:
   - "Pregnancy"
 wpId: "1767"
-wpUrl: "https://api.katridout.com.au/blogs/is-vitamin-a-good-for-you-during-pregnancy/"
+wpUrl: "https://www.katridout.com.au/blogs/is-vitamin-a-good-for-you-during-pregnancy/"
 ---
 
 ## The consumption of Vitamin A is crucial for a healthy pregnancy and baby.

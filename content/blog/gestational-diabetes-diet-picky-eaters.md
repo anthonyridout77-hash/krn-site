@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/07/krn-dietitian-nutritionist-fertility-body2.jpg"
 imageAlt: "Woman having a friendly chat in a consultation"
 wpId: "5024"
-wpUrl: "https://api.katridout.com.au/blogs/gestational-diabetes-diet-picky-eaters/"
+wpUrl: "https://www.katridout.com.au/blogs/gestational-diabetes-diet-picky-eaters/"
 ---
 
 If your list of safe foods is short and you’ve just been told you have gestational diabetes, take a breath. You don’t need to become a different eater overnight. I guess the key thing is this: you can keep eating the meals you already like, with your carbs spread across the day and paired with a bit of protein, fibre and healthy fat. Pregnancy is not the time for a low or no carb diet, so we’re not cutting out food groups. We’re working with what’s already on your plate.

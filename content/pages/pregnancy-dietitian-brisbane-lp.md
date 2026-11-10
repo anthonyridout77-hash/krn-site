@@ -4,7 +4,7 @@ description: "Pregnancy dietitian in Brisbane. Nutrition support with Kat Ridout
 date: "2025-08-27"
 updated: "2026-09-03"
 wpId: "2317"
-wpUrl: "https://api.katridout.com.au/pregnancy-dietitian-brisbane-lp/"
+wpUrl: "https://www.katridout.com.au/pregnancy-dietitian-brisbane-lp/"
 ---
 
 

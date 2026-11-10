@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/07/krn-what-does-a-fertility-dietitian-do-body1.jpg"
 imageAlt: "Woman in her kitchen making notes about her meals"
 wpId: "4901"
-wpUrl: "https://api.katridout.com.au/blogs/how-to-find-a-qualified-prenatal-nutritionist/"
+wpUrl: "https://www.katridout.com.au/blogs/how-to-find-a-qualified-prenatal-nutritionist/"
 ---
 
 **Quick answer:** In Australia, look for an **Accredited Practising Dietitian (APD)** who specialises in pregnancy. “Nutritionist” isn’t a protected title, so anyone can use it. APD is the credential Medicare, the DVA and private health funds recognise. Search the Dietitians Australia “Find an Accredited Practising Dietitian” directory by postcode and filter for pregnancy or women’s health. Telehealth means you can see a specialist anywhere in Australia.

@@ -27,7 +27,7 @@ At Katrina Ridout Nutrition, advice is always grounded in the latest research an
 
 Learn More (/our-services/)
 
-Nutrition (https://api.katridout.com.au/our-services/dietitian/)
+Nutrition (https://www.katridout.com.au/our-services/dietitian/)
 
 Nutrition
 
@@ -35,11 +35,11 @@ Preconception
 
 Preconception
 
-Pregnancy (https://api.katridout.com.au/our-services/pregnancy-nutrition-and-dietetics/)
+Pregnancy (https://www.katridout.com.au/our-services/pregnancy-nutrition-and-dietetics/)
 
 Pregnancy
 
-Post Pregnancy (https://api.katridout.com.au/our-services/postnatal-nutrition/)
+Post Pregnancy (https://www.katridout.com.au/our-services/postnatal-nutrition/)
 
 Post Pregnancy
 
@@ -49,7 +49,7 @@ At Katrina Ridout Nutrition, advice is always grounded in the latest research an
 
 Learn More (/our-services/)
 
-Nutrition (https://api.katridout.com.au/our-services/dietitian/)
+Nutrition (https://www.katridout.com.au/our-services/dietitian/)
 
 Nutrition
 
@@ -57,11 +57,11 @@ Preconception
 
 Preconception
 
-Pregnancy (https://api.katridout.com.au/our-services/pregnancy-nutrition-and-dietetics/)
+Pregnancy (https://www.katridout.com.au/our-services/pregnancy-nutrition-and-dietetics/)
 
 Pregnancy
 
-Post Pregnancy (https://api.katridout.com.au/our-services/postnatal-nutrition/)
+Post Pregnancy (https://www.katridout.com.au/our-services/postnatal-nutrition/)
 
 Post Pregnancy
 
@@ -71,7 +71,7 @@ At Katrina Ridout Nutrition, advice is always grounded in the latest research an
 
 Learn More (/our-services/)
 
-Nutrition (https://api.katridout.com.au/our-services/dietitian/)
+Nutrition (https://www.katridout.com.au/our-services/dietitian/)
 
 Nutrition
 
@@ -79,11 +79,11 @@ Preconception
 
 Preconception
 
-Pregnancy (https://api.katridout.com.au/our-services/pregnancy-nutrition-and-dietetics/)
+Pregnancy (https://www.katridout.com.au/our-services/pregnancy-nutrition-and-dietetics/)
 
 Pregnancy
 
-Post Pregnancy (https://api.katridout.com.au/our-services/postnatal-nutrition/)
+Post Pregnancy (https://www.katridout.com.au/our-services/postnatal-nutrition/)
 
 Post Pregnancy
 

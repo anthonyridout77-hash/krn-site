@@ -7,7 +7,7 @@ categories:
   - "Postpartum & Breastfeeding"
 image: "/images/wp/2023/01/krn_featured.jpg"
 wpId: "4210"
-wpUrl: "https://api.katridout.com.au/blogs/breastfeeding-nutrition-and-milk-supply/"
+wpUrl: "https://www.katridout.com.au/blogs/breastfeeding-nutrition-and-milk-supply/"
 ---
 
 Somewhere around week two or three, almost every breastfeeding mum I work with has done the same thing: sat up at 3am, baby finally asleep, googling “how to increase milk supply”. And the internet has answers ready. Lactation cookies. Supply teas. Brewer’s yeast in everything. Special smoothie powders with a subscription option.

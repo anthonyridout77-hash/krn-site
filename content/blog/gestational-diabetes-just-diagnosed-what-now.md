@@ -7,7 +7,7 @@ categories:
   - "GDM & Pregnancy Complications"
 image: "/images/wp/2026/07/krn-gdm-featured.jpg"
 wpId: "4424"
-wpUrl: "https://api.katridout.com.au/blogs/gestational-diabetes-just-diagnosed-what-now/"
+wpUrl: "https://www.katridout.com.au/blogs/gestational-diabetes-just-diagnosed-what-now/"
 ---
 
 If you’ve just been told you have gestational diabetes, I want to start with the thing most women need to hear first: you did not cause this.

@@ -4,7 +4,7 @@ description: "Accredited Practising Dietitian supporting Adelaide women through 
 date: "2026-07-28"
 updated: "2026-10-06"
 wpId: "4590"
-wpUrl: "https://api.katridout.com.au/pregnancy-dietitian-adelaide/"
+wpUrl: "https://www.katridout.com.au/pregnancy-dietitian-adelaide/"
 ---
 
 Based in Brisbane, Kat Ridout supports women right across South Australia through telehealth. Wherever you are, from the city to the Adelaide Hills, you get the same evidence based fertility, pregnancy and postpartum nutrition care, by telehealth that fits around your life.

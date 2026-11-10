@@ -4,7 +4,7 @@ description: "Support your baby’s growth and development with expert paediatri
 date: "2025-08-01"
 updated: "2026-10-05"
 wpId: "355"
-wpUrl: "https://api.katridout.com.au/our-services/paediatric-nutrition-and-dietetics/"
+wpUrl: "https://www.katridout.com.au/our-services/paediatric-nutrition-and-dietetics/"
 ---
 
 

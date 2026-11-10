@@ -6,7 +6,7 @@ updated: "2026-07-28"
 categories:
   - "Pregnancy"
 wpId: "2435"
-wpUrl: "https://api.katridout.com.au/blogs/how-to-maintain-a-healthy-weight-during-pregnancy/"
+wpUrl: "https://www.katridout.com.au/blogs/how-to-maintain-a-healthy-weight-during-pregnancy/"
 ---
 
 ## Gaining too much weight can increase the risk of health problems for you and your baby.

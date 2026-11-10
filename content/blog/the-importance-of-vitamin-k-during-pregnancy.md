@@ -6,7 +6,7 @@ updated: "2026-11-06"
 categories:
   - "Pregnancy"
 wpId: "1773"
-wpUrl: "https://api.katridout.com.au/blogs/the-importance-of-vitamin-k-during-pregnancy/"
+wpUrl: "https://www.katridout.com.au/blogs/the-importance-of-vitamin-k-during-pregnancy/"
 ---
 
 ## In pregnancy, Vitamin K plays an important role in maintaining normal blood clotting and coagulation.

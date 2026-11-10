@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/07/krn-preparing-body-for-pregnancy-body1.jpg"
 imageAlt: "Close-up of a nutritious colourful meal"
 wpId: "5186"
-wpUrl: "https://api.katridout.com.au/blogs/how-to-choose-a-pmos-dietitian-brisbane-fertility/"
+wpUrl: "https://www.katridout.com.au/blogs/how-to-choose-a-pmos-dietitian-brisbane-fertility/"
 ---
 
 <p>If you have PMOS (previously called PCOS) and you are trying to fall pregnant, you have probably typed &#8220;PMOS dietitian Brisbane&#8221; into Google and ended up with more questions than answers. I guess the key thing is this: you are not looking for a famous name, you are looking for someone who understands PMOS, understands fertility, and builds a plan around your life rather than handing you a printout. Here is what I would look for if I were in your shoes, and how I work with women like you, in Milton or by telehealth.</p>

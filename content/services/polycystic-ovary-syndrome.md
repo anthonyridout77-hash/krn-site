@@ -5,7 +5,7 @@ description: "PMOS (PCOS) dietitian Kat Ridout, Accredited Practising Dietitian,
 date: "2025-08-01"
 updated: "2026-11-10"
 wpId: "400"
-wpUrl: "https://api.katridout.com.au/our-services/prenatal-nutrition-and-dietetics/polycystic-ovary-syndrome/"
+wpUrl: "https://www.katridout.com.au/our-services/prenatal-nutrition-and-dietetics/polycystic-ovary-syndrome/"
 parent: "366"
 ---
 

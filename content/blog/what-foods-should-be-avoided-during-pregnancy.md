@@ -6,7 +6,7 @@ updated: "2023-02-14"
 categories:
   - "Pregnancy"
 wpId: "2491"
-wpUrl: "https://api.katridout.com.au/blogs/what-foods-should-be-avoided-during-pregnancy/"
+wpUrl: "https://www.katridout.com.au/blogs/what-foods-should-be-avoided-during-pregnancy/"
 ---
 
 ## There are a few foods that are best avoided during pregnancy to maintain the health of both mother and child.

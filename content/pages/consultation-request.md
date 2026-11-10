@@ -3,7 +3,7 @@ title: "Consultation Request"
 date: "2025-08-07"
 updated: "2025-08-07"
 wpId: "753"
-wpUrl: "https://api.katridout.com.au/consultation-request/"
+wpUrl: "https://www.katridout.com.au/consultation-request/"
 ---
 
 Prenatal nutrition is the foundation of life and everyone deserves a healthy and happy start

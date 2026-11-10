@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/07/krn-what-does-a-fertility-dietitian-do-body1.jpg"
 imageAlt: "Woman in her kitchen making notes about her meals"
 wpId: "5140"
-wpUrl: "https://api.katridout.com.au/blogs/how-to-choose-ivf-dietitian-brisbane/"
+wpUrl: "https://www.katridout.com.au/blogs/how-to-choose-ivf-dietitian-brisbane/"
 ---
 
 If you’re heading into IVF in Brisbane and wondering whether a dietitian is worth adding to your team, you’re asking a good question. There’s no single right answer for everyone. What you want is an Accredited Practising Dietitian (APD) with fertility training, whose way of working fits your life and sits comfortably alongside your clinic’s care. In this guide I’ll share what to look for, what to ask, and how I work with women preparing for IVF, in Brisbane and by telehealth anywhere in Australia.

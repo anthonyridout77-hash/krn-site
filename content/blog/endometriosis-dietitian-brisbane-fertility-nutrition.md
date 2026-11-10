@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/09/krn-endometriosis-dietitian-brisbane-fertility-nutrition-hero-2.jpg"
 imageAlt: "A woman in her late twenties or early thirties rests on a grey sofa under a striped blanket, holding a glass mug of tea in both hands in soft natural light, a calm moment of rest with endometriosis."
 wpId: "4857"
-wpUrl: "https://api.katridout.com.au/blogs/endometriosis-dietitian-brisbane-fertility-nutrition/"
+wpUrl: "https://www.katridout.com.au/blogs/endometriosis-dietitian-brisbane-fertility-nutrition/"
 ---
 
 If you have endometriosis and you are thinking about pregnancy, you have probably already been handed a list. Cut gluten. Cut dairy. Cut red meat. Try this supplement, then that one. The lists arrive with enormous confidence and very little context, and most of them were not written for someone who is also trying to conceive.

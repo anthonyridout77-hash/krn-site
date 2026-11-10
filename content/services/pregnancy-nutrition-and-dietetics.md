@@ -5,7 +5,7 @@ description: "Pregnancy nutrition support from Kat Ridout, Accredited Practising
 date: "2025-08-01"
 updated: "2026-11-11"
 wpId: "415"
-wpUrl: "https://api.katridout.com.au/our-services/pregnancy-nutrition-and-dietetics/"
+wpUrl: "https://www.katridout.com.au/our-services/pregnancy-nutrition-and-dietetics/"
 ---
 
 

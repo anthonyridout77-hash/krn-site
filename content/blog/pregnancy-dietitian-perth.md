@@ -7,7 +7,7 @@ categories:
   - "Fertility & IVF"
 image: "/images/wp/2026/07/perth-pregnancy-dietitian-hero.jpg"
 wpId: "4589"
-wpUrl: "https://api.katridout.com.au/blogs/pregnancy-dietitian-perth/"
+wpUrl: "https://www.katridout.com.au/blogs/pregnancy-dietitian-perth/"
 ---
 
 If you are in Perth and searching for a dietitian who understands fertility, pregnancy or the months after birth, you have probably found plenty of general nutrition advice and not much that speaks to where you actually are. I am Kat, an Accredited Practising Dietitian, and I work with women across Western Australia through telehealth. This is what I would tell you if you booked a call tomorrow.

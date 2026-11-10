@@ -5,7 +5,7 @@ description: "Accredited Practising Dietitian in Milton, Brisbane and by telehea
 date: "2025-08-01"
 updated: "2026-10-12"
 wpId: "339"
-wpUrl: "https://api.katridout.com.au/our-services/dietitian/"
+wpUrl: "https://www.katridout.com.au/our-services/dietitian/"
 ---
 
 

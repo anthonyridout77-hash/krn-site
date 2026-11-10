@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/07/krn-what-does-a-fertility-dietitian-do-body1.jpg"
 imageAlt: "Woman in her kitchen making notes about her meals"
 wpId: "5218"
-wpUrl: "https://api.katridout.com.au/blogs/vegetarian-diet-while-pregnant/"
+wpUrl: "https://www.katridout.com.au/blogs/vegetarian-diet-while-pregnant/"
 ---
 
 <p>Yes, you can absolutely follow a vegetarian diet while you&#8217;re pregnant. I guess the key thing is that it needs a little more planning, not a whole new way of eating. A 2019 review of the research concluded that well-balanced vegetarian and vegan diets can be considered safe for mum and baby in pregnancy (<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6470702/">Sebastiani et al., Nutrients, 2019</a>). The four nutrients I&#8217;d want you to be more intentional about are iron, protein, vitamin B12 and iodine. This is general information, not individual advice, and it sits alongside your antenatal care, never in place of it.</p>

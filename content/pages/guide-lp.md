@@ -4,7 +4,7 @@ description: "Free pregnancy nutrition guide from Katrina Ridout, Accredited Pra
 date: "2025-08-28"
 updated: "2026-10-05"
 wpId: "2362"
-wpUrl: "https://api.katridout.com.au/guide-lp/"
+wpUrl: "https://www.katridout.com.au/guide-lp/"
 ---
 
 

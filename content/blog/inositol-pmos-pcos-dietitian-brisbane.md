@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/10/krn-inositol-pmos-hero-6.jpg"
 imageAlt: "A woman sitting at a kitchen table at home writing in a notebook, in warm natural light"
 wpId: "5158"
-wpUrl: "https://api.katridout.com.au/blogs/inositol-pmos-pcos-dietitian-brisbane/"
+wpUrl: "https://www.katridout.com.au/blogs/inositol-pmos-pcos-dietitian-brisbane/"
 ---
 
 If you have been given a diagnosis of PMOS, formerly known as PCOS, there is a reasonable chance somebody has already suggested inositol to you. A friend, a forum, an advertisement, or the shelf at the chemist.

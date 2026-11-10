@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/08/krn-postpartum-meals-hero.jpg"
 imageAlt: "Jars of oats, yoghurt and fruit prepared ahead for easy one-handed breakfasts"
 wpId: "4903"
-wpUrl: "https://api.katridout.com.au/blogs/foods-for-postpartum-recovery-and-breastfeeding/"
+wpUrl: "https://www.katridout.com.au/blogs/foods-for-postpartum-recovery-and-breastfeeding/"
 ---
 
 **Quick answer:** After birth, focus on **protein** (eggs, meat, fish, yoghurt, legumes) for tissue repair, **iron-rich foods** (red meat, legumes, fortified cereals with vitamin C) to rebuild blood stores, **calcium** (about 1,000 mg a day from dairy or fortified alternatives), **omega-3 fats** (2–3 serves of low-mercury fish a week), **fibre and fluids** for digestion, and plenty of easy snacks. If you’re breastfeeding, keep taking a **150 mcg iodine** supplement, as Australian guidelines recommend. Eat to appetite rather than dieting.

@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/10/krn-breakfast-first-trimester-hero.jpg"
 imageAlt: "A grey plate on a wooden table holding a serving of scrambled eggs alongside two whole brown eggs"
 wpId: "5091"
-wpUrl: "https://api.katridout.com.au/blogs/breakfast-first-trimester-pregnancy-australia/"
+wpUrl: "https://www.katridout.com.au/blogs/breakfast-first-trimester-pregnancy-australia/"
 ---
 
 The first trimester is the stretch where the advice and the reality part company. You are told to eat well for the baby, and meanwhile the smell of the kettle is enough to send you back to bed. So this is the practical version: what breakfast is actually for in the first twelve weeks, and what to do on the mornings when almost nothing is going in.

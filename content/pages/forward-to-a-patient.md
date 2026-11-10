@@ -3,7 +3,7 @@ title: "Forward To A Patient"
 date: "2025-08-05"
 updated: "2026-10-05"
 wpId: "612"
-wpUrl: "https://api.katridout.com.au/forward-to-a-patient/"
+wpUrl: "https://www.katridout.com.au/forward-to-a-patient/"
 ---
 
 Prenatal nutrition is the foundation of life and everyone deserves a healthy and happy start

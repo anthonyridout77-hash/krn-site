@@ -3,7 +3,7 @@ title: "Meet and Greet"
 date: "2025-08-05"
 updated: "2026-10-05"
 wpId: "596"
-wpUrl: "https://api.katridout.com.au/meet-and-greet/"
+wpUrl: "https://www.katridout.com.au/meet-and-greet/"
 ---
 
 Prenatal nutrition is the foundation of life and everyone deserves a healthy and happy start

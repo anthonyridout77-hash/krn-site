@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/07/krn-preparing-body-for-pregnancy-body1.jpg"
 imageAlt: "Close-up of a nutritious colourful meal"
 wpId: "5034"
-wpUrl: "https://api.katridout.com.au/blogs/ivf-dietitian-melbourne-telehealth/"
+wpUrl: "https://www.katridout.com.au/blogs/ivf-dietitian-melbourne-telehealth/"
 ---
 
 If you are doing IVF in Melbourne and wondering whether you need a local dietitian, telehealth makes that question a lot simpler. I work with women and couples all over Australia from Brisbane, and the support looks the same on a screen as it does in my clinic room. Nutrition sits alongside your fertility clinic’s care, never in place of it, and no diet can promise a result.

@@ -4,7 +4,7 @@ description: "APD-credentialed pregnancy dietitian in Brisbane. Personalised nut
 date: "2025-08-28"
 updated: "2026-07-22"
 wpId: "2321"
-wpUrl: "https://api.katridout.com.au/pregnancy-dietitian-brisbane-lp-2/"
+wpUrl: "https://www.katridout.com.au/pregnancy-dietitian-brisbane-lp-2/"
 ---
 
 

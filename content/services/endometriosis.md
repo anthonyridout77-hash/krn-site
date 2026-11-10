@@ -5,7 +5,7 @@ description: "Endometriosis dietitian Kat Ridout, Accredited Practising Dietitia
 date: "2025-08-01"
 updated: "2026-11-10"
 wpId: "413"
-wpUrl: "https://api.katridout.com.au/our-services/prenatal-nutrition-and-dietetics/endometriosis/"
+wpUrl: "https://www.katridout.com.au/our-services/prenatal-nutrition-and-dietetics/endometriosis/"
 parent: "366"
 ---
 

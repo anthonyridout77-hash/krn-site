@@ -6,7 +6,7 @@ updated: "2026-11-10"
 categories:
   - "Pregnancy"
 wpId: "3333"
-wpUrl: "https://api.katridout.com.au/blogs/navigating-pregnancy-with-pcos-a-nutritional-guide-by-katrina-ridout/"
+wpUrl: "https://www.katridout.com.au/blogs/navigating-pregnancy-with-pcos-a-nutritional-guide-by-katrina-ridout/"
 ---
 
 Pregnancy is a joyous journey, but for women with Polycystic Ovary Syndrome (PCOS), it can come with unique challenges. PCOS, a hormonal disorder affecting about 1 in 10 women of childbearing age, can impact fertility and increase the risk of complications during pregnancy. However, with the right approach to nutrition and lifestyle, women with PCOS can improve their chances of a healthy pregnancy and baby.

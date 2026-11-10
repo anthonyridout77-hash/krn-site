@@ -6,7 +6,7 @@ updated: "2026-07-28"
 categories:
   - "Pregnancy"
 wpId: "3445"
-wpUrl: "https://api.katridout.com.au/blogs/managing-common-pregnancy-symptoms-with-diet/"
+wpUrl: "https://www.katridout.com.au/blogs/managing-common-pregnancy-symptoms-with-diet/"
 ---
 
 Pregnancy is a beautiful journey filled with excitement and anticipation, but it can also bring a range of physical discomforts. As your body undergoes numerous changes to accommodate the growing life within you, you may experience common pregnancy symptoms like nausea, heartburn, and constipation. Fortunately, nutrition plays a crucial role in managing these symptoms, allowing you to feel your best during this transformative time. Here’s how you can use a diet to help alleviate some common pregnancy woes.

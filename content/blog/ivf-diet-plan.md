@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/06/ivf-diet-pregnant-vegetable-salad.jpg"
 imageAlt: "Pregnant woman preparing vegetable salad — IVF diet plan and fertility nutrition"
 wpId: "4087"
-wpUrl: "https://api.katridout.com.au/blogs/ivf-diet-plan/"
+wpUrl: "https://www.katridout.com.au/blogs/ivf-diet-plan/"
 ---
 
 Starting IVF is one of the most significant decisions a person can make. Most women preparing for IVF focus intensely on what their clinic recommends — which injections to take, when to have scans, what the protocol looks like. Nutrition is often an afterthought. But the evidence is clear: **what you eat in the 90 days before egg retrieval, and throughout your cycle, meaningfully influences the outcome.**

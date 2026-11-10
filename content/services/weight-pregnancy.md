@@ -4,7 +4,7 @@ description: "Get expert support for healthy weight management during pregnancy.
 date: "2025-08-01"
 updated: "2026-10-05"
 wpId: "487"
-wpUrl: "https://api.katridout.com.au/our-services/pregnancy-nutrition-and-dietetics/weight-pregnancy/"
+wpUrl: "https://www.katridout.com.au/our-services/pregnancy-nutrition-and-dietetics/weight-pregnancy/"
 parent: "415"
 ---
 

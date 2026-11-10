@@ -4,7 +4,7 @@ description: "Fertility dietitian in Brisbane. Book a free 15-minute call with K
 date: "2025-08-21"
 updated: "2026-09-25"
 wpId: "836"
-wpUrl: "https://api.katridout.com.au/fertility-dietitian-brisbane-lp/"
+wpUrl: "https://www.katridout.com.au/fertility-dietitian-brisbane-lp/"
 ---
 
 
