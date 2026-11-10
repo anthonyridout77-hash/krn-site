@@ -1,15 +1,15 @@
 ---
-title: "Pregnancy"
+title: "Pregnancy Dietitian"
 seoTitle: "Pregnancy Dietitian Brisbane and Online"
 description: "Pregnancy nutrition support from Kat Ridout, Accredited Practising Dietitian. In person in Milton, Brisbane, or by telehealth anywhere in Australia."
 date: "2025-08-01"
-updated: "2026-11-10"
+updated: "2026-11-11"
 wpId: "415"
 wpUrl: "https://api.katridout.com.au/our-services/pregnancy-nutrition-and-dietetics/"
 ---
 
 
-## Pregnancy
+## Pregnancy Dietitian
 
 ## Not sure where to start?
 Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. You do not need to have it all worked out first. No preparation and no obligation.
