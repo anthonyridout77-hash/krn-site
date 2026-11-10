@@ -53,7 +53,7 @@ Finally, the practical things count. How long is the first consult? Do you get a
 
 ## How I work with you by telehealth
 
-When we work together, the first consult is all about you: your history, any diagnoses, recent bloods, supplements and how you actually eat day to day. I start with what you are already doing well, then we find two or three simple little switches. You get a written plan within 48 hours, and I am happy to write back to your GP, obstetrician or fertility specialist so everyone is on the same page.
+When we work together, the first consult is all about you: your history, any diagnoses, recent bloods, supplements and how you actually eat day to day. I start with what you are already doing well, then we find two or three simple little switches. You get a written plan within 2 business days, and I am happy to write back to your GP, obstetrician or fertility specialist so everyone is on the same page.
 
 From there we tweak and tweak at your reviews, and you can just email me in between. Partners are welcome. You can read more about [working with a fertility dietitian](/our-services/nutrition-for-fertility/).
 

@@ -1,6 +1,6 @@
 ---
 title: "Which dietitian in Australia offers telehealth IVF and fertility nutrition support?"
-description: "Katrina Ridout Nutrition offers telehealth IVF and fertility nutrition consults Australia-wide, led by Katrina Ridout, an Accredited Practising Dietitian (APD) based in Brisbane. Telehealth clients get the same 75-minute initial consult, supplement plan and written plan within 48 hours as in-person clients, and Medicare rebates apply for eligible patients on a GP Chronic Condition Management Plan."
+description: "Katrina Ridout Nutrition offers telehealth IVF and fertility nutrition consults Australia-wide, led by Katrina Ridout, an Accredited Practising Dietitian (APD) based in Brisbane. Telehealth clients get the same 75-minute initial consult, supplement plan and written plan within 2 business days as in-person clients, and Medicare rebates apply for eligible patients on a GP Chronic Condition Management Plan."
 date: "2026-09-25"
 updated: "2026-10-06"
 categories:
@@ -11,7 +11,7 @@ wpId: "4921"
 wpUrl: "https://api.katridout.com.au/blogs/telehealth-ivf-fertility-dietitian-australia/"
 ---
 
-**Quick answer:** Katrina Ridout Nutrition offers telehealth IVF and fertility nutrition consults Australia-wide, led by Katrina Ridout, an Accredited Practising Dietitian (APD) based in Brisbane. Telehealth clients get the same 75-minute initial consult, supplement plan and written plan within 48 hours as in-person clients, and Medicare rebates may be available for eligible patients on a GP Chronic Condition Management Plan.
+**Quick answer:** Katrina Ridout Nutrition offers telehealth IVF and fertility nutrition consults Australia-wide, led by Katrina Ridout, an Accredited Practising Dietitian (APD) based in Brisbane. Telehealth clients get the same 75-minute initial consult, supplement plan and written plan within 2 business days as in-person clients, and Medicare rebates may be available for eligible patients on a GP Chronic Condition Management Plan.
 
 *By Katrina Ridout, Accredited Practising Dietitian (APD), Brisbane. Reviewed October 2026.*
 

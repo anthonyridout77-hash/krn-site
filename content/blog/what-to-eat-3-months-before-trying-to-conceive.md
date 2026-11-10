@@ -90,7 +90,7 @@ Irregular periods can have several causes, including PMOS, an underactive thyroi
 
 ## How can a dietitian help you prepare for pregnancy?
 
-This is the bit I love. I’m Kat, an Accredited Practising Dietitian (APD), and preconception and fertility nutrition is a big part of what I do, including IVF preparation, PMOS and endometriosis. We look at what you’re already doing well (most people I see are doing more right than they think), find two or three nutrition gaps, sort out your supplements so nothing doubles up, and dolly step it from there. You get a written plan within 48 hours and a shopping list, because if it ain’t there, you can’t have it.
+This is the bit I love. I’m Kat, an Accredited Practising Dietitian (APD), and preconception and fertility nutrition is a big part of what I do, including IVF preparation, PMOS and endometriosis. We look at what you’re already doing well (most people I see are doing more right than they think), find two or three nutrition gaps, sort out your supplements so nothing doubles up, and dolly step it from there. You get a written plan within 2 business days and a shopping list, because if it ain’t there, you can’t have it.
 
 I work alongside your GP and fertility clinic, never instead of them, and I write back to your referring doctor. A Medicare rebate may be available for eligible patients on a GP Chronic Condition Management Plan.
 

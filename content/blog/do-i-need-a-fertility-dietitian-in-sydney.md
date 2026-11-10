@@ -75,7 +75,7 @@ You don’t need a referral to see a dietitian. If you have a chronic condition 
 
 ## How I work with you by telehealth
 
-When we work together, the first consult is all about you: your history, cycle, bloods and how you actually eat day to day. I start with what you’re already doing well, then we find a few simple little switches. You get a written plan within 48 hours, including your supplement plan, and I’m happy to write back to your GP or fertility specialist so everyone is on the same page.
+When we work together, the first consult is all about you: your history, cycle, bloods and how you actually eat day to day. I start with what you’re already doing well, then we find a few simple little switches. You get a written plan within 2 business days, including your supplement plan, and I’m happy to write back to your GP or fertility specialist so everyone is on the same page.
 
 From there we tweak and tweak at your reviews, and you can just email me in between if something comes up. Your partner is welcome to join, and I also offer an [IVF nutrition](/our-services/prenatal-nutrition-and-dietetics/ivf-nutrition/) option timed around your treatment cycle.
 

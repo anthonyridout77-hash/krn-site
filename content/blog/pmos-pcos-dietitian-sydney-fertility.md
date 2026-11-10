@@ -66,7 +66,7 @@ For women in Sydney, that means you can choose a dietitian for fit and experienc
 
 I see clients in person at Milton Village Medical, Level 1, 36 Baroona Road, Milton QLD 4064, and by telehealth video Australia-wide, including Sydney.
 
-Your first consult is 75 minutes and it's all about you. We cover your history, cycle, bloods, current eating and supplements. I always start with what you're already doing well, then we find a few simple switches to work on first. Within 48 hours you get a written plan, including an individualised supplement plan. With your permission I'm happy to write to your GP or fertility specialist so everyone is on the same page.
+Your first consult is 75 minutes and it's all about you. We cover your history, cycle, bloods, current eating and supplements. I always start with what you're already doing well, then we find a few simple switches to work on first. Within 2 business days you get a written plan, including an individualised supplement plan. With your permission I'm happy to write to your GP or fertility specialist so everyone is on the same page.
 
 After that, follow-up reviews let us adjust things as your cycle, treatment or life changes. Your partner is welcome to join too, because preconception nutrition is for both of you. You can read more about my [PMOS service](/our-services/prenatal-nutrition-and-dietetics/polycystic-ovary-syndrome/) and [fertility nutrition](/our-services/nutrition-for-fertility/).
 

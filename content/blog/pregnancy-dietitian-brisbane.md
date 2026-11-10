@@ -37,7 +37,7 @@ wpUrl: "https://api.katridout.com.au/blogs/pregnancy-dietitian-brisbane/"
 
 ## Pregnancy support at Katrina Ridout Nutrition
 
-Katrina Ridout is an APD whose practice focuses on fertility, pregnancy and postpartum. Your first consult includes a review of your history and bloods, and a supplement plan. Your written plan and resources arrive within 48 hours. Program consults can be used flexibly across preconception, pregnancy and postpartum.
+Katrina Ridout is an APD whose practice focuses on fertility, pregnancy and postpartum. Your first consult includes a review of your history and bloods, and a supplement plan. Your written plan and resources arrive within 2 business days. Program consults can be used flexibly across preconception, pregnancy and postpartum.
 
 **Where:** in person at Milton Village Medical, Level 1, 36 Baroona Road, Milton QLD 4064, or by telehealth anywhere in Australia. Phone 1300 640 104.
 

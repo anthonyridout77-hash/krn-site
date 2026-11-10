@@ -59,7 +59,7 @@ When we work together you receive:
 
 - A 75-minute initial consult covering your history, blood results, appetite and current eating
 - An individualised supplement plan at your first appointment
-- A written, realistic meal plan and resources within 48 hours
+- A written, realistic meal plan and resources within 2 business days
 - Follow-up reviews to adjust as your pregnancy progresses
 - Consults in person at Milton Village Medical, Level 1, 36 Baroona Road, Milton QLD 4064, or by telehealth anywhere in Australia
 - Medicare rebates for eligible patients on a GP Chronic Condition Management Plan, and most private health extrasA healthy pregnancy isn’t measured by the numbers on the scale, but by how well you and your baby are nourished.
