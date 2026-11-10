@@ -58,7 +58,7 @@ I am based in Brisbane and see clients in person at Milton Village Medical, Leve
 
 Nutrition care suits video well. I do not need to examine you. I need to hear your story, read your blood results and understand your kitchen. Many women like being at home with their pantry within reach.
 
-Your first consult is 75 minutes. Within 48 hours you receive a written plan and an individualised supplement plan, so you are not trying to remember everything we talked about. Follow-ups are there to adjust the plan as your cycle, your treatment or your life changes.
+Your first consult is 75 minutes. Within 2 business days you receive a written plan and an individualised supplement plan, so you are not trying to remember everything we talked about. Follow-ups are there to adjust the plan as your cycle, your treatment or your life changes.
 
 One small Melbourne detail. Queensland does not move its clocks for daylight saving, so during summer Melbourne is an hour ahead of me. Your booking confirmation will show the time clearly, and we can work around your clinic appointments and your job.
 
@@ -119,7 +119,7 @@ Three to six months ahead gives us room to make changes gradually and check your
 - Look for an APD who works with PMOS and fertility regularly and coordinates with your doctors.
 - There is no single PMOS diet. Your plan should fit your bloods, medications and life.
 - Telehealth lets Melbourne women access individual care from home.
-- Your first consult with me is 75 minutes, with a written plan and individualised supplement plan within 48 hours.
+- Your first consult with me is 75 minutes, with a written plan and individualised supplement plan within 2 business days.
 - Nutrition supports your GP, specialist and fertility clinic and never replaces them.
 
 ## References

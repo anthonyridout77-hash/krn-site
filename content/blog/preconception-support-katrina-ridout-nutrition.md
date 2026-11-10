@@ -29,7 +29,7 @@ wpUrl: "https://api.katridout.com.au/blogs/preconception-support-katrina-ridout-
 
 * A 75-minute initial consult reviewing your history, cycle, bloods and current eating
 * A personalised supplement plan at the first consult (folic acid, iodine and anything your results show you need)
-* A written plan and resources sent within 48 hours
+* A written plan and resources sent within 2 business days
 * Reviews to adjust the plan and keep you on track
 * Notes shared with your GP or fertility specialist when you’d like
 

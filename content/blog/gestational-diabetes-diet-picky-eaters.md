@@ -77,7 +77,7 @@ Always check your snack ideas against your blood glucose readings and with your 
 
 ## How I can help you build a plan around the foods you actually eat
 
-A plan built on your own safe foods is the difference between a list you won’t touch and something that works on a busy Tuesday. When we work together, I start with what you already eat, praise what’s working, then find two or three simple little switches. You get a written plan within 48 hours, with snack ideas and a shopping list to stick on the fridge, and I work alongside your doctor, obstetrician or midwife and diabetes educator.
+A plan built on your own safe foods is the difference between a list you won’t touch and something that works on a busy Tuesday. When we work together, I start with what you already eat, praise what’s working, then find two or three simple little switches. You get a written plan within 2 business days, with snack ideas and a shopping list to stick on the fridge, and I work alongside your doctor, obstetrician or midwife and diabetes educator.
 
 I see women in person at Milton Village Medical, Level 1, 36 Baroona Road, Milton QLD 4064, or by telehealth anywhere in Australia. A Medicare rebate may be available for eligible patients on a GP Chronic Condition Management Plan, so it’s worth asking your GP.
 

@@ -68,7 +68,7 @@ Fertility nutrition suits telehealth really well, because the work is mostly abo
 
 ## How I work with you
 
-When we work together, the first consult is all about you: your history, your cycle, recent bloods and how you actually eat. I start with what you’re already doing well, then we find a few simple little switches. You get a written plan within 48 hours, including your supplement plan, and I’m happy to write back to your GP or fertility specialist so everyone is on the same page. From there we tweak and tweak at your reviews, and you can just email me in between.
+When we work together, the first consult is all about you: your history, your cycle, recent bloods and how you actually eat. I start with what you’re already doing well, then we find a few simple little switches. You get a written plan within 2 business days, including your supplement plan, and I’m happy to write back to your GP or fertility specialist so everyone is on the same page. From there we tweak and tweak at your reviews, and you can just email me in between.
 
 Partners are always welcome, and I also offer [IVF nutrition](/our-services/prenatal-nutrition-and-dietetics/ivf-nutrition/) support timed around your treatment cycle. I consult by telehealth Australia-wide, and in person at Milton Village Medical, Level 1, 36 Baroona Road, Milton QLD 4064. If you’d like to chat, call 1300 640 104 or read more about [working with a fertility dietitian](/our-services/nutrition-for-fertility/). This article is general information, not individual advice.
 

@@ -72,7 +72,7 @@ I am based in Brisbane and see clients in person at Milton Village Medical, Leve
 
 Telehealth suits gestational diabetes well. I do not need to examine you. I need your readings, your results and a real picture of your kitchen. You also do not have to cross Sydney at 30 weeks pregnant for an appointment.
 
-Your first consult is 75 minutes. Within 48 hours you receive a written plan and an individualised supplement plan. Follow-ups are there to adjust things as your readings and your pregnancy change.
+Your first consult is 75 minutes. Within 2 business days you receive a written plan and an individualised supplement plan. Follow-ups are there to adjust things as your readings and your pregnancy change.
 
 One small detail. Queensland does not use daylight saving, so in summer Sydney is an hour ahead of me. Your booking confirmation will show the time clearly.
 
@@ -134,7 +134,7 @@ For most women glucose levels return to normal after birth. You will usually be 
 - Gestational diabetes comes from pregnancy hormones affecting insulin. It is not your fault.
 - Look for an APD who works regularly in pregnancy and follows your team's targets.
 - If your Sydney hospital offers a dietitian, use that service. Private care can add time and detail.
-- Your first consult with me is 75 minutes, with a written plan and individualised supplement plan within 48 hours.
+- Your first consult with me is 75 minutes, with a written plan and individualised supplement plan within 2 business days.
 - Nutrition supports your GP, obstetrician, midwife and hospital team and never replaces them.
 
 ## References

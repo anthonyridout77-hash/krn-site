@@ -79,7 +79,7 @@ If you think you may be eligible, start with your GP. They can assess whether a 
 
 I’m Katrina Ridout, an Accredited Practising Dietitian (APD) with training in fertility and pregnancy nutrition. I see women in person at Milton Village Medical, Level 1, 36 Baroona Road, Milton QLD 4064, and by telehealth anywhere in Australia. Pyjama pants are welcome on telehealth, I promise I won’t notice.
 
-When we start, I look at what you’re already doing well, then the two or three gaps that matter most before your cycle, and we fill them with simple little switches you can actually keep up. You’ll get a written plan within 48 hours, including a supplement plan, so you’re not guessing about what to take or when. I work alongside your fertility clinic and GP and write back to them, because it’s your specialist who leads your treatment.
+When we start, I look at what you’re already doing well, then the two or three gaps that matter most before your cycle, and we fill them with simple little switches you can actually keep up. You’ll get a written plan within 2 business days, including a supplement plan, so you’re not guessing about what to take or when. I work alongside your fertility clinic and GP and write back to them, because it’s your specialist who leads your treatment.
 
 If you’d like to get your nutrition on the front foot before your next cycle, call me on [1300 640 104](tel:1300640104) or get in touch through [katridout.com.au](/). I really look forward to supporting you.
 

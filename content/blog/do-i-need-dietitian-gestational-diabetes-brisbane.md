@@ -80,7 +80,7 @@ The months and years after birth are a real window. The simple little switches y
 
 ## How I can help
 
-When we work together, I start with what you’re already eating and what’s going well, then we look at your readings and find two or three simple little switches. You get a written plan within 48 hours, with snack ideas and a shopping list to stick on the fridge, and I write back to your doctor or midwife so everyone is on the same page. Between reviews, just email me if something comes up.
+When we work together, I start with what you’re already eating and what’s going well, then we look at your readings and find two or three simple little switches. You get a written plan within 2 business days, with snack ideas and a shopping list to stick on the fridge, and I write back to your doctor or midwife so everyone is on the same page. Between reviews, just email me if something comes up.
 
 I see women in person at Milton Village Medical, Level 1, 36 Baroona Road, Milton QLD 4064, and by telehealth anywhere in Australia. If you’d like to chat, call 1300 640 104 or read more about [gestational diabetes support](/our-services/pregnancy-nutrition-and-dietetics/gestational-diabetes/). This article is general information, not individual advice, and nutrition sits alongside your medical care, never in place of it.
 

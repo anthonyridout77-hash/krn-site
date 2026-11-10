@@ -86,7 +86,7 @@ If you’re taking more than one product, look at the back and the front of ever
 
 When you come and see me, I’ll ask you to bring photos of your supplements, the back and the front, and we’ll go through them together. I err on the side of caution, so we check the doses, look for any doubling up, and make sure iodine, folate and iron are all where they need to be for where you’re at, whether that’s planning, pregnant or breastfeeding.
 
-Then we look at your food. No one’s got a perfect diet, so it’s about a few simple little switches that close the nutrition gaps, with a written plan from me within 48 hours. If you have a thyroid condition or other health needs, I work alongside your GP or specialist and write back to them.
+Then we look at your food. No one’s got a perfect diet, so it’s about a few simple little switches that close the nutrition gaps, with a written plan from me within 2 business days. If you have a thyroid condition or other health needs, I work alongside your GP or specialist and write back to them.
 
 I see women in person at Milton Village Medical, Level 1, 36 Baroona Road, Milton QLD 4064, and by telehealth Australia-wide, so you can stay in your Ugg boots. A Medicare rebate may be available for eligible patients on a GP Chronic Condition Management Plan. If you’d like a hand, call 1300 640 104 and we can have a chat about where you’re at. I’d love to support you.
 

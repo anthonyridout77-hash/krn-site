@@ -32,7 +32,7 @@ More detail: [how to choose a fertility dietitian](/blogs/how-to-choose-a-fertil
 
 * Initial 75-minute consult with a full history and bloods review
 * A supplement plan at your first consult
-* Your written plan and resources within 48 hours
+* Your written plan and resources within 2 business days
 * Condition-specific care: [PMOS](/blogs/dietitian-pcos-pmos-getting-pregnant/), [endometriosis](/blogs/endometriosis-dietitian-brisbane-fertility-nutrition/), [IVF preparation](/blogs/ivf-dietitian-brisbane-nutrition/)
 * Couples consults and a Couples Fertility Program
 * Program consults that carry on into pregnancy and postpartum if you need them
