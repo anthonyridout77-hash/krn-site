@@ -2,7 +2,7 @@
 title: "Can a dietitian help with PCOS (PMOS) and getting pregnant?"
 description: "Yes. The 2023 international PCOS guideline recommends healthy eating and activity as first-line care, including when trying to conceive. Here’s how an Accredited Practising Dietitian helps with PMOS (formerly PCOS) and fertility."
 date: "2026-09-25"
-updated: "2026-09-25"
+updated: "2026-11-10"
 categories:
   - "Fertility & IVF"
 image: "/images/wp/2026/07/krn-pcos-diet-plan-body1-v2.jpg"
@@ -55,6 +55,8 @@ Not necessarily. For some people, modest weight change improves ovulation. Your 
 
 **Should I see a dietitian before IVF with PCOS?**  
 Yes. Three months before a cycle is a useful window.
+
+Kat works one to one on PMOS (PCOS) in person in Milton, Brisbane, or by telehealth anywhere in Australia. See [how her PMOS (PCOS) service works](/our-services/prenatal-nutrition-and-dietetics/polycystic-ovary-syndrome/).
 
 ## Sources
 

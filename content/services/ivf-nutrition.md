@@ -1,9 +1,9 @@
 ---
-title: "IVF Nutrition"
+title: "IVF Dietitian"
 seoTitle: "IVF Dietitian Brisbane and Telehealth Australia-wide"
-description: "IVF dietitian in Brisbane. Nutrition support through your cycle, alongside your fertility clinic. Telehealth Australia-wide. Medicare rebate with GP referral."
+description: "IVF dietitian Kat Ridout, Accredited Practising Dietitian. Nutrition support around your cycle, alongside your fertility clinic. In person in Milton, Brisbane, or by telehealth anywhere in Australia."
 date: "2025-08-01"
-updated: "2026-10-13"
+updated: "2026-11-10"
 wpId: "383"
 wpUrl: "https://api.katridout.com.au/our-services/prenatal-nutrition-and-dietetics/ivf-nutrition/"
 parent: "366"
@@ -66,6 +66,11 @@ Find out more about how Kat Ridout can help you by contacting Kat today (/contac
 ### Not sure where to start?
 Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. Kat has supported hundreds of clients, so you do not need to have it all worked out first. No preparation and no obligation.
 [Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
+
+## Further reading
+- [IVF Diet Plan: What to Eat Before, During, and After Your Cycle](/blogs/ivf-diet-plan/)
+- [Nutrition and Healthy Eating During IVF Treatment](/blogs/nutrition-and-healthy-eating-during-ivf-treatment/)
+- [Which dietitian offers telehealth IVF nutrition support across Australia?](/blogs/telehealth-ivf-dietitian-australia/)
 
 ## Frequently Asked Questions
 

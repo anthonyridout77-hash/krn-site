@@ -1,9 +1,9 @@
 ---
-title: "Polycystic Ovary Syndrome"
+title: "PMOS (PCOS) Dietitian"
 seoTitle: "PMOS (PCOS) Dietitian Brisbane and Online"
-description: "Evidence-based PCOS dietitian in Brisbane. Expert nutrition support for PCOS — balance hormones, manage weight & reduce symptoms. Telehealth available. Medicare rebate."
+description: "PMOS (PCOS) dietitian Kat Ridout, Accredited Practising Dietitian, working alongside your GP. In person in Milton, Brisbane, or by telehealth anywhere in Australia. A Medicare rebate may apply with a GP Chronic Condition Management Plan."
 date: "2025-08-01"
-updated: "2026-10-05"
+updated: "2026-11-10"
 wpId: "400"
 wpUrl: "https://api.katridout.com.au/our-services/prenatal-nutrition-and-dietetics/polycystic-ovary-syndrome/"
 parent: "366"
@@ -11,8 +11,6 @@ parent: "366"
 
 
 ## Polycystic Ovary Syndrome
-
-Pregnancy and Polycystic Ovary Syndrome Brisbane
 
 ## Not sure where to start?
 Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. Kat has supported hundreds of clients, so you do not need to have it all worked out first. No preparation and no obligation.
@@ -74,13 +72,18 @@ Kat Ridout supports women with PCOS by creating personalised nutrition and lifes
 While medication and medical treatments are often part of managing PCOS, I want you to know that nutrition also plays a powerful role in balancing hormones and improving fertility. Because PCOS is closely linked to insulin resistance and inflammation, the right foods can help regulate blood sugar, reduce inflammation and support more regular cycles.
 Through personalised nutrition, I can help you create a plan that fits your lifestyle, eases your symptoms and improves your chances of conceiving. Together, we’ll focus on small, realistic changes that make a big difference to your health, your confidence and your fertility.
 
-### Pregnancy and PCOS nutritionist in Brisbane
+### PMOS (PCOS) dietitian in Brisbane and by telehealth
 If you are living with Polycystic Ovary Syndrome (PCOS) and hoping to conceive, you don’t have to navigate the journey alone. Kat Ridout has more than 20 years of experience helping women with PCOS manage their symptoms, support their fertility and go on to have healthy pregnancies and babies.
 Get in touch with Kat through the [contact page](/contact-us/).
 
 ### Not sure where to start?
 Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. Kat has supported hundreds of clients, so you do not need to have it all worked out first. No preparation and no obligation.
 [Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
+
+## Further reading
+- [PCOS diet plan: what to eat](/blogs/pcos-diet-plan/)
+- [Inositol and PMOS (formerly PCOS): What the 2026 Evidence Actually Says](/blogs/inositol-pcos-what-the-2026-evidence-says/)
+- [Can a dietitian help with PCOS (PMOS) and getting pregnant?](/blogs/dietitian-pcos-pmos-getting-pregnant/)
 
 ## Frequently Asked Questions
 

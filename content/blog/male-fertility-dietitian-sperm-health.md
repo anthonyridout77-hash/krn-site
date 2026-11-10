@@ -2,7 +2,7 @@
 title: "Can a male fertility dietitian improve sperm health before conception?"
 description: "Planning a pregnancy? Kat, an Accredited Practising Dietitian (APD) in Brisbane, explains how nutrition and lifestyle can support sperm health in the months before conception, with telehealth Australia-wide."
 date: "2026-10-10"
-updated: "2026-10-10"
+updated: "2026-11-10"
 categories:
   - "Fertility & IVF"
 image: "/images/wp/2026/07/krn-preparing-body-for-pregnancy-body1.jpg"
@@ -100,6 +100,8 @@ Kat xx
 * Obesity is associated with hormonal changes that can affect male fertility.
 * Alcohol, smoking, sleep and stress may influence sperm health alongside diet.
 * Diet changes take months to show in sperm, so starting preconception nutrition early is worthwhile.
+
+Kat works one to one on fertility and preconception nutrition, for women and men, in person in Milton, Brisbane, or by telehealth anywhere in Australia. See [how her fertility and preconception service works](/our-services/nutrition-for-fertility/).
 
 ## References
 

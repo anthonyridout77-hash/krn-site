@@ -2,7 +2,7 @@
 title: "What should I eat in the 3 months before trying to conceive?"
 description: "The three months before you try for a baby are a good time to eat a little more intentionally. Kat Ridout, APD, explains the foods, supplements and simple switches worth focusing on."
 date: "2026-10-11"
-updated: "2026-10-11"
+updated: "2026-11-10"
 categories:
   - "Fertility & IVF"
 image: "/images/wp/2026/07/krn-what-does-a-fertility-dietitian-do-body1.jpg"
@@ -108,6 +108,8 @@ If you’d like a shorter version, have a read of [what to eat before trying to 
 * Check iron and vitamin D with a blood test rather than guessing, and avoid stacking supplements.
 * Australian guidelines say women planning a pregnancy should not drink alcohol; keep caffeine to about 200 mg a day and count the shots in bought coffees.
 * Weight can affect hormones, cycles and sperm health; focus on food quality and changes that last.
+
+Kat works one to one on fertility and preconception nutrition, for women and men, in person in Milton, Brisbane, or by telehealth anywhere in Australia. See [how her fertility and preconception service works](/our-services/nutrition-for-fertility/).
 
 ## References
 

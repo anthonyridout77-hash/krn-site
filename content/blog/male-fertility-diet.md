@@ -2,7 +2,7 @@
 title: "Male Fertility Diet: What Men Can Eat to Improve Their Fertility"
 description: "Male factor infertility accounts for 50% of conception issues. Learn the evidence-based diet and supplement strategies — zinc, CoQ10, omega-3s, lycopene — that improve sperm quality and DNA integrity."
 date: "2026-06-16"
-updated: "2026-07-28"
+updated: "2026-11-10"
 categories:
   - "Male Fertility"
 image: "/images/wp/2026/06/male-fertility-couple-cooking.jpg"
@@ -86,3 +86,6 @@ If you’ve received a semen analysis showing any abnormality — low count, poo
 Katrina Ridout is an Accredited Practising Dietitian based in Brisbane offering in-person consultations and telehealth appointments across Australia. She works with both individual patients and couples navigating fertility challenges.
 
 [Book a consultation](/contact-us/) to get personalised male fertility nutrition support.
+
+
+Kat works one to one on fertility and preconception nutrition, for women and men, in person in Milton, Brisbane, or by telehealth anywhere in Australia. See [how her fertility and preconception service works](/our-services/nutrition-for-fertility/).

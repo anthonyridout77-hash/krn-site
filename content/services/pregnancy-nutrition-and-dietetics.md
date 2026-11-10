@@ -1,9 +1,9 @@
 ---
 title: "Pregnancy"
 seoTitle: "Pregnancy Dietitian Brisbane and Online"
-description: "Pregnancy nutrition support from Kat Ridout, Accredited Practising Dietitian. Telehealth right across Australia, based in Brisbane. Medicare rebate with GP referral."
+description: "Pregnancy nutrition support from Kat Ridout, Accredited Practising Dietitian. In person in Milton, Brisbane, or by telehealth anywhere in Australia."
 date: "2025-08-01"
-updated: "2026-10-05"
+updated: "2026-11-10"
 wpId: "415"
 wpUrl: "https://api.katridout.com.au/our-services/pregnancy-nutrition-and-dietetics/"
 ---

@@ -101,27 +101,27 @@ Proper nutrition is crucial during pregnancy because it provides the necessary n
 
 ● Long-term health outcomes: Proper nutrition during pregnancy may also have long-term health outcomes for the child, such as reduced risk of chronic diseases such as obesity, type 2 diabetes, and hypertension.
 
-It’s important to work with a healthcare provider or registered dietitian to develop a personalised nutrition plan during pregnancy to ensure adequate nutrient intake for both the mother and the fetus.
+It’s important to work with a healthcare provider or Accredited Practising Dietitian to develop a personalised nutrition plan during pregnancy to ensure adequate nutrient intake for both the mother and the fetus.
 
 ### What is good food for a pregnant woman? Why?
 
-Fruits and vegetables, lean protein, whole grains, low-fat dairy products, and healthy fats are all good foods for pregnant women. These foods provide important nutrients for fetal growth and development and help maintain maternal health. Pregnant women should avoid or limit certain foods, such as raw or undercooked meat and fish, unpasteurised dairy products, and fish with high levels of mercury. Working with a healthcare provider or registered dietitian is important to develop a personalised nutrition plan.
+Fruits and vegetables, lean protein, whole grains, low-fat dairy products, and healthy fats are all good foods for pregnant women. These foods provide important nutrients for fetal growth and development and help maintain maternal health. Pregnant women should avoid or limit certain foods, such as raw or undercooked meat and fish, unpasteurised dairy products, and fish with high levels of mercury. Working with a healthcare provider or Accredited Practising Dietitian is important to develop a personalised nutrition plan.
 
 ### What should be the proper diet during early pregnancy?
 
-A healthy and balanced diet during early pregnancy should include foods that are high in folic acid, iron, calcium, protein, and healthy fats. It’s important to stay hydrated and avoid certain foods, such as raw or undercooked meat and fish, unpasteurised dairy products, and foods that are high in sugar, salt, or unhealthy fats. Working with a healthcare provider or registered dietitian is important to develop a personalised nutrition plan during early pregnancy.
+A healthy and balanced diet during early pregnancy should include foods that are high in folic acid, iron, calcium, protein, and healthy fats. It’s important to stay hydrated and avoid certain foods, such as raw or undercooked meat and fish, unpasteurised dairy products, and foods that are high in sugar, salt, or unhealthy fats. Working with a healthcare provider or Accredited Practising Dietitian is important to develop a personalised nutrition plan during early pregnancy.
 
 ### What are important considerations for a pregnant vegan?
 
-Pregnant vegans need to ensure adequate intake of protein, vitamin B12, iron, omega-3 fatty acids, calcium, and calories. Plant-based sources of protein, iron, omega-3 fatty acids, and calcium can be obtained from a variety of foods, and vitamin B12 supplementation is recommended. Pregnant vegans should work with a healthcare provider or registered dietitian to develop a personalised nutrition plan.
+Pregnant vegans need to ensure adequate intake of protein, vitamin B12, iron, omega-3 fatty acids, calcium, and calories. Plant-based sources of protein, iron, omega-3 fatty acids, and calcium can be obtained from a variety of foods, and vitamin B12 supplementation is recommended. Pregnant vegans should work with a healthcare provider or Accredited Practising Dietitian to develop a personalised nutrition plan.
 
 ### As a vegan, which foods should be avoided during pregnancy?
 
-As a vegan, there are no meat and dairy products to avoid during pregnancy. However, it’s still important to avoid certain foods such as certain fish, raw or undercooked eggs, unpasteurised juice, and certain herbal teas. Pregnant vegans should also ensure adequate nutrient intake through a well-planned, balanced vegan diet and consider supplementation as needed. It’s recommended to work with a healthcare provider or registered dietitian to develop a personalised nutrition plan.
+As a vegan, there are no meat and dairy products to avoid during pregnancy. However, it’s still important to avoid certain foods such as certain fish, raw or undercooked eggs, unpasteurised juice, and certain herbal teas. Pregnant vegans should also ensure adequate nutrient intake through a well-planned, balanced vegan diet and consider supplementation as needed. It’s recommended to work with a healthcare provider or Accredited Practising Dietitian to develop a personalised nutrition plan.
 
 ### Is being vegan bad for pregnancy?
 
-Being vegan is not inherently bad for pregnancy, and a well-planned, balanced vegan diet can provide all the necessary nutrients for a healthy pregnancy. However, it’s important for pregnant vegans to pay close attention to their nutrient intake and work with a healthcare provider or registered dietitian to develop a personalised nutrition plan to ensure adequate nutrient intake for both the mother and the fetus.
+Being vegan is not inherently bad for pregnancy, and a well-planned, balanced vegan diet can provide all the necessary nutrients for a healthy pregnancy. However, it’s important for pregnant vegans to pay close attention to their nutrient intake and work with a healthcare provider or Accredited Practising Dietitian to develop a personalised nutrition plan to ensure adequate nutrient intake for both the mother and the fetus.
 
 Vegans may be at risk of inadequate intake of certain nutrients, such as vitamin B12, iron, omega-3 fatty acids, and calcium, which are important for fetal growth and development. However, these nutrients can be obtained through a variety of plant-based foods or supplements. Pregnant vegans may also need to consume additional calories during pregnancy to support fetal growth.
 
@@ -133,7 +133,7 @@ Yes, a pregnant woman can follow a vegetarian diet during pregnancy, as long as 
 
 Vegetarian diets can provide adequate amounts of protein, iron, calcium, and other important nutrients during pregnancy, but it’s important to ensure adequate intake of vitamin B12, which is primarily found in animal-based foods. Pregnant vegetarians may need to take a vitamin B12 supplement or consume fortified foods to ensure adequate intake.
 
-Working with a healthcare provider or registered dietitian to develop a personalized nutrition plan can help ensure adequate nutrient intake during pregnancy. In some cases, a healthcare provider or registered dietitian may recommend additional nutrient supplementation based on individual nutrient needs.
+Working with a healthcare provider or Accredited Practising Dietitian to develop a personalized nutrition plan can help ensure adequate nutrient intake during pregnancy. In some cases, a healthcare provider or Accredited Practising Dietitian may recommend additional nutrient supplementation based on individual nutrient needs.
 
 ### Should vegetarians take vitamin B12 supplements?
 
@@ -141,7 +141,7 @@ Yes, vegetarians should consider taking vitamin B12 supplements, as it is primar
 
 Vegetarians can obtain some vitamin B12 from fortified foods, such as plant-based milks, breakfast cereals, and nutritional yeast. However, the amount of vitamin B12 in fortified foods can vary widely, and it may be difficult to obtain adequate amounts solely through fortified foods.
 
-For this reason, vegetarians, particularly those who do not consume dairy products, eggs, or fortified foods regularly, may need to take a vitamin B12 supplement. A healthcare provider or registered dietitian can help determine the appropriate dose and type of vitamin B12 supplement for individual needs.
+For this reason, vegetarians, particularly those who do not consume dairy products, eggs, or fortified foods regularly, may need to take a vitamin B12 supplement. A healthcare provider or Accredited Practising Dietitian can help determine the appropriate dose and type of vitamin B12 supplement for individual needs.
 
 ### Is a vegetarian diet good during pregnancy?
 
@@ -149,7 +149,7 @@ A well-planned vegetarian diet can be a healthy choice during pregnancy, as it c
 
 Vegetarian diets can provide adequate amounts of protein, iron, calcium, and other important nutrients during pregnancy, but it’s important to ensure adequate intake of vitamin B12, which is primarily found in animal-based foods. Pregnant vegetarians may need to take a vitamin B12 supplement or consume fortified foods to ensure adequate intake.
 
-Working with a healthcare provider or registered dietitian to develop a personalised nutrition plan can help ensure adequate nutrient intake during pregnancy. In some cases, a healthcare provider or registered dietitian may recommend additional nutrient supplementation based on individual nutrient needs.
+Working with a healthcare provider or Accredited Practising Dietitian to develop a personalised nutrition plan can help ensure adequate nutrient intake during pregnancy. In some cases, a healthcare provider or Accredited Practising Dietitian may recommend additional nutrient supplementation based on individual nutrient needs.
 
 It’s important to note that a poorly planned vegetarian diet may not provide adequate amounts of nutrients necessary for fetal growth and development. Pregnant vegetarians should ensure adequate calorie intake and consume a variety of nutrient-dense plant-based foods to meet their nutrient needs during pregnancy.
 

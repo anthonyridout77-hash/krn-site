@@ -1,7 +1,7 @@
 ---
 title: "Gestational Diabetes Dietitian"
 seoTitle: "Gestational Diabetes Dietitian Brisbane and Online"
-description: "Gestational diabetes dietitian Kat Ridout, APD. Practical meal guidance by telehealth Australia-wide or in person in Brisbane. Medicare rebate with GP referral."
+description: "Gestational diabetes dietitian Kat Ridout, Accredited Practising Dietitian, working alongside your obstetric team. In person in Milton, Brisbane, or by telehealth anywhere in Australia."
 date: "2025-08-01"
 updated: "2026-11-10"
 wpId: "464"

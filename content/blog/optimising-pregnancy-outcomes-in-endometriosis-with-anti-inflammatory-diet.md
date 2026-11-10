@@ -1,6 +1,6 @@
 ---
 title: "Anti-Inflammatory Eating with Endometriosis in Pregnancy"
-description: "Anti-inflammatory eating with endometriosis, explained by Kat Ridout, Accredited Practising Dietitian. Telehealth Australia-wide. Medicare rebate with GP referral."
+description: "Anti-inflammatory eating with endometriosis, explained by Kat Ridout, Accredited Practising Dietitian. Telehealth Australia-wide. A Medicare rebate may apply with a GP Chronic Condition Management Plan."
 date: "2024-06-15"
 updated: "2026-10-20"
 categories:

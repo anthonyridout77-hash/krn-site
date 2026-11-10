@@ -1,9 +1,9 @@
 ---
-title: "Nutrition for Fertility"
+title: "Fertility and Preconception Dietitian"
 seoTitle: "Fertility Dietitian Brisbane and Online: Preconception Nutrition"
 description: "Fertility and preconception nutrition with Kat Ridout, Accredited Practising Dietitian. Brisbane based, telehealth Australia-wide. Medicare rebate may apply with a GP Chronic Condition Management Plan."
 date: "2025-08-04"
-updated: "2026-10-09"
+updated: "2026-11-10"
 wpId: "527"
 wpUrl: "https://api.katridout.com.au/our-services/nutrition-for-fertility/"
 ---
@@ -38,6 +38,11 @@ If you’d like to learn more about how fertility nutrition can support you, I�
 Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. Kat has supported hundreds of clients, so you do not need to have it all worked out first. No preparation and no obligation.
 [Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
+## Further reading
+- [What should I eat in the 3 months before trying to conceive?](/blogs/what-to-eat-3-months-before-trying-to-conceive/)
+- [How much caffeine and alcohol is okay when trying to conceive?](/blogs/how-much-caffeine-and-alcohol-when-trying-to-conceive/)
+- [Can a male fertility dietitian improve sperm health before conception?](/blogs/male-fertility-dietitian-sperm-health/)
+
 ## Frequently Asked Questions
 
 ### Does caffeine affect fertility?
@@ -50,7 +55,7 @@ A healthy, balanced diet can make a big difference to fertility for both men and
 
 It’s also important to limit or avoid things that may reduce fertility, such as trans fats, excess caffeine, alcohol and smoking.
 
-Because every person’s needs are different, working with a healthcare provider or registered dietitian can help you create a personalised nutrition plan that supports your body and your fertility goals.
+Because every person’s needs are different, working with a healthcare provider or Accredited Practising Dietitian can help you create a personalised nutrition plan that supports your body and your fertility goals.
 
 ### What role does iron play in fertility?
 
@@ -68,7 +73,7 @@ Balanced meals should include lean protein, high-fibre whole grains, colourful v
 
 A healthy, balanced diet can play a powerful role in improving fertility for both men and women. Eating a wide variety of fruits and vegetables, wholegrains, lean proteins, healthy fats, iron-rich foods and low-glycaemic index carbohydrates can help reduce inflammation, support hormone balance and promote healthy egg and sperm production.
 
-Rather than relying on single “fertility foods,” the goal is to eat a variety of nutrient-dense foods that work together to support your reproductive health. If you are finding it difficult to conceive, working with a healthcare provider or registered dietitian can help you develop a personalised plan to give your body the best possible support.
+Rather than relying on single “fertility foods,” the goal is to eat a variety of nutrient-dense foods that work together to support your reproductive health. If you are finding it difficult to conceive, working with a healthcare provider or Accredited Practising Dietitian can help you develop a personalised plan to give your body the best possible support.
 
 ### How does folate (folic acid) impact fertility?
 
@@ -80,7 +85,7 @@ Folate is found naturally in foods such as leafy greens, legumes and fortified c
 
 Carrying excess weight can have an impact on female fertility. It may lead to hormonal imbalances, affect egg quality, reduce the body’s response to fertility treatments, and increase the risk of pregnancy complications. These factors can make it harder to conceive, but there is good news — even modest weight loss through healthy eating and regular movement can improve fertility outcomes.
 
-Working with a healthcare provider or a registered dietitian can help you create a safe, personalised plan to support healthy weight management, balance hormones and boost your chances of conceiving.
+Working with a healthcare provider or a Accredited Practising Dietitian can help you create a safe, personalised plan to support healthy weight management, balance hormones and boost your chances of conceiving.
 
 ### What are the most important nutrients for fertility?
 
