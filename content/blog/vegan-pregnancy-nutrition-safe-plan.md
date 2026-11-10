@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/07/krn-how-to-improve-egg-quality-naturally-body2.jpg"
 imageAlt: "Woman smiling during a video call on her laptop"
 wpId: "5139"
-wpUrl: "https://api.katridout.com.au/blogs/vegan-pregnancy-nutrition-safe-plan/"
+wpUrl: "https://www.katridout.com.au/blogs/vegan-pregnancy-nutrition-safe-plan/"
 ---
 
 If you eat vegan and you’ve just found out you’re pregnant (or you’re planning to be), you might be wondering if your way of eating can carry you both. I guess the key thing is this: a well-planned vegan diet can meet your needs and your baby’s in pregnancy. The Academy of Nutrition and Dietetics, the American dietitians’ professional body, considers it appropriate for every life stage. The word doing the heavy lifting there is “planned”. A handful of nutrients need a bit more intention, and a couple will need a supplement. Let’s walk through them.

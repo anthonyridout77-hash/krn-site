@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/08/krn-postnatal-iron-energy-hero.jpg"
 imageAlt: "A new mother sitting in an armchair holding a warm drink while her baby sleeps in her arms"
 wpId: "4653"
-wpUrl: "https://api.katridout.com.au/blogs/postnatal-iron-and-energy-still-exhausted/"
+wpUrl: "https://www.katridout.com.au/blogs/postnatal-iron-and-energy-still-exhausted/"
 ---
 
 By four months, the story most of us are told is that things settle. The baby sleeps a little longer, the fog lifts, and you start to feel like yourself again. If that has not happened for you, and you are still dragging yourself through each day, it is reasonable to ask why rather than to assume you simply have to wait it out.

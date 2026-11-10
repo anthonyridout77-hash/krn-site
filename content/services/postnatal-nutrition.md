@@ -5,7 +5,7 @@ description: "Postpartum and breastfeeding dietitian Kat Ridout, Accredited Prac
 date: "2025-08-04"
 updated: "2026-11-11"
 wpId: "510"
-wpUrl: "https://api.katridout.com.au/our-services/postnatal-nutrition/"
+wpUrl: "https://www.katridout.com.au/our-services/postnatal-nutrition/"
 ---
 
 

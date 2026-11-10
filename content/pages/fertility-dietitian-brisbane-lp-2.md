@@ -4,7 +4,7 @@ description: "APD fertility dietitian in Brisbane. Evidence-based nutrition to s
 date: "2025-08-28"
 updated: "2026-09-25"
 wpId: "2346"
-wpUrl: "https://api.katridout.com.au/fertility-dietitian-brisbane-lp-2/"
+wpUrl: "https://www.katridout.com.au/fertility-dietitian-brisbane-lp-2/"
 ---
 
 

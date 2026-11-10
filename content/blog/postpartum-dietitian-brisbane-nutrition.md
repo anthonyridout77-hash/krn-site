@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/09/krn-postpartum-dietitian-brisbane-hero.jpg"
 imageAlt: "A woman sitting at a wooden table eating a bowl of breakfast with a cup of coffee beside her in a bright home kitchen"
 wpId: "4935"
-wpUrl: "https://api.katridout.com.au/blogs/postpartum-dietitian-brisbane-nutrition/"
+wpUrl: "https://www.katridout.com.au/blogs/postpartum-dietitian-brisbane-nutrition/"
 ---
 
 Most of the nutrition advice a woman reads while she is pregnant stops at the birth. The appointments stop too, or they narrow down to the baby. And yet the months after birth are the ones where the body is rebuilding, sleep is broken, and cooking has to happen with one hand.

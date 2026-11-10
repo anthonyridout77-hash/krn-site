@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/07/krn-dietitian-nutritionist-fertility-body2.jpg"
 imageAlt: "Woman having a friendly chat in a consultation"
 wpId: "5253"
-wpUrl: "https://api.katridout.com.au/blogs/how-much-does-a-dietitian-cost-australia/"
+wpUrl: "https://www.katridout.com.au/blogs/how-much-does-a-dietitian-cost-australia/"
 ---
 
 <p>I get asked about cost all the time, usually in a whisper at the end of a discovery call. So let&#8217;s talk about it plainly. Dietitians in Australia set their own fees, so there is no single national price, and I don&#8217;t publish fees in my articles. What I can do is show you the ways the cost can come down, so you walk into your first appointment knowing what to ask. I guess the key thing is this: a little bit of planning before you book can make a real difference to what you pay.</p>

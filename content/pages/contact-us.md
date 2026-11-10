@@ -4,7 +4,7 @@ description: "Get in touch with Kat Ridout. Contact us for questions, bookings, 
 date: "2023-04-24"
 updated: "2026-01-06"
 wpId: "93"
-wpUrl: "https://api.katridout.com.au/contact-us/"
+wpUrl: "https://www.katridout.com.au/contact-us/"
 ---
 
 

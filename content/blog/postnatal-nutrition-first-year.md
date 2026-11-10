@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/08/krn-postnatal-first-year-hero.jpg"
 imageAlt: "Mother holding her baby at a sunlit kitchen table with breakfast in front of her"
 wpId: "4713"
-wpUrl: "https://api.katridout.com.au/blogs/postnatal-nutrition-first-year/"
+wpUrl: "https://www.katridout.com.au/blogs/postnatal-nutrition-first-year/"
 ---
 
 Most postnatal nutrition advice stops at six weeks. The baby is here, the appointments taper off, and the assumption is that everything settles. In practice the first year asks something different of you at every stage, and what works at week two is rarely what works at month nine. This is that year walked through stage by stage, written the way I talk it through with women as a postpartum dietitian in Australia, so you can skip straight to the part you are actually in.

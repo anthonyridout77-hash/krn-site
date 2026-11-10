@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/08/krn-postpartum-meals-hero.jpg"
 imageAlt: "Jars of oats, yoghurt and fruit prepared ahead for easy one-handed breakfasts"
 wpId: "4641"
-wpUrl: "https://api.katridout.com.au/blogs/what-to-eat-after-birth-no-time-to-cook/"
+wpUrl: "https://www.katridout.com.au/blogs/what-to-eat-after-birth-no-time-to-cook/"
 ---
 
 Nobody warns you that the hardest part of eating well after a baby arrives is not knowing what to eat. It is having two free hands, ten spare minutes and a functioning brain at the same time. Most postpartum meals advice assumes all three. This is written for the weeks when you have none of them.

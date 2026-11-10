@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/07/krn-what-does-a-fertility-dietitian-do-body1.jpg"
 imageAlt: "Woman in her kitchen making notes about her meals"
 wpId: "5103"
-wpUrl: "https://api.katridout.com.au/blogs/what-to-eat-3-months-before-trying-to-conceive/"
+wpUrl: "https://www.katridout.com.au/blogs/what-to-eat-3-months-before-trying-to-conceive/"
 ---
 
 If you’re starting to think about a baby, the next three months are a really good place to put a little bit of energy into food. It takes about three months to build your eggs, and a full sperm cycle takes roughly 64 days, so what you both eat now is what you’re building with. I guess the key thing is this isn’t about a perfect diet. It’s a handful of simple little switches that give you the most nutrition bang for your buck, and I’ll walk you through them here.

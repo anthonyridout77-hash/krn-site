@@ -6,7 +6,7 @@ updated: "2026-07-28"
 categories:
   - "Pregnancy"
 wpId: "1737"
-wpUrl: "https://api.katridout.com.au/blogs/why-is-nutrition-important-during-pregnancy/"
+wpUrl: "https://www.katridout.com.au/blogs/why-is-nutrition-important-during-pregnancy/"
 ---
 
 ## Pregnancy diet and nutrition is crucial for the development of your baby.

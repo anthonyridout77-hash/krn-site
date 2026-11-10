@@ -3,7 +3,7 @@ title: "Roasted Carrot and Grain Salad with Chilli, Mint and Quick Tahini Dressi
 date: "2025-08-04"
 updated: "2025-08-04"
 wpId: "580"
-wpUrl: "https://api.katridout.com.au/?recipe=roasted-carrot-and-grain-salad-with-chilli-mint-and-quick-tahini-dressing"
+wpUrl: "https://www.katridout.com.au/?recipe=roasted-carrot-and-grain-salad-with-chilli-mint-and-quick-tahini-dressing"
 image: "/images/recipes/roasted-carrot-and-grain-salad-with-chilli-mint-and-quick-tahini-dressing.jpg"
 imageAlt: "Grain salad bowl with roasted vegetables, avocado and herbs"
 meal: "Lunch & dinner"

@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/09/krn-ivf-dietitian-brisbane-nutrition-hero-2-scaled.jpg"
 imageAlt: "A woman in a soft sweater sits at a table by a window in gentle morning light, holding a warm mug and looking calmly outside, a quiet moment of planning before an IVF cycle."
 wpId: "4863"
-wpUrl: "https://api.katridout.com.au/blogs/ivf-dietitian-brisbane-nutrition/"
+wpUrl: "https://www.katridout.com.au/blogs/ivf-dietitian-brisbane-nutrition/"
 ---
 
 If you are preparing for IVF, you have probably been handed a great deal of advice about food. Some of it came from your clinic, some from a forum at eleven at night, and some from a stranger in a comment thread who was very sure of herself. It is genuinely hard to tell which part deserves your energy, at a time when your energy is already spoken for.

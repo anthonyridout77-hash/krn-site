@@ -5,7 +5,7 @@ description: "IVF dietitian Kat Ridout, Accredited Practising Dietitian. Nutriti
 date: "2025-08-01"
 updated: "2026-11-10"
 wpId: "383"
-wpUrl: "https://api.katridout.com.au/our-services/prenatal-nutrition-and-dietetics/ivf-nutrition/"
+wpUrl: "https://www.katridout.com.au/our-services/prenatal-nutrition-and-dietetics/ivf-nutrition/"
 parent: "366"
 ---
 

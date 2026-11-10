@@ -6,7 +6,7 @@ updated: "2026-08-06"
 categories:
   - "Pregnancy"
 wpId: "2438"
-wpUrl: "https://api.katridout.com.au/blogs/what-are-the-symptoms-and-causes-of-diabetes/"
+wpUrl: "https://www.katridout.com.au/blogs/what-are-the-symptoms-and-causes-of-diabetes/"
 ---
 
 ## Diabetes mellitus can affect anyone and occur for a variety of reasons.

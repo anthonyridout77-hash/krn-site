@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/07/krn-preparing-body-for-pregnancy-body1.jpg"
 imageAlt: "Close-up of a nutritious colourful meal"
 wpId: "4899"
-wpUrl: "https://api.katridout.com.au/blogs/what-to-eat-before-trying-to-conceive/"
+wpUrl: "https://www.katridout.com.au/blogs/what-to-eat-before-trying-to-conceive/"
 ---
 
 **Quick answer:** Before trying to conceive, eat a Mediterranean-style pattern: plenty of vegetables, fruit, legumes, whole grains, nuts, olive oil and 2–3 serves of low-mercury fish a week. Start a supplement with at least 400 mcg folic acid and 150 mcg iodine at least one month before conception, as Australian guidelines recommend, and stop alcohol. Aim to start 3 months ahead. That’s roughly how long eggs and sperm take to mature.

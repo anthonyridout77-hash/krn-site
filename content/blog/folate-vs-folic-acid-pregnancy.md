@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/07/krn-dietitian-nutritionist-fertility-body2.jpg"
 imageAlt: "Woman having a friendly chat in a consultation"
 wpId: "5105"
-wpUrl: "https://api.katridout.com.au/blogs/folate-vs-folic-acid-pregnancy/"
+wpUrl: "https://www.katridout.com.au/blogs/folate-vs-folic-acid-pregnancy/"
 ---
 
 I get asked this one all the time: should I be taking folate or folic acid? I guess the key thing is this. For most women, folic acid is the evidence-based choice, and Australian guidance recommends 400 micrograms a day from at least one month before conception through the first trimester. Folate from food still matters, but the two aren’t the same thing, and the word "folate" on a label doesn’t always mean what you think it does. Let’s unpack it.

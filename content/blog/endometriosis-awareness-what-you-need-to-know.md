@@ -6,7 +6,7 @@ updated: "2026-11-10"
 categories:
   - "Latest News & Information"
 wpId: "3478"
-wpUrl: "https://api.katridout.com.au/blogs/endometriosis-awareness-what-you-need-to-know/"
+wpUrl: "https://www.katridout.com.au/blogs/endometriosis-awareness-what-you-need-to-know/"
 ---
 
 March is Endometriosis Awareness Month, a time to raise awareness about a condition that affects approximately 1 in 9 women worldwide. For many, endometriosis is a challenging and often misunderstood disease that can impact their physical, emotional, and social well-being. As a dietitian who specialises in pregnancy nutrition, I want to share important insights into endometriosis, how it affects women, and ways to manage it.

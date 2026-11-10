@@ -3,7 +3,7 @@ title: "Fertility Dietitian — Free 15-Min Consultation"
 date: "2026-07-07"
 updated: "2026-07-22"
 wpId: "4150"
-wpUrl: "https://api.katridout.com.au/lp-fertility/"
+wpUrl: "https://www.katridout.com.au/lp-fertility/"
 ---
 
 # Trying to Conceive? A Fertility Dietitian Can Help

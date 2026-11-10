@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/10/krn-vitamin-a-pregnancy-hero.jpg"
 imageAlt: "A whole pale orange butternut pumpkin standing upright against a plain pale background, representing beta-carotene as the food form of vitamin A in pregnancy"
 wpId: "4952"
-wpUrl: "https://api.katridout.com.au/blogs/vitamin-a-vitamin-k-pregnancy-dietitian-brisbane/"
+wpUrl: "https://www.katridout.com.au/blogs/vitamin-a-vitamin-k-pregnancy-dietitian-brisbane/"
 ---
 
 Somebody asked me this week whether she needed to throw out her face serum. She was eleven weeks pregnant, she had read something about retinol, and she had spent two days quietly worried about a bottle in her bathroom cabinet.

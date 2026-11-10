@@ -3,7 +3,7 @@ title: "Pregnancy Dietitian — Free 15-Min Consultation"
 date: "2026-07-07"
 updated: "2026-07-13"
 wpId: "4151"
-wpUrl: "https://api.katridout.com.au/lp-pregnancy/"
+wpUrl: "https://www.katridout.com.au/lp-pregnancy/"
 ---
 
 # Eat Well Through Every Trimester — With an Expert Pregnancy Dietitian

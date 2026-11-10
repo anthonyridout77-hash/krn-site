@@ -7,7 +7,7 @@ categories:
   - "Fertility & IVF"
 image: "/images/wp/2026/07/krn-gut-health-fertility-hero-wide.jpg"
 wpId: "4155"
-wpUrl: "https://api.katridout.com.au/blogs/gut-health-fertility-nutrition/"
+wpUrl: "https://www.katridout.com.au/blogs/gut-health-fertility-nutrition/"
 ---
 
 If you’re trying to conceive, chances are your feed has quietly filled up with gut-health content. Microbiome testing kits. Probiotic “fertility stacks.” Thirty plants a week challenges. Gut resets. It’s a lot — and when you’re already carrying the emotional load of TTC, the last thing you need is another list of rules you’re apparently getting wrong.

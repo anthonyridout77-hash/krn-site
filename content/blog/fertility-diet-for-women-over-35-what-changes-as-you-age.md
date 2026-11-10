@@ -6,7 +6,7 @@ updated: "2026-07-28"
 categories:
   - "Pregnancy"
 wpId: "3483"
-wpUrl: "https://api.katridout.com.au/blogs/fertility-diet-for-women-over-35-what-changes-as-you-age/"
+wpUrl: "https://www.katridout.com.au/blogs/fertility-diet-for-women-over-35-what-changes-as-you-age/"
 ---
 
 As women age, the journey to pregnancy can be affected by various factors, including hormonal shifts, lifestyle habits, and dietary choices. For women over 35, maintaining a healthy fertility diet is essential to enhance reproductive health and increase the chances of conceiving. Nutrition plays a crucial role in supporting hormonal balance, egg quality, and overall well-being, especially as the body undergoes natural age-related changes.

@@ -7,7 +7,7 @@ categories:
   - "Latest News & Information"
 image: "/images/wp/2026/01/shutterstock_2230242479-1.jpg"
 wpId: "3947"
-wpUrl: "https://api.katridout.com.au/blogs/how-diet-impacts-ovulation-and-hormone-balance/"
+wpUrl: "https://www.katridout.com.au/blogs/how-diet-impacts-ovulation-and-hormone-balance/"
 ---
 
 ## When it comes to fertility, the food you eat can influence more than just your general health, it can directly affect ovulation and hormone balance. The right dietary choices can support your body in regulating menstrual cycles, improving egg quality, and preparing for a healthy pregnancy.

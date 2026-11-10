@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/07/krn-preparing-body-for-pregnancy-body1.jpg"
 imageAlt: "Close-up of a nutritious colourful meal"
 wpId: "5145"
-wpUrl: "https://api.katridout.com.au/blogs/foods-to-avoid-during-pregnancy-australia/"
+wpUrl: "https://www.katridout.com.au/blogs/foods-to-avoid-during-pregnancy-australia/"
 ---
 
 When you find out you’re pregnant, the list of foods to avoid can feel endless. I’ve had three kids, and I remember standing at the deli counter wondering what on earth I was allowed to eat. I guess the key thing is this: the list is short and it has a reason behind it. In Australia, the foods to take care with are the ones that can carry listeria (soft cheeses, deli meats, pâté, pre-prepared salads, rockmelon, raw sprouts), fish high in mercury (shark or flake, swordfish, broadbill, marlin, orange roughy, catfish), raw or undercooked meat, poultry, seafood and eggs, unpasteurised dairy, and alcohol. Keep caffeine to 200mg a day. Most everyday foods are still on the menu.

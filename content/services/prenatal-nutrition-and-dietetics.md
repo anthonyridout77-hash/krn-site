@@ -5,7 +5,7 @@ description: "Fertility and prenatal nutrition with Kat Ridout, Accredited Pract
 date: "2025-08-01"
 updated: "2026-11-10"
 wpId: "366"
-wpUrl: "https://api.katridout.com.au/our-services/prenatal-nutrition-and-dietetics/"
+wpUrl: "https://www.katridout.com.au/our-services/prenatal-nutrition-and-dietetics/"
 ---
 
 

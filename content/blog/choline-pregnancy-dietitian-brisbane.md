@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/10/krn-choline-pregnancy-hero.jpg"
 imageAlt: "Two brown eggs resting on a dark wooden surface against a plain light background, illustrating eggs as the leading food source of choline in pregnancy"
 wpId: "5198"
-wpUrl: "https://api.katridout.com.au/blogs/choline-pregnancy-dietitian-brisbane/"
+wpUrl: "https://www.katridout.com.au/blogs/choline-pregnancy-dietitian-brisbane/"
 ---
 
 <p>There is a nutrient on your pregnancy list that probably never made it onto your list. Iron, folate, iodine, omega-3: I am asked about those most weeks. Choline comes up perhaps twice a year, usually because someone read one sentence about it somewhere and now feels behind. And the Australian data we have suggests roughly half of us are not meeting the target for it.</p>

@@ -4,7 +4,7 @@ description: "Take the Risk Assessment Quiz by Kat Ridout. Evaluate your health 
 date: "2025-07-01"
 updated: "2026-01-06"
 wpId: "218"
-wpUrl: "https://api.katridout.com.au/risk-assessment-quiz/"
+wpUrl: "https://www.katridout.com.au/risk-assessment-quiz/"
 ---
 
 

@@ -3,7 +3,7 @@ title: "Fertility and Pregnancy Dietitian for Perth, Online with Kat Ridout APD"
 date: "2026-07-28"
 updated: "2026-09-15"
 wpId: "4591"
-wpUrl: "https://api.katridout.com.au/fertility-pregnancy-dietitian-perth/"
+wpUrl: "https://www.katridout.com.au/fertility-pregnancy-dietitian-perth/"
 ---
 
 Based in Brisbane, Kat Ridout supports women right across Western Australia through telehealth. Wherever you are, from the city to the hills and the regions, you get the same evidence based fertility, pregnancy and postpartum nutrition care, by telehealth that fits around your life.

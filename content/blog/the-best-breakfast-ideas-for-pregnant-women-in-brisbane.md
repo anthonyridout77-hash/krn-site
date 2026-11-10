@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2025/11/shutterstock_2553172587-1.jpg"
 imageAlt: "Breakfast for Pregnant"
 wpId: "3897"
-wpUrl: "https://api.katridout.com.au/blogs/the-best-breakfast-ideas-for-pregnant-women-in-brisbane/"
+wpUrl: "https://www.katridout.com.au/blogs/the-best-breakfast-ideas-for-pregnant-women-in-brisbane/"
 ---
 
 Starting the day with a wholesome breakfast is essential for everyone, but it is especially important during pregnancy. Eating the right foods helps support your growing baby and keeps your energy levels steady throughout the morning. If you’re wondering what to include in your morning meals, this guide will share some nutritious breakfast ideas tailored for expectant mothers.

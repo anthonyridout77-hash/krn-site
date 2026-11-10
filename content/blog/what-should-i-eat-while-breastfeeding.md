@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/08/krn-postpartum-meals-hero.jpg"
 imageAlt: "Jars of oats, yoghurt and fruit prepared ahead for easy one-handed breakfasts"
 wpId: "5174"
-wpUrl: "https://api.katridout.com.au/blogs/what-should-i-eat-while-breastfeeding/"
+wpUrl: "https://www.katridout.com.au/blogs/what-should-i-eat-while-breastfeeding/"
 ---
 
 I’ve had three kids, and I know the breastfeeding phase well: the soggy biscuit and the cold cup of tea, eaten one handed at 3am. So let me take some pressure off first. There is no special breastfeeding diet. I guess the key thing is that a few nutrients, a bit more food and some simple habits matter more now, and most of it is very doable on broken sleep.

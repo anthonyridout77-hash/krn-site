@@ -6,7 +6,7 @@ updated: "2026-10-20"
 categories:
   - "Pregnancy"
 wpId: "3342"
-wpUrl: "https://api.katridout.com.au/blogs/optimising-pregnancy-outcomes-in-endometriosis-with-anti-inflammatory-diet/"
+wpUrl: "https://www.katridout.com.au/blogs/optimising-pregnancy-outcomes-in-endometriosis-with-anti-inflammatory-diet/"
 ---
 
 Endometriosis is a chronic condition where tissue similar to the lining of the uterus grows outside of it, affecting millions of women worldwide. This condition not only causes significant pain and discomfort but also impacts fertility and pregnancy outcomes. For women dealing with endometriosis, managing symptoms and improving fertility are often top priorities. But, could an anti-inflammatory diet make a significant difference in enhancing pregnancy outcomes for these women?

@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/08/krn-postpartum-meals-hero.jpg"
 imageAlt: "Jars of oats, yoghurt and fruit prepared ahead for easy one-handed breakfasts"
 wpId: "5082"
-wpUrl: "https://api.katridout.com.au/blogs/telehealth-endometriosis-dietitian-manage-symptoms/"
+wpUrl: "https://www.katridout.com.au/blogs/telehealth-endometriosis-dietitian-manage-symptoms/"
 ---
 
 Yes, a dietitian can help with endometriosis, and telehealth means you can do it from your couch on a bad pain day, anywhere in Australia. I guess the key thing is this: food supports your medical care, it doesn’t replace it. There’s no single “endo diet”, and no one can promise that changing what you eat will remove lesions or take the pain away. What we can do is work on the things food really does touch, like gut symptoms, energy and iron.

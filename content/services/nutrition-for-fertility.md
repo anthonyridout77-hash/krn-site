@@ -5,7 +5,7 @@ description: "Fertility and preconception nutrition with Kat Ridout, Accredited 
 date: "2025-08-04"
 updated: "2026-11-10"
 wpId: "527"
-wpUrl: "https://api.katridout.com.au/our-services/nutrition-for-fertility/"
+wpUrl: "https://www.katridout.com.au/our-services/nutrition-for-fertility/"
 ---
 
 

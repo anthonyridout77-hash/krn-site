@@ -6,7 +6,7 @@ updated: "2026-07-28"
 categories:
   - "Pregnancy"
 wpId: "3432"
-wpUrl: "https://api.katridout.com.au/blogs/how-to-boost-your-energy-levels-during-pregnancy-nutrition-tips-and-tricks/"
+wpUrl: "https://www.katridout.com.au/blogs/how-to-boost-your-energy-levels-during-pregnancy-nutrition-tips-and-tricks/"
 ---
 
 Pregnancy is a remarkable journey, but it often comes with its fair share of fatigue and low energy levels. Navigating the demands of nurturing a growing baby can leave you feeling drained, making it essential to focus on your nutrition to maintain your vitality. Here are some practical tips and tricks to help boost your energy levels during pregnancy through diet.

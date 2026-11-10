@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/09/krn-stock-couple-cooking.jpg"
 imageAlt: "A cheerful couple cooking dinner together in their kitchen"
 wpId: "4852"
-wpUrl: "https://api.katridout.com.au/blogs/gestational-diabetes-test-numbers-changed-adips-2025/"
+wpUrl: "https://www.katridout.com.au/blogs/gestational-diabetes-test-numbers-changed-adips-2025/"
 ---
 
 If you have been told you need the glucose test in this pregnancy, and you have a friend or a sister who had it a couple of years ago, you may find the numbers do not match. That is not a mistake at the lab. Australia changed the criteria.

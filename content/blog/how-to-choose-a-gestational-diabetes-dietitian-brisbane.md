@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/08/krn-postpartum-meals-hero.jpg"
 imageAlt: "Jars of oats, yoghurt and fruit prepared ahead for easy one-handed breakfasts"
 wpId: "5188"
-wpUrl: "https://api.katridout.com.au/blogs/how-to-choose-a-gestational-diabetes-dietitian-brisbane/"
+wpUrl: "https://www.katridout.com.au/blogs/how-to-choose-a-gestational-diabetes-dietitian-brisbane/"
 ---
 
 <p>If you have just come out of your glucose test with a gestational diabetes diagnosis, I want to reassure you that this is really normal, and it is not something you did wrong. Pregnancy hormones make insulin work a little less efficiently, and for some of us that tips blood sugar over the line. I guess the key thing is getting good support early, from someone who suits you. Here is what I would look for in a gestational diabetes dietitian in Brisbane, and how I work with you, in person in Milton or by telehealth.</p>

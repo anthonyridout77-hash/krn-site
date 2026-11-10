@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/07/krn-dietitian-nutritionist-fertility-body2.jpg"
 imageAlt: "Woman having a friendly chat in a consultation"
 wpId: "5182"
-wpUrl: "https://api.katridout.com.au/blogs/how-much-caffeine-and-alcohol-when-trying-to-conceive/"
+wpUrl: "https://www.katridout.com.au/blogs/how-much-caffeine-and-alcohol-when-trying-to-conceive/"
 ---
 
 <p>Coffee and wine come up a lot when we talk about trying to conceive, so let&#8217;s keep it simple. The current Australian guidance is to keep caffeine to around 200 mg a day, which is roughly two coffees, while you are trying to conceive. For alcohol, the guidance is not to drink at all while you are planning a pregnancy, because no safe amount has been established. This is general information, not individual advice, so it&#8217;s always worth talking through your own situation with your GP or fertility specialist.</p>

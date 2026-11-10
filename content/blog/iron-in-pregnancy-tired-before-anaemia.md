@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/08/krn-iron-featured-v2.jpg"
 imageAlt: "Pregnant woman resting on a sofa in soft daylight at home"
 wpId: "4616"
-wpUrl: "https://api.katridout.com.au/blogs/iron-in-pregnancy-tired-before-anaemia/"
+wpUrl: "https://www.katridout.com.au/blogs/iron-in-pregnancy-tired-before-anaemia/"
 ---
 
 Nearly every pregnant woman I speak with has been told some version of the same thing. You are growing a person, so of course you are tired. That is fair, and often it is the whole story. But there is a kind of tired that sits underneath the ordinary kind, and low iron is one of the more common reasons for it.

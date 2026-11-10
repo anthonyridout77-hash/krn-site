@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/07/krn-how-to-improve-egg-quality-naturally-body2.jpg"
 imageAlt: "Woman smiling during a video call on her laptop"
 wpId: "5274"
-wpUrl: "https://api.katridout.com.au/blogs/telehealth-ivf-dietitian-australia/"
+wpUrl: "https://www.katridout.com.au/blogs/telehealth-ivf-dietitian-australia/"
 ---
 
 <p>If you&#8217;re heading into IVF and you don&#8217;t live anywhere near Brisbane, you can still work with me. I&#8217;m Kat, an Accredited Practising Dietitian (APD), and I see women right across Australia by telehealth, working alongside whatever your fertility clinic has planned. I guess the key thing is this: nutrition supports your health through IVF, it never replaces your medical treatment, and the work we do together is general nutrition support built around your clinic&#8217;s care.</p>

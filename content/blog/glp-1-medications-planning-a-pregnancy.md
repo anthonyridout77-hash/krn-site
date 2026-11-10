@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/08/krn-glp1-featured-v2.jpg"
 imageAlt: "Woman smiling in a kitchen with a bench full of fresh vegetables"
 wpId: "4732"
-wpUrl: "https://api.katridout.com.au/blogs/glp-1-medications-planning-a-pregnancy/"
+wpUrl: "https://www.katridout.com.au/blogs/glp-1-medications-planning-a-pregnancy/"
 ---
 
 There is a question coming up in my consults now that barely existed two years ago. A woman tells me she has been taking a GLP-1 medication, she is starting to think about trying for a baby, and someone has told her she will need to come off it. She usually knows roughly when. What nobody has talked to her about is what happens to her eating afterwards.

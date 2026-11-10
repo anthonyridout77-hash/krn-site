@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/06/male-fertility-couple-cooking.jpg"
 imageAlt: "Couple cooking healthy dinner together — male fertility diet and preconception nutrition"
 wpId: "4082"
-wpUrl: "https://api.katridout.com.au/blogs/male-fertility-diet/"
+wpUrl: "https://www.katridout.com.au/blogs/male-fertility-diet/"
 ---
 
 When couples have difficulty conceiving, attention often focuses on the woman. But male factor infertility contributes to approximately 40–50% of all cases — and nutrition plays a significant role in sperm health that’s frequently overlooked.

@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/07/krn-dietitian-nutritionist-fertility-body2.jpg"
 imageAlt: "Woman having a friendly chat in a consultation"
 wpId: "5066"
-wpUrl: "https://api.katridout.com.au/blogs/do-i-need-dietitian-gestational-diabetes-brisbane/"
+wpUrl: "https://www.katridout.com.au/blogs/do-i-need-dietitian-gestational-diabetes-brisbane/"
 ---
 
 If you’ve just come back from your glucose test with a gestational diabetes diagnosis, you might be wondering whether you really need a dietitian, or whether a handout from the clinic will do. I guess the key thing is this: food is the first part of managing gestational diabetes, and a dietitian helps you shape it around your own readings, your appetite and your actual week. You don’t have to work it all out on your own, and it’s not about cutting out everything you love. Nutrition sits alongside your obstetrician or midwife, diabetes educator and GP, never in place of them.

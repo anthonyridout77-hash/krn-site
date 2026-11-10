@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/08/krn-inositol-pcos-featured.jpg"
 imageAlt: "Katrina Ridout Nutrition article card reading Inositol and PCOS, what the 2026 evidence actually says"
 wpId: "4794"
-wpUrl: "https://api.katridout.com.au/blogs/inositol-pcos-what-the-2026-evidence-says/"
+wpUrl: "https://www.katridout.com.au/blogs/inositol-pcos-what-the-2026-evidence-says/"
 ---
 
 If you have polycystic ovary syndrome and you have spent any time in an online group, you have been told about inositol. It is the most consistently recommended supplement in that space, and it is the thing I am asked about most often in a first appointment for PCOS.

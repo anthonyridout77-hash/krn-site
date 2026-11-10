@@ -5,7 +5,7 @@ description: "Gestational diabetes dietitian Kat Ridout, Accredited Practising D
 date: "2025-08-01"
 updated: "2026-11-10"
 wpId: "464"
-wpUrl: "https://api.katridout.com.au/our-services/pregnancy-nutrition-and-dietetics/gestational-diabetes/"
+wpUrl: "https://www.katridout.com.au/our-services/pregnancy-nutrition-and-dietetics/gestational-diabetes/"
 parent: "415"
 ---
 

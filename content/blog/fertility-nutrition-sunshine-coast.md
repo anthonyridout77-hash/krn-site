@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/07/krn-how-to-improve-egg-quality-naturally-body2.jpg"
 imageAlt: "Woman smiling during a video call on her laptop"
 wpId: "5215"
-wpUrl: "https://api.katridout.com.au/blogs/fertility-nutrition-sunshine-coast/"
+wpUrl: "https://www.katridout.com.au/blogs/fertility-nutrition-sunshine-coast/"
 ---
 
 <p>If you live on the Sunshine Coast and you&#8217;re trying to get pregnant, you don&#8217;t have to drive down the Bruce Highway every few weeks to get fertility nutrition support. I see women from Caloundra, Noosa and the hinterland by telehealth, and if you&#8217;d rather sit across the table from me, I&#8217;m in Milton in Brisbane. I guess the key thing is finding a dietitian who fits how you live, and who works with your GP and fertility clinic, not around them.</p>

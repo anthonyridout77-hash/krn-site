@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/07/krn-pcos-diet-plan-body1-v2.jpg"
 imageAlt: "Healthy balanced dinner served on a plate"
 wpId: "4904"
-wpUrl: "https://api.katridout.com.au/blogs/dietitian-pcos-pmos-getting-pregnant/"
+wpUrl: "https://www.katridout.com.au/blogs/dietitian-pcos-pmos-getting-pregnant/"
 ---
 
 **Quick answer:** Yes. The 2023 International Evidence-based Guideline for PCOS (now also called PMOS) recommends healthy eating and physical activity as first-line care, including when trying to conceive. An Accredited Practising Dietitian (APD) helps by improving insulin resistance, supporting regular ovulation, and preparing nutrient stores for pregnancy. This works alongside, not instead of, your GP or fertility specialist. The guideline says no single “PCOS diet” is best. What works is a plan you can keep.

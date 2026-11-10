@@ -6,7 +6,7 @@ updated: "2026-07-28"
 categories:
   - "Pregnancy"
 wpId: "1760"
-wpUrl: "https://api.katridout.com.au/blogs/why-is-folate-important-for-pregnancy/"
+wpUrl: "https://www.katridout.com.au/blogs/why-is-folate-important-for-pregnancy/"
 ---
 
 ## Adequate folate is crucial for a healthy pregnancy and healthy baby.

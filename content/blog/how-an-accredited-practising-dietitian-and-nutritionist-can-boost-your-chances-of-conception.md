@@ -6,7 +6,7 @@ updated: "2026-10-08"
 categories:
   - "Latest News & Information"
 wpId: "3496"
-wpUrl: "https://api.katridout.com.au/blogs/how-an-accredited-practising-dietitian-and-nutritionist-can-boost-your-chances-of-conception/"
+wpUrl: "https://www.katridout.com.au/blogs/how-an-accredited-practising-dietitian-and-nutritionist-can-boost-your-chances-of-conception/"
 ---
 
 When trying to conceive, many couples focus on timing, ovulation tracking, and overall health. However, one of the most overlooked factors in preparing for conception is nutrition. What you eat and how you nourish your body plays a crucial role in supporting reproductive health. An Accredited Practising Dietitian, like Katrina Ridout, can guide you through the dietary choices that support preconception health.

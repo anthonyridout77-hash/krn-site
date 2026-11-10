@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/08/krn-upf-fertility-featured.jpg"
 imageAlt: "A couple preparing a fresh meal together in a bright home kitchen"
 wpId: "4675"
-wpUrl: "https://api.katridout.com.au/blogs/ultra-processed-food-and-fertility/"
+wpUrl: "https://www.katridout.com.au/blogs/ultra-processed-food-and-fertility/"
 ---
 
 If you are trying for a baby, you may have seen headlines earlier this year linking ultra-processed food to fertility. They landed with a thud in a lot of inboxes, mine included, because the wording in some of them went well past what the research actually showed.

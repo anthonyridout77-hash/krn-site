@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2025/12/shutterstock_2525513951-1.jpg"
 imageAlt: "Preparing Your Body for Pregnancy"
 wpId: "3917"
-wpUrl: "https://api.katridout.com.au/blogs/preparing-your-body-for-pregnancy-through-nutrition/"
+wpUrl: "https://www.katridout.com.au/blogs/preparing-your-body-for-pregnancy-through-nutrition/"
 ---
 
 Bringing a new life into the world is one of the most exciting journeys you can take. Before conception, your body goes through changes that can influence fertility, energy, and overall health. The food you eat now can have a powerful effect on how well your body adapts to pregnancy hormones and how you support your long-term wellbeing throughout the process.

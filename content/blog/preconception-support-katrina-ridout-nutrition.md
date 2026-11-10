@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/07/krn-preparing-body-for-pregnancy-body1.jpg"
 imageAlt: "Close-up of a nutritious colourful meal"
 wpId: "4920"
-wpUrl: "https://api.katridout.com.au/blogs/preconception-support-katrina-ridout-nutrition/"
+wpUrl: "https://www.katridout.com.au/blogs/preconception-support-katrina-ridout-nutrition/"
 ---
 
 **Quick answer:** Yes. Katrina Ridout Nutrition offers preconception nutrition support for individuals and couples, led by Katrina Ridout, an Accredited Practising Dietitian (APD). Options range from a single initial consult to multi-consult programs such as The Program and the IVF Preparation Program. Consults run in person in Milton, Brisbane, or by telehealth Australia-wide.

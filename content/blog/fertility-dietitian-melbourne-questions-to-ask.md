@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/07/krn-preparing-body-for-pregnancy-body1.jpg"
 imageAlt: "Close-up of a nutritious colourful meal"
 wpId: "5255"
-wpUrl: "https://api.katridout.com.au/blogs/fertility-dietitian-melbourne-questions-to-ask/"
+wpUrl: "https://www.katridout.com.au/blogs/fertility-dietitian-melbourne-questions-to-ask/"
 ---
 
 <p>If you&#8217;re in Melbourne and looking for a fertility dietitian, I guess the key thing is this: there&#8217;s no one right answer for everyone. The right person is the one whose training, way of working and timing fit you, and a few good questions before you book will tell you a lot. I&#8217;m Kat, a Brisbane dietitian who works with women all over Australia by telehealth, Melbourne included, so here are the questions I&#8217;d ask if I were in your shoes. This is general information, not individual advice.</p>

@@ -8,7 +8,7 @@ categories:
 image: "/images/wp/2026/07/krn-dietitian-nutritionist-fertility-body2.jpg"
 imageAlt: "Woman having a friendly chat in a consultation"
 wpId: "4902"
-wpUrl: "https://api.katridout.com.au/blogs/dietitian-vs-nutritionist-pregnancy/"
+wpUrl: "https://www.katridout.com.au/blogs/dietitian-vs-nutritionist-pregnancy/"
 ---
 
 **Quick answer:** In Australia, an **Accredited Practising Dietitian (APD)** is university-trained in clinical nutrition. APDs can assess and treat medical conditions such as gestational diabetes, anaemia, PMOS (previously called PCOS) and severe nausea, and are recognised by Medicare and private health funds. **“Nutritionist” is not a protected title.** A nutritionist may give general healthy-eating advice, but they can’t claim Medicare, and their training varies widely. For pregnancy, especially with a medical condition, see an APD.
