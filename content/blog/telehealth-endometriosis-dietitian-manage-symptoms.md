@@ -2,7 +2,7 @@
 title: "Can a telehealth endometriosis dietitian help manage symptoms?"
 description: "Can a dietitian help with endometriosis by telehealth? Kat explains what food can and can’t do for gut symptoms, energy and iron, and how online consults work."
 date: "2026-10-09"
-updated: "2026-10-09"
+updated: "2026-11-10"
 categories:
   - "Fertility & IVF"
 image: "/images/wp/2026/08/krn-postpartum-meals-hero.jpg"
@@ -81,7 +81,7 @@ We start with what you’re already doing well, then pick two or three gaps and 
 
 Before your first chat, it helps to have recent bloods, photos of any supplements (the back and the front) and a jotted typical day of eating. No stress if you don’t get a chance.
 
-If you’d like to talk it through, call 1300 640 104 or book a telehealth or in-person appointment through the website. I really look forward to supporting you.
+If you’d like to talk it through, call 1300 640 104 or [book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback). You can also read how I work with endometriosis, in person in Milton or by telehealth, on my [endometriosis service page](/our-services/prenatal-nutrition-and-dietetics/endometriosis/). I really look forward to supporting you.
 
 Kat xx
 

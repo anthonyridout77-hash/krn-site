@@ -2,7 +2,7 @@
 title: "Gestational Diabetes Mellitus: Nutrition Tips for Managing Blood Sugar Levels"
 description: "Learn expert nutrition tips for managing blood sugar levels during pregnancy with gestational diabetes. Find out how to eat balanced meals, monitor carbohydrates, and stay healthy for you and your baby"
 date: "2024-02-10"
-updated: "2026-07-28"
+updated: "2026-11-10"
 categories:
   - "Pregnancy"
 wpId: "3265"
@@ -59,6 +59,6 @@ Engaging in regular physical activity, such as walking, swimming, or prenatal yo
 
 Regularly monitoring your blood sugar levels as recommended by your healthcare provider can help you understand how different foods and activities affect your blood sugar levels and make adjustments accordingly.
 
-It’s important to remember that each woman’s experience with GDM is unique, and what works for one person may not work for another. It’s essential to work closely with your healthcare provider and a registered dietitian such as Katrina Ridout who specialises in prenatal nutrition to develop a personalised nutrition plan that meets your specific needs and helps you manage your blood sugar levels effectively throughout your pregnancy.
+It’s important to remember that each woman’s experience with GDM is unique, and what works for one person may not work for another. It’s essential to work closely with your healthcare provider and an Accredited Practising Dietitian (APD) such as [Katrina Ridout](/our-services/pregnancy-nutrition-and-dietetics/gestational-diabetes/), whose main interest is pregnancy nutrition, to develop a personalised nutrition plan that meets your specific needs and helps you manage your blood sugar levels effectively throughout your pregnancy.
 
 By following these nutrition tips and working closely with your healthcare team, you can effectively manage GDM and have a healthy pregnancy for both you and your baby.

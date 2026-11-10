@@ -2,7 +2,7 @@
 title: "Endometriosis Awareness: What You Need to Know"
 description: "Learn about endometriosis, its symptoms, and how it affects women's health. Discover dietary strategies to help manage symptoms and improve well-being."
 date: "2025-03-18"
-updated: "2026-07-28"
+updated: "2026-11-10"
 categories:
   - "Latest News & Information"
 wpId: "3478"
@@ -52,4 +52,4 @@ While there is no cure for endometriosis, certain dietary changes may help manag
 
 Endometriosis is a complex condition that affects many women worldwide. Although there is no cure, women with endometriosis can take steps to manage their symptoms and improve their quality of life through dietary changes, medical treatments, and support networks. During Endometriosis Awareness Month, let’s continue to raise awareness, offer support, and provide accurate information so that those affected can lead healthier, more fulfilling lives.
 
-If you or someone you know is struggling with endometriosis, consider reaching out to a healthcare provider who can guide you on how to manage your symptoms effectively.
+If you or someone you know is struggling with endometriosis, consider reaching out to a healthcare provider who can guide you on how to manage your symptoms effectively. For nutrition support, see [working with Kat on endometriosis](/our-services/prenatal-nutrition-and-dietetics/endometriosis/).
