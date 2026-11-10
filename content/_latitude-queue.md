@@ -2,6 +2,16 @@
 
 One keyword per line: `keyword | status`. Status is `todo` or `done <date>`. The agent takes the first `todo` that is not already covered by an existing content/blog slug.
 
+## Priority (11 Nov)
+
+- postpartum-breastfeeding-dietitian-telehealth-australia | done 2026-11-11 -> /blogs/postpartum-breastfeeding-dietitian-telehealth-australia/
+- fertility-pregnancy-dietitian-adelaide-telehealth | todo
+- pmos-pcos-fertility-dietitian-brisbane-what-to-expect | todo
+- gestational-diabetes-dietitian-brisbane-what-to-expect | todo
+- telehealth-pregnancy-dietitian-australia-how-it-works | todo
+
+## Queue
+
 - best IVF dietitian Brisbane | done 2026-11-07 (already covered by /blogs/how-to-choose-ivf-dietitian-brisbane/)
 - fertility dietitian Sydney telehealth | done 2026-11-07 (already covered by /blogs/do-i-need-a-fertility-dietitian-in-sydney/)
 - fertility dietitian Melbourne telehealth | done 2026-11-07 (already covered by /blogs/do-you-need-fertility-dietitian-melbourne/)
