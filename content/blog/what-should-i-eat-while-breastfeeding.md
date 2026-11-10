@@ -2,7 +2,7 @@
 title: "What should I eat while breastfeeding?"
 description: "What to eat while breastfeeding: the nutrients that matter more, how much extra food you need, and the facts on caffeine, alcohol, fish and lactation cookies, from Brisbane dietitian Kat Ridout."
 date: "2026-10-19"
-updated: "2026-10-19"
+updated: "2026-11-10"
 categories:
   - "Fertility & IVF"
 image: "/images/wp/2026/08/krn-postpartum-meals-hero.jpg"
@@ -83,6 +83,8 @@ If you would like a hand, call me on 1300 640 104. I really look forward to supp
 * There is no clear evidence that oats or lactation cookies increase milk supply; frequent feeding drives supply.
 * Keep caffeine to 200mg a day in total. Not drinking alcohol is the safest choice while breastfeeding.
 * Keep eating fish; just limit shark (flake) and billfish because of mercury.
+
+Kat works one to one on postpartum and breastfeeding nutrition in person in Milton, Brisbane, or by telehealth anywhere in Australia. See [how her postpartum and breastfeeding service works](/our-services/postnatal-nutrition/).
 
 ## References
 

@@ -1,7 +1,7 @@
 ---
 title: "Endometriosis Dietitian"
 seoTitle: "Endometriosis Dietitian Brisbane and Online"
-description: "Endometriosis dietitian in Brisbane. Nutrition support for endometriosis with Kat Ridout APD, telehealth across Australia. Medicare rebate with GP referral."
+description: "Endometriosis dietitian Kat Ridout, Accredited Practising Dietitian, working alongside your GP and specialist. In person in Milton, Brisbane, or by telehealth anywhere in Australia. A Medicare rebate may apply with a GP Chronic Condition Management Plan."
 date: "2025-08-01"
 updated: "2026-11-10"
 wpId: "413"
@@ -110,7 +110,7 @@ Diet can potentially influence endometriosis symptoms and overall well-being, al
 
 - Managing oestrogen levels: Oestrogen plays a role in endometriosis, and some foods can affect oestrogen levels in the body. Cruciferous vegetables (such as broccoli, cauliflower, and Brussels sprouts) contain compounds that support oestrogen metabolism and may help maintain hormonal balance.
 
-It's important to note that dietary changes alone may not be sufficient to manage endometriosis, and it's advisable to consult with a healthcare professional or a registered dietitian who specialises in endometriosis to create a personalised diet plan based on individual needs and symptoms.
+It's important to note that dietary changes alone may not be sufficient to manage endometriosis, and it's advisable to consult with a healthcare professional or a Accredited Practising Dietitian who specialises in endometriosis to create a personalised diet plan based on individual needs and symptoms.
 
 ### What foods are good for the treatment of Endometriosis?
 
@@ -126,7 +126,7 @@ Endometriosis is a painful disorder that affects the tissue lining the uterus, c
 
 - Lean Protein: Lean protein sources, such as chicken, turkey, fish, and tofu, can help provide energy and reduce inflammation in the body.
 
-It's important to note that every person with endometriosis may have different dietary needs and triggers, so it's important to work with a healthcare provider or registered dietitian to develop a personalised nutrition plan.
+It's important to note that every person with endometriosis may have different dietary needs and triggers, so it's important to work with a healthcare provider or Accredited Practising Dietitian to develop a personalised nutrition plan.
 
 ### Which foods can trigger an endometriosis flare-up?
 
@@ -148,17 +148,17 @@ Certain foods may trigger an endometriosis flare-up in some individuals. These f
 
 - Fried and high-fat foods
 
-However, it's important to note that every person with endometriosis may have different dietary triggers and needs, so it's essential to work with a healthcare provider or registered dietitian to identify specific trigger foods and develop a personalised nutrition plan.
+However, it's important to note that every person with endometriosis may have different dietary triggers and needs, so it's essential to work with a healthcare provider or Accredited Practising Dietitian to identify specific trigger foods and develop a personalised nutrition plan.
 
 ### What Is Endometriosis, and its dietary precautions to follow?
 
-Endometriosis is a condition where the uterine lining grows outside the uterus, causing inflammation and pain. Dietary precautions that may be beneficial include increasing intake of fruits and vegetables, choosing healthy fats, avoiding red and processed meats, high-fat dairy, caffeine, alcohol, and sugary foods, choosing whole grains and fiber-rich foods, and trying anti-inflammatory spices. Work with a healthcare provider or registered dietitian to develop a personalised nutrition plan.
+Endometriosis is a condition where the uterine lining grows outside the uterus, causing inflammation and pain. Dietary precautions that may be beneficial include increasing intake of fruits and vegetables, choosing healthy fats, avoiding red and processed meats, high-fat dairy, caffeine, alcohol, and sugary foods, choosing whole grains and fiber-rich foods, and trying anti-inflammatory spices. Work with a healthcare provider or Accredited Practising Dietitian to develop a personalised nutrition plan.
 
 ### Is there a cure for endometriosis?
 
 Although there is currently no definitive cure for endometriosis, many individuals find symptom relief through certain dietary adjustments. Consuming a diet filled with fruits, vegetables, and whole grains can provide essential nutrients and fibre, potentially reducing inflammation. Limiting processed foods and sugars, known to increase inflammation, may also help manage symptoms. Incorporating omega-3-rich foods, such as fish, flaxseeds, and walnuts, could provide anti-inflammatory benefits. Reducing the intake of caffeine and alcohol, which can heighten oestrogen levels, may further help manage endometriosis symptoms. Staying well-hydrated with plenty of water aids digestion and prevents constipation, potentially alleviating the pain associated with endometriosis. 
 
-However, everybody is unique, and what works for one person may not work for another. Therefore, it's crucial to consult with healthcare providers or registered dietitians before undertaking significant dietary modifications, as part of a broader conversation about managing endometriosis symptoms and overall health.
+However, everybody is unique, and what works for one person may not work for another. Therefore, it's crucial to consult with healthcare providers or Accredited Practising Dietitians before undertaking significant dietary modifications, as part of a broader conversation about managing endometriosis symptoms and overall health.
 
 ### How is endometriosis diagnosed?
 

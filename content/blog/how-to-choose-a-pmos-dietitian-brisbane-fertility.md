@@ -2,7 +2,7 @@
 title: "How to choose a PMOS dietitian in Brisbane for fertility, and how Kat works with you by telehealth"
 description: "What to look for in a PMOS (previously called PCOS) dietitian when you’re trying to conceive, and how Kat works with you in Milton or by telehealth Australia-wide."
 date: "2026-10-23"
-updated: "2026-10-23"
+updated: "2026-11-10"
 categories:
   - "Fertility & IVF"
 image: "/images/wp/2026/07/krn-preparing-body-for-pregnancy-body1.jpg"
@@ -78,6 +78,8 @@ wpUrl: "https://api.katridout.com.au/blogs/how-to-choose-a-pmos-dietitian-brisba
 <h2>Let&#8217;s have a chat</h2>
 <p>If you&#8217;re living with PMOS and thinking about pregnancy, or you&#8217;re already in the thick of fertility treatment, I&#8217;d love to help you feel on the front foot. You can see me in Milton or by telehealth from anywhere in Australia. Call <a href="tel:1300640104">1300 640 104</a> to book, and don&#8217;t be a stranger.</p>
 <p>Kat xx</p>
+<p>Kat works one to one on PMOS (PCOS) in person in Milton, Brisbane, or by telehealth anywhere in Australia. See <a href="/our-services/prenatal-nutrition-and-dietetics/polycystic-ovary-syndrome/">how her PMOS (PCOS) service works</a>.</p>
+
 <h2 id="references">References</h2>
 <ol>
 <li><a href="https://www.jeanhailes.org.au/health-a-z/pcos">Jean Hailes for Women&#8217;s Health: PCOS</a></li>

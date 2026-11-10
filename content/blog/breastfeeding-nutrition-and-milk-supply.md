@@ -2,7 +2,7 @@
 title: "Breastfeeding Nutrition and Milk Supply: What Actually Helps?"
 description: "Worried about milk supply? A Brisbane dietitian (APD) explains what really supports breastfeeding, how to feed yourself with a newborn, and where lactation cookies fit."
 date: "2026-07-21"
-updated: "2026-07-28"
+updated: "2026-11-10"
 categories:
   - "Postpartum & Breastfeeding"
 image: "/images/wp/2023/01/krn_featured.jpg"
@@ -51,6 +51,8 @@ Some situations deserve more than general tips: recovering from a difficult birt
 If you’re in the thick of it and wondering whether you’re eating anywhere near enough, I’d love to chat. My free [15-Minute Investigative Callback](https://calendly.com/katridout/15-minute-investigative-callback) is a relaxed conversation about where you’re at, no strings attached.
 
 You’re doing something enormous. Feed yourself like it.
+
+Kat works one to one on postpartum and breastfeeding nutrition in person in Milton, Brisbane, or by telehealth anywhere in Australia. See [how her postpartum and breastfeeding service works](/our-services/postnatal-nutrition/).
 
 Kat xx  
 Accredited Practising Dietitian (APD)

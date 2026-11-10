@@ -1,17 +1,15 @@
 ---
-title: "Post Pregnancy Mums"
+title: "Postpartum and Breastfeeding Dietitian"
 seoTitle: "Postpartum Dietitian Brisbane and Online: Recovery and Breastfeeding Nutrition"
-description: "Postnatal nutrition support for new mums Australia-wide. Energy, breastfeeding, recovery and postpartum wellbeing with Kat Ridout APD. Medicare rebate."
+description: "Postpartum and breastfeeding nutrition with Kat Ridout, Accredited Practising Dietitian, from birth to two years. In person in Milton, Brisbane, or by telehealth anywhere in Australia."
 date: "2025-08-04"
-updated: "2026-10-05"
+updated: "2026-11-10"
 wpId: "510"
 wpUrl: "https://api.katridout.com.au/our-services/postnatal-nutrition/"
 ---
 
 
-## Post Pregnancy Mums
-
-Dietitian Brisbane
+## Postpartum and breastfeeding nutrition
 
 ## Not sure where to start?
 Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. Kat has supported hundreds of clients, so you do not need to have it all worked out first. No preparation and no obligation.
@@ -68,6 +66,12 @@ If you’re ready to feel confident and supported in your postnatal journey, I�
 Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. Kat has supported hundreds of clients, so you do not need to have it all worked out first. No preparation and no obligation.
 [Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
+## Further reading
+- [Breastfeeding Nutrition and Milk Supply: What Actually Helps?](/blogs/breastfeeding-nutrition-and-milk-supply/)
+- [What should I eat while breastfeeding?](/blogs/what-should-i-eat-while-breastfeeding/)
+- [Still Exhausted at Four Months? Postnatal Iron and Energy](/blogs/postnatal-iron-and-energy-still-exhausted/)
+- [What foods help with postpartum recovery and breastfeeding?](/blogs/foods-for-postpartum-recovery-and-breastfeeding/)
+
 ## Frequently Asked Questions
 
 ### What are the nutritional requirements for post pregnancy?
@@ -80,7 +84,7 @@ To promote healing and prevent discomfort after giving birth, it’s best to avo
 
 ### What vitamins are good for postnatal?
 
-Vitamins that are important for postnatal include vitamin D, iron, calcium, vitamin C, and B vitamins. These vitamins are essential for healing and supporting the immune system, bone health, and energy metabolism. The best way to get these vitamins is through a balanced and varied diet that includes a variety of nutrient-dense foods. If you’re unsure about whether you’re getting enough vitamins, talk to your healthcare provider or a registered dietitian like Katrina Ridout for personalised advice.
+Vitamins that are important for postnatal include vitamin D, iron, calcium, vitamin C, and B vitamins. These vitamins are essential for healing and supporting the immune system, bone health, and energy metabolism. The best way to get these vitamins is through a balanced and varied diet that includes a variety of nutrient-dense foods. If you’re unsure about whether you’re getting enough vitamins, talk to your healthcare provider or a Accredited Practising Dietitian like Katrina Ridout for personalised advice.
 
 ### Does my diet need to change much from pregnancy to breastfeeding?
 
@@ -106,7 +110,7 @@ Yes, there are several foods that can help regulate blood pressure. Here are som
 
 ● Fish high in omega-3 fatty acids: Fatty fish like salmon, mackerel, and sardines are excellent sources of omega-3 fatty acids, which have been linked to lower blood pressure. Aim to include fish in your diet regularly.
 
-It’s important to note that while these foods may have a positive impact on blood pressure, they should be part of an overall healthy and balanced diet. If you have high blood pressure or any specific dietary concerns, it’s recommended to consult with a healthcare professional or registered dietitian for personalised advice.
+It’s important to note that while these foods may have a positive impact on blood pressure, they should be part of an overall healthy and balanced diet. If you have high blood pressure or any specific dietary concerns, it’s recommended to consult with a healthcare professional or Accredited Practising Dietitian for personalised advice.
 
 ### What are some quick and healthy snacks for when the munchies take hold while breastfeeding?
 

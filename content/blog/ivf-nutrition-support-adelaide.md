@@ -2,7 +2,7 @@
 title: "Nutrition Support for IVF in Adelaide: What a Fertility Dietitian Wants You to Know"
 description: "Evidence-based IVF nutrition support for Adelaide women, online with Kat Ridout APD. Work alongside your fertility clinic. Book a free 15-minute call."
 date: "2026-07-23"
-updated: "2026-07-28"
+updated: "2026-11-10"
 categories:
   - "Fertility & IVF"
 image: "/images/wp/2026/07/krn-ivf-nutrition-support-adelaide-hero.jpg"
@@ -69,3 +69,6 @@ That is the gap Kat fills. Kat Ridout is an Accredited Practising Dietitian with
 If you are preparing for IVF or in the middle of a cycle and want nutrition support that backs your treatment, start with a conversation. [Book a complimentary 15-minute call with Kat](https://calendly.com/katridout/15-minute-investigative-callback) and work out the best next step together, with no pressure.
 
 You can also see the full picture of how Kat works with women in South Australia, including what a package looks like and what it costs, on her [fertility and pregnancy dietitian services for Adelaide](/pregnancy-dietitian-adelaide/) page.
+
+
+Kat works one to one on IVF nutrition in person in Milton, Brisbane, or by telehealth anywhere in Australia. See [how her IVF nutrition service works](/our-services/prenatal-nutrition-and-dietetics/ivf-nutrition/).

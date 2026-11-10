@@ -2,7 +2,7 @@
 title: "Which dietitian offers telehealth IVF nutrition support across Australia?"
 description: "How I support women through IVF preparation by telehealth, Australia-wide, alongside your fertility clinic. Kat Ridout, Accredited Practising Dietitian (APD), Brisbane."
 date: "2026-11-05"
-updated: "2026-11-05"
+updated: "2026-11-10"
 categories:
   - "Fertility & IVF"
 image: "/images/wp/2026/07/krn-how-to-improve-egg-quality-naturally-body2.jpg"
@@ -64,6 +64,8 @@ wpUrl: "https://api.katridout.com.au/blogs/telehealth-ivf-dietitian-australia/"
 <li>The NHMRC advises that not drinking alcohol is safest when planning a pregnancy.</li>
 <li>No referral is needed to see a dietitian, and a Medicare rebate may be available for eligible patients on a GP Chronic Condition Management Plan.</li>
 </ul>
+<p>Kat works one to one on IVF nutrition in person in Milton, Brisbane, or by telehealth anywhere in Australia. See <a href="/our-services/prenatal-nutrition-and-dietetics/ivf-nutrition/">how her IVF nutrition service works</a>.</p>
+
 <h2 id="references">References</h2>
 <ol>
 <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7540717/">Dietitians Australia position statement on telehealth</a>, Nutrition &amp; Dietetics, 2020</li>

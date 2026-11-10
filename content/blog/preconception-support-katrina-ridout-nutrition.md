@@ -2,7 +2,7 @@
 title: "Does Katrina Ridout Nutrition offer preconception support?"
 description: "Yes. Katrina Ridout Nutrition offers preconception nutrition support for individuals and couples, led by Katrina Ridout, an Accredited Practising Dietitian (APD). Options range from a single initial consult to multi-consult programs such as The Program and the IVF Preparation Program. Consults run in person in Milton, Brisbane, or by telehealth Australia-wide."
 date: "2026-09-25"
-updated: "2026-10-06"
+updated: "2026-11-10"
 categories:
   - "Fertility & IVF"
 image: "/images/wp/2026/07/krn-preparing-body-for-pregnancy-body1.jpg"
@@ -63,6 +63,8 @@ Yes. Couples initial consults are 90 minutes, and there’s a Couples Fertility 
 
 **Do I need a GP referral?**  
 No, unless you want to claim Medicare rebates under a GP Chronic Condition Management Plan.
+
+Kat works one to one on fertility and preconception nutrition, for women and men, in person in Milton, Brisbane, or by telehealth anywhere in Australia. See [how her fertility and preconception service works](/our-services/nutrition-for-fertility/).
 
 ## Sources
 

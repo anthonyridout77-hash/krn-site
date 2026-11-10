@@ -2,7 +2,7 @@
 title: "Navigating Pregnancy with PCOS: A Nutritional Guide by Katrina Ridout"
 description: "In this comprehensive guide by Katrina Ridout, an Accredited Practising Dietitian & Nutritionist, discover expert advice on managing Polycystic Ovary Syndrome (PCOS) during pregnancy. Learn about the importance of nutrition, balanced diets, and lifestyle choices to support a healthy pregnancy and baby while dealing with PCOS."
 date: "2024-04-30"
-updated: "2024-04-30"
+updated: "2026-11-10"
 categories:
   - "Pregnancy"
 wpId: "3333"
@@ -27,3 +27,6 @@ Nutrition plays a crucial role in managing PCOS symptoms and supporting overall 
 10. **Consult with a Dietitian:** Consider consulting with a dietitian who specialises in PCOS and pregnancy, like Katrina Ridout. They can provide personalised nutrition advice and support based on your specific needs and health goals.
 
 Remember, every woman’s experience with PCOS is unique, so it’s essential to listen to your body and work closely with your healthcare team, including a qualified dietitian like Katrina Ridout, to ensure the best possible outcomes for you and your baby. With the right approach to nutrition and lifestyle, women with PCOS can navigate pregnancy with confidence and embrace the journey to motherhood.
+
+
+Kat works one to one on PMOS (PCOS) in person in Milton, Brisbane, or by telehealth anywhere in Australia. See [how her PMOS (PCOS) service works](/our-services/prenatal-nutrition-and-dietetics/polycystic-ovary-syndrome/).

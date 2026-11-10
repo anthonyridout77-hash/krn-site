@@ -2,7 +2,7 @@
 title: "Do you need an iodine supplement in pregnancy in Australia?"
 description: "Most of us don’t get enough iodine from food in pregnancy. Here’s why a daily 150 microgram supplement is recommended in Australia, when to start and how to check your label."
 date: "2026-10-13"
-updated: "2026-10-13"
+updated: "2026-11-10"
 categories:
   - "Fertility & IVF"
 image: "/images/wp/2026/08/krn-postpartum-meals-hero.jpg"
@@ -103,6 +103,8 @@ Kat xx
 * Organic and gluten-free breads don’t have to use iodised salt.
 * Starting before conception is linked with better iodine levels than starting once pregnancy is confirmed.
 * Avoid kelp and seaweed supplements, and check with your doctor first if you have a thyroid condition.
+
+Kat works one to one on pregnancy nutrition, including supplement review, in person in Milton, Brisbane, or by telehealth anywhere in Australia. See [how her pregnancy nutrition service works](/our-services/pregnancy-nutrition-and-dietetics/).
 
 ## References
 

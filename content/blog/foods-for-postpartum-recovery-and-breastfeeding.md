@@ -2,7 +2,7 @@
 title: "What foods help with postpartum recovery and breastfeeding?"
 description: "After birth, focus on protein, iron, calcium, omega-3, fibre and fluids, and keep taking 150 mcg iodine while breastfeeding. A dietitian’s guide to eating for postpartum recovery."
 date: "2026-09-25"
-updated: "2026-09-25"
+updated: "2026-11-10"
 categories:
   - "Fertility & IVF"
 image: "/images/wp/2026/08/krn-postpartum-meals-hero.jpg"
@@ -62,6 +62,8 @@ There’s no good evidence that they increase supply, but they can be a convenie
 
 **Should I keep taking my pregnancy multivitamin?**  
 Many women continue a breastfeeding-specific supplement containing iodine. Check yours has 150 mcg.
+
+Kat works one to one on postpartum and breastfeeding nutrition in person in Milton, Brisbane, or by telehealth anywhere in Australia. See [how her postpartum and breastfeeding service works](/our-services/postnatal-nutrition/).
 
 ## Sources
 

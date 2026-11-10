@@ -78,7 +78,20 @@ const siblings = all
   )}
 
   <Fragment slot="after-body">
-    {pathway && (
+    {pw ? (
+      <section class="pw-steps" aria-labelledby="pw-steps-h" style="margin-top:2.4rem;padding:1.2rem 1.4rem;background:var(--mint);border-radius:16px">
+        <h2 id="pw-steps-h" style="font-size:1.3rem;margin:0 0 .4rem">How Kat works with you: the {pathway.name} pathway</h2>
+        <p style="margin:0 0 .8rem">{pw.story}</p>
+        <ol style="margin:0;padding-left:1.2rem;display:grid;gap:.6rem">
+          {pw.consults.map((c) => (
+            <li><b>{c.when}, {c.length.replace('min', 'minutes')}: {c.title}.</b> {c.detail}{c.takeaway && <> <i>You receive:</i> {c.takeaway}</>}</li>
+          ))}
+        </ol>
+        <p style="margin:.9rem 0 0"><b>Program:</b> {pw.program}</p>
+        <p style="margin:.4rem 0 0"><b>Medicare:</b> {pw.medicare}</p>
+        <p style="margin:.4rem 0 0">Appointments are in person at Milton Village Medical, Milton, Brisbane, or by telehealth anywhere in Australia. <a href={callLink(pw)} style="font-weight:600">Book a free 15-minute call</a> or <a href={`/consultations/#pathway-${pw.id}`}>compare all pathways</a>.</p>
+      </section>
+    ) : pathway && (
       <p class="pw-link" style="margin-top:2rem;padding:1rem 1.2rem;background:var(--mint);border-radius:16px">
         <b>How a program unfolds:</b> see the {pathway.name} pathway consult by consult, with Medicare details and what you take away from each visit.
         <a href={`/consultations/#pathway-${pathway.id}`} style="display:block;margin-top:.4rem;font-weight:600">See the {pathway.name} pathway</a>
