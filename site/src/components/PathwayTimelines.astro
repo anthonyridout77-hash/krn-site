@@ -140,7 +140,9 @@ const defaultId = '';
     if (r) {
       r.checked = true; select(want, false);
       const d = document.querySelector<HTMLDetailsElement>(`.pw-${CSS.escape(want)} details`); if (d) d.open = true;
-      document.getElementById('pathways')?.scrollIntoView();
+      // Scroll after layout settles (images above can shift the page).
+      const go = () => document.getElementById('pathways')?.scrollIntoView();
+      if (document.readyState === 'complete') setTimeout(go, 50); else window.addEventListener('load', () => setTimeout(go, 50), { once: true });
     }
   }
   radios.forEach((el) => el.addEventListener('change', () => {
