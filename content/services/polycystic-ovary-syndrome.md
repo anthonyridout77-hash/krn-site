@@ -75,7 +75,7 @@ While medication and medical treatments are often part of managing PCOS, I want 
 Through personalised nutrition, I can help you create a plan that fits your lifestyle, eases your symptoms and improves your chances of conceiving. Together, we’ll focus on small, realistic changes that make a big difference to your health, your confidence and your fertility.
 
 ### Pregnancy and PCOS nutritionist in Brisbane
-If you are living with Polycystic Ovary Syndrome (PCOS) and hoping to conceive, you don’t have to navigate the journey alone. Kat Ridout has over 15 years of experience helping women with PCOS manage their symptoms, support their fertility and go on to have healthy pregnancies and babies.
+If you are living with Polycystic Ovary Syndrome (PCOS) and hoping to conceive, you don’t have to navigate the journey alone. Kat Ridout has more than 20 years of experience helping women with PCOS manage their symptoms, support their fertility and go on to have healthy pregnancies and babies.
 Get in touch with Kat through the [contact page](/contact-us/).
 
 ### Not sure where to start?

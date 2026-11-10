@@ -57,7 +57,7 @@ Kat guides her clients through many aspects of maintaining a healthy diet and li
 - Mindfulness strategies
 ### Personalised nutritional advice for you
 No matter your circumstances, Katrina Ridout can help you personally, in developing and maintaining a healthy and nutritious diet. She does this based on your needs and specific circumstances through experience, intuition, and extensive research.
-Take comfort knowing Katrina has over 15 years of experience, helping others to improve their diet and health. She does this by applying evidence-based knowledge, and an extensive understanding of the relationships between diet and various acute and chronic diseases.
+Take comfort knowing Katrina has more than 20 years of experience, helping others to improve their diet and health. She does this by applying evidence-based knowledge, and an extensive understanding of the relationships between diet and various acute and chronic diseases.
 
 ## How fees and rebates work
 Kat explains her fees on the free call, before you commit to anything, so you can choose the option that suits you. If your GP assesses you as eligible for a Chronic Condition Management Plan, Medicare may rebate part of your consultations. Many private health extras policies also cover dietitian visits, depending on your fund and level of cover.

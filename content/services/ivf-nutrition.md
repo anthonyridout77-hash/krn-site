@@ -60,7 +60,7 @@ When you work with me, I’ll carefully assess your current diet and help you ma
 Together, we’ll create an IVF-friendly nutrition plan designed to improve your health, optimise your fertility and support your wellbeing before and during treatment.
 
 ### IVF nutritionist in Brisbane
-With more than 15 years of experience, Kat Ridout brings both expertise and compassion to her role as a fertility dietitian. She uses evidence-based strategies to design tailored nutrition plans that give you and your baby the healthiest possible start.
+With more than 20 years of experience, Kat Ridout brings both expertise and compassion to her role as a fertility dietitian. She uses evidence-based strategies to design tailored nutrition plans that give you and your baby the healthiest possible start.
 Find out more about how Kat Ridout can help you by contacting Kat today (/contact-us/). 
 
 ### Not sure where to start?
