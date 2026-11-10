@@ -1,8 +1,8 @@
 ---
-title: "How to choose a pregnancy dietitian in Brisbane, and how Kat works with you by telehealth"
-description: "How to choose a pregnancy dietitian in Brisbane: the APD credential, pregnancy experience, Medicare care plan options and telehealth, plus how Kat works with you."
+title: "How to choose a pregnancy dietitian in Brisbane"
+description: "How to choose a pregnancy dietitian in Brisbane: the APD credential, pregnancy experience, Medicare care plan options, telehealth, and how Kat works with you."
 date: "2026-11-05"
-updated: "2026-11-05"
+updated: "2026-11-11"
 categories:
   - "Fertility & IVF"
 image: "/images/wp/2026/07/krn-dietitian-nutritionist-fertility-body2.jpg"
