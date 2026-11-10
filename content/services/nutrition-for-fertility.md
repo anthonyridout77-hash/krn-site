@@ -3,7 +3,7 @@ title: "Nutrition for Fertility"
 seoTitle: "Fertility Dietitian Brisbane and Online: Preconception Nutrition"
 description: "Fertility and preconception nutrition with Kat Ridout, Accredited Practising Dietitian. Brisbane based, telehealth Australia-wide. Medicare rebate may apply with a GP Chronic Condition Management Plan."
 date: "2025-08-04"
-updated: "2026-10-09"
+updated: "2026-11-10"
 wpId: "527"
 wpUrl: "https://api.katridout.com.au/our-services/nutrition-for-fertility/"
 ---
@@ -30,7 +30,7 @@ If you are underweight or living with an underlying health condition that may im
 
 ### The fertility solution that’s tailored for you
 Every person and every couple is unique; shaped by different bodies, diets, medical histories, genetics, lifestyles and preferences. That’s why I provide personalised nutrition advice that is tailored specifically to you, to help improve fertility and give you the best possible chance of conceiving.
-With over fifteen years of experience in both private practice and high-level research in fertility, pregnancy and early life nutrition, I specialise in helping women and couples optimise their nutrition to support conception and a healthy pregnancy. I also have extensive experience supporting those managing health conditions such as PCOS, endometriosis, diabetes, IBD, autoimmune conditions, disordered eating, rare genetic conditions, as well as challenges with egg and sperm quality, thin uterine lining and recurrent miscarriage.
+With more than 20 years of experience in both private practice and high-level research in fertility, pregnancy and early life nutrition, I specialise in helping women and couples optimise their nutrition to support conception and a healthy pregnancy. I also have extensive experience supporting those managing health conditions such as PCOS, endometriosis, diabetes, IBD, autoimmune conditions, disordered eating, rare genetic conditions, as well as challenges with egg and sperm quality, thin uterine lining and recurrent miscarriage.
 There are a number of fertility-boosting foods and nutrients that can make a real difference. Eating the right foods and taking the right supplements at the right time can significantly improve your chances of conceiving and carrying a healthy pregnancy. Because everyone’s journey is different, I’ll work with you to create a plan that’s tailored to your body and your needs.
 If you’d like to learn more about how fertility nutrition can support you, I’d love to guide you. You can book an appointment with me using the form on this page or by getting in touch here.
 
