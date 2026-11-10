@@ -1,8 +1,8 @@
 ---
-title: "Which dietitian offers telehealth IVF nutrition support across Australia?"
-description: "How I support women through IVF preparation by telehealth, Australia-wide, alongside your fertility clinic. Kat Ridout, Accredited Practising Dietitian (APD), Brisbane."
+title: "Telehealth IVF nutrition support across Australia"
+description: "How I support women through IVF preparation by telehealth, Australia-wide, alongside your fertility clinic. Kat Ridout, Accredited Practising Dietitian (APD)."
 date: "2026-11-05"
-updated: "2026-11-10"
+updated: "2026-11-11"
 categories:
   - "Fertility & IVF"
 image: "/images/wp/2026/07/krn-how-to-improve-egg-quality-naturally-body2.jpg"
