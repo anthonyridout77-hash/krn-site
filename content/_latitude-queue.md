@@ -5,7 +5,7 @@ One keyword per line: `keyword | status`. Status is `todo` or `done <date>`. The
 ## Priority (11 Nov)
 
 - postpartum-breastfeeding-dietitian-telehealth-australia | done 2026-11-11 -> /blogs/postpartum-breastfeeding-dietitian-telehealth-australia/
-- fertility-pregnancy-dietitian-adelaide-telehealth | todo
+- fertility-pregnancy-dietitian-adelaide-telehealth | done 2026-11-12 -> /blogs/fertility-pregnancy-dietitian-adelaide-telehealth/
 - pmos-pcos-fertility-dietitian-brisbane-what-to-expect | todo
 - gestational-diabetes-dietitian-brisbane-what-to-expect | todo
 - telehealth-pregnancy-dietitian-australia-how-it-works | todo
