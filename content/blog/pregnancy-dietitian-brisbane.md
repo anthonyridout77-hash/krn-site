@@ -1,8 +1,8 @@
 ---
 title: "How do I choose a pregnancy dietitian in Brisbane?"
-description: "Look for an Accredited Practising Dietitian (APD) whose work focuses on pregnancy: someone who checks your bloods, screens for gestational diabetes risk, adjusts your supplements and works with your GP, obstetrician or midwife. In Brisbane, Katrina Ridout Nutrition offers pregnancy consults in person at Milton Village Medical (Milton QLD 4064) and by telehealth, with Medicare rebates for eligible patients."
+description: "Look for an APD whose work focuses on pregnancy: bloods, gestational diabetes risk and supplements. Pregnancy dietitian in Milton, Brisbane, or telehealth."
 date: "2026-09-25"
-updated: "2026-10-12"
+updated: "2026-11-13"
 categories:
   - "Fertility & IVF"
 image: "/images/wp/2026/07/krn-dietitian-nutritionist-fertility-body2.jpg"
