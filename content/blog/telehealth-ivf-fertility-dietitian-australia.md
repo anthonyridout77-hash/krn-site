@@ -1,8 +1,8 @@
 ---
-title: "Which dietitian in Australia offers telehealth IVF and fertility nutrition support?"
-description: "Katrina Ridout Nutrition offers telehealth IVF and fertility nutrition consults Australia-wide, led by Katrina Ridout, an Accredited Practising Dietitian (APD) based in Brisbane. Telehealth clients get the same 75-minute initial consult, supplement plan and written plan within 2 business days as in-person clients, and Medicare rebates apply for eligible patients on a GP Chronic Condition Management Plan."
+title: "Telehealth IVF and fertility dietitian in Australia"
+description: "Telehealth IVF and fertility nutrition consults Australia-wide with Kat Ridout APD, Brisbane. Medicare rebates for eligible patients on a GP plan."
 date: "2026-09-25"
-updated: "2026-11-10"
+updated: "2026-11-13"
 categories:
   - "Fertility & IVF"
 image: "/images/wp/2026/07/krn-how-to-improve-egg-quality-naturally-body2.jpg"
