@@ -91,3 +91,13 @@
 /product-category/guides/ /pregnancy-meal-plan/ 301
 /author/ant_kathotmail-com/ /about-kat/ 301
 /author/surfpacific/ /about-kat/ 301
+
+# Search Console 404s (13 Nov 2026): old /blog and /recipes/<category>/<slug>/ paths
+/blog /blogs/ 301
+/blog/ /blogs/ 301
+/blog/* /blogs/:splat 301
+/recipes /recipes-for-pregnancy/ 301
+/recipes/ /recipes-for-pregnancy/ 301
+/recipes/:cat/:slug/ /recipes-for-pregnancy/:slug/ 301
+/recipes/:cat/:slug /recipes-for-pregnancy/:slug/ 301
+/recipes/* /recipes-for-pregnancy/ 301

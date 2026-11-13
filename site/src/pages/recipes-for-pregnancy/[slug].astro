@@ -29,6 +29,14 @@ const ing = ingLines.filter((l) => !(l.startsWith('*') && !l.startsWith('**')));
 const steps = (body.split('## Method')[1] ?? '').split(/\n## /)[0].split('\n').filter((l) => /^\d+\. /.test(l)).map((l) => l.replace(/^\d+\. /, '').trim());
 const structured = ing.length > 0 && steps.length > 0;
 const plain = (s: string) => s.replace(/\*+/g, '');
+// Short step title for Recipe schema (Search Console asks for HowToStep "name"): first sentence of the step, max 10 words.
+const STOP = new Set(['the', 'a', 'an', 'of', 'into', 'with', 'for', 'and', 'to', 'or', 'in', 'on', 'at', 'your', 'about', 'until']);
+const stepName = (s: string, i: number) => {
+  const first = plain(s).replace(/\([^)]*\)/g, '').split(/(?<=[.!?])\s|\s[-–]\s/)[0].trim().replace(/[.!?,;:]$/, '');
+  const words = first.split(/\s+/).filter(Boolean).slice(0, 10);
+  while (words.length > 2 && STOP.has(words[words.length - 1].toLowerCase().replace(/[^a-z]/g, ''))) words.pop();
+  return words.length ? words.join(' ').replace(/[,;:]$/, '') : `Step ${i + 1}`;
+};
 
 const servesNum = (d.serves ?? '').match(/\d+/)?.[0];
 const prepMin = (d.prepTime ?? '').match(/\d+/)?.[0];
@@ -51,7 +59,7 @@ const schema = structured ? {
   recipeCategory: d.meal ?? undefined,
   recipeCuisine: 'Australian',
   recipeIngredient: ing.map(plain),
-  recipeInstructions: steps.map((s, i) => ({ '@type': 'HowToStep', position: i + 1, text: plain(s), url: `${pageUrl}#step-${i + 1}` })),
+  recipeInstructions: steps.map((s, i) => ({ '@type': 'HowToStep', position: i + 1, name: stepName(s, i), text: plain(s), url: `${pageUrl}#step-${i + 1}`, image: d.image ? site + d.image : undefined })),
 } : null;
 const sameMeal = all.filter((r) => r.id !== recipe.id && r.data.meal === d.meal);
 const others = all.filter((r) => r.id !== recipe.id && r.data.meal !== d.meal).sort(byNewest);
