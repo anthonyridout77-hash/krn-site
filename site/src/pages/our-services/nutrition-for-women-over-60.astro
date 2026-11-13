@@ -1,7 +1,6 @@
 ---
 /* Nutrition support for women over 60 service page. Drafted 13 Nov 2026.
-   KAT GATE: new public health copy. Do not merge until Kat approves the copy and the launch scope
-   (concerns list, refer-on list, appointment formats, 2-business-day turnaround).
+   Kat approved the content 13 Nov 2026 (relayed by Anthony). Further health-copy changes need Kat.
    Booking UTM uses a neutral code (svc-06) so no health or age detail travels in analytics or the booking link. */
 import Article from '../../layouts/Article.astro';
 import { BOOK_URL } from '../../lib/content';
@@ -9,7 +8,7 @@ import { BOOK_URL } from '../../lib/content';
 const book = (content: string) => `${BOOK_URL}?utm_source=website&utm_medium=landing_page&utm_campaign=svc-06&utm_content=${content}`;
 
 const helps: [string, string][] = [
-  ['A smaller or changed appetite', 'Planning meals and snacks that suit how much you feel like eating now, so the food you do eat works harder for you.'],
+  ['Everyday changes in appetite', 'Planning meals and snacks that suit how much you feel like eating now, so the food you do eat works harder for you.'],
   ['Strength and muscle', 'Practical ways to get enough protein across the day, using foods you already like.'],
   ['Bone health', 'Checking the calcium and protein in your usual meals and where simple changes would help.'],
   ['Cholesterol and heart health', 'Eating patterns that support heart health and fit your routine.'],
@@ -19,7 +18,7 @@ const helps: [string, string][] = [
 
 const faq: [string, string][] = [
   ['Do I need a referral?', 'No. You can book with Kat directly. A GP referral is only needed if you want to claim a Medicare rebate.'],
-  ['Can I claim Medicare or private health?', 'Medicare rebates may be available for eligible clients with a valid referral under a GP Chronic Condition Management Plan (GPCCMP). Many private health extras policies also cover dietitian visits, depending on your fund and level of cover. Ask Kat about fees and any gap before booking.'],
+  ['Can I claim Medicare or private health?', 'Medicare rebates may be available on paid consultations for eligible clients with a valid referral under a GP Chronic Condition Management Plan (GPCCMP). Many private health extras policies also cover dietitian visits, depending on your fund and level of cover. Ask Kat about fees and any gap before booking.'],
   ['Can I book on behalf of my mother or partner?', 'Yes. Family members are welcome to book the free call and to join the appointment if the person coming to see Kat would like that.'],
   ['Is this a weight loss program?', 'No. Kat focuses on eating in a way that supports your strength, health and energy, and that you enjoy and can keep up.'],
   ['I have lost weight without trying, or my appetite has been poor for a while. Can Kat help?', 'Please see your GP first so the cause can be checked. Kat can then work alongside your GP on the food side.'],
@@ -35,7 +34,7 @@ const faqLd = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":fa
   lede="If your appetite has changed, you’re unsure what to eat for bone and muscle health, or you want help adapting meals around a health condition, Katrina can help you work out what to focus on. She’s an Accredited Practising Dietitian who builds a practical plan around the foods you enjoy, your health needs and your everyday routine."
   crumbs={[{ label: 'Home', href: '/' }, { label: 'Services', href: '/our-services/' }, { label: 'Women over 60' }]}
   ctaHeading="Talk to Kat before you decide"
-  ctaText="A free 15-minute phone call. Tell Kat what is going on and she will explain how she could help. In person in Milton, Brisbane, or by telehealth across Australia."
+  ctaText="A free 15-minute introductory phone call. Tell Kat what is going on and she will explain how she could help. In person in Milton, Brisbane, or by telehealth across Australia."
   cta="Book a free call"
   ctaHref={book('cta-band')}
 >
@@ -56,6 +55,8 @@ const faqLd = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":fa
     </div>
   </div>
 
+  <p class="ow-note">Kat can help you plan meals around everyday changes in appetite. If your appetite has been poor for some time, or you have lost weight without trying, please see your GP first.</p>
+
   <h2>What Kat can help you with</h2>
   <dl class="ow-stages">
     {helps.map(([t, d]) => (<div><dt>{t}</dt><dd>{d}</dd></div>))}
@@ -72,12 +73,12 @@ const faqLd = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":fa
 
   <h2>How to start</h2>
   <ol>
-    <li><strong>Book a free 15-minute phone call.</strong> Kat calls you herself, at the time you choose.</li>
+    <li><strong>Book a free 15-minute phone call.</strong> Kat calls you herself, at the time you choose. This is an introductory call to talk about your concerns and your options. It is not a consultation.</li>
     <li><strong>Initial consultation.</strong> A paid 75-minute appointment for your individual assessment and plan. Kat explains fees and what is included before you go ahead.</li>
     <li><strong>Follow-ups if you want them.</strong> Review appointments are optional and spaced to suit you.</li>
   </ol>
   <p class="ow-cta"><a class="btn btn-coral" href={book('how-to-start')}>Book a free 15-minute call</a></p>
-  <p class="ow-note">Medicare rebates may be available for eligible clients with a valid referral under a GP Chronic Condition Management Plan (GPCCMP). Ask Kat about fees and any gap before booking.</p>
+  <p class="ow-note">Medicare rebates may be available on paid consultations for eligible clients with a valid referral under a GP Chronic Condition Management Plan (GPCCMP). The free call is not a consultation and has no fee. Ask Kat about fees and any gap before booking a consultation.</p>
 
   <h2>Where appointments happen</h2>
   <div class="ow-ways">
@@ -92,6 +93,8 @@ const faqLd = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":fa
       <p>A secure link on your phone, tablet or laptop. Your plan and follow-ups are sent to you online.</p>
     </section>
   </div>
+
+  <p>Prefer not to book online? Call <a href="tel:1300640104">1300 640 104</a> or <a href="/contact-us/">send Kat a message</a> and she will arrange a time with you.</p>
 
   <h2>Common questions</h2>
   {faq.map(([q, a]) => (<><h3>{q}</h3><p>{a}</p></>))}
