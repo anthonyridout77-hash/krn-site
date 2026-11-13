@@ -106,6 +106,8 @@ Read this first in any new session.
 
 - 6 Nov 2026 21:45: Recipes fixed (7156447). All 9 had no image in frontmatter; original WP featured photos (thumbnail ids from the .wpress DB) optimised to site/public/images/recipes/<slug>.jpg + .webp. New recipe page: photo hero, stat tiles, Print + Keep screen on, tickable ingredients (sticky on desktop), tap-to-complete steps (saved in localStorage), Recipe schema with times/category. Index: meal filter chips (?meal=), RecipeCard component. New frontmatter: meal, prepTime, serves. Beware global homepage classes .rgrid/.rcard/.chip; recipe pages use .rxgrid/.rxcard/.rxchip.
 
-## 13 Nov 2026: women over 60 service page (PR, NOT merged, Kat gate)
-- Branch content/nutrition-for-women-over-60: /our-services/nutrition-for-women-over-60/ (own .astro page like menopause; content/services stub for listings and llms.txt). Links added from /our-services/dietitian/ and the menopause page. Booking UTM utm_campaign=svc-06 (neutral).
-- Kat to approve the health copy and scope (concerns, refer-on list, formats, 2-business-day turnaround) before merge. Calendly intake option and Google Search pilot (A$200 over 40 days) not built; pilot is prepared after the 25 Nov review and needs Anthony's spend approval.
+## 13 Nov 2026: women over 60 service page (LIVE)
+- /our-services/nutrition-for-women-over-60/ live 17:08 (PR #53 merged; Kat approved content, relayed by Anthony). Own .astro page like menopause; content/services stub for listings and llms.txt. Links from /our-services/dietitian/ and the menopause page.
+- Booking UTM utm_campaign=svc-06. The Base.astro booking-link script only passes allowlisted campaign codes; svc-05 and svc-06 were missing and became "external" (fixed in PR #54). Paid visits keep utm_source=google, utm_medium=cpc, utm_content=ads-click; their campaign shows "external" unless the ad campaign name is added to the allowlist.
+- Calendly free-call description mentions over 60s. Dropdown option "Nutrition for women over 60" still to add in the Calendly UI (API cannot edit questions).
+- Google Search pilot (A$200 over 40 days) not built: forecast, overlap and geography go to Anthony after the 25 Nov review.
