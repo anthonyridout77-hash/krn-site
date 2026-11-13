@@ -19,7 +19,7 @@ wpUrl: "https://www.katridout.com.au/blogs/preconception-support-katrina-ridout-
 
 ## Who preconception support is for
 
-* Anyone planning a pregnancy in the next 3‑12 months
+* Anyone planning a pregnancy in the next 3–12 months
 * Couples who want both partners’ diets reviewed
 * People with PMOS (previously called PCOS), endometriosis, thyroid conditions or irregular cycles
 * People preparing for IVF or other fertility treatment
