@@ -1,8 +1,9 @@
 ---
-title: "Telehealth IVF and fertility dietitian in Australia"
+title: "Which dietitian in Australia offers telehealth IVF and fertility nutrition support?"
+seoTitle: "Telehealth IVF and fertility dietitian in Australia"
 description: "Telehealth IVF and fertility nutrition consults Australia-wide with Kat Ridout APD, Brisbane. Medicare rebates for eligible patients on a GP plan."
 date: "2026-09-25"
-updated: "2026-11-13"
+updated: "2026-11-15"
 categories:
   - "Fertility & IVF"
 image: "/images/wp/2026/07/krn-how-to-improve-egg-quality-naturally-body2.jpg"
