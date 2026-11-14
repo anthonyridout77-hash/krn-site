@@ -1,5 +1,6 @@
 ---
 title: "Australia changed its gestational diabetes thresholds: what that means for your test"
+seoTitle: "Gestational Diabetes Thresholds Changed: What to Know"
 description: "Australia raised its gestational diabetes diagnostic thresholds in 2025. A pregnancy dietitian in Brisbane explains the new numbers and what they change."
 date: "2026-11-14"
 updated: "2026-11-14"
@@ -18,6 +19,8 @@ This is the sort of change that happens quietly in a guideline document and then
 ## What actually changed
 
 The Australasian Diabetes in Pregnancy Society, ADIPS, published new consensus recommendations for the screening, diagnosis and classification of gestational diabetes in the Medical Journal of Australia in August 2025. Laboratories were able to start reporting against the new criteria from 1 July 2025.
+
+I wrote an explainer when the criteria first landed, and that piece covers [what the 2025 ADIPS criteria mean](/blogs/gestational-diabetes-test-numbers-changed-adips-2025/) in general terms. This one is narrower: the numbers side by side, and the group the change quietly creates.
 
 Both sets of numbers come from the same test, a 75 gram oral glucose tolerance test.
 
