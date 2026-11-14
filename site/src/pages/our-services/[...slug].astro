@@ -1,7 +1,7 @@
 ---
 import { getCollection, render } from 'astro:content';
 import Article from '../../layouts/Article.astro';
-import { serviceSlug, serviceUrl } from '../../lib/content';
+import { serviceSlug, serviceUrl, BOOK_URL } from '../../lib/content';
 import { faqFromMarkdown, faqPage } from '../../lib/schema';
 import { pathways, callLink } from '../../data/pathways';
 
@@ -61,6 +61,7 @@ const siblings = all
   <Fragment slot="head">
     {faqLd && <script type="application/ld+json" set:html={JSON.stringify(faqLd)} />}
   </Fragment>
+  <p slot="hero" class="hero-cta"><a class="btn btn-coral" href={pw ? callLink(pw) : BOOK_URL}>Book a free 15-minute call</a></p>
   {pw && first && (
     <aside class="glance" aria-label="Working with Kat at a glance" style="margin:0 0 2rem;padding:1.2rem 1.4rem;background:var(--mint);border-radius:16px">
       <h2 style="font-size:1.2rem;margin:0 0 .6rem">Working with Kat at a glance</h2>

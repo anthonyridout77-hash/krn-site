@@ -6,7 +6,8 @@
 .phero h1{font-size:clamp(2rem,4.6vw,3.2rem)}
 .phero .lede{margin-top:1rem}
 .crumbs{display:flex;flex-wrap:wrap;gap:.4rem;font-size:.86rem;color:var(--fg-soft);margin-bottom:1.2rem}
-.crumbs a{color:var(--fg-soft);text-decoration:none}
+.crumbs a{color:var(--fg-soft);text-decoration:none;min-height:24px;display:inline-flex;align-items:center}
+.phero .hero-cta{margin-top:1.2rem}
 .crumbs a:hover{color:var(--heading);text-decoration:underline;text-underline-offset:4px}
 .crumbs span{color:var(--fg-fade)}
 .meta{display:flex;flex-wrap:wrap;gap:.5rem 1rem;align-items:center;margin-top:1.2rem;font-size:.9rem;color:var(--fg-soft)}

@@ -59,6 +59,7 @@ const crumbLd = breadcrumbList(crumbs, pageUrl);
       )}
       <h1>{title}</h1>
       {lede && <p class="lede">{lede}</p>}
+      <slot name="hero" />
       {(date || category) && (
         <div class="meta">
           {category && (categoryHref ? <a class="cat" href={categoryHref}>{category}</a> : <span class="cat">{category}</span>)}
