@@ -47,7 +47,7 @@ header{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:col
 @media (max-width:400px){.nav-right{gap:.6rem}.cta-l{display:none}.cta-s{display:inline}}
 .brand img{width:160px;height:auto;max-width:100%;display:block}
 .links{display:none;gap:1.6rem;font-size:.9rem;font-family:var(--head);font-weight:500}
-.links a{text-decoration:none;color:var(--fg-soft);position:relative}
+.links a{text-decoration:none;color:var(--fg-soft);position:relative;min-height:24px;display:inline-flex;align-items:center}
 .links a::after{content:"";position:absolute;left:0;right:100%;bottom:-5px;height:2px;background:var(--sage-deep);transition:right .3s}
 .links a:hover{color:var(--ink)}.links a:hover::after{right:0}
 @media (min-width:900px){.links{display:flex}}
