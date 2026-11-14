@@ -1,5 +1,6 @@
 ---
 title: "Tinned tuna, egg and sweetcorn salad bowl"
+seoTitle: "Tuna, Egg and Sweetcorn Salad Bowl: 10 Minute Dinner"
 description: "A ten minute no-cook salad bowl built with gestational diabetes in mind: the carbohydrate arrives alongside protein from tuna and egg."
 date: "2026-11-14"
 updated: "2026-11-14"
