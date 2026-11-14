@@ -118,3 +118,6 @@
 .faq summary:focus-visible{outline:3px solid var(--sage-deep);outline-offset:2px;border-radius:14px}
 .faq-a{padding:0 1rem .4rem}
 @media (prefers-reduced-motion:reduce){.faq summary::after{transition:none}}
+.table-wrap-md{overflow-x:auto;margin:1rem 0}
+.table-wrap-md:focus-visible{outline:3px solid var(--sage-deep);outline-offset:2px}
+.prose tbody th{text-align:left;font-weight:600}

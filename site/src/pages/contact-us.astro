@@ -54,7 +54,7 @@ import '../styles/article.css';
     var f=document.getElementById('eqForm'); if(!f) return;
     f.addEventListener('submit',function(ev){
       ev.preventDefault();
-      var ok=true;[].forEach.call(f.querySelectorAll('[required]'),function(el){if(!el.checkValidity()){ok=false;el.reportValidity();}});
+      var ok=window.krnValidate?window.krnValidate(f):f.checkValidity();
       if(!ok) return;
       var btn=f.querySelector('button'),okEl=document.getElementById('eqOk'),errEl=document.getElementById('eqErr');
       if(btn.disabled) return;

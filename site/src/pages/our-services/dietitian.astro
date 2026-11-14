@@ -52,7 +52,7 @@ const faqLd = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":fa
   crumbs={[{ label: 'Home', href: '/' }, { label: 'Services', href: '/our-services/' }, { label: 'Dietitian' }]}
   ctaHeading="Talk to Kat before you decide"
   ctaText="A free 15-minute call. Bring your concerns and Kat will explain how she could help. Telehealth Australia-wide or in person in Milton, Brisbane."
-  cta="Book a free call"
+  cta="Book a free 15-minute call"
   ctaHref={book('cta-band')}
 >
   <Fragment slot="head">
@@ -124,7 +124,7 @@ const faqLd = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":fa
 
 
   <h2>Common questions</h2>
-  {faq.map(([q, a]) => (<><h3>{q}</h3><p>{a}</p></>))}
+  <div class="faq-list">{faq.map(([q, a]) => (<details class="faq"><summary>{q}</summary><div class="faq-a"><p>{a}</p></div></details>))}</div>
 
   <p>Planning a pregnancy, in IVF or expecting? Kat has a special interest in this area. See <a href="/our-services/nutrition-for-fertility/">fertility nutrition</a>, <a href="/our-services/pregnancy-nutrition-and-dietetics/">pregnancy nutrition</a> and <a href="/our-services/postnatal-nutrition/">postpartum support</a>.</p>
 </Article>

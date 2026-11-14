@@ -69,6 +69,23 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
      - utm_term: removed (could hold a search phrase)
      - utm_campaign: kept only if it is one of the site's own generic campaign names, else "external"
      - utm_source / utm_medium: unchanged (needed for reporting) */
+  /* Shared form validation: marks every invalid field (aria-invalid), lists what is missing in one
+     announced message, and moves focus to the FIRST invalid field (previously focus landed on the last). */
+  (function(){
+    window.krnValidate = function(f){
+      var bad = [].filter.call(f.querySelectorAll('[required]'), function(el){ var v = el.checkValidity(); el.setAttribute('aria-invalid', v ? 'false' : 'true'); return !v; });
+      var hint = f.querySelector('.form-hint');
+      if (!hint) { hint = document.createElement('p'); hint.className = 'form-hint'; hint.setAttribute('role', 'alert'); hint.id = (f.id || 'form') + 'Hint'; var b = f.querySelector('button[type=submit],button'); f.insertBefore(hint, b); }
+      if (!bad.length) { hint.textContent = ''; hint.hidden = true; return true; }
+      var names = bad.map(function(el){ var l = el.labels && el.labels[0]; return ((l && l.textContent) || el.getAttribute('aria-label') || el.name || '').replace(/\s*\*\s*$/, '').trim(); });
+      hint.hidden = false;
+      hint.textContent = 'Please check: ' + names.join(', ') + '.';
+      bad.forEach(function(el){ el.setAttribute('aria-describedby', hint.id); });
+      bad[0].focus();
+      return false;
+    };
+    document.addEventListener('input', function(e){ var el = e.target; if (el.getAttribute && el.getAttribute('aria-invalid') === 'true' && el.checkValidity()) el.setAttribute('aria-invalid', 'false'); });
+  })();
   (function(){
     var CAMPAIGNS = ['general-dietitian','dietitian','pathways','7-day-meal-plan','adelaide_lp','perth_lp','gbp-booking','svc-05','svc-06','svc-07','ads-main','ads-b','ads-c','ads-unknown'];
     function pageType(p){
