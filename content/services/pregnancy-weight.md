@@ -13,10 +13,6 @@ parent: "415"
 
 Pregnancy Weight Brisbane
 
-## Not sure where to start?
-Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. You do not need to have it all worked out first. No preparation and no obligation.
-[Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
-
 ## What does healthy weight gain look like during pregnancy?
 
 It’s no secret that pregnancy brings significant changes to your body, including natural weight gain as your baby grows. Your body is working hard to nurture and care for your little one, and part of that process is preparing itself for a healthy pregnancy and birth.

@@ -13,10 +13,6 @@ wpUrl: "https://www.katridout.com.au/our-services/dietitian/"
 
 Dietitian Brisbane
 
-## Not sure where to start?
-Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. You do not need to have it all worked out first. No preparation and no obligation.
-[Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
-
 ## Personalised support to best manage your conditions and optimise your health.
 
 Dietitians are allied health professionals with university qualifications who are trained to assess and manage a wide range of health conditions. They are passionate about supporting people to improve their overall health and lifestyle, with a deep understanding of how nutrition affects the body.

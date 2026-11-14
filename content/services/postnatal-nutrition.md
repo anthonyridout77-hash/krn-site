@@ -1,6 +1,6 @@
 ---
 title: "Postpartum and Breastfeeding Dietitian"
-seoTitle: "Postpartum and Breastfeeding Dietitian | Telehealth Australia-wide and Brisbane"
+seoTitle: "Postpartum and Breastfeeding Dietitian Brisbane and Online"
 description: "Postpartum and breastfeeding dietitian Kat Ridout, Accredited Practising Dietitian, sees new mums by telehealth anywhere in Australia and in person in Milton, Brisbane, from birth to two years."
 date: "2025-08-04"
 updated: "2026-11-11"
@@ -10,10 +10,6 @@ wpUrl: "https://www.katridout.com.au/our-services/postnatal-nutrition/"
 
 
 ## Postpartum and breastfeeding nutrition
-
-## Not sure where to start?
-Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. You do not need to have it all worked out first. No preparation and no obligation.
-[Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## Caring for yourself is the first step to caring for your baby
 

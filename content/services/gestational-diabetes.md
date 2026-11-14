@@ -12,10 +12,6 @@ parent: "415"
 
 ## Gestational Diabetes Mellitus
 
-## Not sure where to start?
-Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. You do not need to have it all worked out first. No preparation and no obligation.
-[Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
-
 ## If you are diagnosed with gestational diabetes during pregnancy, don’t panic, we’re here to help.
 
 It is not uncommon for women to develop Gestational Diabetes Mellitus (GDM) during pregnancy. In fact, around 1 in 6 Australian women are diagnosed, so if this is part of your journey, you are definitely not alone.

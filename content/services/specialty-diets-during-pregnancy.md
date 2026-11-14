@@ -11,10 +11,6 @@ parent: "415"
 
 ## Specialty Diets During Pregnancy
 
-## Not sure where to start?
-Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. You do not need to have it all worked out first. No preparation and no obligation.
-[Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
-
 What you eat in the months before and during pregnancy has a lasting impact on your baby’s growth and development, as well as your own health. If you have specific dietary needs, balancing your nutrition becomes even more important to support a healthy pregnancy and give your baby the best start in life.
 Eating a healthy, balanced diet is one of the best ways to optimise your baby’s development, but this can feel more challenging if you follow a speciality diet. Pregnancy is such an exciting time, but it can also feel overwhelming. Many mums worry about making the “right” choices and feel the weight of responsibility for their growing baby. That’s completely natural — and you don’t have to figure it out alone.
 Whether you follow a vegan or vegetarian lifestyle, eat low-carbohydrate, or have dietary restrictions such as gluten-free, dairy-free or low-FODMAP, it’s important to understand how these choices affect your nutritional balance. With the right support, you can feel confident that you and your baby are getting everything you need for a healthy pregnancy.

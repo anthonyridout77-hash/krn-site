@@ -1,4 +1,5 @@
 ---
+import { GOOGLE_REVIEWS } from '../data/reviews';
 import Base from '../layouts/Base.astro';
 import BookBar from '../components/BookBar.astro';
 ---
@@ -41,7 +42,7 @@ import BookBar from '../components/BookBar.astro';
       </div>
       <p class="sub fade-up" style="animation-delay:.58s"><b>Initial consultation:</b> a full assessment that connects your history, eating and concerns into one coordinated plan. <b>Free call:</b> 15 minutes to talk it through and choose the right option. <a href="#compare">Compare</a></p>
       <div class="trust fade-up" style="animation-delay:.65s">
-        <span><span class="stars">★★★★★</span> <b>4.9</b> on Google · 48 reviews</span>
+        <span><span class="stars">★★★★★</span> <b>{GOOGLE_REVIEWS.rating}</b> on Google · {GOOGLE_REVIEWS.count} reviews</span>
         <span><img class="apd" src="/images/apd-logo.webp" alt="Accredited Practising Dietitian" width="127" height="126" loading="lazy"> Dietitians Australia</span>
         <span>Medicare rebates may apply</span>
       </div>
@@ -122,8 +123,8 @@ import BookBar from '../components/BookBar.astro';
       <p class="rv d2">Kat is warm, direct and practical. She keeps her caseload small and sees clients in Milton, Brisbane or by telehealth anywhere in Australia.</p>
       <div class="badges rv d3"><span>Dietitians Australia</span><span>Early Life Nutrition Alliance</span><span>QUT, Nutrition &amp; Dietetics</span></div>
       <div class="stats rv d3">
-        <div><div class="big">49</div><small>Google reviews</small></div>
-        <div><div class="big">4.9</div><small>average rating</small></div>
+        <div><div class="big">{GOOGLE_REVIEWS.count}</div><small>Google reviews</small></div>
+        <div><div class="big">{GOOGLE_REVIEWS.rating}</div><small>average rating</small></div>
         
       </div>
     </div>
@@ -168,11 +169,11 @@ import BookBar from '../components/BookBar.astro';
 
 <section class="reviews">
   <div class="wrap">
-    <p class="eyebrow rv">Rated 4.9 on Google</p>
+    <p class="eyebrow rv">Rated {GOOGLE_REVIEWS.rating} on Google</p>
     <h2 class="rv d1">Reviews on Google</h2>
-    <div class="rating rv d2"><span class="big">4.9</span><span class="stars">★★★★★</span><span>48 Google reviews</span></div>
+    <div class="rating rv d2"><span class="big">{GOOGLE_REVIEWS.rating}</span><span class="stars">★★★★★</span><span>{GOOGLE_REVIEWS.count} Google reviews</span></div>
     <p class="rv d2">Reviews are published on Google by Kat's clients. Read them in full there.</p>
-    <a class="btn btn-white rv d3" href="https://g.page/r/CaPM342_gamiEBM/review">Read the reviews on Google</a>
+    <a class="btn btn-white rv d3" href={GOOGLE_REVIEWS.url}>Read the reviews on Google</a>
   </div>
 </section>
 
