@@ -70,7 +70,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
      - utm_campaign: kept only if it is one of the site's own generic campaign names, else "external"
      - utm_source / utm_medium: unchanged (needed for reporting) */
   (function(){
-    var CAMPAIGNS = ['general-dietitian','dietitian','pathways','7-day-meal-plan','adelaide_lp','perth_lp','gbp-booking','svc-05','svc-06'];
+    var CAMPAIGNS = ['general-dietitian','dietitian','pathways','7-day-meal-plan','adelaide_lp','perth_lp','gbp-booking','svc-05','svc-06','svc-07'];
     function pageType(p){
       if (p === '/') return 'home';
       if (/^\/our-services\//.test(p)) return 'service';

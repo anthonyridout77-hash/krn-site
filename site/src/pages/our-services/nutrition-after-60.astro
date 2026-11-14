@@ -1,0 +1,128 @@
+---
+/* Eating well after 60 service page (men and women, 60s and 70s). Drafted 14 Nov 2026.
+   DRAFT: do not merge until Kat approves the health copy. Scope per Kat's email 14 Nov 2026:
+   men yes, no clients in their 80s, no DVA, no aged-care funding on the page.
+   Booking UTM uses a neutral code (svc-07) so no health or age detail travels in analytics or the booking link. */
+import Article from '../../layouts/Article.astro';
+import { BOOK_URL } from '../../lib/content';
+
+const book = (content: string) => `${BOOK_URL}?utm_source=website&utm_medium=landing_page&utm_campaign=svc-07&utm_content=${content}`;
+
+const helps: [string, string][] = [
+  ['Strength and muscle', 'Practical ways to get enough protein across the day, using foods you already like.'],
+  ['Weight changes', 'If your weight has crept up over the years and it is on your mind, Kat will talk through a sensible approach that keeps your strength, health and enjoyment of food in view. There is no set diet.'],
+  ['Cholesterol and heart health', 'Eating patterns that support heart health and fit your routine.'],
+  ['Blood pressure', 'A look at salt and the everyday foods and drinks that matter for blood pressure, alongside the care you get from your GP.'],
+  ['Type 2 diabetes and pre-diabetes', 'Food routines that support steady blood glucose, alongside the care you get from your GP.'],
+  ['Bone health', 'Checking the calcium and protein in your usual meals and where simple changes would help.'],
+  ['Everyday changes in appetite', 'Planning meals and snacks that suit how much you feel like eating now, so the food you do eat works harder for you.'],
+  ['Everyday eating', 'Cooking for one or two, shopping on a budget, eating out and keeping meals enjoyable.'],
+];
+
+const faq: [string, string][] = [
+  ['Do I need a referral?', 'No. You can book with Kat directly. A GP referral is only needed if you want to claim a Medicare rebate.'],
+  ['Can I claim Medicare or private health?', 'Medicare rebates may be available on paid consultations for eligible clients with a valid referral under a GP Chronic Condition Management Plan (GPCCMP). Many private health extras policies also cover dietitian visits, depending on your fund and level of cover. Ask Kat about fees and any gap before booking.'],
+  ['Does Kat see men?', 'Yes. Kat sees men and women in their 60s and 70s.'],
+  ['Can my husband, wife or partner come too?', 'Yes. Partners are welcome on the free call and at the appointment. If you both want your own assessment and plan, Kat will explain how that works on the call.'],
+  ['Is this a weight loss program?', 'No. There is no set diet or program. If weight is one of your concerns, Kat will talk it through with you and focus on eating in a way that supports your strength, health and energy, and that you enjoy and can keep up.'],
+  ['I have lost weight without trying, or my appetite has been poor for a while. Can Kat help?', 'Please see your GP first so the cause can be checked. Kat can then work alongside your GP on the food side.'],
+  ['What happens on the free 15-minute call?', 'Kat calls you at the time you book. She listens to what is going on, explains whether she is the right fit and what the next step could be, and talks you through fees before you commit to anything. Your individual assessment and recommendations happen at the initial consultation.'],
+  ['I find booking online difficult. Is there another way?', 'Yes. Call 1300 640 104 or send a message through the contact page and Kat will arrange a time with you.'],
+];
+const faqLd = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":faq.map(([q,a])=>({"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":a}}))};
+---
+<Article
+  title="Eating well after 60"
+  metaTitle="Dietitian for Over 60s, Brisbane and Online"
+  description="Katrina Ridout, Accredited Practising Dietitian. Practical nutrition help for men and women in their 60s and 70s. Milton, Brisbane or telehealth."
+  lede="What you need from food can shift in your 60s and 70s. If you want to stay strong and active, have been told to watch your cholesterol, blood pressure or blood glucose, or are simply unsure what to eat now, Katrina can help you work out what matters most. She is an Accredited Practising Dietitian who builds a practical plan around the foods you enjoy, your health needs and your everyday routine. Men and women are welcome, on your own or as a couple."
+  crumbs={[{ label: 'Home', href: '/' }, { label: 'Services', href: '/our-services/' }, { label: 'Eating well after 60' }]}
+  ctaHeading="Talk to Kat before you decide"
+  ctaText="A free 15-minute introductory phone call. Tell Kat what is going on and she will explain how she could help. In person in Milton, Brisbane, or by telehealth across Australia."
+  cta="Book a free call"
+  ctaHref={book('cta-band')}
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(faqLd)} />
+  </Fragment>
+
+  <div class="ow-top">
+    <img src="/images/kat-ridout-apd.jpg" alt="Katrina Ridout, Accredited Practising Dietitian" width="480" height="480" loading="eager" />
+    <div>
+      <p class="ow-cta"><a class="btn btn-coral" href={book('hero')}>Book a free 15-minute call</a></p>
+      <ul class="ow-trust">
+        <li>Accredited Practising Dietitian (APD)</li>
+        <li>No referral needed</li>
+        <li>Milton or telehealth</li>
+        <li>Men and women welcome</li>
+      </ul>
+    </div>
+  </div>
+
+  <p class="ow-note">Kat can help you plan meals around everyday changes in appetite. If your appetite has been poor for some time, or you have lost weight without trying, please see your GP first.</p>
+
+  <h2>What Kat can help you with</h2>
+  <dl class="ow-stages">
+    {helps.map(([t, d]) => (<div><dt>{t}</dt><dd>{d}</dd></div>))}
+  </dl>
+  <p class="ow-note">Not sure your concern fits? Raise it on the free call and Kat will tell you whether she can help.</p>
+
+  <h2>What happens at the first appointment</h2>
+  <p>The initial consultation runs for 75 minutes, in Milton or by telehealth. Kat looks at your health history, recent test results if you have them, medicines and supplements, what you usually eat, and what a normal week looks like for you. Together you agree on what to focus on first.</p>
+  <p>Your written plan and resources are sent within 2 business days.</p>
+
+  <h2>How this fits with your medical care</h2>
+  <p>Kat provides nutrition assessment and advice. Your GP or specialist looks after diagnosis and medicines. With your permission, Kat can write to your GP so everyone is working from the same plan.</p>
+  <p>Some things need a doctor first. If you have lost weight without trying, your appetite has been poor for some time, or you have trouble swallowing, please see your GP. Kat will also suggest this if it comes up on your call. If your needs change or go beyond what Kat offers, she will refer you back to your GP or to another service.</p>
+
+  <h2>How to start</h2>
+  <ol>
+    <li><strong>Book a free 15-minute phone call.</strong> Kat calls you herself, at the time you choose. This is an introductory call to talk about your concerns and your options. It is not a consultation.</li>
+    <li><strong>Initial consultation.</strong> A paid 75-minute appointment for your individual assessment and plan. Kat explains fees and what is included before you go ahead.</li>
+    <li><strong>Follow-ups if you want them.</strong> Review appointments are optional and spaced to suit you.</li>
+  </ol>
+  <p class="ow-cta"><a class="btn btn-coral" href={book('how-to-start')}>Book a free 15-minute call</a></p>
+  <p class="ow-note">Medicare rebates may be available on paid consultations for eligible clients with a valid referral under a GP Chronic Condition Management Plan (GPCCMP). The free call is not a consultation and has no fee. Ask Kat about fees and any gap before booking a consultation.</p>
+
+  <h2>Where appointments happen</h2>
+  <div class="ow-ways">
+    <section class="ow-way">
+      <h3>In person in Milton, Brisbane</h3>
+      <p>Milton Village Medical<br>Level 1, 36 Baroona Road, Milton QLD 4064</p>
+      <p>Undercover parking on site.</p>
+      <p><a href="https://www.google.com/maps/search/?api=1&query=Milton+Village+Medical+36+Baroona+Road+Milton+QLD+4064" rel="noopener">Get directions</a></p>
+    </section>
+    <section class="ow-way">
+      <h3>Telehealth across Australia</h3>
+      <p>A secure link on your phone, tablet or laptop. Your plan and follow-ups are sent to you online.</p>
+    </section>
+  </div>
+
+  <p>Prefer not to book online? Call <a href="tel:1300640104">1300 640 104</a> or <a href="/contact-us/">send Kat a message</a> and she will arrange a time with you.</p>
+
+  <h2>Common questions</h2>
+  {faq.map(([q, a]) => (<><h3>{q}</h3><p>{a}</p></>))}
+
+  <p>Looking for women’s health in particular? See <a href="/our-services/nutrition-for-women-over-60/">nutrition for women over 60</a> and <a href="/our-services/menopause-nutrition/">perimenopause and menopause nutrition</a>. You can also see how appointments are structured on the <a href="/consultations/">consultations page</a>, or read more <a href="/about-kat/">about Kat</a>.</p>
+</Article>
+<style>
+  .ow-top{display:grid;gap:1.2rem;align-items:center;margin:0 0 2em}
+  @media (min-width:640px){.ow-top{grid-template-columns:220px 1fr}}
+  .ow-top img{width:min(100%,220px);height:auto;border-radius:22px;background:var(--mint);margin:0}
+  .ow-trust{list-style:none;padding:0;margin:.9rem 0 0;display:flex;flex-wrap:wrap;gap:.45rem}
+  .ow-trust li{margin:0;padding:.3rem .8rem;border-radius:999px;background:var(--mint);color:var(--heading);font-size:.86rem;font-weight:500}
+  .ow-trust li::marker{content:''}
+  .ow-cta{margin:1.2em 0}
+  .ow-cta .btn-coral{color:#fff !important;text-decoration:none !important}
+  .ow-stages{display:grid;gap:.8rem;margin:1.2em 0}
+  @media (min-width:640px){.ow-stages{grid-template-columns:repeat(2,1fr)}}
+  .ow-stages div{background:var(--mint);border-radius:18px;padding:1rem 1.2rem}
+  .ow-stages dt{font-weight:600;color:var(--heading);margin:0 0 .3rem}
+  .ow-stages dd{margin:0;font-size:.95rem}
+  .ow-ways{display:grid;gap:1rem;margin:1.2em 0 .6em}
+  @media (min-width:640px){.ow-ways{grid-template-columns:1fr 1fr}}
+  .ow-way{border:1.5px solid var(--line);border-radius:18px;padding:1rem 1.2rem}
+  .ow-way h3{margin:0 0 .5rem;font-size:1.08rem}
+  .ow-way p{margin:.4em 0;font-size:.96rem}
+  .ow-note{color:var(--fg-soft);font-size:.95rem}
+</style>
