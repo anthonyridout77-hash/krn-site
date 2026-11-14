@@ -28,7 +28,7 @@ section{padding-block:clamp(72px,10vw,128px)}
 
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;min-height:48px;padding:.8rem 1.5rem;border-radius:999px;font-family:var(--head);font-weight:600;font-size:1rem;letter-spacing:-.01em;text-decoration:none;border:1.5px solid transparent;transition:transform .2s ease-out,box-shadow .2s ease-out,background .2s ease-out,color .2s ease-out;cursor:pointer}
 .btn:hover{transform:scale(1.02)}
-.btn:focus-visible{outline:3px solid var(--sage);outline-offset:3px}
+.btn:focus-visible{outline:3px solid var(--sage-deep);outline-offset:3px}
 a:focus-visible,summary:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid var(--sage-deep);outline-offset:3px;border-radius:4px}
 .skip{position:absolute;left:-999px;top:8px;z-index:100;background:var(--forest);color:#fff;padding:.6rem 1rem;border-radius:10px;text-decoration:none}.skip:focus{left:8px}
 
@@ -298,3 +298,4 @@ footer .eyebrow{display:block;color:#fff;font-weight:600;font-size:.95rem}
 .cmp-card .btn{align-self:start;margin-top:.4rem}
 
 @media print{header,footer,.bookbar,.cta,.related,.skip,.btn,nav{display:none!important}body{background:#fff;color:#000}main{max-width:none}a[href^="http"]::after{content:" (" attr(href) ")";font-size:.85em}}
+@media (min-width:600px){.nav-right .phone{min-height:24px;display:inline-flex;align-items:center}}
