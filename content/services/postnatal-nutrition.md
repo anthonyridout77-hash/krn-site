@@ -9,32 +9,12 @@ wpUrl: "https://www.katridout.com.au/our-services/postnatal-nutrition/"
 ---
 
 
-## Postpartum and breastfeeding nutrition
-
 ## Caring for yourself is the first step to caring for your baby
 
 The months after birth are a time of recovery, often with broken sleep, feeding to work out and little time to eat well. However feeding is going, and however you're feeling, nutrition support can help with energy, iron, recovery and getting regular meals back.
 As a new mum, your days are full, and it can feel impossible to prioritise yourself. Between feeds, nappies, and sleepless nights, even simple things like showering or brushing your teeth can slip to the bottom of the list.
 It’s easy to wonder how those picture-perfect mums on Instagram seem to have it all together. The truth is, nobody does it alone — and neither should you. Getting the right support makes all the difference.
 That’s where I come in. As a dietitian whose main interests include postnatal nutrition, I can help you rebuild your energy, check for nutrient gaps that may affect your recovery and energy, and plan meals that work with a baby in the house. If you're worried about milk supply, a lactation consultant, your midwife or child health nurse can assess feeding. I work alongside them on your own nutrition.
-
-### Quick tips for postnatal mums:
-
-✅ Stay hydrated, especially if breastfeeding
-
-✅ Eat a large variety of foods from the 5 core food groups
-
-✅ Eat high protein foods to rebuild tissues and promote healing as well as healthy hair, skin and nails
-
-✅ Establish a routine for your exercise and mealtimes to get back on track with your health
-
-✅ Get as much sleep and rest as you can. (when baby sleeps, you rest too – stop doing the laundry!)
-
-✅ Have pre-prepared high protein / high carb nutritious snacks on hand when you are tired or time-poor.
-
-### Why is postpartum nutrition important?
-The weeks and months after birth are a time of healing, recovery and adjustment as you step into life with your new baby. Your body is not only recovering from the intensity of labour but also working hard to produce milk and support your baby’s needs. Both childbirth and breastfeeding place high demands on your body, which is why your requirements for many key nutrients increase during this time.
-Nourishing yourself with the right foods helps your body heal, restores your energy, and supports you in your new role as a mum. Postpartum nutrition also plays a big role in supporting your mood and emotional wellbeing. Many women experience dips in mood after birth, and giving your body the nutrients it needs can help you feel stronger, more balanced and better able to cope with this time with your baby.
 
 ### How can I help you as a new mum?
 Getting back to feeling like yourself after having a baby isn’t always easy. Those little bundles of joy can leave you feeling physically exhausted and emotionally drained, often with little energy, time or focus left for your own needs.
@@ -60,6 +40,26 @@ If you’re ready to feel confident and supported in your postnatal journey, I�
 ### Not sure where to start?
 Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. You do not need to have it all worked out first. No preparation and no obligation.
 [Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
+
+## Postnatal nutrition basics
+
+### Why is postpartum nutrition important?
+The weeks and months after birth are a time of healing, recovery and adjustment as you step into life with your new baby. Your body is not only recovering from the intensity of labour but also working hard to produce milk and support your baby’s needs. Both childbirth and breastfeeding place high demands on your body, which is why your requirements for many key nutrients increase during this time.
+Nourishing yourself with the right foods helps your body heal, restores your energy, and supports you in your new role as a mum. Postpartum nutrition also plays a big role in supporting your mood and emotional wellbeing. Many women experience dips in mood after birth, and giving your body the nutrients it needs can help you feel stronger, more balanced and better able to cope with this time with your baby.
+
+### Quick tips for postnatal mums:
+
+✅ Stay hydrated, especially if breastfeeding
+
+✅ Eat a large variety of foods from the 5 core food groups
+
+✅ Eat high protein foods to rebuild tissues and promote healing as well as healthy hair, skin and nails
+
+✅ Establish a routine for your exercise and mealtimes to get back on track with your health
+
+✅ Get as much sleep and rest as you can. (when baby sleeps, you rest too – stop doing the laundry!)
+
+✅ Have pre-prepared high protein / high carb nutritious snacks on hand when you are tired or time-poor.
 
 ## Further reading
 - [Breastfeeding Nutrition and Milk Supply: What Actually Helps?](/blogs/breastfeeding-nutrition-and-milk-supply/)

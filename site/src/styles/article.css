@@ -100,3 +100,24 @@
 .nf{text-align:center;padding-block:clamp(80px,14vw,160px)}
 .nf p{color:var(--fg-soft);margin-top:1rem;max-width:34rem;margin-inline:auto}
 .nf .cta-row{justify-content:center}
+
+/* Service pages: section links, question disclosures, anchor offset below the sticky header */
+.article :is(h2,h3,[id]){scroll-margin-top:6rem}
+.toc{margin:0 0 2rem;padding:1rem 1.2rem;border:1px solid var(--line);border-radius:16px}
+.toc-h{margin:0 0 .5rem;font-weight:600;color:var(--heading)}
+.toc ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.5rem}
+.toc li{margin:0}
+.toc a{display:inline-flex;align-items:center;min-height:44px;padding:.35rem .9rem;border:1px solid var(--line);border-radius:999px;text-decoration:none;color:var(--fg);font-size:.95rem;background:var(--bg)}
+.toc a:hover{background:var(--mint)}
+.faq-list{display:grid;gap:.6rem;margin:1rem 0 2rem}
+.faq{border:1px solid var(--line);border-radius:14px;background:var(--bg)}
+.faq summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:1rem;min-height:44px;padding:.8rem 1rem;font-weight:600;color:var(--heading)}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"";flex:none;width:.55em;height:.55em;border:solid currentColor;border-width:0 2px 2px 0;transform:rotate(45deg);transition:transform .2s}
+.faq[open] summary::after{transform:rotate(-135deg)}
+.faq summary:focus-visible{outline:3px solid var(--sage-deep);outline-offset:2px;border-radius:14px}
+.faq-a{padding:0 1rem .4rem}
+@media (prefers-reduced-motion:reduce){.faq summary::after{transition:none}}
+.table-wrap-md{overflow-x:auto;margin:1rem 0}
+.table-wrap-md:focus-visible{outline:3px solid var(--sage-deep);outline-offset:2px}
+.prose tbody th{text-align:left;font-weight:600}
