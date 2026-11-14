@@ -1,26 +1,30 @@
 ---
-/* Nutrition support for women over 60 service page. Drafted 13 Nov 2026.
-   Kat approved the content 13 Nov 2026 (relayed by Anthony). Further health-copy changes need Kat.
-   Booking UTM uses a neutral code (svc-06) so no health or age detail travels in analytics or the booking link. */
+/* Eating well after 60 service page (men and women, 60s and 70s). Drafted 14 Nov 2026.
+   DRAFT: do not merge until Kat approves the health copy. Scope per Kat's email 14 Nov 2026:
+   men yes, no clients in their 80s, no DVA, no aged-care funding on the page.
+   Booking UTM uses a neutral code (svc-07) so no health or age detail travels in analytics or the booking link. */
 import Article from '../../layouts/Article.astro';
 import { BOOK_URL } from '../../lib/content';
 
-const book = (content: string) => `${BOOK_URL}?utm_source=website&utm_medium=landing_page&utm_campaign=svc-06&utm_content=${content}`;
+const book = (content: string) => `${BOOK_URL}?utm_source=website&utm_medium=landing_page&utm_campaign=svc-07&utm_content=${content}`;
 
 const helps: [string, string][] = [
-  ['Everyday changes in appetite', 'Planning meals and snacks that suit how much you feel like eating now, so the food you do eat works harder for you.'],
   ['Strength and muscle', 'Practical ways to get enough protein across the day, using foods you already like.'],
-  ['Bone health', 'Checking the calcium and protein in your usual meals and where simple changes would help.'],
+  ['Weight changes', 'If your weight has crept up over the years and it is on your mind, Kat will talk through a sensible approach that keeps your strength, health and enjoyment of food in view. There is no set diet.'],
   ['Cholesterol and heart health', 'Eating patterns that support heart health and fit your routine.'],
-  ['Type 2 diabetes', 'Food routines that support steady blood glucose, alongside the care you get from your GP.'],
-  ['Everyday eating', 'Cooking for one or two, shopping, eating out and keeping meals enjoyable.'],
+  ['Blood pressure', 'A look at salt and the everyday foods and drinks that matter for blood pressure, alongside the care you get from your GP.'],
+  ['Type 2 diabetes and pre-diabetes', 'Food routines that support steady blood glucose, alongside the care you get from your GP.'],
+  ['Bone health', 'Checking the calcium and protein in your usual meals and where simple changes would help.'],
+  ['Everyday changes in appetite', 'Planning meals and snacks that suit how much you feel like eating now, so the food you do eat works harder for you.'],
+  ['Everyday eating', 'Cooking for one or two, shopping on a budget, eating out and keeping meals enjoyable.'],
 ];
 
 const faq: [string, string][] = [
   ['Do I need a referral?', 'No. You can book with Kat directly. A GP referral is only needed if you want to claim a Medicare rebate.'],
   ['Can I claim Medicare or private health?', 'Medicare rebates may be available on paid consultations for eligible clients with a valid referral under a GP Chronic Condition Management Plan (GPCCMP). Many private health extras policies also cover dietitian visits, depending on your fund and level of cover. Ask Kat about fees and any gap before booking.'],
-  ['Can I book on behalf of my mother or partner?', 'Yes. Family members are welcome to book the free call and to join the appointment if the person coming to see Kat would like that.'],
-  ['Is this a weight loss program?', 'No. Kat focuses on eating in a way that supports your strength, health and energy, and that you enjoy and can keep up.'],
+  ['Does Kat see men?', 'Yes. Kat sees men and women in their 60s and 70s.'],
+  ['Can my husband, wife or partner come too?', 'Yes. Partners are welcome on the free call and at the appointment. If you both want your own assessment and plan, Kat will explain how that works on the call.'],
+  ['Is this a weight loss program?', 'No. There is no set diet or program. If weight is one of your concerns, Kat will talk it through with you and focus on eating in a way that supports your strength, health and energy, and that you enjoy and can keep up.'],
   ['I have lost weight without trying, or my appetite has been poor for a while. Can Kat help?', 'Please see your GP first so the cause can be checked. Kat can then work alongside your GP on the food side.'],
   ['What happens on the free 15-minute call?', 'Kat calls you at the time you book. She listens to what is going on, explains whether she is the right fit and what the next step could be, and talks you through fees before you commit to anything. Your individual assessment and recommendations happen at the initial consultation.'],
   ['I find booking online difficult. Is there another way?', 'Yes. Call 1300 640 104 or send a message through the contact page and Kat will arrange a time with you.'],
@@ -28,11 +32,11 @@ const faq: [string, string][] = [
 const faqLd = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":faq.map(([q,a])=>({"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":a}}))};
 ---
 <Article
-  title="Nutrition support for women over 60"
-  metaTitle="Dietitian for Women Over 60, Brisbane and Online"
-  description="Katrina Ridout, Accredited Practising Dietitian. Practical help with appetite, strength, bone health and everyday eating for women over 60. Milton, Brisbane or telehealth."
-  lede="If your appetite has changed, you’re unsure what to eat for bone and muscle health, or you want help adapting meals around a health condition, Katrina can help you work out what to focus on. She’s an Accredited Practising Dietitian who builds a practical plan around the foods you enjoy, your health needs and your everyday routine."
-  crumbs={[{ label: 'Home', href: '/' }, { label: 'Services', href: '/our-services/' }, { label: 'Women over 60' }]}
+  title="Eating well after 60"
+  metaTitle="Dietitian for Over 60s, Brisbane and Online"
+  description="Katrina Ridout, Accredited Practising Dietitian. Practical nutrition help for men and women in their 60s and 70s. Milton, Brisbane or telehealth."
+  lede="What you need from food can shift in your 60s and 70s. If you want to stay strong and active, have been told to watch your cholesterol, blood pressure or blood glucose, or are simply unsure what to eat now, Katrina can help you work out what matters most. She is an Accredited Practising Dietitian who builds a practical plan around the foods you enjoy, your health needs and your everyday routine. Men and women are welcome, on your own or as a couple."
+  crumbs={[{ label: 'Home', href: '/' }, { label: 'Services', href: '/our-services/' }, { label: 'Eating well after 60' }]}
   ctaHeading="Talk to Kat before you decide"
   ctaText="A free 15-minute introductory phone call. Tell Kat what is going on and she will explain how she could help. In person in Milton, Brisbane, or by telehealth across Australia."
   cta="Book a free call"
@@ -50,7 +54,7 @@ const faqLd = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":fa
         <li>Accredited Practising Dietitian (APD)</li>
         <li>No referral needed</li>
         <li>Milton or telehealth</li>
-        <li>Family welcome</li>
+        <li>Men and women welcome</li>
       </ul>
     </div>
   </div>
@@ -69,7 +73,7 @@ const faqLd = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":fa
 
   <h2>How this fits with your medical care</h2>
   <p>Kat provides nutrition assessment and advice. Your GP or specialist looks after diagnosis and medicines. With your permission, Kat can write to your GP so everyone is working from the same plan.</p>
-  <p>Some things need a doctor first. If you have lost weight without trying, your appetite has been poor for some time, or you have trouble swallowing, please see your GP. Kat will also suggest this if it comes up on your call.</p>
+  <p>Some things need a doctor first. If you have lost weight without trying, your appetite has been poor for some time, or you have trouble swallowing, please see your GP. Kat will also suggest this if it comes up on your call. If your needs change or go beyond what Kat offers, she will refer you back to your GP or to another service.</p>
 
   <h2>How to start</h2>
   <ol>
@@ -99,7 +103,7 @@ const faqLd = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":fa
   <h2>Common questions</h2>
   {faq.map(([q, a]) => (<><h3>{q}</h3><p>{a}</p></>))}
 
-  <p>Looking for help earlier in midlife? See <a href="/our-services/menopause-nutrition/">perimenopause and menopause nutrition</a>. You can also see how appointments are structured on the <a href="/consultations/">consultations page</a>, or read more <a href="/about-kat/">about Kat</a>.</p>
+  <p>Looking for women’s health in particular? See <a href="/our-services/menopause-nutrition/">perimenopause and menopause nutrition</a>. You can also see how appointments are structured on the <a href="/consultations/">consultations page</a>, or read more <a href="/about-kat/">about Kat</a>.</p>
 </Article>
 <style>
   .ow-top{display:grid;gap:1.2rem;align-items:center;margin:0 0 2em}

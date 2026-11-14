@@ -7,8 +7,8 @@ import { pathways, callLink } from '../../data/pathways';
 
 export async function getStaticPaths() {
   const services = await getCollection('services');
-  // /our-services/dietitian/, /our-services/menopause-nutrition/ and /our-services/nutrition-for-women-over-60/ have their own pages.
-  return services.filter((s) => !['dietitian', 'menopause-nutrition', 'nutrition-for-women-over-60'].includes(serviceSlug(s))).map((service) => ({ params: { slug: serviceSlug(service) }, props: { service, all: services } }));
+  // /our-services/dietitian/, /our-services/menopause-nutrition/ and /our-services/nutrition-after-60/ have their own pages.
+  return services.filter((s) => !['dietitian', 'menopause-nutrition', 'nutrition-after-60'].includes(serviceSlug(s))).map((service) => ({ params: { slug: serviceSlug(service) }, props: { service, all: services } }));
 }
 const { service, all } = Astro.props;
 const { Content } = await render(service);
