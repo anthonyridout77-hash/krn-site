@@ -1,9 +1,9 @@
 ---
 title: "Navigating Pregnancy with PCOS: A Nutritional Guide by Katrina Ridout"
 seoTitle: "Pregnancy with PCOS: A Nutrition Guide"
-description: "In this comprehensive guide by Katrina Ridout, an Accredited Practising Dietitian & Nutritionist, discover expert advice on managing Polycystic Ovary Syndrome (PCOS) during pregnancy. Learn about the importance of nutrition, balanced diets, and lifestyle choices to support a healthy pregnancy and baby while dealing with PCOS."
+description: "Managing PCOS in pregnancy: balanced meals, low-GI foods, protein and folate, with Kat Ridout APD in Milton, Brisbane, or telehealth Australia-wide."
 date: "2024-04-30"
-updated: "2026-11-10"
+updated: "2026-11-15"
 categories:
   - "Pregnancy"
 wpId: "3333"
@@ -12,22 +12,22 @@ wpUrl: "https://www.katridout.com.au/blogs/navigating-pregnancy-with-pcos-a-nutr
 
 Pregnancy is a joyous journey, but for women with Polycystic Ovary Syndrome (PCOS), it can come with unique challenges. PCOS, a hormonal disorder affecting about 1 in 10 women of childbearing age, can impact fertility and increase the risk of complications during pregnancy. However, with the right approach to nutrition and lifestyle, women with PCOS can improve their chances of a healthy pregnancy and baby.
 
-Katrina Ridout, an Accredited Practising Dietitian & Nutritionist, is an expert in supporting women with PCOS through their pregnancy journey. She has more than 20 years of experience as a dietitian.
+Katrina Ridout is an Accredited Practising Dietitian (APD) who works with women with PCOS through pregnancy. She has more than 20 years of experience as a dietitian.
 
 Nutrition plays a crucial role in managing PCOS symptoms and supporting overall health, especially during pregnancy. Here’s a nutritional guide by Katrina Ridout to help women with PCOS navigate pregnancy with confidence:
 
-1. **Balanced Diet:** Focus on a balanced diet rich in fruits, vegetables, whole grains, lean proteins, and healthy fats. This can help regulate blood sugar levels, manage weight, and reduce the risk of gestational diabetes.
+1. **Balanced Diet:** Focus on a balanced diet rich in fruits, vegetables, whole grains, lean proteins, and healthy fats. This can help regulate blood sugar levels, manage weight, and reduce the risk of [gestational diabetes](/blogs/gestational-diabetes-meal-plan-guide/).
 2. **Low Glycaemic Index (GI) Foods:** Choose low GI foods such as whole grains, legumes, and non-starchy vegetables to help stabilise blood sugar levels and reduce insulin resistance, a common issue in PCOS.
 3. **Healthy Fats:** Include sources of healthy fats like avocados, nuts, seeds, and olive oil in your diet. Omega-3 fatty acids, in particular, are beneficial for reducing inflammation and supporting foetal brain development.
 4. **Protein:** Aim to include protein-rich foods such as lean meats, poultry, fish, eggs, dairy, legumes, and tofu in your meals. Protein helps support the growth and development of your baby.
-5. **Folic Acid:** Ensure you’re getting enough folic acid, a B vitamin that helps prevent neural tube defects in the baby. Good sources include fortified cereals, leafy greens, and legumes.
+5. **Folic Acid:** Ensure you’re getting enough [folic acid](/blogs/folate-vs-folic-acid-pregnancy/), a B vitamin that helps prevent neural tube defects in the baby. Good sources include fortified cereals, leafy greens, and legumes.
 6. **Limit Sugary and Processed Foods:** Minimise your intake of sugary drinks, sweets, and processed foods, as they can lead to spikes in blood sugar levels and contribute to weight gain.
 7. **Stay Hydrated:** Drink plenty of water throughout the day to stay hydrated and support healthy digestion and circulation.
 8. **Regular Physical Activity:** Incorporate regular physical activity into your routine, as it can help manage weight, reduce insulin resistance, and improve overall health.
 9. **Stress Management:** Practice stress-reducing techniques such as yoga, meditation, or deep breathing exercises to help manage stress, which can worsen PCOS symptoms.
 10. **Consult with a Dietitian:** Consider consulting with a dietitian who specialises in PCOS and pregnancy, like Katrina Ridout. They can provide personalised nutrition advice and support based on your specific needs and health goals.
 
-Remember, every woman’s experience with PCOS is unique, so it’s essential to listen to your body and work closely with your healthcare team, including a qualified dietitian like Katrina Ridout, to ensure the best possible outcomes for you and your baby. With the right approach to nutrition and lifestyle, women with PCOS can navigate pregnancy with confidence and embrace the journey to motherhood.
+Remember, every woman’s experience with PCOS is unique, so it’s essential to listen to your body and work closely with your healthcare team, including a qualified dietitian like Katrina Ridout, so your nutrition plan suits you and your pregnancy. With the right approach to nutrition and lifestyle, women with PCOS can navigate pregnancy with confidence and embrace the journey to motherhood.
 
 
 Kat works one to one on PMOS (PCOS) in person in Milton, Brisbane, or by telehealth anywhere in Australia. See [how her PMOS (PCOS) service works](/our-services/prenatal-nutrition-and-dietetics/polycystic-ovary-syndrome/).
