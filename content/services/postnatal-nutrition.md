@@ -1,6 +1,6 @@
 ---
 title: "Postpartum and Breastfeeding Dietitian"
-seoTitle: "Postpartum and Breastfeeding Dietitian | Telehealth Australia-wide and Brisbane"
+seoTitle: "Postpartum and Breastfeeding Dietitian Brisbane and Online"
 description: "Postpartum and breastfeeding dietitian Kat Ridout, Accredited Practising Dietitian, sees new mums by telehealth anywhere in Australia and in person in Milton, Brisbane, from birth to two years."
 date: "2025-08-04"
 updated: "2026-11-11"
