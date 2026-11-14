@@ -71,6 +71,12 @@ const toc = [
     {faqLd && <script type="application/ld+json" set:html={JSON.stringify(faqLd)} />}
   </Fragment>
   <p slot="hero" class="hero-cta"><a class="btn btn-coral" href={pw ? callLink(pw) : BOOK_URL}>Book a free 15-minute call</a></p>
+  {toc.length > 2 && (
+    <nav class="toc" aria-label="On this page">
+      <p class="toc-h">On this page</p>
+      <ul>{toc.map((t) => <li><a href={`#${t.id}`}>{t.label}</a></li>)}</ul>
+    </nav>
+  )}
   {pw && first && (
     <aside class="glance" id="at-a-glance" aria-label="Working with Kat at a glance" style="margin:0 0 2rem;padding:1.2rem 1.4rem;background:var(--mint);border-radius:16px">
       <h2 style="font-size:1.2rem;margin:0 0 .6rem">Working with Kat at a glance</h2>
@@ -82,12 +88,6 @@ const toc = [
         <div><dt style="font-weight:600">Next step</dt><dd style="margin:0"><a href={callLink(pw)}>Book a free 15-minute call</a> to talk it through, or <a href={`/consultations/#pathway-${pw.id}`}>see the full {pathway.name} pathway</a>.</dd></div>
       </dl>
     </aside>
-  )}
-  {toc.length > 2 && (
-    <nav class="toc" aria-label="On this page">
-      <p class="toc-h">On this page</p>
-      <ul>{toc.map((t) => <li><a href={`#${t.id}`}>{t.label}</a></li>)}</ul>
-    </nav>
   )}
   {pw && (
       <section class="pw-steps" aria-labelledby="pw-steps-h" style="margin:0 0 2rem;padding:1.2rem 1.4rem;background:var(--mint);border-radius:16px">
