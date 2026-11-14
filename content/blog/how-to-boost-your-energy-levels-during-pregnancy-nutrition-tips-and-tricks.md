@@ -1,5 +1,6 @@
 ---
 title: "How to Boost Your Energy Levels During Pregnancy: Nutrition Tips and Tricks"
+seoTitle: "Boosting Energy in Pregnancy: Nutrition Tips"
 description: "Discover essential nutrition tips to boost your energy levels during pregnancy. Learn how balanced meals, smart snacking, and proper hydration can help you stay energised and support your baby's health."
 date: "2024-12-11"
 updated: "2026-07-28"

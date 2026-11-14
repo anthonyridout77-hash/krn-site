@@ -1,5 +1,6 @@
 ---
 title: "Breakfast in the First Trimester: What an Australian Dietitian Puts on the Plate"
+seoTitle: "Breakfast in the First Trimester: A Dietitian’s Guide"
 description: "An Australian dietitian on breakfast in the first trimester: what to eat when nausea hits, the iodine and folate in your toast, and the caffeine limit."
 date: "2026-10-10"
 updated: "2026-10-10"

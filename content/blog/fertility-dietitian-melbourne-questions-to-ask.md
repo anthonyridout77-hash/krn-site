@@ -1,5 +1,6 @@
 ---
 title: "Choosing a fertility dietitian in Melbourne: the questions to ask, and how Kat works with you by telehealth"
+seoTitle: "Questions to Ask a Fertility Dietitian in Melbourne"
 description: "Trying to conceive in Melbourne? The questions worth asking a fertility dietitian before you book, what the evidence says, and how Kat Ridout, APD, works with you by telehealth."
 date: "2026-10-31"
 updated: "2026-10-31"

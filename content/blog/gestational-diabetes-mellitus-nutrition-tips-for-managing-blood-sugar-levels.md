@@ -1,5 +1,6 @@
 ---
 title: "Gestational Diabetes Mellitus: Nutrition Tips for Managing Blood Sugar Levels"
+seoTitle: "Gestational Diabetes: Nutrition Tips for Blood Sugar"
 description: "Learn expert nutrition tips for managing blood sugar levels during pregnancy with gestational diabetes. Find out how to eat balanced meals, monitor carbohydrates, and stay healthy for you and your baby"
 date: "2024-02-10"
 updated: "2026-11-10"

@@ -1,5 +1,6 @@
 ---
 title: "PMOS (PCOS) dietitian in Sydney for fertility: what to look for and how telehealth works"
+seoTitle: "PMOS (PCOS) Fertility Dietitian in Sydney"
 description: "Looking for a PMOS (PCOS) dietitian in Sydney while trying to conceive? What to look for, what a dietitian does, and how Kat Ridout APD works by telehealth."
 date: "2026-11-07"
 updated: "2026-11-07"

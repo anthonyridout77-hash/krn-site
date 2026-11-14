@@ -1,5 +1,6 @@
 ---
 title: "Nutrition Support for IVF in Adelaide: What a Fertility Dietitian Wants You to Know"
+seoTitle: "IVF Nutrition Support in Adelaide: What to Know"
 description: "Evidence-based IVF nutrition support for Adelaide women, online with Kat Ridout APD. Work alongside your fertility clinic. Book a free 15-minute call."
 date: "2026-07-23"
 updated: "2026-11-10"

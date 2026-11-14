@@ -1,5 +1,6 @@
 ---
 title: "Postpartum Nutrition: What a Brisbane Dietitian Looks At in the First Months After Birth"
+seoTitle: "Postpartum Nutrition: A Brisbane Dietitian’s Guide"
 description: "A Brisbane postpartum dietitian on nutrition in the first months after birth: iodine, iron, energy while breastfeeding, and when to see an APD. General education."
 date: "2026-09-26"
 updated: "2026-09-26"

@@ -1,5 +1,6 @@
 ---
 title: "How do I choose a fertility nutrition expert for a personalised meal plan?"
+seoTitle: "How to Choose a Fertility Nutrition Expert"
 description: "Choose an Accredited Practising Dietitian who specialises in fertility and assesses your history before writing a plan. What to check, what a personalised meal plan should include, red flags and costs in Australia."
 date: "2026-09-25"
 updated: "2026-09-25"

@@ -1,5 +1,6 @@
 ---
 title: "Endometriosis and Fertility Nutrition: What an Australian Dietitian Actually Looks At"
+seoTitle: "Endometriosis and Fertility Nutrition: A Dietitian’s View"
 description: "A Brisbane fertility dietitian on what nutrition can and cannot do alongside endometriosis care, the questions people bring, and when to see an APD."
 date: "2026-09-13"
 updated: "2026-09-20"

@@ -1,5 +1,6 @@
 ---
 title: "How to choose a gestational diabetes dietitian in Brisbane, and how Kat works with you by telehealth"
+seoTitle: "How to Choose a Gestational Diabetes Dietitian, Brisbane"
 description: "Just diagnosed with gestational diabetes? Here is what to look for in a Brisbane dietitian, when to book, and how I work with you in Milton or by telehealth."
 date: "2026-10-24"
 updated: "2026-10-24"

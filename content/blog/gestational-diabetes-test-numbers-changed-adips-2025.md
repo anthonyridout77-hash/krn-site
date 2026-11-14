@@ -1,5 +1,6 @@
 ---
 title: "The Gestational Diabetes Test Numbers Changed in Australia: What the 2025 ADIPS Criteria Mean"
+seoTitle: "New Gestational Diabetes Test Numbers (ADIPS 2025)"
 description: "Australia raised its gestational diabetes test thresholds in 2025. The new OGTT numbers, what early gestational diabetes means, and where nutrition fits."
 date: "2026-09-07"
 updated: "2026-09-10"

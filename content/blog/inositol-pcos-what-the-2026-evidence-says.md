@@ -1,5 +1,6 @@
 ---
 title: "Inositol and PMOS (formerly PCOS): What the 2026 Evidence Actually Says"
+seoTitle: "Inositol and PMOS (PCOS): The 2026 Evidence"
 description: "Inositol is the most-recommended supplement for PMOS, formerly known as PCOS. A Brisbane Accredited Practising Dietitian reads the 2026 research and what to build the plate around."
 date: "2026-08-31"
 updated: "2026-10-08"

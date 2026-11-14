@@ -1,5 +1,6 @@
 ---
 title: "How to choose a pregnancy dietitian in Melbourne, and how Kat works with you by telehealth"
+seoTitle: "How to Choose a Pregnancy Dietitian in Melbourne"
 description: "Pregnant in Melbourne? How nutrition changes across each trimester, how to choose an Accredited Practising Dietitian, and how Kat Ridout works with you by telehealth."
 date: "2026-10-06"
 updated: "2026-10-06"

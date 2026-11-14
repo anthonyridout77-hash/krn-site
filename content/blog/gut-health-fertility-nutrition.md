@@ -1,5 +1,6 @@
 ---
 title: "Gut Health and Fertility: What the Science Really Says (and Gentle Ways to Start)"
+seoTitle: "Gut Health and Fertility: What the Science Says"
 description: "Gut health is everywhere on your feed — but what does it actually mean for fertility? A Brisbane fertility dietitian (APD) shares warm, food-first guidance."
 date: "2026-07-07"
 updated: "2026-08-14"

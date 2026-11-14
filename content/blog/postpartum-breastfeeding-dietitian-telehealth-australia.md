@@ -1,5 +1,6 @@
 ---
 title: "Postpartum and breastfeeding dietitian by telehealth in Australia: how it works"
+seoTitle: "Postpartum and Breastfeeding Dietitian by Telehealth"
 description: "Need postpartum or breastfeeding nutrition help from home? Katrina Ridout Nutrition offers APD telehealth Australia-wide, plus in person in Milton, Brisbane."
 date: "2026-11-11"
 updated: "2026-11-11"

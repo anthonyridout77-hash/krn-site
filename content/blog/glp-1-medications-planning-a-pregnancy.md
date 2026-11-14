@@ -1,5 +1,6 @@
 ---
 title: "GLP-1 Medications and Planning a Pregnancy: The Part Nobody Talks About"
+seoTitle: "GLP-1 Medications and Planning a Pregnancy"
 description: "New 2026 consensus guidance covers GLP-1 medications before, during and after pregnancy. A Brisbane dietitian (APD) on the nutrition side of that decision."
 date: "2026-08-17"
 updated: "2026-08-17"

@@ -1,5 +1,6 @@
 ---
 title: "Vitamin A and Vitamin K in Pregnancy: What the Australian Numbers Actually Say"
+seoTitle: "Vitamin A and K in Pregnancy: The Australian Numbers"
 description: "A Brisbane dietitian on vitamin A in pregnancy: the real upper limit, liver and pate, retinol in skincare, and where vitamin K actually fits."
 date: "2026-10-03"
 updated: "2026-10-03"

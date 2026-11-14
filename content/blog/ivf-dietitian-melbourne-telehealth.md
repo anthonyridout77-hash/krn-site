@@ -1,5 +1,6 @@
 ---
 title: "How to choose an IVF dietitian in Melbourne, and how Kat works with you by telehealth"
+seoTitle: "How to Choose an IVF Dietitian in Melbourne"
 description: "Doing IVF in Melbourne? Which nutrients are worth your attention before a cycle, how PMOS or endometriosis changes things, and how Kat Ridout, APD, works with you by telehealth."
 date: "2026-10-06"
 updated: "2026-10-06"

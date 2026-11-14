@@ -1,5 +1,6 @@
 ---
 title: "How to choose a PMOS dietitian in Brisbane (previously called PCOS), and how Kat can help"
+seoTitle: "How to Choose a PMOS (PCOS) Dietitian in Brisbane"
 description: "Living with PMOS (previously called PCOS) in Brisbane? What a dietitian actually does, how nutrition helps insulin resistance, hormones and fertility, and how Kat Ridout, APD, works with you."
 date: "2026-10-06"
 updated: "2026-10-06"

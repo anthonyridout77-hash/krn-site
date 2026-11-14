@@ -1,5 +1,6 @@
 ---
 title: "Pregnancy and IVF Nutrition Support in Perth: What an Accredited Practising Dietitian Wants You to Know"
+seoTitle: "Pregnancy and IVF Nutrition Support in Perth"
 description: "Fertility, IVF, gestational diabetes and postpartum nutrition support for Perth women. Accredited Practising Dietitian, one to one telehealth across Western Australia."
 date: "2026-07-28"
 updated: "2026-08-18"

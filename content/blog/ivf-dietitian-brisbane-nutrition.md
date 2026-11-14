@@ -1,5 +1,6 @@
 ---
 title: "IVF Nutrition: What a Fertility Dietitian in Brisbane Actually Looks At"
+seoTitle: "IVF Nutrition: What a Brisbane Fertility Dietitian Checks"
 description: "What an IVF dietitian in Brisbane looks at before and during a cycle, and what nutrition can and cannot do alongside your fertility team. General education."
 date: "2026-09-20"
 updated: "2026-10-04"

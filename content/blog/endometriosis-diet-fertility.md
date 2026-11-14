@@ -1,5 +1,6 @@
 ---
 title: "Endometriosis Diet: What to Eat to Reduce Pain and Support Fertility"
+seoTitle: "Endometriosis Diet: Eating for Pain and Fertility"
 description: "Can diet help endometriosis? Brisbane dietitian Kat Ridout outlines the anti-inflammatory eating pattern, oestrogen metabolism strategies, and key supplements for endometriosis and fertility."
 date: "2026-06-16"
 updated: "2026-10-04"

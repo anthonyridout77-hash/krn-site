@@ -1,5 +1,6 @@
 ---
 title: "Perfect Grilled Salmon with Green Beans, Carrots and Broccoli"
+seoTitle: "Grilled Salmon with Green Beans and Broccoli recipe"
 date: "2025-08-04"
 updated: "2025-08-04"
 wpId: "564"

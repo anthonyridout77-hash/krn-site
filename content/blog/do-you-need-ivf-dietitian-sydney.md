@@ -1,5 +1,6 @@
 ---
 title: "How to choose an IVF dietitian in Sydney, and how Kat works with you by telehealth"
+seoTitle: "How to Choose an IVF Dietitian in Sydney"
 description: "Preparing for IVF in Sydney? What an IVF dietitian looks at before and during a cycle, how to choose one, and how Kat Ridout, APD, works with you by telehealth."
 date: "2026-10-06"
 updated: "2026-10-06"

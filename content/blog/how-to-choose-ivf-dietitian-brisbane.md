@@ -1,5 +1,6 @@
 ---
 title: "How to choose an IVF dietitian in Brisbane, and how Kat works with you by telehealth"
+seoTitle: "How to Choose an IVF Dietitian in Brisbane"
 description: "Thinking about adding a dietitian to your IVF team in Brisbane? Here’s what to look for, what to ask before you book, and how I work with you in Milton or by telehealth."
 date: "2026-10-15"
 updated: "2026-10-15"

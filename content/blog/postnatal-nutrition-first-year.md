@@ -1,5 +1,6 @@
 ---
 title: "Feeding Yourself While You Feed the Baby: Postnatal Nutrition Across the First Year"
+seoTitle: "Postnatal Nutrition Across the First Year"
 description: "Postnatal nutrition from week one to month twelve with Kat Ridout APD, postpartum dietitian working Australia-wide by telehealth. Book a free callback."
 date: "2026-08-15"
 updated: "2026-08-15"

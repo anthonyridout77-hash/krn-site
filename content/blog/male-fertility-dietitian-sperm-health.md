@@ -1,5 +1,6 @@
 ---
 title: "Can a male fertility dietitian improve sperm health before conception?"
+seoTitle: "Male Fertility Dietitian: Nutrition for Sperm Health"
 description: "Planning a pregnancy? Kat, an Accredited Practising Dietitian (APD) in Brisbane, explains how nutrition and lifestyle can support sperm health in the months before conception, with telehealth Australia-wide."
 date: "2026-10-10"
 updated: "2026-11-10"

@@ -1,5 +1,6 @@
 ---
 title: "What Not to Eat When Pregnant: An Australian Dietitian’s Guide to Eating Safely"
+seoTitle: "What Not to Eat When Pregnant: An Australian Guide"
 description: "What not to eat when pregnant, in Australian terms. FSANZ-aligned guidance on listeria, fish and mercury, alcohol and food handling, from an APD. General education."
 date: "2026-10-06"
 updated: "2026-10-06"

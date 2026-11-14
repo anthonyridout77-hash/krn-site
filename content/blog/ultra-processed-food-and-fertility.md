@@ -1,5 +1,6 @@
 ---
 title: "Ultra-Processed Food and Fertility: What the New Research Actually Says"
+seoTitle: "Ultra-Processed Food and Fertility: The New Research"
 description: "New 2026 research links ultra-processed food to fertility and early embryo growth, for both partners. A Brisbane dietitian (APD) explains what it means in practice."
 date: "2026-08-10"
 updated: "2026-08-11"

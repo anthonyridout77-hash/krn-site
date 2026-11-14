@@ -1,5 +1,6 @@
 ---
 title: "Fertility and pregnancy dietitian for Adelaide: how telehealth care works"
+seoTitle: "Fertility and Pregnancy Dietitian for Adelaide (Telehealth)"
 description: "Looking for fertility or pregnancy nutrition help in Adelaide? Katrina Ridout Nutrition is a Brisbane APD who sees Adelaide clients by telehealth video."
 date: "2026-11-12"
 updated: "2026-11-12"

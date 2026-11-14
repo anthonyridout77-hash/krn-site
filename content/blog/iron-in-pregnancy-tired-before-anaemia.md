@@ -1,5 +1,6 @@
 ---
 title: "Iron in Pregnancy: Why You Can Feel Wiped Out Long Before Your Bloods Say Anaemia"
+seoTitle: "Iron in Pregnancy: Tired Before Bloods Show Anaemia"
 description: "Exhausted in pregnancy? You can be low in iron well before a blood test calls it anaemia. An Accredited Practising Dietitian explains what actually helps."
 date: "2026-08-03"
 updated: "2026-08-11"

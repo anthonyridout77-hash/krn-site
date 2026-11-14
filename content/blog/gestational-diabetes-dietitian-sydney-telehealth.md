@@ -1,5 +1,6 @@
 ---
 title: "Gestational diabetes dietitian in Sydney: what to look for and how telehealth works"
+seoTitle: "Gestational Diabetes Dietitian in Sydney (Telehealth)"
 description: "Need a gestational diabetes dietitian in Sydney? Katrina Ridout Nutrition offers APD telehealth Australia-wide, working alongside your hospital team or GP."
 date: "2026-11-10"
 updated: "2026-11-10"
