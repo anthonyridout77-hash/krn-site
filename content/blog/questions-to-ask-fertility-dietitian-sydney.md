@@ -1,5 +1,6 @@
 ---
 title: "Questions to ask a fertility dietitian in Sydney before you book, and how Kat works with you by telehealth"
+seoTitle: "Questions to Ask a Fertility Dietitian in Sydney"
 description: "Trying to conceive in Sydney? The questions worth asking a fertility dietitian before you book, and how Kat Ridout, Accredited Practising Dietitian, works with you and your partner by telehealth."
 date: "2026-10-07"
 updated: "2026-10-07"

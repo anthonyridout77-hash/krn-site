@@ -1,5 +1,6 @@
 ---
 title: "Optimising Preconception Nutrition: Setting the Stage for a Healthy Pregnancy"
+seoTitle: "Optimising Preconception Nutrition for Pregnancy"
 description: "Discover expert advice on optimising preconception nutrition from Katrina Ridout, focusing on key nutrients, hormonal balance, and lifestyle adjustments to enhance fertility and ensure a healthy pregnancy. Schedule a consultation today!"
 date: "2024-08-17"
 updated: "2026-08-11"

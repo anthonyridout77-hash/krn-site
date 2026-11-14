@@ -1,5 +1,6 @@
 ---
 title: "How to choose a pregnancy dietitian in Canberra, and how Kat works with you by telehealth"
+seoTitle: "How to Choose a Pregnancy Dietitian in Canberra"
 description: "Pregnant or planning in Canberra? Where to start with pregnancy nutrition support, how to choose an Accredited Practising Dietitian, and how Kat Ridout works with you by telehealth."
 date: "2026-10-06"
 updated: "2026-10-06"

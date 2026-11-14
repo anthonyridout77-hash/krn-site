@@ -1,5 +1,6 @@
 ---
 title: "How to choose a fertility dietitian in Melbourne, and how Kat works with you by telehealth"
+seoTitle: "How to Choose a Fertility Dietitian in Melbourne"
 description: "Trying to conceive in Melbourne? What a fertility dietitian does, what to eat in the months before, how to choose an APD, and how Kat Ridout works with you by telehealth."
 date: "2026-10-06"
 updated: "2026-10-06"

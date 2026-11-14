@@ -1,5 +1,6 @@
 ---
 title: "How to choose a pregnancy dietitian in Sydney, and how Kat works with you by telehealth"
+seoTitle: "How to Choose a Pregnancy Dietitian in Sydney"
 description: "Pregnant or planning in Sydney? What a pregnancy dietitian does, what matters in each trimester, how to choose an APD, and how Kat Ridout works with you by telehealth."
 date: "2026-10-06"
 updated: "2026-10-06"

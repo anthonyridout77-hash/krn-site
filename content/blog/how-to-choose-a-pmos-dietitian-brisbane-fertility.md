@@ -1,5 +1,6 @@
 ---
 title: "How to choose a PMOS dietitian in Brisbane for fertility, and how Kat works with you by telehealth"
+seoTitle: "How to Choose a PMOS Fertility Dietitian in Brisbane"
 description: "What to look for in a PMOS (previously called PCOS) dietitian when you’re trying to conceive, and how Kat works with you in Milton or by telehealth Australia-wide."
 date: "2026-10-23"
 updated: "2026-11-10"

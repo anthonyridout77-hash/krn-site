@@ -1,5 +1,6 @@
 ---
 title: "How to choose a fertility dietitian on the Gold Coast, and how Kat works with you in person or by telehealth"
+seoTitle: "How to Choose a Fertility Dietitian on the Gold Coast"
 description: "Trying to conceive on the Gold Coast? What a fertility dietitian does, what nutrition can and can’t change, how to choose an APD, and how Kat Ridout works with you."
 date: "2026-10-06"
 updated: "2026-10-06"

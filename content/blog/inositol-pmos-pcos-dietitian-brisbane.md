@@ -1,5 +1,6 @@
 ---
 title: "Inositol and PMOS, formerly PCOS: what the guideline actually says"
+seoTitle: "Inositol and PMOS (PCOS): What the Guideline Says"
 description: "What the 2023 international guideline really says about inositol for PMOS, formerly PCOS, and the nutrition that sits alongside medical care. From a Brisbane dietitian."
 date: "2026-10-17"
 updated: "2026-10-17"

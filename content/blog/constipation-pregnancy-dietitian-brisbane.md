@@ -1,5 +1,6 @@
 ---
 title: "Constipation in pregnancy: what an Australian dietitian looks at first"
+seoTitle: "Constipation in Pregnancy: What a Dietitian Checks First"
 description: "A Brisbane pregnancy dietitian on what the evidence supports for constipation in pregnancy, where fibre fits, how much you need, and when to ask for help."
 date: "2026-11-16"
 updated: "2026-11-16"

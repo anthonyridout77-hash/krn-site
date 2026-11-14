@@ -1,5 +1,6 @@
 ---
 title: "Choline in pregnancy: the nutrient almost nobody mentions, and what an Australian dietitian looks at"
+seoTitle: "Choline in Pregnancy: The Overlooked Nutrient"
 description: "Choline barely gets mentioned in pregnancy, yet the Australian data suggests about half of us fall short of the target. Here is the number, where the food comes from, and the one source to be careful with."
 date: "2026-10-24"
 updated: "2026-10-24"

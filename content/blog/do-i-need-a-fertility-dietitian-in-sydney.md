@@ -1,5 +1,6 @@
 ---
 title: "How to choose a fertility dietitian in Sydney, and how Kat works with you by telehealth"
+seoTitle: "How to Choose a Fertility Dietitian in Sydney"
 description: "Trying to conceive in Sydney? What a fertility dietitian does, how to choose one, what the evidence says, and how Kat Ridout, Accredited Practising Dietitian, works with you by telehealth."
 date: "2026-10-06"
 updated: "2026-10-06"

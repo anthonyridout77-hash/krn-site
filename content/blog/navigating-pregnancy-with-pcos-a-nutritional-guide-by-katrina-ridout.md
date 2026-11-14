@@ -1,5 +1,6 @@
 ---
 title: "Navigating Pregnancy with PCOS: A Nutritional Guide by Katrina Ridout"
+seoTitle: "Pregnancy with PCOS: A Nutrition Guide"
 description: "In this comprehensive guide by Katrina Ridout, an Accredited Practising Dietitian & Nutritionist, discover expert advice on managing Polycystic Ovary Syndrome (PCOS) during pregnancy. Learn about the importance of nutrition, balanced diets, and lifestyle choices to support a healthy pregnancy and baby while dealing with PCOS."
 date: "2024-04-30"
 updated: "2026-11-10"

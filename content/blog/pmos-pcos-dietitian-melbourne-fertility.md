@@ -1,5 +1,6 @@
 ---
 title: "PMOS (PCOS) dietitian in Melbourne for fertility: what to look for and how telehealth works"
+seoTitle: "PMOS (PCOS) Fertility Dietitian in Melbourne"
 description: "Looking for a PMOS dietitian in Melbourne for fertility? Katrina Ridout Nutrition offers APD telehealth Australia-wide, alongside your GP or fertility clinic."
 date: "2026-11-09"
 updated: "2026-11-09"

@@ -1,5 +1,6 @@
 ---
 title: "Nutrition and Conception: How an Accredited Practising Dietitian Can Help"
+seoTitle: "Nutrition and Conception: How a Dietitian Can Help"
 description: "Preconception nutrition guidance from Katrina Ridout, Accredited Practising Dietitian, Brisbane based with telehealth Australia-wide. A Medicare rebate may apply with a GP Chronic Condition Management Plan."
 date: "2025-06-26"
 updated: "2026-10-08"
