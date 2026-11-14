@@ -14,10 +14,6 @@ parent: "415"
 
 Pregnancy nutrition specialist Brisbane
 
-## Not sure where to start?
-Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. You do not need to have it all worked out first. No preparation and no obligation.
-[Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
-
 ## Guiding you through the hormonal ups and downs of pregnancy
 
 There are many factors that can influence your ability to conceive and nurture a healthy pregnancy. Your body is most fertile when your hormones are in balance and you are caring for your overall health. Building supportive daily habits around nutrition, movement, sleep and self-care can make a big difference in helping your body feel prepared for pregnancy.

@@ -13,10 +13,6 @@ parent: "415"
 
 Pregnancy weight management specialist Brisbane
 
-## Not sure where to start?
-Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. You do not need to have it all worked out first. No preparation and no obligation.
-[Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
-
 ## A healthy weight supports your baby’s best start — and it’s never too late to begin
 
 Achieving a healthy weight can feel challenging at the best of times, especially when emotions and hormones are changing in the lead-up to and during pregnancy. The good news is that these very changes are also what help your body to conceive and carry a baby.

@@ -12,10 +12,6 @@ parent: "366"
 
 ## Endometriosis
 
-## Not sure where to start?
-Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. You do not need to have it all worked out first. No preparation and no obligation.
-[Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
-
 ## How Kat helps with endometriosis
 
 Endometriosis affects people in different ways: pain, gut symptoms such as bloating, fatigue, heavy periods and, for some, fertility. Kat helps with the nutrition side: gut symptoms, energy and iron, eating enough variety when some foods are hard to tolerate, and, if you're trying to conceive, preparing for pregnancy. Food supports your medical care; it doesn't replace it, and it can't remove lesions or promise less pain.

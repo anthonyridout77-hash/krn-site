@@ -12,10 +12,6 @@ parent: "366"
 
 ## Polycystic Ovary Syndrome
 
-## Not sure where to start?
-Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. You do not need to have it all worked out first. No preparation and no obligation.
-[Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
-
 ## With the right guidance, PCOS doesn’t have to stand in the way of your dream of motherhood
 
 Polycystic Ovarian Syndrome (PCOS) is one of the most common hormonal conditions affecting women of reproductive age, and it can feel overwhelming when you are trying to conceive. Many women worry that PCOS means they won’t be able to fall pregnant, but the truth is there is plenty of hope. With the right care, lifestyle changes and nutrition support, pregnancy is still very possible.

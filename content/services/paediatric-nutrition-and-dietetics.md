@@ -12,10 +12,6 @@ wpUrl: "https://www.katridout.com.au/our-services/paediatric-nutrition-and-diete
 
 Dietitian Brisbane
 
-## Not sure where to start?
-Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. You do not need to have it all worked out first. No preparation and no obligation.
-[Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
-
 ## Start your baby’s healthy journey today with the right nutrition
 
 You’ve had your baby, and now begins the next big chapter — making sure your little one gets all the nutrition they need to grow and thrive. Every parent wants the best for their child, and good nutrition is one of the most powerful ways to support their health and development.

@@ -11,10 +11,6 @@ wpUrl: "https://www.katridout.com.au/our-services/postnatal-nutrition/"
 
 ## Postpartum and breastfeeding nutrition
 
-## Not sure where to start?
-Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. You do not need to have it all worked out first. No preparation and no obligation.
-[Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
-
 ## Caring for yourself is the first step to caring for your baby
 
 The months after birth are a time of recovery, often with broken sleep, feeding to work out and little time to eat well. However feeding is going, and however you're feeling, nutrition support can help with energy, iron, recovery and getting regular meals back.

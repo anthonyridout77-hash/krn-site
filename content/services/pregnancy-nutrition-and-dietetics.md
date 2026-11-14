@@ -11,10 +11,6 @@ wpUrl: "https://www.katridout.com.au/our-services/pregnancy-nutrition-and-dietet
 
 ## Pregnancy Dietitian
 
-## Not sure where to start?
-Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. You do not need to have it all worked out first. No preparation and no obligation.
-[Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
-
 ## Nourishing you and your baby every step of the way
 
 Pregnancy is such a special time, filled with excitement, change and sometimes a little uncertainty. As your body works around the clock to grow your baby, your nutritional needs shift in ways that can feel overwhelming. I want you to know you don’t have to figure it all out on your own — I’m here to guide and support you every step of the way.

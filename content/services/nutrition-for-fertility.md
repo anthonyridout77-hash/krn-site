@@ -13,10 +13,6 @@ wpUrl: "https://www.katridout.com.au/our-services/nutrition-for-fertility/"
 
 Dietitian Brisbane
 
-## Not sure where to start?
-Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. You do not need to have it all worked out first. No preparation and no obligation.
-[Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
-
 ## The right nutrition can help prepare your body for pregnancy
 
 ### Nutrition support before conception, for women and men
@@ -32,7 +28,7 @@ If you are underweight or living with an underlying health condition that may im
 Every person and every couple is unique; shaped by different bodies, diets, medical histories, genetics, lifestyles and preferences. That’s why I provide personalised nutrition advice that is tailored specifically to you, built around your history, your bloods and your week.
 With more than 20 years of experience in both private practice and high-level research in fertility, pregnancy and early life nutrition, I specialise in helping women and couples optimise their nutrition to support conception and a healthy pregnancy. I also have extensive experience supporting those managing health conditions such as PCOS, endometriosis, diabetes, IBD, autoimmune conditions, disordered eating, rare genetic conditions, as well as challenges with egg and sperm quality, thin uterine lining and recurrent miscarriage.
 There are a number of nutrients that matter before conception. Getting the right supplements started early, then building the eating pattern around them, is the core of the plan. Because everyone’s journey is different, I’ll work with you to create a plan that’s tailored to your body and your needs.
-If you’d like to learn more about how fertility nutrition can support you, I’d love to guide you. You can book an appointment with me using the form on this page or by getting in touch here.
+If you’d like to learn more about how fertility nutrition can support you, I’d love to guide you. To start, book a free 15-minute call with the link below or the button at the top of this page, or phone 1300 640 104.
 
 ### Not sure where to start?
 Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. You do not need to have it all worked out first. No preparation and no obligation.
