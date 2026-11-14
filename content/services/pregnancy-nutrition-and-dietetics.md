@@ -9,11 +9,32 @@ wpUrl: "https://www.katridout.com.au/our-services/pregnancy-nutrition-and-dietet
 ---
 
 
-## Pregnancy Dietitian
-
 ## Nourishing you and your baby every step of the way
 
 Pregnancy is such a special time, filled with excitement, change and sometimes a little uncertainty. As your body works around the clock to grow your baby, your nutritional needs shift in ways that can feel overwhelming. I want you to know you don’t have to figure it all out on your own — I’m here to guide and support you every step of the way.
+
+### Pregnancy Nutritionist Services
+
+Accredited Practising Dietitian Katrina Ridout offers a range of premium services & nutritional advice – focused on helping you through the pregnancy journey, no matter your circumstances.
+
+Here are some other specific areas where Kat can help you:
+
+- Gestational Diabetes Mellitus
+- Hormones and Pregnancy
+- Pregnancy Weight
+- Weight and Pregnancy
+- Specialty Diets During Pregnancy
+
+### Support for eating well in pregnancy
+Pregnancy brings a lot of food questions at once, often while you are also managing nausea, tiredness, cravings or constipation. With so much advice around, it is easy to feel overwhelmed.
+I am here to help you work out what matters for you and your stage, so you feel supported and confident about eating well for yourself and your baby.
+If you would like help, book a free call and we can talk about what would suit you.
+
+### Not sure where to start?
+Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. You do not need to have it all worked out first. No preparation and no obligation.
+[Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
+
+## Pregnancy nutrition guide
 
 ### Quick facts:
 During pregnancy, the food and drinks you choose not only support your own health but also play an important role in your baby’s growth and development. Here are some quick facts to guide you:
@@ -49,18 +70,6 @@ During pregnancy, the food and drinks you choose not only support your own healt
 ### During Pregnancy
 When you’re pregnant, your immune system naturally lowers to help protect your growing baby. This does mean you’re more vulnerable to certain illnesses and infections, which is why food safety becomes especially important. Being mindful with food preparation and avoiding a few higher-risk foods can help keep both you and your baby healthy throughout pregnancy.
 
-#### Pregnancy Nutritionist Services
-
-Accredited Practising Dietitian Katrina Ridout offers a range of premium services & nutritional advice – focused on helping you through the pregnancy journey, no matter your circumstances.
-
-Here are some other specific areas where Kat can help you:
-
-- Gestational Diabetes Mellitus
-- Hormones and Pregnancy
-- Pregnancy Weight
-- Weight and Pregnancy
-- Specialty Diets During Pregnancy
-
 ### What is healthy weight gain in pregnancy?
 Your baby’s development and the overall health for both mother and child, can be affected by the amount of weight you gain when pregnant.
 According to the Institute of Medicine guidelines for gestational weight gain – which are used both internationally and in Australia – the amount of weight women should gain throughout their pregnancy depends on what your weight was before you became pregnant or your pre-pregnancy “Body Mass Index (BMI)”. Your healthiest weight gain will depend on your starting weight.
@@ -94,15 +103,6 @@ I know this might sound daunting. You may even be thinking, “It’s too late, 
 - Fluid retention
 
 Remember, every woman’s pregnancy is different, and weight gain will look different for everyone. Try not to compare your journey to anyone else’s. Instead, focus on what feels healthy and sustainable for you and your baby.
-
-### Support for eating well in pregnancy
-Pregnancy brings a lot of food questions at once, often while you are also managing nausea, tiredness, cravings or constipation. With so much advice around, it is easy to feel overwhelmed.
-I am here to help you work out what matters for you and your stage, so you feel supported and confident about eating well for yourself and your baby.
-If you would like help, book a free call and we can talk about what would suit you.
-
-### Not sure where to start?
-Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. You do not need to have it all worked out first. No preparation and no obligation.
-[Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## Frequently Asked Questions
 

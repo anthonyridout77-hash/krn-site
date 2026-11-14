@@ -48,7 +48,7 @@ const faqLd = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":fa
   title="A dietitian near you, in Brisbane or by telehealth"
   metaTitle="Dietitian Brisbane (Milton) and Telehealth"
   description={`Katrina Ridout, Accredited Practising Dietitian with ${EXPERIENCE} experience. All ages, all common conditions. Milton, Brisbane or telehealth Australia-wide. Free 15-min call.`}
-  lede={`Katrina Ridout is an Accredited Practising Dietitian with ${EXPERIENCE} experience. See her in person in Milton, Brisbane, or by telehealth from home. Start with a free 15-minute call.`}
+  lede={`Accredited Practising Dietitian Katrina Ridout, ${EXPERIENCE} experience. In person in Milton, Brisbane, or by telehealth anywhere in Australia. Start with a free 15-minute call: Kat phones you, listens and explains your options.`}
   crumbs={[{ label: 'Home', href: '/' }, { label: 'Services', href: '/our-services/' }, { label: 'Dietitian' }]}
   ctaHeading="Talk to Kat before you decide"
   ctaText="A free 15-minute call. Bring your concerns and Kat will explain how she could help. Telehealth Australia-wide or in person in Milton, Brisbane."
@@ -58,11 +58,11 @@ const faqLd = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":fa
   <Fragment slot="head">
     <script type="application/ld+json" set:html={JSON.stringify(faqLd)} />
   </Fragment>
+  <p slot="hero" class="hero-cta"><a class="btn btn-coral" href={book('hero')}>Book a free 15-minute call</a> <span class="hero-call">or call <a href="tel:1300640104">1300 640 104</a></span></p>
 
   <div class="gd-top">
     <img src="/images/kat-ridout-apd.jpg" alt="Katrina Ridout, Accredited Practising Dietitian" width="480" height="480" loading="eager" />
     <div>
-      <p class="gd-cta"><a class="btn btn-coral" href={book('hero')}>Book a free 15-minute call</a></p>
       <p class="gd-rating"><a href={GOOGLE_REVIEWS.url} rel="noopener"><span class="stars" aria-hidden="true">★★★★★</span> <b>{GOOGLE_REVIEWS.rating}</b> on Google · {GOOGLE_REVIEWS.count} reviews</a></p>
       <ul class="gd-trust">
         <li>Accredited Practising Dietitian (APD)</li>
@@ -72,7 +72,6 @@ const faqLd = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":fa
         <li>Appointments usually within the week</li>
         <li>Calls every day except Monday</li>
       </ul>
-      <p class="gd-call">Prefer to talk now? Call <a href="tel:1300640104">1300 640 104</a></p>
     </div>
   </div>
 
@@ -131,6 +130,9 @@ const faqLd = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":fa
 </Article>
 <style>
   .gd-top{display:grid;gap:1.2rem;align-items:center;margin:0 0 2em}
+  @media (max-width:639px){.gd-top{grid-template-columns:96px 1fr;align-items:start}.gd-top img{width:96px}}
+  :global(.hero-call){display:inline-block;margin:.6rem 0 0 .4rem;color:var(--fg-soft);font-size:.95rem}
+  :global(.hero-call a){display:inline-flex;align-items:center;min-height:44px}
   @media (min-width:640px){.gd-top{grid-template-columns:220px 1fr}}
   .gd-top img{width:min(100%,220px);height:auto;border-radius:22px;background:var(--mint);margin:0}
   .gd-trust{list-style:none;padding:0;margin:.9rem 0 0;display:flex;flex-wrap:wrap;gap:.45rem}

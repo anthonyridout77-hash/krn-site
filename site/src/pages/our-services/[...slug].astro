@@ -11,7 +11,7 @@ export async function getStaticPaths() {
   return services.filter((s) => !['dietitian', 'menopause-nutrition', 'nutrition-after-60'].includes(serviceSlug(s))).map((service) => ({ params: { slug: serviceSlug(service) }, props: { service, all: services } }));
 }
 const { service, all } = Astro.props;
-const { Content } = await render(service);
+const { Content, headings } = await render(service);
 const hasBody = (service.body ?? '').trim().length > 0;
 const slug = serviceSlug(service);
 const faqLd = faqPage(faqFromMarkdown(service.body));
@@ -40,6 +40,15 @@ const first = pw?.consults[0];
 const siblings = all
   .filter((s) => s.id !== service.id && (parentSlug ? serviceSlug(s).startsWith(parentSlug + '/') : serviceSlug(s).startsWith(slug + '/')))
   .sort((a, b) => a.data.title.localeCompare(b.data.title));
+// Section links: practical information first, then the page's own H2 sections, then questions.
+const isFaq = (t: string) => /^(frequently asked questions|common questions)$/i.test(t.trim());
+const toc = [
+  ...(pw && first ? [{ id: 'at-a-glance', label: 'At a glance' }] : []),
+  ...(pw ? [{ id: 'pw-steps-h', label: 'How Kat works with you' }] : []),
+  ...headings.filter((h) => h.depth === 2 && !isFaq(h.text) && !/^further reading$/i.test(h.text)).map((h) => ({ id: h.slug, label: h.text })),
+  ...headings.filter((h) => h.depth === 2 && /^further reading$/i.test(h.text)).map((h) => ({ id: h.slug, label: 'Further reading' })),
+  ...headings.filter((h) => h.depth === 2 && isFaq(h.text)).map((h) => ({ id: h.slug, label: 'Questions' })),
+];
 ---
 <Article
   title={service.data.title}
@@ -63,7 +72,7 @@ const siblings = all
   </Fragment>
   <p slot="hero" class="hero-cta"><a class="btn btn-coral" href={pw ? callLink(pw) : BOOK_URL}>Book a free 15-minute call</a></p>
   {pw && first && (
-    <aside class="glance" aria-label="Working with Kat at a glance" style="margin:0 0 2rem;padding:1.2rem 1.4rem;background:var(--mint);border-radius:16px">
+    <aside class="glance" id="at-a-glance" aria-label="Working with Kat at a glance" style="margin:0 0 2rem;padding:1.2rem 1.4rem;background:var(--mint);border-radius:16px">
       <h2 style="font-size:1.2rem;margin:0 0 .6rem">Working with Kat at a glance</h2>
       <dl style="margin:0;display:grid;gap:.55rem">
         <div><dt style="font-weight:600">Who it is for</dt><dd style="margin:0">{pw.who}</dd></div>
@@ -74,14 +83,14 @@ const siblings = all
       </dl>
     </aside>
   )}
-  <Content />
-  {!hasBody && (
-    <p class="empty">Detailed information for this service is being moved across to the new site. Kat is happy to answer questions on a free 15-minute call.</p>
+  {toc.length > 2 && (
+    <nav class="toc" aria-label="On this page">
+      <p class="toc-h">On this page</p>
+      <ul>{toc.map((t) => <li><a href={`#${t.id}`}>{t.label}</a></li>)}</ul>
+    </nav>
   )}
-
-  <Fragment slot="after-body">
-    {pw ? (
-      <section class="pw-steps" aria-labelledby="pw-steps-h" style="margin-top:2.4rem;padding:1.2rem 1.4rem;background:var(--mint);border-radius:16px">
+  {pw && (
+      <section class="pw-steps" aria-labelledby="pw-steps-h" style="margin:0 0 2rem;padding:1.2rem 1.4rem;background:var(--mint);border-radius:16px">
         <h2 id="pw-steps-h" style="font-size:1.3rem;margin:0 0 .4rem">How Kat works with you: the {pathway.name} pathway</h2>
         <p style="margin:0 0 .8rem">{pw.story}</p>
         <ol style="margin:0;padding-left:1.2rem;display:grid;gap:.6rem">
@@ -93,7 +102,14 @@ const siblings = all
         <p style="margin:.4rem 0 0"><b>Medicare:</b> {pw.medicare}</p>
         <p style="margin:.4rem 0 0">Appointments are in person at Milton Village Medical, Milton, Brisbane, or by telehealth anywhere in Australia. <a href={callLink(pw)} style="font-weight:600">Book a free 15-minute call</a> or <a href={`/consultations/#pathway-${pw.id}`}>compare all pathways</a>.</p>
       </section>
-    ) : pathway && (
+  )}
+  <Content />
+  {!hasBody && (
+    <p class="empty">Detailed information for this service is being moved across to the new site. Kat is happy to answer questions on a free 15-minute call.</p>
+  )}
+
+  <Fragment slot="after-body">
+    {!pw && pathway && (
       <p class="pw-link" style="margin-top:2rem;padding:1rem 1.2rem;background:var(--mint);border-radius:16px">
         <b>How a program unfolds:</b> see the {pathway.name} pathway consult by consult, with Medicare details and what you take away from each visit.
         <a href={`/consultations/#pathway-${pathway.id}`} style="display:block;margin-top:.4rem;font-weight:600">See the {pathway.name} pathway</a>

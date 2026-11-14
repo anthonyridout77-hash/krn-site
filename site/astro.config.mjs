@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import remarkStripTitle from './src/lib/remark-strip-title.mjs';
+import rehypeFaqDetails from './src/lib/rehype-faq-details.mjs';
 
 export default defineConfig({
   site: 'https://www.katridout.com.au',
@@ -10,6 +11,6 @@ export default defineConfig({
     // noindex pages: keep out of the sitemap
     filter: (page) => !/\/(thank-you|guide|telehealth-terms|one-question-consult|one-question-intake|oneq-approve)\/$/.test(page),
   })],
-  markdown: { remarkPlugins: [remarkStripTitle] },
+  markdown: { remarkPlugins: [remarkStripTitle], rehypePlugins: [rehypeFaqDetails] },
   build: { inlineStylesheets: 'always' },
 });
