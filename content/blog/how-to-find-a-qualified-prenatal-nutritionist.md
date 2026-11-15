@@ -46,7 +46,7 @@ This matters in pregnancy. Advice on gestational diabetes, iron deficiency, naus
 ## Costs and rebates
 
 * **Medicare:** eligible patients on a GP Chronic Condition Management Plan (GPCCMP) can claim a rebate for up to 5 allied health visits a year. Your GP decides eligibility.
-* **Private health:** ost extras policies cover dietetics with an APD. You can’t claim Medicare and private health for the same appointment.
+* **Private health:** most extras policies cover dietetics with an APD. You can’t claim Medicare and private health for the same appointment.
 
 ## Katrina Ridout Nutrition
 
