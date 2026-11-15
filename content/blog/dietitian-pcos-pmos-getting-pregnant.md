@@ -1,8 +1,9 @@
 ---
 title: "Can a dietitian help with PCOS (PMOS) and getting pregnant?"
-description: "Yes. The 2023 international PCOS guideline recommends healthy eating and activity as first-line care, including when trying to conceive. Here’s how an Accredited Practising Dietitian helps with PMOS (formerly PCOS) and fertility."
+description: "Can a dietitian help with PCOS (PMOS) when trying to conceive? Diet and activity are first-line care. Kat Ridout APD, Milton Brisbane and telehealth."
+seoTitle: "Dietitian for PCOS (PMOS) and Getting Pregnant"
 date: "2026-09-25"
-updated: "2026-11-10"
+updated: "2026-11-16"
 categories:
   - "Fertility & IVF"
 image: "/images/wp/2026/07/krn-pcos-diet-plan-body1-v2.jpg"
