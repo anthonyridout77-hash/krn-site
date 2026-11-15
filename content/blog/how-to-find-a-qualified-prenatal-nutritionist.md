@@ -1,8 +1,9 @@
 ---
 title: "How do I find a qualified prenatal nutritionist near me?"
-description: "In Australia, look for an Accredited Practising Dietitian (APD) who specialises in pregnancy. Here’s how to check credentials, where to search, what to ask and how Medicare rebates work."
+description: "In Australia, look for an Accredited Practising Dietitian (APD) who specialises in pregnancy. How to check credentials, what to ask, and Medicare rebates."
+seoTitle: "Find a Qualified Prenatal Nutritionist in Australia"
 date: "2026-09-25"
-updated: "2026-09-25"
+updated: "2026-11-16"
 categories:
   - "Fertility & IVF"
 image: "/images/wp/2026/07/krn-what-does-a-fertility-dietitian-do-body1.jpg"
@@ -45,7 +46,7 @@ This matters in pregnancy. Advice on gestational diabetes, iron deficiency, naus
 ## Costs and rebates
 
 * **Medicare:** eligible patients on a GP Chronic Condition Management Plan (GPCCMP) can claim a rebate for up to 5 allied health visits a year. Your GP decides eligibility.
-* **Private health:** most extras policies cover dietetics with an APD. You can’t claim Medicare and private health for the same appointment.
+* **Private health:** ost extras policies cover dietetics with an APD. You can’t claim Medicare and private health for the same appointment.
 
 ## Katrina Ridout Nutrition
 
