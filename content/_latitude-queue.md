@@ -8,7 +8,7 @@ One keyword per line: `keyword | status`. Status is `todo` or `done <date>`. The
 - fertility-pregnancy-dietitian-adelaide-telehealth | done 2026-11-12 -> /blogs/fertility-pregnancy-dietitian-adelaide-telehealth/
 - pmos-pcos-fertility-dietitian-brisbane-what-to-expect | done 2026-11-13 -> /blogs/pmos-pcos-fertility-dietitian-brisbane-what-to-expect/
 - gestational-diabetes-dietitian-brisbane-what-to-expect | done 2026-11-14 -> /blogs/gestational-diabetes-dietitian-brisbane-what-to-expect/
-- telehealth-pregnancy-dietitian-australia-how-it-works | todo
+- telehealth-pregnancy-dietitian-australia-how-it-works | done 2026-11-16 -> /blogs/telehealth-pregnancy-dietitian-australia-how-it-works/
 
 ## Queue
 
@@ -34,7 +34,7 @@ One keyword per line: `keyword | status`. Status is `todo` or `done <date>`. The
 - pregnancy dietitian Logan | todo
 - telehealth IVF dietitian Australia | todo
 - telehealth fertility dietitian Australia | todo
-- telehealth pregnancy dietitian Australia | todo
+- telehealth pregnancy dietitian Australia | done 2026-11-16 (already covered by /blogs/telehealth-pregnancy-dietitian-australia-how-it-works/)
 - endometriosis dietitian Brisbane fertility | todo
 - male fertility dietitian Australia | todo
 - dietitian for egg freezing preparation | todo
