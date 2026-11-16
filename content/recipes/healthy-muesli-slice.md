@@ -1,5 +1,6 @@
 ---
 title: "Healthy Muesli Slice"
+description: "A homemade muesli slice with pepitas, oats, sultanas and Weet-Bix, baked for 25 minutes and cut into 15 pieces. Easy to swap in your own fruit, nuts and seeds."
 date: "2025-08-04"
 updated: "2025-08-04"
 wpId: "560"
@@ -8,13 +9,13 @@ image: "/images/recipes/healthy-muesli-slice.jpg"
 imageAlt: "Stacked squares of muesli slice"
 meal: "Snacks"
 prepTime: "1 hr"
-serves: "15 people"
+serves: "15 serves"
 ---
 
 This recipe is much healthier and more delicious than store-bought muesli bars! The best part about this recipe is that it is totally customisable, add in other dried fruits, chocolate chips, nuts, and seeds to your liking! The options are endless for these muesli slices.
 
 **Prep time:** 1 hr  
-**Serves:** 15 people
+**Serves:** 15
 
 ## Ingredients
 

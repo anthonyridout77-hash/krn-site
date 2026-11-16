@@ -1,5 +1,6 @@
 ---
 title: "Tuna Nicoise Salad"
+description: "Tuna Nicoise salad with potatoes, green beans, egg, tomatoes, olives and cos lettuce in a Dijon dressing. Ready in 25 minutes, serves 2."
 date: "2025-08-04"
 updated: "2025-08-04"
 wpId: "576"
@@ -24,7 +25,9 @@ serves: "2 people"
 - 6 black pitted olives
 - 1 large handful baby cos lettuce leaves separated, washed
 - 1 hard-boiled egg, peeled, quartered
-- Nicoise dressing
+
+For the Nicoise dressing:
+
 - 2 teaspoons olive oil
 - ½ teaspoon red wine vinegar
 - ¼ tablespoon Dijon mustard
@@ -35,5 +38,5 @@ serves: "2 people"
 
 1. Make dressing: whisk oil, vinegar and mustard in a jug. Season with salt and pepper.
 2. Cook potatoes in a large saucepan of boiling water for 10 minutes or until just tender. Transfer to a large bowl. Add beans to pan. Cook for 2-3 minutes or until bright green and just tender.
-3. Drain. Refresh under cold water. Drain. Add beans to potato
+3. Drain, refresh under cold water and drain again. Add the beans to the potatoes.
 4. Add tuna, tomato, olives, lettuce, egg to potato mixture. Add red wine dressing. Toss gently to combine. Season with salt and pepper. Serve immediately.
