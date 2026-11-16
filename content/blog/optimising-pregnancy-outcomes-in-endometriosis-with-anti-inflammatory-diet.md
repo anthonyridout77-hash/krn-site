@@ -1,25 +1,26 @@
 ---
 title: "Anti-Inflammatory Eating with Endometriosis in Pregnancy"
-description: "Anti-inflammatory eating with endometriosis, explained by Kat Ridout, Accredited Practising Dietitian. Telehealth Australia-wide. A Medicare rebate may apply with a GP Chronic Condition Management Plan."
+seoTitle: "Endometriosis Diet for Fertility and Pregnancy"
+description: "Anti-inflammatory eating with endometriosis, explained by Kat Ridout APD. Milton, Brisbane, or telehealth Australia-wide. Medicare rebates may apply."
 date: "2024-06-15"
-updated: "2026-10-20"
+updated: "2026-11-17"
 categories:
   - "Pregnancy"
 wpId: "3342"
 wpUrl: "https://www.katridout.com.au/blogs/optimising-pregnancy-outcomes-in-endometriosis-with-anti-inflammatory-diet/"
 ---
 
-Endometriosis is a chronic condition where tissue similar to the lining of the uterus grows outside of it, affecting millions of women worldwide. This condition not only causes significant pain and discomfort but also impacts fertility and pregnancy outcomes. For women dealing with endometriosis, managing symptoms and improving fertility are often top priorities. But, could an anti-inflammatory diet make a significant difference in enhancing pregnancy outcomes for these women?
+Endometriosis is a chronic condition where tissue similar to the lining of the uterus grows outside of it, affecting millions of women worldwide. This condition not only causes significant pain and discomfort but also impacts fertility and pregnancy outcomes. For women dealing with endometriosis, managing symptoms and improving fertility are often top priorities. So what does the evidence actually say about anti-inflammatory eating with endometriosis?
 
-Katrina Ridout, an Accredited Practising Dietitian & Nutritionist, understands the unique challenges women with endometriosis face, especially when trying to conceive. She provides personalised nutrition guidance and evidence-based strategies, empowering these women to optimise their fertility and improve their chances of a healthy pregnancy.
+Katrina Ridout is an Accredited Practising Dietitian (APD) who works with women with endometriosis, including those trying to conceive. She provides personalised nutrition guidance and evidence-based strategies built around your own symptoms, preferences and week.
 
 ## Understanding Endometriosis
 
-Endometriosis involves more than just managing pain—it’s also about overcoming fertility challenges and ensuring a healthy pregnancy. The inflammatory condition can affect hormonal balance, reduce egg quality, and hinder the ability to conceive and sustain a pregnancy. Personalised nutritional interventions can play a crucial role in addressing these issues, helping individuals tailor their diets to meet their unique needs and improve their reproductive health.
+Endometriosis involves more than just managing pain—it’s also about overcoming fertility challenges and ensuring a healthy pregnancy. The inflammatory condition can affect hormonal balance, reduce egg quality, and hinder the ability to conceive and sustain a pregnancy. Personalised nutrition advice can help you tailor what you eat to your own needs and symptoms, alongside the care you get from your GP and specialist.
 
 ## The Role of Nutrition in Endometriosis Management
 
-Katrina Ridout understands that food is not just fuel—it’s a form of medicine. Embracing a holistic approach to nutrition, she highlights the importance of anti-inflammatory foods in alleviating symptoms, reducing inflammation, and enhancing reproductive outcomes for women with endometriosis. By focusing on nutrient-dense foods and avoiding pro-inflammatory triggers, Katrina creates a nurturing environment that supports fertility and increases the chances of a successful pregnancy.
+Katrina Ridout takes a practical approach to eating with endometriosis, and an anti-inflammatory pattern is one part of the conversation. Research has looked at whether these foods help with symptoms and with inflammation, and the findings are mixed rather than settled. Building meals around nutrient-dense foods, with less reliance on highly processed ones, is a reasonable place to start and an easy one to discuss with your own team.
 
 ![Raspberries and nuts close up](/images/wp/2026/07/krn-endometriosis-pregnancy-body1.jpg)
 
@@ -33,7 +34,7 @@ Read more about [endometriosis nutrition support with Kat](/our-services/prenata
 
 ## The Impact of an Anti-Inflammatory Diet on Pregnancy Outcomes
 
-Research suggests that an anti-inflammatory diet can be particularly beneficial for women with endometriosis. Embracing this type of diet may help reduce inflammation, which research links to hormonal balance and ovulation. Additionally, adopting such a diet during pregnancy can contribute to the well-being of the mother and the healthy development of the foetus. It also has the potential to lower the risks of complications often linked with endometriosis, including preterm birth and gestational diabetes, making it a nurturing choice for both mother and baby.
+Research into anti-inflammatory eating and endometriosis is ongoing, and the evidence is not settled. Studies have looked at inflammation, hormonal balance and ovulation, and separately at how eating patterns in pregnancy relate to complications such as preterm birth and gestational diabetes. None of that means an eating pattern treats endometriosis or decides whether a pregnancy happens. What a good eating pattern does do, reliably, is cover the nutrients pregnancy needs — which is worth having either way.
 
 ![Person writing a plan in a notebook](/images/wp/2026/07/krn-endometriosis-pregnancy-body2.jpg)
 
@@ -49,9 +50,9 @@ We believe that making nutrition accessible and achievable is essential. Here ar
 4. **Minimise Inflammatory Triggers**: Try to cut down on processed foods, refined sugars, and inflammatory oils that can worsen symptoms and inflammation.
 5. **Hydrate Mindfully**: Keep hydrated with water, herbal teas, and naturally infused drinks to aid digestion, detoxification, and overall well-being.
 
-For personalised guidance, seeking the expertise of a Registered Dietitian Nutritionist like Katrina Ridout can be incredibly beneficial. She can provide tailored support and evidence-based recommendations to help optimise nutrition and fertility outcomes for women with endometriosis.
+For personalised guidance, an Accredited Practising Dietitian (APD) like Katrina Ridout can help. She can provide tailored support and evidence-based recommendations for eating with endometriosis, before and during pregnancy.
 
-At Katrina Ridout Nutrition, we understand how crucial it is to take a holistic approach when managing endometriosis and boosting fertility. By adopting an anti-inflammatory diet, women with endometriosis can actively work towards enhancing their chances of a healthy pregnancy and improving their reproductive well-being. With our expertise and support, you can embark on a nourishing path to holistic wellness, empowering yourself to thrive despite the challenges of endometriosis. If you’re ready to take control of your fertility and pregnancy journey, we’re here to help. Reach out to us for personalised support and expert guidance every step of the way.
+At Katrina Ridout Nutrition we take a practical approach to eating with endometriosis, alongside the care you already get from your GP and specialist. An anti-inflammatory pattern is one option worth discussing, and the right plan is the one that fits your symptoms, your preferences and the way your week actually runs. If you would like one-to-one support with that, we are here to help.
 
 For one-to-one support alongside your medical care, Kat Ridout is a [fertility dietitian in Brisbane](/our-services/nutrition-for-fertility/) who works with women managing endometriosis, by telehealth across Australia.
 
