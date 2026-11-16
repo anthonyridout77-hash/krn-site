@@ -39,7 +39,9 @@ const stepName = (s: string, i: number) => {
 };
 
 const servesNum = (d.serves ?? '').match(/\d+/)?.[0];
-const prepMin = (d.prepTime ?? '').match(/\d+/)?.[0];
+// Minutes from "20 min", "1 hr", "1 hr 15 min" (was reading "1 hr" as 1 minute).
+const toMin = (t: string) => { const h = t.match(/(\d+)\s*(h|hr|hrs|hour|hours)\b/i)?.[1]; const m = t.match(/(\d+)\s*(m|min|mins|minute|minutes)\b/i)?.[1]; const n = (h ? +h * 60 : 0) + (m ? +m : 0); return n || (t.match(/^\s*(\d+)\s*$/) ? +t.trim() : 0); };
+const prepMin = toMin(d.prepTime ?? '') || undefined;
 const description = d.description ?? (intro[0] && intro[0].length > 60 ? intro[0] : `${d.title}: a simple recipe from Katrina Ridout, Accredited Practising Dietitian.${d.prepTime ? ` Ready in ${d.prepTime}.` : ''}`);
 const webp = d.image?.replace(/\.jpe?g$/i, '.webp');
 const site = 'https://www.katridout.com.au';
