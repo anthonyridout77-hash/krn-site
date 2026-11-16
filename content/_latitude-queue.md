@@ -18,7 +18,7 @@ One keyword per line: `keyword | status`. Status is `todo` or `done <date>`. The
 - PCOS dietitian Sydney fertility | done 2026-11-07 -> /blogs/pmos-pcos-dietitian-sydney-fertility/
 - PCOS dietitian Melbourne fertility | done 2026-11-09 -> /blogs/pmos-pcos-dietitian-melbourne-fertility/
 - gestational diabetes dietitian Sydney telehealth | done 2026-11-10 -> /blogs/gestational-diabetes-dietitian-sydney-telehealth/
-- gestational diabetes dietitian Melbourne telehealth | todo
+- gestational diabetes dietitian Melbourne telehealth | done 2026-11-17 -> /blogs/gestational-diabetes-dietitian-melbourne-telehealth/
 - IVF nutritionist Brisbane northside | todo
 - IVF nutritionist Brisbane southside | todo
 - preconception dietitian Brisbane | todo
