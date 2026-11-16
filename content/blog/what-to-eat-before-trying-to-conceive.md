@@ -1,8 +1,8 @@
 ---
 title: "What should I eat before trying to conceive?"
-description: "Before trying to conceive, eat a Mediterranean-style pattern and start folic acid (400 mcg) and iodine (150 mcg) at least one month ahead. An Accredited Practising Dietitian explains what to eat, what to limit and when to get support."
+description: "Before trying to conceive, eat a Mediterranean-style pattern and start folic acid and iodine a month ahead. Kat Ridout APD, Milton Brisbane and telehealth."
 date: "2026-09-25"
-updated: "2026-11-10"
+updated: "2026-11-17"
 categories:
   - "Fertility & IVF"
 image: "/images/wp/2026/07/krn-preparing-body-for-pregnancy-body1.jpg"
