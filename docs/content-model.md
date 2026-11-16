@@ -57,13 +57,11 @@ reviewed: "2026-08-24"
 
 | Field | Required | Notes |
 |---|---|---|
-| `serves` | no | number |
-| `prepMinutes` | no | number |
-| `cookMinutes` | no | number |
-| `tags` | no | e.g. `iron-rich`, `gd-friendly`, `vegetarian` |
-| `ingredients` | no | List of strings. If omitted, use a `## Ingredients` heading in the body |
+| `meal` | yes | `Breakfast`, `Lunch & dinner` or `Snacks` (becomes recipeCategory) |
+| `prepTime` | yes | `"10 min"`, `"1 hr"`, `"1 hr 15 min"` (becomes prepTime/totalTime) |
+| `serves` | yes | `"2 people"`, `"1 person"` (becomes recipeYield) |
 
-Body convention: `## Ingredients`, `## Method`, optional `## Notes`.
+Body convention: `## Ingredients` (bullets), `## Method` (numbered `1.` steps), optional extra sections. Without both headings and numbered steps the page gets no Recipe structured data. Full rules: `agents/PUBLISHING.md`.
 
 ### Services (`content/services/`)
 
