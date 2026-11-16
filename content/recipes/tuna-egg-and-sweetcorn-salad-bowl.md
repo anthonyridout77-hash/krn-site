@@ -6,13 +6,18 @@ date: "2026-11-14"
 updated: "2026-11-14"
 image: "/images/2026/11/krn-tuna-egg-and-sweetcorn-salad-bowl-hero.jpg"
 imageAlt: "A green bowl of salad with leafy greens, sweetcorn, flaked tuna, cherry tomatoes and halved eggs, with a fork lifting a slice of egg above the bowl"
+meal: "Lunch & dinner"
+prepTime: "10 min"
+serves: "2 people"
 ---
 
 This is the dinner I suggest most often for a hot week when the oven is out of the question. It takes about ten minutes, most of which is the eggs cooking, and it holds together in the fridge well enough to be tomorrow's lunch.
 
 By Katrina Ridout, Accredited Practising Dietitian (APD), Brisbane. Reviewed November 2026.
 
-## Serves two
+## Ingredients
+
+Serves two.
 
 - 4 eggs
 - 2 x 95 g tins of tuna in springwater, drained
@@ -32,15 +37,11 @@ For the dressing:
 
 ## Method
 
-Put the eggs into a saucepan, cover them with cold water, bring to the boil and cook for eight minutes from the moment it boils. Tip out the hot water and sit them in cold water while you do everything else, which makes them far easier to peel.
-
-Whisk the oil, lemon juice, mustard and pepper together in the bottom of a large bowl. This saves washing a second dish.
-
-Add the leaves, tomatoes, cucumber, onion and corn and turn it all through the dressing.
-
-Flake the tuna over the top in decent chunks rather than stirring it through, so it stays recognisable. Peel the eggs, halve them, and sit them on top.
-
-Serve with the grainy bread if you want it.
+1. Put the eggs into a saucepan, cover them with cold water, bring to the boil and cook for eight minutes from the moment it boils. Tip out the hot water and sit them in cold water while you do everything else, which makes them far easier to peel.
+2. Whisk the oil, lemon juice, mustard and pepper together in the bottom of a large bowl. This saves washing a second dish.
+3. Add the leaves, tomatoes, cucumber, onion and corn and turn it all through the dressing.
+4. Flake the tuna over the top in decent chunks rather than stirring it through, so it stays recognisable. Peel the eggs, halve them, and sit them on top.
+5. Serve with the grainy bread if you want it.
 
 ## The dietitian's note
 

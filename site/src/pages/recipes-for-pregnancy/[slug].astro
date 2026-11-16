@@ -9,6 +9,7 @@ import '../../styles/article.css';
 import '../../styles/recipe.css';
 import { recipeSlug, recipeUrl, byNewest, isoDate } from '../../lib/content';
 import { ORG_ID, PERSON_ID, breadcrumbList } from '../../lib/schema';
+import { createMarkdownProcessor } from '@astrojs/markdown-remark';
 
 export async function getStaticPaths() {
   const recipes = await getCollection('recipes');
@@ -21,13 +22,22 @@ const body = recipe.body ?? '';
 
 // Pull the structured parts out of the markdown body.
 const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-const inline = (s: string) => esc(s).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/(^|[^*])\*(?!\s)(.+?)\*/g, '$1<em>$2</em>');
-const intro = body.split(/\*\*Prep time|## Ingredients/)[0].split('\n').map((l) => l.trim()).filter((l) => l && !l.startsWith('**') && !l.startsWith('#'));
+const inline = (s: string) => esc(s).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/(^|[^*])\*(?!\s)(.+?)\*/g, '$1<em>$2</em>').replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, '<a href="$2">$1</a>');
+// Lede = text before the first heading; any sections before Ingredients or after Method render as prose below the recipe (they were being dropped).
+const preAll = body.split(/\*\*Prep time|## Ingredients/)[0];
+const preHead = preAll.search(/^## /m);
+const intro = (preHead >= 0 ? preAll.slice(0, preHead) : preAll).split('\n').map((l) => l.trim()).filter((l) => l && !l.startsWith('**') && !l.startsWith('#'));
+const extraMd = [preHead >= 0 ? preAll.slice(preHead) : '', (body.split('## Method')[1] ?? '').split(/\n## /).slice(1).map((x) => '## ' + x).join('\n\n')].filter((x) => x.trim()).join('\n\n');
+const extraHtml = extraMd ? (await (await createMarkdownProcessor()).render(extraMd)).code : '';
+const ingGroups = (body.split('## Ingredients')[1] ?? '').split('## Method')[0].split('\n').map((l) => l.trim()).filter((l) => l.startsWith('- ') || /:$/.test(l));
 const ingLines = (body.split('## Ingredients')[1] ?? '').split('## Method')[0].split('\n').filter((l) => l.startsWith('- ')).map((l) => l.slice(2).trim());
 const tips = ingLines.filter((l) => l.startsWith('*') && !l.startsWith('**')).map((l) => l.replace(/^\*+\s*/, ''));
 const ing = ingLines.filter((l) => !(l.startsWith('*') && !l.startsWith('**')));
 const steps = (body.split('## Method')[1] ?? '').split(/\n## /)[0].split('\n').filter((l) => /^\d+\. /.test(l)).map((l) => l.replace(/^\d+\. /, '').trim());
 const structured = ing.length > 0 && steps.length > 0;
+// Ingredient rows with optional group labels ("For the dressing:"); label lines before the first bullet are skipped.
+const ingRows: { i?: number; item?: string; label?: string }[] = [];
+{ let n = 0; let seen = false; for (const l of ingGroups) { if (l.startsWith('- ')) { const it = l.slice(2).trim(); if (it.startsWith('*') && !it.startsWith('**')) continue; ingRows.push({ i: n++, item: it }); seen = true; } else if (seen) ingRows.push({ label: l }); } }
 const plain = (s: string) => s.replace(/\*+/g, '');
 // Short step title for Recipe schema (Search Console asks for HowToStep "name"): first sentence of the step, max 10 words.
 const STOP = new Set(['the', 'a', 'an', 'of', 'into', 'with', 'for', 'and', 'to', 'or', 'in', 'on', 'at', 'your', 'about', 'until']);
@@ -124,12 +134,14 @@ const storeKey = `krn-recipe-${recipe.id}`;
               {d.serves && <span class="ring-serves">Serves {servesNum ?? d.serves}</span>}
             </div>
             <ul class="ring-list">
-              {ing.map((item, i) => (
+              {ingRows.map((r) => r.label ? (
+                <li class="ring-group"><b set:html={inline(r.label)} /></li>
+              ) : (
                 <li>
                   <label>
-                    <input type="checkbox" data-i={i} />
+                    <input type="checkbox" data-i={r.i} />
                     <span class="box" aria-hidden="true"></span>
-                    <span class="txt" set:html={inline(item)} />
+                    <span class="txt" set:html={inline(r.item)} />
                   </label>
                 </li>
               ))}
@@ -161,6 +173,12 @@ const storeKey = `krn-recipe-${recipe.id}`;
   ) : (
     <article class="article">
       <div class="wrap"><div class="prose"><Content /></div></div>
+    </article>
+  )}
+
+  {structured && extraHtml && (
+    <article class="article">
+      <div class="wrap"><div class="prose" set:html={extraHtml} /></div>
     </article>
   )}
 
