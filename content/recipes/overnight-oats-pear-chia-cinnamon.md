@@ -5,6 +5,9 @@ date: "2026-11-16"
 updated: "2026-11-16"
 image: "/images/2026/11/krn-overnight-oats-pear-chia-cinnamon-hero.jpg"
 imageAlt: "A hand spooning rolled oats from a glass jar on a kitchen bench."
+meal: "Breakfast"
+prepTime: "4 min"
+serves: "1 person"
 ---
 
 This is the breakfast I suggest most often in pregnancy, for one simple reason: it is made the night before, so the version of you who is tired and queasy in the morning does not have to make any decisions.
