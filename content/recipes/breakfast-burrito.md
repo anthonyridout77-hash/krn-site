@@ -1,5 +1,6 @@
 ---
 title: "Breakfast Burrito"
+description: "A five minute breakfast burrito with eggs, black beans, salsa, cheese and avocado in a tortilla. Serves 1 and wraps up to take on the go."
 date: "2025-08-04"
 updated: "2025-08-04"
 wpId: "552"

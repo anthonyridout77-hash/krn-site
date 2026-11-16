@@ -1,5 +1,6 @@
 ---
 title: "Green Smoothie"
+description: "A three minute green smoothie with baby spinach, pineapple, mango and banana. Use frozen fruit to chill it and save prep time. Serves 1."
 date: "2025-08-04"
 updated: "2025-08-04"
 wpId: "547"
@@ -27,7 +28,10 @@ A quick recipe for mornings or on the go when you need a good dose of energy and
 
 ## Method
 
-1. Add spinach and water to blender. Blend together until smooth (should look like green water)
-2. Add pineapple, mango and banana to blender. Blend until smooth and creamy (30 seconds to 2 minutes depending on blender)
-3. Pour into glass and serve immediately
-4. Tip: it’ s best to drink any smoothie or juice within 30 minutes of blending/juicing in order to retain as many vitamins and minerals as possible as they start to deplete as soon as they are blended and exposed to oxygen.
+1. Add spinach and water to blender. Blend together until smooth (it should look like green water).
+2. Add pineapple, mango and banana to blender. Blend until smooth and creamy (30 seconds to 2 minutes depending on your blender).
+3. Pour into a glass and serve immediately.
+
+## Tip
+
+It’s best to drink any smoothie or juice within 30 minutes of blending/juicing in order to retain as many vitamins and minerals as possible as they start to deplete as soon as they are blended and exposed to oxygen.

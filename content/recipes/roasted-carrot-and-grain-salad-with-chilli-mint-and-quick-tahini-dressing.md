@@ -1,6 +1,7 @@
 ---
 title: "Roasted Carrot and Grain Salad with Chilli, Mint and Quick Tahini Dressing"
 seoTitle: "Roasted Carrot and Grain Salad with Tahini recipe"
+description: "Cumin-roasted carrots on wholegrain rice or quinoa with mint, avocado and a quick tahini yoghurt dressing. Ready in 35 minutes, serves 4."
 date: "2025-08-04"
 updated: "2025-08-04"
 wpId: "580"

@@ -1,5 +1,6 @@
 ---
 title: "Beef Teriyaki Stir Fry"
+description: "Beef teriyaki stir fry with mixed vegetables and a homemade garlic and ginger sauce. Ready in 20 minutes, serves 4. A recipe from Katrina Ridout Nutrition, Brisbane."
 date: "2025-08-04"
 updated: "2026-09-04"
 wpId: "569"
@@ -17,7 +18,7 @@ serves: "4 people"
 
 ## Ingredients
 
-- 1 ¼ pounds thinly sliced lean beef (rump or sirloin)
+- 570 g (1 ¼ pounds) thinly sliced lean beef (rump or sirloin)
 - 3 cups mixed vegetables (red capsicum, green bean, broccoli, bok choi, carrot)
 - Iodised salt and pepper to taste
 - 1 tablespoon oil
@@ -38,4 +39,5 @@ serves: "4 people"
 3. Heat 1 teaspoon vegetable oil in a large pan over medium-high heat. Add the vegetables and season with salt and pepper to taste. Cook for 3-5 minutes or until vegetables have started to brown and soften.
 4. Add 2 tablespoons of water and cook, until water has evaporated. When your vegetables are crisp tender remove them from the pan and set aside.
 5. Wipe out the pan. Heat the remaining 2 teaspoons of oil in the pan over high heat.
-6. Place half of the steak in the pan and season generously with salt and pepper. Cook for 2-3 minutes on each side or until cooked through.
+6. Place half of the steak in the pan and season generously with salt and pepper. Cook for 2-3 minutes on each side or until cooked through. Remove and repeat with the remaining steak.
+7. Return all the steak and the vegetables to the pan, pour over the sauce and toss for about 1 minute until everything is coated and hot. Serve with the shallots and sesame seeds if using.

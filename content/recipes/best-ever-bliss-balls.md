@@ -1,5 +1,6 @@
 ---
 title: "Best Ever Bliss Balls"
+description: "Chocolate chia bliss balls made with dates, almonds and cocoa in a food processor. Ready in 20 minutes, makes 18. An easy snack from Katrina Ridout Nutrition."
 date: "2025-08-04"
 updated: "2025-08-04"
 wpId: "556"
@@ -8,13 +9,13 @@ image: "/images/recipes/best-ever-bliss-balls.jpg"
 imageAlt: "Coconut-coated bliss balls in a white ramekin"
 meal: "Snacks"
 prepTime: "20 min"
-serves: "18 people"
+serves: "18 serves"
 ---
 
 These bliss balls are a super popular, health-conscious option for a quick snack or dessert. They are also easy to take on the go for your out of nowhere sugar cravings.
 
 **Prep time:** 20 min  
-**Serves:** 18 people
+**Serves:** 18
 
 ## Ingredients
 

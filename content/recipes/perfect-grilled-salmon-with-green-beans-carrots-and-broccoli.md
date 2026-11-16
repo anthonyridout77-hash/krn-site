@@ -1,6 +1,7 @@
 ---
 title: "Perfect Grilled Salmon with Green Beans, Carrots and Broccoli"
 seoTitle: "Grilled Salmon with Green Beans and Broccoli recipe"
+description: "Grilled salmon with garlic, onion and fresh herbs, served with steamed green beans, carrots and broccoli. Ready in 15 minutes for one, or scale it up for the family."
 date: "2025-08-04"
 updated: "2025-08-04"
 wpId: "564"
@@ -29,8 +30,11 @@ When you’re in need of a super healthy meal, you can never go wrong with a hea
 
 ## Method
 
-1. Mix seasoning ingredients together
-2. Rub salmon with olive oil and sprinkle with seasoning
-3. Grill salmon (either on BBQ, griddle plate) for about 5 minutes per side (depending on thickness). The salmon is done with it flakes easily with a fork.
-4. Serve with steamed green beans, carrots and broccoli
-5. Tip: add kipfler potatoes or mash as a side for extra energy (depending on what you have eaten throughout the rest of the day).
+1. Mix the seasoning ingredients together.
+2. Rub the salmon with olive oil and sprinkle with the seasoning.
+3. Grill the salmon on a BBQ or griddle plate for about 5 minutes per side, depending on thickness. It is done when it flakes easily with a fork.
+4. Serve with steamed green beans, carrots and broccoli.
+
+## Tip
+
+Add kipfler potatoes or mash as a side for extra energy (depending on what you have eaten throughout the rest of the day).
