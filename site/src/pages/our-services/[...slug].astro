@@ -3,7 +3,7 @@ import { getCollection, render } from 'astro:content';
 import Article from '../../layouts/Article.astro';
 import { serviceSlug, serviceUrl, BOOK_URL } from '../../lib/content';
 import { faqFromMarkdown, faqPage } from '../../lib/schema';
-import { pathways, callLink } from '../../data/pathways';
+import { pathways, callLink, CREDIT_PATHWAYS, creditLine } from '../../data/pathways';
 
 export async function getStaticPaths() {
   const services = await getCollection('services');
@@ -99,6 +99,7 @@ const toc = [
           ))}
         </ol>
         <p style="margin:.9rem 0 0"><b>Program:</b> {pw.program}</p>
+        {CREDIT_PATHWAYS.includes(pw.id) && <p style="margin:.4rem 0 0"><b>Initial consultation credit:</b> {creditLine} <a href="/consultations/#ongoing">Terms on the consultations page</a>.</p>}
         <p style="margin:.4rem 0 0"><b>Medicare:</b> {pw.medicare}</p>
         <p style="margin:.4rem 0 0">Appointments are in person at Milton Village Medical, Milton, Brisbane, or by telehealth anywhere in Australia. <a href={callLink(pw)} style="font-weight:600">Book a free 15-minute call</a> or <a href={`/consultations/#pathway-${pw.id}`}>compare all pathways</a>.</p>
       </section>

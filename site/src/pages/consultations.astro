@@ -43,8 +43,8 @@ const schema = {
     {
       '@type': 'FAQPage',
       mainEntity: [
-        { '@type': 'Question', name: 'Do I have to commit to a program?', acceptedAnswer: { '@type': 'Answer', text: 'No. You can book a single initial consultation. If you book The Program within 14 days of your initial consultation, that consultation counts as its first appointment.' } },
-        { '@type': 'Question', name: 'How many appointments are in a program?', acceptedAnswer: { '@type': 'Answer', text: 'The Program is five appointments: one 75-minute initial consultation and four reviews, usually across about 12 weeks. The Journey is eight: one initial consultation and seven reviews spaced across a pregnancy and into the first weeks after birth. Timing is flexible to you.' } },
+        { '@type': 'Question', name: 'Do I have to commit to a program?', acceptedAnswer: { '@type': 'Answer', text: 'No. You can book a single initial consultation. If you choose a program at or before your second consultation, your initial consultation counts as its first appointment and its fee is credited in full toward the program.' } },
+        { '@type': 'Question', name: 'How many appointments are in a program?', acceptedAnswer: { '@type': 'Answer', text: 'The Program is five appointments: one 75-minute initial consultation and four reviews, usually across about 12 weeks. The Journey is seven: one initial consultation and six reviews spaced across a pregnancy and into the first weeks after birth. Timing is flexible to you.' } },
         { '@type': 'Question', name: 'Does Medicare cover dietitian consultations?', acceptedAnswer: { '@type': 'Answer', text: 'If your GP refers you under a GP Chronic Condition Management Plan you may receive a Medicare rebate for up to five allied-health visits a calendar year. Eligibility is your GP\'s decision. Private health extras may also apply; you cannot claim both for the same consultation.' } },
       ],
     },
@@ -105,6 +105,10 @@ const schema = {
     <li><b>Review and adapt.</b> Shorter appointments to check what is working and update the plan as results and your stage change.</li>
   </ol>
   <p>After your initial consultation, you and Kat decide together whether you need more support. You can book individual reviews as you need them, or choose a program for more continuity. <b>Programs include the initial consultation</b>, so they are not an extra starting appointment.</p>
+  <aside class="credit" aria-label="Initial consultation credit">
+    <p><b>Start with one consultation, then decide.</b> If you choose a program at or before your second consultation, the fee you paid for your initial consultation is credited in full toward the program, and the program covers your appointments from your second visit.</p>
+    <p class="fine">Applies to The Program, The Journey and The Couples Journey for fertility, IVF, pregnancy and postpartum care. One credit per client. The initial consultation is paid in full at the time. Program fees are explained on your free call and again before you choose. Kat recommends a program only when it suits your care, and there is no obligation to continue. This does not affect your rights under the Australian Consumer Law.</p>
+  </aside>
   <div class="programs">
     <article class="program">
       <h3>The Program</h3>
@@ -114,9 +118,14 @@ const schema = {
     </article>
     <article class="program">
       <h3>The Journey</h3>
-      <p><b>8 appointments in total:</b> the initial consultation plus seven reviews spaced across a pregnancy and into the first weeks after birth.</p>
+      <p><b>7 appointments in total:</b> the initial consultation plus six reviews spaced across a pregnancy and into the first weeks after birth.</p>
       <p><b>Included:</b> everything in The Program, plus a third-trimester plan update, a birth and early breastfeeding guide, and a postpartum appointment within six weeks of birth. Use within 12 months.</p>
       <p class="fine"><b>Joining later in pregnancy?</b> Kat can see you for individual consultations or create a tailored package for the weeks you have left.</p>
+    </article>
+    <article class="program">
+      <h3>The Couples Journey</h3>
+      <p><b>For couples going through IVF or fertility treatment:</b> The Journey, plus an initial consultation and one review for your partner.</p>
+      <p><b>Included:</b> everything in The Journey, with your partner's own assessment and plan. Use within 12 months.</p>
     </article>
   </div>
 
@@ -142,7 +151,7 @@ const schema = {
     </table>
   </div>
   <ul class="fine">
-    <li>If you book The Program within 14 days of a single initial consultation, that consultation counts as the program's first appointment.</li>
+    <li>If you choose a program at or before your second consultation, your initial consultation counts as the program's first appointment and its fee is credited in full toward the program.</li>
     <li>Appointments outside a program, such as an extra review or a partner appointment, are booked and charged separately. Program appointments can be used across stages, for example moving from preconception into pregnancy.</li>
   </ul>
 
@@ -162,6 +171,7 @@ const schema = {
 
   <h2>Private health</h2>
   <p>Many extras policies include dietetics. Check with your fund for your cover level. You cannot claim both Medicare and private health on the same consultation.</p>
+  <p>If you choose a program, you receive a separate receipt for each consultation in it, so you can claim each one with your health fund according to your cover.</p>
 
   <h2 id="payment">Payment, cancellations and refunds</h2>
   <ul>
@@ -207,9 +217,13 @@ const schema = {
 
   .programs { display: grid; gap: 1rem; margin: 1rem 0 1rem; }
   @media (min-width: 760px) { .programs { grid-template-columns: 1fr 1fr; } }
+  @media (min-width: 1000px) { .programs { grid-template-columns: 1fr 1fr 1fr; } }
   .program { border: 1.5px solid var(--line); border-radius: 22px; padding: 1.4rem 1.3rem; }
   .program h3 { margin: 0 0 .5rem; }
   .program p + p { margin-top: .6rem; }
+  .credit { margin: 1rem 0 1.2rem; padding: 1.1rem 1.3rem; background: var(--mint); border-radius: 16px; }
+  .credit p { margin: 0; }
+  .credit p + p { margin-top: .5rem; }
   .fine { font-size: .92rem; color: var(--fg-soft); }
 
   .table-wrap { overflow-x: auto; margin: .4rem 0 2rem; }
