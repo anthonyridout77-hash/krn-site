@@ -29,7 +29,7 @@ const fallback = campaign ? `${BOOK_URL}?utm_source=website&utm_medium=${medium}
   .book-inline-sub{margin:0 0 1rem;color:var(--fg)}
   .book-inline-cal{background:var(--bg);border-radius:12px;min-height:120px;overflow:hidden}
   .book-inline-cal.on{min-height:560px}
-  .book-inline-cal iframe{width:100%;border:0;display:block}
+  .book-inline-cal iframe{width:100%;height:100%;min-height:560px;border:0;display:block}
   .book-inline h2:focus{outline:none}
   .book-inline h2:focus-visible{outline:2px solid var(--sage-deep);outline-offset:4px}
   .book-inline-load{margin:0;padding:2rem 1rem;text-align:center}
@@ -77,10 +77,19 @@ const fallback = campaign ? `${BOOK_URL}?utm_source=website&utm_medium=${medium}
     widget(function(ok){
       if (!ok) return; // script blocked: the "See available times" link stays as the way to book
       box.classList.add('on');
-      window.Calendly.initInlineWidget({ url: build(sec), parentElement: box, resize: true });
+      var want = new URL(build(sec));
+      window.Calendly.initInlineWidget({ url: want.toString(), parentElement: box, resize: true });
       var f = box.querySelector('iframe');
       if (f) {
         f.setAttribute('data-krn', '1'); // stops the GTM tag rewriting the frame with raw click IDs
+        // widget.js copies utm_* from the page address into the frame. Force the sanitised values back.
+        try {
+          var got = new URL(f.src);
+          ['utm_source','utm_medium','utm_campaign','utm_content','utm_term'].forEach(function(k){
+            if (want.searchParams.has(k)) got.searchParams.set(k, want.searchParams.get(k)); else got.searchParams.delete(k);
+          });
+          if (got.toString() !== f.src) f.src = got.toString();
+        } catch (e) {}
         f.title = 'Book a free 15-minute call with Kat';
         f.addEventListener('load', function(){ var l = box.querySelector('.book-inline-load'); if (l) l.remove(); });
       }
