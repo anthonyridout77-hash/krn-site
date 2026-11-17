@@ -35,6 +35,7 @@ const faq: [string, string][] = [
 const faqLd = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":faq.map(([q,a])=>({"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":a}}))};
 ---
 <Article
+  inlineBook
   title="Nutrition support for perimenopause and menopause"
   metaTitle="Perimenopause & Menopause Dietitian Brisbane and Online"
   description="Katrina Ridout, Accredited Practising Dietitian. Practical nutrition support through perimenopause, menopause and after. Milton, Brisbane or telehealth Australia-wide."

@@ -14,6 +14,7 @@ const category = post.data.categories?.[0];
 const related = relatedPosts(post, all, 3);
 ---
 <Article
+  inlineBook
   title={post.data.title}
   metaTitle={post.data.seoTitle}
   description={post.data.description ?? post.data.title}

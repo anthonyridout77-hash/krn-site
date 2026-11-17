@@ -1,5 +1,5 @@
 ---
-title: "Pre Conception"
+title: "Preconception"
 seoTitle: "Preconception and Prenatal Dietitian Brisbane and Online"
 description: "Fertility and prenatal nutrition with Kat Ridout, Accredited Practising Dietitian, before and during pregnancy. In person in Milton, Brisbane, or by telehealth anywhere in Australia."
 date: "2025-08-01"
@@ -9,7 +9,7 @@ wpUrl: "https://www.katridout.com.au/our-services/prenatal-nutrition-and-dieteti
 ---
 
 
-## Pre Conception
+## Preconception
 
 Pre-conception Nutrition Specialist Brisbane
 

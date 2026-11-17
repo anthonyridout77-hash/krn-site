@@ -112,7 +112,18 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     window.krnCleanBookingLink = clean;
     document.addEventListener('click', function(ev){
       var a = ev.target; while (a && a.tagName !== 'A') a = a.parentElement;
-      if (a && a.href && a.href.indexOf('calendly.com') > -1) a.href = clean(a.href);
+      if (!(a && a.href && a.href.indexOf('calendly.com') > -1)) return;
+      a.href = clean(a.href);
+      /* Free-call buttons open the on-page calendar when the page has one, so the visitor stays on
+         the site. Links inside the calendar section itself (its fallbacks), modified clicks and
+         other Calendly event types still open Calendly. Without JavaScript the link works as before. */
+      var sec = document.querySelector('[data-book-inline]');
+      if (!sec || sec.contains(a) || ev.defaultPrevented || ev.button || ev.metaKey || ev.ctrlKey || ev.shiftKey || ev.altKey) return;
+      if (a.href.indexOf('/15-minute-investigative-callback') === -1) return;
+      ev.preventDefault();
+      var jump = document.createElement('a'); jump.href = '#' + sec.id; jump.hidden = true;
+      document.body.appendChild(jump); jump.click(); jump.remove();
+      (window.dataLayer = window.dataLayer || []).push({ event: 'krn_book_button_inline' });
     }, false);
   })();
   </script>
