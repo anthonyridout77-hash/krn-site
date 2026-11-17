@@ -1,5 +1,4 @@
 ---
-import { GOOGLE_REVIEWS } from '../data/reviews';
 import BookInline from '../components/BookInline.astro';
 import Base from '../layouts/Base.astro';
 import BookBar from '../components/BookBar.astro';
@@ -43,7 +42,6 @@ import BookBar from '../components/BookBar.astro';
       </div>
       <p class="sub fade-up" style="animation-delay:.58s"><b>Initial consultation:</b> a full assessment that connects your history, eating and concerns into one coordinated plan. <b>Free call:</b> 15 minutes to talk it through and choose the right option. <a href="#compare">Compare</a></p>
       <div class="trust fade-up" style="animation-delay:.65s">
-        <span><span class="stars">★★★★★</span> <b>{GOOGLE_REVIEWS.rating}</b> on Google · {GOOGLE_REVIEWS.count} reviews</span>
         <span><img class="apd" src="/images/apd-logo.webp" alt="Accredited Practising Dietitian" width="127" height="126" loading="lazy"> Dietitians Australia</span>
         <span>Medicare rebates may apply</span>
       </div>
@@ -125,11 +123,6 @@ import BookBar from '../components/BookBar.astro';
       <p class="rv d2">Katrina is an Accredited Practising Dietitian and an Early Life Nutrition Alliance alumna. She holds a Bachelor of Health Science in Nutrition and Dietetics and a Graduate Certificate in Research in prenatal nutrition from QUT.</p>
       <p class="rv d2">Kat is warm, direct and practical. She keeps her caseload small and sees clients in Milton, Brisbane or by telehealth anywhere in Australia.</p>
       <div class="badges rv d3"><span>Dietitians Australia</span><span>Early Life Nutrition Alliance</span><span>QUT, Nutrition &amp; Dietetics</span></div>
-      <div class="stats rv d3">
-        <div><div class="big">{GOOGLE_REVIEWS.count}</div><small>Google reviews</small></div>
-        <div><div class="big">{GOOGLE_REVIEWS.rating}</div><small>average rating</small></div>
-        
-      </div>
     </div>
   </div>
 </section>
@@ -167,16 +160,6 @@ import BookBar from '../components/BookBar.astro';
       <div class="step rv d2"><h3>Your routine and family life</h3><p>Work, sleep, cooking time and who you feed, so the changes are realistic for your week.</p></div>
       <div class="step rv d3"><h3>Your goals and stage</h3><p>What matters most to you right now, and where you are, from planning a pregnancy to everyday health.</p></div>
     </div>
-  </div>
-</section>
-
-<section class="reviews">
-  <div class="wrap">
-    <p class="eyebrow rv">Rated {GOOGLE_REVIEWS.rating} on Google</p>
-    <h2 class="rv d1">Reviews on Google</h2>
-    <div class="rating rv d2"><span class="big">{GOOGLE_REVIEWS.rating}</span><span class="stars">★★★★★</span><span>{GOOGLE_REVIEWS.count} Google reviews</span></div>
-    <p class="rv d2">Reviews are published on Google by Kat's clients. Read them in full there.</p>
-    <a class="btn btn-white rv d3" href={GOOGLE_REVIEWS.url}>Read the reviews on Google</a>
   </div>
 </section>
 

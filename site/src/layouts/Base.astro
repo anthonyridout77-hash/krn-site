@@ -42,6 +42,14 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <script type="application/ld+json" set:html={JSON.stringify(BASE_GRAPH)} />
   <slot name="head" />
+  <script is:inline>
+  /* Owner/test devices: open any page once with ?krn_internal=1 (clear with ?krn_internal=0).
+     The flag is pushed before GTM loads so tags can exclude this browser from conversions and reports. */
+  (function(){try{var q=new URLSearchParams(location.search).get('krn_internal');
+    if(q==='1')localStorage.setItem('krn_internal','1');if(q==='0')localStorage.removeItem('krn_internal');
+    if(localStorage.getItem('krn_internal')==='1'){window.krnInternal=true;(window.dataLayer=window.dataLayer||[]).push({krn_traffic:'internal'});}
+  }catch(e){}})();
+  </script>
   <!-- Google Tag Manager -->
   <script is:inline>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -106,6 +114,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
         var camp = u.searchParams.get('utm_campaign');
         if (camp && CAMPAIGNS.indexOf(camp) === -1) u.searchParams.set('utm_campaign', 'external');
         ['gclid','gbraid','wbraid','fbclid','msclkid'].forEach(function(k){ u.searchParams.delete(k); });
+        if (window.krnInternal) { u.searchParams.set('utm_source', 'internal'); u.searchParams.set('utm_medium', 'test'); u.searchParams.set('utm_campaign', 'internal-test'); }
         return u.toString();
       } catch (e) { return href; }
     }
@@ -114,6 +123,37 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
       var a = ev.target; while (a && a.tagName !== 'A') a = a.parentElement;
       if (a && a.href && a.href.indexOf('calendly.com') > -1) a.href = clean(a.href);
     }, false);
+  })();
+  </script>
+  <script is:inline>
+  /* One booking = one "krn_booking_complete" event, whichever way the booking was made.
+     - Inline calendar: BookInline calls krnBookingComplete('inline') if Calendly does not redirect.
+     - External Calendly page or inline with redirect: this page load of /thank-you/?booking=confirmed.
+     A marker in localStorage stops a second event for the same booking for 30 minutes (inline event
+     followed by the redirect, reloads, back button). The event carries a random id (no booking data)
+     so the ad platform can also de-duplicate. Internal/test browsers get "krn_booking_test" instead. */
+  (function(){
+    var KEY='krn_bk', WINDOW_MS=18e5, mem=null;
+    function read(){ try{ return JSON.parse(localStorage.getItem(KEY)||'null'); }catch(e){ return mem; } }
+    function write(v){ mem=v; try{ localStorage.setItem(KEY, JSON.stringify(v)); }catch(e){} }
+    window.krnBookingComplete=function(path){
+      var dl=(window.dataLayer=window.dataLayer||[]), now=Date.now(), last=read();
+      if(last && now-last.ts<WINDOW_MS) return false;
+      var id='b'+now.toString(36)+Math.random().toString(36).slice(2,8);
+      write({ts:now,id:id});
+      dl.push({event: window.krnInternal ? 'krn_booking_test' : 'krn_booking_complete', krn_booking_id:id, krn_booking_path:path});
+      return true;
+    };
+    if(/^\/thank-you\/?$/.test(location.pathname)){
+      var q=new URLSearchParams(location.search);
+      if(q.get('booking')==='confirmed'){
+        window.krnBookingComplete('redirect');
+        // Take "confirmed" out of the address once tags have had time to read it, so a reload,
+        // bookmark or shared link cannot count again. The page keeps its "you're booked" wording.
+        var strip=function(){ try{ q.set('booking','done'); history.replaceState(null,'',location.pathname+'?'+q.toString()); }catch(e){} };
+        if(document.readyState==='complete') setTimeout(strip,2500); else window.addEventListener('load',function(){ setTimeout(strip,2500); });
+      }
+    }
   })();
   </script>
 </body>

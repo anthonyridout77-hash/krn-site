@@ -32,7 +32,7 @@ import '../styles/article.css';
     var h = document.getElementById('tyHeading');
     var t = document.getElementById('tyText');
     if (!h || !t) return;
-    if (b === 'confirmed') {
+    if (b === 'confirmed' || b === 'done') {
       h.textContent = "Thanks, you're booked";
       t.textContent = 'Your free 15-minute call with Kat is confirmed. Kat will call you at the time you chose. Bring your concerns and any questions; there is nothing to prepare. A calendar invite is on its way to your inbox.';
       document.title = "Thanks, you're booked | Katrina Ridout Nutrition";
