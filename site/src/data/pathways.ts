@@ -28,6 +28,10 @@ const CALENDLY = 'https://calendly.com/katridout/15-minute-investigative-callbac
 // One generic code for every pathway: no condition (or mappable code) is sent to Calendly or analytics.
 export const callLink = (_p: Pathway) => `${CALENDLY}?utm_source=site&utm_medium=pathways&utm_campaign=pathways`;
 
+// Initial consultation credit (Anthony, 17 Nov 2026). KAT GATE: fee wording, needs her sign-off before merge.
+export const CREDIT_PATHWAYS = ['fertility', 'ivf', 'pregnancy', 'gdm', 'postpartum'];
+export const creditLine = 'Start with one consultation, then decide. If you choose a program within 30 days of your initial consultation, the fee you paid for it is credited in full toward the program.';
+
 export const takeawayFirst = 'Dietary assessment summary, starter meal plan, your individualised supplement plan, recipe booklet and snack ideas, all within 2 business days.';
 
 export const pathways: Pathway[] = [
@@ -63,7 +67,7 @@ export const pathways: Pathway[] = [
     id: 'pregnancy', tab: 'Pregnant', name: 'Pregnancy pathway', utm: 'pregnancy',
     who: 'Any trimester, including twins, vegetarian or vegan pregnancies, and higher or lower BMI pregnancies.',
     story: 'Each trimester has two or three nutrition jobs. Iron, iodine, weight gain and food safety come first, because the later months build on them.',
-    program: 'The Journey: 1 initial + 7 reviews spaced across your pregnancy and into the first weeks after birth. The Program (1 + 4) covers a 12-week window if you are joining later.',
+    program: 'The Journey: 1 initial + 6 reviews spaced across your pregnancy and into the first weeks after birth. The Program (1 + 4) covers a 12-week window if you are joining later.',
     medicare: 'Usually private or private health extras, unless a chronic condition applies.',
     consults: [
       { phase: 'Getting started', when: 'Booking consult, any trimester', length: '75 min', title: 'Full assessment', detail: 'Gestation, bloods, pre-pregnancy BMI and weight-gain range, nausea and aversions, supplements, food safety, dietary restrictions.', takeaway: takeawayFirst },
