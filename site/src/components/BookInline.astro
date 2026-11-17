@@ -1,5 +1,5 @@
 ---
-/* Inline booking calendar (Calendly embed). Built 17 Nov 2026 so visitors can pick a time
+/* Inline booking calendar (Calendly's supported JavaScript embed, widget.js, with resize). Built 17 Nov 2026 so visitors can pick a time
    without leaving the page. The widget loads only when the section nears the viewport.
    Booking-link tags: the stored attribution from GTM tag "krnAttr" (window.krnDecorate) is applied
    first, then the same privacy cleaner as outgoing Calendly links (window.krnCleanBookingLink in
@@ -7,13 +7,13 @@
    The iframe carries data-krn="1" so the GTM tag does not rewrite it with raw values afterwards. */
 import { BOOK_URL } from '../lib/content';
 interface Props { campaign?: string; medium?: string; heading?: string; id?: string; flush?: boolean }
-const { campaign = '', medium = '', heading = 'Pick a time for your free 15-minute call', id = 'book', flush = false } = Astro.props;
+const { campaign = '', medium = '', heading = 'Book a free 15-minute call', id = 'book', flush = false } = Astro.props;
 const fallback = campaign ? `${BOOK_URL}?utm_source=website&utm_medium=${medium}&utm_campaign=${campaign}` : BOOK_URL;
 ---
 <section class:list={['book-inline', { flush }]} id={id} aria-labelledby={`${id}-h`} data-book-inline data-url={BOOK_URL} data-medium={medium} data-campaign={campaign}>
   <div class="book-inline-in">
-    <h2 id={`${id}-h`}>{heading}</h2>
-    <p class="book-inline-sub">Kat phones you at the time you choose. Lunchtime and evening times are available.</p>
+    <h2 id={`${id}-h`} tabindex="-1">{heading}</h2>
+    <p class="book-inline-sub">Kat calls you at the time you book.</p>
     <div class="book-inline-cal" data-book-target>
       <p class="book-inline-load"><a class="btn btn-coral" href={fallback}>See available times</a></p>
     </div>
@@ -28,8 +28,10 @@ const fallback = campaign ? `${BOOK_URL}?utm_source=website&utm_medium=${medium}
   .book-inline h2,.prose .book-inline h2{font-size:1.4rem;margin:0 0 .3rem;padding:0;color:var(--heading)}
   .book-inline-sub{margin:0 0 1rem;color:var(--fg)}
   .book-inline-cal{background:var(--bg);border-radius:12px;min-height:120px;overflow:hidden}
-  .book-inline-cal.on{min-height:560px;height:700px}
-  .book-inline-cal iframe{width:100%;height:100%;border:0;display:block}
+  .book-inline-cal.on{min-height:560px}
+  .book-inline-cal iframe{width:100%;border:0;display:block}
+  .book-inline h2:focus{outline:none}
+  .book-inline h2:focus-visible{outline:2px solid var(--sage-deep);outline-offset:4px}
   .book-inline-load{margin:0;padding:2rem 1rem;text-align:center}
   .book-inline-alt{margin:.8rem 0 0;font-size:.9rem;color:var(--fg-soft)}
 </style>
@@ -57,21 +59,33 @@ const fallback = campaign ? `${BOOK_URL}?utm_source=website&utm_medium=${medium}
     if (c !== 'ads-click') u.searchParams.set('utm_content', c.indexOf('page-') === 0 ? c.replace('page-', 'inline-') : 'inline');
     u.searchParams.set('hide_gdpr_banner', '1');
     u.searchParams.set('hide_event_type_details', '1');
-    u.searchParams.set('embed_type', 'Inline');
-    u.searchParams.set('embed_domain', location.hostname);
     return u.toString();
+  }
+  var WIDGET = 'https://assets.calendly.com/assets/external/widget.js', pending = null;
+  function widget(cb){
+    if (window.Calendly && window.Calendly.initInlineWidget) return cb(true);
+    if (pending) return pending.push(cb);
+    pending = [cb];
+    var sc = document.createElement('script'); sc.src = WIDGET; sc.async = true;
+    var done = function(ok){ var q = pending; pending = null; q.forEach(function(f){ f(ok && !!(window.Calendly && window.Calendly.initInlineWidget)); }); };
+    sc.onload = function(){ done(true); }; sc.onerror = function(){ done(false); };
+    document.head.appendChild(sc);
   }
   function load(sec){
     if (sec.krnLoaded) return; sec.krnLoaded = true;
     var box = sec.querySelector('[data-book-target]');
-    var f = document.createElement('iframe');
-    f.title = 'Book a free 15-minute call with Kat';
-    f.setAttribute('data-krn', '1');
-    f.src = build(sec);
-    f.addEventListener('load', function(){ var l = box.querySelector('.book-inline-load'); if (l) l.remove(); });
-    box.classList.add('on');
-    box.appendChild(f);
-    (window.dataLayer = window.dataLayer || []).push({ event: 'krn_calendar_shown' });
+    widget(function(ok){
+      if (!ok) return; // script blocked: the "See available times" link stays as the way to book
+      box.classList.add('on');
+      window.Calendly.initInlineWidget({ url: build(sec), parentElement: box, resize: true });
+      var f = box.querySelector('iframe');
+      if (f) {
+        f.setAttribute('data-krn', '1'); // stops the GTM tag rewriting the frame with raw click IDs
+        f.title = 'Book a free 15-minute call with Kat';
+        f.addEventListener('load', function(){ var l = box.querySelector('.book-inline-load'); if (l) l.remove(); });
+      }
+      (window.dataLayer = window.dataLayer || []).push({ event: 'krn_calendar_shown' });
+    });
   }
   var secs = [].slice.call(document.querySelectorAll('[data-book-inline]'));
   if (!secs.length) return;
@@ -83,19 +97,14 @@ const fallback = campaign ? `${BOOK_URL}?utm_source=website&utm_medium=${medium}
   document.addEventListener('click', function(ev){
     var a = ev.target; while (a && a.tagName !== 'A') a = a.parentElement;
     if (!a) return; var h = a.getAttribute('href') || '';
-    if (h.charAt(0) === '#' && h.length > 1) { var t = document.getElementById(h.slice(1)); if (t && t.hasAttribute('data-book-inline')) load(t); }
+    if (h.charAt(0) === '#' && h.length > 1) { var t = document.getElementById(h.slice(1)); if (t && t.hasAttribute('data-book-inline')) { load(t); var hd = t.querySelector('h2'); if (hd) setTimeout(function(){ hd.focus({ preventScroll: true }); }, 50); } }
   });
-  // Messages from the calendar: only from calendly.com, only the three expected events.
+  // Messages from the calendar: only from calendly.com, only the two expected events.
   // Tracking sends the event name alone; nothing from the booking payload is read or forwarded.
   var MAP = { 'calendly.date_and_time_selected': 'krn_calendar_time_selected', 'calendly.event_scheduled': 'krn_calendly_booked' };
   window.addEventListener('message', function(e){
     if (!/^https:\/\/([a-z0-9-]+\.)?calendly\.com$/.test(e.origin)) return;
     var d = e.data; if (!d || typeof d.event !== 'string') return;
-    if (d.event === 'calendly.page_height') {
-      var h = parseInt(d.payload && d.payload.height, 10);
-      if (h >= 300 && h <= 2000) secs.forEach(function(s){ var f = s.querySelector('iframe'); if (f && f.contentWindow === e.source) f.parentElement.style.height = h + 'px'; });
-      return;
-    }
     if (MAP[d.event]) (window.dataLayer = window.dataLayer || []).push({ event: MAP[d.event] });
   });
 })();
