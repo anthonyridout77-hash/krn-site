@@ -1,5 +1,6 @@
 ---
 import { GOOGLE_REVIEWS } from '../data/reviews';
+import BookInline from '../components/BookInline.astro';
 import Base from '../layouts/Base.astro';
 import BookBar from '../components/BookBar.astro';
 ---
@@ -37,12 +38,11 @@ import BookBar from '../components/BookBar.astro';
       </div>
       <p class="hero-where fade-up" style="animation-delay:.45s"><span>In-person appointments in Milton, Brisbane</span><span aria-hidden="true"> · </span><span>Telehealth across Australia</span></p>
       <div class="cta-row fade-up" style="animation-delay:.5s">
-        <a class="btn btn-coral" href="https://calendly.com/katridout/15-minute-investigative-callback">Book a free 15-minute call</a>
+        <a class="btn btn-coral" href="#book">Book a free 15-minute call</a>
         <a class="btn btn-line" href="#checklist">Get the free checklist</a>
       </div>
       <p class="sub fade-up" style="animation-delay:.58s"><b>Initial consultation:</b> a full assessment that connects your history, eating and concerns into one coordinated plan. <b>Free call:</b> 15 minutes to talk it through and choose the right option. <a href="#compare">Compare</a></p>
       <div class="trust fade-up" style="animation-delay:.65s">
-        <span><span class="stars">★★★★★</span> <b>{GOOGLE_REVIEWS.rating}</b> on Google · {GOOGLE_REVIEWS.count} reviews</span>
         <span><img class="apd" src="/images/apd-logo.webp" alt="Accredited Practising Dietitian" width="127" height="126" loading="lazy"> Dietitians Australia</span>
         <span>Medicare rebates may apply</span>
       </div>
@@ -54,6 +54,8 @@ import BookBar from '../components/BookBar.astro';
     </div>
   </div>
 </section>
+
+<BookInline flush campaign="home" medium="inline" />
 
 <div class="ticker"><div class="track">
   <span>Preconception</span><i>•</i><span>IVF support</span><i>•</i><span>PCOS</span><i>•</i><span>Endometriosis</span><i>•</i><span>Gestational diabetes</span><i>•</i><span>Pregnancy</span><i>•</i><span>Postpartum</span><i>•</i><span>Breastfeeding</span></div></div>

@@ -1,0 +1,97 @@
+---
+/* Inline booking calendar (Calendly embed). Built 17 Nov 2026 so visitors can pick a time
+   without leaving the page. The widget loads only when the section nears the viewport.
+   Booking-link tags follow the same privacy rules as outgoing Calendly links (see Base.astro):
+   generic source, medium and campaign only; no click IDs, search terms or page paths. */
+import { BOOK_URL } from '../lib/content';
+interface Props { campaign?: string; medium?: string; heading?: string; id?: string; flush?: boolean }
+const { campaign = 'inline', medium = 'inline', heading = 'Pick a time for your free 15-minute call', id = 'book', flush = false } = Astro.props;
+const fallback = `${BOOK_URL}?utm_source=website&utm_medium=${medium}&utm_campaign=${campaign}`;
+---
+<section class:list={['book-inline', { flush }]} id={id} aria-labelledby={`${id}-h`} data-book-inline data-url={BOOK_URL} data-medium={medium} data-campaign={campaign}>
+  <div class="book-inline-in">
+    <h2 id={`${id}-h`}>{heading}</h2>
+    <p class="book-inline-sub">Kat phones you at the time you choose. Lunchtime and evening times are available.</p>
+    <div class="book-inline-cal" data-book-target>
+      <p class="book-inline-load"><a class="btn btn-coral" href={fallback}>See available times</a></p>
+    </div>
+    <p class="book-inline-alt">Calendar not showing? <a href={fallback}>Open it in a new page</a> or call <a href="tel:1300640104">1300 640 104</a>.</p>
+  </div>
+</section>
+
+<style is:global>
+  .book-inline{margin:2rem 0;padding:1.4rem 1.2rem;background:var(--mint);border-radius:16px;scroll-margin-top:90px}
+  .book-inline.flush{margin:0;border-radius:0;padding:2.4rem var(--gr) 2.4rem var(--gl)}
+  .book-inline-in{max-width:760px;margin:0 auto}
+  .book-inline h2,.prose .book-inline h2{font-size:1.4rem;margin:0 0 .3rem;padding:0;color:var(--heading)}
+  .book-inline-sub{margin:0 0 1rem;color:var(--fg)}
+  .book-inline-cal{background:var(--bg);border-radius:12px;min-height:120px;overflow:hidden}
+  .book-inline-cal.on{min-height:700px;height:700px}
+  .book-inline-cal iframe{width:100%;height:100%;border:0;display:block}
+  .book-inline-load{margin:0;padding:2rem 1rem;text-align:center}
+  .book-inline-alt{margin:.8rem 0 0;font-size:.9rem;color:var(--fg-soft)}
+</style>
+
+<script is:inline>
+(function(){
+  if (window.krnBookInline) return; window.krnBookInline = true;
+  var OWN = ['general-dietitian','dietitian','pathways','7-day-meal-plan','adelaide_lp','perth_lp','gbp-booking','svc-05','svc-06','svc-07','ads-main','ads-b','ads-c','ads-unknown','inline','home'];
+  function build(sec){
+    var q = new URLSearchParams(location.search);
+    var ad = false;
+    try {
+      if (q.get('gclid') || q.get('gbraid') || q.get('wbraid')) sessionStorage.setItem('krnAd', '1');
+      ad = sessionStorage.getItem('krnAd') === '1';
+    } catch (e) { ad = !!(q.get('gclid') || q.get('gbraid') || q.get('wbraid')); }
+    var u = new URL(sec.getAttribute('data-url'));
+    var camp = q.get('utm_campaign');
+    if (ad) {
+      u.searchParams.set('utm_source', 'google');
+      u.searchParams.set('utm_medium', 'cpc');
+      u.searchParams.set('utm_campaign', camp && /^ads-(main|b|c)$/.test(camp) ? camp : 'ads-unknown');
+      u.searchParams.set('utm_content', 'ads-click');
+    } else {
+      u.searchParams.set('utm_source', q.get('utm_source') && /^[a-z0-9_.-]{1,30}$/i.test(q.get('utm_source')) ? q.get('utm_source') : 'website');
+      u.searchParams.set('utm_medium', q.get('utm_medium') && /^[a-z0-9_.-]{1,30}$/i.test(q.get('utm_medium')) ? q.get('utm_medium') : sec.getAttribute('data-medium'));
+      u.searchParams.set('utm_campaign', camp ? (OWN.indexOf(camp) > -1 ? camp : 'external') : sec.getAttribute('data-campaign'));
+      u.searchParams.set('utm_content', 'inline');
+    }
+    u.searchParams.set('hide_gdpr_banner', '1');
+    u.searchParams.set('hide_event_type_details', '1');
+    u.searchParams.set('embed_type', 'Inline');
+    u.searchParams.set('embed_domain', location.hostname);
+    return u.toString();
+  }
+  function load(sec){
+    if (sec.krnLoaded) return; sec.krnLoaded = true;
+    var box = sec.querySelector('[data-book-target]');
+    var f = document.createElement('iframe');
+    f.title = 'Book a free 15-minute call with Kat';
+    f.loading = 'lazy';
+    f.src = build(sec);
+    f.addEventListener('load', function(){ var l = box.querySelector('.book-inline-load'); if (l) l.remove(); });
+    box.classList.add('on');
+    box.appendChild(f);
+    (window.dataLayer = window.dataLayer || []).push({ event: 'krn_calendar_shown' });
+  }
+  var secs = [].slice.call(document.querySelectorAll('[data-book-inline]'));
+  if (!secs.length) return;
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function(es){ es.forEach(function(e){ if (e.isIntersecting) { load(e.target); io.unobserve(e.target); } }); }, { rootMargin: '600px 0px' });
+    secs.forEach(function(s){ io.observe(s); });
+  } else { secs.forEach(load); }
+  // Any on-page "book" button that points at an inline calendar loads it straight away.
+  document.addEventListener('click', function(ev){
+    var a = ev.target; while (a && a.tagName !== 'A') a = a.parentElement;
+    if (!a) return; var h = a.getAttribute('href') || '';
+    if (h.charAt(0) === '#' && h.length > 1) { var t = document.getElementById(h.slice(1)); if (t && t.hasAttribute('data-book-inline')) load(t); }
+  });
+  // Booking tracking: Calendly posts a message to the page when a step completes. Counts only, no personal data.
+  var MAP = { 'calendly.date_and_time_selected': 'krn_calendar_time_selected', 'calendly.event_scheduled': 'krn_calendly_booked' };
+  window.addEventListener('message', function(e){
+    if (!/^https:\/\/([a-z0-9-]+\.)?calendly\.com$/.test(e.origin)) return;
+    var name = e.data && e.data.event && MAP[e.data.event];
+    if (name) (window.dataLayer = window.dataLayer || []).push({ event: name });
+  });
+})();
+</script>
