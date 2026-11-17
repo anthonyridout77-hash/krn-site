@@ -25,8 +25,8 @@ const receive = [
 
 const cols = ['Individual reviews', 'The Program', 'The Journey'];
 const rows: { label: string; cells: string[] }[] = [
-  { label: 'Appointments', cells: ['Booked one at a time, as you need them', '5 in total, including the initial consultation', '8 in total, including the initial consultation'] },
-  { label: 'Usual timeframe', cells: ['Flexible', 'About 12 weeks, flexible to your stage', 'Across a pregnancy and into the first weeks after birth'] },
+  { label: 'Appointments', cells: ['Booked one at a time, as you need them', '5 in total, including the initial consultation', '7 in total, including the initial consultation'] },
+  { label: 'Usual timeframe', cells: ['Flexible', 'About 12 weeks, flexible to your stage', 'Across a pregnancy'] },
   { label: 'Payment', cells: ['Paid on the day', 'In full or in instalments', 'In full or in instalments'] },
   { label: 'Use within', cells: ['Not applicable', '12 months', '12 months'] },
 ];
@@ -44,7 +44,7 @@ const schema = {
       '@type': 'FAQPage',
       mainEntity: [
         { '@type': 'Question', name: 'Do I have to commit to a program?', acceptedAnswer: { '@type': 'Answer', text: 'No. You can book a single initial consultation. If you choose a program at or before your second consultation, your initial consultation counts as its first appointment and its fee is credited in full toward the program.' } },
-        { '@type': 'Question', name: 'How many appointments are in a program?', acceptedAnswer: { '@type': 'Answer', text: 'The Program is five appointments: one 75-minute initial consultation and four reviews, usually across about 12 weeks. The Journey is seven: one initial consultation and six reviews spaced across a pregnancy and into the first weeks after birth. Timing is flexible to you.' } },
+        { '@type': 'Question', name: 'How many appointments are in a program?', acceptedAnswer: { '@type': 'Answer', text: 'The Program is five appointments: one 75-minute initial consultation and four reviews, usually across about 12 weeks. The Journey is seven: one initial consultation and six reviews spaced across a pregnancy. Timing is flexible to you.' } },
         { '@type': 'Question', name: 'Does Medicare cover dietitian consultations?', acceptedAnswer: { '@type': 'Answer', text: 'If your GP refers you under a GP Chronic Condition Management Plan you may receive a Medicare rebate for up to five allied-health visits a calendar year. Eligibility is your GP\'s decision. Private health extras may also apply; you cannot claim both for the same consultation.' } },
       ],
     },
@@ -118,8 +118,8 @@ const schema = {
     </article>
     <article class="program">
       <h3>The Journey</h3>
-      <p><b>7 appointments in total:</b> the initial consultation plus six reviews spaced across a pregnancy and into the first weeks after birth.</p>
-      <p><b>Included:</b> everything in The Program, plus a third-trimester plan update, a birth and early breastfeeding guide, and a postpartum appointment within six weeks of birth. Use within 12 months.</p>
+      <p><b>7 appointments in total:</b> the initial consultation plus six reviews spaced across a pregnancy.</p>
+      <p><b>Included:</b> everything in The Program, plus a third-trimester plan update, and a birth and early breastfeeding guide with your plan for the first weeks after birth. Use within 12 months.</p>
       <p class="fine"><b>Joining later in pregnancy?</b> Kat can see you for individual consultations or create a tailored package for the weeks you have left.</p>
     </article>
     <article class="program">
