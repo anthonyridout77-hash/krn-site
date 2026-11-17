@@ -2,6 +2,7 @@
 /* Shared article layout for blog posts, recipes and service pages. */
 import Base from './Base.astro';
 import BookBar from '../components/BookBar.astro';
+import BookInline from '../components/BookInline.astro';
 import CtaBand from '../components/CtaBand.astro';
 import PageScript from '../components/PageScript.astro';
 import '../styles/article.css';
@@ -26,10 +27,12 @@ interface Props {
   cta?: string;
   ctaHref?: string;
   noindex?: boolean;
+  /* Show the on-page booking calendar above the closing band. */
+  inlineBook?: boolean;
 }
 const {
   title, metaTitle, description, image, imageAlt = '', date, updated, category, categoryHref,
-  crumbs = [], lede, ctaHeading, ctaText, cta, ctaHref, noindex = false,
+  crumbs = [], lede, ctaHeading, ctaText, cta, ctaHref, noindex = false, inlineBook = false,
 } = Astro.props;
 const showUpdated = updated && date && updated.getTime() - date.getTime() > 86400000;
 const pageUrl = new URL(Astro.url.pathname, Astro.site).toString();
@@ -86,6 +89,8 @@ const crumbLd = breadcrumbList(crumbs, pageUrl);
       <slot name="after-body" />
     </div>
   </article>
+
+  {inlineBook && <BookInline flush />}
 
   <CtaBand heading={ctaHeading} text={ctaText} cta={cta} href={ctaHref} />
 

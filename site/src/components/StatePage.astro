@@ -28,6 +28,7 @@ const faq = [
 const faqLd = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":faq.map(([q,a])=>({"@type":"Question","name":q,"acceptedAnswer":{"@type":"Answer","text":a}}))};
 ---
 <Article
+  inlineBook
   title={title}
   description={description}
   lede={`Based in Brisbane, Kat Ridout supports women right across ${state} through telehealth. Wherever you are, ${regions}, you get the same evidence-based fertility, pregnancy and postpartum nutrition care, over a telehealth appointment that fits around your life.`}
