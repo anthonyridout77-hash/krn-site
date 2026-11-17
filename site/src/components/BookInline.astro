@@ -44,16 +44,27 @@ const fallback = campaign ? `${BOOK_URL}?utm_source=website&utm_medium=${medium}
     var camp = sec.getAttribute('data-campaign'), med = sec.getAttribute('data-medium');
     if (camp) { u.searchParams.set('utm_source', 'website'); u.searchParams.set('utm_medium', med || 'website'); u.searchParams.set('utm_campaign', camp); }
     var href = u.toString();
-    try { if (typeof window.krnDecorate === 'function') href = window.krnDecorate(href); } catch (e) {}
+    if (typeof window.krnDecorate === 'function') {
+      try { href = window.krnDecorate(href); } catch (e) {}
+    } else {
+      // GTM not loaded yet or blocked: resolve attribution the same way the GTM tag does
+      // (this visit's tags first, then the stored value if under 90 days old). Read only.
+      try {
+        var q = new URLSearchParams(location.search), at = null;
+        var id = q.get('gclid') ? 'gclid.x' : q.get('gbraid') ? 'gbraid.x' : q.get('wbraid') ? 'wbraid.x' : '';
+        if (id || q.get('utm_source')) at = { s: q.get('utm_source') || 'google', m: q.get('utm_medium') || (id ? 'cpc' : '(none)'), c: q.get('utm_campaign') || '', id: id };
+        if (!at) { var st = JSON.parse(localStorage.getItem('krn_attr') || 'null'); if (st && Date.now() - st.ts <= 7776e6) at = st; }
+        if (at) {
+          var w = new URL(href);
+          w.searchParams.set('utm_source', String(at.s).slice(0, 60)); w.searchParams.set('utm_medium', String(at.m).slice(0, 30));
+          if (at.c) w.searchParams.set('utm_campaign', at.c); else if (at.id || /^(cpc|ppc|paid)$/.test(at.m)) w.searchParams.set('utm_campaign', 'ads-unknown');
+          w.searchParams.set('utm_content', at.id || 'page');
+          href = w.toString();
+        }
+      } catch (e) {}
+    }
     try { if (typeof window.krnCleanBookingLink === 'function') href = window.krnCleanBookingLink(href); } catch (e) {}
     u = new URL(href);
-    // Fallback when GTM is blocked: an ad click ID on this page still marks the booking as an ad booking.
-    var q = new URLSearchParams(location.search);
-    if (typeof window.krnDecorate !== 'function' && (q.get('gclid') || q.get('gbraid') || q.get('wbraid'))) {
-      u.searchParams.set('utm_source', 'google'); u.searchParams.set('utm_medium', 'cpc');
-      u.searchParams.set('utm_campaign', /^ads-(main|b|c)$/.test(q.get('utm_campaign') || '') ? q.get('utm_campaign') : 'ads-unknown');
-      u.searchParams.set('utm_content', 'ads-click');
-    }
     // Mark bookings made in the on-page calendar (generic value, no path): page-service -> inline-service.
     var c = u.searchParams.get('utm_content') || '';
     if (c !== 'ads-click') u.searchParams.set('utm_content', c.indexOf('page-') === 0 ? c.replace('page-', 'inline-') : 'inline');
