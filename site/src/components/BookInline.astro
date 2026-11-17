@@ -36,6 +36,8 @@ const fallback = campaign ? `${BOOK_URL}?utm_source=website&utm_medium=${medium}
   .book-inline h2:focus{outline:none}
   .book-inline h2:focus-visible{outline:2px solid var(--sage-deep);outline-offset:4px}
   .book-inline-load{margin:0;padding:2rem 1rem;text-align:center}
+  /* Inside an article the link colour would otherwise turn this button's text dark on coral. */
+  .book-inline .book-inline-load a.btn-coral,.prose .book-inline .book-inline-load a.btn-coral{color:#fff;text-decoration:none}
   .book-inline-alt{margin:.8rem 0 0;font-size:.9rem;color:var(--fg-soft)}
 </style>
 
