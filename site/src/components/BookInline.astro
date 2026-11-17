@@ -1,12 +1,14 @@
 ---
 /* Inline booking calendar (Calendly embed). Built 17 Nov 2026 so visitors can pick a time
    without leaving the page. The widget loads only when the section nears the viewport.
-   Booking-link tags follow the same privacy rules as outgoing Calendly links (see Base.astro):
-   generic source, medium and campaign only; no click IDs, search terms or page paths. */
+   Booking-link tags: the stored attribution from GTM tag "krnAttr" (window.krnDecorate) is applied
+   first, then the same privacy cleaner as outgoing Calendly links (window.krnCleanBookingLink in
+   Base.astro): generic source, medium and campaign only; no click IDs, search terms or page paths.
+   The iframe carries data-krn="1" so the GTM tag does not rewrite it with raw values afterwards. */
 import { BOOK_URL } from '../lib/content';
 interface Props { campaign?: string; medium?: string; heading?: string; id?: string; flush?: boolean }
-const { campaign = 'inline', medium = 'inline', heading = 'Pick a time for your free 15-minute call', id = 'book', flush = false } = Astro.props;
-const fallback = `${BOOK_URL}?utm_source=website&utm_medium=${medium}&utm_campaign=${campaign}`;
+const { campaign = '', medium = '', heading = 'Pick a time for your free 15-minute call', id = 'book', flush = false } = Astro.props;
+const fallback = campaign ? `${BOOK_URL}?utm_source=website&utm_medium=${medium}&utm_campaign=${campaign}` : BOOK_URL;
 ---
 <section class:list={['book-inline', { flush }]} id={id} aria-labelledby={`${id}-h`} data-book-inline data-url={BOOK_URL} data-medium={medium} data-campaign={campaign}>
   <div class="book-inline-in">
@@ -26,7 +28,7 @@ const fallback = `${BOOK_URL}?utm_source=website&utm_medium=${medium}&utm_campai
   .book-inline h2,.prose .book-inline h2{font-size:1.4rem;margin:0 0 .3rem;padding:0;color:var(--heading)}
   .book-inline-sub{margin:0 0 1rem;color:var(--fg)}
   .book-inline-cal{background:var(--bg);border-radius:12px;min-height:120px;overflow:hidden}
-  .book-inline-cal.on{min-height:700px;height:700px}
+  .book-inline-cal.on{min-height:560px;height:700px}
   .book-inline-cal iframe{width:100%;height:100%;border:0;display:block}
   .book-inline-load{margin:0;padding:2rem 1rem;text-align:center}
   .book-inline-alt{margin:.8rem 0 0;font-size:.9rem;color:var(--fg-soft)}
@@ -35,27 +37,24 @@ const fallback = `${BOOK_URL}?utm_source=website&utm_medium=${medium}&utm_campai
 <script is:inline>
 (function(){
   if (window.krnBookInline) return; window.krnBookInline = true;
-  var OWN = ['general-dietitian','dietitian','pathways','7-day-meal-plan','adelaide_lp','perth_lp','gbp-booking','svc-05','svc-06','svc-07','ads-main','ads-b','ads-c','ads-unknown','inline','home'];
   function build(sec){
-    var q = new URLSearchParams(location.search);
-    var ad = false;
-    try {
-      if (q.get('gclid') || q.get('gbraid') || q.get('wbraid')) sessionStorage.setItem('krnAd', '1');
-      ad = sessionStorage.getItem('krnAd') === '1';
-    } catch (e) { ad = !!(q.get('gclid') || q.get('gbraid') || q.get('wbraid')); }
     var u = new URL(sec.getAttribute('data-url'));
-    var camp = q.get('utm_campaign');
-    if (ad) {
-      u.searchParams.set('utm_source', 'google');
-      u.searchParams.set('utm_medium', 'cpc');
-      u.searchParams.set('utm_campaign', camp && /^ads-(main|b|c)$/.test(camp) ? camp : 'ads-unknown');
+    var camp = sec.getAttribute('data-campaign'), med = sec.getAttribute('data-medium');
+    if (camp) { u.searchParams.set('utm_source', 'website'); u.searchParams.set('utm_medium', med || 'website'); u.searchParams.set('utm_campaign', camp); }
+    var href = u.toString();
+    try { if (typeof window.krnDecorate === 'function') href = window.krnDecorate(href); } catch (e) {}
+    try { if (typeof window.krnCleanBookingLink === 'function') href = window.krnCleanBookingLink(href); } catch (e) {}
+    u = new URL(href);
+    // Fallback when GTM is blocked: an ad click ID on this page still marks the booking as an ad booking.
+    var q = new URLSearchParams(location.search);
+    if (typeof window.krnDecorate !== 'function' && (q.get('gclid') || q.get('gbraid') || q.get('wbraid'))) {
+      u.searchParams.set('utm_source', 'google'); u.searchParams.set('utm_medium', 'cpc');
+      u.searchParams.set('utm_campaign', /^ads-(main|b|c)$/.test(q.get('utm_campaign') || '') ? q.get('utm_campaign') : 'ads-unknown');
       u.searchParams.set('utm_content', 'ads-click');
-    } else {
-      u.searchParams.set('utm_source', q.get('utm_source') && /^[a-z0-9_.-]{1,30}$/i.test(q.get('utm_source')) ? q.get('utm_source') : 'website');
-      u.searchParams.set('utm_medium', q.get('utm_medium') && /^[a-z0-9_.-]{1,30}$/i.test(q.get('utm_medium')) ? q.get('utm_medium') : sec.getAttribute('data-medium'));
-      u.searchParams.set('utm_campaign', camp ? (OWN.indexOf(camp) > -1 ? camp : 'external') : sec.getAttribute('data-campaign'));
-      u.searchParams.set('utm_content', 'inline');
     }
+    // Mark bookings made in the on-page calendar (generic value, no path): page-service -> inline-service.
+    var c = u.searchParams.get('utm_content') || '';
+    if (c !== 'ads-click') u.searchParams.set('utm_content', c.indexOf('page-') === 0 ? c.replace('page-', 'inline-') : 'inline');
     u.searchParams.set('hide_gdpr_banner', '1');
     u.searchParams.set('hide_event_type_details', '1');
     u.searchParams.set('embed_type', 'Inline');
@@ -67,7 +66,7 @@ const fallback = `${BOOK_URL}?utm_source=website&utm_medium=${medium}&utm_campai
     var box = sec.querySelector('[data-book-target]');
     var f = document.createElement('iframe');
     f.title = 'Book a free 15-minute call with Kat';
-    f.loading = 'lazy';
+    f.setAttribute('data-krn', '1');
     f.src = build(sec);
     f.addEventListener('load', function(){ var l = box.querySelector('.book-inline-load'); if (l) l.remove(); });
     box.classList.add('on');
@@ -86,12 +85,18 @@ const fallback = `${BOOK_URL}?utm_source=website&utm_medium=${medium}&utm_campai
     if (!a) return; var h = a.getAttribute('href') || '';
     if (h.charAt(0) === '#' && h.length > 1) { var t = document.getElementById(h.slice(1)); if (t && t.hasAttribute('data-book-inline')) load(t); }
   });
-  // Booking tracking: Calendly posts a message to the page when a step completes. Counts only, no personal data.
+  // Messages from the calendar: only from calendly.com, only the three expected events.
+  // Tracking sends the event name alone; nothing from the booking payload is read or forwarded.
   var MAP = { 'calendly.date_and_time_selected': 'krn_calendar_time_selected', 'calendly.event_scheduled': 'krn_calendly_booked' };
   window.addEventListener('message', function(e){
     if (!/^https:\/\/([a-z0-9-]+\.)?calendly\.com$/.test(e.origin)) return;
-    var name = e.data && e.data.event && MAP[e.data.event];
-    if (name) (window.dataLayer = window.dataLayer || []).push({ event: name });
+    var d = e.data; if (!d || typeof d.event !== 'string') return;
+    if (d.event === 'calendly.page_height') {
+      var h = parseInt(d.payload && d.payload.height, 10);
+      if (h >= 300 && h <= 2000) secs.forEach(function(s){ var f = s.querySelector('iframe'); if (f && f.contentWindow === e.source) f.parentElement.style.height = h + 'px'; });
+      return;
+    }
+    if (MAP[d.event]) (window.dataLayer = window.dataLayer || []).push({ event: MAP[d.event] });
   });
 })();
 </script>

@@ -4,7 +4,6 @@ import Article from '../../layouts/Article.astro';
 import { serviceSlug, serviceUrl, BOOK_URL } from '../../lib/content';
 import { faqFromMarkdown, faqPage } from '../../lib/schema';
 import { pathways, callLink } from '../../data/pathways';
-import BookInline from '../../components/BookInline.astro';
 
 export async function getStaticPaths() {
   const services = await getCollection('services');
@@ -71,7 +70,7 @@ const toc = [
   <Fragment slot="head">
     {faqLd && <script type="application/ld+json" set:html={JSON.stringify(faqLd)} />}
   </Fragment>
-  <p slot="hero" class="hero-cta"><a class="btn btn-coral" href={pw && first ? '#book' : BOOK_URL}>Book a free 15-minute call</a></p>
+  <p slot="hero" class="hero-cta"><a class="btn btn-coral" href={pw ? callLink(pw) : BOOK_URL}>Book a free 15-minute call</a></p>
   {toc.length > 2 && (
     <nav class="toc" aria-label="On this page">
       <p class="toc-h">On this page</p>
@@ -90,7 +89,6 @@ const toc = [
       </dl>
     </aside>
   )}
-  {pw && first && <BookInline campaign="pathways" medium="pathways" />}
   {pw && (
       <section class="pw-steps" aria-labelledby="pw-steps-h" style="margin:0 0 2rem;padding:1.2rem 1.4rem;background:var(--mint);border-radius:16px">
         <h2 id="pw-steps-h" style="font-size:1.3rem;margin:0 0 .4rem">How Kat works with you: the {pathway.name} pathway</h2>
