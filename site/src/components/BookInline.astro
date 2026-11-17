@@ -127,5 +127,16 @@ const fallback = campaign ? `${BOOK_URL}?utm_source=website&utm_medium=${medium}
     var d = e.data; if (!d || typeof d.event !== 'string') return;
     if (MAP[d.event]) (window.dataLayer = window.dataLayer || []).push({ event: MAP[d.event] });
   });
+  // Phone bottom bar: on pages with an on-page calendar the bar's button scrolls to it, and the
+  // bar slides away while the calendar is on screen so it never covers the times or the form.
+  function bar(){
+    var b = document.getElementById('bookbar'); if (!b) return;
+    var a = b.querySelector('a'); if (a && secs[0].id) a.setAttribute('href', '#' + secs[0].id);
+    if (!('IntersectionObserver' in window)) return;
+    var vis = new Set();
+    var bo = new IntersectionObserver(function(es){ es.forEach(function(en){ if (en.isIntersecting) vis.add(en.target); else vis.delete(en.target); }); b.classList.toggle('over-cal', vis.size > 0); });
+    secs.forEach(function(s){ bo.observe(s); });
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', bar); else bar();
 })();
 </script>
