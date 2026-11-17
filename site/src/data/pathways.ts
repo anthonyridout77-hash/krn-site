@@ -30,7 +30,7 @@ export const callLink = (_p: Pathway) => `${CALENDLY}?utm_source=site&utm_medium
 
 // Initial consultation credit (Anthony, 17 Nov 2026). KAT GATE: fee wording, needs her sign-off before merge.
 export const CREDIT_PATHWAYS = ['fertility', 'ivf', 'pregnancy', 'gdm', 'postpartum'];
-export const creditLine = 'Start with one consultation, then decide. If you choose a program within 30 days of your initial consultation, the fee you paid for it is credited in full toward the program.';
+export const creditLine = 'Start with one consultation, then decide. If you choose a program at or before your second consultation, the fee you paid for your initial consultation is credited in full toward the program.';
 
 export const takeawayFirst = 'Dietary assessment summary, starter meal plan, your individualised supplement plan, recipe booklet and snack ideas, all within 2 business days.';
 
