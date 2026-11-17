@@ -5,6 +5,7 @@ import { GOOGLE_REVIEWS } from '../../data/reviews';
    20+ years confirmed by Kat via Anthony, 7 Nov 2026. No fees on this page (decided). */
 import Article from '../../layouts/Article.astro';
 import { BOOK_URL } from '../../lib/content';
+import BookInline from '../../components/BookInline.astro';
 
 const EXPERIENCE = '20+ years';
 const book = (content: string) => `${BOOK_URL}?utm_source=website&utm_medium=landing_page&utm_campaign=general-dietitian&utm_content=${content}`;
@@ -58,7 +59,7 @@ const faqLd = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":fa
   <Fragment slot="head">
     <script type="application/ld+json" set:html={JSON.stringify(faqLd)} />
   </Fragment>
-  <p slot="hero" class="hero-cta"><a class="btn btn-coral" href={book('hero')}>Book a free 15-minute call</a> <span class="hero-call">or call <a href="tel:1300640104">1300 640 104</a></span></p>
+  <p slot="hero" class="hero-cta"><a class="btn btn-coral" href="#book">Book a free 15-minute call</a> <span class="hero-call">or call <a href="tel:1300640104">1300 640 104</a></span></p>
 
   <div class="gd-top">
     <img src="/images/kat-ridout-apd.jpg" alt="Katrina Ridout, Accredited Practising Dietitian" width="480" height="480" loading="eager" />
@@ -74,6 +75,8 @@ const faqLd = {"@context":"https://schema.org","@type":"FAQPage","mainEntity":fa
       </ul>
     </div>
   </div>
+
+  <BookInline campaign="general-dietitian" medium="landing_page" />
 
   <h2>Two ways to see Kat</h2>
   <div class="gd-ways">
