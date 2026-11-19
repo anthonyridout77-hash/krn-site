@@ -20,7 +20,7 @@ wpUrl: "https://www.katridout.com.au/blogs/medicare-rebate-dietitian-australia/"
 <li><a href="#how-does-the-rebate-work-at-your-appointment">How does the rebate work at your appointment?</a></li>
 <li><a href="#how-do-you-set-up-a-gpccmp-before-seeing-a-dietitian">How do you set up a GPCCMP before seeing a dietitian?</a></li>
 <li><a href="#does-private-health-insurance-or-another-fund-cover-dietitian-visits">Does private health insurance or another fund cover dietitian visits?</a></li>
-<li><a href="#how-i-help-if-you-have-a-medicare-plan">How I help if you have a Medicare plan</a></li>
+<li><a href="#how-i-help-if-you-have-a-medicare-plan">How I help if you have a GP Chronic Condition Management Plan</a></li>
 <li><a href="#what-should-you-check-before-assuming-you-will-get-a-rebate">What should you check before assuming you will get a rebate?</a></li>
 <li><a href="#key-takeaways">Key Takeaways</a></li>
 <li><a href="#references">References</a></li>
@@ -28,7 +28,7 @@ wpUrl: "https://www.katridout.com.au/blogs/medicare-rebate-dietitian-australia/"
 <h2 id="what-is-the-gp-chronic-condition-management-plan-and-how-does-it-work">What is the GP Chronic Condition Management Plan and how does it work?</h2>
 <p>The GP Chronic Condition Management Plan, or GPCCMP, is the plan your GP prepares to help you access Medicare-subsidised allied health services, including dietitian appointments. From 1 July 2025 it replaced the older GP Management Plans and Team Care Arrangements, so one plan now covers what used to take a couple of pieces of paperwork.</p>
 <p>Your GP prepares the plan during a consultation and reviews it with you over time, which is a chance to check whether your allied health support is still meeting your needs.</p>
-<p>Under the plan you can usually access up to five Medicare-subsidised allied health sessions each calendar year. Those sessions can all go to dietitian visits, or they can be shared with other allied health services such as physiotherapy or podiatry. The exact number of visits that attract a rebate depends on your care plan, so your GP is the person to confirm it (Dietitians Australia).</p>
+<p>Under the plan you can usually access up to five Medicare-subsidised allied health sessions each calendar year. Those sessions can all go to dietitian visits, or they can be shared with other allied health services such as physiotherapy or podiatry. The exact number of visits that attract a rebate depends on your GP Chronic Condition Management Plan, so your GP is the person to confirm it (Dietitians Australia).</p>
 <h2 id="who-is-eligible-for-medicare-rebates-to-see-a-dietitian">Who is eligible for Medicare rebates to see a dietitian?</h2>
 <p>Generally you need a chronic health condition that has lasted, or is expected to last, six months or longer. Your GP uses their clinical judgement to decide whether structured allied health care would help you.</p>
 <p>Plain examples of chronic conditions a GP might write a plan for include arthritis, diabetes, kidney disease, heart disease and eating disorders (Dietitians Australia). These are conditions where ongoing nutrition support can be part of a broader management approach.</p>
@@ -47,7 +47,7 @@ wpUrl: "https://www.katridout.com.au/blogs/medicare-rebate-dietitian-australia/"
 <p>The Department of Veterans&#8217; Affairs may cover visits to an Accredited Practising Dietitian for Veteran Gold Card holders, or Veteran White Card holders where treatment is for an accepted service-related condition (Dietitians Australia).</p>
 <p>NDIS participants may be able to use funding for dietetic services under capacity building and core supports, depending on their plan and goals (Dietitians Australia).</p>
 <p>Government workplace injury and transport accident compensation schemes may also cover dietitian visits where your nutrition needs relate to an accepted claim.</p>
-<h2 id="how-i-help-if-you-have-a-medicare-plan">How I help if you have a Medicare plan</h2>
+<h2 id="how-i-help-if-you-have-a-medicare-plan">How I help if you have a GP Chronic Condition Management Plan</h2>
 <p>I&#8217;m Katrina Ridout, an Accredited Practising Dietitian. I see women in person at Milton Village Medical, Level 1, 36 Baroona Road, Milton QLD 4064, and by telehealth Australia-wide, with a focus on fertility, PMOS (previously called PCOS), pregnancy and postpartum nutrition. Pyjama pants and kids in the background are completely fine on telehealth.</p>
 <p>One of the first things I&#8217;ll ask is, &#8220;have you got a GP plan at all?&#8221; If you have, bring it along with any recent bloods and photos of your supplement bottles, front and back. If you haven&#8217;t, no stress: I can tell you exactly what to ask your GP for. A Medicare rebate may be available for eligible patients on a GP Chronic Condition Management Plan, and your GP&#8217;s assessment is what decides it.</p>
 <p>From there we look at what you&#8217;re already doing well, find two or three nutrition gaps, and build a plan around simple little switches you can actually keep up. I keep your GP in the loop, so we can all put our heads together, and your specialist or fertility team stays in charge of your medical care. This is general information, not individual advice.</p>

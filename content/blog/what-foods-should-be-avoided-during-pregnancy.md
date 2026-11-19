@@ -76,7 +76,7 @@ To eat healthy during your pregnancy, it’s advisable to eat a large variety of
 
 ### How can we help?
 
-Katrina Ridout is an accredited practicing dietician and a leading fertility and pregnancy nutritionist. She offers a range of premium services and nutrition advice focused on helping you through the pregnancy journey. If you need some guidance when it comes to safe food choices during pregnancy, Kat is available to help and will provide you with all the information you need.
+Katrina Ridout is an Accredited Practising Dietitian (APD) who works in fertility and pregnancy nutrition. She offers a range of premium services and nutrition advice focused on helping you through the pregnancy journey. If you need some guidance when it comes to safe food choices during pregnancy, Kat is available to help and will provide you with all the information you need.
 
 If you are planning a pregnancy or are already expecting a baby and would like some support and guidance when it comes to your nutrition, we encourage you to get in touch to see how Katrina can help you.
 

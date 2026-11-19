@@ -71,9 +71,9 @@ The good news is that vitamin B6 is easy to get from a healthy, balanced diet. I
 
 ### Helping you with your special diet for pregnancy
 No matter what type of speciality diet you follow, it’s still possible to get all the nutrients you and your baby need for a healthy pregnancy. With the right support and planning, your diet can be balanced, nourishing and tailored to your unique needs.
-I’m Katrina Ridout, an Accredited Practising Dietitian based in Brisbane with over a decade of experience in prenatal nutrition. I can help you feel confident that your diet is supporting both you and your baby — before, during and after pregnancy.
+I’m Katrina Ridout, an Accredited Practising Dietitian (APD) based in Brisbane. I can help you feel confident that your diet is supporting both you and your baby — before, during and after pregnancy.
 
-### Brisbane’s leading pregnancy nutritionist
+### Pregnancy dietitian in Brisbane and by telehealth
 Katrina Ridout offers a range of nutritionist services in Brisbane, and virtually. Find out more about Kat’s range of services today (/our-services/dietitian/).
 To book an appointment with Kat Ridout, please call 1300 640 104 or get in touch on our website (/contact-us/).
 
