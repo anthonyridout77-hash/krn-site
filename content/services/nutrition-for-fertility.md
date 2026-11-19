@@ -1,9 +1,9 @@
 ---
 title: "Fertility and Preconception Dietitian"
 seoTitle: "Fertility Dietitian Brisbane and Online: Preconception Nutrition"
-description: "Fertility and preconception nutrition with Kat Ridout, Accredited Practising Dietitian. Brisbane based, telehealth Australia-wide. Medicare rebate may apply with a GP Chronic Condition Management Plan."
+description: "Fertility and preconception nutrition with Katrina Ridout, Accredited Practising Dietitian (APD). Milton, Brisbane, and telehealth Australia-wide. A Medicare rebate may apply with a GP Chronic Condition Management Plan referral."
 date: "2025-08-04"
-updated: "2026-11-10"
+updated: "2026-11-18"
 wpId: "527"
 wpUrl: "https://www.katridout.com.au/our-services/nutrition-for-fertility/"
 ---
@@ -12,17 +12,18 @@ wpUrl: "https://www.katridout.com.au/our-services/nutrition-for-fertility/"
 ## The right nutrition can help prepare your body for pregnancy
 
 ### Nutrition support before conception, for women and men
-If you’re in the pre-conception or planning stage and want to give yourself the best chance of falling pregnant, one of the most powerful tools you can use is evidence-based nutrition — personalised to support your fertility.
+I’m Katrina Ridout, an Accredited Practising Dietitian (APD). I see women, men and couples who are planning a pregnancy, in person in Milton, Brisbane, and by telehealth Australia-wide.
+If you’re in the preconception or planning stage, evidence-based nutrition that is personalised to you is one practical way to prepare for pregnancy.
 I work alongside your GP, obstetrician, fertility specialist and other health professionals to help women and couples improve their nutrition before conception.
 Every day, I support mums- and dads-to-be with tailored nutrition plans designed to prepare the body for conception, pregnancy and beyond. Whether you are trying naturally, preparing for treatment, or starting again after loss, I can help with eating patterns, supplements and the practical side.
 
 ### Nutrition expertise backed by evidence-based research
 The nutritional support I provide is grounded in the latest clinical research, so you can feel confident you’re receiving advice you can trust. Alongside personalised guidance, I offer fertility meal plans, recipes, education and practical strategies to help you prepare for pregnancy.
-If you are underweight or living with an underlying health condition that may impact fertility — such as PCOS, endometriosis, adenomyosis, or autoimmune conditions like Coeliac or Crohn’s disease — I can help you manage your symptoms and prepare your body, eggs and sperm for conception. This can make a significant difference whether you are trying to conceive naturally or with the help of IVF.
+If you are underweight or living with an underlying health condition that may impact fertility, such as [PMOS (PCOS)](/our-services/prenatal-nutrition-and-dietetics/polycystic-ovary-syndrome/), [endometriosis](/our-services/prenatal-nutrition-and-dietetics/endometriosis/), adenomyosis, or autoimmune conditions like Coeliac or Crohn’s disease, I can help you manage your symptoms and prepare your body, eggs and sperm for conception. This can make a significant difference whether you are trying to conceive naturally or with the help of [IVF](/our-services/prenatal-nutrition-and-dietetics/ivf-nutrition/).
 
 ### The fertility solution that’s tailored for you
 Every person and every couple is unique; shaped by different bodies, diets, medical histories, genetics, lifestyles and preferences. That’s why I provide personalised nutrition advice that is tailored specifically to you, built around your history, your bloods and your week.
-With more than 20 years of experience in both private practice and high-level research in fertility, pregnancy and early life nutrition, I specialise in helping women and couples optimise their nutrition to support conception and a healthy pregnancy. I also have extensive experience supporting those managing health conditions such as PCOS, endometriosis, diabetes, IBD, autoimmune conditions, disordered eating, rare genetic conditions, as well as challenges with egg and sperm quality, thin uterine lining and recurrent miscarriage.
+With more than 20 years of experience in both private practice and high-level research in fertility, pregnancy and early life nutrition, I specialise in helping women and couples optimise their nutrition to support conception and a healthy pregnancy. I also have extensive experience supporting those managing health conditions such as PMOS, endometriosis, diabetes, IBD, autoimmune conditions, disordered eating, rare genetic conditions, as well as challenges with egg and sperm quality, thin uterine lining and recurrent miscarriage.
 There are a number of nutrients that matter before conception. Getting the right supplements started early, then building the eating pattern around them, is the core of the plan.
 If you’d like to learn more about how fertility nutrition can support you, I’d love to guide you. To start, book a free 15-minute call with the link below or the button at the top of this page, or phone 1300 640 104.
 
@@ -34,8 +35,32 @@ Book a free 15-minute call with Kat and bring your concerns. She will listen, as
 - [What should I eat in the 3 months before trying to conceive?](/blogs/what-to-eat-3-months-before-trying-to-conceive/)
 - [How much caffeine and alcohol is okay when trying to conceive?](/blogs/how-much-caffeine-and-alcohol-when-trying-to-conceive/)
 - [Can a male fertility dietitian improve sperm health before conception?](/blogs/male-fertility-dietitian-sperm-health/)
+- [What does a fertility dietitian do, and when should you see one?](/blogs/what-does-a-fertility-dietitian-do/)
+- [What nutrition changes help with fertility over 35?](/blogs/nutrition-changes-fertility-over-35/)
 
 ## Frequently Asked Questions
+
+### When should I see a fertility dietitian?
+
+You can book at any stage of planning a pregnancy. The fertility pathway on this page runs over about 12 weeks, so many people start when they plan to begin trying in the next 6 to 12 months. One reason not to leave it to the last minute is folic acid: the Royal Australian and New Zealand College of Obstetricians and Gynaecologists (RANZCOG) advises starting a daily folic acid supplement at least four weeks before trying for a pregnancy. If you are already trying, or preparing for IVF, you can still start now.
+
+### Which supplements should I start before trying to conceive?
+
+Two are advised for most women in Australia. RANZCOG advises a daily folic acid supplement of 0.4 to 0.8 mg for four weeks before trying for a pregnancy, continued for the first 12 weeks of pregnancy, to lower the risk of neural tube defects. Some women need a higher dose prescribed by their doctor, for example women with diabetes before pregnancy, women taking anticonvulsant medication, or women with a BMI above 30. The National Health and Medical Research Council (NHMRC) recommends an iodine supplement of 150 micrograms a day for women who are pregnant, breastfeeding or considering pregnancy, and advises women with a thyroid condition to speak with their doctor first.
+
+Anything beyond these depends on your diet, your blood results and your medical history, which is what Kat reviews in your first consultation. Check any supplement with your GP or fertility specialist.
+
+### Can I drink alcohol while trying to conceive?
+
+The NHMRC alcohol guidelines say that women who are pregnant or planning a pregnancy should not drink alcohol, to prevent harm to their unborn child. There is more detail in [How much caffeine and alcohol is okay when trying to conceive?](/blogs/how-much-caffeine-and-alcohol-when-trying-to-conceive/)
+
+### Do I need a referral to see a fertility dietitian?
+
+No. You can book with Kat directly. A Medicare rebate may apply with a GP Chronic Condition Management Plan referral, which your GP may consider if a chronic condition such as PMOS, endometriosis or thyroid disease sits underneath.
+
+### Can my partner come, and can we use telehealth?
+
+Yes to both. Kat works with women, men and couples, so you can attend on your own or together. Appointments are in person in Milton, Brisbane, or by telehealth anywhere in Australia. After your first consultation you receive your written plan within 2 business days.
 
 ### Does caffeine affect fertility?
 
