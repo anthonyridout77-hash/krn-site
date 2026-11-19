@@ -20,7 +20,7 @@ wpUrl: "https://www.katridout.com.au/blogs/private-health-insurance-dietitian-ap
 <li><a href="#how-is-private-health-cover-different-from-the-medicare-pathway">How is private health cover different from the Medicare pathway?</a></li>
 <li><a href="#how-much-will-i-get-back-from-my-fund">How much will I get back from my fund?</a></li>
 <li><a href="#can-i-use-private-health-extras-and-medicare-together">Can I use private health extras and Medicare together?</a></li>
-<li><a href="#what-if-i-dont-have-private-health-insurance-or-a-care-plan">What if I don&#8217;t have private health insurance or a care plan?</a></li>
+<li><a href="#what-if-i-dont-have-private-health-insurance-or-a-care-plan">What if I don&#8217;t have private health insurance or a GP Chronic Condition Management Plan?</a></li>
 <li><a href="#how-do-i-claim-through-my-private-health-fund">How do I claim through my private health fund?</a></li>
 <li><a href="#how-i-help">How I help</a></li>
 <li><a href="#key-takeaways">Key Takeaways</a></li>
@@ -52,7 +52,7 @@ wpUrl: "https://www.katridout.com.au/blogs/private-health-insurance-dietitian-ap
 <h2 id="can-i-use-private-health-extras-and-medicare-together">Can I use private health extras and Medicare together?</h2>
 <p>Usually not for the same appointment. Private health insurance and Medicare are separate pathways, and the standard advice is to claim one per appointment rather than both.</p>
 <p>Some funds ask you to choose which pathway you&#8217;re claiming under, so ask your fund and the practice how they process claims. This is about knowing your options, not squeezing two rebates out of one visit.</p>
-<h2 id="what-if-i-dont-have-private-health-insurance-or-a-care-plan">What if I don&#8217;t have private health insurance or a care plan?</h2>
+<h2 id="what-if-i-dont-have-private-health-insurance-or-a-care-plan">What if I don&#8217;t have private health insurance or a GP Chronic Condition Management Plan?</h2>
 <p>You can still see a dietitian without any referral. No referral is needed to see a dietitian privately.</p>
 <p>Other schemes may help too. DVA card holders may be covered for dietetic services, NDIS participants may be able to access dietetic funding through their plan, and some compensation schemes such as WorkSafe Queensland, Comcare and TAC in Victoria may cover dietitian visits, as outlined by <a href="https://dietitiansaustralia.org.au/seeing-dietitian/help-costs">Dietitians Australia</a>.</p>
 <h2 id="how-do-i-claim-through-my-private-health-fund">How do I claim through my private health fund?</h2>
