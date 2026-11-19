@@ -96,6 +96,31 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
       if (/^\/(fertility-pregnancy-dietitian-[a-z-]+|pregnancy-dietitian-adelaide)\//.test(p)) return 'city';
       return 'other';
     }
+    /* Source fallback for when the GTM tag "krnAttr" did not run (blocked, or not loaded yet), which
+       used to leave bookings with no source at all. Read only, nothing is stored: this visit's tags,
+       then the value GTM stored earlier (under 90 days), then the referring site's host name alone.
+       A visitor who arrived on another page of the site with nothing stored is marked
+       website / untracked, so a missing source is visible instead of blank. */
+    function fallbackSource(u){
+      if (u.searchParams.get('utm_source')) return;
+      var s = '', m = '', c = '';
+      try {
+        var q = new URLSearchParams(location.search);
+        var paid = q.get('gclid') || q.get('gbraid') || q.get('wbraid');
+        if (paid || q.get('utm_source')) { s = q.get('utm_source') || 'google'; m = q.get('utm_medium') || (paid ? 'cpc' : '(none)'); c = q.get('utm_campaign') || ''; if (paid) u.searchParams.set('utm_content', 'ads-click'); }
+        if (!s) { var st = JSON.parse(localStorage.getItem('krn_attr') || 'null'); if (st && st.s && Date.now() - st.ts <= 7776e6) { s = st.s; m = st.m || '(none)'; c = st.c || ''; } }
+      } catch (e) {}
+      if (!s) {
+        var h = '';
+        try { h = document.referrer ? new URL(document.referrer).hostname.replace(/^www\./, '') : ''; } catch (e) {}
+        if (!h) { s = 'direct'; m = '(none)'; }
+        else if (h === location.hostname.replace(/^www\./, '')) { s = 'website'; m = 'untracked'; }
+        else { s = h; m = /(^|\.)(google|bing|duckduckgo|yahoo|ecosia|brave)\./.test(h + '.') ? 'organic' : 'referral'; }
+      }
+      u.searchParams.set('utm_source', String(s).slice(0, 60));
+      u.searchParams.set('utm_medium', String(m).slice(0, 30));
+      if (c) u.searchParams.set('utm_campaign', c); else if (/^(cpc|ppc|paid)$/.test(m)) u.searchParams.set('utm_campaign', 'ads-unknown');
+    }
     function clean(href){
       try {
         var u = new URL(href);
@@ -103,6 +128,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
         var c = u.searchParams.get('utm_content') || '';
         u.searchParams.set('utm_content', /^(gclid|gbraid|wbraid)\./.test(c) ? 'ads-click' : 'page-' + pageType(location.pathname));
         u.searchParams.delete('utm_term');
+        fallbackSource(u);
         var camp = u.searchParams.get('utm_campaign');
         if (camp && CAMPAIGNS.indexOf(camp) === -1) u.searchParams.set('utm_campaign', 'external');
         ['gclid','gbraid','wbraid','fbclid','msclkid'].forEach(function(k){ u.searchParams.delete(k); });
