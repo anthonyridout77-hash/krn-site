@@ -1,15 +1,17 @@
 ---
 title: "Pregnancy Dietitian"
 seoTitle: "Pregnancy Dietitian Brisbane and Online"
-description: "Pregnancy nutrition support from Kat Ridout, Accredited Practising Dietitian. In person in Milton, Brisbane, or by telehealth anywhere in Australia."
+description: "Pregnancy nutrition with Katrina Ridout, Accredited Practising Dietitian (APD). Milton, Brisbane, and telehealth Australia-wide. A Medicare rebate may apply with a GP Chronic Condition Management Plan referral."
 date: "2025-08-01"
-updated: "2026-11-11"
+updated: "2026-11-20"
 wpId: "415"
 wpUrl: "https://www.katridout.com.au/our-services/pregnancy-nutrition-and-dietetics/"
 ---
 
 
 ## Nourishing you and your baby every step of the way
+
+I’m Katrina Ridout, an Accredited Practising Dietitian (APD). I see women at every stage of pregnancy, in person in Milton, Brisbane, and by telehealth Australia-wide.
 
 Pregnancy is such a special time, filled with excitement, change and sometimes a little uncertainty. As your body works around the clock to grow your baby, your nutritional needs shift in ways that can feel overwhelming. I want you to know you don’t have to figure it all out on your own — I’m here to guide and support you every step of the way.
 
@@ -106,17 +108,41 @@ Remember, every woman’s pregnancy is different, and weight gain will look diff
 
 ## Frequently Asked Questions
 
+### When should I see a pregnancy dietitian?
+
+You can book at any stage, from a positive test through to the third trimester. Many women come early, when nausea, food aversions or questions about what is safe to eat first appear. Others come after a result or a diagnosis, such as low iron or [gestational diabetes](/our-services/pregnancy-nutrition-and-dietetics/gestational-diabetes/). Nutrition care sits alongside the care you receive from your GP, obstetrician or midwife and does not replace it.
+
+### Do I need a referral to see a pregnancy dietitian?
+
+No. You can book with Kat directly. A Medicare rebate may apply with a GP Chronic Condition Management Plan referral, which your GP may consider if you have an eligible chronic condition.
+
+### Can I see Kat by telehealth, and can my partner join?
+
+Yes to both. Appointments are in person in Milton, Brisbane, or by telehealth anywhere in Australia, and your partner is welcome to join. After your first consultation you receive your written plan within 2 business days.
+
+### How much caffeine can I have while pregnant?
+
+Food Standards Australia New Zealand (FSANZ) advises pregnant and breastfeeding women to have no more than 200 mg of caffeine a day from all sources. That includes coffee, tea, cola, energy drinks and chocolate, so it helps to count across the whole day.
+
+### Can I eat fish while pregnant?
+
+Yes. FSANZ says it is safe to eat two to three serves of fish a week in pregnancy, with limits on the few fish that are high in mercury. Its advice for pregnant women is one serve (150 grams) a fortnight of shark (flake) or billfish (swordfish or marlin) and no other fish that fortnight, or one serve a week of orange roughy (deep sea perch) or catfish and no other fish that week. There is more detail in [Omega-3 in pregnancy](/blogs/omega-3-pregnancy-dietitian-brisbane/).
+
+### Can I drink alcohol while pregnant?
+
+The National Health and Medical Research Council (NHMRC) alcohol guidelines say that women who are pregnant or planning a pregnancy should not drink alcohol, to prevent harm to their unborn child.
+
 ### How much weight should I gain during pregnancy?
 
 Healthy weight gain in pregnancy is different for every woman and depends on your pre-pregnancy BMI, your health and your baby’s needs. Rather than focusing on the scales, I’ll help you understand what’s right for your body and support you with realistic nutrition strategies for healthy, steady weight gain.
 
 ### What foods should I avoid while pregnant?
 
-Some foods carry a higher risk of foodborne illness or can affect your baby’s development. These include raw or undercooked meats and eggs, certain seafood, soft cheeses, unpasteurised dairy, and pre-prepared foods that may not be stored safely. I’ll guide you on safe food choices and show you simple swaps so you never feel restricted.
+Some foods carry a higher risk of foodborne illness or can affect your baby’s development. These include raw or undercooked meats and eggs, certain seafood, soft cheeses, unpasteurised dairy, and pre-prepared foods that may not be stored safely. I’ll guide you on safe food choices and show you simple swaps so you never feel restricted. There is a fuller list in [Foods to avoid during pregnancy in Australia](/blogs/foods-to-avoid-during-pregnancy-australia/).
 
 ### Can nutrition help with pregnancy symptoms like nausea and fatigue?
 
-Yes. The right foods and eating patterns can help reduce common pregnancy symptoms such as morning sickness, constipation, reflux, fatigue and cravings. Together, we’ll tailor strategies that fit your lifestyle and ease these challenges so you can feel more comfortable and energised..
+Yes. The right foods and eating patterns can help reduce common pregnancy symptoms such as morning sickness, constipation, reflux, fatigue and cravings. Together, we’ll tailor strategies that fit your lifestyle and ease these challenges so you can feel more comfortable and energised. Related reading: [What foods help with pregnancy nausea?](/blogs/what-foods-help-with-pregnancy-nausea/) and [Constipation in pregnancy](/blogs/constipation-pregnancy-dietitian-brisbane/).
 
 ### Do I need to take supplements during pregnancy?
 
