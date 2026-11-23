@@ -1,9 +1,9 @@
 ---
 title: "IVF Dietitian"
 seoTitle: "IVF Dietitian Brisbane and Telehealth Australia-wide"
-description: "IVF dietitian Kat Ridout, Accredited Practising Dietitian. Nutrition support around your cycle, alongside your fertility clinic. In person in Milton, Brisbane, or by telehealth anywhere in Australia."
+description: "IVF nutrition support with Katrina Ridout, Accredited Practising Dietitian (APD), alongside your fertility clinic. In person in Milton, Brisbane, or by telehealth Australia-wide."
 date: "2025-08-01"
-updated: "2026-11-10"
+updated: "2026-11-23"
 wpId: "383"
 wpUrl: "https://www.katridout.com.au/our-services/prenatal-nutrition-and-dietetics/ivf-nutrition/"
 parent: "366"
@@ -12,7 +12,7 @@ parent: "366"
 
 ## IVF Nutrition
 
-Fertility and IVF Dietitian Australia
+Katrina Ridout is an Accredited Practising Dietitian (APD) who works with women, men and couples before and during IVF, alongside their fertility clinic. She sees clients in person in Milton, Brisbane, and by telehealth Australia-wide.
 
 ## Feel confident and supported as you prepare for IVF and fertility treatments with Kat Ridout by your side.
 
@@ -26,7 +26,7 @@ In the month before beginning your IVF cycle, nourishing your body with a health
 It is also normal to experience many different emotions during this stage. Feelings of sadness, anxiety or uncertainty can be common before, during and after IVF. The journey can be physically and emotionally demanding, and it is important to remember you do not have to go through it alone. With the right guidance and support, this time can feel more manageable and positive.
 
 ### What to eat during IVF
-In the lead up to and during an IVF cycle, good nutrition plays a vital role for both men and women. Supporting sperm health and egg health through diet can make a real difference in giving the process the best chance of success.
+In the lead up to and during an IVF cycle, good nutrition plays a vital role for both men and women.
 Rather than making sudden or extreme changes, it is best to focus on nourishing, sustainable choices. For many couples, following a Mediterranean-style diet rich in whole foods, healthy fats and plant-based nutrients provides an excellent foundation. The exact nutrients needed will vary from person to person, which is why personalised advice is so valuable.
 Kat Ridout works with individuals and couples to create realistic, evidence-based nutrition plans that support both fertility and wellbeing throughout the IVF journey. Her goal is to help you feel confident, cared for and empowered every step of the way.
 For those looking to conceive, it is important to:
@@ -45,19 +45,21 @@ To give your body the best support during IVF, try to limit or avoid:
 - Alcohol
 - Highly processed foods
 - Trans fats (often found in fried or packaged foods)
-- Excess added sugarsFor personalised support, it is always best to work with a dietitian who has experience in fertility and IVF nutrition. Kat Ridout can help you create a nutrition plan tailored to your needs and fertility journey.
+- Excess added sugars
+
+For personalised support, work with a dietitian who has experience in fertility and IVF nutrition. Kat Ridout can help you create a nutrition plan tailored to your needs and fertility journey.
 
 ### Nutrition around your IVF cycle
 If you are preparing for IVF, it is natural to want to do everything you can. One powerful way to do this is by working with a fertility dietitian who understands assisted reproductive technologies.
-Katrina Ridout is an Accredited Practising Dietitian specialising in fertility and pregnancy nutrition. She provides personalised fertility nutrition services to support both women and men before and during IVF.
+Katrina Ridout is an Accredited Practising Dietitian specialising in fertility and pregnancy nutrition. She provides personalised [fertility nutrition](/our-services/nutrition-for-fertility/) services to support both women and men before and during IVF.
 
 ### What to expect when working with an IVF & fertility nutritionist
-When you work with me, I’ll carefully assess your current diet and help you make realistic changes to ensure your body is getting the nutrients it needs for a successful IVF cycle. Beyond food choices, I’ll be there to offer encouragement, guidance and reassurance throughout the process, taking the time to understand your unique situation and goals.
+When you work with me, I’ll carefully assess your current diet and help you make realistic changes to ensure your body is getting the nutrients it needs through your IVF cycle. Beyond food choices, I’ll be there to offer encouragement, guidance and reassurance throughout the process, taking the time to understand your unique situation and goals.
 Together, we’ll create an IVF-friendly nutrition plan built around your cycle, your clinic's requirements and your week.
 
 ### IVF nutritionist in Brisbane
 With more than 20 years of experience, Kat Ridout brings both expertise and compassion to her role as a fertility dietitian. She uses evidence-based strategies to design tailored nutrition plans that give you and your baby the healthiest possible start.
-Find out more about how Kat Ridout can help you by contacting Kat today (/contact-us/). 
+Find out more about how Kat Ridout can help you by [contacting Kat today](/contact-us/). 
 
 ### Not sure where to start?
 Book a free 15-minute call with Kat and bring your concerns. She will listen, ask a few questions and explain how she could help, including what working together and an individualised plan could involve. You do not need to have it all worked out first. No preparation and no obligation.
@@ -67,8 +69,35 @@ Book a free 15-minute call with Kat and bring your concerns. She will listen, as
 - [IVF Diet Plan: What to Eat Before, During, and After Your Cycle](/blogs/ivf-diet-plan/)
 - [Nutrition and Healthy Eating During IVF Treatment](/blogs/nutrition-and-healthy-eating-during-ivf-treatment/)
 - [Which dietitian offers telehealth IVF nutrition support across Australia?](/blogs/telehealth-ivf-dietitian-australia/)
+- [How to choose an IVF dietitian in Brisbane, and how Kat works with you by telehealth](/blogs/how-to-choose-ivf-dietitian-brisbane/)
+- [How much caffeine and alcohol is okay when trying to conceive?](/blogs/how-much-caffeine-and-alcohol-when-trying-to-conceive/)
+- [Can a male fertility dietitian improve sperm health before conception?](/blogs/male-fertility-dietitian-sperm-health/)
 
 ## Frequently Asked Questions
+
+### When should I see a dietitian before IVF?
+
+You can book at any stage: before your first cycle, between cycles or once treatment has started. Kat's IVF pathway is built around the three months of nutrition around your cycle, so about three months before a planned cycle is a good time to start. One reason not to leave it late is folic acid. The Royal Australian and New Zealand College of Obstetricians and Gynaecologists (RANZCOG) advises women seeking to become pregnant to take a daily folic acid supplement for four weeks before trying for a pregnancy. If your cycle is closer than that, you can still start now.
+
+### Which supplements should I take during IVF?
+
+Start with what your fertility clinic has prescribed or recommended, and check anything else with them. For women planning a pregnancy, RANZCOG advises a daily folic acid supplement of 0.4 to 0.8 mg for four weeks before trying for a pregnancy, continued for the first 12 weeks of pregnancy, to lower the risk of neural tube defects. Women at increased risk of neural tube defects are advised a higher dose, which your doctor prescribes. The National Health and Medical Research Council (NHMRC) recommends an iodine supplement of 150 micrograms a day for women who are pregnant, breastfeeding or considering pregnancy, and advises women with a thyroid condition to speak with their doctor first.
+
+Many people arrive with a long list of other supplements. A 2020 Cochrane review of antioxidant supplements for women with subfertility found only low to very low quality evidence that they help, and concluded that the evidence in support of them is limited. In your first consultation Kat goes through your current supplements with you against current guidance.
+
+### What should I eat after an embryo transfer and in the two-week wait?
+
+Follow your clinic's instructions first. The NHMRC alcohol guidelines say that women who are pregnant or planning a pregnancy should not drink alcohol, to prevent harm to their unborn child. If your pregnancy test is positive, pregnancy food safety advice applies: the Australian Dietary Guidelines advise pregnant women to avoid foods that may contain listeria, such as soft cheeses, sandwich meats, bean sprouts, pre-prepared salads and pâté, and to avoid raw eggs.
+
+In Kat's IVF pathway, the consultation at transfer covers what the evidence does and does not say about the usual two-week-wait advice, and a realistic plan for the wait. There is more on caffeine and alcohol in [How much caffeine and alcohol is okay when trying to conceive?](/blogs/how-much-caffeine-and-alcohol-when-trying-to-conceive/)
+
+### Do I need a referral to see an IVF dietitian?
+
+No. You can book with Kat directly. A Medicare rebate may apply with a GP Chronic Condition Management Plan referral, which your GP may consider if a chronic condition such as [PMOS (PCOS)](/our-services/prenatal-nutrition-and-dietetics/polycystic-ovary-syndrome/) or [endometriosis](/our-services/prenatal-nutrition-and-dietetics/endometriosis/) sits underneath.
+
+### Can my partner come, and can we use telehealth?
+
+Yes to both. Kat works with women, men and couples, so you can attend on your own or together. Appointments are in person in Milton, Brisbane, or by telehealth anywhere in Australia. After your first consultation you receive your written plan within 2 business days.
 
 ### Is folic acid important during IVF?
 
@@ -82,7 +111,7 @@ For personalised advice on supplementation and nutrition during IVF, it’s best
 
 ### How important is diet during IVF?
 
-Diet plays an important role in supporting IVF success. A well-balanced and nutritious diet can:
+Diet is one part of preparing for IVF, and no eating pattern can promise a result. A well-balanced and nutritious diet can:
 
 - Help you achieve and maintain a healthy weight
 
@@ -128,7 +157,7 @@ Katrina Ridout, an Accredited Practising Dietitian specialising in fertility and
 
 ### What foods best complement an IVF treatment?
 
-A balanced, whole-food diet can support your body through IVF and improve reproductive health. Focus on:
+A balanced, whole-food diet can support your body through IVF. Focus on:
 
 - Plenty of fruits and vegetables for vitamins, minerals and antioxidants
 
