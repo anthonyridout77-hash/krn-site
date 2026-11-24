@@ -29,10 +29,12 @@ interface Props {
   noindex?: boolean;
   /* Show the on-page booking calendar above the closing band. */
   inlineBook?: boolean;
+  /* Put that calendar above the article text instead (ad landing pages). Still one calendar per page. */
+  bookTop?: boolean;
 }
 const {
   title, metaTitle, description, image, imageAlt = '', date, updated, category, categoryHref,
-  crumbs = [], lede, ctaHeading, ctaText, cta, ctaHref, noindex = false, inlineBook = false,
+  crumbs = [], lede, ctaHeading, ctaText, cta, ctaHref, noindex = false, inlineBook = false, bookTop = false,
 } = Astro.props;
 const showUpdated = updated && date && updated.getTime() - date.getTime() > 86400000;
 const pageUrl = new URL(Astro.url.pathname, Astro.site).toString();
@@ -83,6 +85,7 @@ const crumbLd = breadcrumbList(crumbs, pageUrl);
 
   <article class="article">
     <div class="wrap">
+      {inlineBook && bookTop && <BookInline />}
       <div class="prose">
         <slot />
       </div>
@@ -90,7 +93,7 @@ const crumbLd = breadcrumbList(crumbs, pageUrl);
     </div>
   </article>
 
-  {inlineBook && <BookInline flush />}
+  {inlineBook && !bookTop && <BookInline flush />}
 
   <CtaBand heading={ctaHeading} text={ctaText} cta={cta} href={ctaHref} />
 
