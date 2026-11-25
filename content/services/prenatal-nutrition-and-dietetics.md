@@ -1,6 +1,6 @@
 ---
 title: "Preconception"
-seoTitle: "Preconception and Prenatal Dietitian Brisbane and Online"
+seoTitle: "Preconception and Pregnancy Planning Dietitian Brisbane"
 description: "Fertility and prenatal nutrition with Kat Ridout, Accredited Practising Dietitian, before and during pregnancy. In person in Milton, Brisbane, or by telehealth anywhere in Australia."
 date: "2025-08-01"
 updated: "2026-11-10"
