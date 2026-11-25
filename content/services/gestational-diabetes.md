@@ -3,7 +3,7 @@ title: "Gestational Diabetes Dietitian"
 seoTitle: "Gestational Diabetes Dietitian Brisbane and Online"
 description: "Gestational diabetes dietitian Kat Ridout, Accredited Practising Dietitian, working alongside your obstetric team. In person in Milton, Brisbane, or by telehealth anywhere in Australia."
 date: "2025-08-01"
-updated: "2026-11-10"
+updated: "2026-11-25"
 wpId: "464"
 wpUrl: "https://www.katridout.com.au/our-services/pregnancy-nutrition-and-dietetics/gestational-diabetes/"
 parent: "415"
@@ -11,6 +11,8 @@ parent: "415"
 
 
 ## Gestational Diabetes Mellitus
+
+Katrina Ridout is an Accredited Practising Dietitian (APD) who works with women with gestational diabetes, alongside their GP, obstetrician, midwife and diabetes team. She sees clients in person in Milton, Brisbane, and by telehealth Australia-wide.
 
 ## If you are diagnosed with gestational diabetes during pregnancy, don’t panic, we’re here to help.
 
@@ -43,11 +45,33 @@ Book a free 15-minute call with Kat and bring your concerns. She will listen, as
 [Book a free 15-minute call](https://calendly.com/katridout/15-minute-investigative-callback)
 
 ## Further reading
+- [Just diagnosed with gestational diabetes? What actually matters](/blogs/gestational-diabetes-just-diagnosed-what-now/)
+- [The gestational diabetes test numbers changed in Australia](/blogs/gestational-diabetes-test-numbers-changed-adips-2025/)
 - [Do I need a dietitian for gestational diabetes in Brisbane?](/blogs/do-i-need-dietitian-gestational-diabetes-brisbane/)
 - [What should a gestational diabetes meal plan look like?](/blogs/gestational-diabetes-meal-plan-guide/)
 - [Gestational diabetes: nutrition tips for managing blood sugar levels](/blogs/gestational-diabetes-mellitus-nutrition-tips-for-managing-blood-sugar-levels/)
 
 ## Frequently Asked Questions
+
+### Do I need to cut out carbohydrates with gestational diabetes?
+
+No. The National Diabetes Services Scheme (NDSS) advises that it is important not to cut out carbohydrates, because carbohydrate is the main source of energy for your growing baby. What helps is the amount, the type and the timing. The NDSS advises spreading carbohydrate foods over three meals and two or three snacks each day and choosing lower GI carbohydrates, and notes that too much carbohydrate at once, even a lower GI one, can raise blood glucose too high. Kat works out with you how much suits each meal, using your own meter readings. There is a worked example in [What should a gestational diabetes meal plan look like?](/blogs/gestational-diabetes-meal-plan-guide/)
+
+### How soon should I see a dietitian after a gestational diabetes diagnosis?
+
+As soon as you can. Healthdirect, the Australian Government health advice service, says your doctor or midwife will usually refer you to a dietitian after a diagnosis. Nutrition care guidance published in the RANZCOG magazine O&G in 2026 describes a first dietitian session within a week of referral, with follow-up every one to three weeks. You can book with Kat at any point, including while you wait for a hospital clinic appointment. [Just diagnosed with gestational diabetes? What actually matters](/blogs/gestational-diabetes-just-diagnosed-what-now/) covers the first few days.
+
+### Does needing insulin mean I have done something wrong?
+
+No. The NDSS explains that blood glucose levels can stay high even with healthy eating and regular physical activity, and that needing medication just means your body needs a bit of extra help. Your doctor or diabetes team decides whether medication or insulin is needed. Kat's role is the food side, working alongside that team, whether or not you are on medication.
+
+### What happens after my baby is born?
+
+Gestational diabetes usually goes away after the birth, and follow-up still matters. Healthdirect advises that a blood glucose test is offered before you go home and at your six-week postnatal check, followed by regular tests for type 2 diabetes. Your GP arranges these. Kat can see you after the birth to adjust your eating for recovery, breastfeeding and the years ahead.
+
+### Do I need a referral, and can I use telehealth?
+
+No referral is needed to book with Kat privately. A Medicare rebate may apply with a GP Chronic Condition Management Plan referral, and your GP decides eligibility. Appointments are in person in Milton, Brisbane, or by telehealth anywhere in Australia, so you can talk through your readings from home. After your first consultation you receive your written plan within 2 business days.
 
 ### How common is gestational diabetes?
 
