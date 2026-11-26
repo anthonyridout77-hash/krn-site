@@ -87,7 +87,7 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     document.addEventListener('input', function(e){ var el = e.target; if (el.getAttribute && el.getAttribute('aria-invalid') === 'true' && el.checkValidity()) el.setAttribute('aria-invalid', 'false'); });
   })();
   (function(){
-    var CAMPAIGNS = ['general-dietitian','dietitian','pathways','7-day-meal-plan','adelaide_lp','perth_lp','gbp-booking','svc-05','svc-06','svc-07','ads-main','ads-b','ads-c','ads-unknown'];
+    var CAMPAIGNS = ['general-dietitian','dietitian','pathways','7-day-meal-plan','adelaide_lp','perth_lp','gbp-booking','svc-05','svc-06','svc-07','ads-main','ads-b','ads-c','ads-unknown','meta-preg'];
     function pageType(p){
       if (p === '/') return 'home';
       if (/^\/our-services\//.test(p)) return 'service';
