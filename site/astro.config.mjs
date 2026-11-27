@@ -11,7 +11,7 @@ export default defineConfig({
   trailingSlash: 'always',
   integrations: [sitemap({
     // noindex pages: keep out of the sitemap
-    filter: (page) => !/\/(thank-you|guide|telehealth-terms|one-question-consult|one-question-intake|oneq-approve)\/$/.test(page),
+    filter: (page) => !/\/(thank-you|book-a-free-call|guide|telehealth-terms|one-question-consult|one-question-intake|oneq-approve)\/$/.test(page),
   })],
   markdown: { remarkPlugins: [remarkStripTitle], rehypePlugins: [rehypeFaqDetails, rehypeAccessibleTables, rehypeImageDimensions] },
   build: { inlineStylesheets: 'always' },
