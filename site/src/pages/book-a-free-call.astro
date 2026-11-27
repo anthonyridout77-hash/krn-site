@@ -1,0 +1,89 @@
+---
+/* Short ad landing page for the "dietitian near me" and "dietitian Brisbane" Google Ads ad groups.
+   Built 27 Nov 2026. Every line of copy is taken from /our-services/dietitian/ (no new health claims).
+   One job: book the free call. Calendar sits directly under the headline. Not indexed. */
+import Base from '../layouts/Base.astro';
+import BookInline from '../components/BookInline.astro';
+import PageScript from '../components/PageScript.astro';
+import '../styles/article.css';
+import { GOOGLE_REVIEWS } from '../data/reviews';
+
+const EXPERIENCE = '20+ years';
+const faq: [string, string][] = [
+  ['What happens on the free 15-minute call?', 'Kat calls you at the time you book. Bring your concerns: she listens, asks a few questions, explains her approach and the appointment options that suit you, and talks you through fees before you commit to anything. Your full assessment happens at the initial consultation.'],
+  ['Do I need a referral to see a dietitian?', 'No. You can book with Kat directly. A GP referral is only needed if you want to claim a Medicare rebate.'],
+  ['Can I claim Medicare or private health?', 'If your GP assesses you as eligible for a GP Chronic Condition Management Plan (GPCCMP), Medicare may rebate part of your consultations. Many private health extras policies also cover dietitian visits, depending on your fund and level of cover.'],
+  ['How soon can I be seen?', 'Appointments are usually available within the week, in person in Milton or by telehealth.'],
+  ['Is there a dietitian near me?', 'If you are in Brisbane, Kat sees clients in person at Milton Village Medical. Anywhere else in Australia, she sees you by telehealth, so the appointment comes to you.'],
+];
+---
+<Base
+  title="Book a free 15-minute call with a dietitian | Katrina Ridout Nutrition"
+  description={`Katrina Ridout, Accredited Practising Dietitian with ${EXPERIENCE} experience. Milton, Brisbane or telehealth Australia-wide. Free 15-min call.`}
+  noindex={true}
+>
+  <section class="phero fc-hero">
+    <div class="wrap">
+      <h1>A dietitian near you, in Brisbane or by telehealth</h1>
+      <p class="lede">Start with a free 15-minute call: Kat phones you, listens and explains your options.</p>
+      <ul class="fc-trust">
+        <li>Accredited Practising Dietitian (APD)</li>
+        <li>{EXPERIENCE} experience</li>
+        <li>No referral needed</li>
+      </ul>
+    </div>
+  </section>
+
+  <article class="article fc-body">
+    <div class="wrap">
+      <BookInline campaign="general-dietitian" medium="landing_page" heading="Pick a time for your free call" />
+
+      <div class="prose">
+        <div class="fc-kat">
+          <img src="/images/kat-ridout-apd.jpg" alt="Katrina Ridout, Accredited Practising Dietitian" width="480" height="480" loading="lazy" />
+          <div>
+            <p class="fc-rating"><a href={GOOGLE_REVIEWS.url} rel="noopener"><span class="stars" aria-hidden="true">★★★★★</span> <b>{GOOGLE_REVIEWS.rating}</b> on Google · {GOOGLE_REVIEWS.count} reviews</a></p>
+            <ul class="fc-trust">
+              <li>Medicare and health fund rebates may apply</li>
+              <li>Appointments usually within the week</li>
+              <li>Calls every day except Sunday</li>
+            </ul>
+          </div>
+        </div>
+
+        <h2>How it works</h2>
+        <ol>
+          <li><strong>Book a free 15-minute call.</strong> Kat calls you at the time you choose. Every day except Sunday, including some evenings.</li>
+          <li><strong>Talk it through.</strong> You share what is going on. Kat explains how she can help, the options and the fees.</li>
+          <li><strong>Start your plan.</strong> Your first consultation is in Milton or by telehealth, and your plan and follow-ups come to you online.</li>
+        </ol>
+
+        <h2>Common questions</h2>
+        <div class="faq-list">{faq.map(([q, a]) => (<details class="faq"><summary>{q}</summary><div class="faq-a"><p>{a}</p></div></details>))}</div>
+
+        <p class="fc-cta"><a class="btn btn-coral" href="#book">Book a free 15-minute call</a> <span class="fc-call">or call <a href="tel:1300640104">1300 640 104</a></span></p>
+        <p class="fc-note">Want the detail first? See <a href="/our-services/dietitian/">what Kat helps with</a>.</p>
+      </div>
+    </div>
+  </article>
+
+  <PageScript slot="after" />
+</Base>
+<style>
+  .fc-hero{padding-bottom:.4rem}
+  .fc-body{padding-top:0}
+  .fc-body :global(.book-inline){margin-top:.6rem}
+  .fc-trust{list-style:none;padding:0;margin:.9rem 0 0;display:flex;flex-wrap:wrap;gap:.45rem}
+  .fc-trust li{margin:0;padding:.3rem .8rem;border-radius:999px;background:var(--mint);color:var(--heading);font-size:.86rem;font-weight:500}
+  .fc-trust li::marker{content:''}
+  .fc-kat{display:grid;gap:1.2rem;align-items:center;margin:0 0 1.6em;grid-template-columns:96px 1fr}
+  @media (min-width:640px){.fc-kat{grid-template-columns:160px 1fr}}
+  .fc-kat img{width:100%;height:auto;border-radius:22px;background:var(--mint);margin:0}
+  .fc-rating{margin:0;font-size:.95rem}
+  .fc-rating a{color:var(--heading);text-decoration:none}
+  .fc-cta{margin:1.6em 0 .6em}
+  .fc-cta .btn-coral{color:#fff !important;text-decoration:none !important}
+  .fc-call{display:block;margin:.4rem 0 0;color:var(--fg-soft);font-size:.95rem}
+  .fc-call a{display:inline-flex;align-items:center;min-height:44px}
+  .fc-note{color:var(--fg-soft);font-size:.95rem}
+</style>
